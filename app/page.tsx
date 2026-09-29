@@ -24,7 +24,7 @@ export default function HomePage(){
     <section className="stats-strip"><div className="container stats-grid">{stats.map(([value,label])=><div className="stat" key={label}><strong>{value}</strong><span>{label}</span></div>)}</div></section>
     <section className="section"><div className="container"><div className="section-heading"><div><span className="eyebrow">DESCUBRE</span><h2>¿Qué quieres encontrar?</h2></div><Link href="/mapa" className="text-link">Explorar los 50 puntos →</Link></div>
       <div className="intent-grid">
-        <Link href="/mapa?fauna=Mero" className="intent-card"><span className="intent-icon">🐟</span><strong>Fauna grande</strong><span>Merlos, rayas, barracudas y más.</span></Link>
+        <Link href="/mapa?fauna=Mero" className="intent-card"><span className="intent-icon">🐟</span><strong>Fauna grande</strong><span>MerOs, rayas, barracudas y más.</span></Link>
         <Link href="/mapa?fauna=Pulpo" className="intent-card"><span className="intent-icon">🐙</span><strong>Vida macro</strong><span>Pulpos, nudibranquios y pequeños tesoros.</span></Link>
         <Link href="/mapa?type=Pecio" className="intent-card"><span className="intent-icon">⚓</span><strong>Pecios</strong><span>Para quienes buscan historia bajo el agua.</span></Link>
         <Link href="/mapa?level=Inicial" className="intent-card"><span className="intent-icon">◎</span><strong>Primera inmersión</strong><span>Opciones para empezar a descubrir el mar.</span></Link>
