@@ -3,9 +3,9 @@
 import { useEffect, useMemo, useRef } from "react";
 import { CircleMarker, MapContainer, Popup, TileLayer, useMap } from "react-leaflet";
 import type { DiveSite } from "@/data/dive-sites";
-import "leaflet/dist/leaflet.css";
+type LeafletMarker = import("leaflet").CircleMarker;
 
-function FocusController({markerRefs}:{markerRefs:React.MutableRefObject<Record<number,L.CircleMarker|null>>}){
+function FocusController({markerRefs}:{markerRefs:React.MutableRefObject<Record<number,LeafletMarker|null>>}){
   const map=useMap();
   useEffect(()=>{
     const handler=(event:Event)=>{
@@ -20,7 +20,7 @@ function FocusController({markerRefs}:{markerRefs:React.MutableRefObject<Record<
 }
 
 export default function DiveMap({sites}:{sites:DiveSite[]}){
-  const markerRefs=useRef<Record<number,L.CircleMarker|null>>({});
+  const markerRefs=useRef<Record<number,LeafletMarker|null>>({});
   const levels=useMemo(()=>({Inicial:"#58d6d0",Intermedio:"#27b2ce",Avanzado:"#1675b7"}),[]);
   return <MapContainer center={[39,-3.7]} zoom={5} scrollWheelZoom className="leaflet-map">
     <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
