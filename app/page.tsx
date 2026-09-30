@@ -31,8 +31,9 @@ export default function HomePage(){
               </div>
             </div>
             <div className="hero-discovery-actions">
-              <Link href="/mapa" className="hero-discovery-primary">Explorar el mapa <span>→</span></Link>
-              <Link href="/actividades" className="hero-discovery-secondary">Ver experiencias</Link>
+              <Link href="/actividades" className="hero-discovery-primary">Reservar experiencia <span>→</span></Link>
+              <Link href="/equipo" className="hero-discovery-secondary">Comprar equipo</Link>
+              <Link href="/mapa" className="hero-discovery-secondary">Ver mapa</Link>
             </div>
           </div>
 
