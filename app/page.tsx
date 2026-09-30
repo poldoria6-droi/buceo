@@ -76,6 +76,35 @@ export default function HomePage(){
       </div>
     </section>
 
+    <section className="section home-commercial-section">
+      <div className="container">
+        <div className="section-heading">
+          <div><span className="eyebrow">TODO PARA TU PRÓXIMA INMERSIÓN</span><h2>Del mapa a la experiencia.</h2></div>
+          <span className="commercial-note">Explora, compara y encuentra opciones.</span>
+        </div>
+        <div className="commercial-grid">
+          <Link href="/actividades" className="commercial-card commercial-card-activity">
+            <div className="commercial-card-visual"><span>🤿</span><small>EXPERIENCIAS</small></div>
+            <div className="commercial-card-body">
+              <span className="eyebrow">RESERVA TU INMERSIÓN</span>
+              <h3>Bautismos, Fun Dive, cursos, pecios y fauna.</h3>
+              <p>Encuentra actividades por destino, nivel y tipo. Cuando una opción esté disponible, podrás continuar con el proveedor desde Buceo Atlas.</p>
+              <strong>Explorar actividades <span>→</span></strong>
+            </div>
+          </Link>
+          <Link href="/equipo" className="commercial-card commercial-card-gear">
+            <div className="commercial-card-visual"><span>⚙️</span><small>EQUIPAMIENTO</small></div>
+            <div className="commercial-card-body">
+              <span className="eyebrow">EQUÍPATE PARA BUCEAR</span>
+              <h3>Neoprenos, reguladores, chalecos, aletas, máscaras y ordenadores.</h3>
+              <p>Una sección pensada para comparar material y descubrir opciones de compra a través de partners cuando integremos las afiliaciones.</p>
+              <strong>Ver equipo <span>→</span></strong>
+            </div>
+          </Link>
+        </div>
+      </div>
+    </section>
+
     <section className="section section-soft">
       <div className="container">
         <div className="section-heading">
