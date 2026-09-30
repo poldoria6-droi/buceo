@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "leaflet/dist/leaflet.css";
 import "./globals.css";
 import { Header } from "@/components/Header";
@@ -11,5 +12,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="es"><body><Header /><main>{children}</main><Footer /></body></html>;
+  return <html lang="es"><body><Script async defer src="https://www.yumping.com/afiliados/js/js_pa.min.js?v=11.38;" data-partner-id="449fb0b2d23ef85c3ee63f78b6e90eae" /><Header /><main>{children}</main><Footer /></body></html>;
 }
