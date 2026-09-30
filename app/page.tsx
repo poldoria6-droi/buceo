@@ -22,14 +22,22 @@ export default function HomePage(){
           <h1>Explora el mundo<br/><em>bajo el agua</em></h1>
           <p>Mapas interactivos, guías, fauna marina y consejos para descubrir los mejores destinos de buceo del planeta.</p>
 
-          <form className="reference-search" action="/mapa" method="get">
-            <span aria-hidden="true">⌕</span>
-            <input name="q" placeholder="¿Dónde quieres bucear?" aria-label="Dónde quieres bucear"/>
-            <button type="submit">Buscar</button>
-          </form>
+          <div className="hero-discovery">
+            <div className="hero-discovery-copy">
+              <span className="hero-discovery-icon">✦</span>
+              <div>
+                <strong>Tu próxima inmersión empieza aquí</strong>
+                <small>Explora puntos de buceo, fauna, pecios y experiencias.</small>
+              </div>
+            </div>
+            <div className="hero-discovery-actions">
+              <Link href="/mapa" className="hero-discovery-primary">Explorar el mapa <span>→</span></Link>
+              <Link href="/actividades" className="hero-discovery-secondary">Ver experiencias</Link>
+            </div>
+          </div>
 
-          <div className="hero-activity-links" aria-label="Buscar actividades">
-            <span>¿Qué quieres hacer?</span>
+          <div className="hero-activity-links" aria-label="Descubrir por tipo">
+            <span>Descubre por:</span>
             <Link href="/actividades?type=Bautismo">Bautismo</Link>
             <Link href="/actividades?type=Fun%20Dive">Fun Dive</Link>
             <Link href="/actividades?type=Pecio">Pecios</Link>
