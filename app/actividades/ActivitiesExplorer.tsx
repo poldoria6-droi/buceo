@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import { buildCivitatisUrl } from "@/lib/civitatis";
 import { useMemo, useState } from "react";
 import type { DiveSite } from "@/data/dive-sites";
 import type { Activity } from "@/data/activities";
@@ -94,7 +95,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
                   </button>
                   <div className="activity-result-actions">
                     <Link href={"/actividades/" + a.slug} className="activity-detail-link">Ver ficha</Link>
-                    <a href={a.providerUrl} target="_blank" rel="nofollow noopener noreferrer" className="activity-book-link">Comprobar / reservar ↗</a>
+                    <a href={buildCivitatisUrl(a.providerUrl)} target="_blank" rel="nofollow noopener noreferrer" className="activity-book-link">Comprobar / reservar ↗</a>
                   </div>
                 </article>
               );
