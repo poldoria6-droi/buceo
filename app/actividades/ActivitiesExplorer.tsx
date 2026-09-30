@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { DiveSite } from "@/data/dive-sites";
 import type { Activity } from "@/data/activities";
@@ -72,23 +73,30 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
       <div className="activity-results-layout">
         <aside className="activity-results-panel">
           <div className="activity-results-heading">
-            <div><span className="eyebrow">OPCIONES EN EL MAPA</span><h2>{filtered.length} experiencias</h2></div>
+            <div><span className="eyebrow">OPCIONES REALES</span><h2>{filtered.length} experiencias</h2></div>
             <span>{matchingSites.length} puntos</span>
           </div>
-          <p className="activity-map-hint">Los puntos del mapa se actualizan con tus filtros. Pulsa un punto para ver profundidad, nivel, fauna y las experiencias disponibles en ese lugar.</p>
+          <p className="activity-map-hint">Estas fichas parten de ofertas públicas de proveedores. El precio y la disponibilidad final deben comprobarse en la página del proveedor.</p>
           <div className="activity-results-scroll">
             {filtered.map(a => {
               const site = sites.find(s => a.siteSlugs.includes(s.slug));
               return (
-                <button key={a.id} type="button" className="activity-result-card" onClick={() => site && window.dispatchEvent(new CustomEvent("focus-activity-site", { detail: site.id }))}>
-                  <span className="activity-result-type">{a.type === "Pecio" ? "⚓" : a.type === "Fauna" ? "🐢" : a.type === "Curso" ? "🎓" : a.type === "Fun Dive" ? "🐠" : "🤿"}</span>
-                  <span>
-                    <strong>{a.title}</strong>
-                    <small>{a.destination} · {site?.name || "Punto por confirmar"} · {a.level} · {a.duration}</small>
-                    <span className="result-price">{a.priceFrom ? <>Desde <b>{a.priceFrom} €</b></> : <><b>Precio por confirmar</b></>}</span>
-                  </span>
-                  <span className="activity-result-arrow">→</span>
-                </button>
+                <article key={a.id} className="activity-result-card">
+                  <button type="button" className="activity-result-main" onClick={() => site && window.dispatchEvent(new CustomEvent("focus-activity-site", { detail: site.id }))}>
+                    <span className="activity-result-type">{a.type === "Pecio" ? "⚓" : a.type === "Fauna" ? "🐢" : a.type === "Curso" ? "🎓" : a.type === "Fun Dive" ? "🐠" : "🤿"}</span>
+                    <span>
+                      <strong>{a.title}</strong>
+                      <small>{a.destination} · {site?.name || "Punto por confirmar"} · {a.level} · {a.duration}</small>
+                      <span className="result-price">{a.priceFrom ? <>Desde <b>{a.priceFrom} {a.priceCurrency || "€"}</b></> : <><b>Consultar precio</b></>}</span>
+                      <span className="activity-provider">Proveedor: {a.provider}</span>
+                    </span>
+                    <span className="activity-result-arrow">→</span>
+                  </button>
+                  <div className="activity-result-actions">
+                    <Link href={"/actividades/" + a.slug} className="activity-detail-link">Ver ficha</Link>
+                    <a href={a.providerUrl} target="_blank" rel="sponsored noopener noreferrer" className="activity-book-link">Comprobar / reservar ↗</a>
+                  </div>
+                </article>
               );
             })}
             {!filtered.length && <div className="activity-empty"><strong>No hay experiencias con estos filtros.</strong><span>Prueba otra combinación y vuelve a explorar el mapa.</span></div>}
@@ -101,7 +109,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
         </div>
       </div>
 
-      <p className="data-note activity-note">Los precios se mostrarán cuando integremos proveedores y feeds de afiliación. No se muestran importes ficticios: la disponibilidad, precio final y condiciones dependerán del proveedor y de la fecha de consulta.</p>
+      <p className="data-note activity-note">Las fichas muestran datos consultados en páginas públicas de proveedores. La disponibilidad y el precio final pueden cambiar; el enlace actual lleva a la ficha pública del proveedor. Los enlaces afiliados se activarán cuando el programa correspondiente esté aprobado.</p>
     </div>
   );
 }
