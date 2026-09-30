@@ -139,7 +139,7 @@ export const activities:Activity[]=[
     type:"Curso",level:"Inicial",duration:"Curso PADI",audience:"Personas que quieren obtener la certificación Open Water Diver",
     tags:["PADI","Open Water","Las Galletas","Curso"],
     bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296?id_partner=PARTNER_ID&placement=button-cta&cmp=",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296",
     notes:"Actividad añadida como oferta afiliada de Yumping."
   },
