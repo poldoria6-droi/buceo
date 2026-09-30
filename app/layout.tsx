@@ -5,9 +5,9 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: { default: "Buceo Atlas | Encuentra dónde bucear", template: "%s | Buceo Atlas" },
-  description: "Descubre lugares de buceo, fauna marina, experiencias y destinos para planificar tu próxima inmersión.",
-  openGraph: { title: "Buceo Atlas", description: "Explora destinos y puntos de buceo en España.", type: "website" }
+  title: { default: "Buceo | Explora el mundo bajo el agua", template: "%s | Buceo" },
+  description: "Mapa de buceo en España, fauna marina, destinos y actividades para descubrir y reservar experiencias bajo el agua.",
+  openGraph: { title: "Buceo | Explora el mundo bajo el agua", description: "Descubre lugares, fauna y actividades de buceo en España.", type: "website" }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
