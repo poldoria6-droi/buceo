@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { diveSites, destinations, faunaList, regions } from "@/data/dive-sites";
+import { activities } from "@/data/activities";
 import { MapExplorer } from "@/app/mapa/MapExplorer";
 import { SiteCard } from "@/components/SiteCard";
 
@@ -59,7 +60,7 @@ export default function HomePage(){
 
     <section className="reference-map-section">
       <div className="container">
-        <MapExplorer sites={diveSites} regions={regions} fauna={faunaList}/>
+        <MapExplorer sites={diveSites} regions={regions} fauna={faunaList} activities={activities}/>
       </div>
     </section>
 
