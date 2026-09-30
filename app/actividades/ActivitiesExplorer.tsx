@@ -12,22 +12,29 @@ type Props = {
   sites: DiveSite[];
   regions: string[];
   types: string[];
-  initial?: { type?: string; region?: string; destination?: string; level?: string };
+  initial?: { type?: string; region?: string; destination?: string; level?: string; site?: string };
 };
 
 export function ActivitiesExplorer({ activities, sites, regions, types, initial = {} }: Props) {
   const [type, setType] = useState(initial.type || "Todos");
   const [region, setRegion] = useState(initial.region || "Todos");
   const [destination, setDestination] = useState(initial.destination || "Todos");
+  const [siteSlug, setSiteSlug] = useState(initial.site || "Todos");
   const [level, setLevel] = useState(initial.level || "Todos");
 
   const destinations = useMemo(() => Array.from(new Set(activities.map(a => a.destination))).sort(), [activities]);
+  const availableSites = useMemo(
+    () => sites.filter(site => activities.some(activity => activity.siteSlugs.includes(site.slug))).sort((a, b) => a.name.localeCompare(b.name)),
+    [activities, sites]
+  );
+
   const filtered = useMemo(() => activities.filter(a =>
     (type === "Todos" || a.type === type) &&
     (region === "Todos" || a.region === region) &&
     (destination === "Todos" || a.destination === destination) &&
+    (siteSlug === "Todos" || a.siteSlugs.includes(siteSlug)) &&
     (level === "Todos" || a.level === level)
-  ), [activities, type, region, destination, level]);
+  ), [activities, type, region, destination, siteSlug, level]);
 
   const filteredIds = useMemo(() => new Set(filtered.flatMap(a => a.siteSlugs)), [filtered]);
   const matchingSites = useMemo(() => sites.filter(site => filteredIds.has(site.slug)), [sites, filteredIds]);
@@ -36,6 +43,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
     setType("Todos");
     setRegion("Todos");
     setDestination("Todos");
+    setSiteSlug("Todos");
     setLevel("Todos");
   };
 
@@ -53,6 +61,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
           <label><span>Actividad</span><select value={type} onChange={e => setType(e.target.value)}><option value="Todos">¿Qué quieres hacer?</option>{types.map(t => <option key={t}>{t}</option>)}</select></label>
           <label><span>Zona</span><select value={region} onChange={e => setRegion(e.target.value)}><option value="Todos">Toda España</option>{regions.map(r => <option key={r}>{r}</option>)}</select></label>
           <label><span>Destino</span><select value={destination} onChange={e => setDestination(e.target.value)}><option value="Todos">Cualquier destino</option>{destinations.map(d => <option key={d}>{d}</option>)}</select></label>
+          <label><span>Punto de buceo</span><select value={siteSlug} onChange={e => setSiteSlug(e.target.value)}><option value="Todos">Cualquier punto</option>{availableSites.map(site => <option key={site.slug} value={site.slug}>{site.name}</option>)}</select></label>
           <label><span>Nivel</span><select value={level} onChange={e => setLevel(e.target.value)}><option value="Todos">Todos los niveles</option><option>Inicial</option><option>Intermedio</option><option>Avanzado</option></select></label>
         </div>
         <div className="activity-intents">
@@ -66,7 +75,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
             <div><span className="eyebrow">OPCIONES EN EL MAPA</span><h2>{filtered.length} experiencias</h2></div>
             <span>{matchingSites.length} puntos</span>
           </div>
-          <p className="activity-map-hint">Los puntos del mapa se actualizan con tus filtros. Pulsa un punto para ver profundidad, nivel, fauna y las experiencias disponibles.</p>
+          <p className="activity-map-hint">Los puntos del mapa se actualizan con tus filtros. Pulsa un punto para ver profundidad, nivel, fauna y las experiencias disponibles en ese lugar.</p>
           <div className="activity-results-scroll">
             {filtered.map(a => {
               const site = sites.find(s => a.siteSlugs.includes(s.slug));
@@ -75,7 +84,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
                   <span className="activity-result-type">{a.type === "Pecio" ? "⚓" : a.type === "Fauna" ? "🐢" : a.type === "Curso" ? "🎓" : a.type === "Fun Dive" ? "🐠" : "🤿"}</span>
                   <span>
                     <strong>{a.title}</strong>
-                    <small>{a.destination} · {a.level} · {a.duration}</small>
+                    <small>{a.destination} · {site?.name || "Punto por confirmar"} · {a.level} · {a.duration}</small>
                     <span className="result-price">{a.priceFrom ? <>Desde <b>{a.priceFrom} €</b></> : <><b>Precio por confirmar</b></>}</span>
                   </span>
                   <span className="activity-result-arrow">→</span>
