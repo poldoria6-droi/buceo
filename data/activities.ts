@@ -132,6 +132,18 @@ export const activities:Activity[]=[
     meetingPoint:"Calle Pescador, Las Negras",
     notes:"Actividad de iniciación con teoría previa y inmersión de hasta 12 m."
   }
+  {
+    id:108,siteSlugs:["las-galletas"],
+    title:"PADI Open Water Diver en Las Galletas",
+    destination:"Tenerife",region:"Canarias",slug:"padi-open-water-las-galletas",
+    type:"Curso",level:"Inicial",duration:"Curso PADI",audience:"Personas que quieren obtener la certificación Open Water Diver",
+    tags:["PADI","Open Water","Las Galletas","Curso"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296?id_partner=PARTNER_ID&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296",
+    notes:"Actividad añadida como oferta afiliada de Yumping."
+  },
+
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
