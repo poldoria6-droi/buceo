@@ -1,10 +1,10 @@
-# Buceo
+# Buceo Atlas España
 
-Web editorial + comparador de experiencias de buceo, preparada para SEO y afiliación.
+Web editorial + comparador de experiencias de buceo para España, preparada para SEO y afiliación.
 
-## V1
+## MVP España
 - Homepage orientada a conversión.
-- Mapa interactivo con 50 puntos iniciales en España.
+- Mapa interactivo con 50 puntos iniciales de referencia en España.
 - Filtros por destino, nivel, tipo y fauna.
 - Páginas SEO por destino.
 - Guías iniciales.
@@ -19,6 +19,10 @@ npm run dev
 ```
 
 Cartografía: OpenStreetMap, con atribución incluida en el mapa.
+
+## Despliegue
+
+El proyecto se desarrolla en GitHub y se publica mediante Vercel. Los cambios de `main` se desplegarán automáticamente cuando el repositorio esté conectado al proyecto de Vercel.
 
 ## Monetización
 No hay enlaces de afiliado inventados. Los espacios de monetización se conectarán a proveedores cuando sus URLs e IDs reales estén confirmados.
