@@ -22,3 +22,4 @@ Cartografía: OpenStreetMap, con atribución incluida en el mapa.
 
 ## Monetización
 No hay enlaces de afiliado inventados. Los espacios de monetización se conectarán a proveedores cuando sus URLs e IDs reales estén confirmados.
+
