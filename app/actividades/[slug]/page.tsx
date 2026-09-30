@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { buildCivitatisUrl } from "@/lib/civitatis";
 import { notFound } from "next/navigation";
 import { activities } from "@/data/activities";
 import { diveSites } from "@/data/dive-sites";
@@ -39,7 +40,7 @@ export default async function ActivityPage({params}:Props){
         <div className="activity-detail-provider">
           <span className="eyebrow">PROVEEDOR</span>
           <strong>{activity.provider}</strong>
-          <a href={activity.providerUrl} target="_blank" rel="sponsored noopener noreferrer" className="button button-primary">Comprobar disponibilidad ↗</a>
+          <a href={buildCivitatisUrl(activity.providerUrl)} target="_blank" rel="sponsored noopener noreferrer" className="button button-primary">Comprobar disponibilidad ↗</a>
         </div>
       </div>
 
@@ -68,7 +69,7 @@ export default async function ActivityPage({params}:Props){
           <div className="cta-section">
             <div className="cta-panel">
               <div><span className="eyebrow">SIGUIENTE PASO</span><h2>Comprueba precio y plazas</h2><p>La disponibilidad y el precio final se consultan directamente en el proveedor.</p></div>
-              <a href={activity.providerUrl} target="_blank" rel="sponsored noopener noreferrer" className="button button-primary">Ir a {activity.provider} ↗</a>
+              <a href={buildCivitatisUrl(activity.providerUrl)} target="_blank" rel="sponsored noopener noreferrer" className="button button-primary">Ir a {activity.provider} ↗</a>
             </div>
           </div>
         </main>
