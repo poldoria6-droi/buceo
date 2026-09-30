@@ -1,24 +1,137 @@
 export type Activity = {
-  id:number; title:string; destination:string; region:string; slug:string;
+  id:number;
+  title:string;
+  destination:string;
+  region:string;
+  slug:string;
   type:"Bautismo"|"Fun Dive"|"Curso"|"Pecio"|"Fauna"|"Snorkel";
-  level:"Inicial"|"Intermedio"|"Avanzado"; duration:string; audience:string;
-  tags:string[]; bookingStatus:"Próximamente"; siteSlugs:string[];
-  priceFrom?:number; priceNote?:string;
+  level:"Inicial"|"Intermedio"|"Avanzado";
+  duration:string;
+  audience:string;
+  tags:string[];
+  bookingStatus:"Disponible"|"Próximamente";
+  siteSlugs:string[];
+  priceFrom?:number;
+  priceCurrency?:string;
+  provider:string;
+  providerUrl:string;
+  sourceUrl:string;
+  rating?:number;
+  reviewCount?:number;
+  maxDepth?:string;
+  included?:string[];
+  cancellation?:string;
+  meetingPoint?:string;
+  minAge?:number;
+  notes?:string;
 };
 
 export const activities:Activity[]=[
-{id:1,siteSlugs:["el-montgri"],title:"Bautismo de buceo en la Costa Brava",destination:"L’Estartit",region:"Costa Brava",slug:"bautismo-costa-brava",type:"Bautismo",level:"Inicial",duration:"Media jornada",audience:"Primera experiencia",tags:["Equipo incluido","Instructor","Mediterráneo"],bookingStatus:"Próximamente"},
-{id:2,siteSlugs:["mar-menuda"],title:"Bautismo de buceo en Tossa de Mar",destination:"Tossa de Mar",region:"Costa Brava",slug:"bautismo-tossa-de-mar",type:"Bautismo",level:"Inicial",duration:"Media jornada",audience:"Primera experiencia",tags:["Cala","Principiantes","Instructor"],bookingStatus:"Próximamente"},
-{id:3,siteSlugs:["illes-medes"],title:"2 inmersiones en Illes Medes",destination:"Illes Medes",region:"Costa Brava",slug:"dos-inmersiones-illes-medes",type:"Fun Dive",level:"Intermedio",duration:"Media jornada",audience:"Buceadores certificados",tags:["Reserva marina","Barco","Fauna"],bookingStatus:"Próximamente"},
-{id:4,siteSlugs:["boreas"],title:"Buceo en pecio Boreas",destination:"Palamós",region:"Costa Brava",slug:"pecio-boreas",type:"Pecio",level:"Avanzado",duration:"Media jornada",audience:"Buceadores certificados",tags:["Pecio","Barco","Profundidad"],bookingStatus:"Próximamente"},
-{id:5,siteSlugs:["cabo-palos-reserva"],title:"Buceo en la Reserva de Cabo de Palos",destination:"Cabo de Palos",region:"Murcia",slug:"reserva-cabo-de-palos",type:"Fun Dive",level:"Intermedio",duration:"Media jornada",audience:"Buceadores certificados",tags:["Reserva","Fauna","Barco"],bookingStatus:"Próximamente"},
-{id:6,siteSlugs:["naranjito"],title:"Inmersión al Naranjito",destination:"Cabo de Palos",region:"Murcia",slug:"naranjito-cabo-de-palos",type:"Pecio",level:"Avanzado",duration:"Media jornada",audience:"Buceadores certificados",tags:["Pecio","Historia","Barco"],bookingStatus:"Próximamente"},
-{id:7,siteSlugs:["tabarca"],title:"Buceo en Tabarca",destination:"Isla de Tabarca",region:"Alicante",slug:"buceo-tabarca",type:"Fun Dive",level:"Inicial",duration:"Media jornada",audience:"Principiantes y certificados",tags:["Reserva","Posidonia","Barco"],bookingStatus:"Próximamente"},
-{id:8,siteSlugs:["el-toro-mallorca"],title:"Buceo en El Toro",destination:"Mallorca",region:"Baleares",slug:"buceo-el-toro",type:"Fauna",level:"Intermedio",duration:"Media jornada",audience:"Buceadores certificados",tags:["Reserva","Fauna","Roca"],bookingStatus:"Próximamente"},
-{id:9,siteSlugs:["cabrera"],title:"Buceo en Cabrera",destination:"Cabrera",region:"Baleares",slug:"buceo-cabrera",type:"Fauna",level:"Intermedio",duration:"Día completo",audience:"Buceadores certificados",tags:["Parque nacional","Aguas claras","Fauna"],bookingStatus:"Próximamente"},
-{id:10,siteSlugs:["la-restinga"],title:"Buceo en La Restinga",destination:"El Hierro",region:"Canarias",slug:"buceo-la-restinga",type:"Fauna",level:"Inicial",duration:"Media jornada",audience:"Principiantes y certificados",tags:["Volcánico","Fauna","Reserva"],bookingStatus:"Próximamente"},
-{id:11,siteSlugs:["el-cabron"],title:"Buceo en El Cabrón",destination:"Gran Canaria",region:"Canarias",slug:"buceo-el-cabron",type:"Fauna",level:"Intermedio",duration:"Media jornada",audience:"Buceadores certificados",tags:["Volcánico","Raya","Vida marina"],bookingStatus:"Próximamente"},
-{id:12,siteSlugs:["maro-cerro-gordo"],title:"Buceo en Maro–Cerro Gordo",destination:"Nerja",region:"Andalucía",slug:"buceo-maro-cerro-gordo",type:"Fun Dive",level:"Inicial",duration:"Media jornada",audience:"Principiantes y certificados",tags:["Reserva","Cala","Mediterráneo"],bookingStatus:"Próximamente"}
+  {
+    id:101,siteSlugs:["malgrats"],
+    title:"Bautismo de buceo en Mallorca",
+    destination:"Mallorca",region:"Baleares",slug:"bautismo-buceo-mallorca",
+    type:"Bautismo",level:"Inicial",duration:"3–4 horas",audience:"Primera experiencia",
+    tags:["Equipo incluido","Instructor","Barco","Islas Malgrats"],
+    bookingStatus:"Disponible",provider:"Civitatis",
+    providerUrl:"https://www.civitatis.com/es/santa-ponsa/bautismo-buceo-mallorca/",
+    sourceUrl:"https://www.civitatis.com/es/santa-ponsa/bautismo-buceo-mallorca/",
+    rating:8.8,reviewCount:20,
+    included:["Recogida en hotel","Transporte en minibús y barco","Equipo de buceo completo","Instructores titulados","Seguro"],
+    cancellation:"Cancelación gratuita hasta 24 horas antes.",
+    minAge:9,
+    notes:"Actividad en Santa Ponsa, en el entorno de la Reserva Natural de las Islas Malgrats."
+  },
+  {
+    id:102,siteSlugs:["costa-ciudadela"],
+    title:"Bautismo de buceo en la costa de Ciudadela",
+    destination:"Menorca",region:"Baleares",slug:"bautismo-buceo-ciudadela",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Primera experiencia",
+    tags:["Equipo incluido","Playa","Instructor","40 min de inmersión"],
+    bookingStatus:"Disponible",provider:"Civitatis",
+    providerUrl:"https://www.civitatis.com/es/ciudadela/bautismo-buceo-menorca/",
+    sourceUrl:"https://www.civitatis.com/es/ciudadela/bautismo-buceo-menorca/",
+    rating:9.4,reviewCount:213,maxDepth:"12 m",
+    included:["Instructor en español","Equipo de buceo"],
+    cancellation:"Cancelación gratuita hasta 24 horas antes.",
+    meetingPoint:"Carrer des Canal 421",
+    minAge:8,
+    notes:"Acceso desde playa y aproximadamente 40 minutos de inmersión, según consumo de aire."
+  },
+  {
+    id:103,siteSlugs:["las-galletas"],
+    title:"Bautismo de buceo en Las Galletas",
+    destination:"Tenerife",region:"Canarias",slug:"bautismo-buceo-las-galletas",
+    type:"Bautismo",level:"Inicial",duration:"1 h 30 min–3 horas",audience:"Primera experiencia",
+    tags:["Equipo incluido","Barco","Fotos","Diploma"],
+    bookingStatus:"Disponible",provider:"Civitatis",
+    providerUrl:"https://www.civitatis.com/es/las-galletas/bautismo-buceo-tenerife/",
+    sourceUrl:"https://www.civitatis.com/es/las-galletas/bautismo-buceo-tenerife/",
+    rating:9.7,reviewCount:150,maxDepth:"12 m",
+    included:["Instructor en español","Equipo completo de buceo","Explicación teórica","Inmersión de 25–45 min","Fotografías","Diploma"],
+    cancellation:"Cancelación gratuita hasta 24 horas antes.",
+    meetingPoint:"Puerto de Las Galletas",
+    minAge:10,
+    notes:"Actividad desde el puerto de Las Galletas con salida en embarcación."
+  },
+  {
+    id:104,siteSlugs:["maspalomas-buceo"],
+    title:"Bautismo de buceo en Gran Canaria",
+    destination:"Gran Canaria",region:"Canarias",slug:"bautismo-buceo-gran-canaria",
+    type:"Bautismo",level:"Inicial",duration:"4 horas",audience:"Primera experiencia",
+    tags:["Equipo incluido","Recogida","Instructor","Atlántico"],
+    bookingStatus:"Disponible",provider:"Civitatis",
+    providerUrl:"https://www.civitatis.com/es/maspalomas/bautismo-buceo-gran-canaria/",
+    sourceUrl:"https://www.civitatis.com/es/maspalomas/bautismo-buceo-gran-canaria/",
+    rating:9.5,reviewCount:105,
+    included:["Recogida y traslado de regreso al hotel","Guía de habla española","Equipo y material de buceo","Seguro"],
+    cancellation:"Cancelación gratuita hasta 24 horas antes.",
+    meetingPoint:"Avenida de Italia, 2 (Playa del Inglés)",
+    minAge:10,
+    notes:"No requiere experiencia previa; la actividad se realiza en el sur de Gran Canaria."
+  },
+  {
+    id:105,siteSlugs:["isla-fraile"],
+    title:"Bautismo de buceo en la isla del Fraile",
+    destination:"Águilas",region:"Murcia",slug:"bautismo-buceo-isla-fraile",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    tags:["Principiantes","Mediterráneo","Fauna","Isla del Fraile"],
+    bookingStatus:"Disponible",provider:"Civitatis",
+    providerUrl:"https://www.civitatis.com/es/aguilas/bautismo-buceo-isla-fraile/",
+    sourceUrl:"https://www.civitatis.com/es/region-murcia/",
+    priceFrom:90,priceCurrency:"EUR",
+    rating:10,reviewCount:3,
+    cancellation:"Cancelación gratuita hasta 24 horas antes.",
+    notes:"La ficha pública consultada muestra un precio desde 90 €."
+  },
+  {
+    id:106,siteSlugs:["isla-plana"],
+    title:"Bautismo de buceo en Isla Plana",
+    destination:"Isla Plana",region:"Murcia",slug:"bautismo-buceo-isla-plana",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["Aguas tranquilas","Principiantes","Reserva Marina Cabo Tiñoso"],
+    bookingStatus:"Disponible",provider:"Civitatis",
+    providerUrl:"https://www.civitatis.com/es/isla-plana/bautismo-buceo-isla-plana/",
+    sourceUrl:"https://www.civitatis.com/es/isla-plana/",
+    priceFrom:100,priceCurrency:"EUR",
+    cancellation:"Cancelación gratuita hasta 24 horas antes.",
+    notes:"La ficha pública consultada muestra un precio desde 100 €."
+  },
+  {
+    id:107,siteSlugs:["las-negras"],
+    title:"Bautismo de buceo en Las Negras",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"bautismo-buceo-las-negras",
+    type:"Bautismo",level:"Inicial",duration:"Actividad de iniciación",audience:"Primera experiencia",
+    tags:["Cabo de Gata","Instructor","Equipo","Hasta 12 m"],
+    bookingStatus:"Disponible",provider:"Civitatis",
+    providerUrl:"https://www.civitatis.com/es/negras/bautismo-buceo-las-negras/",
+    sourceUrl:"https://www.civitatis.com/es/negras/bautismo-buceo-las-negras/",
+    maxDepth:"12 m",
+    cancellation:"Cancelación gratuita hasta 24 horas antes.",
+    minAge:12,
+    meetingPoint:"Calle Pescador, Las Negras",
+    notes:"Actividad de iniciación con teoría previa y inmersión de hasta 12 m."
+  }
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
