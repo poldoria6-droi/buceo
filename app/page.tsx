@@ -6,11 +6,11 @@ import { SiteCard } from "@/components/SiteCard";
 export default function HomePage(){
   const featured=diveSites.filter(site=>["Illes Medes","Islas Hormigas","Parque Nacional de Cabrera","La Restinga","Playa Chica","Maro–Cerro Gordo"].includes(site.name));
   const stats=[
-    ["50","Puntos de buceo"],
-    ["∞","Fauna marina"],
-    ["∞","Guías y consejos"],
-    [String(destinations.length),"Destinos"],
-    ["📷","Fotos y experiencias"]
+    ["50","Puntos iniciales"],
+    [String(destinations.length),"Destinos en catálogo"],
+    ["◈","Fauna representativa"],
+    ["✦","Guías y consejos"],
+    ["📷","Contenido visual"]
   ];
 
   return <div className="home-page">
@@ -18,9 +18,9 @@ export default function HomePage(){
       <div className="hero-overlay" aria-hidden="true"/>
       <div className="container reference-hero-inner">
         <div className="reference-hero-copy">
-          <span className="reference-kicker">LOS MEJORES LUGARES DE BUCEO DEL MUNDO</span>
-          <h1>Explora el mundo<br/><em>bajo el agua</em></h1>
-          <p>Mapas interactivos, guías, fauna marina y consejos para descubrir los mejores destinos de buceo del planeta.</p>
+          <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
+          <h1>Explora España<br/><em>bajo el agua</em></h1>
+          <p>Mapa de buceo, destinos, fauna, experiencias y guías para descubrir España bajo el agua.</p>
 
           <div className="hero-discovery">
             <div className="hero-discovery-copy">
@@ -118,7 +118,7 @@ export default function HomePage(){
 
     <section className="section cta-section">
       <div className="container cta-panel">
-        <div><span className="eyebrow">DE LA INSPIRACIÓN A LA RESERVA</span><h2>Encuentra. Compara. Sumérgete.</h2><p>La web está preparada para conectar puntos de buceo con actividades y proveedores verificados.</p></div>
+        <div><span className="eyebrow">DE LA INSPIRACIÓN A LA RESERVA</span><h2>Encuentra. Compara. Sumérgete.</h2><p>La web está preparada para conectar destinos y puntos de buceo con experiencias y proveedores cuando sus datos estén verificados.</p></div>
         <Link href="/actividades" className="button button-primary">Explorar actividades</Link>
       </div>
     </section>
