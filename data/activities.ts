@@ -133,15 +133,17 @@ export const activities:Activity[]=[
     notes:"Actividad de iniciación con teoría previa y inmersión de hasta 12 m."
   },
   {
-    id:108,siteSlugs:["las-galletas"],
-    title:"PADI Open Water Diver en Las Galletas",
-    destination:"Tenerife",region:"Canarias",slug:"padi-open-water-las-galletas",
-    type:"Curso",level:"Inicial",duration:"Curso PADI",audience:"Personas que quieren obtener la certificación Open Water Diver",
-    tags:["PADI","Open Water","Las Galletas","Curso"],
+    id:108,siteSlugs:["illes-medes"],
+    title:"PADI Advanced Open Water Diver en l’Estartit",
+    destination:"L’Estartit",region:"Costa Brava",slug:"padi-advanced-open-water-lestartit",
+    type:"Curso",level:"Avanzado",duration:"1–2 semanas o 2 fines de semana",audience:"Buceadores con certificación Open Water Diver que quieren obtener el Advanced Open Water Diver de PADI",
+    tags:["PADI","Advanced Open Water","L’Estartit","Costa Brava","Curso"],
     bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
-    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296",
-    notes:"Actividad añadida como oferta afiliada de Yumping."
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-diver-lloret-de-mar--o13966?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-diver-lloret-de-mar--o13966",
+    priceFrom:389,priceCurrency:"EUR",
+    included:["5 inmersiones de buceo","Equipo de buceo","Monitores profesionales","Seguros","Titulación PADI Advanced Open Water"],
+    notes:"Yumping identifica actualmente esta oferta (SKU 13966) como PADI Advanced Open Water Diver en l’Estartit, Girona. La ficha consultada muestra precio desde 389 € y 5 inmersiones; conviene comprobar disponibilidad y condiciones finales antes de reservar."
   },
 
 ];
