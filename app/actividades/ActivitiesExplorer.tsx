@@ -94,7 +94,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
                   </button>
                   <div className="activity-result-actions">
                     <Link href={"/actividades/" + a.slug} className="activity-detail-link">Ver ficha</Link>
-                    <a href={a.providerUrl} target="_blank" rel="sponsored noopener noreferrer" className="activity-book-link">Comprobar / reservar ↗</a>
+                    <a href={a.providerUrl} target="_blank" rel="nofollow noopener noreferrer" className="activity-book-link">Comprobar / reservar ↗</a>
                   </div>
                 </article>
               );
