@@ -2671,6 +2671,69 @@ export const activities:Activity[]=[
     
     notes:"Tour de snorkel por la costa de Formentera con una duración indicada de 3 horas. La ficha actual muestra salida desde Platja Mitjorn y transporte incluido.",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+  {
+    id:313,siteSlugs:["pobla-farnals"],
+    title:"Bautismo de buceo en Playa Pobla Marina 180 min",destination:"Valencia",region:"Comunidad Valenciana",slug:"bautismo-de-buceo-en-playa-pobla-marina-180-min-313",
+    type:"Bautismo",level:"Inicial",duration:"180 minutos",audience:"Personas interesadas en bautismo en Valencia",
+    tags:["Buceo","Comunidad Valenciana","Yumping","Valencia"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-playa-pobla-marina-180-min--o45414",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-playa-pobla-marina-180-min--o45414",offers:[{id:"yumping-o45414",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-playa-pobla-marina-180-min--o45414",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-playa-pobla-marina-180-min--o45414",priceFrom:86,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,included:["Instructor especializado","Material necesario","Traje de neopreno","Parte teórica y práctica","Seguro de accidentes y RC","Diploma"],notes:"Bautismo en mar abierto desde Playa Pobla Marina. Yumping indica 180 minutos de duración, unos 40–45 minutos de inmersión, edad mínima de 12 años y actividad sujeta a condiciones de clima y corriente.",
+    priceFrom:86,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:314,siteSlugs:["valencia-capital"],
+    title:"Bautismo de buceo en piscina Valencia",destination:"Valencia",region:"Comunidad Valenciana",slug:"bautismo-de-buceo-en-piscina-valencia-314",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Valencia",
+    tags:["Buceo","Comunidad Valenciana","Yumping","Valencia"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-piscina-valencia--o26644",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-piscina-valencia--o26644",offers:[{id:"yumping-o26644",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-piscina-valencia--o26644",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-piscina-valencia--o26644",priceFrom:35,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,maxDepth:"<12 m",included:["Explicación teórica","Equipo completo","Experiencia en piscina","Seguro de responsabilidad civil y accidentes","Instructor","Diploma"],notes:"Bautismo en piscina con unos 40 minutos en el agua. Yumping indica edad mínima de 16 años, saber nadar y una profundidad inferior a 12 m.",
+    priceFrom:35,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:315,siteSlugs:["valencia-capital"],
+    title:"Bautismo de buceo en el mar de Valencia",destination:"Valencia",region:"Comunidad Valenciana",slug:"bautismo-de-buceo-en-el-mar-de-valencia-315",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Valencia",
+    tags:["Buceo","Comunidad Valenciana","Yumping","Valencia"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-el-mar-de-valencia--o26649",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-el-mar-de-valencia--o26649",offers:[{id:"yumping-o26649",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-el-mar-de-valencia--o26649",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-el-mar-de-valencia--o26649",priceFrom:86,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,included:["Explicación teórica","Equipo completo","Experiencia de buceo en el mar","Seguro de responsabilidad civil y accidentes","Instructor","Diploma"],notes:"Bautismo en el mar de Valencia. Yumping indica unas 2 horas de actividad, unos 40 minutos en el agua, edad mínima de 12 años y requisitos de saber nadar.",
+    priceFrom:86,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:316,siteSlugs:["pobla-farnals"],
+    title:"Curso buceo Open Water Diver en mar",destination:"La Pobla de Farnals",region:"Comunidad Valenciana",slug:"curso-buceo-open-water-diver-en-mar-316",
+    type:"Curso",level:"Inicial",duration:"1 semana",audience:"Personas interesadas en curso en La Pobla de Farnals",
+    tags:["Buceo","Comunidad Valenciana","Yumping","La Pobla de Farnals"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/valencia/curso-buceo-open-water-diver-en-mar--o26654",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/curso-buceo-open-water-diver-en-mar--o26654",offers:[{id:"yumping-o26654",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/valencia/curso-buceo-open-water-diver-en-mar--o26654",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/curso-buceo-open-water-diver-en-mar--o26654",priceFrom:299,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,maxDepth:"18 m",included:["Kit de material didáctico","Todo el equipo durante el curso","Inmersiones en el mar","Seguro de responsabilidad y accidentes","Tramitación internacional"],notes:"Curso Open Water Diver en La Pobla de Farnals con una duración aproximada de una semana. Yumping indica 5 módulos teóricos, 5 módulos de manejo de equipo e inmersiones en mar abierto hasta 18 m; edad mínima de 16 años.",
+    priceFrom:299,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:317,siteSlugs:["valencia-capital"],
+    title:"PADI Open Water Diver en Valencia Capital",destination:"Valencia",region:"Comunidad Valenciana",slug:"padi-open-water-diver-en-valencia-capital-317",
+    type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Valencia",
+    tags:["Buceo","Comunidad Valenciana","Yumping","Valencia"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/valencia/padi-open-water-diver-en-valencia-capital--o56263",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/padi-open-water-diver-en-valencia-capital--o56263",offers:[{id:"yumping-o56263",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/valencia/padi-open-water-diver-en-valencia-capital--o56263",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/padi-open-water-diver-en-valencia-capital--o56263",priceFrom:310,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Material didáctico PADI","Clases de teoría","4 inmersiones en el mar","Seguros de buceo","Instructor profesional","Petición de expedición del certificado"],notes:"Curso PADI Open Water Diver en Valencia capital. La ficha indica una duración habitual de 4–5 días y cuatro inmersiones en el mar; requiere saber nadar.",
+    priceFrom:310,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:318,siteSlugs:["valencia-capital"],
+    title:"Bautismo de buceo en Valencia capital",destination:"Valencia",region:"Comunidad Valenciana",slug:"bautismo-de-buceo-en-valencia-capital-318",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Valencia",
+    tags:["Buceo","Comunidad Valenciana","Yumping","Valencia"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-valencia-capital--o56214",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-valencia-capital--o56214",offers:[{id:"yumping-o56214",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-valencia-capital--o56214",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-valencia-capital--o56214",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Todo el material necesario","Seguro de bautismo","Instructor personalizado y titulado"],notes:"Bautismo desde Valencia capital. Yumping indica unas 2 horas, explicación de seguridad y equipo, y acompañamiento de instructor titulado; la actividad depende de las condiciones del mar.",
+    priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:319,siteSlugs:["valencia-capital"],
+    title:"Bautismo de buceo en Puerto de Valencia 2 horas",destination:"Valencia",region:"Comunidad Valenciana",slug:"bautismo-de-buceo-en-puerto-de-valencia-2-horas-319",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Valencia",
+    tags:["Buceo","Comunidad Valenciana","Yumping","Valencia"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-puerto-de-valencia-2-horas--o62434",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-puerto-de-valencia-2-horas--o62434",offers:[{id:"yumping-o62434",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-puerto-de-valencia-2-horas--o62434",sourceUrl:"https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-puerto-de-valencia-2-horas--o62434",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Bautismo realizado en La Marina de Valencia durante aproximadamente 2 horas, incluyendo preparación, instrucción e inmersión.",
+    priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
