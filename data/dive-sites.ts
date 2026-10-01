@@ -1,6 +1,6 @@
 export type DiveSite = {
   id:number; slug:string; name:string; destination:string; destinationSlug:string; region:string; lat:number; lng:number;
-  type:"Arrecife"|"Pared"|"Pecio"|"Cala"|"Reserva"|"Cueva"; level:"Inicial"|"Intermedio"|"Avanzado";
+  type:"Arrecife"|"Pared"|"Pecio"|"Cala"|"Reserva"|"Cueva"|"Puerto"|"Costa"|"Piscina"|"Acuario"|"Bahía"|"Playa"; level:"Inicial"|"Intermedio"|"Avanzado";
   depth:string; highlight:string; animals:string[];
 };
 
