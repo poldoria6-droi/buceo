@@ -2982,6 +2982,158 @@ export const activities:Activity[]=[
     providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",offers:[{id:"yumping-o62344",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     maxDepth:"18 m",included:["Profesionales titulados","Material","Teoría y práctica","Seguros","Titulación de buceo"],notes:"Curso Open Water Diver de 4 días en Requejada. Yumping indica una primera inmersión en aguas confinadas y cuatro inmersiones en mar abierto hasta 18 m, con titulación al superar las pruebas.",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+  {
+    id:351,siteSlugs:["noja"],
+    title:"Snorkel en Noja 2h",destination:"Noja",region:"Cantabria",slug:"snorkel-en-noja-2h-351",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Noja",
+    tags:["Buceo","Yumping","Noja"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-noja-2h--o22856",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-noja-2h--o22856",offers:[{id:"yumping-o22856",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-noja-2h--o22856",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-noja-2h--o22856",priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Snorkel de 2 horas","Material necesario","Instructor titulado","Fotografías de la experiencia","Seguro de accidentes y Responsabilidad Civil"],notes:"Snorkel de 2 horas en la playa de Trengandín. Yumping indica que es apto para todas las edades con requisito de saber nadar; incluye material, instructor, fotografías y seguro.",priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:352,siteSlugs:["isla-mouro"],
+    title:"Bautismo de buceo desde barco Isla de la Torre, 3h",destination:"Santander",region:"Cantabria",slug:"bautismo-de-buceo-desde-barco-isla-de-la-torre-3h-352",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Santander",
+    tags:["Buceo","Yumping","Santander"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautismo-de-buceo-3-horas-en-cantabria--o62198",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautismo-de-buceo-3-horas-en-cantabria--o62198",offers:[{id:"yumping-o62198",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/bautismo-de-buceo-3-horas-en-cantabria--o62198",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautismo-de-buceo-3-horas-en-cantabria--o62198",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,included:["Bautismo de buceo","Charla y teoría","Equipación completa","Vestuarios","Seguro","Traslado en barco","1 instructor por persona","Diploma"],notes:"Bautismo desde embarcación hacia Isla de la Torre, en la Bahía de Santander. La ficha indica 3 horas, inmersión de unos 35–40 minutos y edad mínima de 12 años.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:353,siteSlugs:["isla-mouro"],
+    title:"Curso Open Water Diver con Certificación Santander",destination:"Santander",region:"Cantabria",slug:"curso-open-water-diver-con-certificacion-santander-353",
+    type:"Curso",level:"Inicial",duration:"2–4 días",audience:"Personas interesadas en curso en Santander",
+    tags:["Buceo","Yumping","Santander"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-open-water-diver-con-certificacion-santander--o36886",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-open-water-diver-con-certificacion-santander--o36886",offers:[{id:"yumping-o36886",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/curso-open-water-diver-con-certificacion-santander--o36886",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-open-water-diver-con-certificacion-santander--o36886",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,maxDepth:"18 m",included:["Material didáctico","Equipo completo de buceo","2 inmersiones teórico-prácticas en piscinas","4 inmersiones en mar abierto","Tramitación de la licencia","Salidas en barco"],notes:"Curso Open Water Diver en Santander. Yumping indica 2–4 días, 2 inmersiones teórico-prácticas en piscina y 4 en mar abierto; edad mínima de 10 años y autorización paterna para menores.",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:354,siteSlugs:["noja"],
+    title:"Ruta de snorkel nocturno en la playa de Ris Noja",destination:"Noja",region:"Cantabria",slug:"ruta-de-snorkel-nocturno-en-la-playa-de-ris-noja-354",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Noja",
+    tags:["Buceo","Yumping","Noja"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/ruta-de-snorkel-nocturno-en-la-playa-de-ris-noja--o66105",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/ruta-de-snorkel-nocturno-en-la-playa-de-ris-noja--o66105",offers:[{id:"yumping-o66105",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/ruta-de-snorkel-nocturno-en-la-playa-de-ris-noja--o66105",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/ruta-de-snorkel-nocturno-en-la-playa-de-ris-noja--o66105",priceFrom:38,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Equipo de snorkel completo","Guía experto","Briefing","Ruta guiada de 2 horas","Seguros"],notes:"Ruta guiada de snorkel nocturno en la playa de Ris, Noja. Yumping indica 2 horas y actividad sujeta a las mareas; incluye equipo completo, guía, briefing, ruta y seguros.",priceFrom:38,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:355,siteSlugs:["noja"],
+    title:"Snorkel nocturno ruta guiada en playa de Ris Noja",destination:"Noja",region:"Cantabria",slug:"snorkel-nocturno-ruta-guiada-en-playa-de-ris-noja-355",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Noja",
+    tags:["Buceo","Yumping","Noja"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-nocturno-ruta-guiada-en-playa-de-ris-noja--o66104",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-nocturno-ruta-guiada-en-playa-de-ris-noja--o66104",offers:[{id:"yumping-o66104",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-nocturno-ruta-guiada-en-playa-de-ris-noja--o66104",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-nocturno-ruta-guiada-en-playa-de-ris-noja--o66104",priceFrom:38,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Otra oferta de snorkel nocturno en la playa de Ris de Noja. Yumping indica 2 horas de duración; se realiza por la noche y el horario depende de la época y la hora de anochecer.",priceFrom:38,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:356,siteSlugs:["las-canteras"],
+    title:"Bautismo buceo en Playa de las Canteras+fotos, 4h",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"bautismo-buceo-en-playa-de-las-canteras-fotos-4h-356",
+    type:"Bautismo",level:"Inicial",duration:"4 horas aprox.",audience:"Personas interesadas en bautismo en Las Palmas de Gran Canaria",
+    tags:["Buceo","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-taurito--o45998",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-taurito--o45998",offers:[{id:"yumping-o45998",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-taurito--o45998",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-taurito--o45998",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructores profesionales","Equipo completo de buceo","Fotografías","Clase teórica","Inmersión","Seguros"],notes:"Bautismo de iniciación desde Las Palmas de Gran Canaria con clase teórica, inmersión y fotografías. Yumping indica unas 4 horas y transporte desde el centro hasta el punto de inmersión y regreso.",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:357,siteSlugs:["las-canteras"],
+    title:"Bautizo de buceo desde playa, Gran Canaria",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"bautizo-de-buceo-desde-playa-gran-canaria-357",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Las Palmas de Gran Canaria",
+    tags:["Buceo","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-desde-playa-gran-canaria--o31590",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-desde-playa-gran-canaria--o31590",offers:[{id:"yumping-o31590",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-desde-playa-gran-canaria--o31590",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-desde-playa-gran-canaria--o31590",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"3 m",included:["Equipo completo","Monitor","Seguro de accidentes y RC"],notes:"Bautismo desde playa con unas 2 horas de actividad y una inmersión aproximada de 30–35 minutos. Yumping indica una profundidad máxima de 3 m y exige certificado médico.",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:358,siteSlugs:["las-canteras"],
+    title:"Bautismo de Buceo PADI Las Palmas 3h",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"bautismo-de-buceo-padi-las-palmas-3h-358",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Las Palmas de Gran Canaria",
+    tags:["Buceo","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-padi-las-palmas-3h--o36890",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-padi-las-palmas-3h--o36890",offers:[{id:"yumping-o36890",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-padi-las-palmas-3h--o36890",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-padi-las-palmas-3h--o36890",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Equipo completo de buceo","Instructor titulado","Material didáctico","Titulación al finalizar"],notes:"Bautismo PADI en Las Palmas con parte teórica, inmersión en piscina y segunda inmersión en mar. Yumping indica edad mínima de 10 años.",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:359,siteSlugs:["las-canteras"],
+    title:"Curso Buceo Open Water Diver en Las Palmas, 5 días",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"curso-buceo-open-water-diver-en-las-palmas-5-dias-359",
+    type:"Curso",level:"Inicial",duration:"5 días",audience:"Personas interesadas en curso en Las Palmas de Gran Canaria",
+    tags:["Buceo","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-open-water-diver--o20549",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-open-water-diver--o20549",offers:[{id:"yumping-o20549",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-open-water-diver--o20549",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-open-water-diver--o20549",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:15,maxDepth:"18 m",included:["Curso teórico","6 inmersiones","Seguro","Certificación","Transporte a las inmersiones","IVA"],notes:"Curso Open Water Diver de 5 días en Las Palmas. La ficha indica 6 lecciones teóricas, 6 inmersiones y formación hasta 18 m; incluye transporte a las inmersiones.",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:360,siteSlugs:["puerto-rico-gran-canaria"],
+    title:"PADI Discover Scuba Diving en playa, Puerto Rico",destination:"Puerto Rico",region:"Canarias",slug:"padi-discover-scuba-diving-en-playa-puerto-rico-360",
+    type:"Bautismo",level:"Inicial",duration:"2 horas aprox.",audience:"Personas interesadas en bautismo en Puerto Rico",
+    tags:["Buceo","Yumping","Puerto Rico"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/padi-discover-scuba-diving-en-playa-puerto-rico--o29435",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/padi-discover-scuba-diving-en-playa-puerto-rico--o29435",offers:[{id:"yumping-o29435",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/padi-discover-scuba-diving-en-playa-puerto-rico--o29435",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/padi-discover-scuba-diving-en-playa-puerto-rico--o29435",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Programa PADI Discover Scuba Diving en playa en Puerto Rico, Gran Canaria. Yumping indica aproximadamente 2 horas y lo clasifica como primera toma de contacto con el buceo.",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:361,siteSlugs:["puerto-rico-gran-canaria"],
+    title:"PADI Open Water Puerto Rico",destination:"Puerto Rico",region:"Canarias",slug:"padi-open-water-puerto-rico-361",
+    type:"Curso",level:"Inicial",duration:"3 días aprox.",audience:"Personas interesadas en curso en Puerto Rico",
+    tags:["Buceo","Yumping","Puerto Rico"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-open-water-puerto-rico--o29445",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-open-water-puerto-rico--o29445",offers:[{id:"yumping-o29445",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-open-water-puerto-rico--o29445",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-open-water-puerto-rico--o29445",priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Material","Instructor","Barco","Seguros","IGIC"],notes:"Curso PADI Open Water en Puerto Rico, Mogán. La ficha indica unos 3 días, prácticas en piscina y 4 inmersiones en el mar, llegando a 18 m en la última inmersión.",priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:362,siteSlugs:["puerto-rico-gran-canaria"],
+    title:"PADI Scuba Diver en Puerto Rico",destination:"Puerto Rico",region:"Canarias",slug:"padi-scuba-diver-en-puerto-rico-362",
+    type:"Curso",level:"Inicial",duration:"2 días aprox.",audience:"Personas interesadas en curso en Puerto Rico",
+    tags:["Buceo","Yumping","Puerto Rico"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-scuba-diver-en-puerto-rico--o29501",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-scuba-diver-en-puerto-rico--o29501",offers:[{id:"yumping-o29501",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-scuba-diver-en-puerto-rico--o29501",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-scuba-diver-en-puerto-rico--o29501",priceFrom:230,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"12 m",included:["Teoría","Prácticas en piscina","2 inmersiones en el mar","Instructores","Seguros","Material","IGIC"],notes:"Curso PADI Scuba Diver de aproximadamente 2 días. Yumping indica prácticas en piscina, teoría y 2 inmersiones en el mar, con certificación para bucear hasta 12 m.",priceFrom:230,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:363,siteSlugs:["puerto-rico-gran-canaria"],
+    title:"PADI Advanced Open Water, Puerto Rico",destination:"Puerto Rico",region:"Canarias",slug:"padi-advanced-open-water-puerto-rico-363",
+    type:"Curso",level:"Avanzado",duration:"2 días aprox.",audience:"Personas interesadas en curso en Puerto Rico",
+    tags:["Buceo","Yumping","Puerto Rico"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-advanced-open-water-puerto-rico--o29461",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-advanced-open-water-puerto-rico--o29461",offers:[{id:"yumping-o29461",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-advanced-open-water-puerto-rico--o29461",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/padi-advanced-open-water-puerto-rico--o29461",priceFrom:345,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"30 m",included:["Instructor","Material","Seguros","5 inmersiones","IGIC"],notes:"Curso PADI Advanced Open Water en Puerto Rico, Mogán. Yumping indica aproximadamente 2 días y 5 inmersiones, incluyendo trabajo de flotabilidad y orientación y una experiencia hasta 30 m.",priceFrom:345,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:364,siteSlugs:["telde"],
+    title:"Bautismo de buceo en Telde 3 horas",destination:"Telde",region:"Canarias",slug:"bautismo-de-buceo-en-telde-3-horas-364",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Telde",
+    tags:["Buceo","Yumping","Telde"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-telde-3-horas--o62277",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-telde-3-horas--o62277",offers:[{id:"yumping-o62277",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-telde-3-horas--o62277",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-telde-3-horas--o62277",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Práctica en piscina","Inmersión en el mar","Titulación Try Scuba SSI","Diploma Try Scuba SSI","Seguro de buceo"],notes:"Bautismo en Telde con duración aproximada de 3 horas. La ficha indica práctica en piscina, una inmersión en el mar y opción de fotografías o vídeo; incluye titulación Try Scuba SSI y seguro de buceo.",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:365,siteSlugs:["telde"],
+    title:"Curso de buceo Open Water Diver en Telde 3 días",destination:"Telde",region:"Canarias",slug:"curso-de-buceo-open-water-diver-en-telde-3-dias-365",
+    type:"Curso",level:"Inicial",duration:"3 días aprox.",audience:"Personas interesadas en curso en Telde",
+    tags:["Buceo","Yumping","Telde"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-open-water-diver-en-telde-3-dias--o62278",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-open-water-diver-en-telde-3-dias--o62278",offers:[{id:"yumping-o62278",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-open-water-diver-en-telde-3-dias--o62278",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-open-water-diver-en-telde-3-dias--o62278",priceFrom:395,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Material didáctico","Seguro de accidentes","Tramitación de la certificación","Tarjeta de certificación"],notes:"Curso Open Water Diver en Telde de aproximadamente 3 días. La ficha indica teoría online o presencial, seguro de accidentes, tramitación de la certificación y tarjeta de certificación.",priceFrom:395,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:366,siteSlugs:["telde"],
+    title:"Curso Advanced Open Water Diver Telde 3 días",destination:"Telde",region:"Canarias",slug:"curso-advanced-open-water-diver-telde-3-dias-366",
+    type:"Curso",level:"Avanzado",duration:"3 días",audience:"Personas interesadas en curso en Telde",
+    tags:["Buceo","Yumping","Telde"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-telde-3-dias--o62279",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-telde-3-dias--o62279",offers:[{id:"yumping-o62279",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-telde-3-dias--o62279",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-telde-3-dias--o62279",priceFrom:250,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,maxDepth:"40 m",included:["Teoría online","Material didáctico","Tutoría del instructor","5 inmersiones en el mar","Tramitación de la certificación","Tarjeta de certificación","Equipo completo"],notes:"Curso Advanced Open Water Diver de 3 días en Telde para quienes ya tienen OWD. Yumping indica 5 inmersiones de aventura y edad mínima de 12 años.",priceFrom:250,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:367,siteSlugs:["caleta-de-fuste"],
+    title:"Bautismo de buceo en Caleta de Fuste y fotos",destination:"Caleta de Fuste",region:"Canarias",slug:"bautismo-de-buceo-en-caleta-de-fuste-y-fotos-367",
+    type:"Bautismo",level:"Inicial",duration:"2–2,5 horas",audience:"Personas interesadas en bautismo en Caleta de Fuste",
+    tags:["Buceo","Yumping","Caleta de Fuste"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-caleta-de-fuste-y-fotos--o55340",sourceUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-caleta-de-fuste-y-fotos--o55340",offers:[{id:"yumping-o55340",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-caleta-de-fuste-y-fotos--o55340",sourceUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-caleta-de-fuste-y-fotos--o55340",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"6 m",included:["30 minutos de teoría","Sesión en piscina","Inmersión en el mar","Alquiler de equipo","Fotos"],notes:"Discover Scuba Diving en Caleta de Fuste. Yumping indica 30 minutos de teoría, sesión en piscina y una inmersión en el mar a unos 6 m, con fotografías.",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:368,siteSlugs:["morro-jable"],
+    title:"Bautismo de buceo en mar en Morro Jable, 3 horas",destination:"Morro Jable",region:"Canarias",slug:"bautismo-de-buceo-en-mar-en-morro-jable-3-horas-368",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Morro Jable",
+    tags:["Buceo","Yumping","Morro Jable"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-piscina-y-mar-en-morro-jable--o23953",sourceUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-piscina-y-mar-en-morro-jable--o23953",offers:[{id:"yumping-o23953",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-piscina-y-mar-en-morro-jable--o23953",sourceUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-piscina-y-mar-en-morro-jable--o23953",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Bautismo en Morro Jable. La ficha de Yumping muestra 95 € y una experiencia en aguas abiertas; la oferta consultada incluye información de la salida en Fuerteventura.",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:369,siteSlugs:["morro-jable"],
+    title:"Tour de snorkel por la costa de Morro Jable, 3h",destination:"Morro Jable",region:"Canarias",slug:"tour-de-snorkel-por-la-costa-de-morro-jable-3h-369",
+    type:"Snorkel",level:"Inicial",duration:"2 horas aprox.",audience:"Personas interesadas en snorkel en Morro Jable",
+    tags:["Buceo","Yumping","Morro Jable"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",sourceUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",offers:[{id:"yumping-o69754",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",sourceUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:8,notes:"Ruta de snorkel desde Morro Jable en barco por la costa este de Fuerteventura. Yumping indica unas 2 horas en la información general, edad mínima de 8 años y recorrido con varias paradas.",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
