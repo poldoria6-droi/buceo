@@ -1360,13 +1360,14 @@ export const activities:Activity[]=[
 
   {
     id:201,siteSlugs:["cabo-palos-reserva"],
-    title:"Bautizo de snorkel en Cabo de Palos con fotos",
-    destination:"Cabo de Palos",region:"Murcia",slug:"snorkel-cabo-palos-fotos",
-    type:"Snorkel",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en snorkel en Murcia",
-    tags:["Buceo","Murcia","Yumping","Cabo de Palos"],
+    title:"Bautizo de Snorkel el Cabo de Palos con fotos",
+    destination:"Cabo de Palos",region:"Murcia",slug:"bautizo-snorkel-cabo-palos-fotos",
+    type:"Snorkel",level:"Inicial",duration:"60–90 minutos",audience:"Personas interesadas en snorkel en Cabo de Palos",
+    tags:["Snorkel","Cabo de Palos","Fotos","Familias"],
     bookingStatus:"Disponible",provider:"Yumping",
-    included:["Actividad de snorkel","Fotos"],
-    notes:"Oferta visible actualmente en Yumping desde 30 €. No se ha incorporado URL directa porque la búsqueda pública no expuso el SKU de la ficha.",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-snorkel-el-cabo-de-palos-con-fotos--o40398",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-snorkel-el-cabo-de-palos-con-fotos--o40398",
+    offers:[{id:"yumping-o40398",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-snorkel-el-cabo-de-palos-con-fotos--o40398",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-snorkel-el-cabo-de-palos-con-fotos--o40398",priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
 
@@ -1513,12 +1514,13 @@ export const activities:Activity[]=[
   {
     id:211,siteSlugs:["la-azohia"],
     title:"Bautismo de Buceo en Cabo Tiñoso, La Azohía 3h",
-    destination:"La Azohía",region:"Murcia",slug:"bautismo-cabo-tinoso-azohia-3h",
-    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Murcia",
-    tags:["Buceo","Murcia","Yumping","La Azohía"],
+    destination:"La Azohía",region:"Murcia",slug:"bautismo-cabo-tinoso-la-azohia-76694",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas que quieren iniciarse en el buceo",
+    tags:["Bautismo","Cabo Tiñoso","La Azohía","Fotos"],
     bookingStatus:"Disponible",provider:"Yumping",
-    included:["Transporte"],
-    notes:"Oferta mostrada actualmente por Yumping desde 80 €. Se mantiene pendiente el SKU/URL directa para no inventar el enlace.",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",
+    offers:[{id:"yumping-o76694",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
 
