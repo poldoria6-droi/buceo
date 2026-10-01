@@ -3,16 +3,8 @@ import { yumpingBatch5 } from "./yumping-batch-5";
 import { yumpingBatch4 } from "./yumping-batch-4";
 import { yumpingBatch3 } from "./yumping-batch-3";
 import { yumpingBatch2 } from "./yumping-batch-2";
-export type BookingOffer = {
-  id:string;
-  provider:string;
-  url:string;
-  sourceUrl?:string;
-  priceFrom?:number;
-  priceCurrency?:string;
-  priceCheckedAt?:string;
-  notes?:string;
-};
+import type { BookingOffer } from "./types";
+export type { BookingOffer } from "./types";
 
 export type Activity = {
   id:number;
