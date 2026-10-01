@@ -1,3 +1,14 @@
+export type BookingOffer = {
+  id:string;
+  provider:string;
+  url:string;
+  sourceUrl?:string;
+  priceFrom?:number;
+  priceCurrency?:string;
+  priceCheckedAt?:string;
+  notes?:string;
+};
+
 export type Activity = {
   id:number;
   title:string;
@@ -11,6 +22,7 @@ export type Activity = {
   tags:string[];
   bookingStatus:"Disponible"|"Próximamente";
   siteSlugs:string[];
+  offers?:BookingOffer[];
   priceFrom?:number;
   priceCurrency?:string;
   provider:string;
@@ -141,7 +153,13 @@ export const activities:Activity[]=[
     tags:["PADI","Open Water","Jávea","Costa Blanca","Curso"],
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-javea--o14121?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
-    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-javea--o14121"
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-javea--o14121",
+    offers:[{
+      id:"yumping-o14121",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-javea--o14121?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-javea--o14121"
+    }]
   },
 
 ];
