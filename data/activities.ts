@@ -165,6 +165,29 @@ export const activities:Activity[]=[
   },
 
   {
+    id:114,siteSlugs:["punta-marroqui-tarifa"],
+    title:"2 inmersiones de buceo + botella y plomos en Tarifa",
+    destination:"Tarifa",region:"Andalucía",slug:"2-inmersiones-buceo-botella-plomos-tarifa-53872",
+    type:"Fun Dive",level:"Intermedio",duration:"2 inmersiones de 30–45 min aprox.",audience:"Buceadores titulados",
+    tags:["2 inmersiones","Botella","Plomos","Transporte","Guía"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cadiz/2-inmersiones-de-buceo-botella-y-plomos-en-tarifa--o53872?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/2-inmersiones-de-buceo-botella-y-plomos-en-tarifa--o53872",
+    offers:[{
+      id:"yumping-o53872",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/cadiz/2-inmersiones-de-buceo-botella-y-plomos-en-tarifa--o53872?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/2-inmersiones-de-buceo-botella-y-plomos-en-tarifa--o53872",
+      priceFrom:60,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01"
+    }],
+    included:["Transporte hasta el lugar de la inmersión","2 botellas","Plomos","Guía de buceo","Equipo de buceo"],
+    cancellation:"Las reservas con fecha fija no son reembolsables salvo mal tiempo o incidencias del proveedor.",
+    notes:"Se requiere título de buceo. Las dos inmersiones pueden hacerse el mismo día o en fechas distintas según disponibilidad. Yumping indica un grupo mínimo de 3 personas."
+  },
+
+  {
     id:113,siteSlugs:["punta-marroqui-tarifa"],
     title:"Salida de snorkel en Playa de Tarifa",
     destination:"Tarifa",region:"Andalucía",slug:"salida-snorkel-playa-tarifa-53881",
