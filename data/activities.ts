@@ -762,6 +762,137 @@ export const activities:Activity[]=[
     included:["2 inmersiones","Equipo completo","Guía","Reportaje fotográfico"],
     notes:"Yumping indica 15 puntos de inmersión posibles y salidas desde playa o barco. No incluye seguro de buceo."
   },
+
+  {
+    id:145,siteSlugs:["isla-benidorm"],
+    title:"Excursión de Snorkel en Parque Natural de Benidorm",
+    destination:"Benidorm",region:"Alicante",slug:"snorkel-parque-natural-benidorm-36446",
+    type:"Snorkel",level:"Inicial",duration:"Consultar",audience:"Personas que sepan nadar",
+    tags:["Benidorm","Snorkel","Parque Natural","Aventura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/excursion-de-snorkel-en-parque-natural-de-benidorm--o36446",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/excursion-de-snorkel-en-parque-natural-de-benidorm--o36446",
+    offers:[{id:"yumping-o36446",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/excursion-de-snorkel-en-parque-natural-de-benidorm--o36446",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/excursion-de-snorkel-en-parque-natural-de-benidorm--o36446",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Actividad guiada de snorkel"]
+  },
+
+  {
+    id:146,siteSlugs:["isla-benidorm"],
+    title:"Inmersión de buceo en Benidorm sin equipo",
+    destination:"Benidorm",region:"Alicante",slug:"inmersion-buceo-benidorm-sin-equipo-36148",
+    type:"Fun Dive",level:"Intermedio",duration:"Según actividad",audience:"Buceadores con titulación",
+    tags:["Benidorm","Sin equipo","Barco","Inmersión"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-en-benidorm-sin-equipo--o36148",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-en-benidorm-sin-equipo--o36148",
+    offers:[{id:"yumping-o36148",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-en-benidorm-sin-equipo--o36148",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-en-benidorm-sin-equipo--o36148",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Monitor","Patrón"],
+    notes:"El participante debe aportar su propio equipo y disponer de titulación de buceo."
+  },
+
+  {
+    id:147,siteSlugs:["isla-benidorm"],
+    title:"Curso Scuba Diver en Benidorm",
+    destination:"Benidorm",region:"Alicante",slug:"curso-scuba-diver-benidorm-36243",
+    type:"Curso",level:"Inicial",duration:"2 días",audience:"Personas que quieren obtener PADI Scuba Diver",
+    tags:["PADI","Scuba Diver","Benidorm","Piscina","Mar"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-scuba-diver-en-benidorm-dos-dias--o36243",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-scuba-diver-en-benidorm-dos-dias--o36243",
+    offers:[{id:"yumping-o36243",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-scuba-diver-en-benidorm-dos-dias--o36243",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-scuba-diver-en-benidorm-dos-dias--o36243",priceFrom:320,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,maxDepth:"12 m",included:["Inmersiones en piscina y mar","Teoría","Certificación PADI","Material"]
+  },
+
+  {
+    id:148,siteSlugs:["serra-gelada"],
+    title:"Curso Open Water Diver en Serra Gelada",
+    destination:"Benidorm",region:"Alicante",slug:"curso-open-water-serra-gelada-36245",
+    type:"Curso",level:"Inicial",duration:"Según ritmo del participante",audience:"Personas que buscan PADI Open Water Diver",
+    tags:["PADI","Open Water","Serra Gelada","Benidorm"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-en-serra-gelada--o36245",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-en-serra-gelada--o36245",
+    offers:[{id:"yumping-o36245",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-en-serra-gelada--o36245",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-en-serra-gelada--o36245",priceFrom:460,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,included:["Formación PADI","Material"]
+  },
+
+  {
+    id:149,siteSlugs:["altea"],
+    title:"Bautismo de buceo en Altea, desde barco",
+    destination:"Altea",region:"Alicante",slug:"bautismo-buceo-altea-barco-36653",
+    type:"Bautismo",level:"Inicial",duration:"Media jornada",audience:"Primera experiencia",
+    tags:["Altea","Barco","Cala","Bautismo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-altea-desde-barco--o36653",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-altea-desde-barco--o36653",
+    offers:[{id:"yumping-o36653",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-altea-desde-barco--o36653",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-altea-desde-barco--o36653",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Material","Barco","Inmersión ~30 min","Instructor","Seguro"]
+  },
+
+  {
+    id:150,siteSlugs:["altea"],
+    title:"PADI Advanced Open Water, Altea",
+    destination:"Altea",region:"Alicante",slug:"padi-advanced-open-water-altea-31342",
+    type:"Curso",level:"Avanzado",duration:"2 días",audience:"Buceadores con Open Water Diver",
+    tags:["PADI","Advanced","Altea","2 días"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-altea--o31342",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-altea--o31342",
+    offers:[{id:"yumping-o31342",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-altea--o31342",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-altea--o31342",priceFrom:299,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Formación PADI Advanced","Prácticas","Instructor"]
+  },
+
+  {
+    id:151,siteSlugs:["cabo-san-antonio"],
+    title:"Curso Advanced Open Water Diver en Denia",
+    destination:"Dénia",region:"Alicante",slug:"curso-advanced-open-water-denia-65287",
+    type:"Curso",level:"Avanzado",duration:"Según ritmo",audience:"Buceadores con Open Water Diver",
+    tags:["PADI","Advanced","Dénia","30 m","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-advanced-open-water-diver-en-denia--o65287",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-advanced-open-water-diver-en-denia--o65287",
+    offers:[{id:"yumping-o65287",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-advanced-open-water-diver-en-denia--o65287",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-advanced-open-water-diver-en-denia--o65287",priceFrom:425,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"30 m",included:["Teoría","Material","Equipo","Inmersiones","Certificado PADI","Seguro"]
+  },
+
+  {
+    id:152,siteSlugs:["cabo-san-antonio"],
+    title:"Bautismo de Buceo Económico costa de Denia 3h",
+    destination:"Dénia",region:"Alicante",slug:"bautismo-buceo-economico-denia-56080",
+    type:"Bautismo",level:"Inicial",duration:"2–3 horas",audience:"Primera experiencia",
+    tags:["Dénia","Bautismo","6 m","Equipo","Diploma"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-economico-costa-de-denia--o56080",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-economico-costa-de-denia--o56080",
+    offers:[{id:"yumping-o56080",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-economico-costa-de-denia--o56080",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-economico-costa-de-denia--o56080",priceFrom:125,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,maxDepth:"6 m",included:["Charla previa","Equipo completo","Bautismo","Diploma","Seguros"]
+  },
+
+  {
+    id:153,siteSlugs:["cabo-san-antonio"],
+    title:"Inmersión de buceo y equipo en la costa de Denia",
+    destination:"Dénia",region:"Alicante",slug:"inmersion-buceo-equipo-denia-65282",
+    type:"Fun Dive",level:"Intermedio",duration:"3–4 horas",audience:"Buceadores titulados",
+    tags:["Dénia","Barco","Equipo","Inmersión","Guía"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-y-equipo-en-la-costa-de-denia--o65282",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-y-equipo-en-la-costa-de-denia--o65282",
+    offers:[{id:"yumping-o65282",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-y-equipo-en-la-costa-de-denia--o65282",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-y-equipo-en-la-costa-de-denia--o65282",priceFrom:125,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Equipo completo","Briefing","Embarcación","Equipo experto","Seguro"]
+  },
+
+  {
+    id:154,siteSlugs:["cabo-san-antonio"],
+    title:"Curso de buceo Rescue Diver y EFR en Denia",
+    destination:"Dénia",region:"Alicante",slug:"rescue-diver-efr-denia-65447",
+    type:"Curso",level:"Avanzado",duration:"3–5 días",audience:"Buceadores con Advanced Open Water Diver",
+    tags:["PADI Rescue Diver","EFR","Dénia","Rescate"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",
+    offers:[{id:"yumping-o65447",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",priceFrom:600,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,included:["Teoría","Prácticas de rescate","Primeros auxilios","Instructor"]
+  }
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
