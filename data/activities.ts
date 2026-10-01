@@ -893,6 +893,222 @@ export const activities:Activity[]=[
     offers:[{id:"yumping-o65447",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",priceFrom:600,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     minAge:12,included:["Teoría","Prácticas de rescate","Primeros auxilios","Instructor"]
   }
+
+  {
+    id:167,siteSlugs:["el-montgri"],
+    title:"Bautismo de buceo Costa del Montgrí 3 horas",
+    destination:"L'Escala",region:"Costa Brava",slug:"bautismo-buceo-costa-montgri-36307",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["L'Escala","Montgrí","3 horas","Equipo","Seguro"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/safari-de-buceo-costa-del-montgri-5-horas--o36307",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/safari-de-buceo-costa-del-montgri-5-horas--o36307",
+    offers:[{id:"yumping-o36307",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/safari-de-buceo-costa-del-montgri-5-horas--o36307",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/safari-de-buceo-costa-del-montgri-5-horas--o36307",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Instructor","Seguro","Equipo completo"],
+    notes:"Yumping indica 3 horas de actividad y grupos de hasta 20 personas."
+  },
+
+  {
+    id:168,siteSlugs:["el-montgri"],
+    title:"Bautismo de buceo en Parque Natural del Montgrí 3h",
+    destination:"L'Escala",region:"Costa Brava",slug:"bautismo-buceo-parque-montgri-77668",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["L'Escala","Parque Natural","Montgrí","Equipo","Seguro"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-parque-natural-del-montgri-3h--o77668",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-parque-natural-del-montgri-3h--o77668",
+    offers:[{id:"yumping-o77668",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-parque-natural-del-montgri-3h--o77668",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-parque-natural-del-montgri-3h--o77668",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Instructor","Seguro","Equipo completo"],
+    notes:"Actividad progresiva desde costa; Yumping indica horario diario a las 15:00 y 1–4 personas."
+  },
+
+  {
+    id:169,siteSlugs:["el-montgri"],
+    title:"Curso SSI Open Water Diver en L'Escala",
+    destination:"L'Escala",region:"Costa Brava",slug:"curso-ssi-open-water-l-escala-18401",
+    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas que buscan certificación SSI Open Water Diver",
+    tags:["SSI","Open Water","L'Escala","4 días","18 m"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",
+    offers:[{id:"yumping-o18401",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Material didáctico","Material para prácticas","Teoría online","4 inmersiones desde barco"],
+    notes:"La URL de Yumping contiene 'padi' pero la ficha actual se titula SSI Open Water Diver."
+  },
+
+  {
+    id:170,siteSlugs:["mar-menuda"],
+    title:"Discover Scuba Diving en Tossa de Mar 3 horas",
+    destination:"Tossa de Mar",region:"Costa Brava",slug:"discover-scuba-tossa-51268",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["Discover Scuba","Tossa","3 horas","Instructor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar-3-horas--o51268",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar-3-horas--o51268",
+    offers:[{id:"yumping-o51268",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar-3-horas--o51268",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar-3-horas--o51268",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Experiencia Discover Scuba"],
+    notes:"Yumping indica una duración total de 3 horas y grupos de 1–10 personas."
+  },
+
+  {
+    id:171,siteSlugs:["mar-menuda"],
+    title:"Bautizo de buceo desde playa en Tossa de Mar",
+    destination:"Tossa de Mar",region:"Costa Brava",slug:"bautizo-buceo-playa-tossa-14621",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min–3 horas",audience:"Primera experiencia",
+    tags:["Tossa","Playa","45 min","Equipo","Instructor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-desde-playa-en-tossa-de-mar--o14621",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-desde-playa-en-tossa-de-mar--o14621",
+    offers:[{id:"yumping-o14621",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-desde-playa-en-tossa-de-mar--o14621",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-desde-playa-en-tossa-de-mar--o14621",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Equipo completo","Instructor","Seguro","Fotos no profesionales"],
+    notes:"Yumping indica unos 45 minutos bajo el agua y actividad total de 3 horas."
+  },
+
+  {
+    id:172,siteSlugs:["mar-menuda"],
+    title:"Bautismo de buceo en Tossa de Mar 2,5h",
+    destination:"Tossa de Mar",region:"Costa Brava",slug:"bautismo-buceo-tossa-61843",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Primera experiencia",
+    tags:["Tossa","2,5 horas","Playa","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar--o61843",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar--o61843",
+    offers:[{id:"yumping-o61843",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar--o61843",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar--o61843",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Bautismo desde playa","Equipo completo","Seguro","Instructor"]
+  },
+
+  {
+    id:173,siteSlugs:["mar-menuda"],
+    title:"Snorkel en Tossa de Mar 2 horas y 30",
+    destination:"Tossa de Mar",region:"Costa Brava",slug:"snorkel-tossa-61846",
+    type:"Snorkel",level:"Inicial",duration:"2 h 30 min",audience:"Personas desde 8 años",
+    tags:["Snorkel","Tossa","Guía","Material","Seguro"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/snorkel-en-tossa-de-mar-2-horas-y-30--o61846",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/snorkel-en-tossa-de-mar-2-horas-y-30--o61846",
+    offers:[{id:"yumping-o61846",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/snorkel-en-tossa-de-mar-2-horas-y-30--o61846",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/snorkel-en-tossa-de-mar-2-horas-y-30--o61846",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:8,included:["Monitor","Material de snorkel","Ruta guiada","Seguro"]
+  },
+
+  {
+    id:174,siteSlugs:["mar-menuda"],
+    title:"Curso PADI Open Water en Tossa de Mar, 3 días",
+    destination:"Tossa de Mar",region:"Costa Brava",slug:"curso-padi-open-water-tossa-57559",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas que buscan certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","Tossa","3 días","4 inmersiones"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-en-tossa-de-mar-3-dias--o57559",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-en-tossa-de-mar-3-dias--o57559",
+    offers:[{id:"yumping-o57559",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-en-tossa-de-mar-3-dias--o57559",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-en-tossa-de-mar-3-dias--o57559",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Certificado PADI","Equipo","Material didáctico","Seguro","4 inmersiones en mar"]
+  },
+
+  {
+    id:175,siteSlugs:["mar-menuda"],
+    title:"PADI Scuba Diver en Tossa de Mar",
+    destination:"Tossa de Mar",region:"Costa Brava",slug:"padi-scuba-diver-tossa-13963",
+    type:"Curso",level:"Inicial",duration:"1 día",audience:"Personas que buscan la certificación PADI Scuba Diver",
+    tags:["PADI","Scuba Diver","Tossa","9 horas","3 sesiones"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-open-water-diver-padi-lloret-de-mar--o13963",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-open-water-diver-padi-lloret-de-mar--o13963",
+    offers:[{id:"yumping-o13963",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-open-water-diver-padi-lloret-de-mar--o13963",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-open-water-diver-padi-lloret-de-mar--o13963",priceFrom:290,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,included:["Material teórico","3 sesiones prácticas","Certificación PADI","Material de buceo"]
+  },
+
+  {
+    id:176,siteSlugs:["mar-menuda"],
+    title:"PADI Advanced Open Water Tossa de Mar 2 días",
+    destination:"Tossa de Mar",region:"Costa Brava",slug:"padi-advanced-tossa-57563",
+    type:"Curso",level:"Avanzado",duration:"2 días",audience:"Buceadores con experiencia previa",
+    tags:["PADI","Advanced","Tossa","5 módulos","2 días"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-tossa-de-mar-2-dias--o57563",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-tossa-de-mar-2-dias--o57563",
+    offers:[{id:"yumping-o57563",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-tossa-de-mar-2-dias--o57563",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-tossa-de-mar-2-dias--o57563",priceFrom:330,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,included:["5 módulos","Formación PADI"]
+  },
+
+  {
+    id:177,siteSlugs:["tossa-de-mar"],
+    title:"Curso de buceo Open Water Diver en Mar Menuda",
+    destination:"Tossa de Mar",region:"Costa Brava",slug:"open-water-mar-menuda-65112",
+    type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas que buscan Open Water Diver",
+    tags:["Open Water","Mar Menuda","Tossa","Transporte"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o65112",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o65112",
+    offers:[{id:"yumping-o65112",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o65112",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o65112",priceFrom:429,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Curso Open Water","Transporte"],
+    notes:"Oferta de Tossasub en Mar Menuda con transporte incluido según la ficha."
+  },
+
+  {
+    id:178,siteSlugs:["lloret-de-mar"],
+    title:"Bautismo de buceo desde Playa Sa Caleta, 2h30",
+    destination:"Lloret de Mar",region:"Costa Brava",slug:"bautismo-sa-caleta-13961",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Primera experiencia",
+    tags:["Lloret","Sa Caleta","45–50 min","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-el-mar-en-lloret-de-mar--o13961",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-el-mar-en-lloret-de-mar--o13961",
+    offers:[{id:"yumping-o13961",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-el-mar-en-lloret-de-mar--o13961",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-el-mar-en-lloret-de-mar--o13961",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:8,included:["Instructor","Equipo completo"],
+    notes:"Yumping indica unos 45–50 minutos de inmersión y una actividad total de unas 2,5 horas."
+  },
+
+  {
+    id:179,siteSlugs:["lloret-de-mar"],
+    title:"Bautizo de buceo en Platja de Fenals 2 horas",
+    destination:"Lloret de Mar",region:"Costa Brava",slug:"bautismo-fenals-65860",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    tags:["Lloret","Fenals","40 min","Equipo","Instructor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",
+    offers:[{id:"yumping-o65860",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",priceFrom:66,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Equipo"],
+    notes:"Yumping indica una duración total aproximada de 2 horas y unos 40 minutos de inmersión."
+  },
+
+  {
+    id:180,siteSlugs:["lloret-de-mar"],
+    title:"Curso certificación Open Water Diver SSI en Girona",
+    destination:"Lloret de Mar",region:"Costa Brava",slug:"open-water-ssi-lloret-55808",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas que buscan certificación SSI",
+    tags:["SSI","Open Water","Lloret","3 días","18 m"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-certificacion-open-water-diver-ssi-en-girona--o55808",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-certificacion-open-water-diver-ssi-en-girona--o55808",
+    offers:[{id:"yumping-o55808",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-certificacion-open-water-diver-ssi-en-girona--o55808",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-certificacion-open-water-diver-ssi-en-girona--o55808",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,maxDepth:"18 m",included:["Curso","Material","Monitor","Seguros"]
+  },
+
+  {
+    id:181,siteSlugs:["lloret-de-mar"],
+    title:"Curso PADI Open Water Diver en Lloret de Mar",
+    destination:"Lloret de Mar",region:"Costa Brava",slug:"padi-open-water-lloret-65241",
+    type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas que buscan certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","Lloret","2–3 días","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-buceo-padi-open-water-diver-en-lloret-de-mar--o65241",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-buceo-padi-open-water-diver-en-lloret-de-mar--o65241",
+    offers:[{id:"yumping-o65241",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-buceo-padi-open-water-diver-en-lloret-de-mar--o65241",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-buceo-padi-open-water-diver-en-lloret-de-mar--o65241",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:14,included:["Instructor","Equipo completo","Manual PADI","Título PADI","Seguros"]
+  },
+
+  {
+    id:182,siteSlugs:["platja-daro"],
+    title:"Bautizo de buceo en Platja d'Aro 2 horas",
+    destination:"Platja d'Aro",region:"Costa Brava",slug:"bautizo-buceo-platja-daro-60480",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    tags:["Platja d'Aro","Bautismo","2 horas","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",
+    offers:[{id:"yumping-o60480",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Equipo","Seguro"]
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
