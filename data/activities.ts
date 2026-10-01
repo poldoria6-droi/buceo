@@ -594,6 +594,146 @@ export const activities:Activity[]=[
     minAge:8,
     notes:"Programa PADI Seal Team dirigido a niños desde 8 años; Yumping indica grupos de hasta 100 personas."
   },
+
+  {
+    id:133,siteSlugs:["los-abrigos"],
+    title:"Bautismo de buceo en Tenerife",
+    destination:"Los Abrigos",region:"Canarias",slug:"bautismo-buceo-tenerife-46044",
+    type:"Bautismo",level:"Inicial",duration:"1 h 30 min–3 h",audience:"Primera experiencia",
+    tags:["Bautismo","Los Abrigos","Instructor","20–45 min de inmersión"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife--o46044",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife--o46044",
+    offers:[{id:"yumping-o46044",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife--o46044",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife--o46044",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10, maxDepth:"poca profundidad", included:["Instructor","Nociones básicas de buceo"],
+    notes:"Yumping indica una inmersión de aproximadamente 20–45 minutos y una actividad total de 1:30 a 3:00."
+  },
+
+  {
+    id:134,siteSlugs:["las-galletas"],
+    title:"Bautismo de buceo en Las Galletas, Tenerife",
+    destination:"Las Galletas",region:"Canarias",slug:"bautismo-buceo-las-galletas-53976",
+    type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Primera experiencia",
+    tags:["Bautismo","Las Galletas","12 m","Equipo","Seguro"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-las-galletas-tenerife--o53976",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-las-galletas-tenerife--o53976",
+    offers:[{id:"yumping-o53976",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-las-galletas-tenerife--o53976",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-las-galletas-tenerife--o53976",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,maxDepth:"12 m",included:["Equipo de buceo","Seguro de buceo","Instructor profesional"],
+    notes:"Yumping indica que no se necesita experiencia y que la actividad puede realizarse durante todo el año."
+  },
+
+  {
+    id:135,siteSlugs:["el-medano"],
+    title:"Bautizo de buceo en Tenerife de 45 minutos",
+    destination:"El Médano",region:"Canarias",slug:"bautizo-buceo-tenerife-45-min-41732",
+    type:"Bautismo",level:"Inicial",duration:"45 min de inmersión",audience:"Primera experiencia",
+    tags:["Bautismo","El Médano","45 min","Instructor","Recogida"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",
+    offers:[{id:"yumping-o41732",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Instrucción previa","Posibilidad de recogida"],
+    notes:"Yumping indica grupos de 1–6 personas y recogida posible en aeropuerto, estaciones y alojamientos."
+  },
+
+  {
+    id:136,siteSlugs:["radazul"],
+    title:"Bautizo de buceo en mar + vídeo en Radazul",
+    destination:"Radazul",region:"Canarias",slug:"bautizo-buceo-video-radazul-60254",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["Radazul","Vídeo","Bautismo","Mar"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-mar-video-radazul--o60254",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-mar-video-radazul--o60254",
+    offers:[{id:"yumping-o60254",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-mar-video-radazul--o60254",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-mar-video-radazul--o60254",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Inmersión en mar","Vídeo","Instructor"],
+    notes:"Actividad de 3 horas en Radazul con vídeo incluido."
+  },
+
+  {
+    id:137,siteSlugs:["costa-adeje"],
+    title:"Bautismo de buceo en Costa Adeje de 4 horas",
+    destination:"Costa Adeje",region:"Canarias",slug:"bautismo-buceo-costa-adeje-80893",
+    type:"Bautismo",level:"Inicial",duration:"4 horas",audience:"Primera experiencia",
+    tags:["Costa Adeje","Bautismo","Equipo","Instructor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-costa-adeje-de-4-horas--o80893",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-costa-adeje-de-4-horas--o80893",
+    offers:[{id:"yumping-o80893",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-costa-adeje-de-4-horas--o80893",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-costa-adeje-de-4-horas--o80893",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Material necesario","Instructor"],
+    notes:"Yumping indica que no se requiere experiencia previa y una edad mínima de 10 años."
+  },
+
+  {
+    id:138,siteSlugs:["puerto-colon"],
+    title:"PADI Discover Scuba Diving en Puerto Colón",
+    destination:"Puerto Colón",region:"Canarias",slug:"padi-discover-scuba-diving-puerto-colon-53291",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["PADI","Discover Scuba","Puerto Colón","3 h"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-discover-scuba-diving-en-puerto-colon--o53291",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-discover-scuba-diving-en-puerto-colon--o53291",
+    offers:[{id:"yumping-o53291",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/padi-discover-scuba-diving-en-puerto-colon--o53291",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-discover-scuba-diving-en-puerto-colon--o53291",priceFrom:110,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Instructor","Equipo"],
+    notes:"Oferta PADI Discover Scuba Diving en Puerto Colón; Yumping la muestra desde 110 €."
+  },
+
+  {
+    id:139,siteSlugs:["playa-paraiso"],
+    title:"Bautizo de buceo en Tenerife de 45 minutos",
+    destination:"Playa Paraíso",region:"Canarias",slug:"bautizo-buceo-playa-paraiso-45-min-41732",
+    type:"Bautismo",level:"Inicial",duration:"45 min de inmersión",audience:"Primera experiencia",
+    tags:["Playa Paraíso","Bautismo","45 min","Instructor","Transporte"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",
+    offers:[{id:"yumping-o41732-playa-paraiso",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Posibilidad de recogida"],
+    notes:"Misma oferta Yumping disponible en Playa Paraíso según la zona indicada por la ficha."
+  },
+
+  {
+    id:140,siteSlugs:["las-chafiras"],
+    title:"PADI Open Water Diver en Las Galletas Tenerife",
+    destination:"Las Chafiras",region:"Canarias",slug:"padi-open-water-diver-las-galletas-31296",
+    type:"Curso",level:"Inicial",duration:"5 mañanas",audience:"Personas que quieren obtener la certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","Las Galletas","5 mañanas","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296",
+    offers:[{id:"yumping-o31296",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296",priceFrom:425,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Formación PADI","Equipo de buceo"],
+    notes:"Yumping indica una duración aproximada de 5 mañanas. Oferta mostrada bajo Las Galletas y proveedor Buceo Tenerife."
+  },
+
+  {
+    id:141,siteSlugs:["guia-de-isora"],
+    title:"Open Water Diver PADI en Tenerife en 3 días",
+    destination:"Guía de Isora",region:"Canarias",slug:"open-water-diver-padi-tenerife-39502",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas que quieren obtener la certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","Guía de Isora","3 días","Recogida"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/open-water-diver-padi-en-tenerife-en-3-dias--o39502",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/open-water-diver-padi-en-tenerife-en-3-dias--o39502",
+    offers:[{id:"yumping-o39502",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/open-water-diver-padi-en-tenerife-en-3-dias--o39502",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/open-water-diver-padi-en-tenerife-en-3-dias--o39502",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Curso PADI","Recogida y regreso al alojamiento"],
+    notes:"Curso de 3 jornadas completas, con recogida y regreso según alojamiento."
+  },
+
+  {
+    id:142,siteSlugs:["puerto-colon"],
+    title:"Bono de 10 inmersiones desde Puerto Colón",
+    destination:"Adeje",region:"Canarias",slug:"bono-10-inmersiones-puerto-colon-22282",
+    type:"Fun Dive",level:"Intermedio",duration:"5 días",audience:"Buceadores con certificación",
+    tags:["10 inmersiones","Puerto Colón","5 días","Bono"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bono-de-10-inmersiones-tenerife--o22282",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bono-de-10-inmersiones-tenerife--o22282",
+    offers:[{id:"yumping-o22282",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bono-de-10-inmersiones-tenerife--o22282",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bono-de-10-inmersiones-tenerife--o22282",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["10 inmersiones","Salidas desde Puerto Colón"],
+    notes:"Bono de 10 inmersiones en 5 días; cada inmersión dura aproximadamente 30–50 minutos."
+  }
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
