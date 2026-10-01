@@ -738,7 +738,7 @@ export const activities:Activity[]=[
     offers:[{id:"yumping-o22282",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bono-de-10-inmersiones-tenerife--o22282",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bono-de-10-inmersiones-tenerife--o22282",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     included:["10 inmersiones","Salidas desde Puerto Colón"],
     notes:"Bono de 10 inmersiones en 5 días; cada inmersión dura aproximadamente 30–50 minutos."
-  }
+  },
 
   {
     id:143,siteSlugs:["los-abrigos"],
