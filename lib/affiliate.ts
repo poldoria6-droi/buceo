@@ -1,4 +1,5 @@
-import type { Activity, BookingOffer } from "@/data/activities";
+import type { Activity } from "@/data/activities";
+import type { BookingOffer } from "@/data/types";
 
 export const YUMPING_PARTNER_ID =
   process.env.NEXT_PUBLIC_YUMPING_PARTNER_ID?.trim() ||
