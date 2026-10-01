@@ -159,9 +159,14 @@ export const activities:Activity[]=[
       id:"yumping-o18401",
       provider:"Yumping",
       url:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
-      sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401"
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",
+      priceFrom:400,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01"
     }],
-    notes:"Oferta específica de Yumping para L'Escala. Mantener el precio pendiente hasta verificar el importe de esta oferta concreta."
+    maxDepth:"18 m",
+    included:["Formación PADI","Inmersiones","Equipo"],
+    notes:"Yumping muestra el curso PADI Open Water Diver en Estartit/L'Escala desde 400 €."
   },
 
   {
@@ -920,20 +925,6 @@ export const activities:Activity[]=[
     offers:[{id:"yumping-o77668",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-parque-natural-del-montgri-3h--o77668",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-parque-natural-del-montgri-3h--o77668",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     minAge:10,included:["Instructor","Seguro","Equipo completo"],
     notes:"Actividad progresiva desde costa; Yumping indica horario diario a las 15:00 y 1–4 personas."
-  },
-
-  {
-    id:169,siteSlugs:["cala-montgo"],
-    title:"Curso PADI Open Water Diver en L'Escala",
-    destination:"L'Escala",region:"Costa Brava",slug:"curso-ssi-open-water-l-escala-18401",
-    type:"Curso",level:"Inicial",duration:"5 días",audience:"Personas que buscan certificación PADI Open Water Diver",
-    tags:["PADI","Open Water","L'Escala","5 días","18 m"],
-    bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",
-    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",
-    offers:[{id:"yumping-o18401",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    maxDepth:"18 m",included:["Material didáctico","Material para prácticas","Teoría online","4 inmersiones desde barco"],
-    notes:"La URL de Yumping contiene 'padi' pero la ficha actual se titula SSI Open Water Diver."
   },
 
   {
