@@ -1630,6 +1630,329 @@ export const activities:Activity[]=[
     notes:"La ficha actual de Yumping se presenta como curso Open Water; el proveedor indica formación flexible.",
     priceFrom:425,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+
+  {
+    id:219,siteSlugs:["la-herradura"],
+    title:"Bautizo de Buceo en Granada 2 horas",
+    destination:"La Herradura",region:"Andalucía",slug:"batizo-de-bceo-en-granada-horas-219",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-granada-2-horas--o36122",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-granada-2-horas--o36122",
+    offers:[{id:"yumping-o36122",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-granada-2-horas--o36122",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-granada-2-horas--o36122",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:220,siteSlugs:["la-herradura"],
+    title:"Bautizo de buceo personalizado Marina del Este, 2h",
+    destination:"La Herradura",region:"Andalucía",slug:"batizo-de-bceo-personalizado-marina-del-este-h-220",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-personalizado-en-la-herradura--o16443",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-personalizado-en-la-herradura--o16443",
+    offers:[{id:"yumping-o16443",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-personalizado-en-la-herradura--o16443",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-personalizado-en-la-herradura--o16443",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:221,siteSlugs:["la-herradura"],
+    title:"Bautizo de buceo para parejas en La Herradura 5h",
+    destination:"La Herradura",region:"Andalucía",slug:"batizo-de-bceo-para-parejas-en-la-herradra-h-221",
+    type:"Bautismo",level:"Inicial",duration:"5 horas",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-para-parejas-en-la-herradura-5h--o60978",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-para-parejas-en-la-herradura-5h--o60978",
+    offers:[{id:"yumping-o60978",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-para-parejas-en-la-herradura-5h--o60978",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-para-parejas-en-la-herradura-5h--o60978",priceFrom:135,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:135,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:222,siteSlugs:["la-herradura"],
+    title:"Curso PADI Open Water Diver en Granada",
+    destination:"La Herradura",region:"Andalucía",slug:"crso-padi-open-water-diver-en-granada-222",
+    type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-padi-open-water-diver-en-granada--o36123",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-padi-open-water-diver-en-granada--o36123",
+    offers:[{id:"yumping-o36123",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/curso-padi-open-water-diver-en-granada--o36123",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-padi-open-water-diver-en-granada--o36123",priceFrom:425,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:425,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:223,siteSlugs:["la-herradura"],
+    title:"Curso Open Water de buceo La Herradura",
+    destination:"La Herradura",region:"Andalucía",slug:"crso-open-water-de-bceo-la-herradra-223",
+    type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-open-water-de-buceo-la-herradura--o62206",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-open-water-de-buceo-la-herradura--o62206",
+    offers:[{id:"yumping-o62206",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/curso-open-water-de-buceo-la-herradura--o62206",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-open-water-de-buceo-la-herradura--o62206",priceFrom:395,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:395,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:224,siteSlugs:["la-herradura"],
+    title:"Curso de Buceo PADI Scuba Diver Granada",
+    destination:"La Herradura",region:"Andalucía",slug:"crso-de-bceo-padi-scba-diver-granada-224",
+    type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-scuba-diver-granada--o36125",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-scuba-diver-granada--o36125",
+    offers:[{id:"yumping-o36125",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-scuba-diver-granada--o36125",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-scuba-diver-granada--o36125",priceFrom:295,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:295,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:225,siteSlugs:["la-herradura"],
+    title:"PADI Advanced Open Water, La Herradura",
+    destination:"La Herradura",region:"Andalucía",slug:"padi-advanced-open-water-la-herradra-225",
+    type:"Curso",level:"Avanzado",duration:"Según formación",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-la-herradura--o16459",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-la-herradura--o16459",
+    offers:[{id:"yumping-o16459",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-la-herradura--o16459",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-la-herradura--o16459",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:226,siteSlugs:["la-herradura"],
+    title:"Curso de buceo PADI Rescue Diver en La Herradura",
+    destination:"La Herradura",region:"Andalucía",slug:"crso-de-bceo-padi-resce-diver-en-la-herradra-226",
+    type:"Curso",level:"Avanzado",duration:"Según formación",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-rescue-diver-en-la-herradura--o16465",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-rescue-diver-en-la-herradura--o16465",
+    offers:[{id:"yumping-o16465",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-rescue-diver-en-la-herradura--o16465",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-rescue-diver-en-la-herradura--o16465",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:227,siteSlugs:["la-herradura"],
+    title:"Inmersión con equipo en La Herradura 4 horas",
+    destination:"La Herradura",region:"Andalucía",slug:"inmersio-n-con-eqipo-en-la-herradra-horas-227",
+    type:"Fun Dive",level:"Intermedio",duration:"4–5 horas",audience:"Personas interesadas en fun dive en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","La Herradura"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/granada/inmersion-con-equipo-en-la-herradura-4-horas--o57606",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/inmersion-con-equipo-en-la-herradura-4-horas--o57606",
+    offers:[{id:"yumping-o57606",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/granada/inmersion-con-equipo-en-la-herradura-4-horas--o57606",sourceUrl:"https://www.yumping.com/ofertas/buceo/granada/inmersion-con-equipo-en-la-herradura-4-horas--o57606",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:228,siteSlugs:["nerja"],
+    title:"Curso Advanced Open Water Diver 2 o 3 días Nerja",
+    destination:"Nerja",region:"Andalucía",slug:"crso-advanced-open-water-diver-o-di-as-nerja-228",
+    type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Nerja"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-advanced-open-water-diver-2-o-3-dias-nerja--o62513",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-advanced-open-water-diver-2-o-3-dias-nerja--o62513",
+    offers:[{id:"yumping-o62513",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/curso-advanced-open-water-diver-2-o-3-dias-nerja--o62513",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-advanced-open-water-diver-2-o-3-dias-nerja--o62513",priceFrom:355,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:355,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:229,siteSlugs:["nerja"],
+    title:"PADI Open Water Diver en Nerja durante 4 días",
+    destination:"Nerja",region:"Andalucía",slug:"padi-open-water-diver-en-nerja-drante-di-as-229",
+    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Nerja"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-open-water-diver-en-nerja-durante-4-dias--o62519",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-open-water-diver-en-nerja-durante-4-dias--o62519",
+    offers:[{id:"yumping-o62519",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/padi-open-water-diver-en-nerja-durante-4-dias--o62519",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-open-water-diver-en-nerja-durante-4-dias--o62519",priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:230,siteSlugs:["nerja"],
+    title:"Curso Discover Scuba desde barco en costa de Nerja",
+    destination:"Nerja",region:"Andalucía",slug:"crso-discover-scba-desde-barco-en-costa-de-nerja-230",
+    type:"Bautismo",level:"Inicial",duration:"4 horas",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Nerja"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",
+    offers:[{id:"yumping-o62523",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:231,siteSlugs:["nerja"],
+    title:"Curso de buceo Scuba Diver en costa de Nerja",
+    destination:"Nerja",region:"Andalucía",slug:"crso-de-bceo-scba-diver-en-costa-de-nerja-231",
+    type:"Curso",level:"Inicial",duration:"2 días + teoría online",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Nerja"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",
+    offers:[{id:"yumping-o62523",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",priceFrom:310,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:310,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:232,siteSlugs:["nerja"],
+    title:"Snorkel para niños acantilados de Maro Cerro Gordo",
+    destination:"Maro–Cerro Gordo",region:"Andalucía",slug:"snorkel-para-nin-os-acantilados-de-maro-cerro-gordo-232",
+    type:"Snorkel",level:"Inicial",duration:"Consultar",audience:"Personas interesadas en snorkel en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Maro–Cerro Gordo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    
+    priceFrom:35,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:233,siteSlugs:["arrecife-sirenas"],
+    title:"Bautismo de buceo en Cabo de Gata",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"batismo-de-bceo-en-cabo-de-gata-233",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Cabo de Gata"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata--o26563",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata--o26563",
+    offers:[{id:"yumping-o26563",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata--o26563",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata--o26563",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:234,siteSlugs:["arrecife-sirenas"],
+    title:"Bautizo de buceo en Cabo de Gata, 3h",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"batizo-de-bceo-en-cabo-de-gata-h-234",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Cabo de Gata"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-en-cabo-de-gata--o36129",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-en-cabo-de-gata--o36129",
+    offers:[{id:"yumping-o36129",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-en-cabo-de-gata--o36129",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-en-cabo-de-gata--o36129",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:235,siteSlugs:["arrecife-sirenas"],
+    title:"Curso OPEN WATER en Cabo de Gata",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"crso-open-water-en-cabo-de-gata-235",
+    type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Cabo de Gata"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-en-cabo-de-gata--o59202",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-en-cabo-de-gata--o59202",
+    offers:[{id:"yumping-o59202",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-en-cabo-de-gata--o59202",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-en-cabo-de-gata--o59202",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:236,siteSlugs:["arrecife-sirenas"],
+    title:"Curso Open Water Diver en Cabo de Gata 4 días",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"crso-open-water-diver-en-cabo-de-gata-di-as-236",
+    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Cabo de Gata"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-cabo-de-gata-3-dias--o68413",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-cabo-de-gata-3-dias--o68413",
+    offers:[{id:"yumping-o68413",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-cabo-de-gata-3-dias--o68413",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-cabo-de-gata-3-dias--o68413",priceFrom:430,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:430,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:237,siteSlugs:["roquetas-de-mar"],
+    title:"Bautismo de buceo en Roquetas de Mar",
+    destination:"Roquetas de Mar",region:"Andalucía",slug:"batismo-de-bceo-en-roqetas-de-mar-237",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Roquetas de Mar"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-roquetas-de-mar--o20488",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-roquetas-de-mar--o20488",
+    offers:[{id:"yumping-o20488",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-roquetas-de-mar--o20488",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-roquetas-de-mar--o20488",priceFrom:49.9,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:49.9,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:238,siteSlugs:["roquetas-de-mar"],
+    title:"PADI Advanced Open Water Diver en Roquetas de Mar",
+    destination:"Roquetas de Mar",region:"Andalucía",slug:"padi-advanced-open-water-diver-en-roqetas-de-mar-238",
+    type:"Curso",level:"Avanzado",duration:"3–5 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Roquetas de Mar"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/padi-advanced-open-water-diver-en-roquetas-de-mar--o27804",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/padi-advanced-open-water-diver-en-roquetas-de-mar--o27804",
+    offers:[{id:"yumping-o27804",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/padi-advanced-open-water-diver-en-roquetas-de-mar--o27804",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/padi-advanced-open-water-diver-en-roquetas-de-mar--o27804",priceFrom:330,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:330,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:239,siteSlugs:["roquetas-de-mar"],
+    title:"Curso Open Water Diver en Roquetas de Mar",
+    destination:"Roquetas de Mar",region:"Andalucía",slug:"crso-open-water-diver-en-roqetas-de-mar-239",
+    type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Roquetas de Mar"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-roquetas-de-mar--o27803",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-roquetas-de-mar--o27803",
+    offers:[{id:"yumping-o27803",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-roquetas-de-mar--o27803",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-roquetas-de-mar--o27803",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:240,siteSlugs:["aguadulce"],
+    title:"Bautismo submarino Puerto de Aguadulce y vídeos 2h",
+    destination:"Aguadulce",region:"Andalucía",slug:"batismo-sbmarino-perto-de-agadlce-y-vi-deos-h-240",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Aguadulce"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-submarino-en-aguadulce-y-fotos--o37116",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-submarino-en-aguadulce-y-fotos--o37116",
+    offers:[{id:"yumping-o37116",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-submarino-en-aguadulce-y-fotos--o37116",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-submarino-en-aguadulce-y-fotos--o37116",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:241,siteSlugs:["aguadulce"],
+    title:"Bautismo de buceo para parejas en Aguadulce",
+    destination:"Aguadulce",region:"Andalucía",slug:"batismo-de-bceo-para-parejas-en-agadlce-241",
+    type:"Bautismo",level:"Inicial",duration:"2h30",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Aguadulce"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-para-parejas-en-aguadulce--o20493",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-para-parejas-en-aguadulce--o20493",
+    offers:[{id:"yumping-o20493",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-para-parejas-en-aguadulce--o20493",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-para-parejas-en-aguadulce--o20493",priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:242,siteSlugs:["aguadulce"],
+    title:"Bautizo de buceo para niños Aguadulce desde 8 años",
+    destination:"Aguadulce",region:"Andalucía",slug:"batizo-de-bceo-para-nin-os-agadlce-desde-an-os-242",
+    type:"Bautismo",level:"Inicial",duration:"1 hora aprox.",audience:"Personas interesadas en bautismo en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Aguadulce"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos--o37277",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos--o37277",
+    offers:[{id:"yumping-o37277",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos--o37277",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos--o37277",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:243,siteSlugs:["aguadulce"],
+    title:"Curso Advanced Open Water, Puerto Aguadulce 5 días",
+    destination:"Aguadulce",region:"Andalucía",slug:"crso-advanced-open-water-perto-agadlce-di-as-243",
+    type:"Curso",level:"Avanzado",duration:"3–5 días",audience:"Personas interesadas en curso en Andalucía",
+    tags:["Buceo","Andalucía","Yumping","Aguadulce"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-discover-scuba-diving-aguadulce--o20947",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-discover-scuba-diving-aguadulce--o20947",
+    offers:[{id:"yumping-o20947",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-discover-scuba-diving-aguadulce--o20947",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-discover-scuba-diving-aguadulce--o20947",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
