@@ -165,6 +165,30 @@ export const activities:Activity[]=[
   },
 
   {
+    id:118,siteSlugs:["playa-raco-calpe"],
+    title:"Curso PADI Discover Scuba Diving Playa del Racó",
+    destination:"Calpe",region:"Costa Blanca",slug:"padi-discover-scuba-diving-playa-del-raco-calpe-65789",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    tags:["PADI","Discover Scuba Diving","Playa del Racó","Calpe","Instructor","Seguro"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-buceo-en-calpe-salida-desde-la-playa--o65789?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-buceo-en-calpe-salida-desde-la-playa--o65789",
+    offers:[{
+      id:"yumping-o65789",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-buceo-en-calpe-salida-desde-la-playa--o65789?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-buceo-en-calpe-salida-desde-la-playa--o65789",
+      priceFrom:89,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01"
+    }],
+    maxDepth:"6 m",
+    included:["Monitor","Explicaciones previas","Clase teórica","Material necesario para la inmersión","Seguro"],
+    minAge:10,
+    notes:"Actividad de aproximadamente 2 horas en Playa del Racó, con 35–40 minutos bajo el agua. Yumping indica capacidad de 1–20 personas y disponibilidad en calendario en tiempo real."
+  },
+
+  {
     id:117,siteSlugs:["playa-chica"],
     title:"Curso Scuba Diver SSI en Lanzarote",
     destination:"Lanzarote",region:"Canarias",slug:"curso-scuba-diver-ssi-lanzarote-47174",
