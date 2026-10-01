@@ -165,6 +165,30 @@ export const activities:Activity[]=[
   },
 
   {
+    id:113,siteSlugs:["punta-marroqui-tarifa"],
+    title:"Salida de snorkel en Playa de Tarifa",
+    destination:"Tarifa",region:"Andalucía",slug:"salida-snorkel-playa-tarifa-53881",
+    type:"Snorkel",level:"Inicial",duration:"1 h 30 min",audience:"Personas que quieren descubrir el fondo marino sin buceo con botella",
+    tags:["Snorkel","Tarifa","Material incluido","Fotos y vídeos"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cadiz/salida-de-snorkel-en-tarifa-1-hora-y-media--o53881?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/salida-de-snorkel-en-tarifa-1-hora-y-media--o53881",
+    offers:[{
+      id:"yumping-o53881",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/cadiz/salida-de-snorkel-en-tarifa-1-hora-y-media--o53881?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/salida-de-snorkel-en-tarifa-1-hora-y-media--o53881",
+      priceFrom:40,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01",
+      notes:"Precio mostrado por Yumping: desde 40 € por persona. Grupos mínimos de 5 personas."
+    }],
+    included:["Monitor profesional","Charla explicativa","Material de snorkel","Fotos y vídeos de recuerdo"],
+    minAge:undefined,
+    notes:"Salida de snorkel de 1 h 30 min en Playa de Tarifa. Yumping indica un mínimo de 5 personas por grupo."
+  },
+
+  {
     id:111,siteSlugs:["punta-marroqui-tarifa"],
     title:"Bautismo de buceo de mar en Tarifa",
     destination:"Tarifa",region:"Andalucía",slug:"bautismo-buceo-mar-tarifa-19193",
