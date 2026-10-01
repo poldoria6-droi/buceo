@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { buildAffiliateUrl, formatOfferPrice, getBookingOffers } from "@/lib/affiliate";
 import { useEffect, useRef, useMemo } from "react";
 import { CircleMarker, MapContainer, Popup, TileLayer, useMap } from "react-leaflet";
 import type { DiveSite } from "@/data/dive-sites";
@@ -46,13 +47,23 @@ export default function ActivityMap({ sites, activities }: { sites: DiveSite[]; 
                 <div className="popup-tags">{site.animals.map(animal => <span key={animal}>{animal}</span>)}</div>
                 <div className="activity-popup-offers">
                   <b>{offers.length ? "Experiencias relacionadas" : "Sin experiencia conectada todavía"}</b>
-                  {offers.map(offer => (
-                    <Link className="activity-popup-offer" key={offer.id} href={"/actividades?site=" + encodeURIComponent(site.slug) + "&type=" + encodeURIComponent(offer.type)}>
-                      <strong>{offer.title}</strong>
-                      <small>{offer.type} · {offer.level} · {offer.duration}</small>
-                      <span>{offer.priceFrom ? <>Desde <b>{offer.priceFrom} €</b></> : <>Precio por confirmar</>}</span>
-                    </Link>
-                  ))}
+                  {offers.map(offer => {
+                    const bookingOffers=getBookingOffers(offer);
+                    return (
+                      <div className="activity-popup-offer" key={offer.id}>
+                        <Link href={"/actividades/" + offer.slug}>
+                          <strong>{offer.title}</strong>
+                          <small>{offer.type} · {offer.level} · {offer.duration}</small>
+                        </Link>
+                        {bookingOffers.map(booking=>(
+                          <div className="activity-popup-booking" key={booking.id}>
+                            <span>{booking.priceFrom!==undefined ? <>Desde <b>{formatOfferPrice(booking)}</b></> : <>Precio por confirmar</>} · {booking.provider}</span>
+                            <a href={buildAffiliateUrl(booking)} target="_blank" rel="sponsored noopener noreferrer" data-affiliate-provider={booking.provider} data-activity-id={offer.id}>Reservar ↗</a>
+                          </div>
+                        ))}
+                      </div>
+                    );
+                  })}
                 </div>
                 <Link href={"/actividades?site=" + encodeURIComponent(site.slug)} className="popup-action">Ver todas las actividades de este punto →</Link>
               </div>
