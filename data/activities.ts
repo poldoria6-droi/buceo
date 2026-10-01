@@ -1,3 +1,4 @@
+import { yumpingBatch2 } from "./yumping-batch-2";
 export type BookingOffer = {
   id:string;
   provider:string;
