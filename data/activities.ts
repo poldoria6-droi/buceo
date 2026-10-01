@@ -131,7 +131,7 @@ export const activities:Activity[]=[
     minAge:12,
     meetingPoint:"Calle Pescador, Las Negras",
     notes:"Actividad de iniciación con teoría previa y inmersión de hasta 12 m."
-  }
+  },
 
   {
     id:109,siteSlugs:["tabarca"],
