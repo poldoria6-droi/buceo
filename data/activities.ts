@@ -24,6 +24,7 @@ export type Activity = {
   siteSlugs:string[];
   offers?:BookingOffer[];
   priceFrom?:number;
+  priceCheckedAt?:string;
   priceCurrency?:string;
   provider:string;
   providerUrl:string;
@@ -111,7 +112,7 @@ export const activities:Activity[]=[
     bookingStatus:"Disponible",provider:"Civitatis",
     providerUrl:"https://www.civitatis.com/es/aguilas/bautismo-buceo-isla-fraile/",
     sourceUrl:"https://www.civitatis.com/es/region-murcia/",
-    priceFrom:90,priceCurrency:"EUR",
+    priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-09-30",
     rating:10,reviewCount:3,
     cancellation:"Cancelación gratuita hasta 24 horas antes.",
     notes:"La ficha pública consultada muestra un precio desde 90 €."
@@ -125,7 +126,7 @@ export const activities:Activity[]=[
     bookingStatus:"Disponible",provider:"Civitatis",
     providerUrl:"https://www.civitatis.com/es/isla-plana/bautismo-buceo-isla-plana/",
     sourceUrl:"https://www.civitatis.com/es/isla-plana/",
-    priceFrom:100,priceCurrency:"EUR",
+    priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-09-30",
     cancellation:"Cancelación gratuita hasta 24 horas antes.",
     notes:"La ficha pública consultada muestra un precio desde 100 €."
   },
