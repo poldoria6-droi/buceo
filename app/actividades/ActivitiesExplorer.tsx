@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { buildCivitatisUrl } from "@/lib/civitatis";
+import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
 import { useMemo, useState } from "react";
 import type { DiveSite } from "@/data/dive-sites";
 import type { Activity } from "@/data/activities";
@@ -77,10 +77,12 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
             <div><span className="eyebrow">OPCIONES REALES</span><h2>{filtered.length} experiencias</h2></div>
             <span>{matchingSites.length} puntos</span>
           </div>
-          <p className="activity-map-hint">Estas fichas parten de ofertas públicas de proveedores. El precio y la disponibilidad final deben comprobarse en la página del proveedor.</p>
+          <p className="activity-map-hint">Mostramos el precio desde cuando está registrado y distinguimos cada proveedor. Antes de reservar, comprueba siempre el precio final y la disponibilidad.</p>
           <div className="activity-results-scroll">
             {filtered.map(a => {
               const site = sites.find(s => a.siteSlugs.includes(s.slug));
+              const offers = getBookingOffers(a);
+              const lowest = getLowestPricedOffer(offers);
               return (
                 <article key={a.id} className="activity-result-card">
                   <button type="button" className="activity-result-main" onClick={() => site && window.dispatchEvent(new CustomEvent("focus-activity-site", { detail: site.id }))}>
@@ -88,14 +90,26 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
                     <span>
                       <strong>{a.title}</strong>
                       <small>{a.destination} · {site?.name || "Punto por confirmar"} · {a.level} · {a.duration}</small>
-                      <span className="result-price">{a.priceFrom ? <>Desde <b>{a.priceFrom} {a.priceCurrency || "€"}</b></> : <><b>Consultar precio</b></>}</span>
-                      <span className="activity-provider">Proveedor: {a.provider}</span>
+                      <span className="result-price">{lowest ? <>Desde <b>{formatOfferPrice(lowest)}</b>{offers.length > 1 && <small> · {offers.length} proveedores</small>}</> : <b>Precio por confirmar</b>}</span>
+                      <span className="activity-provider">{offers.length === 1 ? <>Proveedor: {offers[0].provider}</> : <>Proveedores: {offers.map(offer => offer.provider).join(" · ")}</>}</span>
                     </span>
                     <span className="activity-result-arrow">→</span>
                   </button>
                   <div className="activity-result-actions">
                     <Link href={"/actividades/" + a.slug} className="activity-detail-link">Ver ficha</Link>
-                    <a href={buildCivitatisUrl(a.providerUrl)} target="_blank" rel="nofollow noopener noreferrer" className="activity-book-link">Comprobar / reservar ↗</a>
+                    {offers.map(offer => (
+                      <a
+                        key={offer.id}
+                        href={buildAffiliateUrl(offer)}
+                        target="_blank"
+                        rel="sponsored noopener noreferrer"
+                        className="activity-book-link"
+                        data-affiliate-provider={offer.provider}
+                        data-activity-id={a.id}
+                      >
+                        Reservar {offer.provider} ↗
+                      </a>
+                    ))}
                   </div>
                 </article>
               );
@@ -110,7 +124,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
         </div>
       </div>
 
-      <p className="data-note activity-note">Las fichas muestran datos consultados en páginas públicas de proveedores. La disponibilidad y el precio final pueden cambiar; el enlace actual lleva a la ficha pública del proveedor. Los enlaces afiliados se activarán cuando el programa correspondiente esté aprobado.</p>
+      <p className="data-note activity-note">Los precios se muestran como “desde” y deben llevar una fecha de comprobación cuando estén disponibles. Los enlaces de cada proveedor conservan su tracking de afiliación.</p>
     </div>
   );
 }
