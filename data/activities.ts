@@ -1,3 +1,4 @@
+import { yumpingBulk } from "./yumping-bulk-20261001";
 import { yumpingBatch5 } from "./yumping-batch-5";
 import { yumpingBatch4 } from "./yumping-batch-4";
 import { yumpingBatch3 } from "./yumping-batch-3";
@@ -43,7 +44,7 @@ export type Activity = {
   notes?:string;
 };
 
-export const activities:Activity[]=[...yumpingBatch5,...yumpingBatch4,...yumpingBatch3,...yumpingBatch2,
+export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBatch4,...yumpingBatch3,...yumpingBatch2,
   {
     id:101,siteSlugs:["malgrats"],
     title:"Bautismo de buceo en Mallorca",
