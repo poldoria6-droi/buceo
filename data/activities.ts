@@ -1798,18 +1798,21 @@ export const activities:Activity[]=[
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",
-    offers:[{id:"yumping-o62523",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",priceFrom:310,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    offers:[{id:"yumping-o62523-scubadiver",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",priceFrom:310,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     priceFrom:310,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
 
   {
-    id:232,siteSlugs:["nerja"],
+    id:232,siteSlugs:["maro-cerro-gordo"],
     title:"Snorkel para niños acantilados de Maro Cerro Gordo",
-    destination:"Maro–Cerro Gordo",region:"Andalucía",slug:"snorkel-para-nin-os-acantilados-de-maro-cerro-gordo-232",
-    type:"Snorkel",level:"Inicial",duration:"Consultar",audience:"Personas interesadas en snorkel en Andalucía",
-    tags:["Buceo","Andalucía","Yumping","Maro–Cerro Gordo"],
+    destination:"Nerja",region:"Andalucía",slug:"snorkel-ninos-maro-cerro-gordo-62522",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Familias con niños desde 8 años",
+    tags:["Snorkel","Maro-Cerro Gordo","Niños","Nerja"],
     bookingStatus:"Disponible",provider:"Yumping",
-    
+    providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/snorkel-para-ninos-acantilados-de-maro-cerro-gordo--o62522",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/snorkel-para-ninos-acantilados-de-maro-cerro-gordo--o62522",
+    offers:[{id:"yumping-o62522",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/snorkel-para-ninos-acantilados-de-maro-cerro-gordo--o62522",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/snorkel-para-ninos-acantilados-de-maro-cerro-gordo--o62522",priceFrom:35,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:8,
     priceFrom:35,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
 
