@@ -165,6 +165,29 @@ export const activities:Activity[]=[
   },
 
   {
+    id:120,siteSlugs:["playa-chica"],
+    title:"Inmersión de buceo en Lanzarote",
+    destination:"Lanzarote",region:"Canarias",slug:"inmersion-buceo-lanzarote-19796",
+    type:"Fun Dive",level:"Intermedio",duration:"Según el punto de inmersión",audience:"Buceadores con titulación Open Water Diver o superior",
+    tags:["Inmersión","Lanzarote","Open Water Diver","Instructor","Barco","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o19796?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o19796",
+    offers:[{
+      id:"yumping-o19796",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o19796?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o19796",
+      priceFrom:40,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01",
+      notes:"Yumping muestra desde 40 € por persona. El alquiler de material no está incluido; la actividad incluye instructor, equipo necesario indicado en la oferta, seguro de accidentes y salida en barco."
+    }],
+    included:["Instructor","Equipo de buceo indicado en la oferta","Seguro de accidentes","Salida en barco"],
+    notes:"La oferta se realiza en distintos puntos de la costa de Lanzarote y requiere titulación Open Water Diver o superior."
+  },
+
+  {
     id:119,siteSlugs:["playa-raco-calpe"],
     title:"PADI Discover Scuba Diving desde playa en Calpe",
     destination:"Calpe",region:"Costa Blanca",slug:"padi-discover-scuba-diving-playa-calpe-1232",
