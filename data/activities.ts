@@ -165,6 +165,29 @@ export const activities:Activity[]=[
   },
 
   {
+    id:121,siteSlugs:["playa-chica"],
+    title:"Bautismo de buceo en Arrecife",
+    destination:"Arrecife",region:"Canarias",slug:"bautismo-buceo-arrecife-60308",
+    type:"Bautismo",level:"Inicial",duration:"3 h 30 min (30 min de inmersión)",audience:"Primera experiencia",
+    tags:["Bautismo","Arrecife","Playa Chica","Equipo incluido","Instructor","Seguro"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-arrecife-30-minutos--o60308?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-arrecife-30-minutos--o60308",
+    offers:[{
+      id:"yumping-o60308",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-arrecife-30-minutos--o60308?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-arrecife-30-minutos--o60308",
+      priceFrom:75,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01"
+    }],
+    included:["Equipo de buceo autónomo","Seguro de buceo","Instructor"],
+    minAge:undefined,
+    notes:"La actividad dura aproximadamente 3 h 30 min, con 30 minutos de inmersión en Playa Chica. Yumping indica capacidad de 1–5 personas y encuentro a las 9:30."
+  },
+
+  {
     id:120,siteSlugs:["playa-chica"],
     title:"Inmersión de buceo en Lanzarote",
     destination:"Lanzarote",region:"Canarias",slug:"inmersion-buceo-lanzarote-19796",
