@@ -2272,7 +2272,7 @@ export const activities:Activity[]=[
     priceFrom:129,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
   {
-    id:273,siteSlugs:["malgrats"],
+    id:273,siteSlugs:["palma-aquarium"],
     title:"Buceo con tiburones en el Palma Aquarium Mallorca",destination:"Palma de Mallorca",region:"Baleares",slug:"buceo-con-tiburones-en-el-palma-aquarium-mallorca-273",
     type:"Fun Dive",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en fun dive en Mallorca",
     tags:["Buceo","Mallorca","Baleares","Yumping","Palma de Mallorca"],
