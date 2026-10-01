@@ -3134,6 +3134,118 @@ export const activities:Activity[]=[
     providerUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",sourceUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",offers:[{id:"yumping-o69754",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",sourceUrl:"https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     minAge:8,notes:"Ruta de snorkel desde Morro Jable en barco por la costa este de Fuerteventura. Yumping indica unas 2 horas en la información general, edad mínima de 8 años y recorrido con varias paradas.",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+  {
+    id:370,siteSlugs:["pozo-izquierdo"],
+    title:"Curso Advanced Open Water Diver Pozo Izquierdo",destination:"Pozo Izquierdo",region:"Canarias",slug:"curso-advanced-open-water-diver-pozo-izquierdo-370",
+    type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Personas interesadas en curso en Pozo Izquierdo",
+    tags:["Buceo","Canarias","Yumping","Pozo Izquierdo"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-pozo-izquierdo--o63831",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-pozo-izquierdo--o63831",offers:[{id:"yumping-o63831",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-pozo-izquierdo--o63831",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-pozo-izquierdo--o63831",priceFrom:240,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor de buceo","Equipo completo","Seguro","Curso"],notes:"Curso Advanced Open Water Diver en Pozo Izquierdo. La ficha indica 5 inmersiones: profundidad y orientación obligatorias y tres de aventura a elegir. Duración aproximada de 2–3 días.",priceFrom:240,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:371,siteSlugs:["pozo-izquierdo"],
+    title:"Curso Pro Rec Tec Open Water Diver en Gran Canaria",destination:"Pozo Izquierdo",region:"Canarias",slug:"curso-pro-rec-tec-open-water-diver-en-gran-canaria-371",
+    type:"Curso",level:"Inicial",duration:"3 días · 5 horas/día",audience:"Personas interesadas en curso en Pozo Izquierdo",
+    tags:["Buceo","Canarias","Yumping","Pozo Izquierdo"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-pro-rec-tec-open-water-diver-en-gran-canaria--o59729",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-pro-rec-tec-open-water-diver-en-gran-canaria--o59729",offers:[{id:"yumping-o59729",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-pro-rec-tec-open-water-diver-en-gran-canaria--o59729",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-pro-rec-tec-open-water-diver-en-gran-canaria--o59729",priceFrom:285,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Todo el material de buceo necesario","Libro de registro de inmersiones","Certificado Open Water Diver Pro Rec Tec"],notes:"Curso Pro Rec Tec Open Water Diver en Gran Canaria. La ficha indica 3 días, 5 horas por día y 6 inmersiones, empezando en aguas confinadas y continuando en mar abierto. Profundidad indicada: 18 m con compañero.",priceFrom:285,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:372,siteSlugs:["el-cabron"],
+    title:"Buceo en playa de El Cabrón Gran Canaria para titulados",destination:"El Cabrón",region:"Canarias",slug:"buceo-en-playa-de-el-cabron-gran-canaria-para-titulados-372",
+    type:"Fun Dive",level:"Intermedio",duration:"1 hora aprox.",audience:"Personas interesadas en fun dive en El Cabrón",
+    tags:["Buceo","Canarias","Yumping","El Cabrón"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/buceo-en-playa-de-el-cabron-gran-canaria-titulados--o58994",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/buceo-en-playa-de-el-cabron-gran-canaria-titulados--o58994",offers:[{id:"yumping-o58994",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/buceo-en-playa-de-el-cabron-gran-canaria-titulados--o58994",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/buceo-en-playa-de-el-cabron-gran-canaria-titulados--o58994",priceFrom:20,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Inmersión para buceadores titulados en Playa de El Cabrón. Yumping indica una duración habitual de 1 hora y describe una plataforma rocosa a unos 12 m que desciende otros 23 m.",priceFrom:20,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:373,siteSlugs:["las-canteras"],
+    title:"Bautizo de buceo en Playa Las Canteras, 4 horas",destination:"Las Canteras",region:"Canarias",slug:"bautizo-de-buceo-en-playa-las-canteras-4-horas-373",
+    type:"Bautismo",level:"Inicial",duration:"4 horas",audience:"Personas interesadas en bautismo en Las Canteras",
+    tags:["Buceo","Canarias","Yumping","Las Canteras"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-gran-canaria-4-horas--o20699",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-gran-canaria-4-horas--o20699",offers:[{id:"yumping-o20699",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-gran-canaria-4-horas--o20699",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-gran-canaria-4-horas--o20699",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Equipo de buceo","Clase teórica previa","Transporte al punto de buceo","Instructor","Seguro"],notes:"Bautismo en Playa de Las Canteras con charla previa, reparto de equipo y una inmersión en zona controlada según las condiciones del mar. Yumping indica unas 4 horas de actividad y transporte desde el centro hasta el punto de buceo.",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:374,siteSlugs:["las-canteras"],
+    title:"Bautismo de buceo Las Palmas de Gran Canaria",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"bautismo-de-buceo-las-palmas-de-gran-canaria-374",
+    type:"Bautismo",level:"Inicial",duration:"3–4 horas",audience:"Personas interesadas en bautismo en Las Palmas de Gran Canaria",
+    tags:["Buceo","Canarias","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-las-palmas-de-gran-canaria--o22442",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-las-palmas-de-gran-canaria--o22442",offers:[{id:"yumping-o22442",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-las-palmas-de-gran-canaria--o22442",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-las-palmas-de-gran-canaria--o22442",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Equipo de buceo","Instructor","Seguro","Transporte","Registro del programa en PADI"],notes:"Bautismo de buceo en las costas de Las Palmas. La ficha indica 3–4 horas, charla teórica, traslado al punto de inmersión e inmersión supervisada por instructor; requisito de saber nadar.",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:375,siteSlugs:["las-canteras"],
+    title:"Bautismo de buceo en Gran Canaria 3 h",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"bautismo-de-buceo-en-gran-canaria-3-h-375",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Las Palmas de Gran Canaria",
+    tags:["Buceo","Canarias","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-gran-canaria-3-h--o50685",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-gran-canaria-3-h--o50685",offers:[{id:"yumping-o50685",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-gran-canaria-3-h--o50685",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-gran-canaria-3-h--o50685",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Equipo completo de buceo","Instructor titulado","Material didáctico","Titulación al finalizar"],notes:"Bautismo de iniciación en Las Palmas de Gran Canaria. Yumping indica 3 horas, clase teórica, una inmersión en piscina climatizada de 1 hora y una segunda inmersión en mar de aproximadamente 1 hora; edad mínima de 10 años.",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:376,siteSlugs:["risco-verde"],
+    title:"Bautizo de Buceo en mar desde Risco Verde",destination:"Risco Verde",region:"Canarias",slug:"bautizo-de-buceo-en-mar-desde-risco-verde-376",
+    type:"Bautismo",level:"Inicial",duration:"5 horas aprox.",audience:"Personas interesadas en bautismo en Risco Verde",
+    tags:["Buceo","Canarias","Yumping","Risco Verde"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-mar-desde-risco-verde--o28628",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-mar-desde-risco-verde--o28628",offers:[{id:"yumping-o28628",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-mar-desde-risco-verde--o28628",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-mar-desde-risco-verde--o28628",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Clase teórica de unos 40 minutos","Equipo completo","Instructor experto","Seguro de Responsabilidad Civil y Accidentes"],notes:"Bautismo desde Risco Verde. Yumping indica una clase teórica de unos 40 minutos antes de la inmersión y exige certificado médico; los horarios varían entre invierno y verano.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:377,siteSlugs:["las-canteras"],
+    title:"Curso buceo PADI Advanced Open Water",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"curso-buceo-padi-advanced-open-water-377",
+    type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Personas interesadas en curso en Las Palmas de Gran Canaria",
+    tags:["Buceo","Canarias","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-padi-advanced-open-water--o38739",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-padi-advanced-open-water--o38739",offers:[{id:"yumping-o38739",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-padi-advanced-open-water--o38739",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-padi-advanced-open-water--o38739",priceFrom:345,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:15,included:["Certificado oficial PADI Advanced Open Water","Monitores titulados","Cinco inmersiones","Matrícula del curso","Equipo de buceo completo"],notes:"Curso PADI Advanced Open Water en Gran Canaria. Yumping indica 5 inmersiones: profundidad y navegación obligatorias y tres de elección; requiere Open Water o equivalente y declaración médica.",priceFrom:345,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:378,siteSlugs:["las-canteras"],
+    title:"Curso PADI Rescue Diver + Emergency First Response",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"curso-padi-rescue-diver-emergency-first-response-378",
+    type:"Curso",level:"Avanzado",duration:"3 días aprox.",audience:"Personas interesadas en curso en Las Palmas de Gran Canaria",
+    tags:["Buceo","Canarias","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-padi-rescate-y-primeros-auxilios--o38740",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-padi-rescate-y-primeros-auxilios--o38740",offers:[{id:"yumping-o38740",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-padi-rescate-y-primeros-auxilios--o38740",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-padi-rescate-y-primeros-auxilios--o38740",priceFrom:399,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:15,included:["Certificado oficial PADI Rescue Diver + EFR","Monitores titulados","Equipo de buceo","Curso EFR","Matrícula","Tasas de certificación"],notes:"Curso PADI Rescue Diver + Emergency First Response. La ficha indica unos 3 días, formación para responder a emergencias y requisito de Advanced Open Water o equivalente; edad mínima 15 años, 12 para Junior.",priceFrom:399,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:379,siteSlugs:["las-canteras"],
+    title:"PADI Open Water en Las Palmas 3 días",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"padi-open-water-en-las-palmas-3-dias-379",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas interesadas en curso en Las Palmas de Gran Canaria",
+    tags:["Buceo","Canarias","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/padi-open-water-en-las-palmas-3-dias--o38735",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/padi-open-water-en-las-palmas-3-dias--o38735",offers:[{id:"yumping-o38735",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/padi-open-water-en-las-palmas-3-dias--o38735",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/padi-open-water-en-las-palmas-3-dias--o38735",priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Seguros","Monitores profesionales","Material completo","Certificado oficial PADI Open Water Diver","Matrícula"],notes:"Curso PADI Open Water Diver de 3 días en Las Palmas. Yumping indica clases teóricas y prácticas, transporte desde el alojamiento y edad mínima de 10 años con acompañamiento adulto para menores.",priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:380,siteSlugs:["las-canteras"],
+    title:"Curso Advance Open Water Diver, Gran Canaria",destination:"Las Palmas de Gran Canaria",region:"Canarias",slug:"curso-advance-open-water-diver-gran-canaria-380",
+    type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Personas interesadas en curso en Las Palmas de Gran Canaria",
+    tags:["Buceo","Canarias","Yumping","Las Palmas de Gran Canaria"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advance-open-water-diver-gran-canaria--o22549",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advance-open-water-diver-gran-canaria--o22549",offers:[{id:"yumping-o22549",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advance-open-water-diver-gran-canaria--o22549",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advance-open-water-diver-gran-canaria--o22549",priceFrom:300,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Clases teóricas y prácticas","Manuales del curso","Certificación","Transporte"],notes:"Curso Advanced Open Water en Las Palmas. Yumping indica cinco inmersiones especiales: dos obligatorias y tres a elegir. Incluye teoría, manuales, certificación y transporte; no incluye equipo.",priceFrom:300,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:381,siteSlugs:["arinaga"],
+    title:"Bono 10 inmersiones",destination:"Arinaga",region:"Canarias",slug:"bono-10-inmersiones-381",
+    type:"Fun Dive",level:"Intermedio",duration:"Duración variable",audience:"Personas interesadas en fun dive en Arinaga",
+    tags:["Buceo","Canarias","Yumping","Arinaga"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bono-10-inmersiones--o28756",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bono-10-inmersiones--o28756",offers:[{id:"yumping-o28756",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/bono-10-inmersiones--o28756",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bono-10-inmersiones--o28756",priceFrom:280,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["10 inmersiones desde costa","Equipo completo con botella y plomos","Guía profesional","Seguros"],notes:"Bono de 10 inmersiones en Arinaga con una inmersión adicional gratuita. Yumping indica que está dirigido a titulados PADI o equivalente, con equipo completo, botella y plomos, y elección del punto según las condiciones del mar.",priceFrom:280,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:382,siteSlugs:["arinaga"],
+    title:"Inmersión desde costa en Gran Canaria titulados",destination:"Arinaga",region:"Canarias",slug:"inmersion-desde-costa-en-gran-canaria-titulados-382",
+    type:"Fun Dive",level:"Intermedio",duration:"2 horas por inmersión",audience:"Personas interesadas en fun dive en Arinaga",
+    tags:["Buceo","Canarias","Yumping","Arinaga"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-desde-costa-en-gran-canaria-titulados--o28703",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-desde-costa-en-gran-canaria-titulados--o28703",offers:[{id:"yumping-o28703",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-desde-costa-en-gran-canaria-titulados--o28703",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-desde-costa-en-gran-canaria-titulados--o28703",priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Servicio de guía","Botella","Plomos"],notes:"Salidas de buceo desde costa para personas con titulación PADI o similar. Yumping indica aproximadamente 2 horas para una inmersión y 5 horas para dos, con guía, botella y plomos incluidos. Los puntos habituales incluyen El Cabrón, Tufia y Sardina del Norte.",priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:383,siteSlugs:["las-canteras"],
+    title:"Snorkel en Playa de las Canteras 2 horas",destination:"Las Canteras",region:"Canarias",slug:"snorkel-en-playa-de-las-canteras-2-horas-383",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Las Canteras",
+    tags:["Buceo","Canarias","Yumping","Las Canteras"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",offers:[{id:"yumping-o64224",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Transporte desde las instalaciones","Guía","Material de snorkel"],notes:"Ruta de snorkel guiada en Playa de Las Canteras. Yumping indica unas 2 horas, transporte desde las instalaciones hasta la zona y grupos de 2–5 personas.",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
