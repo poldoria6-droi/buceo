@@ -897,7 +897,7 @@ export const activities:Activity[]=[
     sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",
     offers:[{id:"yumping-o65447",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",priceFrom:600,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     minAge:12,included:["Teoría","Prácticas de rescate","Primeros auxilios","Instructor"]
-  }
+  },
 
   {
     id:167,siteSlugs:["cala-montgo"],
@@ -1306,7 +1306,7 @@ export const activities:Activity[]=[
     offers:[{id:"yumping-o60551",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-iniciacion-al-buceo-4-dias-en-costa-brava--o60551",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-iniciacion-al-buceo-4-dias-en-costa-brava--o60551",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     included:["4 inmersiones","Playa y mar abierto","Instructor"],
     notes:"Curso de 4 jornadas que pueden repartirse según disponibilidad del participante."
-  }
+  },
 
   {
     id:198,siteSlugs:["cabo-palos-reserva"],
