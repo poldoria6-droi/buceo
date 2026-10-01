@@ -165,6 +165,31 @@ export const activities:Activity[]=[
   },
 
   {
+    id:116,siteSlugs:["arrecife-sirenas"],
+    title:"Inmersión de buceo nocturna en Cabo de Gata",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"inmersion-buceo-nocturna-cabo-de-gata-68414",
+    type:"Fun Dive",level:"Intermedio",duration:"40–60 min",audience:"Buceadores con licencia Open Water Diver",
+    tags:["Nocturna","Cabo de Gata","Reserva marina","Barca","Divemaster"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-nocturna-en-cabo-de-gata--o68414?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-nocturna-en-cabo-de-gata--o68414",
+    offers:[{
+      id:"yumping-o68414",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-nocturna-en-cabo-de-gata--o68414?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-nocturna-en-cabo-de-gata--o68414",
+      priceFrom:90,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01",
+      notes:"Yumping muestra un precio desde 90 €. Mínimo 5 personas; se requiere licencia y seguro médico. El foco no está incluido."
+    }],
+    included:["Instructores profesionales","Barca hasta el punto de inmersión"],
+    maxDepth:undefined,
+    cancellation:"Las reservas con fecha fija no son reembolsables salvo mal tiempo o incidencias del proveedor.",
+    notes:"Salida nocturna a partir de las 20:00 en la reserva marina de Cabo de Gata. Yumping indica calendario con disponibilidad en tiempo real."
+  },
+
+  {
     id:115,siteSlugs:["ametlla-mar"],
     title:"Bautizo de buceo en L'Ametlla de Mar",
     destination:"L'Ametlla de Mar",region:"Costa Daurada",slug:"bautizo-buceo-l-ametlla-de-mar-64566",
