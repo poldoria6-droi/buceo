@@ -3286,14 +3286,7 @@ export const activities:Activity[]=[
     providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/ssi-open-water-diver-tenerife-sur--o56714",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/ssi-open-water-diver-tenerife-sur--o56714",offers:[{id:"yumping-o56714",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/ssi-open-water-diver-tenerife-sur--o56714",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/ssi-open-water-diver-tenerife-sur--o56714",priceFrom:370,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     notes:"Curso SSI Open Water Diver en el sur de Tenerife. Precio actual mostrado por Yumping: 370 €.",priceFrom:370,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
-  {
-    id:389,siteSlugs:["el-medano"],
-    title:"2 inmersiones en el Pecio de Taibada de 3 horas",destination:"El Médano",region:"Canarias",slug:"2-inmersiones-en-el-pecio-de-taibada-de-3-horas-389",
-    type:"Pecio",level:"Intermedio",duration:"3 horas",audience:"Personas interesadas en pecio en El Médano",
-    tags:["Buceo","Canarias","Yumping","El Médano"],bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"",sourceUrl:"",offers:[{id:"yumping-o",provider:"Yumping",url:"",sourceUrl:"",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    notes:"Yumping muestra esta experiencia a 95 € en la categoría actual de Tenerife. Se realiza en el entorno de El Médano y está enfocada a dos inmersiones en el pecio de Taibada.",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
-  },
+
   {
     id:392,siteSlugs:["el-medano"],
     title:"Curso SSI Scuba Diver en el Médano",destination:"El Médano",region:"Canarias",slug:"curso-ssi-scuba-diver-en-el-medano-392",
