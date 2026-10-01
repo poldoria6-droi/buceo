@@ -2,7 +2,7 @@ import type { Activity } from "./activities";
 
 export const yumpingBatch5: Activity[] = [
   {
-    id:519,siteSlugs:["cabo-tinoso"],
+    id:536,siteSlugs:["cabo-tinoso"],
     title:"Bautismo de buceo en Cabo de Palos, hasta 6 metros",
     destination:"Cabo de Palos",region:"Murcia",slug:"bautismo-buceo-cabo-de-palos-28355",
     type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
@@ -15,7 +15,7 @@ export const yumpingBatch5: Activity[] = [
     notes:"Bautismo de aproximadamente 3 horas en el entorno de Cabo de Palos/La Manga. Yumping indica una profundidad de hasta 6 metros."
   },
   {
-    id:520,siteSlugs:["maspalomas-buceo"],
+    id:537,siteSlugs:["maspalomas-buceo"],
     title:"Curso Scuba Diver en Canarias",
     destination:"Maspalomas",region:"Canarias",slug:"curso-scuba-diver-canarias-40455",
     type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas que quieren una primera certificación de buceo",
@@ -29,7 +29,7 @@ export const yumpingBatch5: Activity[] = [
     notes:"Curso de 3 días en Gran Canaria con práctica en piscina y mar abierto. Yumping muestra un precio desde 300 €."
   },
   {
-    id:521,siteSlugs:["maspalomas-buceo"],
+    id:538,siteSlugs:["maspalomas-buceo"],
     title:"Curso PADI Nitrox en Maspalomas",
     destination:"Maspalomas",region:"Canarias",slug:"curso-padi-nitrox-maspalomas-40553",
     type:"Curso",level:"Avanzado",duration:"2 días",audience:"Buceadores titulados que quieren especializarse en Nitrox",
@@ -42,7 +42,7 @@ export const yumpingBatch5: Activity[] = [
     notes:"Especialidad Nitrox PADI en Maspalomas. Yumping indica una duración de 2 días y un precio desde 150 €."
   },
   {
-    id:522,siteSlugs:["parque-atlantida"],
+    id:539,siteSlugs:["parque-atlantida"],
     title:"Dos inmersiones en el Parque de la Atlántida y pecios de Mogán",
     destination:"Gran Canaria",region:"Canarias",slug:"doble-inmersion-atlantida-pecios-mogan-64185",
     type:"Pecio",level:"Intermedio",duration:"5 horas aprox.",audience:"Buceadores certificados",
