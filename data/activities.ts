@@ -165,6 +165,28 @@ export const activities:Activity[]=[
   },
 
   {
+    id:115,siteSlugs:["ametlla-mar"],
+    title:"Bautizo de buceo en L'Ametlla de Mar",
+    destination:"L'Ametlla de Mar",region:"Costa Daurada",slug:"bautizo-buceo-l-ametlla-de-mar-64566",
+    type:"Bautismo",level:"Inicial",duration:"1 h 30 min",audience:"Primera experiencia",
+    tags:["Bautismo","L'Ametlla de Mar","Equipo incluido","Instructor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-l-ametlla-de-mar-90-minutos--o64566?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-l-ametlla-de-mar-90-minutos--o64566",
+    offers:[{
+      id:"yumping-o64566",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-l-ametlla-de-mar-90-minutos--o64566?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-l-ametlla-de-mar-90-minutos--o64566",
+      priceFrom:59,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01"
+    }],
+    included:["Instructor","Equipo de buceo"],
+    notes:"Actividad de iniciación de 90 minutos en L'Ametlla de Mar."
+  },
+
+  {
     id:114,siteSlugs:["punta-marroqui-tarifa"],
     title:"2 inmersiones de buceo + botella y plomos en Tarifa",
     destination:"Tarifa",region:"Andalucía",slug:"2-inmersiones-buceo-botella-plomos-tarifa-53872",
