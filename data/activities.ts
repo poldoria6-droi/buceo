@@ -2734,6 +2734,254 @@ export const activities:Activity[]=[
     notes:"Bautismo realizado en La Marina de Valencia durante aproximadamente 2 horas, incluyendo preparación, instrucción e inmersión.",
     priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+  {
+    id:320,siteSlugs:["finisterre"],
+    title:"Bautismo de buceo en Finisterre",destination:"Finisterre",region:"Galicia",slug:"bautismo-de-buceo-en-finisterre-320",
+    type:"Bautismo",level:"Inicial",duration:"Durante el día",audience:"Personas interesadas en bautismo en Finisterre",
+    tags:["Buceo","Yumping","Finisterre"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/bautismo-de-buceo-en-finisterre--o507",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/bautismo-de-buceo-en-finisterre--o507",offers:[{id:"yumping-o507",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/bautismo-de-buceo-en-finisterre--o507",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/bautismo-de-buceo-en-finisterre--o507",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Material necesario","Instructor","Paseo en barco","Seguro de responsabilidad civil y accidentes"],notes:"Primera experiencia de buceo en Finisterre. Yumping indica una clase teórica previa, inmersión acompañada por instructores y paseo en barco por la ría de Corcubión.",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:321,siteSlugs:["finisterre"],
+    title:"Bautismo de Buceo en mar en Costa da Morte",destination:"Finisterre",region:"Galicia",slug:"bautismo-de-buceo-en-mar-en-costa-da-morte-321",
+    type:"Bautismo",level:"Inicial",duration:"2–3 horas",audience:"Personas interesadas en bautismo en Finisterre",
+    tags:["Buceo","Yumping","Finisterre"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-costa-da-morte--o55667",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-costa-da-morte--o55667",offers:[{id:"yumping-o55667",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-costa-da-morte--o55667",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-costa-da-morte--o55667",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"3–5 m",included:["Equipo de buceo completo","Traslado en barco","Ducha y vestuario"],notes:"Bautismo en el entorno de la Costa da Morte. La ficha indica entre 2 y 3 horas, traslado en barco desde el centro hasta la zona de buceo y una primera inmersión de 3–5 m.",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:322,siteSlugs:["finisterre"],
+    title:"Curso Padi Advanced Open Water Diver en Finisterre",destination:"Finisterre",region:"Galicia",slug:"curso-padi-advanced-open-water-diver-en-finisterre-322",
+    type:"Curso",level:"Avanzado",duration:"Varios días",audience:"Personas interesadas en curso en Finisterre",
+    tags:["Buceo","Yumping","Finisterre"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/acoruna/curso-padi-advanced-open-water-diver-en-finisterre--o505",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/curso-padi-advanced-open-water-diver-en-finisterre--o505",offers:[{id:"yumping-o505",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/acoruna/curso-padi-advanced-open-water-diver-en-finisterre--o505",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/curso-padi-advanced-open-water-diver-en-finisterre--o505",priceFrom:380,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Lecciones teóricas","Clases prácticas","Materiales","Instructor profesional","Seguro de responsabilidad civil y accidentes"],notes:"Curso PADI Advanced Open Water Diver en Finisterre. Incluye cinco módulos de teoría, prácticas y cuatro inmersiones en el mar; la ficha exige saber nadar y certificado médico.",priceFrom:380,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:323,siteSlugs:["finisterre"],
+    title:"Curso PADI Open Water Diver en Finisterre",destination:"Finisterre",region:"Galicia",slug:"curso-padi-open-water-diver-en-finisterre-323",
+    type:"Curso",level:"Inicial",duration:"Según formación",audience:"Personas interesadas en curso en Finisterre",
+    tags:["Buceo","Yumping","Finisterre"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-padi-open-water-diver-en-finisterre--o511",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-padi-open-water-diver-en-finisterre--o511",offers:[{id:"yumping-o511",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-padi-open-water-diver-en-finisterre--o511",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-padi-open-water-diver-en-finisterre--o511",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso PADI Open Water Diver en Finisterre. La oferta actual muestra un precio desde 420 €; la duración se adapta al proceso formativo.",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:324,siteSlugs:["isla-arousa"],
+    title:"Excursión de snorkel, isla de Arosa, media jornada",destination:"Isla de Arousa",region:"Galicia",slug:"excursion-de-snorkel-isla-de-arosa-media-jornada-324",
+    type:"Snorkel",level:"Inicial",duration:"Media jornada",audience:"Personas interesadas en snorkel en Isla de Arousa",
+    tags:["Buceo","Yumping","Isla de Arousa"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/excursion-de-snorkel-isla-de-arosa-media-jornada--o19836",sourceUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/excursion-de-snorkel-isla-de-arosa-media-jornada--o19836",offers:[{id:"yumping-o19836",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/pontevedra/excursion-de-snorkel-isla-de-arosa-media-jornada--o19836",sourceUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/excursion-de-snorkel-isla-de-arosa-media-jornada--o19836",priceFrom:20,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Material técnico","Sesión de snorkel","Seguros"],notes:"Sesión guiada de snorkel en la Isla de Arousa, con material técnico y seguros. La ficha también ofrece una variante de jornada completa.",priceFrom:20,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:325,siteSlugs:["isla-arousa"],
+    title:"Sesión de snorkel isla de Arosa, jornada completa",destination:"Isla de Arousa",region:"Galicia",slug:"sesion-de-snorkel-isla-de-arosa-jornada-completa-325",
+    type:"Snorkel",level:"Inicial",duration:"8 horas",audience:"Personas interesadas en snorkel en Isla de Arousa",
+    tags:["Buceo","Yumping","Isla de Arousa"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837",sourceUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837",offers:[{id:"yumping-o19837",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837",sourceUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837",priceFrom:25,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Material de snorkel","Sesión guiada","Seguros"],notes:"Variante de jornada completa de la actividad de snorkel en la Isla de Arousa, con material y orientación para conocer los fondos del entorno del Islote de Areoso.",priceFrom:25,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:326,siteSlugs:["foz"],
+    title:"Bautismo de buceo doble en el mar en Foz",destination:"Foz",region:"Galicia",slug:"bautismo-de-buceo-doble-en-el-mar-en-foz-326",
+    type:"Bautismo",level:"Inicial",duration:"1 hora de inmersión aprox.",audience:"Personas interesadas en bautismo en Foz",
+    tags:["Buceo","Yumping","Foz"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lugo/descubrimiento-del-buceo-en-la-ria-de-viveiro--o53324",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/descubrimiento-del-buceo-en-la-ria-de-viveiro--o53324",offers:[{id:"yumping-o53324",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lugo/descubrimiento-del-buceo-en-la-ria-de-viveiro--o53324",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/descubrimiento-del-buceo-en-la-ria-de-viveiro--o53324",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,notes:"Bautismo doble en Foz: una inmersión en aguas confinadas y otra en el mar. Yumping indica aproximadamente 1 hora de inmersión en el mar y edad mínima de 16 años.",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:327,siteSlugs:["foz"],
+    title:"Curso de buceo PADI Open Water Diver en Foz",destination:"Foz",region:"Galicia",slug:"curso-de-buceo-padi-open-water-diver-en-foz-327",
+    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Foz",
+    tags:["Buceo","Yumping","Foz"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lugo/curso-de-buceo-open-water-diver-en-viveiro--o53325",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/curso-de-buceo-open-water-diver-en-viveiro--o53325",offers:[{id:"yumping-o53325",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lugo/curso-de-buceo-open-water-diver-en-viveiro--o53325",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/curso-de-buceo-open-water-diver-en-viveiro--o53325",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,included:["Material didáctico","Seguro de buceo obligatorio","Equipo de buceo","Salidas en barco"],notes:"Curso PADI Open Water Diver en Foz. La ficha indica 4 días, 5 módulos teóricos, una sesión en aguas confinadas y cuatro sesiones en aguas abiertas. Requiere saber nadar, mínimo 12 años, certificado médico y 2 fotos de carné.",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:328,siteSlugs:["foz"],
+    title:"Salida de buceo en Ollo do Mar, 1 hora",destination:"Foz",region:"Galicia",slug:"salida-de-buceo-en-ollo-do-mar-1-hora-328",
+    type:"Fun Dive",level:"Intermedio",duration:"50–60 minutos aprox.",audience:"Personas interesadas en fun dive en Foz",
+    tags:["Buceo","Yumping","Foz"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lugo/salidas-de-buceo-en-la-ria-de-viveiro-titulados--o53327",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/salidas-de-buceo-en-la-ria-de-viveiro-titulados--o53327",offers:[{id:"yumping-o53327",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lugo/salidas-de-buceo-en-la-ria-de-viveiro-titulados--o53327",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/salidas-de-buceo-en-la-ria-de-viveiro-titulados--o53327",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Salida de buceo en barco","Botella","Lastre","Uso de duchas y vestuario"],notes:"Salida en embarcación para buceadores titulados, con inmersión en Ollo do Mar. Yumping exige Open Water o Buceador 1 Estrella y seguro de buceo en vigor.",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:329,siteSlugs:["foz"],
+    title:"Cinco inmersiones de buceo en Foz con monitor 1 h",destination:"Foz",region:"Galicia",slug:"cinco-inmersiones-de-buceo-en-foz-con-monitor-1-h-329",
+    type:"Fun Dive",level:"Intermedio",duration:"5 × 60 minutos aprox.",audience:"Personas interesadas en fun dive en Foz",
+    tags:["Buceo","Yumping","Foz"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lugo/cinco-inmersiones-de-buceo-en-foz-con-monitor-1-h--o42327",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/cinco-inmersiones-de-buceo-en-foz-con-monitor-1-h--o42327",offers:[{id:"yumping-o42327",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lugo/cinco-inmersiones-de-buceo-en-foz-con-monitor-1-h--o42327",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/cinco-inmersiones-de-buceo-en-foz-con-monitor-1-h--o42327",priceFrom:175,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:7,notes:"Bono de cinco inmersiones de aproximadamente una hora cada una en Foz y alrededores. Yumping indica capacidad de 1–8 personas y edad mínima de 7 años.",priceFrom:175,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:330,siteSlugs:["foz"],
+    title:"Ruta guiada de snorkel con lancha ría de Foz 2 h",destination:"Foz",region:"Galicia",slug:"ruta-guiada-de-snorkel-con-lancha-ria-de-foz-2-h-330",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Foz",
+    tags:["Buceo","Yumping","Foz"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lugo/ruta-guiada-de-snorkel-con-lancha-ria-de-foz-2-h--o42326",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/ruta-guiada-de-snorkel-con-lancha-ria-de-foz-2-h--o42326",offers:[{id:"yumping-o42326",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lugo/ruta-guiada-de-snorkel-con-lancha-ria-de-foz-2-h--o42326",sourceUrl:"https://www.yumping.com/ofertas/buceo/lugo/ruta-guiada-de-snorkel-con-lancha-ria-de-foz-2-h--o42326",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Lancha","Material de snorkel","Guía"],notes:"Ruta guiada de snorkel de unas 2 horas por la Ría de Foz desde lancha. La actividad está guiada por biólogos marinos y proporciona el material necesario.",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:331,siteSlugs:["a-coruna"],
+    title:"Bautismo de buceo en mar en A Coruña",destination:"A Coruña",region:"Galicia",slug:"bautismo-de-buceo-en-mar-en-a-coruna-331",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en A Coruña",
+    tags:["Buceo","Yumping","A Coruña"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-a-coruna--o15307",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-a-coruna--o15307",offers:[{id:"yumping-o15307",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-a-coruna--o15307",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-a-coruna--o15307",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Material técnico","Instructor profesional","Seguros","Salida en embarcación"],notes:"Primera experiencia de buceo en A Coruña con explicación previa, salida en embarcación e instructor. Yumping indica una duración total de 3 horas.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:332,siteSlugs:["a-coruna"],
+    title:"Discover Scuba Diving en Puerto de A Coruña, 3h",destination:"A Coruña",region:"Galicia",slug:"discover-scuba-diving-en-puerto-de-a-coruna-3h-332",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en A Coruña",
+    tags:["Buceo","Yumping","A Coruña"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-puerto-de-a-coruna-3h--o85250",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-puerto-de-a-coruna-3h--o85250",offers:[{id:"yumping-o85250",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-puerto-de-a-coruna-3h--o85250",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-puerto-de-a-coruna-3h--o85250",priceFrom:125,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,notes:"Programa Discover Scuba Diving en el Puerto de A Coruña. La ficha indica una duración aproximada de 3 horas, edad mínima de 16 años, equipación y briefing previo.",priceFrom:125,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:333,siteSlugs:["a-coruna"],
+    title:"PADI Open Water Diver, Marinaseca",destination:"A Coruña",region:"Galicia",slug:"padi-open-water-diver-marinaseca-333",
+    type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en A Coruña",
+    tags:["Buceo","Yumping","A Coruña"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/acoruna/padi-open-water-diver-marinaseca--o28887",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/padi-open-water-diver-marinaseca--o28887",offers:[{id:"yumping-o28887",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/acoruna/padi-open-water-diver-marinaseca--o28887",sourceUrl:"https://www.yumping.com/ofertas/buceo/acoruna/padi-open-water-diver-marinaseca--o28887",priceFrom:380,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,maxDepth:"18 m",included:["Certificación PADI Open Water Diver","Material de buceo","Material didáctico","Seguros obligatorios","Acceso a piscina climatizada","Salidas en barco","Grupos reducidos de máximo 4 personas","IVA"],notes:"Curso PADI Open Water Diver en Marinaseca. Yumping indica 4–5 días, al menos 5 inmersiones en piscina y 4 inmersiones en mar hasta 18 m. Requiere al menos 16 años y reconocimiento médico.",priceFrom:380,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:334,siteSlugs:["a-coruna"],
+    title:"Curso Advanced Open Water de buceo en A Coruña",destination:"A Coruña",region:"Galicia",slug:"curso-advanced-open-water-de-buceo-en-a-coruna-334",
+    type:"Curso",level:"Avanzado",duration:"5–6 días",audience:"Personas interesadas en curso en A Coruña",
+    tags:["Buceo","Yumping","A Coruña"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-advanced-open-water-de-buceo-en-a-coruna--o33250",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-advanced-open-water-de-buceo-en-a-coruna--o33250",offers:[{id:"yumping-o33250",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-advanced-open-water-de-buceo-en-a-coruna--o33250",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-advanced-open-water-de-buceo-en-a-coruna--o33250",priceFrom:280,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["5 inmersiones de aventura","Formación teórica y práctica"],notes:"Curso Advanced certificado por PADI en A Coruña. La ficha indica una duración de 5–6 días y cinco inmersiones de aventura a elegir.",priceFrom:280,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:335,siteSlugs:["gijon-musel"],
+    title:"Bautismo de buceo en mar, Puerto del Musel, 1h30m",destination:"Gijón",region:"Asturias",slug:"bautismo-de-buceo-en-mar-puerto-del-musel-1h30m-335",
+    type:"Bautismo",level:"Inicial",duration:"1 h 30 min",audience:"Personas interesadas en bautismo en Gijón",
+    tags:["Buceo","Yumping","Gijón"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/asturias/bautismo-en-piscina-discover-scuba-diving-candas--o57621",sourceUrl:"https://www.yumping.com/ofertas/buceo/asturias/bautismo-en-piscina-discover-scuba-diving-candas--o57621",offers:[{id:"yumping-o57621",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/asturias/bautismo-en-piscina-discover-scuba-diving-candas--o57621",sourceUrl:"https://www.yumping.com/ofertas/buceo/asturias/bautismo-en-piscina-discover-scuba-diving-candas--o57621",priceFrom:35,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:8,notes:"Bautismo de buceo en el Puerto del Musel, Gijón. Yumping indica 1 h 30 min de duración y edad mínima de 8 años; la actividad se realiza en el Muelle del Rendiello.",priceFrom:35,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:336,siteSlugs:["gijon-musel"],
+    title:"Bautismo buceo desde barco, Puerto Deportivo Gijón",destination:"Gijón",region:"Asturias",slug:"bautismo-buceo-desde-barco-puerto-deportivo-gijon-336",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Gijón",
+    tags:["Buceo","Yumping","Gijón"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/asturias/bautismo-de-buceo-desde-barco-en-gijon--o57409",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/asturias/bautismo-de-buceo-desde-barco-en-gijon--o57409",offers:[{id:"yumping-o57409",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/asturias/bautismo-de-buceo-desde-barco-en-gijon--o57409",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/asturias/bautismo-de-buceo-desde-barco-en-gijon--o57409",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Instructor","Charla teórica","Material necesario","Desplazamiento en barco","Cuota de socio","Seguro"],notes:"Bautismo desde barco en Gijón. La ficha indica unas 2 horas, edad mínima de 10 años, charla previa, equipo, desplazamiento en barco y supervisión de instructor.",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:337,siteSlugs:["gijon-musel"],
+    title:"Curso FEDAS 1 estrella, Puerto de El Musel, 4 días",destination:"Gijón",region:"Asturias",slug:"curso-fedas-1-estrella-puerto-de-el-musel-4-dias-337",
+    type:"Curso",level:"Inicial",duration:"3–4 días",audience:"Personas interesadas en curso en Gijón",
+    tags:["Buceo","Yumping","Gijón"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/asturias/curso-padi-scuba-diver-en-el-cantabrico-candas--o57622",sourceUrl:"https://www.yumping.com/ofertas/buceo/asturias/curso-padi-scuba-diver-en-el-cantabrico-candas--o57622",offers:[{id:"yumping-o57622",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/asturias/curso-padi-scuba-diver-en-el-cantabrico-candas--o57622",sourceUrl:"https://www.yumping.com/ofertas/buceo/asturias/curso-padi-scuba-diver-en-el-cantabrico-candas--o57622",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:14,included:["Material didáctico","Inmersiones","Clases teóricas y prácticas","Equipo de buceo","Seguro"],notes:"Curso FEDAS 1 Estrella en Gijón. Yumping indica 3–4 días, edad mínima de 14 años, certificado médico y clases teóricas y prácticas.",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:338,siteSlugs:["gijon-musel"],
+    title:"Inmersión de buceo desde Puerto Musel con equipo",destination:"Gijón",region:"Asturias",slug:"inmersion-de-buceo-desde-puerto-musel-con-equipo-338",
+    type:"Fun Dive",level:"Intermedio",duration:"40–60 minutos",audience:"Personas interesadas en fun dive en Gijón",
+    tags:["Buceo","Yumping","Gijón"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/asturias/inmersion-de-buceo-desde-puerto-musel-con-equipo--o89112",sourceUrl:"https://www.yumping.com/ofertas/buceo/asturias/inmersion-de-buceo-desde-puerto-musel-con-equipo--o89112",offers:[{id:"yumping-o89112",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/asturias/inmersion-de-buceo-desde-puerto-musel-con-equipo--o89112",sourceUrl:"https://www.yumping.com/ofertas/buceo/asturias/inmersion-de-buceo-desde-puerto-musel-con-equipo--o89112",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Monitor","Explicaciones","Equipo completo de buceo"],notes:"Inmersión para buceadores titulados desde el Puerto de El Musel. La ficha indica 40–60 minutos, equipo completo incluido y requisito mínimo B1E/PADI Open Water y seguro/licencia vigente.",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:339,siteSlugs:["gijon-musel"],
+    title:"Curso FEDAS 2 estrellas Puerto de El Musel, 4 días",destination:"Gijón",region:"Asturias",slug:"curso-fedas-2-estrellas-puerto-de-el-musel-4-dias-339",
+    type:"Curso",level:"Avanzado",duration:"3–4 días",audience:"Personas interesadas en curso en Gijón",
+    tags:["Buceo","Yumping","Gijón"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/asturias/curso-buceo-advanced-open-water-padi-en-candas--o57625",sourceUrl:"https://www.yumping.com/ofertas/buceo/asturias/curso-buceo-advanced-open-water-padi-en-candas--o57625",offers:[{id:"yumping-o57625",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/asturias/curso-buceo-advanced-open-water-padi-en-candas--o57625",sourceUrl:"https://www.yumping.com/ofertas/buceo/asturias/curso-buceo-advanced-open-water-padi-en-candas--o57625",priceFrom:400,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,included:["Material didáctico","Equipo completo","Clases teóricas y prácticas","Embarcación","Titulación FEDAS-CMAS 2 estrellas"],notes:"Curso FEDAS-CMAS 2 Estrellas + especialidad SVB/RCP. Yumping indica 3–4 días, edad mínima de 16 años y requisito de B1E + 20 inmersiones registradas.",priceFrom:400,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:340,siteSlugs:["isla-mouro"],
+    title:"Bautismo buceo en la Isla de Mouro, 3h",destination:"Santander",region:"Cantabria",slug:"bautismo-buceo-en-la-isla-de-mouro-3h-340",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Santander",
+    tags:["Buceo","Yumping","Santander"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautismo-de-buceo-en-la-isla-de-mouro--o12609",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautismo-de-buceo-en-la-isla-de-mouro--o12609",offers:[{id:"yumping-o12609",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/bautismo-de-buceo-en-la-isla-de-mouro--o12609",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautismo-de-buceo-en-la-isla-de-mouro--o12609",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,included:["Equipo autónomo completo","Instructor titulado","Traslado en barco","Seguro de accidentes y responsabilidad civil"],notes:"Bautismo en la Reserva Marina de la Isla de Mouro, en la Bahía de Santander. Yumping indica 3 horas, edad mínima de 12 años, saber nadar y traslado en barco; si el tiempo no permite ir a Mouro, se realiza en Isla de la Torre.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:341,siteSlugs:["isla-mouro"],
+    title:"Snorkel en la Isla de Mouro",destination:"Santander",region:"Cantabria",slug:"snorkel-en-la-isla-de-mouro-341",
+    type:"Snorkel",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en snorkel en Santander",
+    tags:["Buceo","Yumping","Santander"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-la-isla-de-mouro--o43837",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-la-isla-de-mouro--o43837",offers:[{id:"yumping-o43837",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-la-isla-de-mouro--o43837",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-la-isla-de-mouro--o43837",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Actividad de snorkel en la Isla de Mouro. Yumping indica unas 3 horas de duración y material de superficie; la oferta consultada tiene una valoración publicada de una opinión.",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:342,siteSlugs:["castro-urdiales"],
+    title:"Bautismo de buceo desde rampa de San Guillén 2.5 h",destination:"Castro Urdiales",region:"Cantabria",slug:"bautismo-de-buceo-desde-rampa-de-san-guillen-2-5-h-342",
+    type:"Bautismo",level:"Inicial",duration:"2,5 horas",audience:"Personas interesadas en bautismo en Castro Urdiales",
+    tags:["Buceo","Yumping","Castro Urdiales"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/cantabria/bautismo-de-buceo-desde-rampa-de-san-guillen-2-5-h--o70009",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/cantabria/bautismo-de-buceo-desde-rampa-de-san-guillen-2-5-h--o70009",offers:[{id:"yumping-o70009",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/cantabria/bautismo-de-buceo-desde-rampa-de-san-guillen-2-5-h--o70009",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/cantabria/bautismo-de-buceo-desde-rampa-de-san-guillen-2-5-h--o70009",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:14,notes:"Bautismo desde la rampa de San Guillén. La ficha indica 2,5 horas totales, 40 minutos de inmersión en el mar, edad mínima de 14 años y material incluido.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:343,siteSlugs:["castro-urdiales"],
+    title:"Inmersión de buceo por el carguero de Saltacaballo",destination:"Castro Urdiales",region:"Cantabria",slug:"inmersion-de-buceo-por-el-carguero-de-saltacaballo-343",
+    type:"Pecio",level:"Intermedio",duration:"3 h 30 min",audience:"Personas interesadas en pecio en Castro Urdiales",
+    tags:["Buceo","Yumping","Castro Urdiales"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-carguero-de-saltacaballo--o70020",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-carguero-de-saltacaballo--o70020",offers:[{id:"yumping-o70020",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-carguero-de-saltacaballo--o70020",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-carguero-de-saltacaballo--o70020",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Equipo de buceo","Embarcación semirrígida"],notes:"Inmersión desde embarcación en los restos del carguero de Saltacaballo. Yumping indica unas 3 horas y media, salida desde el muelle de Castro Urdiales y equipo proporcionado por el centro.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:344,siteSlugs:["castro-urdiales"],
+    title:"Inmersión de buceo bajo el castillo de C.Urdiales",destination:"Castro Urdiales",region:"Cantabria",slug:"inmersion-de-buceo-bajo-el-castillo-de-c-urdiales-344",
+    type:"Pecio",level:"Intermedio",duration:"3 h 30 min aprox.",audience:"Personas interesadas en pecio en Castro Urdiales",
+    tags:["Buceo","Yumping","Castro Urdiales"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/cantabria/inmersion-de-buceo-bajo-el-castillo-de-c-urdiales--o70016",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/cantabria/inmersion-de-buceo-bajo-el-castillo-de-c-urdiales--o70016",offers:[{id:"yumping-o70016",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/cantabria/inmersion-de-buceo-bajo-el-castillo-de-c-urdiales--o70016",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/cantabria/inmersion-de-buceo-bajo-el-castillo-de-c-urdiales--o70016",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Briefing","Instructor titulado","Equipo de buceo","Barco","Seguros"],notes:"Inmersión en barco bajo el castillo de Castro Urdiales, donde se observan restos de cañones. La ficha indica unas 3,5 horas y exige titulación y reconocimiento médico en regla.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:345,siteSlugs:["castro-urdiales"],
+    title:"Inmersión de buceo por el cantil de Las Anclas 3 h",destination:"Castro Urdiales",region:"Cantabria",slug:"inmersion-de-buceo-por-el-cantil-de-las-anclas-3-h-345",
+    type:"Fun Dive",level:"Avanzado",duration:"3 h 30 min",audience:"Personas interesadas en fun dive en Castro Urdiales",
+    tags:["Buceo","Yumping","Castro Urdiales"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-cantil-de-las-anclas-3-h--o70031",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-cantil-de-las-anclas-3-h--o70031",offers:[{id:"yumping-o70031",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-cantil-de-las-anclas-3-h--o70031",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-cantil-de-las-anclas-3-h--o70031",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"39 m",included:["Monitor titulado","Briefing","Material de buceo","Barco","Seguros"],notes:"Inmersión por un cantil rocoso con dos antiguas anclas. Yumping indica alrededor de 39 m de profundidad y exige titulación B2E; incluye monitor, briefing, material y barco.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:346,siteSlugs:["castro-urdiales"],
+    title:"Snorkel en Castro-Urdiales desde embarcación 2h",destination:"Castro Urdiales",region:"Cantabria",slug:"snorkel-en-castro-urdiales-desde-embarcacion-2h-346",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Castro Urdiales",
+    tags:["Buceo","Yumping","Castro Urdiales"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-castro-urdiales-desde-embarcacion-2h--o74685",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-castro-urdiales-desde-embarcacion-2h--o74685",offers:[{id:"yumping-o74685",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-castro-urdiales-desde-embarcacion-2h--o74685",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-castro-urdiales-desde-embarcacion-2h--o74685",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:14,included:["Equipo","Instructor","Embarcación"],notes:"Snorkel desde embarcación en Castro Urdiales. Yumping indica 2 horas, edad mínima de 14 años y un máximo de 8 personas por salida.",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:347,siteSlugs:["miengo"],
+    title:"Bautizo de buceo en piscina Miengo 1h 30 min",destination:"Miengo",region:"Cantabria",slug:"bautizo-de-buceo-en-piscina-miengo-1h-30-min-347",
+    type:"Bautismo",level:"Inicial",duration:"1 h 30 min",audience:"Personas interesadas en bautismo en Miengo",
+    tags:["Buceo","Yumping","Miengo"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautizo-de-buceo-en-piscina-miengo-1h-30-min--o62672",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautizo-de-buceo-en-piscina-miengo-1h-30-min--o62672",offers:[{id:"yumping-o62672",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/bautizo-de-buceo-en-piscina-miengo-1h-30-min--o62672",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/bautizo-de-buceo-en-piscina-miengo-1h-30-min--o62672",priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Bautismo en piscina","Briefing","Inmersión controlada","Instructor profesional","Material de buceo"],notes:"Bautismo de buceo en piscina en Miengo. La ficha indica aproximadamente 1 hora y media, briefing, inmersión controlada en aguas confinadas y un mínimo de 3 personas por grupo.",priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:348,siteSlugs:["miengo"],
+    title:"Curso de buceo Advanced Open Water Diver Polanco",destination:"Miengo",region:"Cantabria",slug:"curso-de-buceo-advanced-open-water-diver-polanco-348",
+    type:"Curso",level:"Avanzado",duration:"4 días",audience:"Personas interesadas en curso en Miengo",
+    tags:["Buceo","Yumping","Miengo"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-advanced-open-water-diver-polanco--o62342",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-advanced-open-water-diver-polanco--o62342",offers:[{id:"yumping-o62342",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-advanced-open-water-diver-polanco--o62342",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-advanced-open-water-diver-polanco--o62342",priceFrom:300,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Curso Advanced Open Water Diver","Instructor profesional","Material didáctico","4 inmersiones en el mar","Seguro","Equipación completa"],notes:"Curso Advanced Open Water Diver en Miengo. Yumping indica 4 días, orientado a buceadores con OWD, cuatro inmersiones en mar y formación en aguas confinadas.",priceFrom:300,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:349,siteSlugs:["miengo"],
+    title:"Curso de buceo especialidad Nitrox en Requejada",destination:"Miengo",region:"Cantabria",slug:"curso-de-buceo-especialidad-nitrox-en-requejada-349",
+    type:"Curso",level:"Avanzado",duration:"2 días",audience:"Personas interesadas en curso en Miengo",
+    tags:["Buceo","Yumping","Miengo"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-especialidad-nitrox-en-requejada--o62359",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-especialidad-nitrox-en-requejada--o62359",offers:[{id:"yumping-o62359",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-especialidad-nitrox-en-requejada--o62359",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-especialidad-nitrox-en-requejada--o62359",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Profesor","Clases teóricas e inmersiones","Seguros","Titulación"],notes:"Curso de especialidad Nitrox en Requejada. La ficha indica 2 días, mínimo 12 inmersiones previas en mar abierto y OWD SNSI, con clases teóricas e inmersiones.",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:350,siteSlugs:["miengo"],
+    title:"Título de buceo Open Water Diver en Requejada",destination:"Miengo",region:"Cantabria",slug:"titulo-de-buceo-open-water-diver-en-requejada-350",
+    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Miengo",
+    tags:["Buceo","Yumping","Miengo"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",offers:[{id:"yumping-o62344",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",sourceUrl:"https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Profesionales titulados","Material","Teoría y práctica","Seguros","Titulación de buceo"],notes:"Curso Open Water Diver de 4 días en Requejada. Yumping indica una primera inmersión en aguas confinadas y cuatro inmersiones en mar abierto hasta 18 m, con titulación al superar las pruebas.",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
