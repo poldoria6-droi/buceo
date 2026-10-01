@@ -424,7 +424,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:109,siteSlugs:["tabarca"],
+    id:109,siteSlugs:["javea"],
     title:"Curso PADI Open Water Diver en Jávea",
     destination:"Jávea",region:"Costa Blanca",slug:"curso-padi-open-water-javea",
     type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas que quieren obtener la certificación PADI Open Water Diver",
@@ -2351,36 +2351,9 @@ export const activities:Activity[]=[
     offers:[{id:"yumping-o56250",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/padi-advanced-open-water-diver-cala-santanyi--o56250",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/padi-advanced-open-water-diver-cala-santanyi--o56250",priceFrom:415,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     priceFrom:415,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
-  {
-    id:281,siteSlugs:["malgrats"],
-    title:"PADI Advanced Open Water Diver en Santa Ponça",destination:"Santa Ponça",region:"Baleares",slug:"padi-advanced-open-water-diver-en-santa-ponca-281",
-    type:"Curso",level:"Avanzado",duration:"2–5 días",audience:"Personas interesadas en curso en Mallorca",
-    tags:["Buceo","Mallorca","Baleares","Yumping","Santa Ponça"],
-    bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",
-    offers:[{id:"yumping-o35953",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",priceFrom:435,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:435,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
-  },
-  {
-    id:282,siteSlugs:["malgrats"],
-    title:"Curso de iniciación al buceo en Santa Ponsa, 3h",destination:"Santa Ponça",region:"Baleares",slug:"curso-de-iniciacion-al-buceo-en-santa-ponsa-3h-282",
-    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Mallorca",
-    tags:["Buceo","Mallorca","Baleares","Yumping","Santa Ponça"],
-    bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",
-    offers:[{id:"yumping-o35954",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
-  },
-  {
-    id:283,siteSlugs:["malgrats"],
-    title:"Bautismo de buceo desde barco Santa Ponça, 3 horas",destination:"Santa Ponça",region:"Baleares",slug:"bautismo-de-buceo-desde-barco-santa-ponca-3-horas-283",
-    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Mallorca",
-    tags:["Buceo","Mallorca","Baleares","Yumping","Santa Ponça"],
-    bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",
-    offers:[{id:"yumping-o35950",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
-  },
+
+
+
   {
     id:284,siteSlugs:["cala-millor-mallorca"],
     title:"Curso buceo Discover Scuba Diving, Cala Millor, 3h",destination:"Cala Millor",region:"Baleares",slug:"curso-buceo-discover-scuba-diving-cala-millor-3h-284",
