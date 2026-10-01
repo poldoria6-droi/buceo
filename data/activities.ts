@@ -147,6 +147,24 @@ export const activities:Activity[]=[
   },
 
   {
+    id:112,siteSlugs:["cala-montgo"],
+    title:"Curso PADI Open Water Diver en L'Escala",
+    destination:"L'Escala",region:"Costa Brava",slug:"curso-padi-open-water-diver-lescala",
+    type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas que quieren obtener la certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","L'Escala","Costa Brava","Curso"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",
+    offers:[{
+      id:"yumping-o18401",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401"
+    }],
+    notes:"Oferta específica de Yumping para L'Escala. Mantener el precio pendiente hasta verificar el importe de esta oferta concreta."
+  },
+
+  {
     id:111,siteSlugs:["punta-marroqui-tarifa"],
     title:"Bautismo de buceo de mar en Tarifa",
     destination:"Tarifa",region:"Andalucía",slug:"bautismo-buceo-mar-tarifa-19193",
