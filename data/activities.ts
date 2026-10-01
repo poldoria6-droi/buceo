@@ -39,7 +39,7 @@ export type Activity = {
   notes?:string;
 };
 
-export const activities:Activity[]=[
+export const activities:Activity[]=[...yumpingBatch2,
   {
     id:101,siteSlugs:["malgrats"],
     title:"Bautismo de buceo en Mallorca",
