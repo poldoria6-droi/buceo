@@ -147,6 +147,30 @@ export const activities:Activity[]=[
   },
 
   {
+    id:111,siteSlugs:["punta-marroqui-tarifa"],
+    title:"Bautismo de buceo de mar en Tarifa",
+    destination:"Tarifa",region:"Andalucía",slug:"bautismo-buceo-mar-tarifa-19193",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    tags:["Bautismo","Mar","Tarifa","Instructor PADI","Equipo incluido"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-de-mar-en-tarifa-de-3-horas--o19193?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-de-mar-en-tarifa-de-3-horas--o19193",
+    offers:[{
+      id:"yumping-o19193",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-de-mar-en-tarifa-de-3-horas--o19193?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-de-mar-en-tarifa-de-3-horas--o19193",
+      priceFrom:65,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01",
+      notes:"La ficha actual muestra una opción desde 65 €; también aparece una variante con fotos desde 85 €."
+    }],
+    maxDepth:"5–10 m",
+    included:["Clase teórica","Inmersión en mar","Equipo y material de buceo","Instructor"],
+    minAge:10
+  },
+
+  {
     id:110,siteSlugs:["tabarca"],
     title:"Curso Open Water Diver PADI en la isla de Tabarca",
     destination:"Isla de Tabarca",region:"Alicante",slug:"curso-open-water-diver-padi-tabarca",
