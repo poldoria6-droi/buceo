@@ -196,3 +196,31 @@ body:has(.home-page) .site-header .nav-cta{background:rgba(4,66,92,.28);border:1
 
 @media(max-width:960px){.activity-detail-hero{grid-template-columns:1fr}.activity-detail-provider{max-width:520px}}
 @media(max-width:620px){.activity-result-actions{justify-content:stretch}.activity-result-actions a{flex:1;text-align:center}.activity-detail-hero{padding:22px}.activity-detail-provider{padding:18px}}
+
+/* === MULTI-PROVIDER BOOKING === */
+.price-badge{background:#eaf8f6!important;color:#06798a!important}
+.booking-offer{padding:13px 0;border-top:1px solid rgba(255,255,255,.12)}
+.booking-offer:first-of-type{border-top:0;padding-top:2px}
+.booking-offer-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.booking-offer-head strong{font-size:1rem}
+.booking-offer-price{font-size:.82rem;font-weight:900;color:#a6efea;white-space:nowrap}
+.booking-offer-price-muted{color:rgba(255,255,255,.62)}
+.booking-offer>small{display:block;margin:4px 0 10px;color:rgba(255,255,255,.62);font-size:.67rem}
+.booking-offer .button{width:100%;font-size:.78rem;padding:10px 12px}
+.booking-empty{color:rgba(255,255,255,.7)!important;font-size:.82rem;margin:4px 0}
+.activity-booking-cta{align-items:center}
+.activity-booking-cta-actions{display:flex;flex-wrap:wrap;gap:8px;flex:0 0 auto}
+.activity-booking-cta-actions .button{min-width:150px}
+.activity-popup-booking{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:6px;padding-top:6px;border-top:1px solid #edf2f3}
+.activity-popup-booking span{color:#0b8298;font-size:.64rem}
+.activity-popup-booking a{font-size:.64rem;font-weight:900;color:#fff;background:#0b8298;border-radius:999px;padding:5px 8px;white-space:nowrap}
+.activity-popup-offer>a{display:block}
+.activity-result-actions{flex-wrap:wrap}
+.activity-result-actions .activity-book-link{white-space:nowrap}
+.result-price small{font-size:.61rem;color:#71838c;font-weight:700}
+@media(max-width:620px){
+  .activity-booking-cta{align-items:flex-start}
+  .activity-booking-cta-actions{width:100%}
+  .activity-booking-cta-actions .button{flex:1;min-width:0}
+  .booking-offer-head{align-items:flex-start;flex-direction:column;gap:3px}
+}
