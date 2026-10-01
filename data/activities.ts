@@ -438,6 +438,162 @@ export const activities:Activity[]=[
     }]
   },
 
+
+  {
+    id:122,siteSlugs:["costa-teguise"],
+    title:"Bautismo de buceo con 1 inmersión en Lanzarote",
+    destination:"Costa Teguise",region:"Canarias",slug:"bautismo-buceo-1-inmersion-lanzarote-38911",
+    type:"Bautismo",level:"Inicial",duration:"2 horas · 45 min en el agua",audience:"Primera experiencia",
+    tags:["Discover Scuba","1 inmersión","Costa Teguise","Equipo incluido","Seguro"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-con-1-inmersion-en-lanzarote--o38911",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-con-1-inmersion-en-lanzarote--o38911",
+    offers:[{id:"yumping-o38911",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-con-1-inmersion-en-lanzarote--o38911",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-con-1-inmersion-en-lanzarote--o38911",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"6 m",minAge:10,included:["Equipo completo","Briefing","Seguro"],
+    notes:"Yumping indica 2 horas de actividad, con unos 45 min en el agua, y descenso hasta 6 m."
+  },
+
+  {
+    id:123,siteSlugs:["costa-teguise"],
+    title:"Curso Open Water Diver PADI en Lanzarote 3 días",
+    destination:"Costa Teguise",region:"Canarias",slug:"curso-open-water-diver-padi-lanzarote-38944",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas que buscan certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","Costa Teguise","3 días","Transporte","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-open-water-diver-padi-en-lanzarote-3-dias--o38944",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-open-water-diver-padi-en-lanzarote-3-dias--o38944",
+    offers:[{id:"yumping-o38944",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-open-water-diver-padi-en-lanzarote-3-dias--o38944",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-open-water-diver-padi-en-lanzarote-3-dias--o38944",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Equipo completo","Transporte hotel-centro-punto de buceo","Instructor","Seguro"],
+    notes:"Curso de 3 días; Yumping indica grupos de hasta 16 personas."
+  },
+
+  {
+    id:124,siteSlugs:["playa-chica"],
+    title:"Inmersión de buceo en Lanzarote desde barco",
+    destination:"Puerto del Carmen",region:"Canarias",slug:"inmersion-buceo-barco-lanzarote-53013",
+    type:"Fun Dive",level:"Intermedio",duration:"3 horas",audience:"Buceadores titulados",
+    tags:["Barco","Inmersión","Puerto del Carmen","Open Water","Transporte"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote-desde-barco--o53013",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote-desde-barco--o53013",
+    offers:[{id:"yumping-o53013",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote-desde-barco--o53013",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote-desde-barco--o53013",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Inmersión desde barco","Transporte centro-puerto","Salida en barco"],
+    notes:"Yumping muestra desde 40 € para una inmersión y desde 80 € para doble inmersión. El alquiler de material no está incluido."
+  },
+
+  {
+    id:125,siteSlugs:["playa-chica"],
+    title:"Curso PADI Open Water Diver en Lanzarote 3 días",
+    destination:"Puerto del Carmen",region:"Canarias",slug:"curso-padi-open-water-lanzarote-54268",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas que buscan certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","Puerto del Carmen","3 días","9 sesiones prácticas"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-diver-en-lanzarote-3-dias--o54268",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-diver-en-lanzarote-3-dias--o54268",
+    offers:[{id:"yumping-o54268",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-diver-en-lanzarote-3-dias--o54268",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-diver-en-lanzarote-3-dias--o54268",priceFrom:479,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Equipo completo","Seguro","Instructor","Transporte hotel-centro-punto de buceo"],
+    notes:"Yumping indica 5 inmersiones en aguas confinadas y 4 en mar abierto, con grupos de máximo 4 personas."
+  },
+
+  {
+    id:126,siteSlugs:["costa-teguise"],
+    title:"Curso PADI Adventure Diver en Lanzarote",
+    destination:"Costa Teguise",region:"Canarias",slug:"curso-padi-adventure-diver-lanzarote-46770",
+    type:"Curso",level:"Avanzado",duration:"1–2 días",audience:"Buceadores que quieren ampliar habilidades",
+    tags:["PADI","Adventure Diver","Costa Teguise","3 inmersiones","Nocturna","Pecios"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-adventure-diver-en-lanzarote--o46770",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-adventure-diver-en-lanzarote--o46770",
+    offers:[{id:"yumping-o46770",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-adventure-diver-en-lanzarote--o46770",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-adventure-diver-en-lanzarote--o46770",priceFrom:200,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"30 m",included:["3 inmersiones","Material","Manual","Logbook","Certificación","Seguros"],
+    minAge:15,
+    notes:"Incluye 3 inmersiones de aventura; las modalidades pueden incluir nocturno, pecios o hasta 30 m."
+  },
+
+  {
+    id:127,siteSlugs:["playa-blanca-lanzarote"],
+    title:"Inmersión de buceo en Playa Blanca, 4 horas",
+    destination:"Playa Blanca",region:"Canarias",slug:"inmersion-buceo-playa-blanca-45915",
+    type:"Fun Dive",level:"Intermedio",duration:"4 horas",audience:"Buceadores con experiencia/titulación",
+    tags:["Playa Blanca","Botella","Plomos","Guía","Seguro RC"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o45915",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o45915",
+    offers:[{id:"yumping-o45915",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o45915",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o45915",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Guía","Botella y plomos","Seguro de Responsabilidad Civil"],
+    notes:"Yumping indica una duración aproximada de 4 horas y que el material personal puede alquilarse aparte."
+  },
+
+  {
+    id:128,siteSlugs:["playa-blanca-lanzarote"],
+    title:"Inmersiones en Lanzarote con buceo nocturno gratis",
+    destination:"Playa Blanca",region:"Canarias",slug:"inmersiones-lanzarote-nocturna-gratis-37280",
+    type:"Fun Dive",level:"Avanzado",duration:"2 h 30 min aprox.",audience:"Buceadores titulados",
+    tags:["Pack 10 inmersiones","Nocturna","Playa Blanca","Equipo","Transporte"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersiones-en-lanzarote-con-buceo-nocturno-gratis--o37280",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersiones-en-lanzarote-con-buceo-nocturno-gratis--o37280",
+    offers:[{id:"yumping-o37280",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersiones-en-lanzarote-con-buceo-nocturno-gratis--o37280",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/inmersiones-en-lanzarote-con-buceo-nocturno-gratis--o37280",priceFrom:360,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Pack de 10 inmersiones","Equipo completo","Transporte","Refresco en intervalo","Instructores"],
+    notes:"Oferta de 10 inmersiones con buceo nocturno incluido/gratis según condiciones de la ficha. Grupos máximos de 4."
+  },
+
+  {
+    id:129,siteSlugs:["costa-teguise"],
+    title:"Curso SSI Open Water Diver en Lanzarote",
+    destination:"Costa Teguise",region:"Canarias",slug:"curso-ssi-open-water-diver-lanzarote-46769",
+    type:"Curso",level:"Inicial",duration:"3–4 días",audience:"Personas que quieren iniciarse y certificarse en SSI",
+    tags:["SSI","Open Water","Costa Teguise","Piscina","9 sesiones prácticas"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-ssi-open-water-diver-en-lanzarote--o46769",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-ssi-open-water-diver-en-lanzarote--o46769",
+    offers:[{id:"yumping-o46769",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-ssi-open-water-diver-en-lanzarote--o46769",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-ssi-open-water-diver-en-lanzarote--o46769",priceFrom:475,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Profesor","Equipo","Teoría presencial","5 clases de piscina","4 inmersiones mar","Kit teórico","Logbook","Certificado","Seguros"],
+    minAge:10
+  },
+
+  {
+    id:130,siteSlugs:["playa-blanca-lanzarote"],
+    title:"Open Water Diver SSI en Playa Flamingo, 4 días",
+    destination:"Playa Blanca",region:"Canarias",slug:"open-water-ssi-playa-flamingo-43093",
+    type:"Curso",level:"Inicial",duration:"4 días + e-learning",audience:"Personas que quieren obtener la certificación SSI",
+    tags:["SSI","Open Water","Playa Flamingo","4 días","E-learning"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceo-open-water-en-lanzarote--o43093",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceo-open-water-en-lanzarote--o43093",
+    offers:[{id:"yumping-o43093",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceo-open-water-en-lanzarote--o43093",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceo-open-water-en-lanzarote--o43093",priceFrom:475,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Teoría SSI online","Formación práctica","Equipo","Instructor"],
+    notes:"Curso presencial de 4 días más el tiempo necesario para completar la formación online."
+  },
+
+  {
+    id:131,siteSlugs:["playa-chica"],
+    title:"Bautismo de buceo en Lanzarote, Puerto del Carmen",
+    destination:"Puerto del Carmen",region:"Canarias",slug:"bautismo-buceo-puerto-carmen-54296",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Primera experiencia",
+    tags:["Puerto del Carmen","Bautismo","Equipo","Instructor","Tasas"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-lanzarote-puerto-del-carmen--o54296",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-lanzarote-puerto-del-carmen--o54296",
+    offers:[{id:"yumping-o54296",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-lanzarote-puerto-del-carmen--o54296",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-lanzarote-puerto-del-carmen--o54296",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"12 m",included:["Bautismo","Equipo completo","Instructor","Tasas"],
+    notes:"Yumping indica 2,5 horas de actividad y dos turnos disponibles; capacidad de 1–4 personas."
+  },
+
+  {
+    id:132,siteSlugs:["costa-teguise"],
+    title:"Curso PADI Seal Team en Lanzarote",
+    destination:"Costa Teguise",region:"Canarias",slug:"curso-padi-seal-team-lanzarote-46764",
+    type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Niños desde 8 años que quieren iniciarse en el buceo",
+    tags:["PADI","Seal Team","Niños","Costa Teguise","5 misiones"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-seal-team-en-lanzarote--o46764",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-seal-team-en-lanzarote--o46764",
+    offers:[{id:"yumping-o46764",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-seal-team-en-lanzarote--o46764",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-seal-team-en-lanzarote--o46764",priceFrom:295,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Materiales","5 misiones acuáticas","Teoría","Logbook","Certificación","Seguro de buceo"],
+    minAge:8,
+    notes:"Programa PADI Seal Team dirigido a niños desde 8 años; Yumping indica grupos de hasta 100 personas."
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
