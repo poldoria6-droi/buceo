@@ -764,7 +764,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:145,siteSlugs:["isla-benidorm"],
+    id:157,siteSlugs:["isla-benidorm"],
     title:"Excursión de Snorkel en Parque Natural de Benidorm",
     destination:"Benidorm",region:"Alicante",slug:"snorkel-parque-natural-benidorm-36446",
     type:"Snorkel",level:"Inicial",duration:"Consultar",audience:"Personas que sepan nadar",
@@ -777,7 +777,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:146,siteSlugs:["isla-benidorm"],
+    id:158,siteSlugs:["isla-benidorm"],
     title:"Inmersión de buceo en Benidorm sin equipo",
     destination:"Benidorm",region:"Alicante",slug:"inmersion-buceo-benidorm-sin-equipo-36148",
     type:"Fun Dive",level:"Intermedio",duration:"Según actividad",audience:"Buceadores con titulación",
@@ -791,7 +791,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:147,siteSlugs:["isla-benidorm"],
+    id:159,siteSlugs:["isla-benidorm"],
     title:"Curso Scuba Diver en Benidorm",
     destination:"Benidorm",region:"Alicante",slug:"curso-scuba-diver-benidorm-36243",
     type:"Curso",level:"Inicial",duration:"2 días",audience:"Personas que quieren obtener PADI Scuba Diver",
@@ -804,7 +804,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:148,siteSlugs:["serra-gelada"],
+    id:160,siteSlugs:["serra-gelada"],
     title:"Curso Open Water Diver en Serra Gelada",
     destination:"Benidorm",region:"Alicante",slug:"curso-open-water-serra-gelada-36245",
     type:"Curso",level:"Inicial",duration:"Según ritmo del participante",audience:"Personas que buscan PADI Open Water Diver",
@@ -817,7 +817,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:149,siteSlugs:["altea"],
+    id:161,siteSlugs:["altea"],
     title:"Bautismo de buceo en Altea, desde barco",
     destination:"Altea",region:"Alicante",slug:"bautismo-buceo-altea-barco-36653",
     type:"Bautismo",level:"Inicial",duration:"Media jornada",audience:"Primera experiencia",
@@ -830,7 +830,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:150,siteSlugs:["altea"],
+    id:162,siteSlugs:["altea"],
     title:"PADI Advanced Open Water, Altea",
     destination:"Altea",region:"Alicante",slug:"padi-advanced-open-water-altea-31342",
     type:"Curso",level:"Avanzado",duration:"2 días",audience:"Buceadores con Open Water Diver",
@@ -843,7 +843,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:151,siteSlugs:["cabo-san-antonio"],
+    id:163,siteSlugs:["cabo-san-antonio"],
     title:"Curso Advanced Open Water Diver en Denia",
     destination:"Dénia",region:"Alicante",slug:"curso-advanced-open-water-denia-65287",
     type:"Curso",level:"Avanzado",duration:"Según ritmo",audience:"Buceadores con Open Water Diver",
@@ -856,7 +856,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:152,siteSlugs:["cabo-san-antonio"],
+    id:164,siteSlugs:["cabo-san-antonio"],
     title:"Bautismo de Buceo Económico costa de Denia 3h",
     destination:"Dénia",region:"Alicante",slug:"bautismo-buceo-economico-denia-56080",
     type:"Bautismo",level:"Inicial",duration:"2–3 horas",audience:"Primera experiencia",
@@ -869,7 +869,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:153,siteSlugs:["cabo-san-antonio"],
+    id:165,siteSlugs:["cabo-san-antonio"],
     title:"Inmersión de buceo y equipo en la costa de Denia",
     destination:"Dénia",region:"Alicante",slug:"inmersion-buceo-equipo-denia-65282",
     type:"Fun Dive",level:"Intermedio",duration:"3–4 horas",audience:"Buceadores titulados",
@@ -882,7 +882,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:154,siteSlugs:["cabo-san-antonio"],
+    id:166,siteSlugs:["cabo-san-antonio"],
     title:"Curso de buceo Rescue Diver y EFR en Denia",
     destination:"Dénia",region:"Alicante",slug:"rescue-diver-efr-denia-65447",
     type:"Curso",level:"Avanzado",duration:"3–5 días",audience:"Buceadores con Advanced Open Water Diver",
