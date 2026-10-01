@@ -924,10 +924,10 @@ export const activities:Activity[]=[
 
   {
     id:169,siteSlugs:["cala-montgo"],
-    title:"Curso SSI Open Water Diver en L'Escala",
+    title:"Curso PADI Open Water Diver en L'Escala",
     destination:"L'Escala",region:"Costa Brava",slug:"curso-ssi-open-water-l-escala-18401",
-    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas que buscan certificación SSI Open Water Diver",
-    tags:["SSI","Open Water","L'Escala","4 días","18 m"],
+    type:"Curso",level:"Inicial",duration:"5 días",audience:"Personas que buscan certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","L'Escala","5 días","18 m"],
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-lescala--o18401",
@@ -1109,6 +1109,213 @@ export const activities:Activity[]=[
     offers:[{id:"yumping-o60480",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     included:["Instructor","Equipo","Seguro"]
   },
+
+  {
+    id:183,siteSlugs:["l-estartit"],
+    title:"Curso PADI Open Water Diver en Estartit, 5 días",
+    destination:"L'Estartit",region:"Costa Brava",slug:"padi-open-water-estartit-57566",
+    type:"Curso",level:"Inicial",duration:"5 días",audience:"Personas que quieren certificarse como PADI Open Water Diver",
+    tags:["PADI","Open Water","L'Estartit","Cala Pedrosa","5 días"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-estartit-5-dias--o57566",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-estartit-5-dias--o57566",
+    offers:[{id:"yumping-o57566",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-estartit-5-dias--o57566",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-diver-en-estartit-5-dias--o57566",priceFrom:400,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,maxDepth:"18 m",included:["Formación PADI","Inmersiones","Equipo"],
+    notes:"Curso de aproximadamente 5 días, con opción de fecha concreta, fecha abierta y bono regalo."
+  },
+
+  {
+    id:184,siteSlugs:["l-estartit"],
+    title:"Curso PADI Advanced en Estartit, 3 días",
+    destination:"L'Estartit",region:"Costa Brava",slug:"padi-advanced-estartit-57567",
+    type:"Curso",level:"Avanzado",duration:"2,5 días · 5 inmersiones",audience:"Buceadores con Open Water Diver o equivalente",
+    tags:["PADI","Advanced","L'Estartit","5 inmersiones","Barco"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-padi-advanced-en-estartit-3-dias--o57567",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-padi-advanced-en-estartit-3-dias--o57567",
+    offers:[{id:"yumping-o57567",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-padi-advanced-en-estartit-3-dias--o57567",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-padi-advanced-en-estartit-3-dias--o57567",priceFrom:330,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Titulación PADI","Equipo completo","5 inmersiones","Monitor","Embarcación"],
+    notes:"El anuncio indica 2 días y medio y 5 inmersiones, aunque el título comercial habla de 3 días."
+  },
+
+  {
+    id:185,siteSlugs:["l-estartit"],
+    title:"Bautismo de mar en Cala Pedrosa, Estartit",
+    destination:"L'Estartit",region:"Costa Brava",slug:"bautismo-cala-pedrosa-estartit-57564",
+    type:"Bautismo",level:"Inicial",duration:"Menos de una jornada",audience:"Primera experiencia",
+    tags:["Cala Pedrosa","L'Estartit","Bautismo","Costa Brava"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-mar-en-cala-pedrosa-estartit--o57564",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-mar-en-cala-pedrosa-estartit--o57564",
+    offers:[{id:"yumping-o57564",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-mar-en-cala-pedrosa-estartit--o57564",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-mar-en-cala-pedrosa-estartit--o57564",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Equipo de buceo"],
+    notes:"Oferta con más de 10 opiniones y reservas verificadas en Yumping."
+  },
+
+  {
+    id:186,siteSlugs:["l-estartit"],
+    title:"PADI Advanced Open Water Diver en l'Estartit",
+    destination:"L'Estartit",region:"Costa Brava",slug:"padi-advanced-estartit-13966",
+    type:"Curso",level:"Avanzado",duration:"1–2 semanas aprox.",audience:"Buceadores con certificación Open Water Diver",
+    tags:["PADI","Advanced","L'Estartit","5 inmersiones","Unisub"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-diver-lloret-de-mar--o13966",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-diver-lloret-de-mar--o13966",
+    offers:[{id:"yumping-o13966",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-diver-lloret-de-mar--o13966",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-diver-lloret-de-mar--o13966",priceFrom:389,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Formación PADI","5 inmersiones"],
+    notes:"La ficha está publicada como l'Estartit/Torroella de Montgrí, aunque la URL contiene 'lloret-de-mar'."
+  },
+
+  {
+    id:187,siteSlugs:["el-montgri"],
+    title:"Buceo a las Islas Medas o la Costa del Montgrí",
+    destination:"Torroella de Montgrí",region:"Costa Brava",slug:"buceo-islas-medas-montgri-27211",
+    type:"Fun Dive",level:"Intermedio",duration:"2 horas",audience:"Buceadores con titulación mínima nivel 1 / 1★ o equivalente",
+    tags:["Islas Medas","Montgrí","Barco","Botella","Plomos"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/buceo-a-las-islas-medas-o-la-costa-del-montgri--o27211",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/buceo-a-las-islas-medas-o-la-costa-del-montgri--o27211",
+    offers:[{id:"yumping-o27211",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/buceo-a-las-islas-medas-o-la-costa-del-montgri--o27211",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/buceo-a-las-islas-medas-o-la-costa-del-montgri--o27211",priceFrom:35,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Barco","Botella 12 o 15 L","Cinturón","Plomos"],
+    notes:"La tasa de las Medas se cobra aparte (5 € por persona e inmersión) según la ficha."
+  },
+
+  {
+    id:188,siteSlugs:["el-montgri"],
+    title:"Bautizo de buceo Parque Natural del Montgrí, 3h",
+    destination:"Torroella de Montgrí",region:"Costa Brava",slug:"bautizo-montgri-3h-88870",
+    type:"Bautismo",level:"Inicial",duration:"2–3 horas",audience:"Primera experiencia",
+    tags:["Montgrí","Islas Medas","Barco","GoPro opcional"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-las-islas-medas-3h--o88870",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-las-islas-medas-3h--o88870",
+    offers:[{id:"yumping-o88870",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-las-islas-medas-3h--o88870",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-las-islas-medas-3h--o88870",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"10 m",included:["Instructor","Nociones básicas","Equipo y seguridad","Seguros"],
+    notes:"La ficha también ofrece una variante con GoPro desde 102 €. La inmersión dura unos 20 minutos."
+  },
+
+  {
+    id:189,siteSlugs:["el-montgri"],
+    title:"Bautizo de buceo Parque Natural del Montgrí + GoPro, 3h",
+    destination:"L'Estartit",region:"Costa Brava",slug:"bautizo-montgri-gopro-88870",
+    type:"Bautismo",level:"Inicial",duration:"2–3 horas",audience:"Primera experiencia",
+    tags:["Montgrí","GoPro","Barco","20 min","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-las-islas-medas-3h--o88870",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-las-islas-medas-3h--o88870",
+    offers:[{id:"yumping-o88870-gopro",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-las-islas-medas-3h--o88870",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-las-islas-medas-3h--o88870",priceFrom:102,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"10 m",included:["Instructor","Equipo","Seguros","Reportaje GoPro"],
+    notes:"Es la variante GoPro de la misma ficha SKU 88870."
+  },
+
+  {
+    id:190,siteSlugs:["el-montgri"],
+    title:"Snorkel en Parque Natural de las Islas Medas, 2h",
+    destination:"Torroella de Montgrí",region:"Costa Brava",slug:"snorkel-islas-medas-88872",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas que quieren hacer snorkel en las Islas Medas",
+    tags:["Snorkel","Islas Medas","Parque Natural","2 horas"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/snorkel-en-parque-natural-de-las-islas-medas-2h--o88872",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/snorkel-en-parque-natural-de-las-islas-medas-2h--o88872",
+    offers:[{id:"yumping-o88872",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/snorkel-en-parque-natural-de-las-islas-medas-2h--o88872",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/snorkel-en-parque-natural-de-las-islas-medas-2h--o88872",priceFrom:33,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Actividad de snorkel guiada"],
+    notes:"Yumping indica 2 horas de duración y hasta 50 personas."
+  },
+
+  {
+    id:191,siteSlugs:["palamos"],
+    title:"Bautismo de Buceo en Palamós desde playa",
+    destination:"Palamós",region:"Costa Brava",slug:"bautismo-palamos-playa-56240",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    tags:["Palamós","Playa","40 min","Anemone Diving"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-palamos-desde-playa--o56240",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-palamos-desde-playa--o56240",
+    offers:[{id:"yumping-o56240",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-palamos-desde-playa--o56240",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-palamos-desde-playa--o56240",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Charla teórica","Instructor","Material"],
+    notes:"La ficha indica unas 2 horas de actividad desde playa."
+  },
+
+  {
+    id:192,siteSlugs:["palamos"],
+    title:"Bautismo de Buceo desde Barco en Palamós",
+    destination:"Palamós",region:"Costa Brava",slug:"bautismo-palamos-barco-56241",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["Palamós","Barco","Equipo","Instructor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-desde-barco-en-palamos--o56241",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-desde-barco-en-palamos--o56241",
+    offers:[{id:"yumping-o56241",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-desde-barco-en-palamos--o56241",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-desde-barco-en-palamos--o56241",priceFrom:105,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Salida en barco","Equipo de buceo","Seguros"],
+    notes:"La actividad dura unas 3 horas y está dirigida a principiantes."
+  },
+
+  {
+    id:193,siteSlugs:["palamos"],
+    title:"PADI Open Water Diver en Palamós",
+    destination:"Palamós",region:"Costa Brava",slug:"padi-open-water-palamos-56242",
+    type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas que quieren obtener la certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","Palamós","18 m","Anemone Diving"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/padi-open-water-diver-en-palamos--o56242",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/padi-open-water-diver-en-palamos--o56242",
+    offers:[{id:"yumping-o56242",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/padi-open-water-diver-en-palamos--o56242",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/padi-open-water-diver-en-palamos--o56242",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Formación PADI","Teoría","Prácticas","Equipo"]
+  },
+
+  {
+    id:194,siteSlugs:["palamos"],
+    title:"Bautizo de buceo en Palamós, 2h",
+    destination:"Palamós",region:"Costa Brava",slug:"bautizo-palamos-58937",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    tags:["Palamós","2 horas","40 min","Equipo"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-palamos-2h--o58937",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-palamos-2h--o58937",
+    offers:[{id:"yumping-o58937",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-palamos-2h--o58937",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-palamos-2h--o58937",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Instructor","Equipo"]
+  },
+
+  {
+    id:195,siteSlugs:["palamos"],
+    title:"Curso de buceo Open Water Diver Palamós 3 días",
+    destination:"Palamós",region:"Costa Brava",slug:"open-water-palamos-79990",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas que buscan certificación Open Water Diver",
+    tags:["Open Water","Palamós","3 días","18 m"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-palamos-3-dias--o79990",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-palamos-3-dias--o79990",
+    offers:[{id:"yumping-o79990",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-palamos-3-dias--o79990",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-palamos-3-dias--o79990",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,maxDepth:"18 m",included:["Formación","Teoría","Prácticas","Certificación"]
+  },
+
+  {
+    id:196,siteSlugs:["sant-antoni-de-calonge"],
+    title:"Bautizo buceo en pareja Sant Antoni de Calonge 2 h",
+    destination:"Sant Antoni de Calonge",region:"Costa Brava",slug:"bautizo-pareja-sant-antoni-60679",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Parejas o 2 personas",
+    tags:["Sant Antoni de Calonge","Pareja","Cala Gogo","40 min"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-buceo-en-pareja-sant-antoni-de-calonge-2-h--o60679",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-buceo-en-pareja-sant-antoni-de-calonge-2-h--o60679",
+    offers:[{id:"yumping-o60679",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-buceo-en-pareja-sant-antoni-de-calonge-2-h--o60679",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-buceo-en-pareja-sant-antoni-de-calonge-2-h--o60679",priceFrom:140,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Material","Inmersión 40 min"],
+    notes:"Precio indicado por actividad para 2 personas."
+  },
+
+  {
+    id:197,siteSlugs:["sant-antoni-de-calonge"],
+    title:"Curso iniciación al buceo 4 días en Costa Brava",
+    destination:"Sant Antoni de Calonge",region:"Costa Brava",slug:"curso-iniciacion-costa-brava-60551",
+    type:"Curso",level:"Inicial",duration:"4 jornadas",audience:"Personas que quieren iniciarse en el submarinismo",
+    tags:["Costa Brava","4 días","4 inmersiones","Playa","Barco"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-iniciacion-al-buceo-4-dias-en-costa-brava--o60551",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-iniciacion-al-buceo-4-dias-en-costa-brava--o60551",
+    offers:[{id:"yumping-o60551",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/curso-iniciacion-al-buceo-4-dias-en-costa-brava--o60551",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/curso-iniciacion-al-buceo-4-dias-en-costa-brava--o60551",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["4 inmersiones","Playa y mar abierto","Instructor"],
+    notes:"Curso de 4 jornadas que pueden repartirse según disponibilidad del participante."
+  }
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
