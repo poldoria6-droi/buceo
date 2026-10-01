@@ -13,5 +13,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const yumpingPartnerId=process.env.NEXT_PUBLIC_YUMPING_PARTNER_ID?.trim() || "449fb0b2d23ef85c3ee63f78b6e90eae";
-  return <html lang="es"><body><Script async defer src="https://www.yumping.com/afiliados/js/js_pa.min.js?v=11.38;" data-partner-id={yumpingPartnerId} /><Header /><main>{children}</main><Footer /></body></html>;
+  return <html lang="es"><head><meta name="yumping-analytics" content="global" /></head><body><Script
+          src="https://www.yumping.com/afiliados/js/js_pa.min.js?v=11.38;"
+          data-partner-id={yumpingPartnerId}
+          strategy="beforeInteractive"
+        /><Header /><main>{children}</main><Footer /></body></html>;
 }
