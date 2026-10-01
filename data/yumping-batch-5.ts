@@ -2,7 +2,7 @@ import type { Activity } from "./activities";
 
 export const yumpingBatch5: Activity[] = [
   {
-    id:542,siteSlugs:["cabo-tinoso"],
+    id:519,siteSlugs:["cabo-tinoso"],
     title:"Bautismo de buceo en Cabo de Palos, hasta 6 metros",
     destination:"Cabo de Palos",region:"Murcia",slug:"bautismo-buceo-cabo-de-palos-28355",
     type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
@@ -15,7 +15,7 @@ export const yumpingBatch5: Activity[] = [
     notes:"Bautismo de aproximadamente 3 horas en el entorno de Cabo de Palos/La Manga. Yumping indica una profundidad de hasta 6 metros."
   },
   {
-    id:543,siteSlugs:["maspalomas-buceo"],
+    id:520,siteSlugs:["maspalomas-buceo"],
     title:"Curso Scuba Diver en Canarias",
     destination:"Maspalomas",region:"Canarias",slug:"curso-scuba-diver-canarias-40455",
     type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas que quieren una primera certificación de buceo",
@@ -29,20 +29,7 @@ export const yumpingBatch5: Activity[] = [
     notes:"Curso de 3 días en Gran Canaria con práctica en piscina y mar abierto. Yumping muestra un precio desde 300 €."
   },
   {
-    id:544,siteSlugs:["cartagena"],
-    title:"Bautismo de buceo en mar en Cartagena",
-    destination:"Cartagena",region:"Murcia",slug:"bautismo-buceo-mar-cartagena-30789",
-    type:"Bautismo",level:"Inicial",duration:"Una mañana",audience:"Primera experiencia",
-    tags:["Bautismo","Cartagena","Mar abierto","Fauna","Instructor"],
-    bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-cartagena--o30789",
-    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-cartagena--o30789",
-    offers:[{id:"yumping-o30789",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-cartagena--o30789",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-cartagena--o30789",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",
-    notes:"Bautismo de buceo en mar abierto en Cartagena, con una duración aproximada de una mañana."
-  },
-  {
-    id:545,siteSlugs:["maspalomas-buceo"],
+    id:521,siteSlugs:["maspalomas-buceo"],
     title:"Curso PADI Nitrox en Maspalomas",
     destination:"Maspalomas",region:"Canarias",slug:"curso-padi-nitrox-maspalomas-40553",
     type:"Curso",level:"Avanzado",duration:"2 días",audience:"Buceadores titulados que quieren especializarse en Nitrox",
@@ -55,7 +42,7 @@ export const yumpingBatch5: Activity[] = [
     notes:"Especialidad Nitrox PADI en Maspalomas. Yumping indica una duración de 2 días y un precio desde 150 €."
   },
   {
-    id:546,siteSlugs:["parque-atlantida"],
+    id:522,siteSlugs:["parque-atlantida"],
     title:"Dos inmersiones en el Parque de la Atlántida y pecios de Mogán",
     destination:"Gran Canaria",region:"Canarias",slug:"doble-inmersion-atlantida-pecios-mogan-64185",
     type:"Pecio",level:"Intermedio",duration:"5 horas aprox.",audience:"Buceadores certificados",
