@@ -72,20 +72,6 @@ export const yumpingBatch4: Activity[] = [
     notes:"Bautismo desde playa en Mojácar, con observación de fauna y flora marina de la costa de Almería."
   },
   {
-    id:540,siteSlugs:["tarifa-punta-europa"],
-    title:"Bautismo de buceo en Punta de Europa, Tarifa",
-    destination:"Tarifa",region:"Andalucía",slug:"bautismo-buceo-punta-europa-tarifa-57389",
-    type:"Bautismo",level:"Inicial",duration:"2–3 horas",audience:"Primera experiencia",
-    tags:["Bautismo","Tarifa","Punta de Europa","5–7 m","Instructor"],
-    bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-punta-de-europa-tarifa-3h--o57389",
-    sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-punta-de-europa-tarifa-3h--o57389",
-    offers:[{id:"yumping-o57389",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-punta-de-europa-tarifa-3h--o57389",sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-punta-de-europa-tarifa-3h--o57389",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",maxDepth:"5–7 m",
-    included:["Charla teórica","Inmersión","Instructor","Botella","Chaleco","Máscara","Aletas","Regulador","Neopreno","Plomos","Seguro"],
-    notes:"Bautismo en Punta de Europa, Tarifa, con unos 35–60 minutos bajo el agua."
-  },
-  {
     id:541,siteSlugs:["cala-llobeta-calafat"],
     title:"Bautismo de buceo en Cala Llobeta, Calafat",
     destination:"L'Ametlla de Mar",region:"Costa Daurada",slug:"bautismo-buceo-cala-llobeta-calafat-61500",
