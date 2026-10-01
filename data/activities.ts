@@ -147,6 +147,26 @@ export const activities:Activity[]=[
   },
 
   {
+    id:110,siteSlugs:["tabarca"],
+    title:"Curso Open Water Diver PADI en la isla de Tabarca",
+    destination:"Isla de Tabarca",region:"Alicante",slug:"curso-open-water-diver-padi-tabarca",
+    type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas que quieren obtener la certificación PADI Open Water Diver",
+    tags:["PADI","Open Water","Tabarca","Alicante","Curso","Transporte incluido"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=&cmp=",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318",
+    offers:[{
+      id:"yumping-o26318",
+      provider:"Yumping",
+      url:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=&cmp=",
+      sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318",
+      priceFrom:449,
+      priceCurrency:"EUR",
+      priceCheckedAt:"2026-10-01"
+    }]
+  },
+
+  {
     id:109,siteSlugs:["tabarca"],
     title:"Curso PADI Open Water Diver en Jávea",
     destination:"Jávea",region:"Costa Blanca",slug:"curso-padi-open-water-javea",
