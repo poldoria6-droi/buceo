@@ -16,7 +16,7 @@ export const yumpingBatch4: Activity[] = [
     notes:"Inmersión en pecio de la bahía de Ciudadela. Yumping indica que se requiere especialidad en buceo profundo."
   },
   {
-    id:514,siteSlugs:["pozo-izquierdo"],
+    id:531,siteSlugs:["pozo-izquierdo"],
     title:"Bautismo de buceo en la costa de Gran Canaria",
     destination:"Gran Canaria",region:"Canarias",slug:"bautismo-buceo-costa-gran-canaria-58995",
     type:"Bautismo",level:"Inicial",duration:"4 horas",audience:"Primera experiencia",
@@ -29,7 +29,7 @@ export const yumpingBatch4: Activity[] = [
     notes:"Bautismo de aproximadamente 4 horas, con cerca de 1 hora dedicada a la inmersión, en distintos puntos de la costa de Gran Canaria."
   },
   {
-    id:515,siteSlugs:["cambrils"],
+    id:532,siteSlugs:["cambrils"],
     title:"Dos inmersiones de buceo en Cambrils",
     destination:"Cambrils",region:"Costa Daurada",slug:"dos-inmersiones-buceo-cambrils-21162",
     type:"Fun Dive",level:"Intermedio",duration:"90 minutos aprox.",audience:"Buceadores titulados que quieren realizar dos inmersiones",
@@ -43,7 +43,7 @@ export const yumpingBatch4: Activity[] = [
     notes:"Pack de dos inmersiones para buceadores con título. Yumping indica una duración aproximada de 90 minutos."
   },
   {
-    id:516,siteSlugs:["salou"],
+    id:533,siteSlugs:["salou"],
     title:"Curso Advanced Open Water Diver en Salou",
     destination:"Salou",region:"Costa Daurada",slug:"curso-advanced-open-water-diver-salou-53794",
     type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Buceadores con Open Water Diver o titulación equivalente",
@@ -58,7 +58,7 @@ export const yumpingBatch4: Activity[] = [
     notes:"Curso PADI con 5 inmersiones: profundidad y navegación obligatorias y tres especialidades a elegir."
   },
   {
-    id:517,siteSlugs:["mojacar"],
+    id:534,siteSlugs:["mojacar"],
     title:"Bautismo de buceo desde playa en Mojácar",
     destination:"Mojácar",region:"Andalucía",slug:"bautismo-buceo-playa-mojacar-86956",
     type:"Bautismo",level:"Inicial",duration:"Medio día",audience:"Primera experiencia",
@@ -72,7 +72,7 @@ export const yumpingBatch4: Activity[] = [
     notes:"Bautismo desde playa en Mojácar, con observación de fauna y flora marina de la costa de Almería."
   },
   {
-    id:518,siteSlugs:["cala-llobeta-calafat"],
+    id:535,siteSlugs:["cala-llobeta-calafat"],
     title:"Bautismo de buceo en Cala Llobeta, Calafat",
     destination:"L'Ametlla de Mar",region:"Costa Daurada",slug:"bautismo-buceo-cala-llobeta-calafat-61500",
     type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
