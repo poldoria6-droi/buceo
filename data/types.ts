@@ -8,3 +8,5 @@ export type BookingOffer = {
   priceCheckedAt?:string;
   notes?:string;
 };
+
+// Shared affiliate types
