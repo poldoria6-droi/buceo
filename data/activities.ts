@@ -3447,6 +3447,30 @@ export const activities:Activity[]=[
     providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",offers:[{id:"yumping-o206",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",priceFrom:588,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     notes:"Curso PADI Divemaster en Puerto del Carmen. Precio actual mostrado por Yumping: 588 €.",priceFrom:588,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+  {
+    id:412,siteSlugs:["playa-blanca-lanzarote"],title:"Curso PADI Advanced Open Water en Lanzarote 2 días",destination:"Playa Blanca",region:"Canarias",slug:"curso-padi-advanced-open-water-en-lanzarote-2-dias-412",
+    type:"Curso",level:"Avanzado",duration:"2 días",audience:"Personas interesadas en curso en Playa Blanca",tags:["Buceo","Canarias","Yumping","Playa Blanca"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279",offers:[{id:"yumping-o37279",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"30 m",notes:"Curso PADI Advanced Open Water en Lanzarote. La ficha indica dos días de formación y cinco inmersiones de aventura.",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:413,siteSlugs:["puerto-del-carmen"],title:"PADI Open Water Diver en Lanzarote",destination:"Puerto del Carmen",region:"Canarias",slug:"padi-open-water-diver-en-lanzarote-413",
+    type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Puerto del Carmen",tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203",offers:[{id:"yumping-o203",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso PADI Open Water Diver en Puerto del Carmen. Precio actual mostrado por Yumping: 450 €.",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:414,siteSlugs:["puerto-del-carmen"],title:"Snorkel Lanzarote 60 minutos",destination:"Puerto del Carmen",region:"Canarias",slug:"snorkel-lanzarote-60-minutos-414",
+    type:"Snorkel",level:"Inicial",duration:"60 minutos",audience:"Personas interesadas en snorkel en Puerto del Carmen",tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275",offers:[{id:"yumping-o37275",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Actividad de snorkel de 60 minutos en Lanzarote. Precio actual mostrado por Yumping: 40 €.",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:415,siteSlugs:["puerto-del-carmen"],title:"Curso Nitrox en Lanzarote",destination:"Puerto del Carmen",region:"Canarias",slug:"curso-nitrox-en-lanzarote-415",
+    type:"Curso",level:"Avanzado",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Puerto del Carmen",tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854",offers:[{id:"yumping-o33854",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso de especialidad Nitrox en Lanzarote. Precio actual mostrado por Yumping: 120 €.",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
