@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { buildCivitatisUrl } from "@/lib/civitatis";
+import { buildAffiliateUrl, formatOfferPrice, formatPriceCheckedAt, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
 import { notFound } from "next/navigation";
 import { activities } from "@/data/activities";
 import { diveSites } from "@/data/dive-sites";
@@ -24,6 +24,8 @@ export default async function ActivityPage({params}:Props){
   if(!activity)notFound();
 
   const linkedSites=diveSites.filter(site=>activity.siteSlugs.includes(site.slug));
+  const offers=getBookingOffers(activity);
+  const lowest=getLowestPricedOffer(offers);
 
   return <section className="section">
     <div className="container">
@@ -35,12 +37,33 @@ export default async function ActivityPage({params}:Props){
           <p className="lead">Ficha de una actividad publicada por un proveedor externo. Atlas reúne la información de decisión y te lleva al proveedor para comprobar precio, disponibilidad y reservar.</p>
           <div className="activity-detail-badges">
             <span>{activity.level}</span><span>{activity.duration}</span>{activity.rating&&<span>★ {activity.rating} · {activity.reviewCount||0} opiniones</span>}
+            {lowest&&<span className="price-badge">Desde {formatOfferPrice(lowest)}</span>}
           </div>
         </div>
         <div className="activity-detail-provider">
-          <span className="eyebrow">PROVEEDOR</span>
-          <strong>{activity.provider}</strong>
-          <a href={buildCivitatisUrl(activity.providerUrl)} target="_blank" rel="sponsored noopener noreferrer" className="button button-primary">Comprobar disponibilidad ↗</a>
+          <span className="eyebrow">OPCIONES DE RESERVA</span>
+          {offers.map(offer=>(
+            <div className="booking-offer" key={offer.id}>
+              <div className="booking-offer-head">
+                <strong>{offer.provider}</strong>
+                {offer.priceFrom!==undefined
+                  ? <span className="booking-offer-price">Desde {formatOfferPrice(offer)}</span>
+                  : <span className="booking-offer-price booking-offer-price-muted">Precio por confirmar</span>}
+              </div>
+              {offer.priceCheckedAt&&<small>Precio comprobado {formatPriceCheckedAt(offer.priceCheckedAt)}</small>}
+              <a
+                href={buildAffiliateUrl(offer)}
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className="button button-primary"
+                data-affiliate-provider={offer.provider}
+                data-activity-id={activity.id}
+              >
+                Reservar en {offer.provider} ↗
+              </a>
+            </div>
+          ))}
+          {!offers.length&&<p className="booking-empty">Todavía no hay un proveedor de reserva asociado.</p>}
         </div>
       </div>
 
@@ -67,15 +90,19 @@ export default async function ActivityPage({params}:Props){
           </div>
 
           <div className="cta-section">
-            <div className="cta-panel">
-              <div><span className="eyebrow">SIGUIENTE PASO</span><h2>Comprueba precio y plazas</h2><p>La disponibilidad y el precio final se consultan directamente en el proveedor.</p></div>
-              <a href={buildCivitatisUrl(activity.providerUrl)} target="_blank" rel="sponsored noopener noreferrer" className="button button-primary">Ir a {activity.provider} ↗</a>
+            <div className="cta-panel activity-booking-cta">
+              <div><span className="eyebrow">SIGUIENTE PASO</span><h2>Compara y reserva</h2><p>Consulta el precio final, la disponibilidad y las condiciones directamente con cada proveedor.</p></div>
+              <div className="activity-booking-cta-actions">
+                {offers.map(offer=>(
+                  <a key={offer.id} href={buildAffiliateUrl(offer)} target="_blank" rel="sponsored noopener noreferrer" className="button button-primary">{offer.provider} ↗</a>
+                ))}
+              </div>
             </div>
           </div>
         </main>
       </div>
 
-      <p className="data-note">Fuente: página pública del proveedor consultada el 30/09/2026. Los datos comerciales pueden cambiar; comprueba siempre las condiciones finales antes de reservar.</p>
+      <p className="data-note">Los precios son orientativos y se muestran como “desde” cuando están registrados en Atlas. Pueden cambiar según fecha, número de personas, modalidad y disponibilidad. Comprueba siempre el importe final en el proveedor antes de reservar.</p>
     </div>
   </section>;
 }
