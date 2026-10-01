@@ -3246,6 +3246,214 @@ export const activities:Activity[]=[
     providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",offers:[{id:"yumping-o64224",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     included:["Transporte desde las instalaciones","Guía","Material de snorkel"],notes:"Ruta de snorkel guiada en Playa de Las Canteras. Yumping indica unas 2 horas, transporte desde las instalaciones hasta la zona y grupos de 2–5 personas.",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+  {
+    id:384,siteSlugs:["las-galletas"],
+    title:"Bautismo de Buceo desde barco, Tenerife",destination:"Las Galletas",region:"Canarias",slug:"bautismo-de-buceo-desde-barco-tenerife-384",
+    type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Las Galletas",
+    tags:["Buceo","Canarias","Yumping","Las Galletas"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-desde-barco-tenerife--o31281",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-desde-barco-tenerife--o31281",offers:[{id:"yumping-o31281",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-desde-barco-tenerife--o31281",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-desde-barco-tenerife--o31281",priceFrom:69,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Bautismo desde barco en Tenerife, con salida desde Las Galletas. La ficha actual muestra 69 € y registra 14 opiniones; el proveedor es Buceo Tenerife.",priceFrom:69,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:385,siteSlugs:["los-cristianos-tenerife"],
+    title:"Bautizo buceo Los Cristianos desde Costa 2h 30 min",destination:"Los Cristianos",region:"Canarias",slug:"bautizo-buceo-los-cristianos-desde-costa-2h-30-min-385",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Personas interesadas en bautismo en Los Cristianos",
+    tags:["Buceo","Canarias","Yumping","Los Cristianos"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautizo-buceo-los-cristianos-desde-costa-2h-30-min--o61728",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautizo-buceo-los-cristianos-desde-costa-2h-30-min--o61728",offers:[{id:"yumping-o61728",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautizo-buceo-los-cristianos-desde-costa-2h-30-min--o61728",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautizo-buceo-los-cristianos-desde-costa-2h-30-min--o61728",priceFrom:65,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,included:["Transporte desde el centro hasta la zona de buceo y regreso"],notes:"Bautismo desde costa en Los Cristianos. Yumping indica 2 horas y 30 minutos, con 30–50 minutos de inmersión, edad mínima de 10 años y transporte ida y vuelta desde el centro.",priceFrom:65,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:386,siteSlugs:["costa-adeje"],
+    title:"Snorkel con tortugas en la Costa Adeje 2h 30 min",destination:"Costa Adeje",region:"Canarias",slug:"snorkel-con-tortugas-en-la-costa-adeje-2h-30-min-386",
+    type:"Snorkel",level:"Inicial",duration:"2 h 30 min",audience:"Personas interesadas en snorkel en Costa Adeje",
+    tags:["Buceo","Canarias","Yumping","Costa Adeje"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/snorkel-con-tortugas-en-la-costa-adeje-2h-30-min--o62824",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/snorkel-con-tortugas-en-la-costa-adeje-2h-30-min--o62824",offers:[{id:"yumping-o62824",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/snorkel-con-tortugas-en-la-costa-adeje-2h-30-min--o62824",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/snorkel-con-tortugas-en-la-costa-adeje-2h-30-min--o62824",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Snorkel en zona de avistamiento de tortugas","Guía privado","Equipo de snorkel","Transporte en zodiac","Seguro de accidentes","Acceso a MySSI"],notes:"Snorkel guiado en Costa Adeje. Yumping indica 2 horas y 30 minutos, salida hacia una bahía protegida en zodiac y requisito de formar un grupo mínimo de 4 personas.",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:387,siteSlugs:["puerto-colon"],
+    title:"Inmersión de buceo en Tenerife 2h",destination:"Puerto Colón",region:"Canarias",slug:"inmersion-de-buceo-en-tenerife-2h-387",
+    type:"Fun Dive",level:"Intermedio",duration:"2 horas aprox.",audience:"Personas interesadas en fun dive en Puerto Colón",
+    tags:["Buceo","Canarias","Yumping","Puerto Colón"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceo-en-tenerife-4h--o62823",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceo-en-tenerife-4h--o62823",offers:[{id:"yumping-o62823",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceo-en-tenerife-4h--o62823",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceo-en-tenerife-4h--o62823",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["1 inmersión en mar","Instructor/guía","Transporte en furgoneta y/o zodiac"],notes:"Inmersión para buceadores certificados Open Water o equivalente. Yumping indica unas 2 horas y elección del punto según condiciones ambientales, nivel y preferencias.",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:388,siteSlugs:["el-medano"],
+    title:"SSI Open Water Diver Tenerife Sur",destination:"El Médano",region:"Canarias",slug:"ssi-open-water-diver-tenerife-sur-388",
+    type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en El Médano",
+    tags:["Buceo","Canarias","Yumping","El Médano"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/ssi-open-water-diver-tenerife-sur--o56714",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/ssi-open-water-diver-tenerife-sur--o56714",offers:[{id:"yumping-o56714",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/ssi-open-water-diver-tenerife-sur--o56714",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/ssi-open-water-diver-tenerife-sur--o56714",priceFrom:370,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso SSI Open Water Diver en el sur de Tenerife. Precio actual mostrado por Yumping: 370 €.",priceFrom:370,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:389,siteSlugs:["el-medano"],
+    title:"2 inmersiones en el Pecio de Taibada de 3 horas",destination:"El Médano",region:"Canarias",slug:"2-inmersiones-en-el-pecio-de-taibada-de-3-horas-389",
+    type:"Pecio",level:"Intermedio",duration:"3 horas",audience:"Personas interesadas en pecio en El Médano",
+    tags:["Buceo","Canarias","Yumping","El Médano"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"",sourceUrl:"",offers:[{id:"yumping-o",provider:"Yumping",url:"",sourceUrl:"",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Yumping muestra esta experiencia a 95 € en la categoría actual de Tenerife. Se realiza en el entorno de El Médano y está enfocada a dos inmersiones en el pecio de Taibada.",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:392,siteSlugs:["el-medano"],
+    title:"Curso SSI Scuba Diver en el Médano",destination:"El Médano",region:"Canarias",slug:"curso-ssi-scuba-diver-en-el-medano-392",
+    type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en El Médano",
+    tags:["Buceo","Canarias","Yumping","El Médano"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-ssi-scuba-diver-en-el-medano--o56710",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-ssi-scuba-diver-en-el-medano--o56710",offers:[{id:"yumping-o56710",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/curso-ssi-scuba-diver-en-el-medano--o56710",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-ssi-scuba-diver-en-el-medano--o56710",priceFrom:220,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso SSI Scuba Diver en El Médano. La ficha actual muestra 220 €.",priceFrom:220,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:393,siteSlugs:["el-medano"],
+    title:"2 inmersiones buceadores certificados Tenerife",destination:"El Médano",region:"Canarias",slug:"2-inmersiones-buceadores-certificados-tenerife-393",
+    type:"Fun Dive",level:"Intermedio",duration:"Según actividad",audience:"Personas interesadas en fun dive en El Médano",
+    tags:["Buceo","Canarias","Yumping","El Médano"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceadores-certificados-tenerife--o56661",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceadores-certificados-tenerife--o56661",offers:[{id:"yumping-o56661",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceadores-certificados-tenerife--o56661",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceadores-certificados-tenerife--o56661",priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Transporte"],notes:"Dos inmersiones para buceadores certificados en Tenerife. La ficha actual muestra 99 € e indica salida desde el entorno de El Médano.",priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:394,siteSlugs:["el-medano"],
+    title:"Pack de dos sesiones de snorkel en Tenerife 4,5 h",destination:"El Médano",region:"Canarias",slug:"pack-de-dos-sesiones-de-snorkel-en-tenerife-4-5-h-394",
+    type:"Snorkel",level:"Inicial",duration:"4 h 30 min",audience:"Personas interesadas en snorkel en El Médano",
+    tags:["Buceo","Canarias","Yumping","El Médano"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/pack-de-dos-sesiones-de-snorkel-en-tenerife-4-5-h--o56660",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/pack-de-dos-sesiones-de-snorkel-en-tenerife-4-5-h--o56660",offers:[{id:"yumping-o56660",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/pack-de-dos-sesiones-de-snorkel-en-tenerife-4-5-h--o56660",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/pack-de-dos-sesiones-de-snorkel-en-tenerife-4-5-h--o56660",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Transporte"],notes:"Pack de dos sesiones de snorkel en Tenerife con una duración total de 4 horas y media. Yumping muestra 45 € con descuento.",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:395,siteSlugs:["el-medano"],
+    title:"Excursión de snorkel en Tenerife 3,5 horas",destination:"El Médano",region:"Canarias",slug:"excursion-de-snorkel-en-tenerife-3-5-horas-395",
+    type:"Snorkel",level:"Inicial",duration:"3 h 30 min",audience:"Personas interesadas en snorkel en El Médano",
+    tags:["Buceo","Canarias","Yumping","El Médano"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/excursion-de-snorkel-en-tenerife-3-5-horas--o56659",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/excursion-de-snorkel-en-tenerife-3-5-horas--o56659",offers:[{id:"yumping-o56659",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/excursion-de-snorkel-en-tenerife-3-5-horas--o56659",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/excursion-de-snorkel-en-tenerife-3-5-horas--o56659",priceFrom:25,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Transporte"],notes:"Excursión de snorkel de 3 horas y media en Tenerife. Yumping muestra 25 € con descuento e incluye transporte.",priceFrom:25,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:396,siteSlugs:["el-medano"],
+    title:"Bautizo buceo 45 min Tenerife 3,5 h",destination:"El Médano",region:"Canarias",slug:"bautizo-buceo-45-min-tenerife-3-5-h-396",
+    type:"Bautismo",level:"Inicial",duration:"3 h 30 min aprox.",audience:"Personas interesadas en bautismo en El Médano",
+    tags:["Buceo","Canarias","Yumping","El Médano"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-buceo-45-min-tenerife-3-5-h--o56658",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-buceo-45-min-tenerife-3-5-h--o56658",offers:[{id:"yumping-o56658",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-buceo-45-min-tenerife-3-5-h--o56658",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautizo-buceo-45-min-tenerife-3-5-h--o56658",priceFrom:79,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Bautismo de buceo en el área de El Médano con una duración total aproximada de 3 horas y media y 45 minutos de inmersión. Yumping muestra 79 €.",priceFrom:79,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:397,siteSlugs:["puerto-colon"],
+    title:"Bautismo de buceo desde barco en Puerto Colón, 3h",destination:"Puerto Colón",region:"Canarias",slug:"bautismo-de-buceo-desde-barco-en-puerto-colon-3h-397",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Puerto Colón",
+    tags:["Buceo","Canarias","Yumping","Puerto Colón"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-radazul-tenerife--o15411",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-radazul-tenerife--o15411",offers:[{id:"yumping-o15411",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-radazul-tenerife--o15411",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-radazul-tenerife--o15411",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Equipo de buceo","Instructor","Seguros"],notes:"Bautismo con salida desde Puerto Colón. La ficha indica unas 3 horas de actividad, con unos 20 minutos bajo el agua, y formación básica sobre equipo y seguridad.",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:398,siteSlugs:["costa-adeje"],
+    title:"Bautismo de buceo 2 inmersiones sur de Tenerife 4h",destination:"Costa Adeje",region:"Canarias",slug:"bautismo-de-buceo-2-inmersiones-sur-de-tenerife-4h-398",
+    type:"Bautismo",level:"Inicial",duration:"4 horas aprox.",audience:"Personas interesadas en bautismo en Costa Adeje",
+    tags:["Buceo","Canarias","Yumping","Costa Adeje"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-2-inmersiones-sur-de-tenerife-4h--o62816",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-2-inmersiones-sur-de-tenerife-4h--o62816",offers:[{id:"yumping-o62816",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-2-inmersiones-sur-de-tenerife-4h--o62816",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-2-inmersiones-sur-de-tenerife-4h--o62816",priceFrom:125,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"12 m",included:["2 inmersiones hasta 12 m con instructor","Lección teórico-práctica","Equipo completo","Certificación Basic Diver","Seguros"],notes:"Bautismo de 4 horas con dos inmersiones y lección teórico-práctica. La ficha permite decidir la zona según las condiciones del día y menciona Playa de las Vistas, Radazul/Tabaiba, El Balito, Abades y otros puntos del sur de Tenerife.",priceFrom:125,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:399,siteSlugs:["las-chafiras"],
+    title:"Curso de PADI Open Water Diver en Tenerife 3 días",destination:"Las Chafiras",region:"Canarias",slug:"curso-de-padi-open-water-diver-en-tenerife-3-dias-399",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas interesadas en curso en Las Chafiras",
+    tags:["Buceo","Canarias","Yumping","Las Chafiras"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-de-padi-open-water-diver-en-tenerife-3-dias--o60252",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-de-padi-open-water-diver-en-tenerife-3-dias--o60252",offers:[{id:"yumping-o60252",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/curso-de-padi-open-water-diver-en-tenerife-3-dias--o60252",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-de-padi-open-water-diver-en-tenerife-3-dias--o60252",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Curso PADI Open Water Diver","Todo el material de buceo","Aguas confinadas y 4 inmersiones en mar","Libro PADI","Seguro de buceo"],notes:"Curso PADI Open Water Diver de 3 días en Tenerife. La ficha indica teoría, prácticas en aguas confinadas y cuatro inmersiones en mar abierto, hasta 18 m, con equipo y seguro incluidos.",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:400,siteSlugs:["costa-adeje"],
+    title:"Curso buceo Open Water Diver PADI Tenerife 4 días",destination:"Arona",region:"Canarias",slug:"curso-buceo-open-water-diver-padi-tenerife-4-dias-400",
+    type:"Curso",level:"Inicial",duration:"4 días aprox.",audience:"Personas interesadas en curso en Arona",
+    tags:["Buceo","Canarias","Yumping","Arona"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-open-water-diver-padi-tenerife-4-dias--o52006",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-open-water-diver-padi-tenerife-4-dias--o52006",offers:[{id:"yumping-o52006",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-open-water-diver-padi-tenerife-4-dias--o52006",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-open-water-diver-padi-tenerife-4-dias--o52006",priceFrom:410,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",notes:"Curso PADI Open Water Diver de aproximadamente 4 días en el sur de Tenerife. La ficha indica formación supervisada, transporte a los puntos de inmersión y certificación hasta 18 m.",priceFrom:410,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:401,siteSlugs:["las-galletas"],
+    title:"Curso de buceo Open Water en Las Galletas 3 días",destination:"Las Galletas",region:"Canarias",slug:"curso-de-buceo-open-water-en-las-galletas-3-dias-401",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas interesadas en curso en Las Galletas",
+    tags:["Buceo","Canarias","Yumping","Las Galletas"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-open-water-en-las-galletas-3-dias--o47446",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-open-water-en-las-galletas-3-dias--o47446",offers:[{id:"yumping-o47446",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-open-water-en-las-galletas-3-dias--o47446",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-open-water-en-las-galletas-3-dias--o47446",priceFrom:380,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso Open Water de 3 días en Las Galletas. Precio actual mostrado por Yumping: 380 €.",priceFrom:380,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:402,siteSlugs:["santa-cruz-tenerife"],
+    title:"Curso OWD en Santa Cruz de Tenerife 4 días",destination:"Santa Cruz de Tenerife",region:"Canarias",slug:"curso-owd-en-santa-cruz-de-tenerife-4-dias-402",
+    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Santa Cruz de Tenerife",
+    tags:["Buceo","Canarias","Yumping","Santa Cruz de Tenerife"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-owd-en-santa-cruz-de-tenerife-4-dias--o63050",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-owd-en-santa-cruz-de-tenerife-4-dias--o63050",offers:[{id:"yumping-o63050",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/curso-owd-en-santa-cruz-de-tenerife-4-dias--o63050",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/curso-owd-en-santa-cruz-de-tenerife-4-dias--o63050",priceFrom:375,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso OWD de 4 días en Santa Cruz de Tenerife. Yumping indica una duración prevista de 4 días, ampliable si el alumno lo necesita. Precio actual mostrado: 375 €.",priceFrom:375,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:403,siteSlugs:["playa-blanca-lanzarote"],
+    title:"Curso PADI Open Water en Lanzarote 4 días",destination:"Playa Blanca",region:"Canarias",slug:"curso-padi-open-water-en-lanzarote-4-dias-403",
+    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Playa Blanca",
+    tags:["Buceo","Canarias","Yumping","Playa Blanca"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-en-lanzarote-4-dias--o37278",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-en-lanzarote-4-dias--o37278",offers:[{id:"yumping-o37278",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-en-lanzarote-4-dias--o37278",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-en-lanzarote-4-dias--o37278",priceFrom:495,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:8,notes:"Curso PADI Open Water de 4 días en Playa Blanca. Yumping indica edad mínima de 8 años y cinco inmersiones acompañadas por instructores.",priceFrom:495,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:404,siteSlugs:["playa-blanca-lanzarote"],
+    title:"Bautismo de buceo doble en Playa Blanca, Yaiza 3h",destination:"Playa Blanca",region:"Canarias",slug:"bautismo-de-buceo-doble-en-playa-blanca-yaiza-3h-404",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Playa Blanca",
+    tags:["Buceo","Canarias","Yumping","Playa Blanca"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-doble-en-playa-blanca-yaiza-3h--o77225",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-doble-en-playa-blanca-yaiza-3h--o77225",offers:[{id:"yumping-o77225",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-doble-en-playa-blanca-yaiza-3h--o77225",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-doble-en-playa-blanca-yaiza-3h--o77225",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:14,notes:"Bautismo doble en Playa Blanca con una duración aproximada de 3 horas. Yumping indica edad mínima de 14 años y transfer gratuito para alojados en Playa Blanca.",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:405,siteSlugs:["tias-lanzarote"],
+    title:"Curso de Sidemount de buceo Lanzarote",destination:"Tías",region:"Canarias",slug:"curso-de-sidemount-de-buceo-lanzarote-405",
+    type:"Curso",level:"Avanzado",duration:"3 días",audience:"Personas interesadas en curso en Tías",
+    tags:["Buceo","Canarias","Yumping","Tías"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-sidemount-de-buceo-lanzarote--o33853",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-sidemount-de-buceo-lanzarote--o33853",offers:[{id:"yumping-o33853",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-sidemount-de-buceo-lanzarote--o33853",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-sidemount-de-buceo-lanzarote--o33853",priceFrom:300,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Teoría de Sidemount","Configuración del equipo","Práctica en aguas confinadas","Prácticas en aguas abiertas","Transporte"],notes:"Curso de Sidemount de 3 días en Lanzarote para personas con experiencia previa. La ficha describe configuración con dos botellas laterales y prácticas en aguas confinadas y abiertas; incluye transporte.",priceFrom:300,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:406,siteSlugs:["tias-lanzarote"],
+    title:"Bautizo buceo Lanzarote con torpedos subacuáticos",destination:"Tías",region:"Canarias",slug:"bautizo-buceo-lanzarote-con-torpedos-subacuaticos-406",
+    type:"Fun Dive",level:"Intermedio",duration:"3 horas aprox.",audience:"Personas interesadas en fun dive en Tías",
+    tags:["Buceo","Canarias","Yumping","Tías"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-buceo-lanzarote-con-torpedos-subacuaticos--o33852",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-buceo-lanzarote-con-torpedos-subacuaticos--o33852",offers:[{id:"yumping-o33852",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-buceo-lanzarote-con-torpedos-subacuaticos--o33852",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-buceo-lanzarote-con-torpedos-subacuaticos--o33852",priceFrom:105,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:15,maxDepth:"12 m",notes:"Experiencia con torpedos subacuáticos en Puerto del Carmen. Yumping indica unas 3 horas, profundidad máxima de 12 m, nivel previo de buceador de aguas abiertas y recomendación para mayores de 15 años.",priceFrom:105,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:407,siteSlugs:["tias-lanzarote"],
+    title:"SSI Advanced Adventurer en Tías",destination:"Tías",region:"Canarias",slug:"ssi-advanced-adventurer-en-tias-407",
+    type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Personas interesadas en curso en Tías",
+    tags:["Buceo","Canarias","Yumping","Tías"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/advanced-open-water-diver-en-tias--o19793",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/advanced-open-water-diver-en-tias--o19793",offers:[{id:"yumping-o19793",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/advanced-open-water-diver-en-tias--o19793",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/advanced-open-water-diver-en-tias--o19793",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,maxDepth:"30 m",notes:"Curso SSI Advanced Adventurer en Tías de 2–3 días. Yumping indica requisito de Open Water Diver o equivalente, edad mínima de 12 años y formación para inmersiones especiales.",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:408,siteSlugs:["puerto-del-carmen"],
+    title:"Curso Buceador de Rescate PADI Puerto del Carmen",destination:"Puerto del Carmen",region:"Canarias",slug:"curso-buceador-de-rescate-padi-puerto-del-carmen-408",
+    type:"Curso",level:"Avanzado",duration:"3 días",audience:"Personas interesadas en curso en Puerto del Carmen",
+    tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceador-de-rescate-padi-puerto-del-carmen--o15615",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceador-de-rescate-padi-puerto-del-carmen--o15615",offers:[{id:"yumping-o15615",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceador-de-rescate-padi-puerto-del-carmen--o15615",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceador-de-rescate-padi-puerto-del-carmen--o15615",priceFrom:285,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Formación Rescue Diver PADI"],notes:"Curso PADI Rescue Diver en Puerto del Carmen de 3 días. La ficha lo presenta como formación de rescate para ampliar conocimientos y experiencia como buceador.",priceFrom:285,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:409,siteSlugs:["puerto-del-carmen"],
+    title:"PADI Advanced Open Water, Puerto del Carmen",destination:"Puerto del Carmen",region:"Canarias",slug:"padi-advanced-open-water-puerto-del-carmen-409",
+    type:"Curso",level:"Avanzado",duration:"2,5 días aprox.",audience:"Personas interesadas en curso en Puerto del Carmen",
+    tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",offers:[{id:"yumping-o204",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",priceFrom:285,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"30 m",notes:"Curso PADI Advanced Open Water en Puerto del Carmen. Yumping indica unos 2,5 días y cinco inmersiones de formación.",priceFrom:285,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:410,siteSlugs:["puerto-del-carmen"],
+    title:"PADI Rescue Diver en Lanzarote",destination:"Puerto del Carmen",region:"Canarias",slug:"padi-rescue-diver-en-lanzarote-410",
+    type:"Curso",level:"Avanzado",duration:"3–4 días",audience:"Personas interesadas en curso en Puerto del Carmen",
+    tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-rescue-diver-en-lanzarote--o205",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-rescue-diver-en-lanzarote--o205",offers:[{id:"yumping-o205",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-rescue-diver-en-lanzarote--o205",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-rescue-diver-en-lanzarote--o205",priceFrom:335,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso PADI Rescue Diver en Puerto del Carmen. La ficha indica 3–4 días y formación específica para afrontar situaciones de emergencia durante la inmersión.",priceFrom:335,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:411,siteSlugs:["puerto-del-carmen"],
+    title:"PADI Divemaster, Puerto del Carmen",destination:"Puerto del Carmen",region:"Canarias",slug:"padi-divemaster-puerto-del-carmen-411",
+    type:"Curso",level:"Avanzado",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Puerto del Carmen",
+    tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",offers:[{id:"yumping-o206",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",priceFrom:588,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    notes:"Curso PADI Divemaster en Puerto del Carmen. Precio actual mostrado por Yumping: 588 €.",priceFrom:588,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
