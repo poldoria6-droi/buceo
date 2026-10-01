@@ -1307,6 +1307,329 @@ export const activities:Activity[]=[
     included:["4 inmersiones","Playa y mar abierto","Instructor"],
     notes:"Curso de 4 jornadas que pueden repartirse según disponibilidad del participante."
   }
+
+  {
+    id:198,siteSlugs:["cabo-palos-reserva"],
+    title:"Bautizo de buceo en barco en Cabo de Palos",
+    destination:"Cabo de Palos",region:"Murcia",slug:"bautizo-barco-cabo-palos-14983",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Murcia",
+    tags:["Buceo","Murcia","Yumping","Cabo de Palos"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-buceo-en-barco-en-cabo-de-palos--o14983",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-buceo-en-barco-en-cabo-de-palos--o14983",
+    offers:[{id:"yumping-o14983",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-buceo-en-barco-en-cabo-de-palos--o14983",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-buceo-en-barco-en-cabo-de-palos--o14983",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,
+    maxDepth:"6 m",
+    included:["Nociones básicas de buceo","Equipo completo","Instructor","Diploma"],
+    notes:"Actividad de iniciación con inmersión desde barco.",
+    priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:199,siteSlugs:["cabo-palos-reserva"],
+    title:"Curso de iniciación al buceo Open Water PADI en Cabo de Palos",
+    destination:"Cabo de Palos",region:"Murcia",slug:"open-water-cabo-palos-14809",
+    type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","Cabo de Palos"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-al-buceo-open-water-murcia--o14809",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-al-buceo-open-water-murcia--o14809",
+    offers:[{id:"yumping-o14809",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-al-buceo-open-water-murcia--o14809",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-al-buceo-open-water-murcia--o14809",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,
+    maxDepth:"18 m",
+    included:["5 módulos teóricos","5 inmersiones","Equipo completo","Material didáctico","Seguro","Titulación internacional"],
+    notes:"La quinta inmersión se realiza en la Reserva Marina de Cabo de Palos.",
+    priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:200,siteSlugs:["cabo-palos-reserva"],
+    title:"Curso Advanced Open Water Diver PADI en Cabo de Palos",
+    destination:"Cabo de Palos",region:"Murcia",slug:"advanced-open-water-cabo-palos-14984",
+    type:"Curso",level:"Avanzado",duration:"3 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","Cabo de Palos"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-advanced-open-water-diver-murcia--o14984",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-advanced-open-water-diver-murcia--o14984",
+    offers:[{id:"yumping-o14984",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-advanced-open-water-diver-murcia--o14984",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-advanced-open-water-diver-murcia--o14984",priceFrom:395,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"30 m",
+    included:["Formación teórica","5 inmersiones","Material de buceo","Instructor"],
+    notes:"Curso Advanced de 3 días, repartible en dos inmersiones diarias y una quinta el tercer día.",
+    priceFrom:395,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:201,siteSlugs:["cabo-palos-reserva"],
+    title:"Bautizo de snorkel en Cabo de Palos con fotos",
+    destination:"Cabo de Palos",region:"Murcia",slug:"snorkel-cabo-palos-fotos",
+    type:"Snorkel",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en snorkel en Murcia",
+    tags:["Buceo","Murcia","Yumping","Cabo de Palos"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    included:["Actividad de snorkel","Fotos"],
+    notes:"Oferta visible actualmente en Yumping desde 30 €. No se ha incorporado URL directa porque la búsqueda pública no expuso el SKU de la ficha.",
+    priceFrom:30,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:202,siteSlugs:["la-manga-mar-menor"],
+    title:"Bautismo de buceo en mar, Puerto Tomás Maestre, 3h",
+    destination:"La Manga del Mar Menor",region:"Murcia",slug:"bautismo-tomas-maestre-88731",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Manga del Mar Menor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-puerto-tomas-maestre-3h--o88731",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-puerto-tomas-maestre-3h--o88731",
+    offers:[{id:"yumping-o88731",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-puerto-tomas-maestre-3h--o88731",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-puerto-tomas-maestre-3h--o88731",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"6 m",
+    included:["Monitor profesional","Equipo técnico y seguridad","Charla previa","Seguro"],
+    notes:"Inmersión de iniciación en el Mar Menor.",
+    priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:203,siteSlugs:["la-manga-mar-menor"],
+    title:"Bautismo de Buceo PADI en La Manga del Mar Menor",
+    destination:"La Manga del Mar Menor",region:"Murcia",slug:"bautismo-padi-la-manga-35110",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Manga del Mar Menor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-padi-en-la-manga-del-mar-menor--o35110",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-padi-en-la-manga-del-mar-menor--o35110",
+    offers:[{id:"yumping-o35110",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-padi-en-la-manga-del-mar-menor--o35110",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-padi-en-la-manga-del-mar-menor--o35110",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"6 m",
+    included:["1 inmersión","Instructor","Equipo completo","Seguro","Fotografías","Diploma"],
+    notes:"Precio actual 80 € con descuento; el precio mostrado de referencia es 90 €.",
+    priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:204,siteSlugs:["la-manga-mar-menor"],
+    title:"Bautismo de buceo en piscina San Javier, 3h",
+    destination:"La Manga del Mar Menor",region:"Murcia",slug:"bautismo-piscina-san-javier-88730",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Manga del Mar Menor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-puerto-tomas-maestre-3h--o88730",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-puerto-tomas-maestre-3h--o88730",
+    offers:[{id:"yumping-o88730",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-puerto-tomas-maestre-3h--o88730",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-puerto-tomas-maestre-3h--o88730",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"Piscina",
+    included:["Instructor","Equipo","Inmersión de aproximadamente 1 h"],
+    notes:"Primera toma de contacto con el equipo en piscina.",
+    priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:205,siteSlugs:["la-manga-mar-menor"],
+    title:"Snorkel en La Manga – Discover Snorkeling Experience",
+    destination:"La Manga del Mar Menor",region:"Murcia",slug:"snorkel-la-manga-35112",
+    type:"Snorkel",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en snorkel en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Manga del Mar Menor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/snorkel-en-la-manga-discover-snorkeling-experience--o35112",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/snorkel-en-la-manga-discover-snorkeling-experience--o35112",
+    offers:[{id:"yumping-o35112",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/snorkel-en-la-manga-discover-snorkeling-experience--o35112",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/snorkel-en-la-manga-discover-snorkeling-experience--o35112",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Excursión de snorkel","Instructor","Equipo","Snacks","Seguro","Diploma"],
+    notes:"Actividad de baja dificultad, apta para familia o pareja.",
+    priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:206,siteSlugs:["la-manga-mar-menor"],
+    title:"Curso iniciación Open Water Diver en La Manga, 5 días",
+    destination:"La Manga del Mar Menor",region:"Murcia",slug:"open-water-la-manga-35125",
+    type:"Curso",level:"Inicial",duration:"3–5 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Manga del Mar Menor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-open-water-diver-en-la-manga--o35125",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-open-water-diver-en-la-manga--o35125",
+    offers:[{id:"yumping-o35125",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-open-water-diver-en-la-manga--o35125",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-open-water-diver-en-la-manga--o35125",priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:16,
+    maxDepth:"18 m",
+    included:["5 inmersiones","Manual PADI","Instructor PADI","Equipo completo","Seguro","Certificación PADI","Snacks"],
+    notes:"El curso permite realizarse entre 3 y 5 días.",
+    priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:207,siteSlugs:["la-manga-mar-menor"],
+    title:"Curso Advanced Open Water PADI en La Manga, 4 días",
+    destination:"La Manga del Mar Menor",region:"Murcia",slug:"advanced-open-water-la-manga-35127",
+    type:"Curso",level:"Avanzado",duration:"3–4 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Manga del Mar Menor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-advanced-open-water-padi-en-la-manga--o35127",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-advanced-open-water-padi-en-la-manga--o35127",
+    offers:[{id:"yumping-o35127",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-advanced-open-water-padi-en-la-manga--o35127",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-advanced-open-water-padi-en-la-manga--o35127",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["5 inmersiones","Formación PADI","Equipo","Instructor","Certificación"],
+    notes:"Curso Advanced de PADI para buceadores con Open Water.",
+    priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:208,siteSlugs:["la-manga-mar-menor"],
+    title:"Curso AOWD PADI en La Manga",
+    destination:"La Manga del Mar Menor",region:"Murcia",slug:"aowd-padi-la-manga-17372",
+    type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Manga del Mar Menor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-avanzado-aowd-de-padi-la-manga--o17372",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-avanzado-aowd-de-padi-la-manga--o17372",
+    offers:[{id:"yumping-o17372",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-avanzado-aowd-de-padi-la-manga--o17372",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-avanzado-aowd-de-padi-la-manga--o17372",priceFrom:325,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["5 inmersiones","Material homologado","Seguros","Certificado"],
+    notes:"Dos inmersiones fijas: profunda y navegación; tres optativas.",
+    priceFrom:325,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:209,siteSlugs:["la-azohia"],
+    title:"Bautismo de buceo en La Azohía",
+    destination:"La Azohía",region:"Murcia",slug:"bautismo-la-azohia-7655",
+    type:"Bautismo",level:"Inicial",duration:"2,5 horas",audience:"Personas interesadas en bautismo en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Azohía"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-la-azohia--o7655",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-la-azohia--o7655",
+    offers:[{id:"yumping-o7655",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-la-azohia--o7655",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-la-azohia--o7655",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Explicación teórica","Equipo de buceo","Instructor","Inmersión"],
+    notes:"Actividad de iniciación en la Bahía de Mazarrón.",
+    priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:210,siteSlugs:["la-azohia"],
+    title:"Bautismo de buceo en Cabo Tiñoso desde La Azohía",
+    destination:"La Azohía",region:"Murcia",slug:"bautismo-cabo-tinoso-20620",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Azohía"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-murcia--o20620",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-murcia--o20620",
+    offers:[{id:"yumping-o20620",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-murcia--o20620",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-murcia--o20620",priceFrom:84.7,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Traslado en barco","Clase teórica","Instructor","Equipo"],
+    notes:"Salida desde La Azohía hacia Cala Cerrada, en el Parque Natural del Cabo Tiñoso.",
+    priceFrom:84.7,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:211,siteSlugs:["la-azohia"],
+    title:"Bautismo de Buceo en Cabo Tiñoso, La Azohía 3h",
+    destination:"La Azohía",region:"Murcia",slug:"bautismo-cabo-tinoso-azohia-3h",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Azohía"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    included:["Transporte"],
+    notes:"Oferta mostrada actualmente por Yumping desde 80 €. Se mantiene pendiente el SKU/URL directa para no inventar el enlace.",
+    priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:212,siteSlugs:["la-azohia"],
+    title:"Curso PADI Scuba Diver en La Azohía",
+    destination:"La Azohía",region:"Murcia",slug:"scuba-diver-padi-la-azohia-68794",
+    type:"Curso",level:"Inicial",duration:"2 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Azohía"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-scuba-diver-de-padi-en-la-azohia--o68794",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-scuba-diver-de-padi-en-la-azohia--o68794",
+    offers:[{id:"yumping-o68794",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-scuba-diver-de-padi-en-la-azohia--o68794",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-scuba-diver-de-padi-en-la-azohia--o68794",priceFrom:375,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,
+    maxDepth:"12 m",
+    included:["Inmersiones prácticas","Sesiones teóricas","Equipo","Entrenadores profesionales"],
+    notes:"Curso PADI Scuba Diver de 2 días.",
+    priceFrom:375,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:213,siteSlugs:["la-azohia"],
+    title:"Curso Open Water Diver en La Azohía",
+    destination:"La Azohía",region:"Murcia",slug:"open-water-la-azohia-60038",
+    type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Azohía"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-open-water-diver-en-la-azohia--o60038",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-open-water-diver-en-la-azohia--o60038",
+    offers:[{id:"yumping-o60038",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-open-water-diver-en-la-azohia--o60038",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-open-water-diver-en-la-azohia--o60038",priceFrom:625,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Formación","Inmersiones","Equipo"],
+    notes:"Duración habitual 4 días, adaptable según necesidades.",
+    priceFrom:625,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:214,siteSlugs:["la-azohia"],
+    title:"Salida doble de buceo en Cabo Tiñoso para titulados",
+    destination:"La Azohía",region:"Murcia",slug:"doble-inmersion-cabo-tinoso-titulados-4717",
+    type:"Fun Dive",level:"Intermedio",duration:"4–5 horas",audience:"Personas interesadas en fun dive en Murcia",
+    tags:["Buceo","Murcia","Yumping","La Azohía"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/salida-doble-de-buceo-en-cabo-tinoso-titulados--o4717",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/salida-doble-de-buceo-en-cabo-tinoso-titulados--o4717",
+    offers:[{id:"yumping-o4717",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/salida-doble-de-buceo-en-cabo-tinoso-titulados--o4717",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/salida-doble-de-buceo-en-cabo-tinoso-titulados--o4717",priceFrom:165,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["2 inmersiones","Barco","Botella y plomos","Tasas de la reserva"],
+    notes:"Pensada para buceadores titulados; el equipo completo no está incluido.",
+    priceFrom:165,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:215,siteSlugs:["puerto-mazarron"],
+    title:"Bautismo de buceo desde barco en Cabo Tiñoso, 3h",
+    destination:"Puerto de Mazarrón",region:"Murcia",slug:"bautismo-cabo-tinoso-barco-32148",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Murcia",
+    tags:["Buceo","Murcia","Yumping","Puerto de Mazarrón"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",
+    offers:[{id:"yumping-o32148",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Barco","Equipo","Seguro"],
+    notes:"Bautismo desde barco en Cabo Tiñoso.",
+    priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:216,siteSlugs:["puerto-mazarron"],
+    title:"Curso intensivo Open Water en Mazarrón, 3 días",
+    destination:"Puerto de Mazarrón",region:"Murcia",slug:"open-water-mazarron-32149",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","Puerto de Mazarrón"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-intensivo-buceo-open-water-mazarron-3-dias--o32149",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-intensivo-buceo-open-water-mazarron-3-dias--o32149",
+    offers:[{id:"yumping-o32149",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-intensivo-buceo-open-water-mazarron-3-dias--o32149",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-intensivo-buceo-open-water-mazarron-3-dias--o32149",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Teoría PADI","Prácticas","Equipo completo","Formación"],
+    notes:"Curso intensivo de aproximadamente 18 horas.",
+    priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:217,siteSlugs:["puerto-mazarron"],
+    title:"Curso de buceo FEDA 1 Estrella en Puerto de Mazarrón",
+    destination:"Puerto de Mazarrón",region:"Murcia",slug:"feda-1-estrella-mazarron-32141",
+    type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","Puerto de Mazarrón"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-feda-1-estrella-en-pto-de-mazarron--o32141",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-feda-1-estrella-en-pto-de-mazarron--o32141",
+    offers:[{id:"yumping-o32141",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-feda-1-estrella-en-pto-de-mazarron--o32141",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-feda-1-estrella-en-pto-de-mazarron--o32141",priceFrom:385,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:12,
+    maxDepth:"25 m",
+    included:["Profesor","Material didáctico","Inmersiones desde barco","Equipo completo","Licencia FEDA","Diploma","Seguros"],
+    notes:"Curso FEDA 1 Estrella; el certificado médico no está incluido.",
+    priceFrom:385,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+
+  {
+    id:218,siteSlugs:["cartagena"],
+    title:"Curso Open Water Diver en Cartagena",
+    destination:"Cartagena",region:"Murcia",slug:"open-water-cartagena-62455",
+    type:"Curso",level:"Inicial",duration:"2–5 días",audience:"Personas interesadas en curso en Murcia",
+    tags:["Buceo","Murcia","Yumping","Cartagena"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-open-water-diver-en-cartagena--o62455",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-open-water-diver-en-cartagena--o62455",
+    offers:[{id:"yumping-o62455",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-open-water-diver-en-cartagena--o62455",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-open-water-diver-en-cartagena--o62455",priceFrom:425,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Módulos teóricos online","Repaso presencial","Prácticas","Certificación"],
+    notes:"La ficha actual de Yumping se presenta como curso Open Water; el proveedor indica formación flexible.",
+    priceFrom:425,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
