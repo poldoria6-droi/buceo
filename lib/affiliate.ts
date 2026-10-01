@@ -19,7 +19,8 @@ export function getBookingOffers(activity: Activity): BookingOffer[] {
     url: activity.providerUrl,
     sourceUrl: activity.sourceUrl,
     priceFrom: activity.priceFrom,
-    priceCurrency: activity.priceCurrency || "EUR"
+    priceCurrency: activity.priceCurrency || "EUR",
+    priceCheckedAt: activity.priceCheckedAt
   }];
 }
 
