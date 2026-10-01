@@ -895,7 +895,7 @@ export const activities:Activity[]=[
   }
 
   {
-    id:167,siteSlugs:["el-montgri"],
+    id:167,siteSlugs:["cala-montgo"],
     title:"Bautismo de buceo Costa del Montgrí 3 horas",
     destination:"L'Escala",region:"Costa Brava",slug:"bautismo-buceo-costa-montgri-36307",
     type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
@@ -909,7 +909,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:168,siteSlugs:["el-montgri"],
+    id:168,siteSlugs:["cala-montgo"],
     title:"Bautismo de buceo en Parque Natural del Montgrí 3h",
     destination:"L'Escala",region:"Costa Brava",slug:"bautismo-buceo-parque-montgri-77668",
     type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
@@ -923,7 +923,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:169,siteSlugs:["el-montgri"],
+    id:169,siteSlugs:["cala-montgo"],
     title:"Curso SSI Open Water Diver en L'Escala",
     destination:"L'Escala",region:"Costa Brava",slug:"curso-ssi-open-water-l-escala-18401",
     type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas que buscan certificación SSI Open Water Diver",
@@ -1030,7 +1030,7 @@ export const activities:Activity[]=[
   },
 
   {
-    id:177,siteSlugs:["tossa-de-mar"],
+    id:177,siteSlugs:["mar-menuda"],
     title:"Curso de buceo Open Water Diver en Mar Menuda",
     destination:"Tossa de Mar",region:"Costa Brava",slug:"open-water-mar-menuda-65112",
     type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas que buscan Open Water Diver",
