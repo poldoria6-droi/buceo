@@ -734,6 +734,34 @@ export const activities:Activity[]=[
     included:["10 inmersiones","Salidas desde Puerto Colón"],
     notes:"Bono de 10 inmersiones en 5 días; cada inmersión dura aproximadamente 30–50 minutos."
   }
+
+  {
+    id:143,siteSlugs:["los-abrigos"],
+    title:"2 inmersiones en Tenerife para buceadores titulados",
+    destination:"Los Abrigos",region:"Canarias",slug:"2-inmersiones-buceadores-titulados-tenerife-53263",
+    type:"Fun Dive",level:"Intermedio",duration:"2 inmersiones · 40 min aprox. cada una",audience:"Buceadores con certificado",
+    tags:["2 inmersiones","Los Abrigos","Botella","Plomos","Transporte"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-en-tenerife-buceadores-titulados--o53263",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-en-tenerife-buceadores-titulados--o53263",
+    offers:[{id:"yumping-o53263",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-en-tenerife-buceadores-titulados--o53263",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-en-tenerife-buceadores-titulados--o53263",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Alquiler de equipo","Botella y plomos","Transporte"],
+    notes:"Yumping indica capacidad de 1–4 personas y salidas de lunes a viernes a las 9:00; fines de semana bajo petición."
+  },
+
+  {
+    id:144,siteSlugs:["las-chafiras"],
+    title:"2 inmersiones de buceo en Tenerife con fotos",
+    destination:"Las Chafiras",region:"Canarias",slug:"2-inmersiones-tenerife-fotos-60253",
+    type:"Fun Dive",level:"Intermedio",duration:"4–5 horas",audience:"Buceadores certificados",
+    tags:["2 inmersiones","Fotos","Las Chafiras","Barco","Playa"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-de-buceo-en-tenerife-con-fotos--o60253",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-de-buceo-en-tenerife-con-fotos--o60253",
+    offers:[{id:"yumping-o60253",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-de-buceo-en-tenerife-con-fotos--o60253",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-de-buceo-en-tenerife-con-fotos--o60253",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["2 inmersiones","Equipo completo","Guía","Reportaje fotográfico"],
+    notes:"Yumping indica 15 puntos de inmersión posibles y salidas desde playa o barco. No incluye seguro de buceo."
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
