@@ -137,7 +137,7 @@ export const activities:Activity[]=[
     id:109,siteSlugs:["tabarca"],
     title:"Curso PADI Open Water Diver en Jávea",
     destination:"Jávea",region:"Costa Blanca",slug:"curso-padi-open-water-javea",
-    type:"Curso",level:"Open Water",duration:"Consultar disponibilidad",audience:"Personas que quieren obtener la certificación PADI Open Water Diver",
+    type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas que quieren obtener la certificación PADI Open Water Diver",
     tags:["PADI","Open Water","Jávea","Costa Blanca","Curso"],
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-javea--o14121?id_partner=449fb0b2d23ef85c3ee63f78b6e90eae&placement=button-cta&cmp=",
