@@ -2211,6 +2211,186 @@ export const activities:Activity[]=[
     offers:[{id:"yumping-o61964",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-piscina-45-minutos-el-palmar--o61964",sourceUrl:"https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-piscina-45-minutos-el-palmar--o61964",priceFrom:20,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     priceFrom:20,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+  {
+    id:267,siteSlugs:["port-andratx"],
+    title:"Discover Scuba Diving desde barco Port Andratx 4h",destination:"Port d'Andratx",region:"Baleares",slug:"discover-scuba-diving-desde-barco-port-andratx-4h-267",
+    type:"Bautismo",level:"Inicial",duration:"4 horas",audience:"Personas interesadas en bautismo en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Port d'Andratx"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/discover-scuba-diving-parque-natural-dragonera--o56220",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/discover-scuba-diving-parque-natural-dragonera--o56220",
+    offers:[{id:"yumping-o56220",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/discover-scuba-diving-parque-natural-dragonera--o56220",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/discover-scuba-diving-parque-natural-dragonera--o56220",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:268,siteSlugs:["cala-santanyi"],
+    title:"Discover Scuba Diving en Cala Santanyi, 2h",destination:"Cala Santanyí",region:"Baleares",slug:"discover-scuba-diving-en-cala-santanyi-2h-268",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Cala Santanyí"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-cala-santanyi--o56243",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-cala-santanyi--o56243",
+    offers:[{id:"yumping-o56243",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-cala-santanyi--o56243",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-cala-santanyi--o56243",priceFrom:88,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:88,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:269,siteSlugs:["malgrats"],
+    title:"Bautismo de buceo en la Reserva Marina de Malgrats",destination:"Calvià",region:"Baleares",slug:"bautismo-de-buceo-en-la-reserva-marina-de-malgrats-269",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Calvià"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-reserva-marina-de-malgrats--o54957",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-reserva-marina-de-malgrats--o54957",
+    offers:[{id:"yumping-o54957",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-reserva-marina-de-malgrats--o54957",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-reserva-marina-de-malgrats--o54957",priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:270,siteSlugs:["cala-millor-mallorca"],
+    title:"Bautismo de buceo en Cala Millor Mallorca 3 horas",destination:"Cala Millor",region:"Baleares",slug:"bautismo-de-buceo-en-cala-millor-mallorca-3-horas-270",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Cala Millor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-cala-millor-mallorca-3-horas--o57582",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-cala-millor-mallorca-3-horas--o57582",
+    offers:[{id:"yumping-o57582",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-cala-millor-mallorca-3-horas--o57582",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-cala-millor-mallorca-3-horas--o57582",priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:271,siteSlugs:["port-andratx"],
+    title:"Excursión guiada snorkel por costa de Andratx, 2h",destination:"Port d'Andratx",region:"Baleares",slug:"excursion-guiada-snorkel-por-costa-de-andratx-2h-271",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Port d'Andratx"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/tour-de-snorkel-por-isla-del-dragon-2-horas--o42889",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/tour-de-snorkel-por-isla-del-dragon-2-horas--o42889",
+    offers:[{id:"yumping-o42889",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/tour-de-snorkel-por-isla-del-dragon-2-horas--o42889",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/tour-de-snorkel-por-isla-del-dragon-2-horas--o42889",priceFrom:49,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:49,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:272,siteSlugs:["port-andratx"],
+    title:"Bautismo de Buceo desde playa Port d'Andratx, 2.5h",destination:"Port d'Andratx",region:"Baleares",slug:"bautismo-de-buceo-desde-playa-port-d-andratx-2-5h-272",
+    type:"Bautismo",level:"Inicial",duration:"2,5 horas",audience:"Personas interesadas en bautismo en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Port d'Andratx"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-palma-de-mallorca-3h--o28721",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-palma-de-mallorca-3h--o28721",
+    offers:[{id:"yumping-o28721",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-palma-de-mallorca-3h--o28721",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-palma-de-mallorca-3h--o28721",priceFrom:129,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:129,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:273,siteSlugs:["malgrats"],
+    title:"Buceo con tiburones en el Palma Aquarium Mallorca",destination:"Palma de Mallorca",region:"Baleares",slug:"buceo-con-tiburones-en-el-palma-aquarium-mallorca-273",
+    type:"Fun Dive",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en fun dive en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Palma de Mallorca"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/buceo-con-tiburones-en-el-palma-aquarium-mallorca--o56215",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/buceo-con-tiburones-en-el-palma-aquarium-mallorca--o56215",
+    offers:[{id:"yumping-o56215",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/buceo-con-tiburones-en-el-palma-aquarium-mallorca--o56215",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/buceo-con-tiburones-en-el-palma-aquarium-mallorca--o56215",priceFrom:210,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:210,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:274,siteSlugs:["cala-millor-mallorca"],
+    title:"Curso buceo Open Water Diver en Cala Millor 3 días",destination:"Cala Millor",region:"Baleares",slug:"curso-buceo-open-water-diver-en-cala-millor-3-dias-274",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas interesadas en curso en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Cala Millor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-open-water-diver-en-cala-millor-3-dias--o86509",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-open-water-diver-en-cala-millor-3-dias--o86509",
+    offers:[{id:"yumping-o86509",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-open-water-diver-en-cala-millor-3-dias--o86509",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-open-water-diver-en-cala-millor-3-dias--o86509",priceFrom:550,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:550,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:275,siteSlugs:["cala-millor-mallorca"],
+    title:"Excursión de snorkelling en Mallorca, 2 horas",destination:"Cala Millor",region:"Baleares",slug:"excursion-de-snorkelling-en-mallorca-2-horas-275",
+    type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Cala Millor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/excursion-de-snorkelling-en-mallorca-2-horas--o57580",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/excursion-de-snorkelling-en-mallorca-2-horas--o57580",
+    offers:[{id:"yumping-o57580",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/excursion-de-snorkelling-en-mallorca-2-horas--o57580",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/excursion-de-snorkelling-en-mallorca-2-horas--o57580",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:276,siteSlugs:["dragonera-mallorca"],
+    title:"Snorkel en el parque natural de la Dragonera 2h30m",destination:"La Dragonera",region:"Baleares",slug:"snorkel-en-el-parque-natural-de-la-dragonera-2h30m-276",
+    type:"Snorkel",level:"Inicial",duration:"2,5 horas",audience:"Personas interesadas en snorkel en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","La Dragonera"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/snorkel-en-el-parque-natural-de-la-dragonera--o56218",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/snorkel-en-el-parque-natural-de-la-dragonera--o56218",
+    offers:[{id:"yumping-o56218",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/snorkel-en-el-parque-natural-de-la-dragonera--o56218",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/snorkel-en-el-parque-natural-de-la-dragonera--o56218",priceFrom:69,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:69,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:277,siteSlugs:["malgrats"],
+    title:"Snorkeling a las Islas Malgrats desde un barco",destination:"Santa Ponça",region:"Baleares",slug:"snorkeling-a-las-islas-malgrats-desde-un-barco-277",
+    type:"Snorkel",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en snorkel en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Santa Ponça"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/snorkeling-a-las-islas-malgrats-desde-un-barco--o44539",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/snorkeling-a-las-islas-malgrats-desde-un-barco--o44539",
+    offers:[{id:"yumping-o44539",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/snorkeling-a-las-islas-malgrats-desde-un-barco--o44539",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/snorkeling-a-las-islas-malgrats-desde-un-barco--o44539",priceFrom:61,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:61,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:278,siteSlugs:["malgrats"],
+    title:"Inmersión en Reserva Marina de Mallorca con equipo",destination:"Calvià",region:"Baleares",slug:"inmersion-en-reserva-marina-de-mallorca-con-equipo-278",
+    type:"Fun Dive",level:"Intermedio",duration:"Consultar disponibilidad",audience:"Personas interesadas en fun dive en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Calvià"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/inmersion-en-reserva-marina-de-mallorca-con-equipo--o54959",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/inmersion-en-reserva-marina-de-mallorca-con-equipo--o54959",
+    offers:[{id:"yumping-o54959",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/inmersion-en-reserva-marina-de-mallorca-con-equipo--o54959",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/inmersion-en-reserva-marina-de-mallorca-con-equipo--o54959",priceFrom:81,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:81,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:279,siteSlugs:["cala-santanyi"],
+    title:"Curso Open Water Diver en Cala Santanyi",destination:"Cala Santanyí",region:"Baleares",slug:"curso-open-water-diver-en-cala-santanyi-279",
+    type:"Curso",level:"Inicial",duration:"2–4 días",audience:"Personas interesadas en curso en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Cala Santanyí"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/mallorca/padi-open-water-diver-en-cala-santanyi--o56247",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/mallorca/padi-open-water-diver-en-cala-santanyi--o56247",
+    offers:[{id:"yumping-o56247",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/mallorca/padi-open-water-diver-en-cala-santanyi--o56247",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/mallorca/padi-open-water-diver-en-cala-santanyi--o56247",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:280,siteSlugs:["cala-santanyi"],
+    title:"Curso Advanced Open Water Diver Cala Santanyi",destination:"Cala Santanyí",region:"Baleares",slug:"curso-advanced-open-water-diver-cala-santanyi-280",
+    type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Personas interesadas en curso en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Cala Santanyí"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/padi-advanced-open-water-diver-cala-santanyi--o56250",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/padi-advanced-open-water-diver-cala-santanyi--o56250",
+    offers:[{id:"yumping-o56250",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/padi-advanced-open-water-diver-cala-santanyi--o56250",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/padi-advanced-open-water-diver-cala-santanyi--o56250",priceFrom:415,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:415,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:281,siteSlugs:["malgrats"],
+    title:"PADI Advanced Open Water Diver en Santa Ponça",destination:"Santa Ponça",region:"Baleares",slug:"padi-advanced-open-water-diver-en-santa-ponca-281",
+    type:"Curso",level:"Avanzado",duration:"2–5 días",audience:"Personas interesadas en curso en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Santa Ponça"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",
+    offers:[{id:"yumping-o35953",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",priceFrom:435,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:435,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:282,siteSlugs:["malgrats"],
+    title:"Curso de iniciación al buceo en Santa Ponsa, 3h",destination:"Santa Ponça",region:"Baleares",slug:"curso-de-iniciacion-al-buceo-en-santa-ponsa-3h-282",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Santa Ponça"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",
+    offers:[{id:"yumping-o35954",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:283,siteSlugs:["malgrats"],
+    title:"Bautismo de buceo desde barco Santa Ponça, 3 horas",destination:"Santa Ponça",region:"Baleares",slug:"bautismo-de-buceo-desde-barco-santa-ponca-3-horas-283",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Santa Ponça"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",
+    offers:[{id:"yumping-o35950",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:115,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:284,siteSlugs:["cala-millor-mallorca"],
+    title:"Curso buceo Discover Scuba Diving, Cala Millor, 3h",destination:"Cala Millor",region:"Baleares",slug:"curso-buceo-discover-scuba-diving-cala-millor-3h-284",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Mallorca",
+    tags:["Buceo","Mallorca","Baleares","Yumping","Cala Millor"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-discover-scuba-diving-cala-millor-3h--o86514",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-discover-scuba-diving-cala-millor-3h--o86514",
+    offers:[{id:"yumping-o86514",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-discover-scuba-diving-cala-millor-3h--o86514",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-discover-scuba-diving-cala-millor-3h--o86514",priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
