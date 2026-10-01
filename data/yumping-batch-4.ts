@@ -2,7 +2,7 @@ import type { Activity } from "./activities";
 
 export const yumpingBatch4: Activity[] = [
   {
-    id:513,siteSlugs:["menorca-cala-blanes"],
+    id:530,siteSlugs:["menorca-cala-blanes"],
     title:"Buceo en pecio en Menorca, 2 horas",
     destination:"Menorca",region:"Baleares",slug:"buceo-pecio-menorca-4643",
     type:"Pecio",level:"Avanzado",duration:"2 horas",audience:"Buceadores certificados con especialidad en profunda",
