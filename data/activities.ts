@@ -2391,6 +2391,286 @@ export const activities:Activity[]=[
     offers:[{id:"yumping-o86514",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-discover-scuba-diving-cala-millor-3h--o86514",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-discover-scuba-diving-cala-millor-3h--o86514",priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     priceFrom:99,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
+  {
+    id:285,siteSlugs:["portinatx-ibiza"],
+    title:"Bautismo de buceo en Cala Portinatx, 2h30min",destination:"Portinatx",region:"Baleares",slug:"bautismo-de-buceo-en-cala-portinatx-2h30min-285",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Personas interesadas en bautismo en Portinatx",
+    tags:["Buceo","Baleares","Yumping","Portinatx"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/bautismo-de-buceo-en-cala-portinatx-4h--o30367",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/bautismo-de-buceo-en-cala-portinatx-4h--o30367",
+    offers:[{id:"yumping-o30367",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/bautismo-de-buceo-en-cala-portinatx-4h--o30367",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/bautismo-de-buceo-en-cala-portinatx-4h--o30367",priceFrom:130,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    minAge:10,maxDepth:"5 m",included:["Clase teórica","Inmersión","Instructores profesionales","Tarjeta de reconocimiento Try Scuba","Seguros de Responsabilidad Civil y Accidentes"],
+    notes:"Bautismo de iniciación en Cala Portinatx. Yumping indica una duración aproximada de 2 horas y media, inmersión de hasta 5 m y edad mínima de 10 años; no requiere titulación previa.",priceFrom:130,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:286,siteSlugs:["portinatx-ibiza"],
+    title:"Inmersión de buceo con equipo en Ibiza 2 horas",destination:"Portinatx",region:"Baleares",slug:"inmersion-de-buceo-con-equipo-en-ibiza-2-horas-286",
+    type:"Fun Dive",level:"Intermedio",duration:"2 horas",audience:"Personas interesadas en fun dive en Portinatx",
+    tags:["Buceo","Baleares","Yumping","Portinatx"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/inmersion-de-buceo-con-equipo-en-ibiza-2-horas--o66230",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/inmersion-de-buceo-con-equipo-en-ibiza-2-horas--o66230",
+    offers:[{id:"yumping-o66230",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/inmersion-de-buceo-con-equipo-en-ibiza-2-horas--o66230",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/inmersion-de-buceo-con-equipo-en-ibiza-2-horas--o66230",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Equipo completo de buceo","Inmersión"],
+    notes:"Inmersión para buceadores titulados en distintas zonas de Ibiza, entre ellas Isla Margaritas, Isla Murada y Punta Xarraca. Yumping indica unas 2 horas de duración y horario de tarde.",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:287,siteSlugs:["san-antonio-ibiza"],
+    title:"PADI Advanced Open Water, Bahía San Antonio",destination:"Sant Antoni de Portmany",region:"Baleares",slug:"padi-advanced-open-water-bahia-san-antonio-287",
+    type:"Curso",level:"Avanzado",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Sant Antoni de Portmany",
+    tags:["Buceo","Baleares","Yumping","Sant Antoni de Portmany"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-advanced-open-water-bahia-san-antonio--o28445",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-advanced-open-water-bahia-san-antonio--o28445",
+    offers:[{id:"yumping-o28445",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/padi-advanced-open-water-bahia-san-antonio--o28445",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-advanced-open-water-bahia-san-antonio--o28445",priceFrom:445,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Curso PADI Advanced Open Water en la bahía de San Antonio. Precio actual mostrado por Yumping: 445 €.",priceFrom:445,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:288,siteSlugs:["portinatx-ibiza"],
+    title:"Basic Diver de SSI en Portinatx, 3 horas",destination:"Portinatx",region:"Baleares",slug:"basic-diver-de-ssi-en-portinatx-3-horas-288",
+    type:"Curso",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en curso en Portinatx",
+    tags:["Buceo","Baleares","Yumping","Portinatx"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/advanced-open-water-sant-antoni-de-portmany--o30036",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/advanced-open-water-sant-antoni-de-portmany--o30036",
+    offers:[{id:"yumping-o30036",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/advanced-open-water-sant-antoni-de-portmany--o30036",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/advanced-open-water-sant-antoni-de-portmany--o30036",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Programa Basic Diver de SSI en Portinatx, con una duración indicada de 3 horas. Precio actual mostrado por Yumping: 150 €.",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:289,siteSlugs:["portinatx-ibiza"],
+    title:"SSI Diver Stress and Rescue en Portinatx, 6 días",destination:"Portinatx",region:"Baleares",slug:"ssi-diver-stress-and-rescue-en-portinatx-6-dias-289",
+    type:"Curso",level:"Avanzado",duration:"6 días",audience:"Personas interesadas en curso en Portinatx",
+    tags:["Buceo","Baleares","Yumping","Portinatx"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/ssi-rescue-diver-en-sant-antoni-de-portmany--o30038",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/ssi-rescue-diver-en-sant-antoni-de-portmany--o30038",
+    offers:[{id:"yumping-o30038",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/ssi-rescue-diver-en-sant-antoni-de-portmany--o30038",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/ssi-rescue-diver-en-sant-antoni-de-portmany--o30038",priceFrom:550,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Formación SSI Diver Stress and Rescue en Portinatx con una duración indicada de 6 días. Precio actual mostrado por Yumping: 550 €.",priceFrom:550,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:290,siteSlugs:["portinatx-ibiza"],
+    title:"Curso de buceo Open Water Diver en Ibiza 5 días",destination:"Portinatx",region:"Baleares",slug:"curso-de-buceo-open-water-diver-en-ibiza-5-dias-290",
+    type:"Curso",level:"Inicial",duration:"5 días",audience:"Personas interesadas en curso en Portinatx",
+    tags:["Buceo","Baleares","Yumping","Portinatx"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/curso-de-buceo-open-water-diver-en-ibiza-5-dias--o66225",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/curso-de-buceo-open-water-diver-en-ibiza-5-dias--o66225",
+    offers:[{id:"yumping-o66225",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/curso-de-buceo-open-water-diver-en-ibiza-5-dias--o66225",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/curso-de-buceo-open-water-diver-en-ibiza-5-dias--o66225",priceFrom:580,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Titulación Open Water Diver","Monitores","Equipo de buceo","Teoría","5 inmersiones en piscina","4 inmersiones en mar abierto","Seguros"],
+    notes:"Curso Open Water Diver de 5 días en Portinatx. La ficha indica 5 inmersiones en piscina y 4 en mar abierto, además de titulación Open Water Diver.",priceFrom:580,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:291,siteSlugs:["portinatx-ibiza"],
+    title:"Curso PADI Advanced Open Water en Ibiza 5 días",destination:"Portinatx",region:"Baleares",slug:"curso-padi-advanced-open-water-en-ibiza-5-dias-291",
+    type:"Curso",level:"Avanzado",duration:"5 días",audience:"Personas interesadas en curso en Portinatx",
+    tags:["Buceo","Baleares","Yumping","Portinatx"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/curso-padi-advanced-open-water-en-ibiza-5-dias--o66229",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/curso-padi-advanced-open-water-en-ibiza-5-dias--o66229",
+    offers:[{id:"yumping-o66229",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/curso-padi-advanced-open-water-en-ibiza-5-dias--o66229",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/curso-padi-advanced-open-water-en-ibiza-5-dias--o66229",priceFrom:540,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Instructor","Equipo de buceo","Teoría","3 inmersiones en mar abierto","Seguros"],
+    notes:"Curso PADI Advanced Open Water de 5 días en Portinatx. Yumping describe tres inmersiones de formación, con profunda y navegación obligatorias y una tercera de elección.",priceFrom:540,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:292,siteSlugs:["san-antonio-ibiza"],
+    title:"Discover Scuba Diving en San Antonio, Ibiza",destination:"Sant Antoni de Portmany",region:"Baleares",slug:"discover-scuba-diving-en-san-antonio-ibiza-292",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Sant Antoni de Portmany",
+    tags:["Buceo","Baleares","Yumping","Sant Antoni de Portmany"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/discover-scuba-diving-en-san-antonio-ibiza--o3993",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/discover-scuba-diving-en-san-antonio-ibiza--o3993",
+    offers:[{id:"yumping-o3993",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/discover-scuba-diving-en-san-antonio-ibiza--o3993",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/discover-scuba-diving-en-san-antonio-ibiza--o3993",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"12 m",included:["Excursión en barco","Equipo completo","Instrucción","Seguro de Responsabilidad Civil y de Accidentes"],
+    notes:"Discover Scuba Diving de PADI en San Antonio. La ficha indica unas 3 horas, profundidad máxima de 12 m y una inmersión de unos 25–30 minutos.",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:293,siteSlugs:["san-antonio-ibiza"],
+    title:"Inmersiones de buceo en San Antonio, bono de 4",destination:"Sant Antoni de Portmany",region:"Baleares",slug:"inmersiones-de-buceo-en-san-antonio-bono-de-4-293",
+    type:"Fun Dive",level:"Intermedio",duration:"2 días · 4 inmersiones",audience:"Personas interesadas en fun dive en Sant Antoni de Portmany",
+    tags:["Buceo","Baleares","Yumping","Sant Antoni de Portmany"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/2-inmersiones-de-buceo-en-san-antonio--o21707",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/2-inmersiones-de-buceo-en-san-antonio--o21707",
+    offers:[{id:"yumping-o21707-4",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/2-inmersiones-de-buceo-en-san-antonio--o21707",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/2-inmersiones-de-buceo-en-san-antonio--o21707",priceFrom:262,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Equipo de buceo","Seguro de buceo"],
+    notes:"Bono de 4 inmersiones en San Antonio para buceadores con titulación. Yumping indica 2 días, con 2 inmersiones de aproximadamente 50 minutos cada una en la jornada de salida. Precio actual: 262 €.",priceFrom:262,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:294,siteSlugs:["san-antonio-ibiza"],
+    title:"2 Inmersiones de buceo en San Antonio",destination:"Sant Antoni de Portmany",region:"Baleares",slug:"2-inmersiones-de-buceo-en-san-antonio-294",
+    type:"Fun Dive",level:"Intermedio",duration:"Media jornada",audience:"Personas interesadas en fun dive en Sant Antoni de Portmany",
+    tags:["Buceo","Baleares","Yumping","Sant Antoni de Portmany"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/2-inmersiones-de-buceo-en-san-antonio--o21707",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/2-inmersiones-de-buceo-en-san-antonio--o21707",
+    offers:[{id:"yumping-o21707",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/2-inmersiones-de-buceo-en-san-antonio--o21707",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/2-inmersiones-de-buceo-en-san-antonio--o21707",priceFrom:130,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Equipo de buceo","Seguro de Responsabilidad Civil y de Accidentes","IVA"],
+    notes:"Dos inmersiones en San Antonio para personas con titulación. La ficha indica que la duración depende del consumo de las dos botellas y que se realizan por la mañana.",priceFrom:130,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:295,siteSlugs:["san-antonio-ibiza"],
+    title:"Bono 10 inmersiones + botella + plomos en Ibiza",destination:"Sant Antoni de Portmany",region:"Baleares",slug:"bono-10-inmersiones-botella-plomos-en-ibiza-295",
+    type:"Fun Dive",level:"Intermedio",duration:"Según planificación",audience:"Personas interesadas en fun dive en Sant Antoni de Portmany",
+    tags:["Buceo","Baleares","Yumping","Sant Antoni de Portmany"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/bono-10-inmersiones-botella-plomos-en-ibiza--o27210",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/bono-10-inmersiones-botella-plomos-en-ibiza--o27210",
+    offers:[{id:"yumping-o27210",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/bono-10-inmersiones-botella-plomos-en-ibiza--o27210",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/bono-10-inmersiones-botella-plomos-en-ibiza--o27210",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Bono de 10 inmersiones con botella y plomos en Ibiza. Precio actual mostrado por Yumping: 420 €.",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:296,siteSlugs:["san-antonio-ibiza"],
+    title:"PADI Open Water en Bahía de San Antonio",destination:"Sant Antoni de Portmany",region:"Baleares",slug:"padi-open-water-en-bahia-de-san-antonio-296",
+    type:"Curso",level:"Inicial",duration:"3–4 días",audience:"Personas interesadas en curso en Sant Antoni de Portmany",
+    tags:["Buceo","Baleares","Yumping","Sant Antoni de Portmany"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-open-water-en-bahia-de-san-antonio--o28444",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-open-water-en-bahia-de-san-antonio--o28444",
+    offers:[{id:"yumping-o28444",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/padi-open-water-en-bahia-de-san-antonio--o28444",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-open-water-en-bahia-de-san-antonio--o28444",priceFrom:500,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"18 m",included:["Instructor","Material didáctico online","Material de buceo","Seguro de Responsabilidad Civil y de Accidentes","IVA"],
+    notes:"Curso PADI Open Water en la bahía de San Antonio. La ficha indica 3–4 días, 5 sesiones en aguas confinadas y 4 en mar abierto, hasta 18 m.",priceFrom:500,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:297,siteSlugs:["san-antonio-ibiza"],
+    title:"Bautizo de buceo desde barco Cala Sant Antoni 3h30",destination:"Sant Antoni de Portmany",region:"Baleares",slug:"bautizo-de-buceo-desde-barco-cala-sant-antoni-3h30-297",
+    type:"Bautismo",level:"Inicial",duration:"3 h 30 min aprox.",audience:"Personas interesadas en bautismo en Sant Antoni de Portmany",
+    tags:["Buceo","Baleares","Yumping","Sant Antoni de Portmany"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/bautizo-de-buceo-en-sant-antoni-de-portmany-ibiza--o30025",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/bautizo-de-buceo-en-sant-antoni-de-portmany-ibiza--o30025",
+    offers:[{id:"yumping-o30025",provider:"Yumping",url:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/bautizo-de-buceo-en-sant-antoni-de-portmany-ibiza--o30025",sourceUrl:"https://www.yumping.com/es-MX/ofertas/buceo/ibiza/bautizo-de-buceo-en-sant-antoni-de-portmany-ibiza--o30025",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"8 m",included:["Instructor experto","Equipo de buceo","Explicación teórica","Inmersión desde barco","Seguro de Responsabilidad Civil y accidentes"],
+    notes:"Bautismo desde barco en distintos puntos de la costa de Ibiza según la meteorología. Yumping indica unas 3 horas y media y profundidad máxima de 8 m.",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:298,siteSlugs:["punta-galera-ibiza"],
+    title:"Bautismo buceo para parejas en Punta Galera, 3h30",destination:"Sant Antoni de Portmany",region:"Baleares",slug:"bautismo-buceo-para-parejas-en-punta-galera-3h30-298",
+    type:"Bautismo",level:"Inicial",duration:"3 h 30 min aprox.",audience:"Personas interesadas en bautismo en Sant Antoni de Portmany",
+    tags:["Buceo","Baleares","Yumping","Sant Antoni de Portmany"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-scuba-diver-sant-antoni-de-portmany-ibiza--o30034",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-scuba-diver-sant-antoni-de-portmany-ibiza--o30034",
+    offers:[{id:"yumping-o30034",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/padi-scuba-diver-sant-antoni-de-portmany-ibiza--o30034",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-scuba-diver-sant-antoni-de-portmany-ibiza--o30034",priceFrom:290,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Bautismo de buceo para exactamente 2 personas en Punta Galera. Yumping indica una duración aproximada de 3 horas y media y precio por actividad de 290 €.",priceFrom:290,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:299,siteSlugs:["portinatx-ibiza"],
+    title:"SSI Scuba Diver en Portinatx, 3 días",destination:"Portinatx",region:"Baleares",slug:"ssi-scuba-diver-en-portinatx-3-dias-299",
+    type:"Curso",level:"Inicial",duration:"3 días",audience:"Personas interesadas en curso en Portinatx",
+    tags:["Buceo","Baleares","Yumping","Portinatx"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-open-water-diver-en-sant-antoni-de-portmany--o30035",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-open-water-diver-en-sant-antoni-de-portmany--o30035",
+    offers:[{id:"yumping-o30035",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/ibiza/padi-open-water-diver-en-sant-antoni-de-portmany--o30035",sourceUrl:"https://www.yumping.com/ofertas/buceo/ibiza/padi-open-water-diver-en-sant-antoni-de-portmany--o30035",priceFrom:440,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Curso SSI Scuba Diver en Portinatx con una duración indicada de 3 días. Precio actual mostrado por Yumping: 440 €.",priceFrom:440,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:300,siteSlugs:["platja-migjorn-formentera"],
+    title:"Inmersión de Buceo con equipo en Formentera",destination:"Platja Mitjorn",region:"Baleares",slug:"inmersion-de-buceo-con-equipo-en-formentera-300",
+    type:"Fun Dive",level:"Intermedio",duration:"Según inmersión",audience:"Personas interesadas en fun dive en Platja Mitjorn",
+    tags:["Buceo","Baleares","Yumping","Platja Mitjorn"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/inmersion-de-buceo-con-equipo-en-formentera--o36817",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/inmersion-de-buceo-con-equipo-en-formentera--o36817",
+    offers:[{id:"yumping-o36817",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/inmersion-de-buceo-con-equipo-en-formentera--o36817",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/inmersion-de-buceo-con-equipo-en-formentera--o36817",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Material de buceo"],
+    notes:"Inmersiones con equipo en distintas zonas de Formentera, elegidas según la titulación y el tipo de ruta. Yumping muestra un precio desde 60 €.",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:301,siteSlugs:["es-pujols-formentera"],
+    title:"Bautizo de buceo en aguas abiertas Formentera 1h",destination:"Es Pujols",region:"Baleares",slug:"bautizo-de-buceo-en-aguas-abiertas-formentera-1h-301",
+    type:"Bautismo",level:"Inicial",duration:"1–1 h 30 min",audience:"Personas interesadas en bautismo en Es Pujols",
+    tags:["Buceo","Baleares","Yumping","Es Pujols"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautizo-de-buceo-en-aguas-abiertas-formentera-1h--o62795",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautizo-de-buceo-en-aguas-abiertas-formentera-1h--o62795",
+    offers:[{id:"yumping-o62795",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/bautizo-de-buceo-en-aguas-abiertas-formentera-1h--o62795",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautizo-de-buceo-en-aguas-abiertas-formentera-1h--o62795",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Bautismo de buceo en aguas abiertas con salida desde el puerto de La Savina. La localización exacta se elige según disponibilidad y condiciones.",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:302,siteSlugs:["platja-migjorn-formentera"],
+    title:"Bautismo de Buceo en Playa Formentera 1 hora",destination:"Platja Mitjorn",region:"Baleares",slug:"bautismo-de-buceo-en-playa-formentera-1-hora-302",
+    type:"Bautismo",level:"Inicial",duration:"1 hora aprox.",audience:"Personas interesadas en bautismo en Platja Mitjorn",
+    tags:["Buceo","Baleares","Yumping","Platja Mitjorn"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautismo-de-buceo-en-playa-formentera-1-hora--o36810",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautismo-de-buceo-en-playa-formentera-1-hora--o36810",
+    offers:[{id:"yumping-o36810",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/bautismo-de-buceo-en-playa-formentera-1-hora--o36810",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautismo-de-buceo-en-playa-formentera-1-hora--o36810",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    maxDepth:"4–5 m",included:["Equipo completo de buceo","Material de buceo","Instructor de buceo titulado","Seguros"],
+    notes:"Bautismo directamente desde la playa de Formentera. Yumping indica una duración aproximada de 1 hora, inmersión de 30–40 minutos y profundidad máxima de 4–5 m.",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:303,siteSlugs:["platja-migjorn-formentera"],
+    title:"Curso Open Water Diver Padi Formentera",destination:"Platja Mitjorn",region:"Baleares",slug:"curso-open-water-diver-padi-formentera-303",
+    type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Platja Mitjorn",
+    tags:["Buceo","Baleares","Yumping","Platja Mitjorn"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-open-water-diver-padi-formentera--o36813",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-open-water-diver-padi-formentera--o36813",
+    offers:[{id:"yumping-o36813",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/curso-open-water-diver-padi-formentera--o36813",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-open-water-diver-padi-formentera--o36813",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Curso completo PADI Open Water Diver","Tramitación del Carnet","Equipo completo","4 Prácticas en piscina","5 Clases teóricas","4 inmersiones en el mar","Instructores titulados"],
+    notes:"Curso completo PADI Open Water Diver en Formentera. La ficha indica 4–5 días, 4 prácticas en piscina, 5 clases teóricas y 4 inmersiones en el mar, con material incluido.",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:304,siteSlugs:["platja-migjorn-formentera"],
+    title:"2 inmersiones de buceo en Formentera desde barco",destination:"Platja Mitjorn",region:"Baleares",slug:"2-inmersiones-de-buceo-en-formentera-desde-barco-304",
+    type:"Fun Dive",level:"Intermedio",duration:"Según inmersiones",audience:"Personas interesadas en fun dive en Platja Mitjorn",
+    tags:["Buceo","Baleares","Yumping","Platja Mitjorn"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/2-inmersiones-de-buceo-en-formentera-desde-barco--o50487",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/2-inmersiones-de-buceo-en-formentera-desde-barco--o50487",
+    offers:[{id:"yumping-o50487",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/2-inmersiones-de-buceo-en-formentera-desde-barco--o50487",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/2-inmersiones-de-buceo-en-formentera-desde-barco--o50487",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Dos inmersiones desde barco en Formentera. La ficha de Yumping muestra un precio desde 120 € por persona.",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:305,siteSlugs:["es-pujols-formentera"],
+    title:"2 inmersiones de buceo con titulación Formentera",destination:"Es Pujols",region:"Baleares",slug:"2-inmersiones-de-buceo-con-titulacion-formentera-305",
+    type:"Fun Dive",level:"Intermedio",duration:"Según zona",audience:"Personas interesadas en fun dive en Es Pujols",
+    tags:["Buceo","Baleares","Yumping","Es Pujols"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/2-inmersiones-de-buceo-con-titulacion-formentera--o62794",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/2-inmersiones-de-buceo-con-titulacion-formentera--o62794",
+    offers:[{id:"yumping-o62794",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/2-inmersiones-de-buceo-con-titulacion-formentera--o62794",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/2-inmersiones-de-buceo-con-titulacion-formentera--o62794",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Dos inmersiones para buceadores con titulación. La salida parte del puerto pesquero de La Savina y permite elegir entre distintos puntos según disponibilidad y condiciones.",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:306,siteSlugs:["es-pujols-formentera"],
+    title:"Buceo en Formentera con equipo completo",destination:"Es Pujols",region:"Baleares",slug:"buceo-en-formentera-con-equipo-completo-306",
+    type:"Fun Dive",level:"Intermedio",duration:"Según inmersión",audience:"Personas interesadas en fun dive en Es Pujols",
+    tags:["Buceo","Baleares","Yumping","Es Pujols"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/buceo-en-formentera-con-equipo-completo--o62796",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/buceo-en-formentera-con-equipo-completo--o62796",
+    offers:[{id:"yumping-o62796",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/buceo-en-formentera-con-equipo-completo--o62796",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/buceo-en-formentera-con-equipo-completo--o62796",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Experiencia de buceo en Formentera con equipo completo. La ficha actual muestra un precio desde 60 €.",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:307,siteSlugs:["es-pujols-formentera"],
+    title:"Open Water Diver PADI en Formentera 5 días",destination:"Es Pujols",region:"Baleares",slug:"open-water-diver-padi-en-formentera-5-dias-307",
+    type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Es Pujols",
+    tags:["Buceo","Baleares","Yumping","Es Pujols"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/open-water-diver-padi-en-formentera-5-dias--o62797",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/open-water-diver-padi-en-formentera-5-dias--o62797",
+    offers:[{id:"yumping-o62797",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/open-water-diver-padi-en-formentera-5-dias--o62797",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/open-water-diver-padi-en-formentera-5-dias--o62797",priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    included:["Curso Open Water Diver PADI","5 lecciones teóricas","4 inmersiones en aguas confinadas","4 inmersiones en playa","Titulación internacional","Instructor","Material de buceo","Instalaciones con duchas y aseo"],
+    notes:"Curso PADI Open Water Diver de 4–5 días. Yumping indica 5 lecciones teóricas, 4 inmersiones en aguas confinadas, 4 inmersiones en playa y titulación internacional.",priceFrom:455,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:308,siteSlugs:["platja-migjorn-formentera"],
+    title:"Curso Scuba Diver en Platja Migjorn 4-5 días",destination:"Platja Mitjorn",region:"Baleares",slug:"curso-scuba-diver-en-platja-migjorn-4-5-dias-308",
+    type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Platja Mitjorn",
+    tags:["Buceo","Baleares","Yumping","Platja Mitjorn"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-scuba-diver-en-platja-migjorn-4-5-dias--o64641",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-scuba-diver-en-platja-migjorn-4-5-dias--o64641",
+    offers:[{id:"yumping-o64641",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/curso-scuba-diver-en-platja-migjorn-4-5-dias--o64641",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-scuba-diver-en-platja-migjorn-4-5-dias--o64641",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Curso Scuba Diver en Platja Migjorn con una duración de 4–5 días. Precio actual mostrado por Yumping: 350 €.",priceFrom:350,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:309,siteSlugs:["es-pujols-formentera"],
+    title:"Curso de buceo Scuba Diver en Els Pujols",destination:"Es Pujols",region:"Baleares",slug:"curso-de-buceo-scuba-diver-en-els-pujols-309",
+    type:"Curso",level:"Inicial",duration:"Según formación",audience:"Personas interesadas en curso en Es Pujols",
+    tags:["Buceo","Baleares","Yumping","Es Pujols"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-de-buceo-scuba-diver-en-els-pujols--o64650",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-de-buceo-scuba-diver-en-els-pujols--o64650",
+    offers:[{id:"yumping-o64650",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/curso-de-buceo-scuba-diver-en-els-pujols--o64650",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/curso-de-buceo-scuba-diver-en-els-pujols--o64650",priceFrom:355,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Curso Scuba Diver en Els Pujols. Precio actual mostrado por Yumping: 355 €.",priceFrom:355,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:310,siteSlugs:["la-savina-formentera"],
+    title:"Tour de snorkel, Parque Natural Ses Salines, 2:30h",destination:"La Savina",region:"Baleares",slug:"tour-de-snorkel-parque-natural-ses-salines-2-30h-310",
+    type:"Snorkel",level:"Inicial",duration:"2 h 30 min",audience:"Personas interesadas en snorkel en La Savina",
+    tags:["Buceo","Baleares","Yumping","La Savina"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/tour-de-snorkel-parque-natural-ses-salines-2-30h--o91297",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/tour-de-snorkel-parque-natural-ses-salines-2-30h--o91297",
+    offers:[{id:"yumping-o91297",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/tour-de-snorkel-parque-natural-ses-salines-2-30h--o91297",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/tour-de-snorkel-parque-natural-ses-salines-2-30h--o91297",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Tour de snorkel de 2 horas y media en el Parque Natural de Ses Salines, con salida en la zona de La Savina.",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:311,siteSlugs:["la-savina-formentera"],
+    title:"Bautizo de buceo en Puerto de la Sabina 2:30h",destination:"La Savina",region:"Baleares",slug:"bautizo-de-buceo-en-puerto-de-la-sabina-2-30h-311",
+    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Personas interesadas en bautismo en La Savina",
+    tags:["Buceo","Baleares","Yumping","La Savina"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautizo-de-buceo-en-puerto-de-la-sabina-2-30h--o56957",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautizo-de-buceo-en-puerto-de-la-sabina-2-30h--o56957",
+    offers:[{id:"yumping-o56957",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/bautizo-de-buceo-en-puerto-de-la-sabina-2-30h--o56957",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/bautizo-de-buceo-en-puerto-de-la-sabina-2-30h--o56957",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Bautizo de buceo con salida desde Puerto de La Savina. Precio actual mostrado por Yumping: 150 €.",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
+  {
+    id:312,siteSlugs:["platja-migjorn-formentera"],
+    title:"Tour de snorkel por la costa de Formentera 3 horas",destination:"Platja Mitjorn",region:"Baleares",slug:"tour-de-snorkel-por-la-costa-de-formentera-3-horas-312",
+    type:"Snorkel",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en snorkel en Platja Mitjorn",
+    tags:["Buceo","Baleares","Yumping","Platja Mitjorn"],bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/formentera/tour-de-snorkel-por-la-costa-de-formentera-4-horas--o64660",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/tour-de-snorkel-por-la-costa-de-formentera-4-horas--o64660",
+    offers:[{id:"yumping-o64660",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/formentera/tour-de-snorkel-por-la-costa-de-formentera-4-horas--o64660",sourceUrl:"https://www.yumping.com/ofertas/buceo/formentera/tour-de-snorkel-por-la-costa-de-formentera-4-horas--o64660",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    
+    notes:"Tour de snorkel por la costa de Formentera con una duración indicada de 3 horas. La ficha actual muestra salida desde Platja Mitjorn y transporte incluido.",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
+  },
 ];
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
