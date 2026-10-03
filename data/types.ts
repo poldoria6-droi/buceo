@@ -7,6 +7,8 @@ export type BookingOffer = {
   priceCurrency?:string;
   priceCheckedAt?:string;
   notes?:string;
+  status?:"active"|"paused";
 };
 
 // Shared affiliate types
+

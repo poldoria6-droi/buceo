@@ -224,3 +224,12 @@ body:has(.home-page) .site-header .nav-cta{background:rgba(4,66,92,.28);border:1
   .activity-booking-cta-actions .button{flex:1;min-width:0}
   .booking-offer-head{align-items:flex-start;flex-direction:column;gap:3px}
 }
+
+
+/* Center discovery and booking */
+.center-activities{padding-top:2.5rem;padding-bottom:2rem;scroll-margin-top:6rem}
+.center-booking-options{display:grid;gap:1rem;margin-top:1.25rem}
+.center-booking-options .button{margin-top:.7rem;width:100%;white-space:normal;text-align:center}
+.center-search{display:flex;align-items:center;flex-wrap:wrap;gap:.75rem;margin:2rem 0}
+.center-search input{padding:.8rem;border:1px solid #adcbd2;border-radius:.5rem;min-width:0;flex:1}
+@media(max-width:600px){.center-search{align-items:stretch;flex-direction:column}.center-search input{width:100%}}
