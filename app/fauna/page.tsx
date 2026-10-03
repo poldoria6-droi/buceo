@@ -1,4 +1,2 @@
-import Link from "next/link";
-import { faunaList, diveSites } from "@/data/dive-sites";
-export const metadata={title:"Fauna marina",description:"Descubre la fauna marina que puedes encontrar en los puntos de buceo de España."};
-export default function FaunaPage(){return <section className="section fauna-page"><div className="container"><span className="eyebrow">FAUNA MARINA</span><h1>¿Qué quieres encontrar bajo el agua?</h1><p className="lead">Explora la fauna asociada a nuestros puntos de buceo y descubre dónde buscar cada especie.</p><div className="fauna-cloud">{faunaList.map(animal=><Link key={animal} href={`/mapa?fauna=${encodeURIComponent(animal)}`}>{animal}</Link>)}</div><div className="section-heading fauna-sites-heading"><div><span className="eyebrow">PUNTOS RELACIONADOS</span><h2>{diveSites.length} lugares para explorar</h2></div><Link href="/mapa" className="text-link">Abrir mapa →</Link></div></div></section>}
+import { redirect } from "next/navigation";
+export default function Page(){ redirect("/actividades"); }

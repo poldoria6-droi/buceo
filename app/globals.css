@@ -233,3 +233,7 @@ body:has(.home-page) .site-header .nav-cta{background:rgba(4,66,92,.28);border:1
 .center-search{display:flex;align-items:center;flex-wrap:wrap;gap:.75rem;margin:2rem 0}
 .center-search input{padding:.8rem;border:1px solid #adcbd2;border-radius:.5rem;min-width:0;flex:1}
 @media(max-width:600px){.center-search{align-items:stretch;flex-direction:column}.center-search input{width:100%}}
+
+.activities-filter-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:960px){.activities-filter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.site-header .main-nav{display:flex;gap:12px;font-size:.8rem}.site-header .nav-cta{display:none}}
+@media(max-width:620px){.activities-filter-grid{grid-template-columns:1fr}.site-header .main-nav{flex-wrap:wrap;justify-content:flex-end;font-size:.7rem}}

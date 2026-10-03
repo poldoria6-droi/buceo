@@ -1,18 +1,11 @@
 import Link from "next/link";
-import { diveSites, destinations, faunaList, regions } from "@/data/dive-sites";
+import { diveSites, destinations } from "@/data/dive-sites";
 import { activities } from "@/data/activities";
-import { MapExplorer } from "@/app/mapa/MapExplorer";
 import { SiteCard } from "@/components/SiteCard";
 
 export default function HomePage(){
   const featured=diveSites.filter(site=>["Illes Medes","Islas Hormigas","Parque Nacional de Cabrera","La Restinga","Playa Chica","Maro–Cerro Gordo"].includes(site.name));
-  const stats=[
-    ["50","Puntos iniciales"],
-    [String(destinations.length),"Destinos en catálogo"],
-    ["◈","Fauna representativa"],
-    ["✦","Guías y consejos"],
-    ["📷","Contenido visual"]
-  ];
+  const stats=[[String(activities.length),"Actividades en catálogo"],[String(destinations.length),"Destinos"],[String(diveSites.length),"Puntos de buceo"]];
 
   return <div className="home-page">
     <section className="reference-hero">
@@ -21,20 +14,19 @@ export default function HomePage(){
         <div className="reference-hero-copy">
           <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
           <h1>Explora España<br/><em>bajo el agua</em></h1>
-          <p>Mapa de buceo, destinos, fauna, experiencias y guías para descubrir España bajo el agua.</p>
+          <p>Encuentra tu actividad, conoce la escuela y reserva con el proveedor. Explora también material para tu próxima inmersión.</p>
 
           <div className="hero-discovery">
             <div className="hero-discovery-copy">
               <span className="hero-discovery-icon">✦</span>
               <div>
                 <strong>Tu próxima inmersión empieza aquí</strong>
-                <small>Explora puntos de buceo, fauna, pecios y experiencias.</small>
+                <small>Bautismos, cursos y salidas para buceadores titulados.</small>
               </div>
             </div>
             <div className="hero-discovery-actions">
-              <Link href="/actividades" className="hero-discovery-primary">Reservar experiencia <span>→</span></Link>
-              <Link href="/equipo" className="hero-discovery-secondary">Comprar equipo</Link>
-              <Link href="/mapa" className="hero-discovery-secondary">Ver mapa</Link>
+              <Link href="/actividades" className="hero-discovery-primary">Encuentra tu actividad <span>→</span></Link>
+              <Link href="/material" className="hero-discovery-secondary">Compra material</Link>
             </div>
           </div>
 
@@ -43,7 +35,6 @@ export default function HomePage(){
             <Link href="/actividades?type=Bautismo">Bautismo</Link>
             <Link href="/actividades?type=Fun%20Dive">Fun Dive</Link>
             <Link href="/actividades?type=Pecio">Pecios</Link>
-            <Link href="/actividades?type=Fauna">Fauna</Link>
             <Link href="/actividades?type=Curso">Cursos</Link>
           </div>
 
@@ -58,12 +49,6 @@ export default function HomePage(){
       <div className="reference-swoosh" aria-hidden="true"/>
     </section>
 
-    <section className="reference-map-section">
-      <div className="container">
-        <MapExplorer sites={diveSites} regions={regions} fauna={faunaList} activities={activities}/>
-      </div>
-    </section>
-
     <section className="section home-after-map">
       <div className="container">
         <div className="section-heading">
@@ -72,7 +57,7 @@ export default function HomePage(){
         </div>
         <div className="home-discovery-grid">
           <Link href="/actividades?type=Bautismo" className="home-discovery-card"><b>🤿</b><strong>Mi primer buceo</strong><span>Bautismos y experiencias para descubrir el mundo submarino.</span></Link>
-          <Link href="/mapa?fauna=Tortuga%20marina" className="home-discovery-card"><b>🐢</b><strong>Fauna marina</strong><span>Explora puntos donde puedes encontrar fauna representativa.</span></Link>
+          <Link href="/centros" className="home-discovery-card"><b>🏫</b><strong>Escuelas de buceo</strong><span>Conoce los centros y consulta sus actividades disponibles.</span></Link>
           <Link href="/actividades?type=Pecio" className="home-discovery-card"><b>⚓</b><strong>Pecios</strong><span>Descubre barcos hundidos, historia y buceo técnico o recreativo.</span></Link>
         </div>
       </div>
@@ -89,18 +74,18 @@ export default function HomePage(){
             <div className="commercial-card-visual"><span>🤿</span><small>EXPERIENCIAS</small></div>
             <div className="commercial-card-body">
               <span className="eyebrow">RESERVA TU INMERSIÓN</span>
-              <h3>Bautismos, Fun Dive, cursos, pecios y fauna.</h3>
+              <h3>Bautismos, Fun Dive, cursos y snorkel.</h3>
               <p>Encuentra actividades por destino, nivel y tipo. Cuando una opción esté disponible, podrás continuar con el proveedor desde Buceo Atlas.</p>
               <strong>Explorar actividades <span>→</span></strong>
             </div>
           </Link>
-          <Link href="/equipo" className="commercial-card commercial-card-gear">
-            <div className="commercial-card-visual"><span>⚙️</span><small>EQUIPAMIENTO</small></div>
+          <Link href="/material" className="commercial-card commercial-card-gear">
+            <div className="commercial-card-visual"><span>⚙️</span><small>MATERIAL</small></div>
             <div className="commercial-card-body">
               <span className="eyebrow">EQUÍPATE PARA BUCEAR</span>
               <h3>Neoprenos, reguladores, chalecos, aletas, máscaras y ordenadores.</h3>
               <p>Una sección pensada para comparar material y descubrir opciones de compra a través de partners cuando integremos las afiliaciones.</p>
-              <strong>Ver equipo <span>→</span></strong>
+              <strong>Ver material <span>→</span></strong>
             </div>
           </Link>
         </div>
@@ -125,3 +110,4 @@ export default function HomePage(){
     </section>
   </div>;
 }
+

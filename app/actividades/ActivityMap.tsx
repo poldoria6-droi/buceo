@@ -43,8 +43,6 @@ export default function ActivityMap({ sites, activities }: { sites: DiveSite[]; 
                 <strong>{site.name}</strong>
                 <span>{site.destination}</span>
                 <div className="activity-popup-meta"><span>◉ {site.depth}</span><span>◈ {site.type}</span></div>
-                <div className="popup-fauna-title">Fauna potencial</div>
-                <div className="popup-tags">{site.animals.map(animal => <span key={animal}>{animal}</span>)}</div>
                 <div className="activity-popup-offers">
                   <b>{offers.length ? "Experiencias relacionadas" : "Sin experiencia conectada todavía"}</b>
                   {offers.map(offer => {
@@ -74,3 +72,4 @@ export default function ActivityMap({ sites, activities }: { sites: DiveSite[]; 
     </MapContainer>
   );
 }
+

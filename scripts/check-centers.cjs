@@ -44,3 +44,14 @@ assert.equal(new URL(buildAffiliateUrl(offers[1])).searchParams.get('aid'), 'tes
 assert.equal(new URL(buildAffiliateUrl(offers[0])).pathname, new URL(offers[0].url).pathname);
 assert.equal(getBookingOffers({ ...sample, bookingStatus: 'Próximamente' }).length, 0);
 console.log(`OK: ${activities.length} actividades, ${centers.length} centros, ${centerActivityLinks.length} relaciones verificadas. ${activities.length - centerActivityLinks.length} actividades pendientes de asignar a un centro.`);
+
+const { communityFor, destinationsFor } = load(path.join(root, 'lib/activity-filters.ts'));
+assert.equal(communityFor('Alicante'), 'Comunidad Valenciana');
+assert.equal(communityFor('Costa Brava'), 'Cataluña');
+for (const region of new Set(activities.map(a => communityFor(a.region)))) {
+  const options = destinationsFor(activities, region);
+  for (const dest of options) assert.ok(activities.some(a => communityFor(a.region) === region && a.destination === dest));
+  for (const a of activities.filter(a => communityFor(a.region) === region)) assert.ok(options.includes(a.destination));
+}
+assert.ok(!destinationsFor(activities, 'Galicia').includes('Benidorm'));
+console.log('OK: ciudades dependientes de la comunidad y provincias/costas normalizadas.');

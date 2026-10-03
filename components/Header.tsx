@@ -4,10 +4,9 @@ export function Header() {
   return <header className="site-header"><div className="header-inner">
     <Brand />
     <nav className="main-nav" aria-label="Navegación principal">
-      <Link href="/" className="active">⌂ <span>Inicio</span></Link><Link href="/mapa">Mapa</Link><Link href="/destinos">Destinos</Link><Link href="/actividades">Actividades</Link><Link href="/centros">Centros</Link><Link href="/fauna">Fauna marina</Link><Link href="/guias">Guías</Link><Link href="/equipo">Equipo</Link>
+      <Link href="/actividades">Encuentra tu actividad</Link>
+      <Link href="/material">Compra material</Link>
     </nav>
-    <Link href="/actividades" className="header-search" aria-label="Buscar actividades">⌕</Link>
-    <Link href="/actividades" className="nav-cta">Planifica tu viaje</Link>
+    <Link href="/actividades" className="nav-cta">Buscar actividades</Link>
   </div></header>;
 }
-
