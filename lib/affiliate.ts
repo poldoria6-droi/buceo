@@ -10,7 +10,12 @@ function normalizeProvider(provider: string) {
 }
 
 export function getBookingOffers(activity: Activity): BookingOffer[] {
-  if (activity.offers?.length) return activity.offers;
+  if (activity.bookingStatus !== "Disponible") return [];
+  const valid = (offer: BookingOffer) => {
+    try { const url = new URL(offer.url); return offer.status !== "paused" && ["https:", "http:"].includes(url.protocol); }
+    catch { return false; }
+  };
+  if (activity.offers?.length) return activity.offers.filter(valid);
 
   if (!activity.providerUrl || !activity.provider) return [];
 
@@ -22,7 +27,7 @@ export function getBookingOffers(activity: Activity): BookingOffer[] {
     priceFrom: activity.priceFrom,
     priceCurrency: activity.priceCurrency || "EUR",
     priceCheckedAt: activity.priceCheckedAt
-  }];
+  }].filter(valid);
 }
 
 export function buildAffiliateUrl(offer: BookingOffer) {
@@ -80,3 +85,4 @@ export function formatPriceCheckedAt(value?: string) {
     year: "numeric"
   }).format(parsed);
 }
+

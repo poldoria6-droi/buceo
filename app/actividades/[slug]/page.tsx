@@ -1,3 +1,5 @@
+import { getActivityCenter } from "@/lib/centers";
+import { BookingOptions } from "@/components/BookingOptions";
 import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, formatPriceCheckedAt, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
 import { notFound } from "next/navigation";
@@ -23,6 +25,7 @@ export default async function ActivityPage({params}:Props){
   const activity=activities.find(item=>item.slug===slug);
   if(!activity)notFound();
 
+  const center = getActivityCenter(activity);
   const linkedSites=diveSites.filter(site=>activity.siteSlugs.includes(site.slug));
   const offers=getBookingOffers(activity);
   const lowest=getLowestPricedOffer(offers);
@@ -42,34 +45,17 @@ export default async function ActivityPage({params}:Props){
         </div>
         <div className="activity-detail-provider">
           <span className="eyebrow">OPCIONES DE RESERVA</span>
-          {offers.map(offer=>(
-            <div className="booking-offer" key={offer.id}>
-              <div className="booking-offer-head">
-                <strong>{offer.provider}</strong>
-                {offer.priceFrom!==undefined
-                  ? <span className="booking-offer-price">Desde {formatOfferPrice(offer)}</span>
-                  : <span className="booking-offer-price booking-offer-price-muted">Precio por confirmar</span>}
-              </div>
-              {offer.priceCheckedAt&&<small>Precio comprobado {formatPriceCheckedAt(offer.priceCheckedAt)}</small>}
-              <a
-                href={buildAffiliateUrl(offer)}
-                target="_blank"
-                rel="sponsored noopener noreferrer"
-                className="button button-primary"
-                data-affiliate-provider={offer.provider}
-                data-activity-id={activity.id}
-              >
-                Reservar en {offer.provider} ↗
-              </a>
-            </div>
-          ))}
-          {!offers.length&&<p className="booking-empty">Todavía no hay un proveedor de reserva asociado.</p>}
+          <BookingOptions activity={activity} officialUrl={center?.officialUrl}/>
         </div>
       </div>
 
       <div className="activity-detail-grid">
         <main>
           {activity.notes&&<div className="notice-card"><strong>Sobre esta actividad</strong><p>{activity.notes}</p></div>}
+          <section className="notice-card" aria-label="Centro organizador">
+            <h2>Centro que ofrece esta actividad</h2>
+            {center ? <><h3>{center.name}</h3><p>{center.location}</p><Link className="button button-primary" href={`/centros/${center.slug}`}>Ver centro y todas sus actividades →</Link></> : <p>Centro organizador pendiente de confirmar en Atlas. Consulta su identidad en la oferta del proveedor.</p>}
+          </section>
           <h2>Qué incluye</h2>
           {activity.included?.length ? <div className="check-grid">{activity.included.map(item=><span key={item}>✓ {item}</span>)}</div> : <p>Consulta el detalle actualizado en el proveedor antes de reservar.</p>}
 
@@ -106,3 +92,4 @@ export default async function ActivityPage({params}:Props){
     </div>
   </section>;
 }
+
