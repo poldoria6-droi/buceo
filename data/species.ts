@@ -101,7 +101,7 @@ export const species:Species[] = [
     ],
     "image": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_59.jpg/500px-Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_59.jpg",
-      "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_59.jpg/500px-Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_59.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_59.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morena_del_Mediterráneo_(Muraena_helena),_Cabo_de_Palos,_España,_2022-07-17,_DD_59.jpg",
       "author": "Diego Delso, delso.photo",
       "license": "CC BY-SA 4.0",

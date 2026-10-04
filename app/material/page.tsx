@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
+  robots: {index:false,follow:false},
   title: "Material de buceo",
   description: "Descubre y compara material de buceo: neoprenos, reguladores, chalecos, aletas, máscaras, ordenadores y accesorios.",
 };
