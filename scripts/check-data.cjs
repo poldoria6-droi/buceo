@@ -12,10 +12,24 @@ const civitatisActivities = [...source.matchAll(/\bprovider:"Civitatis",/g)].len
 const yumpingProviderUrls = [...source.matchAll(/\bproviderUrl:"(https?:\/\/[^"]*yumping\.com[^"]*)"/g)].map(m => m[1]);
 const yumpingOfferUrls = [...source.matchAll(/\burl:"(https?:\/\/[^"]*yumping\.com[^"]*)"/g)].map(m => m[1]);
 
-assert.equal(numericActivityIds.length + 80, 471, 'El número de actividades ha cambiado inesperadamente; revisar antes de publicar.');
-assert.equal(new Set(numericActivityIds).size, numericActivityIds.length, 'Hay IDs de actividad duplicados.');
+const yumpingFiles = [
+  'data/yumping-bulk-20261001.ts',
+  'data/yumping-batch-5.ts',
+  'data/yumping-batch-4.ts',
+  'data/yumping-batch-3.ts',
+  'data/yumping-batch-2.ts',
+];
+const importedYumpingIds = yumpingFiles.flatMap(relativePath => {
+  const text = fs.readFileSync(path.join(root, relativePath), 'utf8');
+  return [...text.matchAll(/\\bid:(\\d+),siteSlugs:/g)].map(m => Number(m[1]));
+});
+const totalActivityIds = numericActivityIds.length + importedYumpingIds.length;
+assert.equal(totalActivityIds, 471, 'El número de actividades ha cambiado inesperadamente; revisar antes de publicar.');
+const allActivityIds = [...numericActivityIds, ...importedYumpingIds];
+assert.equal(new Set(allActivityIds).size, allActivityIds.length, 'Hay IDs de actividad duplicados.');
 assert.equal(new Set(activitySlugs).size, activitySlugs.length, 'Hay slugs duplicados.');
-assert.equal(yumpingActivities + 80, 464, 'El número de actividades Yumping ha cambiado inesperadamente.');
+const importedYumpingCount = importedYumpingIds.length;
+assert.equal(yumpingActivities + importedYumpingCount, 464, 'El número de actividades Yumping ha cambiado inesperadamente.');
 assert.equal(civitatisActivities, 7, 'El número de actividades Civitatis ha cambiado inesperadamente.');
 
 for (const url of [...yumpingProviderUrls, ...yumpingOfferUrls]) {
