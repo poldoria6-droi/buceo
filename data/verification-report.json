@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-10-04",
+  "catalogActivities": 471,
+  "yumpingChecked": 464,
+  "verifiedActivities": 445,
+  "centers": 172,
+  "unverified": [
+    {
+      "slug": "bautizo-buceo-platja-daro-60480",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480"
+    },
+    {
+      "slug": "sesion-de-snorkel-isla-de-arosa-jornada-completa-325",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837"
+    },
+    {
+      "slug": "curso-padi-advanced-open-water-en-lanzarote-2-dias-412",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279"
+    },
+    {
+      "slug": "padi-open-water-diver-en-lanzarote-413",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203"
+    },
+    {
+      "slug": "snorkel-lanzarote-60-minutos-414",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275"
+    },
+    {
+      "slug": "curso-nitrox-en-lanzarote-415",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854"
+    },
+    {
+      "slug": "excursion-de-snorkel-en-torrox-con-aperitivos-437",
+      "status": "unverified",
+      "reason": "HTTP Error 502: Bad Gateway",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/excursion-de-snorkel-en-torrox-con-aperitivos--o34695"
+    },
+    {
+      "slug": "bautismo-de-buceo-por-cabo-de-gata-nijar-3-horas-453",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-horas--o31018"
+    },
+    {
+      "slug": "bautismo-de-buceo-en-las-negras-cabo-de-gata-454",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o31017"
+    },
+    {
+      "slug": "bautismo-de-buceo-en-cabo-de-gata-nijar-2-h-455",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o31016"
+    },
+    {
+      "slug": "bautismo-de-buceo-desde-barco-cala-del-cuartel-456",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-mar-en-almeria-2-horas--o31019"
+    },
+    {
+      "slug": "snorkel-desde-barco-en-calpe-2-horas-461",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o36445"
+    },
+    {
+      "slug": "discover-scuba-diving-desde-cala-palmera-2-horas-485",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/discover-scuba-diving-desde-cala-palmera-2-horas--o89332"
+    },
+    {
+      "slug": "curso-padi-open-water-diver-puerto-alacant-486",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-padi-open-water-driver-puerto-alacant--o27576"
+    },
+    {
+      "slug": "bautismo-de-buceo-en-javea-488",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-javea--o14122"
+    },
+    {
+      "slug": "bautismo-de-buceo-desde-barco-en-javea-489",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-javea--o16491"
+    },
+    {
+      "slug": "inmersion-doble-en-la-reserva-marina-de-tabarca-490",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-reserva-marina-tabarca--o23978"
+    },
+    {
+      "slug": "excursion-en-barco-snorkel-en-tabarca-491",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/excursion-en-barco-snorkel-tabarca--o37319"
+    },
+    {
+      "slug": "curso-advanced-en-tabarca-492",
+      "status": "unverified",
+      "reason": "HTTP Error 410: Gone",
+      "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/advanced-tabarca--o21358"
+    }
+  ],
+  "otherProviderActivities": [
+    "bautismo-buceo-mallorca",
+    "bautismo-buceo-ciudadela",
+    "bautismo-buceo-las-galletas",
+    "bautismo-buceo-gran-canaria",
+    "bautismo-buceo-isla-fraile",
+    "bautismo-buceo-isla-plana",
+    "bautismo-buceo-las-negras"
+  ],
+  "pausedWithdrawnOffers": 18
+}

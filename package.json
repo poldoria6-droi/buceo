@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test:data": "node scripts/check-data.cjs"
+    "test:data": "node scripts/check-centers.cjs",
+    "test:centers": "node scripts/check-centers.cjs"
   },
   "dependencies": {
     "@types/leaflet": "1.9.20",

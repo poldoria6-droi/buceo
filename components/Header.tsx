@@ -5,7 +5,8 @@ export function Header() {
     <Brand />
     <nav className="main-nav" aria-label="Navegación principal">
       <Link href="/actividades">Encuentra tu actividad</Link>
-      <Link href="/material">Compra material</Link>
+      <Link href="/centros">Escuelas</Link>
+      <Link href="/fauna">Fauna marina</Link>
     </nav>
     <Link href="/actividades" className="nav-cta">Buscar actividades</Link>
   </div></header>;

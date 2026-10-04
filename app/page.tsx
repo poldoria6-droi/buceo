@@ -14,7 +14,7 @@ export default function HomePage(){
         <div className="reference-hero-copy">
           <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
           <h1>Explora España<br/><em>bajo el agua</em></h1>
-          <p>Encuentra tu actividad, conoce quién la ofrece y reserva con el proveedor. Explora también material para tu próxima inmersión.</p>
+          <p>Encuentra tu actividad, conoce quién la ofrece y reserva con el proveedor. Descubre también las especies de nuestros mares.</p>
 
           <div className="hero-discovery">
             <div className="hero-discovery-copy">
@@ -26,7 +26,7 @@ export default function HomePage(){
             </div>
             <div className="hero-discovery-actions">
               <Link href="/actividades" className="hero-discovery-primary">Encuentra tu actividad <span>→</span></Link>
-              <Link href="/material" className="hero-discovery-secondary">Compra material</Link>
+              <Link href="/centros" className="hero-discovery-secondary">Conoce las escuelas</Link>
             </div>
           </div>
 
@@ -79,14 +79,9 @@ export default function HomePage(){
               <strong>Explorar actividades <span>→</span></strong>
             </div>
           </Link>
-          <Link href="/material" className="commercial-card commercial-card-gear">
-            <div className="commercial-card-visual"><span>⚙️</span><small>MATERIAL</small></div>
-            <div className="commercial-card-body">
-              <span className="eyebrow">EQUÍPATE PARA BUCEAR</span>
-              <h3>Neoprenos, reguladores, chalecos, aletas, máscaras y ordenadores.</h3>
-              <p>Una sección pensada para comparar material y descubrir opciones de compra a través de partners cuando integremos las afiliaciones.</p>
-              <strong>Ver material <span>→</span></strong>
-            </div>
+          <Link href="/fauna" className="commercial-card commercial-card-gear">
+            <div className="commercial-card-visual"><span>🐠</span><small>FAUNA MARINA</small></div>
+            <div className="commercial-card-body"><span className="eyebrow">CONOCE NUESTROS MARES</span><h3>Especies, hábitats y observación responsable.</h3><p>Consulta fichas con fuentes y distingue distribución regional de avistamientos en puntos de buceo.</p><strong>Explorar fauna →</strong></div>
           </Link>
         </div>
       </div>

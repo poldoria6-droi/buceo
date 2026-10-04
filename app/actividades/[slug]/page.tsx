@@ -1,3 +1,5 @@
+import { activityDetails } from "@/data/activity-details";
+import { getActivityCenter } from "@/lib/centers";
 import { BookingOptions } from "@/components/BookingOptions";
 import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, formatPriceCheckedAt, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
@@ -24,6 +26,8 @@ export default async function ActivityPage({params}:Props){
   const activity=activities.find(item=>item.slug===slug);
   if(!activity)notFound();
 
+  const detail = activityDetails[activity.slug];
+  const center = getActivityCenter(activity);
   const linkedSites=diveSites.filter(site=>activity.siteSlugs.includes(site.slug));
   const offers=getBookingOffers(activity);
   const lowest=getLowestPricedOffer(offers);
@@ -43,28 +47,22 @@ export default async function ActivityPage({params}:Props){
         </div>
         <div className="activity-detail-provider">
           <span className="eyebrow">OPCIONES DE RESERVA</span>
-          <BookingOptions activity={activity}/>
+          <BookingOptions activity={activity} officialUrl={center?.officialUrl}/>
         </div>
       </div>
 
       <div className="activity-detail-grid">
         <main>
-          <section className="notice-card" aria-label="Centro u organizador">
-            <h2>Centro / organizador</h2>
-            {activity.operator ? <><h3>{activity.operator.name}</h3>{activity.operator.location&&<p>{activity.operator.location}</p>}<p>Organizador identificado en la oferta del proveedor.</p><a className="text-link" href={activity.operator.sourceUrl} target="_blank" rel="noopener noreferrer">Ver la oferta en {activity.provider} ↗</a></> : <p>El centro u organizador se consulta en la oferta del proveedor. Atlas no muestra un nombre que no haya podido verificar.</p>}
+          <section className="notice-card"><h2>Sobre esta actividad</h2><p>{detail?.summary || activity.notes || activity.title}</p>{detail && <p className="data-note">Organizador y datos contrastados con la oferta el {detail.checkedAt}. <a href={detail.sourceUrl} target="_blank" rel="noopener noreferrer">Consultar la fuente</a></p>}</section>
+          <section className="notice-card" aria-label="Centro organizador">
+            <h2>Centro que ofrece esta actividad</h2>
+            {center ? <><h3>{center.name}</h3><p>{center.location}</p><Link className="button button-primary" href={`/centros/${center.slug}`}>Ver centro y todas sus actividades →</Link></> : <p>Centro organizador pendiente de confirmar en Atlas. Consulta su identidad en la oferta del proveedor.</p>}
           </section>
-
-          {offers.some(offer=>offer.notes) && <><h2>Información publicada por el proveedor</h2><div className="notice-card"><p>Detalles estructurados y notas registradas a partir de la oferta enlazada. Comprueba siempre la versión actual en el proveedor.</p>{offers.filter(offer=>offer.notes).map(offer=><div key={offer.id}><strong>{offer.provider}</strong><p>{offer.notes}</p></div>)}</div></>}
-
-          <h2>Información de la actividad</h2>
-          <div className="notice-card">
-            <p><strong>Para quién:</strong> {activity.audience}</p>
-            {activity.notes&&<p><strong>Información de la oferta:</strong> {activity.notes}</p>}
-            {activity.tags.length>0&&<p><strong>Características:</strong> {activity.tags.join(" · ")}</p>}
-          </div>
-
           <h2>Qué incluye</h2>
-          {activity.included?.length ? <div className="check-grid">{activity.included.map(item=><span key={item}>✓ {item}</span>)}</div> : <p>Consulta el detalle actualizado en el proveedor antes de reservar.</p>}
+          {(detail ? detail.included : activity.included)?.length ? <><div className="check-grid">{(detail ? detail.included : activity.included)!.map(item=><span key={item}>✓ {item}</span>)}</div><p className="data-note">Resumen de servicios identificados. Revisa en la oferta el alcance exacto y los posibles suplementos.</p></> : <p>Consulta el desglose de esta oferta en el proveedor; todavía no hemos completado su resumen en Atlas.</p>}
+          {detail?.excluded.length ? <section className="notice-card"><h2>No incluido en la oferta</h2><ul>{detail.excluded.map(item=><li key={item}>{item}</li>)}</ul><p>Comprueba con la escuela cómo obtenerlo y si supone un coste adicional.</p></section> : null}
+          {detail?.needsInclusionReview && <p>La oferta contiene excepciones o extras. Consulta su desglose completo antes de reservar.</p>}
+          {detail?.facts.length ? <section><h2>Información de la oferta</h2><div className="guide-grid">{detail.facts.map(fact=><article className="guide-card" key={fact.label}><h3>{fact.label}</h3><p>{fact.value}</p></article>)}</div></section> : null}
 
           <h2>Datos de decisión</h2>
           <div className="guide-grid">

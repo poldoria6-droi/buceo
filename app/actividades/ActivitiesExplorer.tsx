@@ -1,5 +1,6 @@
 "use client";
 
+import { species } from "@/data/species";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
@@ -10,15 +11,21 @@ import type { Activity } from "@/data/types";
 
 const ActivityMap = dynamic(() => import("@/app/actividades/ActivityMap"), { ssr: false });
 
+const SpeciesMap = dynamic(() => import("@/app/actividades/SpeciesMap"), {ssr:false});
+
 type Props = {
   activities: Activity[];
+  centerByActivity?: Record<string, {name:string;slug:string}>;
   sites: DiveSite[];
   regions: string[];
   types: string[];
-  initial?: { type?: string; region?: string; destination?: string; level?: string; site?: string };
+  initial?: { type?: string; region?: string; destination?: string; level?: string; site?: string; species?:string };
 };
 
-export function ActivitiesExplorer({ activities, sites, regions, types, initial = {} }: Props) {
+export function ActivitiesExplorer({ activities, sites, regions, types, centerByActivity = {}, initial = {} }: Props) {
+  const [mapMode, setMapMode] = useState(initial.species ? "species" : "experiences");
+  const [speciesSlug, setSpeciesSlug] = useState(initial.species || species[0]?.slug || "");
+  const selectedSpecies = species.find(s => s.slug === speciesSlug);
   const [type, setType] = useState(initial.type || "Todos");
   const [region, setRegion] = useState(communityFor(initial.region || "Todos"));
   const [destination, setDestination] = useState(() => destinationsFor(activities, initial.region || "Todos").includes(initial.destination || "") ? initial.destination! : "Todos");
@@ -80,11 +87,12 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
           <div className="activity-results-scroll">
             {filtered.map(a => {
               const site = sites.find(s => a.siteSlugs.includes(s.slug));
+              const center = centerByActivity[a.slug];
               const offers = getBookingOffers(a);
               const lowest = getLowestPricedOffer(offers);
               return (
                 <article key={a.id} className="activity-result-card">
-                  <button type="button" className="activity-result-main" onClick={() => site && window.dispatchEvent(new CustomEvent("focus-activity-site", { detail: site.id }))}>
+                  <Link className="activity-result-main" href={"/actividades/" + a.slug}>
                     <span className="activity-result-type">{a.type === "Pecio" ? "⚓" : a.type === "Fauna" ? "🐢" : a.type === "Curso" ? "🎓" : a.type === "Fun Dive" ? "🐠" : "🤿"}</span>
                     <span>
                       <strong>{a.title}</strong>
@@ -93,8 +101,10 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
                       <span className="activity-provider">{offers.length === 1 ? <>Proveedor: {offers[0].provider}</> : <>Proveedores: {offers.map(offer => offer.provider).join(" · ")}</>}</span>
                     </span>
                     <span className="activity-result-arrow">→</span>
-                  </button>
+                  </Link>
+                  {center && <p className="activity-school-link">Escuela: <Link href={"/centros/" + center.slug}>{center.name}</Link></p>}
                   <div className="activity-result-actions">
+                    {site && <button type="button" className="activity-detail-link" onClick={() => window.dispatchEvent(new CustomEvent("focus-activity-site", {detail:site.id}))}>Ver en el mapa</button>}
                     <Link href={"/actividades/" + a.slug} className="activity-detail-link">Ver ficha</Link>
                     {offers.map(offer => (
                       <a
@@ -118,8 +128,9 @@ export function ActivitiesExplorer({ activities, sites, regions, types, initial 
         </aside>
 
         <div className="activity-map-panel" id="mapa">
-          <ActivityMap sites={matchingSites} activities={filtered} />
-          <div className="activity-map-caption"><span>◉ {matchingSites.length} puntos con experiencias</span><span>Selecciona un punto para ver la oferta</span></div>
+          <div className="map-mode-controls"><span>Explorar mapa por</span><button type="button" aria-pressed={mapMode==="experiences"} onClick={()=>setMapMode("experiences")}>Experiencias</button><button type="button" aria-pressed={mapMode==="species"} onClick={()=>setMapMode("species")}>Especies</button>{mapMode==="species"&&<label>Especie <select value={speciesSlug} onChange={e=>setSpeciesSlug(e.target.value)}>{species.map(s=><option key={s.slug} value={s.slug}>{s.name}</option>)}</select></label>}</div>
+          {mapMode==="experiences" ? <ActivityMap sites={matchingSites} activities={filtered} /> : <><SpeciesMap item={selectedSpecies}/><p className="data-note">{selectedSpecies?.occurrences.length||0} registros documentados. Círculo grande: zona aproximada; pequeño: punto identificado. No garantiza avistamientos. <Link href={`/fauna/${speciesSlug}`}>Leer ficha y fuentes →</Link></p>{!selectedSpecies?.occurrences.length&&<p>No hay puntos contrastados publicados para esta especie. No se añaden marcadores por coincidencia regional.</p>}</>}
+          {mapMode==="experiences"&&<div className="activity-map-caption"><span>◉ {matchingSites.length} puntos con experiencias</span><span>Selecciona un punto para ver la oferta</span></div>}
         </div>
       </div>
 
