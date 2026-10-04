@@ -1,10 +1,9 @@
 "use client";
 import Link from "next/link";
-import { centers } from "@/data/centers";
 import { useEffect, useMemo, useRef } from "react";
 import { CircleMarker, MapContainer, Popup, TileLayer, useMap } from "react-leaflet";
 import type { DiveSite } from "@/data/dive-sites";
-import type { Activity } from "@/data/activities";
+import type { Activity } from "@/data/types";
 
 type LeafletMarker = import("leaflet").CircleMarker;
 
@@ -32,7 +31,6 @@ export default function DiveMap({sites,activities}:{sites:DiveSite[];activities:
   return <MapContainer center={[40.2,-3.5]} zoom={5} scrollWheelZoom className="leaflet-map">
     <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
     <FocusController markerRefs={markerRefs}/>
-    {centers.filter(center=>center.coordinates).map(center=><CircleMarker key={center.id} center={[center.coordinates!.lat,center.coordinates!.lng]} radius={10} pathOptions={{color:"#fff",weight:3,fillColor:"#e78d25",fillOpacity:1}}><Popup><strong>{center.name}</strong><p>{center.location}</p><Link href={`/centros/${center.slug}`}>Ver centro y actividades →</Link></Popup></CircleMarker>)}
     {sites.map(site=>{
       const linkedActivities=activities.filter(activity=>activity.siteSlugs.includes(site.slug));
       return <CircleMarker key={site.id} center={[site.lat,site.lng]} radius={9} pathOptions={{color:"#fff",weight:3,fillColor:levels[site.level],fillOpacity:.98}} ref={instance=>{markerRefs.current[site.id]=instance;}}>
@@ -53,7 +51,6 @@ export default function DiveMap({sites,activities}:{sites:DiveSite[];activities:
                 <span>{activity.priceFrom ? <>Desde <b>{activity.priceFrom} €</b></> : <>Precio por confirmar</>}</span>
               </Link>)}
             </div>
-            {centers.filter(center=>center.siteSlugs.includes(site.slug)).map(center=><p key={center.id}><Link href={`/centros/${center.slug}`}>Ver centro: {center.name} →</Link></p>)}
             <Link href={"/actividades?site="+encodeURIComponent(site.slug)} className="popup-action">Ver actividades de este punto →</Link>
           </div>
         </Popup>
