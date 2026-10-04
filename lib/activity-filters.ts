@@ -1,4 +1,4 @@
-import type { Activity } from "@/data/activities";
+import type { Activity } from "@/data/types";
 const communities: Record<string, string> = {
   "Costa Daurada": "Cataluña", "Costa Brava": "Cataluña",
   "Alicante": "Comunidad Valenciana", "Castellón": "Comunidad Valenciana", "Costa Blanca": "Comunidad Valenciana",
