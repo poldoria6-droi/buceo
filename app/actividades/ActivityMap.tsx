@@ -5,7 +5,7 @@ import { buildAffiliateUrl, formatOfferPrice, getBookingOffers } from "@/lib/aff
 import { useEffect, useRef, useMemo } from "react";
 import { CircleMarker, MapContainer, Popup, TileLayer, useMap } from "react-leaflet";
 import type { DiveSite } from "@/data/dive-sites";
-import type { Activity } from "@/data/activities";
+import type { Activity } from "@/data/types";
 import type { CircleMarker as LeafletCircleMarker } from "leaflet";
 
 function FocusController({ markerRefs }: { markerRefs: React.MutableRefObject<Record<number, LeafletCircleMarker | null>> }) {
