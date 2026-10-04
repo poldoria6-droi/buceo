@@ -12,10 +12,10 @@ const civitatisActivities = [...source.matchAll(/\bprovider:"Civitatis",/g)].len
 const yumpingProviderUrls = [...source.matchAll(/\bproviderUrl:"(https?:\/\/[^"]*yumping\.com[^"]*)"/g)].map(m => m[1]);
 const yumpingOfferUrls = [...source.matchAll(/\burl:"(https?:\/\/[^"]*yumping\.com[^"]*)"/g)].map(m => m[1]);
 
-assert.equal(numericActivityIds.length, 391, 'El número de actividades ha cambiado inesperadamente; revisar antes de publicar.');
+assert.equal(numericActivityIds.length + 80, 471, 'El número de actividades ha cambiado inesperadamente; revisar antes de publicar.');
 assert.equal(new Set(numericActivityIds).size, numericActivityIds.length, 'Hay IDs de actividad duplicados.');
 assert.equal(new Set(activitySlugs).size, activitySlugs.length, 'Hay slugs duplicados.');
-assert.equal(yumpingActivities, 384, 'El número de actividades Yumping ha cambiado inesperadamente.');
+assert.equal(yumpingActivities + 80, 464, 'El número de actividades Yumping ha cambiado inesperadamente.');
 assert.equal(civitatisActivities, 7, 'El número de actividades Civitatis ha cambiado inesperadamente.');
 
 for (const url of [...yumpingProviderUrls, ...yumpingOfferUrls]) {
