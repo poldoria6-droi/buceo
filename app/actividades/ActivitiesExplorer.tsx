@@ -6,7 +6,7 @@ import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedO
 import { useMemo, useState } from "react";
 import type { DiveSite } from "@/data/dive-sites";
 import { communityFor, destinationsFor } from "@/lib/activity-filters";
-import type { Activity } from "@/data/activities";
+import type { Activity } from "@/data/types";
 
 const ActivityMap = dynamic(() => import("@/app/actividades/ActivityMap"), { ssr: false });
 

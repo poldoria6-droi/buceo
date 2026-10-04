@@ -1,4 +1,3 @@
-import { getActivityCenter } from "@/lib/centers";
 import { BookingOptions } from "@/components/BookingOptions";
 import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, formatPriceCheckedAt, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
@@ -25,7 +24,6 @@ export default async function ActivityPage({params}:Props){
   const activity=activities.find(item=>item.slug===slug);
   if(!activity)notFound();
 
-  const center = getActivityCenter(activity);
   const linkedSites=diveSites.filter(site=>activity.siteSlugs.includes(site.slug));
   const offers=getBookingOffers(activity);
   const lowest=getLowestPricedOffer(offers);
@@ -45,17 +43,24 @@ export default async function ActivityPage({params}:Props){
         </div>
         <div className="activity-detail-provider">
           <span className="eyebrow">OPCIONES DE RESERVA</span>
-          <BookingOptions activity={activity} officialUrl={center?.officialUrl}/>
+          <BookingOptions activity={activity}/>
         </div>
       </div>
 
       <div className="activity-detail-grid">
         <main>
-          {activity.notes&&<div className="notice-card"><strong>Sobre esta actividad</strong><p>{activity.notes}</p></div>}
-          <section className="notice-card" aria-label="Centro organizador">
-            <h2>Centro que ofrece esta actividad</h2>
-            {center ? <><h3>{center.name}</h3><p>{center.location}</p><Link className="button button-primary" href={`/centros/${center.slug}`}>Ver centro y todas sus actividades →</Link></> : <p>Centro organizador pendiente de confirmar en Atlas. Consulta su identidad en la oferta del proveedor.</p>}
+          <section className="notice-card" aria-label="Centro u organizador">
+            <h2>Centro / organizador</h2>
+            {activity.operator ? <><h3>{activity.operator.name}</h3>{activity.operator.location&&<p>{activity.operator.location}</p>}<p>Organizador identificado en la oferta del proveedor.</p><a className="text-link" href={activity.operator.sourceUrl} target="_blank" rel="noopener noreferrer">Ver la oferta en {activity.provider} ↗</a></> : <p>El centro u organizador no está documentado todavía en Atlas. Consulta la identidad indicada por el proveedor antes de reservar.</p>}
           </section>
+
+          <h2>Información de la actividad</h2>
+          <div className="notice-card">
+            <p><strong>Para quién:</strong> {activity.audience}</p>
+            {activity.notes&&<p><strong>Información de la oferta:</strong> {activity.notes}</p>}
+            {activity.tags.length>0&&<p><strong>Características:</strong> {activity.tags.join(" · ")}</p>}
+          </div>
+
           <h2>Qué incluye</h2>
           {activity.included?.length ? <div className="check-grid">{activity.included.map(item=><span key={item}>✓ {item}</span>)}</div> : <p>Consulta el detalle actualizado en el proveedor antes de reservar.</p>}
 

@@ -14,7 +14,7 @@ export default function HomePage(){
         <div className="reference-hero-copy">
           <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
           <h1>Explora España<br/><em>bajo el agua</em></h1>
-          <p>Encuentra tu actividad, conoce la escuela y reserva con el proveedor. Explora también material para tu próxima inmersión.</p>
+          <p>Encuentra tu actividad, conoce quién la ofrece y reserva con el proveedor. Explora también material para tu próxima inmersión.</p>
 
           <div className="hero-discovery">
             <div className="hero-discovery-copy">
@@ -57,7 +57,7 @@ export default function HomePage(){
         </div>
         <div className="home-discovery-grid">
           <Link href="/actividades?type=Bautismo" className="home-discovery-card"><b>🤿</b><strong>Mi primer buceo</strong><span>Bautismos y experiencias para descubrir el mundo submarino.</span></Link>
-          <Link href="/centros" className="home-discovery-card"><b>🏫</b><strong>Escuelas de buceo</strong><span>Conoce los centros y consulta sus actividades disponibles.</span></Link>
+          <Link href="/mapa" className="home-discovery-card"><b>📍</b><strong>Explora el mapa</strong><span>Descubre puntos de buceo y experiencias disponibles por destino.</span></Link>
           <Link href="/actividades?type=Pecio" className="home-discovery-card"><b>⚓</b><strong>Pecios</strong><span>Descubre barcos hundidos, historia y buceo técnico o recreativo.</span></Link>
         </div>
       </div>

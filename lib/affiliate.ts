@@ -1,4 +1,4 @@
-import type { Activity } from "@/data/activities";
+import type { Activity } from "@/data/types";
 import type { BookingOffer } from "@/data/types";
 
 export const YUMPING_PARTNER_ID =
