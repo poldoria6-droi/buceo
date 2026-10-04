@@ -1,4 +1,4 @@
-import type { Activity } from "./activities";
+import type { Activity } from "./types";
 
 export const yumpingBatch4: Activity[] = [
   {
