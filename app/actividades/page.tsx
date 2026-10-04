@@ -24,7 +24,6 @@ export default async function ActivitiesPage({searchParams}:{searchParams:Promis
       <div className="activity-hero-icon" aria-hidden="true">🤿</div>
     </div>
     <ActivitiesExplorer activities={activities} sites={diveSites} regions={activityRegions} types={activityTypes} initial={{type,region,destination,level,site}} />
-    <div className="affiliate-funnel"><div><h2>¿Buscas una escuela de buceo?</h2><p>Consulta los centros documentados y todas sus actividades vinculadas.</p><Link href="/centros" className="button button-primary">Ver escuelas de buceo</Link></div></div>
   </div></section>;
 }
 
