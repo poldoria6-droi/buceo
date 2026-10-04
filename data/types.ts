@@ -10,5 +10,40 @@ export type BookingOffer = {
   status?:"active"|"paused";
 };
 
-// Shared affiliate types
 
+export type ActivityOperator = {
+  name: string;
+  location?: string;
+  sourceUrl: string;
+  checkedAt: string;
+};
+
+export type Activity = {
+  id:number;
+  title:string;
+  destination:string;
+  region:string;
+  slug:string;
+  type:"Bautismo"|"Fun Dive"|"Curso"|"Pecio"|"Fauna"|"Snorkel";
+  level:"Inicial"|"Intermedio"|"Avanzado";
+  duration:string;
+  audience:string;
+  tags:string[];
+  bookingStatus:"Disponible"|"Próximamente";
+  siteSlugs:string[];
+  offers?:BookingOffer[];
+  priceFrom?:number;
+  priceCheckedAt?:string;
+  priceCurrency?:string;
+  provider:string;
+  providerUrl:string;
+  sourceUrl:string;
+  rating?:number;
+  reviewCount?:number;
+  maxDepth?:string;
+  included?:string[];
+  cancellation?:string;
+  meetingPoint?:string;
+  minAge?:number;
+  notes?:string;
+};
