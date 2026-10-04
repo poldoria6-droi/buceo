@@ -51,8 +51,10 @@ export default async function ActivityPage({params}:Props){
         <main>
           <section className="notice-card" aria-label="Centro u organizador">
             <h2>Centro / organizador</h2>
-            {activity.operator ? <><h3>{activity.operator.name}</h3>{activity.operator.location&&<p>{activity.operator.location}</p>}<p>Organizador identificado en la oferta del proveedor.</p><a className="text-link" href={activity.operator.sourceUrl} target="_blank" rel="noopener noreferrer">Ver la oferta en {activity.provider} ↗</a></> : <p>El centro u organizador no está documentado todavía en Atlas. Consulta la identidad indicada por el proveedor antes de reservar.</p>}
+            {activity.operator ? <><h3>{activity.operator.name}</h3>{activity.operator.location&&<p>{activity.operator.location}</p>}<p>Organizador identificado en la oferta del proveedor.</p><a className="text-link" href={activity.operator.sourceUrl} target="_blank" rel="noopener noreferrer">Ver la oferta en {activity.provider} ↗</a></> : <p>El centro u organizador se consulta en la oferta del proveedor. Atlas no muestra un nombre que no haya podido verificar.</p>}
           </section>
+
+          {offers.some(offer=>offer.notes) && <><h2>Información publicada por el proveedor</h2><div className="notice-card"><p>Detalles estructurados y notas registradas a partir de la oferta enlazada. Comprueba siempre la versión actual en el proveedor.</p>{offers.filter(offer=>offer.notes).map(offer=><div key={offer.id}><strong>{offer.provider}</strong><p>{offer.notes}</p></div>)}</div></>}
 
           <h2>Información de la actividad</h2>
           <div className="notice-card">
