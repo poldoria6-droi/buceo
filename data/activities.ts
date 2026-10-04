@@ -6,8 +6,6 @@ import { yumpingBatch2 } from "./yumping-batch-2";
 import type { Activity, BookingOffer } from "./types";
 export type { Activity, BookingOffer } from "./types";
 
-export const activities
-
 export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBatch4,...yumpingBatch3,...yumpingBatch2,
   {
     id:101,siteSlugs:["malgrats"],
