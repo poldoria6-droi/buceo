@@ -7,7 +7,7 @@ const source = fs.readFileSync(path.join(root, 'data/activities.ts'), 'utf8');
 
 const numericActivityIds = [...source.matchAll(/\bid:(\d+),siteSlugs:/g)].map(m => Number(m[1]));
 const activitySlugs = [...source.matchAll(/\bslug:"([^"]+)"/g)].map(m => m[1]);
-const yumpingActivities = [...source.matchAll(/\bprovider:"Yumping",providerUrl:/g)].length;
+const yumpingActivities = [...source.matchAll(/\bprovider:"Yumping",\s*providerUrl:/g)].length;
 const civitatisActivities = [...source.matchAll(/\bprovider:"Civitatis",/g)].length;
 const yumpingProviderUrls = [...source.matchAll(/\bproviderUrl:"(https?:\/\/[^"]*yumping\.com[^"]*)"/g)].map(m => m[1]);
 const yumpingOfferUrls = [...source.matchAll(/\burl:"(https?:\/\/[^"]*yumping\.com[^"]*)"/g)].map(m => m[1]);
