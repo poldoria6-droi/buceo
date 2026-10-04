@@ -49,7 +49,6 @@ export default async function ActivityPage({params}:Props){
 
       <div className="activity-detail-grid">
         <main>
-          {activity.notes&&<div className="notice-card"><strong>Sobre esta actividad</strong><p>{activity.notes}</p></div>}
           <section className="notice-card" aria-label="Centro u organizador">
             <h2>Centro / organizador</h2>
             {activity.operator ? <><h3>{activity.operator.name}</h3>{activity.operator.location&&<p>{activity.operator.location}</p>}<p>Organizador identificado en la oferta del proveedor.</p><a className="text-link" href={activity.operator.sourceUrl} target="_blank" rel="noopener noreferrer">Ver la oferta en {activity.provider} ↗</a></> : <p>El centro u organizador no está documentado todavía en Atlas. Consulta la identidad indicada por el proveedor antes de reservar.</p>}
