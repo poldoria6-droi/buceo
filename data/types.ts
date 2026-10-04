@@ -46,4 +46,5 @@ export type Activity = {
   meetingPoint?:string;
   minAge?:number;
   notes?:string;
+  operator?: ActivityOperator;
 };
