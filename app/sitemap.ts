@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/guias/bautismo-de-buceo-en-espana`, lastModified: new Date() },
     { url: `${base}/guias/cuanto-cuesta-un-bautismo-de-buceo`, lastModified: new Date() },
     { url: `${base}/guias/que-equipo-necesito-para-empezar-a-bucear`, lastModified: new Date() },
+    { url: `${base}/guias/padi-vs-ssi-diferencias`, lastModified: new Date() },
+    { url: `${base}/guias/mejores-zonas-de-buceo-en-espana`, lastModified: new Date() },
     { url: `${base}/actividades`, lastModified: new Date() },
     { url: `${base}/fauna`, lastModified: new Date() },
     { url: `${base}/centros`, lastModified: new Date() },

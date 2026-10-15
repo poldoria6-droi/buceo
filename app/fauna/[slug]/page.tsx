@@ -149,17 +149,26 @@ export default async function SpeciesPage({ params }: Props) {
           </p>
         )}
 
-        <p>
-          <Link className="button button-primary" href={`/actividades?species=${s.slug}#mapa`}>
-            Ver registros en el mapa →
-          </Link>
-        </p>
-
-        <h2>Explorar experiencias</h2>
-        <p>
-          Las actividades no garantizan encontrar esta especie. Consulta con la escuela el objetivo de la salida.
-        </p>
-        <Link href="/actividades">Buscar actividades y escuelas →</Link>
+        <div className="commercial-card commercial-card-activity" style={{ margin: "2rem 0" }}>
+          <div className="commercial-card-body">
+            <span className="eyebrow">OBSERVACIÓN Y BUCEO</span>
+            <h3 style={{ margin: "0.25rem 0 0.5rem" }}>¿Quieres bucear en zonas donde habita {s.name.toLowerCase()}?</h3>
+            <p>
+              Explora las escuelas verificadas y salidas de inmersión en España para planificar tu experiencia con guías locales, respetando siempre el código de observación responsable.
+            </p>
+            <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1rem" }}>
+              <Link className="button button-primary" href={`/actividades?species=${s.slug}#mapa`}>
+                Ver registros en el mapa →
+              </Link>
+              <Link className="button button-secondary" href="/centros">
+                Ver escuelas verificadas
+              </Link>
+              <Link className="button button-secondary" href="/destinos">
+                Explorar destinos
+              </Link>
+            </div>
+          </div>
+        </div>
 
         <h2>Otras especies</h2>
         <div className="guide-grid">

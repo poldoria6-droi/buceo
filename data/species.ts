@@ -181,5 +181,365 @@ export const species:Species[] = [
       }
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "slug": "tortuga-marina",
+    "name": "Tortuga marina",
+    "scientificName": "Caretta caretta / Chelonia mydas",
+    "category": "Reptiles marinos",
+    "description": "En aguas españolas es posible avistar principalmente la tortuga boba (Caretta caretta) y la tortuga verde (Chelonia mydas), especialmente en las Islas Canarias donde residen y se alimentan ejemplares juveniles y adultos. Son animales estrictamente protegidos que deben observarse sin aproximarse en exceso ni cortar su trayectoria hacia la superficie.",
+    "habitat": "Fondos arenosos, praderas de sebas o posidonia y aguas abiertas pelágicas.",
+    "depth": {
+      "min": 0,
+      "max": 100,
+      "sourceUrl": "https://www.miteco.gob.es/es/costas/temas/proteccion-medio-marino/estrategias-marinas/reptiles-marinos.html"
+    },
+    "size": "Caparazón de 70 a 120 cm según MITECO.",
+    "diet": "Medusas, crustáceos, moluscos y algas marinas.",
+    "behavior": "Respiran aire en superficie y realizan inmersiones periódicas. Se alimentan en fondos someros y viajan por corrientes atlánticas y mediterráneas.",
+    "conservation": "Especies amenazadas y estrictamente protegidas en España y la Unión Europea. Prohibido tocar, alimentar o acosar.",
+    "sources": [
+      "https://www.miteco.gob.es/es/costas/temas/proteccion-medio-marino/estrategias-marinas/reptiles-marinos.html",
+      "https://www.aquariumbcn.com/especies/reptiles/tortuga-boba/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Caretta_caretta_01.jpg/800px-Caretta_caretta_01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Caretta_caretta_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caretta_caretta_01.jpg",
+      "author": "Strobilomyces",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "alt": "Tortuga boba nadando en aguas costeras"
+    },
+    "occurrences": [
+      {
+        "name": "El Puertito y Los Cristianos",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.118,
+        "lng": -16.75,
+        "precision": "Zona",
+        "sourceUrl": "https://www.miteco.gob.es/es/costas/temas/proteccion-medio-marino/estrategias-marinas/reptiles-marinos.html",
+        "note": "Zona atlántica con registros habituales de tortuga boba y verde en fondos de arena y sebadales de Tenerife sur."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Punto",
+        "sourceUrl": "https://www.miteco.gob.es/es/costas/temas/proteccion-medio-marino/estrategias-marinas/reptiles-marinos.html",
+        "note": "Avistamientos documentados de ejemplares en tránsito y alimentación en Gran Canaria."
+      }
+    ],
+    "checkedAt": "2026-10-15"
+  },
+  {
+    "slug": "barracuda",
+    "name": "Barracuda mediterránea (Espetón)",
+    "scientificName": "Sphyraena viridensis",
+    "category": "Peces",
+    "description": "Depredador hidrodinámico con dientes afilados y cuerpo plateado con bandas transversales oscuras. Suele formar densos bancos circulares o patrullar en solitario las puntas rocosas y zonas de corriente de las reservas marinas españolas.",
+    "habitat": "Aguas abiertas y arrecifes costeros expuestos a corrientes.",
+    "depth": {
+      "min": 2,
+      "max": 50,
+      "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/espeton/"
+    },
+    "size": "De 60 a 120 cm de longitud.",
+    "diet": "Peces pelágicos (sardinas, bogas, jureles y caballas).",
+    "behavior": "Cazador activo que suele tolerar con calma la presencia de buceadores que mantengan buena flotabilidad neutra.",
+    "sources": [
+      "https://www.aquariumbcn.com/especies/peces-oseos/espeton/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sphyraena_viridensis.jpg/800px-Sphyraena_viridensis.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sphyraena_viridensis.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphyraena_viridensis.jpg",
+      "author": "Roberto Pillon",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "alt": "Banco de barracudas mediterráneas en aguas abiertas"
+    },
+    "occurrences": [
+      {
+        "name": "Illes Medes",
+        "region": "Cataluña",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://parcsnaturals.gencat.cat",
+        "note": "Grandes bancos de espetones en La Vaca y Carall Bernat durante toda la temporada."
+      },
+      {
+        "name": "Islas Hormigas (Cabo de Palos)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Punto",
+        "sourceUrl": "https://www.reservasmarinas.net",
+        "note": "Bancos compactos permanentes en el Bajo de Fuera y Bajo de Dentro."
+      }
+    ],
+    "checkedAt": "2026-10-15"
+  },
+  {
+    "slug": "pez-luna",
+    "name": "Pez luna",
+    "scientificName": "Mola mola",
+    "category": "Peces",
+    "description": "El pez óseo más pesado del mundo. Su morfología discoidal sin cola diferenciada y su impresionante porte lo convierten en uno de los encuentros más emocionantes del buceo en España. Suele ascender a cotas accesibles en primavera para que peces desparasitadores limpien su piel.",
+    "habitat": "Aguas pelágicas templadas y tropicales; se aproxima a paredes de costa para limpieza.",
+    "depth": {
+      "min": 5,
+      "max": 400,
+      "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/pez-luna/"
+    },
+    "size": "Hasta 3 metros y más de 1.000 kg.",
+    "diet": "Principalmente medusas, zooplancton gelatinoso y calamares.",
+    "behavior": "Movimiento lento y parsimonioso mediante sus aletas dorsal y anal. Muy sensible al acoso; si se le nada encima huye hacia el azul profundo.",
+    "sources": [
+      "https://www.aquariumbcn.com/especies/peces-oseos/pez-luna/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Mola_mola.jpg/800px-Mola_mola.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Mola_mola.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mola_mola.jpg",
+      "author": "Per-Ola Norman",
+      "license": "Dominio público",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "alt": "Pez luna (Mola mola) en aguas abiertas"
+    },
+    "occurrences": [
+      {
+        "name": "Mar Menuda (Tossa de Mar)",
+        "region": "Cataluña",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com",
+        "note": "Encuentros estacionales documentados entre mayo y julio en las estaciones de desparasitación."
+      },
+      {
+        "name": "La Herradura y Punta de la Mona",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.73,
+        "lng": -3.73,
+        "precision": "Zona",
+        "sourceUrl": "https://www.miteco.gob.es",
+        "note": "Avistamientos documentados en paso pelágico primaveral frente a la costa granadina."
+      }
+    ],
+    "checkedAt": "2026-10-15"
+  },
+  {
+    "slug": "chucho-raya",
+    "name": "Chucho / Raya común",
+    "scientificName": "Dasyatis pastinaca",
+    "category": "Tiburones y rayas",
+    "description": "Pez cartilaginoso con cuerpo aplanado en forma de rombo que suele reposar semienterrado en la arena. Posee una espina serrada en la base de la cola con fines puramente defensivos. En las Islas Canarias y el Mediterráneo es un habitante habitual de calas y fondos blandos.",
+    "habitat": "Fondos arenosos, fangosos y praderas marinas.",
+    "depth": {
+      "min": 5,
+      "max": 200,
+      "sourceUrl": "https://www.aquariumbcn.com/especies/peces-cartilaginosos/pastinaca/"
+    },
+    "size": "Envergadura de hasta 150 cm.",
+    "diet": "Moluscos bivalvos, crustáceos y pequeños gusanos que desentierra del sustrato blando.",
+    "behavior": "Pacífico y dócil. Si no se le cerca ni se pisa, permite observaciones cercanas de gran belleza sin alterar su descanso.",
+    "sources": [
+      "https://www.aquariumbcn.com/especies/peces-cartilaginosos/pastinaca/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dasyatis_pastinaca_Crete.jpg/800px-Dasyatis_pastinaca_Crete.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Dasyatis_pastinaca_Crete.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dasyatis_pastinaca_Crete.jpg",
+      "author": "Max Ryazanov",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "alt": "Raya común posada sobre fondo arenoso"
+    },
+    "occurrences": [
+      {
+        "name": "Sardina del Norte",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.14,
+        "lng": -15.69,
+        "precision": "Punto",
+        "sourceUrl": "https://www.miteco.gob.es",
+        "note": "Frecuente en la bahía arenosa y en las inmersiones nocturnas de Gran Canaria."
+      },
+      {
+        "name": "Playa Chica (Lanzarote)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.92,
+        "lng": -13.7,
+        "precision": "Punto",
+        "sourceUrl": "https://turismolanzarote.com",
+        "note": "Observaciones regulares de chuchos negros y pastinacas en el veril de la playa."
+      }
+    ],
+    "checkedAt": "2026-10-15"
+  },
+  {
+    "slug": "caballito-de-mar",
+    "name": "Caballito de mar común",
+    "scientificName": "Hippocampus hippocampus",
+    "category": "Peces",
+    "description": "Pez teleósteo de silueta inconfundible con cola prensil y cabeza en ángulo recto. Se sujeta a tallos de posidonia y algas para resistir las corrientes. Es una especie muy sensible y emblemática protegida por convenios internacionales.",
+    "habitat": "Praderas de Posidonia oceanica, Zostera marina y fondos costeros protegidos.",
+    "depth": {
+      "min": 1,
+      "max": 30,
+      "sourceUrl": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/hippocampus_hippocampus_tcm30-197621.pdf"
+    },
+    "size": "De 8 a 15 cm de longitud.",
+    "diet": "Pequeños copépodos y crustáceos diminutos que succiona con su hocico tubular.",
+    "behavior": "Nado pausado mediante la aleta dorsal. Los machos incuban los huevos fecundados en una bolsa ventral especializada.",
+    "conservation": "Vulnerable y protegido. Prohibido manipular, iluminar con focos directos continuos o alterar su sustrato de anclaje.",
+    "sources": [
+      "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/hippocampus_hippocampus_tcm30-197621.pdf"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hippocampus_hippocampus_01.jpg/800px-Hippocampus_hippocampus_01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hippocampus_hippocampus_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippocampus_hippocampus_01.jpg",
+      "author": "Hans Hillewaert",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Caballito de mar común sujeto a vegetación marina"
+    },
+    "occurrences": [
+      {
+        "name": "Cabo de Gata",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://www.miteco.gob.es",
+        "note": "Poblaciones localizadas en las praderas de posidonia de calas resguardadas del parque natural."
+      },
+      {
+        "name": "Rías Baixas",
+        "region": "Galicia",
+        "basin": "Atlántico",
+        "lat": 42.23,
+        "lng": -8.9,
+        "precision": "Zona",
+        "sourceUrl": "https://www.miteco.gob.es",
+        "note": "Registros en fondos de fanerógamas del Proyecto Hippocampus del IIM-CSIC."
+      }
+    ],
+    "checkedAt": "2026-10-15"
+  },
+  {
+    "slug": "vaquita-suiza",
+    "name": "Vaquita suiza (Nudibranquio)",
+    "scientificName": "Discodoris atromaculata",
+    "category": "Moluscos e invertebrados",
+    "description": "Uno de los nudibranquios más espectaculares y fáciles de identificar del Mediterráneo. Su manto blanco con manchas pardas oscuras recuerda al pelaje vacuno. Vive en estrecha simbiosis trófica alimentándose casi en exclusiva de la esponja Petrosia ficiformis.",
+    "habitat": "Paredes umbrías, cornisas, grietas y entradas de cuevas donde crecen esponjas.",
+    "depth": {
+      "min": 5,
+      "max": 40,
+      "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/vaquita-suiza/"
+    },
+    "size": "Hasta 12 cm de longitud.",
+    "diet": "Esponja incrustante pétrea (Petrosia ficiformis).",
+    "behavior": "Hermafrodita. Se desplaza lentamente sobre las colonias de esponjas dejando espirales de puestas de huevos blancos.",
+    "sources": [
+      "https://www.aquariumbcn.com/especies/invertebrados/vaquita-suiza/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Peltodoris_atromaculata_in_Cabo_de_Palos.jpg/800px-Peltodoris_atromaculata_in_Cabo_de_Palos.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Peltodoris_atromaculata_in_Cabo_de_Palos.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peltodoris_atromaculata_in_Cabo_de_Palos.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Vaquita suiza sobre una esponja en Cabo de Palos"
+    },
+    "occurrences": [
+      {
+        "name": "Illes Medes (La Vaca y El Salpatxot)",
+        "region": "Cataluña",
+        "basin": "Mediterráneo",
+        "lat": 42.051,
+        "lng": 3.22,
+        "precision": "Punto",
+        "sourceUrl": "https://parcsnaturals.gencat.cat",
+        "note": "Frecuente en las paredes umbrías y túneles con esponjas pétreas."
+      },
+      {
+        "name": "Cabo de Palos",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://www.reservasmarinas.net",
+        "note": "Fotografiada y documentada en los bajos y piedras de la reserva marina."
+      }
+    ],
+    "checkedAt": "2026-10-15"
+  },
+  {
+    "slug": "sepia",
+    "name": "Sepia común",
+    "scientificName": "Sepia officinalis",
+    "category": "Cefalópodos",
+    "description": "Maestra indiscutible del camuflaje submarino. Posee diez brazos (dos de ellos tentáculos retráctiles de caza), ojos en forma de W y una concha interna calcárea conocida como jibión. En primavera acude a aguas someras para el desove.",
+    "habitat": "Fondos mixtos de arena, roca y praderas de posidonia oceanica.",
+    "depth": {
+      "min": 1,
+      "max": 100,
+      "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/sepia-comun/"
+    },
+    "size": "De 20 a 40 cm de longitud de manto.",
+    "diet": "Crustáceos (cangrejos y camarones) y pequeños peces costeros.",
+    "behavior": "Solitaria y territorial. Modifica al instante el color y la textura rugosa de su piel según su estado de ánimo o el entorno.",
+    "sources": [
+      "https://www.aquariumbcn.com/especies/invertebrados/sepia-comun/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sepia_officinalis_%28aquarium%29.jpg/800px-Sepia_officinalis_%28aquarium%29.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Sepia_officinalis_%28aquarium%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sepia_officinalis_(aquarium).jpg",
+      "author": "Tino Strauss",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "alt": "Sepia común mostrando patrones de color y camuflaje"
+    },
+    "occurrences": [
+      {
+        "name": "Cala Montgó y L'Escala",
+        "region": "Cataluña",
+        "basin": "Mediterráneo",
+        "lat": 42.105,
+        "lng": 3.159,
+        "precision": "Zona",
+        "sourceUrl": "https://visitlescala.com",
+        "note": "Habitual en las praderas de posidonia y fondos de arena en inmersiones de iniciación."
+      },
+      {
+        "name": "Mar Menuda (Tossa de Mar)",
+        "region": "Cataluña",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://infotossa.com",
+        "note": "Encuentros constantes en inmersiones nocturnas y cursos de buceo en cala."
+      }
+    ],
+    "checkedAt": "2026-10-15"
   }
 ];

@@ -3,10 +3,10 @@ import Link from "next/link";
 const guides = [
   ["Bautismo de buceo en España", "Qué es, qué suele incluir y qué comparar antes de reservar.", "Principiantes", "/guias/bautismo-de-buceo-en-espana", "Ver guía →"],
   ["Cuánto cuesta un bautismo de buceo", "Qué factores cambian el precio y cómo comparar dos experiencias.", "Precios", "/guias/cuanto-cuesta-un-bautismo-de-buceo", "Ver guía →"],
+  ["PADI vs SSI: diferencias que conviene entender", "Comparativa completa sobre precios, convalidaciones, apps y cuál elegir.", "Certificaciones", "/guias/padi-vs-ssi-diferencias", "Ver comparativa →"],
+  ["Las mejores zonas de buceo en España", "Los destinos y reservas marinas imprescindibles según tu nivel y temporada.", "Destinos", "/guias/mejores-zonas-de-buceo-en-espana", "Ver mejores zonas →"],
   ["Qué equipo necesito para empezar a bucear", "Qué material necesitas, qué puedes alquilar y qué conviene comparar antes de comprar.", "Equipamiento", "/guias/que-equipo-necesito-para-empezar-a-bucear", "Ver guía →"],
-  ["PADI vs SSI: diferencias que conviene entender", "Una guía práctica para comparar certificaciones con información.", "Certificaciones", "/actividades?type=Curso", "Explorar cursos →"],
-  ["Buceo desde costa vs desde barco", "Acceso, logística y perfiles de inmersión para planificar tu salida.", "Planificación", "/actividades#mapa", "Explorar mapa →"],
-  ["Qué animales puedes encontrar buceando", "Guía visual de fauna por destinos y tipo de fondo.", "Fauna", "/fauna", "Ver especies →"]
+  ["Qué animales puedes encontrar buceando", "Guía visual de fauna por destinos y tipo de fondo marino.", "Fauna", "/fauna", "Ver especies →"]
 ];
 
 export const metadata = {
