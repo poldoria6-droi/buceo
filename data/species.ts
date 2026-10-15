@@ -19,7 +19,7 @@ export const species:Species[] = [
       "https://accedacris.ulpgc.es/handle/10553/35337"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Squatina_squatina_lanzarote.jpg",
+      "url": "/images/fauna/angelote.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Squatina_squatina_lanzarote.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squatina_squatina_lanzarote.jpg",
       "author": "greenacre8; ajuste de color: Togabi",
@@ -70,7 +70,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Epinephelus_marginatus_Crete.jpg",
+      "url": "/images/fauna/mero-moreno.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Epinephelus_marginatus_Crete.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Epinephelus_marginatus_Crete.jpg",
       "author": "Max Ryazanov; edición: Mayra SA",
@@ -100,7 +100,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/peces-oseos/morena/"
     ],
     "image": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_59.jpg/500px-Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_59.jpg",
+      "url": "/images/fauna/morena.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Morena_del_Mediterr%C3%A1neo_%28Muraena_helena%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_59.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morena_del_Mediterráneo_(Muraena_helena),_Cabo_de_Palos,_España,_2022-07-17,_DD_59.jpg",
       "author": "Diego Delso, delso.photo",
@@ -135,7 +135,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Octopus_vulgaris_Cuvier%2C_1797.jpg",
+      "url": "/images/fauna/pulpo-comun.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Octopus_vulgaris_Cuvier%2C_1797.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Octopus_vulgaris_Cuvier,_1797.jpg",
       "author": "Parent Géry",
@@ -160,7 +160,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/invertebrados/gorgonia-roja/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Violescent_sea-whip_%28Paramuricea_clavata%29%2C_Ferranelles%2C_Medes_Islands%2C_Spain.jpg",
+      "url": "/images/fauna/gorgonia-roja.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Violescent_sea-whip_%28Paramuricea_clavata%29%2C_Ferranelles%2C_Medes_Islands%2C_Spain.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Violescent_sea-whip_(Paramuricea_clavata),_Ferranelles,_Medes_Islands,_Spain.jpg",
       "author": "Jouni Kuisma / DiveCodex, divecodex.com",
@@ -203,7 +203,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/reptiles/tortuga-boba/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Caretta_caretta_01.jpg/800px-Caretta_caretta_01.jpg",
+      "url": "/images/fauna/tortuga-marina.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Caretta_caretta_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caretta_caretta_01.jpg",
       "author": "Strobilomyces",
@@ -254,7 +254,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/peces-oseos/espeton/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sphyraena_viridensis.jpg/800px-Sphyraena_viridensis.jpg",
+      "url": "/images/fauna/barracuda.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sphyraena_viridensis.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphyraena_viridensis.jpg",
       "author": "Roberto Pillon",
@@ -305,7 +305,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/peces-oseos/pez-luna/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Mola_mola.jpg/800px-Mola_mola.jpg",
+      "url": "/images/fauna/pez-luna.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Mola_mola.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mola_mola.jpg",
       "author": "Per-Ola Norman",
@@ -356,7 +356,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/peces-cartilaginosos/pastinaca/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dasyatis_pastinaca_Crete.jpg/800px-Dasyatis_pastinaca_Crete.jpg",
+      "url": "/images/fauna/chucho-raya.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Dasyatis_pastinaca_Crete.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dasyatis_pastinaca_Crete.jpg",
       "author": "Max Ryazanov",
@@ -408,7 +408,7 @@ export const species:Species[] = [
       "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/hippocampus_hippocampus_tcm30-197621.pdf"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hippocampus_hippocampus_01.jpg/800px-Hippocampus_hippocampus_01.jpg",
+      "url": "/images/fauna/caballito-de-mar.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hippocampus_hippocampus_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippocampus_hippocampus_01.jpg",
       "author": "Hans Hillewaert",
@@ -459,7 +459,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/invertebrados/vaquita-suiza/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Peltodoris_atromaculata_in_Cabo_de_Palos.jpg/800px-Peltodoris_atromaculata_in_Cabo_de_Palos.jpg",
+      "url": "/images/fauna/vaquita-suiza.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Peltodoris_atromaculata_in_Cabo_de_Palos.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peltodoris_atromaculata_in_Cabo_de_Palos.jpg",
       "author": "Diego Delso",
@@ -510,7 +510,7 @@ export const species:Species[] = [
       "https://www.aquariumbcn.com/especies/invertebrados/sepia-comun/"
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sepia_officinalis_%28aquarium%29.jpg/800px-Sepia_officinalis_%28aquarium%29.jpg",
+      "url": "/images/fauna/sepia.jpg",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Sepia_officinalis_%28aquarium%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sepia_officinalis_(aquarium).jpg",
       "author": "Tino Strauss",
