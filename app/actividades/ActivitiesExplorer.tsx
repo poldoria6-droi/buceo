@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
 import { useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import type { DiveSite } from "@/data/dive-sites";
 import { communityFor, destinationsFor } from "@/lib/activity-filters";
 import type { Activity } from "@/data/types";
@@ -23,14 +24,22 @@ type Props = {
 };
 
 export function ActivitiesExplorer({ activities, sites, regions, types, centerByActivity = {}, initial = {} }: Props) {
-  const [mapMode, setMapMode] = useState(initial.species ? "species" : "experiences");
-  const [speciesSlug, setSpeciesSlug] = useState(initial.species || species[0]?.slug || "");
+  const searchParams = useSearchParams();
+  const initType = searchParams.get("type") || initial.type || "Todos";
+  const initRegion = searchParams.get("region") || initial.region || "Todos";
+  const initDestination = searchParams.get("destination") || initial.destination || "Todos";
+  const initSite = searchParams.get("site") || initial.site || "Todos";
+  const initLevel = searchParams.get("level") || initial.level || "Todos";
+  const initSpecies = searchParams.get("species") || initial.species;
+
+  const [mapMode, setMapMode] = useState(initSpecies ? "species" : "experiences");
+  const [speciesSlug, setSpeciesSlug] = useState(initSpecies || species[0]?.slug || "");
   const selectedSpecies = species.find(s => s.slug === speciesSlug);
-  const [type, setType] = useState(initial.type || "Todos");
-  const [region, setRegion] = useState(communityFor(initial.region || "Todos"));
-  const [destination, setDestination] = useState(() => destinationsFor(activities, initial.region || "Todos").includes(initial.destination || "") ? initial.destination! : "Todos");
-  const [siteSlug, setSiteSlug] = useState(initial.site || "Todos");
-  const [level, setLevel] = useState(initial.level || "Todos");
+  const [type, setType] = useState(initType);
+  const [region, setRegion] = useState(communityFor(initRegion));
+  const [destination, setDestination] = useState(() => destinationsFor(activities, initRegion).includes(initDestination) ? initDestination : "Todos");
+  const [siteSlug, setSiteSlug] = useState(initSite);
+  const [level, setLevel] = useState(initLevel);
 
   const destinations = useMemo(() => destinationsFor(activities, region), [activities, region]);
   const communities = useMemo(() => Array.from(new Set(regions.map(communityFor))).sort((a,b) => a.localeCompare(b, "es")), [regions]);
@@ -98,13 +107,13 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
                       <strong>{a.title}</strong>
                       <small>{a.destination} · {site?.name || "Punto por confirmar"} · {a.level} · {a.duration}</small>
                       <span className="result-price">{lowest ? <>Desde <b>{formatOfferPrice(lowest)}</b>{offers.length > 1 && <small> · {offers.length} proveedores</small>}</> : <b>Precio por confirmar</b>}</span>
-                      <span className="activity-provider">{offers.length === 1 ? <>Proveedor: {offers[0].provider}</> : <>Proveedores: {offers.map(offer => offer.provider).join(" · ")}</>}</span>
+                      <span className="activity-provider">{offers.length === 1 ? <>Proveedor oficial: {offers[0].provider}</> : <>Proveedores: {offers.map(offer => offer.provider).join(" · ")}</>}</span>
                     </span>
                     <span className="activity-result-arrow">→</span>
                   </Link>
                   {center && <p className="activity-school-link">Escuela: <Link href={"/centros/" + center.slug}>{center.name}</Link></p>}
                   <div className="activity-result-actions">
-                    {site && <button type="button" className="activity-detail-link" onClick={() => window.dispatchEvent(new CustomEvent("focus-activity-site", {detail:site.id}))}>Ver en el mapa</button>}
+                    {site && <button type="button" className="activity-detail-link" onClick={() => window.dispatchEvent(new CustomEvent("focus-activity-site", {detail:site.id}))}>📍 Ver en el mapa</button>}
                     <Link href={"/actividades/" + a.slug} className="activity-detail-link">Ver ficha</Link>
                     {offers.map(offer => (
                       <a
@@ -116,13 +125,14 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
                         data-affiliate-provider={offer.provider}
                         data-activity-id={a.id}
                       >
-                        Reservar {offer.provider} ↗
+                        Reservar con {offer.provider} ↗
                       </a>
                     ))}
                   </div>
                 </article>
               );
             })}
+
             {!filtered.length && <div className="activity-empty"><strong>No hay experiencias con estos filtros.</strong><span>Prueba otra combinación y vuelve a explorar el mapa.</span></div>}
           </div>
         </aside>

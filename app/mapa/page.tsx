@@ -1,10 +1,43 @@
-import { redirect } from "next/navigation";
+"use client";
+
+import { useSearchParams, useRouter } from "next/navigation";
+import { useEffect, Suspense } from "react";
 import { diveSites } from "@/data/dive-sites";
-export default async function Page({searchParams}:{searchParams:Promise<{q?:string;species?:string}>}){
-  const params=await searchParams;
-  const site=diveSites.find(s=>s.name===params.q||s.slug===params.q);
-  const query=new URLSearchParams();
-  if(site)query.set("site",site.slug);
-  if(params.species)query.set("species",params.species);
-  redirect(`/actividades${query.size?`?${query.toString()}`:""}#mapa`);
+
+function MapRedirect() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const q = searchParams.get("q");
+    const species = searchParams.get("species");
+    const site = diveSites.find((s) => s.name === q || s.slug === q);
+    const query = new URLSearchParams();
+    if (site) query.set("site", site.slug);
+    if (species) query.set("species", species);
+    router.replace(`/actividades${query.size ? `?${query.toString()}` : ""}#mapa`);
+  }, [router, searchParams]);
+
+  return (
+    <div className="section">
+      <div className="container" style={{ textAlign: "center", padding: "80px 20px" }}>
+        <p className="lead">Cargando el mapa interactivo de buceo...</p>
+      </div>
+    </div>
+  );
 }
+
+export default function MapPage() {
+  return (
+    <Suspense fallback={
+      <div className="section">
+        <div className="container" style={{ textAlign: "center", padding: "80px 20px" }}>
+          <p className="lead">Cargando mapa...</p>
+        </div>
+      </div>
+    }>
+      <MapRedirect />
+    </Suspense>
+  );
+}
+

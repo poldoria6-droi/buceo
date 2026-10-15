@@ -1,6 +1,8 @@
 import { activityDetails } from "@/data/activity-details";
 import { getActivityCenter } from "@/lib/centers";
 import { BookingOptions } from "@/components/BookingOptions";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { buildActivityJsonLd } from "@/lib/seo";
 import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, formatPriceCheckedAt, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
 import { notFound } from "next/navigation";
@@ -15,9 +17,21 @@ export async function generateMetadata({params}:Props){
   const {slug}=await params;
   const activity=activities.find(item=>item.slug===slug);
   if(!activity)return{};
+  const offers=getBookingOffers(activity);
+  const lowest=getLowestPricedOffer(offers);
+  const priceSnippet=lowest ? ` desde ${formatOfferPrice(lowest)}` : "";
   return{
-    title:`${activity.title} | Buceo Atlas`,
-    description:`${activity.title}. Consulta duración, nivel, qué incluye, cancelación y proveedor antes de reservar.`
+    title:`${activity.title} · Precios y Reserva`,
+    description:`${activity.title} en ${activity.destination} (${activity.region}). Nivel: ${activity.level}, duración: ${activity.duration}. Precios${priceSnippet}, qué incluye y reserva online con proveedor oficial.`,
+    alternates:{
+      canonical:`/actividades/${slug}`,
+    },
+    openGraph:{
+      title:`${activity.title} | Buceo Atlas`,
+      description:`${activity.title} en ${activity.destination}. Consulta opciones de reserva, qué incluye y centros organizadores.`,
+      url:`/actividades/${slug}`,
+      type:"website",
+    }
   };
 }
 
@@ -31,10 +45,20 @@ export default async function ActivityPage({params}:Props){
   const linkedSites=diveSites.filter(site=>activity.siteSlugs.includes(site.slug));
   const offers=getBookingOffers(activity);
   const lowest=getLowestPricedOffer(offers);
+  const activityJsonLd = buildActivityJsonLd(activity, offers, center);
 
   return <section className="section">
     <div className="container">
-      <Link href="/actividades" className="back-link">← Todas las actividades</Link>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(activityJsonLd) }}
+      />
+      <Breadcrumbs
+        items={[
+          { name: "Actividades", path: "/actividades" },
+          { name: activity.title, path: `/actividades/${activity.slug}` },
+        ]}
+      />
       <div className="activity-detail-hero">
         <div>
           <span className="eyebrow">{activity.type} · {activity.destination}</span>

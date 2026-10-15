@@ -4,18 +4,60 @@ import "leaflet/dist/leaflet.css";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SITE_URL, SITE_NAME, buildWebsiteJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: { default: "Buceo Atlas | Explora el mundo bajo el agua", template: "%s | Buceo Atlas" },
-  description: "Mapa de buceo en España, fauna marina, destinos y actividades para descubrir y reservar experiencias bajo el agua.",
-  openGraph: { title: "Buceo Atlas | Explora el mundo bajo el agua", description: "Descubre lugares, fauna, actividades y equipamiento para bucear en España.", type: "website" }
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${SITE_NAME} | Portal y Mapa de Buceo en España`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description:
+    "Descubre y compara actividades de buceo, puntos de inmersión en España, escuelas verificadas y fauna marina con mapa interactivo.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} | Portal y Mapa de Buceo en España`,
+    description:
+      "Descubre y compara actividades de buceo, puntos de inmersión en España, escuelas verificadas y fauna marina con mapa interactivo.",
+    type: "website",
+    locale: "es_ES",
+    url: SITE_URL,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} | Portal y Mapa de Buceo en España`,
+    description:
+      "Descubre y compara actividades de buceo, puntos de inmersión en España, escuelas verificadas y fauna marina.",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const yumpingPartnerId=process.env.NEXT_PUBLIC_YUMPING_PARTNER_ID?.trim() || "449fb0b2d23ef85c3ee63f78b6e90eae";
-  return <html lang="es"><head><meta name="yumping-analytics" content="global" /></head><body><Script
+  const yumpingPartnerId =
+    process.env.NEXT_PUBLIC_YUMPING_PARTNER_ID?.trim() || "449fb0b2d23ef85c3ee63f78b6e90eae";
+  const websiteJsonLd = buildWebsiteJsonLd();
+
+  return (
+    <html lang="es">
+      <head>
+        <meta name="yumping-analytics" content="global" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+      </head>
+      <body>
+        <Script
           src="https://www.yumping.com/afiliados/js/js_pa.min.js?v=11.38;"
           data-partner-id={yumpingPartnerId}
           strategy="beforeInteractive"
-        /><Header /><main>{children}</main><Footer /></body></html>;
+        />
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </body>
+    </html>
+  );
 }

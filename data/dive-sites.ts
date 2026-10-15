@@ -134,3 +134,4 @@ export const destinations=destinationSlugs.map(slug=>{
   const sites=diveSites.filter(site=>site.destinationSlug===slug);
   return {slug,name:sites[0].destination,region:sites[0].region,sites:sites.length,animals:Array.from(new Set(sites.flatMap(site=>site.animals))).slice(0,6)};
 });
+export type Destination = (typeof destinations)[number];
