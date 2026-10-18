@@ -34,9 +34,13 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
   const initSpecies = searchParams.get("species") || initial.species;
 
   const speciesWithPoints = useMemo(() => species.filter((s) => s.occurrences.length > 0), []);
+  const totalSpeciesOccurrences = useMemo(
+    () => speciesWithPoints.reduce((acc, s) => acc + s.occurrences.length, 0),
+    [speciesWithPoints]
+  );
   const [mapMode, setMapMode] = useState(initSpecies ? "species" : "experiences");
-  const [speciesSlug, setSpeciesSlug] = useState(initSpecies || speciesWithPoints[0]?.slug || species[0]?.slug || "");
-  const selectedSpecies = species.find((s) => s.slug === speciesSlug);
+  const [speciesSlug, setSpeciesSlug] = useState(initSpecies || "all");
+  const selectedSpecies = speciesSlug === "all" ? undefined : species.find((s) => s.slug === speciesSlug);
 
   const [type, setType] = useState(initType);
   const [region, setRegion] = useState(communityFor(initRegion));
@@ -315,6 +319,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
               <label>
                 Especie{" "}
                 <select value={speciesSlug} onChange={(e) => setSpeciesSlug(e.target.value)}>
+                  <option value="all">Todas las especies ({totalSpeciesOccurrences})</option>
                   {speciesWithPoints.map((s) => (
                     <option key={s.slug} value={s.slug}>
                       {s.name} ({s.occurrences.length})
@@ -328,10 +333,19 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
             <ActivityMap sites={matchingSites} activities={filtered} />
           ) : (
             <>
-              <SpeciesMap item={selectedSpecies} />
+              <SpeciesMap item={selectedSpecies} allSpecies={speciesWithPoints} />
               <p className="data-note">
-                {selectedSpecies?.occurrences.length || 0} registros documentados para {selectedSpecies?.name}.{" "}
-                <Link href={`/fauna/${speciesSlug}`}>Ver ficha de la especie →</Link>
+                {selectedSpecies ? (
+                  <>
+                    {selectedSpecies.occurrences.length} zonas documentadas en España para {selectedSpecies.name}.{" "}
+                    <Link href={`/fauna/${selectedSpecies.slug}`}>Ver ficha de la especie →</Link>
+                  </>
+                ) : (
+                  <>
+                    {totalSpeciesOccurrences} registros documentados en España de {speciesWithPoints.length} especies marinas.{" "}
+                    <Link href="/fauna">Ver guía de fauna marina →</Link>
+                  </>
+                )}
               </p>
             </>
           )}

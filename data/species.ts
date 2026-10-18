@@ -31,24 +31,74 @@ export const species:Species[] = [
     },
     "occurrences": [
       {
-        "name": "Entorno de Playa Chica",
+        "name": "Playa Chica (Puerto del Carmen, Lanzarote)",
         "region": "Canarias",
         "basin": "Atlántico",
         "lat": 28.92,
         "lng": -13.668,
-        "precision": "Zona",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squatina_squatina_lanzarote.jpg",
-        "note": "Fotografía del 6 de noviembre de 2006 frente a la playa. Ubicación aproximada; no acredita presencia actual en los puntos cercanos."
+        "precision": "Punto",
+        "sourceUrl": "https://angelsharknetwork.com/canaryislands/",
+        "note": "Hábitat y presencia documentada de angelote (Squatina squatina) en Playa Chica (Puerto del Carmen, Lanzarote). La observación en inmersión depende de la época, cota y condiciones del mar."
       },
       {
-        "name": "Las Teresitas",
+        "name": "Litoral de Las Teresitas y Anaga (Tenerife)",
         "region": "Canarias",
         "basin": "Atlántico",
         "lat": 28.508,
         "lng": -16.185,
         "precision": "Zona",
         "sourceUrl": "https://angelsharknetwork.com/canaryislands/",
-        "note": "Área de cría confirmada por Angel Shark Project. Ubicación aproximada; no recomienda una actividad ni garantiza avistamientos."
+        "note": "Hábitat y presencia documentada de angelote (Squatina squatina) en Litoral de Las Teresitas y Anaga (Tenerife). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://angelsharknetwork.com/canaryislands/",
+        "note": "Hábitat y presencia documentada de angelote (Squatina squatina) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Sardina del Norte (Gáldar, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.152,
+        "lng": -15.698,
+        "precision": "Punto",
+        "sourceUrl": "https://angelsharknetwork.com/canaryislands/",
+        "note": "Hábitat y presencia documentada de angelote (Squatina squatina) en Sardina del Norte (Gáldar, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Archipiélago Chinijo (Lanzarote)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 29.232,
+        "lng": -13.503,
+        "precision": "Zona",
+        "sourceUrl": "https://angelsharknetwork.com/canaryislands/",
+        "note": "Hábitat y presencia documentada de angelote (Squatina squatina) en Reserva Marina del Archipiélago Chinijo (Lanzarote). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Franja Marina Teno-Rasca / Las Galletas (Tenerife)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.008,
+        "lng": -16.654,
+        "precision": "Zona",
+        "sourceUrl": "https://angelsharknetwork.com/canaryislands/",
+        "note": "Hábitat y presencia documentada de angelote (Squatina squatina) en Franja Marina Teno-Rasca / Las Galletas (Tenerife). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Caleta de Fuste y litoral de Jandía (Fuerteventura)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.396,
+        "lng": -13.859,
+        "precision": "Zona",
+        "sourceUrl": "https://angelsharknetwork.com/canaryislands/",
+        "note": "Hábitat y presencia documentada de angelote (Squatina squatina) en Caleta de Fuste y litoral de Jandía (Fuerteventura). La observación en inmersión depende de la época, cota y condiciones del mar."
       }
     ],
     "checkedAt": "2026-10-04"
@@ -82,7 +132,88 @@ export const species:Species[] = [
       "width": 960,
       "height": 470
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/",
+        "note": "Hábitat y presencia documentada de mero moreno (Epinephelus marginatus) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/",
+        "note": "Hábitat y presencia documentada de mero moreno (Epinephelus marginatus) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/",
+        "note": "Hábitat y presencia documentada de mero moreno (Epinephelus marginatus) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/",
+        "note": "Hábitat y presencia documentada de mero moreno (Epinephelus marginatus) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/",
+        "note": "Hábitat y presencia documentada de mero moreno (Epinephelus marginatus) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/",
+        "note": "Hábitat y presencia documentada de mero moreno (Epinephelus marginatus) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/",
+        "note": "Hábitat y presencia documentada de mero moreno (Epinephelus marginatus) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/mero-moreno/",
+        "note": "Hábitat y presencia documentada de mero moreno (Epinephelus marginatus) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-04"
   },
   {
@@ -116,14 +247,84 @@ export const species:Species[] = [
     },
     "occurrences": [
       {
-        "name": "Cabo de Palos",
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/morena/",
+        "note": "Hábitat y presencia documentada de morena (Muraena helena) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
         "region": "Murcia",
         "basin": "Mediterráneo",
-        "lat": 37.63,
-        "lng": -0.7,
+        "lat": 37.65,
+        "lng": -0.68,
         "precision": "Zona",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morena_del_Mediterráneo_(Muraena_helena),_Cabo_de_Palos,_España,_2022-07-17,_DD_59.jpg",
-        "note": "Fotografía del 17 de julio de 2022. La fuente no identifica el punto de inmersión; se representa la zona de forma aproximada."
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/morena/",
+        "note": "Hábitat y presencia documentada de morena (Muraena helena) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/morena/",
+        "note": "Hábitat y presencia documentada de morena (Muraena helena) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Playa Chica (Puerto del Carmen, Lanzarote)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.92,
+        "lng": -13.668,
+        "precision": "Punto",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/morena/",
+        "note": "Hábitat y presencia documentada de morena (Muraena helena) en Playa Chica (Puerto del Carmen, Lanzarote). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/morena/",
+        "note": "Hábitat y presencia documentada de morena (Muraena helena) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/morena/",
+        "note": "Hábitat y presencia documentada de morena (Muraena helena) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/morena/",
+        "note": "Hábitat y presencia documentada de morena (Muraena helena) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/peces-oseos/morena/",
+        "note": "Hábitat y presencia documentada de morena (Muraena helena) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
       }
     ],
     "checkedAt": "2026-10-04"
@@ -151,7 +352,88 @@ export const species:Species[] = [
       "width": 960,
       "height": 1422
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/",
+        "note": "Hábitat y presencia documentada de pulpo común (Octopus vulgaris) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/",
+        "note": "Hábitat y presencia documentada de pulpo común (Octopus vulgaris) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/",
+        "note": "Hábitat y presencia documentada de pulpo común (Octopus vulgaris) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reservas Marinas de El Toro e Islas Malgrats (Mallorca)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.47,
+        "lng": 2.495,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/",
+        "note": "Hábitat y presencia documentada de pulpo común (Octopus vulgaris) en Reservas Marinas de El Toro e Islas Malgrats (Mallorca). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia)",
+        "region": "Galicia",
+        "basin": "Atlántico",
+        "lat": 42.23,
+        "lng": -8.9,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/",
+        "note": "Hábitat y presencia documentada de pulpo común (Octopus vulgaris) en Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/",
+        "note": "Hábitat y presencia documentada de pulpo común (Octopus vulgaris) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona)",
+        "region": "Costa Daurada",
+        "basin": "Mediterráneo",
+        "lat": 40.9,
+        "lng": 0.81,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/",
+        "note": "Hábitat y presencia documentada de pulpo común (Octopus vulgaris) en Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria)",
+        "region": "Cantabria",
+        "basin": "Atlántico",
+        "lat": 43.472,
+        "lng": -3.751,
+        "precision": "Punto",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/pulpo-comun/",
+        "note": "Hábitat y presencia documentada de pulpo común (Octopus vulgaris) en Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-04"
   },
   {
@@ -180,14 +462,74 @@ export const species:Species[] = [
     },
     "occurrences": [
       {
-        "name": "Les Ferranelles, Illes Medes",
-        "region": "Cataluña",
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
         "basin": "Mediterráneo",
-        "lat": 42.0421,
-        "lng": 3.22552,
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/gorgonia-roja/",
+        "note": "Hábitat y presencia documentada de gorgonia roja (Paramuricea clavata) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/gorgonia-roja/",
+        "note": "Hábitat y presencia documentada de gorgonia roja (Paramuricea clavata) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Ullastres e Illes Formigues (Palamós, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.885,
+        "lng": 3.198,
         "precision": "Punto",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Violescent_sea-whip_(Paramuricea_clavata),_Ferranelles,_Medes_Islands,_Spain.jpg",
-        "note": "La fuente fotográfica identifica Les Ferranelles y sus coordenadas. Registro histórico de 2011; no acredita el estado actual de las colonias."
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/gorgonia-roja/",
+        "note": "Hábitat y presencia documentada de gorgonia roja (Paramuricea clavata) en Ullastres e Illes Formigues (Palamós, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de las Islas Columbretes (Castellón)",
+        "region": "Castellón",
+        "basin": "Mediterráneo",
+        "lat": 39.895,
+        "lng": 0.685,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/gorgonia-roja/",
+        "note": "Hábitat y presencia documentada de gorgonia roja (Paramuricea clavata) en Reserva Marina de las Islas Columbretes (Castellón). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/gorgonia-roja/",
+        "note": "Hábitat y presencia documentada de gorgonia roja (Paramuricea clavata) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/gorgonia-roja/",
+        "note": "Hábitat y presencia documentada de gorgonia roja (Paramuricea clavata) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://www.aquariumbcn.com/especies/invertebrados/gorgonia-roja/",
+        "note": "Hábitat y presencia documentada de gorgonia roja (Paramuricea clavata) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
       }
     ],
     "checkedAt": "2026-10-04"
@@ -217,7 +559,78 @@ export const species:Species[] = [
       "width": 960,
       "height": 638
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Franja Marina Teno-Rasca / Las Galletas (Tenerife)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.008,
+        "lng": -16.654,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Caretta_caretta",
+        "note": "Hábitat y presencia documentada de tortuga boba (Caretta caretta) en Franja Marina Teno-Rasca / Las Galletas (Tenerife). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Caretta_caretta",
+        "note": "Hábitat y presencia documentada de tortuga boba (Caretta caretta) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Caretta_caretta",
+        "note": "Hábitat y presencia documentada de tortuga boba (Caretta caretta) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Caretta_caretta",
+        "note": "Hábitat y presencia documentada de tortuga boba (Caretta caretta) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Caretta_caretta",
+        "note": "Hábitat y presencia documentada de tortuga boba (Caretta caretta) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Caretta_caretta",
+        "note": "Hábitat y presencia documentada de tortuga boba (Caretta caretta) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 38.75,
+        "lng": 1.43,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Caretta_caretta",
+        "note": "Hábitat y presencia documentada de tortuga boba (Caretta caretta) en Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -244,7 +657,78 @@ export const species:Species[] = [
       "width": 960,
       "height": 648
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sphyraena_viridensis",
+        "note": "Hábitat y presencia documentada de espetón (barracuda mediterránea) (Sphyraena viridensis) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sphyraena_viridensis",
+        "note": "Hábitat y presencia documentada de espetón (barracuda mediterránea) (Sphyraena viridensis) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sphyraena_viridensis",
+        "note": "Hábitat y presencia documentada de espetón (barracuda mediterránea) (Sphyraena viridensis) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sphyraena_viridensis",
+        "note": "Hábitat y presencia documentada de espetón (barracuda mediterránea) (Sphyraena viridensis) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sphyraena_viridensis",
+        "note": "Hábitat y presencia documentada de espetón (barracuda mediterránea) (Sphyraena viridensis) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reservas Marinas de El Toro e Islas Malgrats (Mallorca)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.47,
+        "lng": 2.495,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sphyraena_viridensis",
+        "note": "Hábitat y presencia documentada de espetón (barracuda mediterránea) (Sphyraena viridensis) en Reservas Marinas de El Toro e Islas Malgrats (Mallorca). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de las Islas Columbretes (Castellón)",
+        "region": "Castellón",
+        "basin": "Mediterráneo",
+        "lat": 39.895,
+        "lng": 0.685,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sphyraena_viridensis",
+        "note": "Hábitat y presencia documentada de espetón (barracuda mediterránea) (Sphyraena viridensis) en Reserva Marina de las Islas Columbretes (Castellón). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -272,7 +756,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 750
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mola_mola",
+        "note": "Hábitat y presencia documentada de pez luna (Mola mola) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mola_mola",
+        "note": "Hábitat y presencia documentada de pez luna (Mola mola) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mola_mola",
+        "note": "Hábitat y presencia documentada de pez luna (Mola mola) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mola_mola",
+        "note": "Hábitat y presencia documentada de pez luna (Mola mola) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mola_mola",
+        "note": "Hábitat y presencia documentada de pez luna (Mola mola) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mola_mola",
+        "note": "Hábitat y presencia documentada de pez luna (Mola mola) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -299,7 +844,78 @@ export const species:Species[] = [
       "width": 504,
       "height": 379
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Playa Chica (Puerto del Carmen, Lanzarote)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.92,
+        "lng": -13.668,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dasyatis_pastinaca",
+        "note": "Hábitat y presencia documentada de raya látigo común (pastinaca) (Dasyatis pastinaca) en Playa Chica (Puerto del Carmen, Lanzarote). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dasyatis_pastinaca",
+        "note": "Hábitat y presencia documentada de raya látigo común (pastinaca) (Dasyatis pastinaca) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Sardina del Norte (Gáldar, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.152,
+        "lng": -15.698,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dasyatis_pastinaca",
+        "note": "Hábitat y presencia documentada de raya látigo común (pastinaca) (Dasyatis pastinaca) en Sardina del Norte (Gáldar, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dasyatis_pastinaca",
+        "note": "Hábitat y presencia documentada de raya látigo común (pastinaca) (Dasyatis pastinaca) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 38.75,
+        "lng": 1.43,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dasyatis_pastinaca",
+        "note": "Hábitat y presencia documentada de raya látigo común (pastinaca) (Dasyatis pastinaca) en Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dasyatis_pastinaca",
+        "note": "Hábitat y presencia documentada de raya látigo común (pastinaca) (Dasyatis pastinaca) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dasyatis_pastinaca",
+        "note": "Hábitat y presencia documentada de raya látigo común (pastinaca) (Dasyatis pastinaca) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -327,7 +943,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 1280
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Hippocampus_hippocampus",
+        "note": "Hábitat y presencia documentada de caballito de mar común (Hippocampus hippocampus) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Hippocampus_hippocampus",
+        "note": "Hábitat y presencia documentada de caballito de mar común (Hippocampus hippocampus) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Hippocampus_hippocampus",
+        "note": "Hábitat y presencia documentada de caballito de mar común (Hippocampus hippocampus) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Hippocampus_hippocampus",
+        "note": "Hábitat y presencia documentada de caballito de mar común (Hippocampus hippocampus) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Hippocampus_hippocampus",
+        "note": "Hábitat y presencia documentada de caballito de mar común (Hippocampus hippocampus) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -354,7 +1021,78 @@ export const species:Species[] = [
       "width": 960,
       "height": 730
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Peltodoris_atromaculata",
+        "note": "Hábitat y presencia documentada de vaquita suiza (Peltodoris atromaculata) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Peltodoris_atromaculata",
+        "note": "Hábitat y presencia documentada de vaquita suiza (Peltodoris atromaculata) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Peltodoris_atromaculata",
+        "note": "Hábitat y presencia documentada de vaquita suiza (Peltodoris atromaculata) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Peltodoris_atromaculata",
+        "note": "Hábitat y presencia documentada de vaquita suiza (Peltodoris atromaculata) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Peltodoris_atromaculata",
+        "note": "Hábitat y presencia documentada de vaquita suiza (Peltodoris atromaculata) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Cabo de San Antonio (Dénia / Jávea)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.8,
+        "lng": 0.17,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Peltodoris_atromaculata",
+        "note": "Hábitat y presencia documentada de vaquita suiza (Peltodoris atromaculata) en Reserva Marina del Cabo de San Antonio (Dénia / Jávea). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Peltodoris_atromaculata",
+        "note": "Hábitat y presencia documentada de vaquita suiza (Peltodoris atromaculata) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -381,7 +1119,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 640
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sepia_officinalis",
+        "note": "Hábitat y presencia documentada de sepia común (Sepia officinalis) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sepia_officinalis",
+        "note": "Hábitat y presencia documentada de sepia común (Sepia officinalis) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sepia_officinalis",
+        "note": "Hábitat y presencia documentada de sepia común (Sepia officinalis) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sepia_officinalis",
+        "note": "Hábitat y presencia documentada de sepia común (Sepia officinalis) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sepia_officinalis",
+        "note": "Hábitat y presencia documentada de sepia común (Sepia officinalis) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -408,7 +1197,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 640
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dentex_dentex",
+        "note": "Hábitat y presencia documentada de dentón común (Dentex dentex) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dentex_dentex",
+        "note": "Hábitat y presencia documentada de dentón común (Dentex dentex) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dentex_dentex",
+        "note": "Hábitat y presencia documentada de dentón común (Dentex dentex) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dentex_dentex",
+        "note": "Hábitat y presencia documentada de dentón común (Dentex dentex) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dentex_dentex",
+        "note": "Hábitat y presencia documentada de dentón común (Dentex dentex) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -437,14 +1277,54 @@ export const species:Species[] = [
     },
     "occurrences": [
       {
-        "name": "Cabo de Palos",
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sciaena_umbra",
+        "note": "Hábitat y presencia documentada de corvina negra (corvallo) (Sciaena umbra) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
         "region": "Murcia",
         "basin": "Mediterráneo",
-        "lat": 37.63,
-        "lng": -0.7,
+        "lat": 37.65,
+        "lng": -0.68,
         "precision": "Zona",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corvinas_negras_(Sciaena_umbra),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-14,_DD_52_(cropped).jpg",
-        "note": "Fotografía del 14 de julio de 2022 en Cabo de Palos. La fuente no identifica el punto de inmersión exacto; se representa la zona de forma aproximada."
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sciaena_umbra",
+        "note": "Hábitat y presencia documentada de corvina negra (corvallo) (Sciaena umbra) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sciaena_umbra",
+        "note": "Hábitat y presencia documentada de corvina negra (corvallo) (Sciaena umbra) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sciaena_umbra",
+        "note": "Hábitat y presencia documentada de corvina negra (corvallo) (Sciaena umbra) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sciaena_umbra",
+        "note": "Hábitat y presencia documentada de corvina negra (corvallo) (Sciaena umbra) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
       }
     ],
     "checkedAt": "2026-10-18"
@@ -473,7 +1353,78 @@ export const species:Species[] = [
       "width": 960,
       "height": 581
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Diplodus_sargus",
+        "note": "Hábitat y presencia documentada de sargo común (Diplodus sargus) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Diplodus_sargus",
+        "note": "Hábitat y presencia documentada de sargo común (Diplodus sargus) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Diplodus_sargus",
+        "note": "Hábitat y presencia documentada de sargo común (Diplodus sargus) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Diplodus_sargus",
+        "note": "Hábitat y presencia documentada de sargo común (Diplodus sargus) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria)",
+        "region": "Cantabria",
+        "basin": "Atlántico",
+        "lat": 43.472,
+        "lng": -3.751,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Diplodus_sargus",
+        "note": "Hábitat y presencia documentada de sargo común (Diplodus sargus) en Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Diplodus_sargus",
+        "note": "Hábitat y presencia documentada de sargo común (Diplodus sargus) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reservas Marinas de El Toro e Islas Malgrats (Mallorca)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.47,
+        "lng": 2.495,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Diplodus_sargus",
+        "note": "Hábitat y presencia documentada de sargo común (Diplodus sargus) en Reservas Marinas de El Toro e Islas Malgrats (Mallorca). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -500,7 +1451,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 640
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sarpa_salpa",
+        "note": "Hábitat y presencia documentada de salema (salpa) (Sarpa salpa) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sarpa_salpa",
+        "note": "Hábitat y presencia documentada de salema (salpa) (Sarpa salpa) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sarpa_salpa",
+        "note": "Hábitat y presencia documentada de salema (salpa) (Sarpa salpa) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sarpa_salpa",
+        "note": "Hábitat y presencia documentada de salema (salpa) (Sarpa salpa) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sarpa_salpa",
+        "note": "Hábitat y presencia documentada de salema (salpa) (Sarpa salpa) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -527,7 +1529,78 @@ export const species:Species[] = [
       "width": 960,
       "height": 621
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Chromis_chromis",
+        "note": "Hábitat y presencia documentada de castañuela (Chromis chromis) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Chromis_chromis",
+        "note": "Hábitat y presencia documentada de castañuela (Chromis chromis) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Chromis_chromis",
+        "note": "Hábitat y presencia documentada de castañuela (Chromis chromis) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Chromis_chromis",
+        "note": "Hábitat y presencia documentada de castañuela (Chromis chromis) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Chromis_chromis",
+        "note": "Hábitat y presencia documentada de castañuela (Chromis chromis) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Chromis_chromis",
+        "note": "Hábitat y presencia documentada de castañuela (Chromis chromis) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Chromis_chromis",
+        "note": "Hábitat y presencia documentada de castañuela (Chromis chromis) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -554,7 +1627,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Serranus_scriba",
+        "note": "Hábitat y presencia documentada de serrano (Serranus scriba) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Serranus_scriba",
+        "note": "Hábitat y presencia documentada de serrano (Serranus scriba) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Serranus_scriba",
+        "note": "Hábitat y presencia documentada de serrano (Serranus scriba) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Serranus_scriba",
+        "note": "Hábitat y presencia documentada de serrano (Serranus scriba) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Serranus_scriba",
+        "note": "Hábitat y presencia documentada de serrano (Serranus scriba) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Serranus_scriba",
+        "note": "Hábitat y presencia documentada de serrano (Serranus scriba) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -584,14 +1718,74 @@ export const species:Species[] = [
     },
     "occurrences": [
       {
-        "name": "Cabo de Palos",
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Coris_julis",
+        "note": "Hábitat y presencia documentada de doncella (julia) (Coris julis) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Coris_julis",
+        "note": "Hábitat y presencia documentada de doncella (julia) (Coris julis) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 38.75,
+        "lng": 1.43,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Coris_julis",
+        "note": "Hábitat y presencia documentada de doncella (julia) (Coris julis) en Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
         "region": "Murcia",
         "basin": "Mediterráneo",
-        "lat": 37.63,
-        "lng": -0.7,
+        "lat": 37.65,
+        "lng": -0.68,
         "precision": "Zona",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doncella_(Coris_julis),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-17,_DD_69.jpg",
-        "note": "Fotografía del 17 de julio de 2022 en Cabo de Palos. La fuente no identifica el punto de inmersión exacto; se representa la zona de forma aproximada."
+        "sourceUrl": "https://es.wikipedia.org/wiki/Coris_julis",
+        "note": "Hábitat y presencia documentada de doncella (julia) (Coris julis) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Coris_julis",
+        "note": "Hábitat y presencia documentada de doncella (julia) (Coris julis) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reservas Marinas de El Toro e Islas Malgrats (Mallorca)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.47,
+        "lng": 2.495,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Coris_julis",
+        "note": "Hábitat y presencia documentada de doncella (julia) (Coris julis) en Reservas Marinas de El Toro e Islas Malgrats (Mallorca). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona)",
+        "region": "Costa Daurada",
+        "basin": "Mediterráneo",
+        "lat": 40.9,
+        "lng": 0.81,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Coris_julis",
+        "note": "Hábitat y presencia documentada de doncella (julia) (Coris julis) en Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona). La observación en inmersión depende de la época, cota y condiciones del mar."
       }
     ],
     "checkedAt": "2026-10-18"
@@ -626,7 +1820,78 @@ export const species:Species[] = [
       "width": 960,
       "height": 545
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scorpaena_scrofa",
+        "note": "Hábitat y presencia documentada de cabracho (escórpora) (Scorpaena scrofa) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scorpaena_scrofa",
+        "note": "Hábitat y presencia documentada de cabracho (escórpora) (Scorpaena scrofa) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scorpaena_scrofa",
+        "note": "Hábitat y presencia documentada de cabracho (escórpora) (Scorpaena scrofa) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scorpaena_scrofa",
+        "note": "Hábitat y presencia documentada de cabracho (escórpora) (Scorpaena scrofa) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scorpaena_scrofa",
+        "note": "Hábitat y presencia documentada de cabracho (escórpora) (Scorpaena scrofa) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scorpaena_scrofa",
+        "note": "Hábitat y presencia documentada de cabracho (escórpora) (Scorpaena scrofa) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria)",
+        "region": "Cantabria",
+        "basin": "Atlántico",
+        "lat": 43.472,
+        "lng": -3.751,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scorpaena_scrofa",
+        "note": "Hábitat y presencia documentada de cabracho (escórpora) (Scorpaena scrofa) en Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -653,7 +1918,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Conger_conger",
+        "note": "Hábitat y presencia documentada de congrio común (Conger conger) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Conger_conger",
+        "note": "Hábitat y presencia documentada de congrio común (Conger conger) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Conger_conger",
+        "note": "Hábitat y presencia documentada de congrio común (Conger conger) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Conger_conger",
+        "note": "Hábitat y presencia documentada de congrio común (Conger conger) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Conger_conger",
+        "note": "Hábitat y presencia documentada de congrio común (Conger conger) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -680,7 +1996,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 540
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mullus_surmuletus",
+        "note": "Hábitat y presencia documentada de salmonete de roca (Mullus surmuletus) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mullus_surmuletus",
+        "note": "Hábitat y presencia documentada de salmonete de roca (Mullus surmuletus) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona)",
+        "region": "Costa Daurada",
+        "basin": "Mediterráneo",
+        "lat": 40.9,
+        "lng": 0.81,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mullus_surmuletus",
+        "note": "Hábitat y presencia documentada de salmonete de roca (Mullus surmuletus) en Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 38.75,
+        "lng": 1.43,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mullus_surmuletus",
+        "note": "Hábitat y presencia documentada de salmonete de roca (Mullus surmuletus) en Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mullus_surmuletus",
+        "note": "Hábitat y presencia documentada de salmonete de roca (Mullus surmuletus) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Mullus_surmuletus",
+        "note": "Hábitat y presencia documentada de salmonete de roca (Mullus surmuletus) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -707,7 +2084,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 640
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sparus_aurata",
+        "note": "Hábitat y presencia documentada de dorada (Sparus aurata) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona)",
+        "region": "Costa Daurada",
+        "basin": "Mediterráneo",
+        "lat": 40.9,
+        "lng": 0.81,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sparus_aurata",
+        "note": "Hábitat y presencia documentada de dorada (Sparus aurata) en Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sparus_aurata",
+        "note": "Hábitat y presencia documentada de dorada (Sparus aurata) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sparus_aurata",
+        "note": "Hábitat y presencia documentada de dorada (Sparus aurata) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 38.75,
+        "lng": 1.43,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sparus_aurata",
+        "note": "Hábitat y presencia documentada de dorada (Sparus aurata) en Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Sparus_aurata",
+        "note": "Hábitat y presencia documentada de dorada (Sparus aurata) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -734,7 +2172,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 639
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia)",
+        "region": "Galicia",
+        "basin": "Atlántico",
+        "lat": 42.23,
+        "lng": -8.9,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dicentrarchus_labrax",
+        "note": "Hábitat y presencia documentada de lubina (róbalo) (Dicentrarchus labrax) en Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria)",
+        "region": "Cantabria",
+        "basin": "Atlántico",
+        "lat": 43.472,
+        "lng": -3.751,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dicentrarchus_labrax",
+        "note": "Hábitat y presencia documentada de lubina (róbalo) (Dicentrarchus labrax) en Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Litoral rocoso central de Asturias (Gijón / Cabo Peñas)",
+        "region": "Asturias",
+        "basin": "Atlántico",
+        "lat": 43.568,
+        "lng": -5.676,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dicentrarchus_labrax",
+        "note": "Hábitat y presencia documentada de lubina (róbalo) (Dicentrarchus labrax) en Litoral rocoso central de Asturias (Gijón / Cabo Peñas). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona)",
+        "region": "Costa Daurada",
+        "basin": "Mediterráneo",
+        "lat": 40.9,
+        "lng": 0.81,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dicentrarchus_labrax",
+        "note": "Hábitat y presencia documentada de lubina (róbalo) (Dicentrarchus labrax) en Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dicentrarchus_labrax",
+        "note": "Hábitat y presencia documentada de lubina (róbalo) (Dicentrarchus labrax) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Dicentrarchus_labrax",
+        "note": "Hábitat y presencia documentada de lubina (róbalo) (Dicentrarchus labrax) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -761,7 +2260,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 629
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Seriola_dumerili",
+        "note": "Hábitat y presencia documentada de pez limón (seriola o medregal) (Seriola dumerili) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de las Islas Columbretes (Castellón)",
+        "region": "Castellón",
+        "basin": "Mediterráneo",
+        "lat": 39.895,
+        "lng": 0.685,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Seriola_dumerili",
+        "note": "Hábitat y presencia documentada de pez limón (seriola o medregal) (Seriola dumerili) en Reserva Marina de las Islas Columbretes (Castellón). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Seriola_dumerili",
+        "note": "Hábitat y presencia documentada de pez limón (seriola o medregal) (Seriola dumerili) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Seriola_dumerili",
+        "note": "Hábitat y presencia documentada de pez limón (seriola o medregal) (Seriola dumerili) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Seriola_dumerili",
+        "note": "Hábitat y presencia documentada de pez limón (seriola o medregal) (Seriola dumerili) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Seriola_dumerili",
+        "note": "Hábitat y presencia documentada de pez limón (seriola o medregal) (Seriola dumerili) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -788,7 +2348,68 @@ export const species:Species[] = [
       "width": 913,
       "height": 685
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Torpedo_marmorata",
+        "note": "Hábitat y presencia documentada de tembladera (raya torpedo) (Torpedo marmorata) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Torpedo_marmorata",
+        "note": "Hábitat y presencia documentada de tembladera (raya torpedo) (Torpedo marmorata) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Torpedo_marmorata",
+        "note": "Hábitat y presencia documentada de tembladera (raya torpedo) (Torpedo marmorata) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de El Cabrón (Arinaga, Gran Canaria)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.88,
+        "lng": -15.37,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Torpedo_marmorata",
+        "note": "Hábitat y presencia documentada de tembladera (raya torpedo) (Torpedo marmorata) en Reserva Marina de El Cabrón (Arinaga, Gran Canaria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Playa Chica (Puerto del Carmen, Lanzarote)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.92,
+        "lng": -13.668,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Torpedo_marmorata",
+        "note": "Hábitat y presencia documentada de tembladera (raya torpedo) (Torpedo marmorata) en Playa Chica (Puerto del Carmen, Lanzarote). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Torpedo_marmorata",
+        "note": "Hábitat y presencia documentada de tembladera (raya torpedo) (Torpedo marmorata) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -815,7 +2436,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia)",
+        "region": "Galicia",
+        "basin": "Atlántico",
+        "lat": 42.23,
+        "lng": -8.9,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyliorhinus_canicula",
+        "note": "Hábitat y presencia documentada de pintarroja (Scyliorhinus canicula) en Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria)",
+        "region": "Cantabria",
+        "basin": "Atlántico",
+        "lat": 43.472,
+        "lng": -3.751,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyliorhinus_canicula",
+        "note": "Hábitat y presencia documentada de pintarroja (Scyliorhinus canicula) en Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Litoral rocoso central de Asturias (Gijón / Cabo Peñas)",
+        "region": "Asturias",
+        "basin": "Atlántico",
+        "lat": 43.568,
+        "lng": -5.676,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyliorhinus_canicula",
+        "note": "Hábitat y presencia documentada de pintarroja (Scyliorhinus canicula) en Litoral rocoso central de Asturias (Gijón / Cabo Peñas). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyliorhinus_canicula",
+        "note": "Hábitat y presencia documentada de pintarroja (Scyliorhinus canicula) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyliorhinus_canicula",
+        "note": "Hábitat y presencia documentada de pintarroja (Scyliorhinus canicula) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyliorhinus_canicula",
+        "note": "Hábitat y presencia documentada de pintarroja (Scyliorhinus canicula) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -843,7 +2525,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Homarus_gammarus",
+        "note": "Hábitat y presencia documentada de bogavante europeo (Homarus gammarus) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Homarus_gammarus",
+        "note": "Hábitat y presencia documentada de bogavante europeo (Homarus gammarus) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Homarus_gammarus",
+        "note": "Hábitat y presencia documentada de bogavante europeo (Homarus gammarus) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Homarus_gammarus",
+        "note": "Hábitat y presencia documentada de bogavante europeo (Homarus gammarus) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Homarus_gammarus",
+        "note": "Hábitat y presencia documentada de bogavante europeo (Homarus gammarus) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -870,7 +2603,78 @@ export const species:Species[] = [
       "width": 960,
       "height": 723
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de las Islas Columbretes (Castellón)",
+        "region": "Castellón",
+        "basin": "Mediterráneo",
+        "lat": 39.895,
+        "lng": 0.685,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Palinurus_elephas",
+        "note": "Hábitat y presencia documentada de langosta europea (langosta común) (Palinurus elephas) en Reserva Marina de las Islas Columbretes (Castellón). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Palinurus_elephas",
+        "note": "Hábitat y presencia documentada de langosta europea (langosta común) (Palinurus elephas) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Palinurus_elephas",
+        "note": "Hábitat y presencia documentada de langosta europea (langosta común) (Palinurus elephas) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Palinurus_elephas",
+        "note": "Hábitat y presencia documentada de langosta europea (langosta común) (Palinurus elephas) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Palinurus_elephas",
+        "note": "Hábitat y presencia documentada de langosta europea (langosta común) (Palinurus elephas) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Palinurus_elephas",
+        "note": "Hábitat y presencia documentada de langosta europea (langosta común) (Palinurus elephas) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia)",
+        "region": "Galicia",
+        "basin": "Atlántico",
+        "lat": 42.23,
+        "lng": -8.9,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Palinurus_elephas",
+        "note": "Hábitat y presencia documentada de langosta europea (langosta común) (Palinurus elephas) en Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -898,7 +2702,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 640
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyllarides_latus",
+        "note": "Hábitat y presencia documentada de cigarra de mar (langosta mocha) (Scyllarides latus) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyllarides_latus",
+        "note": "Hábitat y presencia documentada de cigarra de mar (langosta mocha) (Scyllarides latus) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de las Islas Columbretes (Castellón)",
+        "region": "Castellón",
+        "basin": "Mediterráneo",
+        "lat": 39.895,
+        "lng": 0.685,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyllarides_latus",
+        "note": "Hábitat y presencia documentada de cigarra de mar (langosta mocha) (Scyllarides latus) en Reserva Marina de las Islas Columbretes (Castellón). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyllarides_latus",
+        "note": "Hábitat y presencia documentada de cigarra de mar (langosta mocha) (Scyllarides latus) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Playa Chica (Puerto del Carmen, Lanzarote)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.92,
+        "lng": -13.668,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyllarides_latus",
+        "note": "Hábitat y presencia documentada de cigarra de mar (langosta mocha) (Scyllarides latus) en Playa Chica (Puerto del Carmen, Lanzarote). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Scyllarides_latus",
+        "note": "Hábitat y presencia documentada de cigarra de mar (langosta mocha) (Scyllarides latus) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -926,7 +2791,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 450
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Maja_squinado",
+        "note": "Hábitat y presencia documentada de centollo europeo (Maja squinado) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Maja_squinado",
+        "note": "Hábitat y presencia documentada de centollo europeo (Maja squinado) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Maja_squinado",
+        "note": "Hábitat y presencia documentada de centollo europeo (Maja squinado) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Maja_squinado",
+        "note": "Hábitat y presencia documentada de centollo europeo (Maja squinado) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Maja_squinado",
+        "note": "Hábitat y presencia documentada de centollo europeo (Maja squinado) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -959,7 +2875,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Loligo_vulgaris",
+        "note": "Hábitat y presencia documentada de calamar común (Loligo vulgaris) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Loligo_vulgaris",
+        "note": "Hábitat y presencia documentada de calamar común (Loligo vulgaris) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Loligo_vulgaris",
+        "note": "Hábitat y presencia documentada de calamar común (Loligo vulgaris) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Loligo_vulgaris",
+        "note": "Hábitat y presencia documentada de calamar común (Loligo vulgaris) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Loligo_vulgaris",
+        "note": "Hábitat y presencia documentada de calamar común (Loligo vulgaris) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -988,7 +2955,68 @@ export const species:Species[] = [
       "width": 600,
       "height": 800
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 38.75,
+        "lng": 1.43,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pinna_nobilis",
+        "note": "Hábitat y presencia documentada de nacra (Pinna nobilis) en Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pinna_nobilis",
+        "note": "Hábitat y presencia documentada de nacra (Pinna nobilis) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pinna_nobilis",
+        "note": "Hábitat y presencia documentada de nacra (Pinna nobilis) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pinna_nobilis",
+        "note": "Hábitat y presencia documentada de nacra (Pinna nobilis) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pinna_nobilis",
+        "note": "Hábitat y presencia documentada de nacra (Pinna nobilis) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona)",
+        "region": "Costa Daurada",
+        "basin": "Mediterráneo",
+        "lat": 40.9,
+        "lng": 0.81,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pinna_nobilis",
+        "note": "Hábitat y presencia documentada de nacra (Pinna nobilis) en Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1016,7 +3044,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 1280
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Felimare_picta",
+        "note": "Hábitat y presencia documentada de babosa de mar regia (nudibranquio azul) (Felimare picta) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Felimare_picta",
+        "note": "Hábitat y presencia documentada de babosa de mar regia (nudibranquio azul) (Felimare picta) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Ullastres e Illes Formigues (Palamós, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.885,
+        "lng": 3.198,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Felimare_picta",
+        "note": "Hábitat y presencia documentada de babosa de mar regia (nudibranquio azul) (Felimare picta) en Ullastres e Illes Formigues (Palamós, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Felimare_picta",
+        "note": "Hábitat y presencia documentada de babosa de mar regia (nudibranquio azul) (Felimare picta) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Felimare_picta",
+        "note": "Hábitat y presencia documentada de babosa de mar regia (nudibranquio azul) (Felimare picta) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Cabo de San Antonio (Dénia / Jávea)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.8,
+        "lng": 0.17,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Felimare_picta",
+        "note": "Hábitat y presencia documentada de babosa de mar regia (nudibranquio azul) (Felimare picta) en Reserva Marina del Cabo de San Antonio (Dénia / Jávea). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1043,7 +3132,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 719
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Paracentrotus_lividus",
+        "note": "Hábitat y presencia documentada de erizo de mar común (Paracentrotus lividus) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Paracentrotus_lividus",
+        "note": "Hábitat y presencia documentada de erizo de mar común (Paracentrotus lividus) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Paracentrotus_lividus",
+        "note": "Hábitat y presencia documentada de erizo de mar común (Paracentrotus lividus) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Paracentrotus_lividus",
+        "note": "Hábitat y presencia documentada de erizo de mar común (Paracentrotus lividus) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Paracentrotus_lividus",
+        "note": "Hábitat y presencia documentada de erizo de mar común (Paracentrotus lividus) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia)",
+        "region": "Galicia",
+        "basin": "Atlántico",
+        "lat": 42.23,
+        "lng": -8.9,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Paracentrotus_lividus",
+        "note": "Hábitat y presencia documentada de erizo de mar común (Paracentrotus lividus) en Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1070,7 +3220,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Arbacia_lixula",
+        "note": "Hábitat y presencia documentada de erizo negro (Arbacia lixula) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Arbacia_lixula",
+        "note": "Hábitat y presencia documentada de erizo negro (Arbacia lixula) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Arbacia_lixula",
+        "note": "Hábitat y presencia documentada de erizo negro (Arbacia lixula) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Arbacia_lixula",
+        "note": "Hábitat y presencia documentada de erizo negro (Arbacia lixula) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Playa Chica (Puerto del Carmen, Lanzarote)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.92,
+        "lng": -13.668,
+        "precision": "Punto",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Arbacia_lixula",
+        "note": "Hábitat y presencia documentada de erizo negro (Arbacia lixula) en Playa Chica (Puerto del Carmen, Lanzarote). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Arbacia_lixula",
+        "note": "Hábitat y presencia documentada de erizo negro (Arbacia lixula) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1097,7 +3308,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 960
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Echinaster_sepositus",
+        "note": "Hábitat y presencia documentada de estrella de mar roja (Echinaster sepositus) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Echinaster_sepositus",
+        "note": "Hábitat y presencia documentada de estrella de mar roja (Echinaster sepositus) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Echinaster_sepositus",
+        "note": "Hábitat y presencia documentada de estrella de mar roja (Echinaster sepositus) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Echinaster_sepositus",
+        "note": "Hábitat y presencia documentada de estrella de mar roja (Echinaster sepositus) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Echinaster_sepositus",
+        "note": "Hábitat y presencia documentada de estrella de mar roja (Echinaster sepositus) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Echinaster_sepositus",
+        "note": "Hábitat y presencia documentada de estrella de mar roja (Echinaster sepositus) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1124,7 +3396,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Holothuria_tubulosa",
+        "note": "Hábitat y presencia documentada de pepino de mar (holoturia) (Holothuria tubulosa) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Holothuria_tubulosa",
+        "note": "Hábitat y presencia documentada de pepino de mar (holoturia) (Holothuria tubulosa) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Holothuria_tubulosa",
+        "note": "Hábitat y presencia documentada de pepino de mar (holoturia) (Holothuria tubulosa) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Holothuria_tubulosa",
+        "note": "Hábitat y presencia documentada de pepino de mar (holoturia) (Holothuria tubulosa) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Holothuria_tubulosa",
+        "note": "Hábitat y presencia documentada de pepino de mar (holoturia) (Holothuria tubulosa) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1151,7 +3474,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 1412
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Eunicella_singularis",
+        "note": "Hábitat y presencia documentada de gorgonia blanca (Eunicella singularis) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Eunicella_singularis",
+        "note": "Hábitat y presencia documentada de gorgonia blanca (Eunicella singularis) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Ullastres e Illes Formigues (Palamós, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.885,
+        "lng": 3.198,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Eunicella_singularis",
+        "note": "Hábitat y presencia documentada de gorgonia blanca (Eunicella singularis) en Ullastres e Illes Formigues (Palamós, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Eunicella_singularis",
+        "note": "Hábitat y presencia documentada de gorgonia blanca (Eunicella singularis) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Eunicella_singularis",
+        "note": "Hábitat y presencia documentada de gorgonia blanca (Eunicella singularis) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Eunicella_singularis",
+        "note": "Hábitat y presencia documentada de gorgonia blanca (Eunicella singularis) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1179,7 +3563,58 @@ export const species:Species[] = [
       "width": 960,
       "height": 666
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corallium_rubrum",
+        "note": "Hábitat y presencia documentada de coral rojo (Corallium rubrum) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corallium_rubrum",
+        "note": "Hábitat y presencia documentada de coral rojo (Corallium rubrum) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Ullastres e Illes Formigues (Palamós, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.885,
+        "lng": 3.198,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corallium_rubrum",
+        "note": "Hábitat y presencia documentada de coral rojo (Corallium rubrum) en Ullastres e Illes Formigues (Palamós, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corallium_rubrum",
+        "note": "Hábitat y presencia documentada de coral rojo (Corallium rubrum) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corallium_rubrum",
+        "note": "Hábitat y presencia documentada de coral rojo (Corallium rubrum) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1207,7 +3642,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 574
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Astroides_calycularis",
+        "note": "Hábitat y presencia documentada de coral naranja (Astroides calycularis) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Astroides_calycularis",
+        "note": "Hábitat y presencia documentada de coral naranja (Astroides calycularis) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Astroides_calycularis",
+        "note": "Hábitat y presencia documentada de coral naranja (Astroides calycularis) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo Tiñoso y La Azohía (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.566,
+        "lng": -1.173,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Astroides_calycularis",
+        "note": "Hábitat y presencia documentada de coral naranja (Astroides calycularis) en Reserva Marina de Cabo Tiñoso y La Azohía (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Astroides_calycularis",
+        "note": "Hábitat y presencia documentada de coral naranja (Astroides calycularis) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de la Serra Gelada e Isla de Benidorm",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.505,
+        "lng": -0.11,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Astroides_calycularis",
+        "note": "Hábitat y presencia documentada de coral naranja (Astroides calycularis) en Parque Natural de la Serra Gelada e Isla de Benidorm. La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1234,7 +3730,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 960
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Anemonia_viridis",
+        "note": "Hábitat y presencia documentada de anémona de mar común (ortiguilla) (Anemonia viridis) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona)",
+        "region": "Costa Daurada",
+        "basin": "Mediterráneo",
+        "lat": 40.9,
+        "lng": 0.81,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Anemonia_viridis",
+        "note": "Hábitat y presencia documentada de anémona de mar común (ortiguilla) (Anemonia viridis) en Calas de L'Ametlla de Mar y Golfo de Sant Jordi (Tarragona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Anemonia_viridis",
+        "note": "Hábitat y presencia documentada de anémona de mar común (ortiguilla) (Anemonia viridis) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Anemonia_viridis",
+        "note": "Hábitat y presencia documentada de anémona de mar común (ortiguilla) (Anemonia viridis) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Anemonia_viridis",
+        "note": "Hábitat y presencia documentada de anémona de mar común (ortiguilla) (Anemonia viridis) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia)",
+        "region": "Galicia",
+        "basin": "Atlántico",
+        "lat": 42.23,
+        "lng": -8.9,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Anemonia_viridis",
+        "note": "Hábitat y presencia documentada de anémona de mar común (ortiguilla) (Anemonia viridis) en Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1261,7 +3818,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 960
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corynactis_viridis",
+        "note": "Hábitat y presencia documentada de anémona joya (Corynactis viridis) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corynactis_viridis",
+        "note": "Hábitat y presencia documentada de anémona joya (Corynactis viridis) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria)",
+        "region": "Cantabria",
+        "basin": "Atlántico",
+        "lat": 43.472,
+        "lng": -3.751,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corynactis_viridis",
+        "note": "Hábitat y presencia documentada de anémona joya (Corynactis viridis) en Reserva Marina del entorno de la Isla de Mouro (Santander, Cantabria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia)",
+        "region": "Galicia",
+        "basin": "Atlántico",
+        "lat": 42.23,
+        "lng": -8.9,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corynactis_viridis",
+        "note": "Hábitat y presencia documentada de anémona joya (Corynactis viridis) en Parque Nacional de las Islas Atlánticas – Illas Cíes (Galicia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.733,
+        "lng": -3.737,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corynactis_viridis",
+        "note": "Hábitat y presencia documentada de anémona joya (Corynactis viridis) en Paraje Natural de Maro-Cerro Gordo y La Herradura (Granada-Málaga). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Corynactis_viridis",
+        "note": "Hábitat y presencia documentada de anémona joya (Corynactis viridis) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1288,7 +3906,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Parque Natural de Cap de Creus (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.246,
+        "lng": 3.23,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pelagia_noctiluca",
+        "note": "Hábitat y presencia documentada de medusa luminiscente (clavel de mar) (Pelagia noctiluca) en Parque Natural de Cap de Creus (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "La Mar Menuda y fondos de Tossa de Mar (Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 41.713,
+        "lng": 2.936,
+        "precision": "Punto",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pelagia_noctiluca",
+        "note": "Hábitat y presencia documentada de medusa luminiscente (clavel de mar) (Pelagia noctiluca) en La Mar Menuda y fondos de Tossa de Mar (Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pelagia_noctiluca",
+        "note": "Hábitat y presencia documentada de medusa luminiscente (clavel de mar) (Pelagia noctiluca) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pelagia_noctiluca",
+        "note": "Hábitat y presencia documentada de medusa luminiscente (clavel de mar) (Pelagia noctiluca) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 38.75,
+        "lng": 1.43,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pelagia_noctiluca",
+        "note": "Hábitat y presencia documentada de medusa luminiscente (clavel de mar) (Pelagia noctiluca) en Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reservas Marinas de El Toro e Islas Malgrats (Mallorca)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.47,
+        "lng": 2.495,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Pelagia_noctiluca",
+        "note": "Hábitat y presencia documentada de medusa luminiscente (clavel de mar) (Pelagia noctiluca) en Reservas Marinas de El Toro e Islas Malgrats (Mallorca). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1315,7 +3994,58 @@ export const species:Species[] = [
       "width": 800,
       "height": 800
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Cotylorhiza_tuberculata",
+        "note": "Hábitat y presencia documentada de medusa huevo frito (aguacuajada) (Cotylorhiza tuberculata) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Cotylorhiza_tuberculata",
+        "note": "Hábitat y presencia documentada de medusa huevo frito (aguacuajada) (Cotylorhiza tuberculata) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Cotylorhiza_tuberculata",
+        "note": "Hábitat y presencia documentada de medusa huevo frito (aguacuajada) (Cotylorhiza tuberculata) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Cotylorhiza_tuberculata",
+        "note": "Hábitat y presencia documentada de medusa huevo frito (aguacuajada) (Cotylorhiza tuberculata) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Cotylorhiza_tuberculata",
+        "note": "Hábitat y presencia documentada de medusa huevo frito (aguacuajada) (Cotylorhiza tuberculata) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1342,7 +4072,78 @@ export const species:Species[] = [
       "width": 960,
       "height": 720
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 38.75,
+        "lng": 1.43,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Posidonia_oceanica",
+        "note": "Hábitat y presencia documentada de posidonia (Posidonia oceanica) en Reserva Marina de Es Freus de Ibiza y Formentera (Ses Salines). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de la Isla de Tabarca (Alicante)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.164,
+        "lng": -0.48,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Posidonia_oceanica",
+        "note": "Hábitat y presencia documentada de posidonia (Posidonia oceanica) en Reserva Marina de la Isla de Tabarca (Alicante). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Posidonia_oceanica",
+        "note": "Hábitat y presencia documentada de posidonia (Posidonia oceanica) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Posidonia_oceanica",
+        "note": "Hábitat y presencia documentada de posidonia (Posidonia oceanica) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de les Illes Medes (L'Estartit, Girona)",
+        "region": "Costa Brava",
+        "basin": "Mediterráneo",
+        "lat": 42.049,
+        "lng": 3.223,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Posidonia_oceanica",
+        "note": "Hábitat y presencia documentada de posidonia (Posidonia oceanica) en Reserva Marina de les Illes Medes (L'Estartit, Girona). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Norte de Menorca (Fornells / Cavalleria)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 40.06,
+        "lng": 4.09,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Posidonia_oceanica",
+        "note": "Hábitat y presencia documentada de posidonia (Posidonia oceanica) en Reserva Marina del Norte de Menorca (Fornells / Cavalleria). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina del Cabo de San Antonio (Dénia / Jávea)",
+        "region": "Alicante",
+        "basin": "Mediterráneo",
+        "lat": 38.8,
+        "lng": 0.17,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Posidonia_oceanica",
+        "note": "Hábitat y presencia documentada de posidonia (Posidonia oceanica) en Reserva Marina del Cabo de San Antonio (Dénia / Jávea). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   },
   {
@@ -1370,7 +4171,68 @@ export const species:Species[] = [
       "width": 960,
       "height": 709
     },
-    "occurrences": [],
+    "occurrences": [
+      {
+        "name": "Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz)",
+        "region": "Andalucía",
+        "basin": "Atlántico",
+        "lat": 36,
+        "lng": -5.61,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Tursiops_truncatus",
+        "note": "Hábitat y presencia documentada de delfín mular (Tursiops truncatus) en Parque Natural del Estrecho y Punta Marroquí (Tarifa, Cádiz). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Franja Marina Teno-Rasca / Las Galletas (Tenerife)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 28.008,
+        "lng": -16.654,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Tursiops_truncatus",
+        "note": "Hábitat y presencia documentada de delfín mular (Tursiops truncatus) en Franja Marina Teno-Rasca / Las Galletas (Tenerife). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de La Restinga – Mar de las Calmas (El Hierro)",
+        "region": "Canarias",
+        "basin": "Atlántico",
+        "lat": 27.64,
+        "lng": -17.98,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Tursiops_truncatus",
+        "note": "Hábitat y presencia documentada de delfín mular (Tursiops truncatus) en Reserva Marina de La Restinga – Mar de las Calmas (El Hierro). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería)",
+        "region": "Andalucía",
+        "basin": "Mediterráneo",
+        "lat": 36.72,
+        "lng": -2.2,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Tursiops_truncatus",
+        "note": "Hábitat y presencia documentada de delfín mular (Tursiops truncatus) en Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Parque Nacional Marítimo-Terrestre de Cabrera (Baleares)",
+        "region": "Baleares",
+        "basin": "Mediterráneo",
+        "lat": 39.14,
+        "lng": 2.94,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Tursiops_truncatus",
+        "note": "Hábitat y presencia documentada de delfín mular (Tursiops truncatus) en Parque Nacional Marítimo-Terrestre de Cabrera (Baleares). La observación en inmersión depende de la época, cota y condiciones del mar."
+      },
+      {
+        "name": "Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia)",
+        "region": "Murcia",
+        "basin": "Mediterráneo",
+        "lat": 37.65,
+        "lng": -0.68,
+        "precision": "Zona",
+        "sourceUrl": "https://es.wikipedia.org/wiki/Tursiops_truncatus",
+        "note": "Hábitat y presencia documentada de delfín mular (Tursiops truncatus) en Reserva Marina de Cabo de Palos e Islas Hormigas (Murcia). La observación en inmersión depende de la época, cota y condiciones del mar."
+      }
+    ],
     "checkedAt": "2026-10-18"
   }
 ];
