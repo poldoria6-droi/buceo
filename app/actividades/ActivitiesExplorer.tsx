@@ -4,7 +4,7 @@ import { species } from "@/data/species";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
-import { useDeferredValue, useMemo, useState, useTransition } from "react";
+import { useMemo, useState, useTransition } from "react";
 import { useSearchParams } from "next/navigation";
 import type { DiveSite } from "@/data/dive-sites";
 import { communityFor, destinationsFor } from "@/lib/activity-filters";
@@ -32,7 +32,6 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
   const initSite = searchParams.get("site") || initial.site || "Todos";
   const initLevel = searchParams.get("level") || initial.level || "Todos";
   const initSpecies = searchParams.get("species") || initial.species;
-  const initQuery = searchParams.get("q") || "";
 
   const speciesWithPoints = useMemo(() => species.filter((s) => s.occurrences.length > 0), []);
   const totalSpeciesOccurrences = useMemo(
@@ -43,8 +42,6 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
   const [speciesSlug, setSpeciesSlug] = useState(initSpecies || "all");
   const selectedSpecies = speciesSlug === "all" ? undefined : species.find((s) => s.slug === speciesSlug);
 
-  const [query, setQuery] = useState(initQuery);
-  const deferredQuery = useDeferredValue(query);
   const [type, setType] = useState(initType);
   const [region, setRegion] = useState(communityFor(initRegion));
   const [destination, setDestination] = useState(() =>
@@ -62,22 +59,18 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
   );
   const visibleTypes = types.filter((t) => t !== "Fauna");
 
-  const filtered = useMemo(() => {
-    const q = deferredQuery.trim().toLowerCase();
-    return activities.filter(
-      (a) =>
-        (type === "Todos" || a.type === type) &&
-        (region === "Todos" || communityFor(a.region) === region) &&
-        (destination === "Todos" || a.destination === destination) &&
-        (siteSlug === "Todos" || a.siteSlugs.includes(siteSlug)) &&
-        (level === "Todos" || a.level === level) &&
-        (!q ||
-          a.title.toLowerCase().includes(q) ||
-          a.destination.toLowerCase().includes(q) ||
-          a.region.toLowerCase().includes(q) ||
-          (centerByActivity[a.slug]?.name.toLowerCase().includes(q) ?? false))
-    );
-  }, [activities, type, region, destination, siteSlug, level, deferredQuery, centerByActivity]);
+  const filtered = useMemo(
+    () =>
+      activities.filter(
+        (a) =>
+          (type === "Todos" || a.type === type) &&
+          (region === "Todos" || communityFor(a.region) === region) &&
+          (destination === "Todos" || a.destination === destination) &&
+          (siteSlug === "Todos" || a.siteSlugs.includes(siteSlug)) &&
+          (level === "Todos" || a.level === level)
+      ),
+    [activities, type, region, destination, siteSlug, level]
+  );
 
   const visibleItems = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const filteredIds = useMemo(() => new Set(filtered.flatMap((a) => a.siteSlugs)), [filtered]);
@@ -91,7 +84,6 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
   };
 
   const clear = () => {
-    setQuery("");
     updateFilter(() => {
       setType("Todos");
       setRegion("Todos");
@@ -112,24 +104,6 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
           <button type="button" className="reset-button" onClick={clear}>
             Restablecer filtros
           </button>
-        </div>
-        <div className="search-box" style={{ marginBottom: "10px" }}>
-          <span aria-hidden="true">⌕</span>
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => {
-              setQuery(e.target.value);
-              setVisibleCount(PAGE_SIZE);
-            }}
-            placeholder="Buscar por ciudad, isla, curso o escuela (ej. Tenerife, Barcelona, Open Water, Pecio...)"
-            aria-label="Buscar actividades de buceo"
-          />
-          {query && (
-            <button type="button" className="reset-button" onClick={() => setQuery("")}>
-              Limpiar
-            </button>
-          )}
         </div>
         <div className="activities-filter-grid">
           <label>
