@@ -66,7 +66,7 @@ export default function ActivitiesPage() {
           <div>
             <h2>¿Buscas un centro o escuela en concreto?</h2>
             <p>
-              Consulta nuestro directorio con más de 170 escuelas de buceo en España y accede a todas sus actividades y cursos.
+              Consulta nuestro directorio con más de 210 escuelas de buceo en España y accede a todas sus actividades y cursos.
             </p>
             <Link href="/centros" className="button button-primary">
               Ver directorio de escuelas

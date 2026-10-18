@@ -1,3 +1,4 @@
+import { yumpingBatch20261018 } from "./yumping-batch-20261018";
 import { yumpingBulk } from "./yumping-bulk-20261001";
 import { yumpingBatch5 } from "./yumping-batch-5";
 import { yumpingBatch4 } from "./yumping-batch-4";
@@ -6,7 +7,7 @@ import { yumpingBatch2 } from "./yumping-batch-2";
 import type { Activity, BookingOffer } from "./types";
 export type { Activity, BookingOffer } from "./types";
 
-export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBatch4,...yumpingBatch3,...yumpingBatch2,
+export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBatch4,...yumpingBatch3,...yumpingBatch2,...yumpingBatch20261018,
   {
     id:101,siteSlugs:["malgrats"],
     title:"Bautismo de buceo en Mallorca",

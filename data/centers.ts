@@ -30,15 +30,19 @@ export const centers: DiveCenter[] = [
     "description": "7 Mares Las Canteras figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "las-canteras"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/7-mares-las-canteras--e5224",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-padi-open-water-diver-gran-canaria--o22547",
       "https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautismo-de-buceo-las-palmas-de-gran-canaria--o22442",
-      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advance-open-water-diver-gran-canaria--o22549"
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advance-open-water-diver-gran-canaria--o22549",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/doble-inmersion-de-buceo-las-palmas-gran-canaria--o55132"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -50,13 +54,20 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Abysub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Fun Dive",
+      "Curso"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/abysub--e19675603",
-      "https://www.yumping.com/ofertas/buceo/malaga/bautizo-de-buceo-mar-desde-playa-fuengirola--o27182"
+      "https://www.yumping.com/ofertas/buceo/malaga/bautizo-de-buceo-mar-desde-playa-fuengirola--o27182",
+      "https://www.yumping.com/ofertas/buceo/malaga/2-inmersiones-buceadores-certificados-fuengirola--o20735",
+      "https://www.yumping.com/ofertas/buceo/malaga/padi-rescue-diver-en-fuengirola--o27275",
+      "https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-fuengirola--o27276",
+      "https://www.yumping.com/ofertas/buceo/malaga/curso-padi-open-water-en-fuengirola--o27192",
+      "https://www.yumping.com/ofertas/buceo/malaga/curso-padi-advanced-open-water-en-fuengirola--o27193"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -68,15 +79,27 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Active Scuba Divers Lanzarote figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "costa-teguise"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/active-scuba-divers-lanzarote--e6456",
       "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-adventure-diver-en-lanzarote--o46770",
       "https://www.yumping.com/ofertas/buceo/lanzarote/curso-ssi-open-water-diver-en-lanzarote--o46769",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-seal-team-en-lanzarote--o46764"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-seal-team-en-lanzarote--o46764",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-el-mar-en-lanzarote-2-horas--o46762",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/scuba-diving-en-lanzarote-de-4-horas--o46763",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-certificado-de-scuba-diver-en-lanzarote--o46768",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-avanzado-buceo-open-water-en-costa-teguise--o46782",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceador-de-rescate-curso-ssi-en-teguise--o46783",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-primeros-auxilios-de-buceo-en-lanzarote--o46784",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-ssi-de-oxygen-provider-en-lanzarote--o46786",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-y-museo-atlantico-en-lanzarote--o53109"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -130,16 +153,68 @@ export const centers: DiveCenter[] = [
     "description": "Alisios Sub Lanzarote figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Curso",
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "tias-lanzarote"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/alisios-sub-lanzarote--e19695222",
       "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o19796",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/advanced-open-water-diver-en-tias--o19793"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/advanced-open-water-diver-en-tias--o19793",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-buceo-en-el-museo-atlantico-lanzarote--o51133",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-tias-lanzarote--o19777",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-iniciacion-al-buceo-en-lanzarote-owd--o19785"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "all-blue-diving-19864531",
+    "slug": "all-blue-diving-19864531",
+    "name": "All Blue Diving",
+    "location": "Cambrils",
+    "region": "Cataluña",
+    "description": "All Blue Diving es el centro organizador de las actividades de buceo vinculadas a esta ficha en Cambrils (Cataluña). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Snorkel"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/all-blue-diving--e19864531",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-mar-con-fotos-en-cambrils-2-horas--o90039",
+      "https://www.yumping.com/ofertas/buceo/tarragona/snorkelling-en-playa-del-cavet-1h30min--o90040"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "almunecar-dive-center-3665",
+    "slug": "almunecar-dive-center-3665",
+    "name": "Almuñecar Dive Center",
+    "location": "Almuñécar",
+    "region": "Andalucía",
+    "description": "Almuñecar Dive Center es el centro organizador de las actividades de buceo vinculadas a esta ficha en Almuñécar (Andalucía). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso",
+      "Fun Dive",
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/almunecar-dive-center--e3665",
+      "https://www.yumping.com/ofertas/buceo/granada/padi-open-water-diver-en-almunecar-4-dias--o29750",
+      "https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-en-almunecar-2-dias--o29755",
+      "https://www.yumping.com/ofertas/buceo/granada/curso-de-padi-scuba-diver-en-almunecar-2-dias--o29775",
+      "https://www.yumping.com/ofertas/buceo/granada/curso-rescue-diver-en-almunecar-2-dias--o29778",
+      "https://www.yumping.com/ofertas/buceo/granada/curso-teorico-de-nitrox-en-almunecar-1-dia--o29786",
+      "https://www.yumping.com/ofertas/buceo/granada/inmersion-con-equipo-en-almunecar--o29840",
+      "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-almunecar-granada--o29841"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "alpha-buceo-gijon-19776780",
@@ -149,13 +224,17 @@ export const centers: DiveCenter[] = [
     "region": "Asturias",
     "description": "Alpha Buceo Gijón figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "gijon-musel"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/es-MX/buceo/alpha-buceo-gijon--e19776780",
-      "https://www.yumping.com/es-MX/ofertas/buceo/asturias/bautismo-de-buceo-desde-barco-en-gijon--o57409"
+      "https://www.yumping.com/es-MX/ofertas/buceo/asturias/bautismo-de-buceo-desde-barco-en-gijon--o57409",
+      "https://www.yumping.com/ofertas/buceo/asturias/curso-de-buceo-fedas-cmas-1-estrella-b1e-gijon--o57623"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -167,13 +246,17 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Amarilla Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "los-abrigos"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/amarilla-divers--e19705755",
-      "https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-en-tenerife-buceadores-titulados--o53263"
+      "https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-en-tenerife-buceadores-titulados--o53263",
+      "https://www.yumping.com/ofertas/buceo/tenerife/padi-discover-scuba-diver-en-tenerife-4-horas--o37536"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -204,17 +287,43 @@ export const centers: DiveCenter[] = [
     "description": "Anemone Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "illes-formigues"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/anemone-diving-center--e19728090",
       "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-palamos-desde-playa--o56240",
       "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-desde-barco-en-palamos--o56241",
-      "https://www.yumping.com/ofertas/buceo/girona/padi-open-water-diver-en-palamos--o56242"
+      "https://www.yumping.com/ofertas/buceo/girona/padi-open-water-diver-en-palamos--o56242",
+      "https://www.yumping.com/ofertas/buceo/girona/salida-en-barco-para-bucear-en-la-costa-brava--o59517"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "aquarium-lanzarote-19756120",
+    "slug": "aquarium-lanzarote-19756120",
+    "name": "Aquarium Lanzarote",
+    "location": "Costa Teguise",
+    "region": "Canarias",
+    "description": "Aquarium Lanzarote es el centro organizador de las actividades de buceo vinculadas a esta ficha en Costa Teguise (Canarias). Su catálogo en Buceo Atlas incluye Fauna. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Fauna"
+    ],
+    "siteSlugs": [
+      "costa-teguise"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/parques-tematicos/aquarium-lanzarote--e19756120",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-con-tiburones-en-acuario-en-lanzarote--o66518",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-con-tiburones-en-mar-en-la-costa-de-teguise--o66520",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-con-tiburones-con-licencia-en-costa-teguise--o66519"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "arenal-diving-997",
@@ -241,6 +350,24 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/ibiza/padi-scuba-diver-sant-antoni-de-portmany-ibiza--o30034"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "arvalis-5845",
+    "slug": "arvalis-5845",
+    "name": "Arvalis",
+    "location": "Valladolid",
+    "region": "Castilla y León",
+    "description": "Arvalis es el centro organizador de las actividades de buceo vinculadas a esta ficha en Valladolid (Castilla y León). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/arvalis--e5845",
+      "https://www.yumping.com/ofertas/buceo/valladolid/bautismo-de-buceo-en-piscina-en-valladolid-sabados--o54790"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "asdon-aventura-madrid-19701987",
@@ -271,14 +398,40 @@ export const centers: DiveCenter[] = [
     "description": "Atlantis Diving Lanzarote figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Curso",
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo",
+      "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "puerto-del-carmen"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/atlantis-diving-lanzarote--e19705315",
       "https://www.yumping.com/ofertas/buceo/lanzarote/curso-scuba-diver-ssi-en-lanzarote--o47174",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote-desde-barco--o53013"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote-desde-barco--o53013",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-costa-de-puerto-del-carmen--o22374",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-react-right-ssi-en-lanzarote--o47175",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-stress-and-rescue-ssi--o47176",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-open-water-5-noches-de-alojamiento--o47177",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-advanced-ssi-5-noches-en-lanzarote--o47178",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bucear-por-el-museo-acuatico-de-lanzarote--o47306",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-speciality-diver-alojamiento-en-lanzarote--o47358",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-y-ruta-paddle-surf-playa-chica--o47360",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-avanzado-de-buceo-lanzarote-5-inmersiones--o46745",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/iniciacion-al-buceo-en-lanzarote-de-2-horas--o46746",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-para-parejas-en-san-valentin--o46874",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/instructor-de-buceo-ssi-curso-en-lanzarote--o47168",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-instructor-crossover-ssi-en-canarias--o47169",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-instructor-divemaster-ssi-en-las-palmas--o47170",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-dive-control-specialist-ssi-en-lanzarote--o47171",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/guia-de-buceo-ssi-non-pro-curso-en-lanzarote--o47172",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-open-water-ssi-en-lanzarote--o47173",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/try-scuba-diving-puerto-del-carmen-2-inmersiones--o22377",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-en-puerto-del-carmen-desde-embarcacion--o22592",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-de-apnea-freediving-en-lanzarote--o22593",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-en-el-museo-atlantico-de-lanzarote--o22594",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-y-ruta-en-paddle-surf-en-playa-chica-3h30m--o24062"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -312,9 +465,12 @@ export const centers: DiveCenter[] = [
     "services": [
       "Bautismo",
       "Curso",
-      "Snorkel"
+      "Snorkel",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "cabo-palos-reserva"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/balkysub--e2134",
@@ -322,7 +478,9 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-padi-en-la-manga-del-mar-menor--o35110",
       "https://www.yumping.com/ofertas/buceo/murcia/snorkel-en-la-manga-discover-snorkeling-experience--o35112",
       "https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-open-water-diver-en-la-manga--o35125",
-      "https://www.yumping.com/ofertas/buceo/murcia/curso-advanced-open-water-padi-en-la-manga--o35127"
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-advanced-open-water-padi-en-la-manga--o35127",
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-open-water-diver-padi-la-manga--o17369",
+      "https://www.yumping.com/ofertas/buceo/murcia/inmersion-de-buceo-con-equipo-completo-isla-grosa--o30795"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -343,7 +501,9 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/deportes-acuaticos/barracuda--e9404",
       "https://www.yumping.com/ofertas/buceo/castellon/acuc-open-water-diver-en-alcoceber-castellon--o29231",
       "https://www.yumping.com/ofertas/buceo/castellon/bautizo-de-buceo-piscina-y-mar-alcoceber--o29548",
-      "https://www.yumping.com/ofertas/buceo/castellon/acuc-advanced-open-water-en-alcoceber-castellon--o29232"
+      "https://www.yumping.com/ofertas/buceo/castellon/acuc-advanced-open-water-en-alcoceber-castellon--o29232",
+      "https://www.yumping.com/ofertas/buceo/castellon/acuc-rescue-diver-en-alcoceber-castellon--o29235",
+      "https://www.yumping.com/ofertas/buceo/castellon/acuc-divemaster-en-alcoceber-castellon--o29241"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -369,6 +529,26 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "binibeca-diving-19733245",
+    "slug": "binibeca-diving-19733245",
+    "name": "Binibeca Diving",
+    "location": "Sant Lluís",
+    "region": "Baleares",
+    "description": "Binibeca Diving es el centro organizador de las actividades de buceo vinculadas a esta ficha en Sant Lluís (Baleares). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Snorkel"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/binibeca-diving--e19733245",
+      "https://www.yumping.com/ofertas/buceo/menorca/discover-scuba-diving-en-menorca-playa-de-binibeca--o42831",
+      "https://www.yumping.com/ofertas/buceo/menorca/tour-de-snorkel-por-la-isla-del-aire-1-hora-30-min--o42832"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "black-frog-divers-19716651",
     "slug": "black-frog-divers-19716651",
     "name": "Black Frog Divers",
@@ -377,7 +557,8 @@ export const centers: DiveCenter[] = [
     "description": "Black Frog Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Curso",
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
@@ -385,7 +566,8 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/buceo/black-frog-divers--e19716651",
       "https://www.yumping.com/ofertas/buceo/malaga/inmersion-de-buceo-en-la-costa-de-malaga--o34709",
       "https://www.yumping.com/ofertas/buceo/malaga/curso-padi-open-water-desde-torrox--o30602",
-      "https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-torrox--o30586"
+      "https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-torrox--o30586",
+      "https://www.yumping.com/ofertas/buceo/malaga/discover-scuba-diving-desde-playa-en-torrox-3-h--o30562"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -400,12 +582,15 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "playa-paraiso"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/blackstone-dive-center--e19723727",
       "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-para-iniciados-en-tenerife--o41742",
-      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732"
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-tenerife-de-45-minutos--o41732",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-para-principiantes-en-tenerife--o41741"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -432,6 +617,38 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "blue-dive-menorca-19742546",
+    "slug": "blue-dive-menorca-19742546",
+    "name": "Blue Dive Menorca",
+    "location": "Puerto de Addaya",
+    "region": "Baleares",
+    "description": "Blue Dive Menorca es el centro organizador de las actividades de buceo vinculadas a esta ficha en Puerto de Addaya (Baleares). Su catálogo en Buceo Atlas incluye Fun Dive. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Fun Dive",
+      "Snorkel",
+      "Bautismo",
+      "Curso"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/blue-dive-menorca--e19742546",
+      "https://www.yumping.com/ofertas/buceo/menorca/inmersion-en-la-reserva-marina-para-titulados--o57454",
+      "https://www.yumping.com/ofertas/buceo/menorca/safari-submarino-con-snorkel-en-puerto-addaya-2h--o57455",
+      "https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-a-la-reserva-marina-de-menorca--o57457",
+      "https://www.yumping.com/ofertas/buceo/menorca/curso-padi-scuba-diver-en-addaia-1-dia--o57458",
+      "https://www.yumping.com/ofertas/buceo/menorca/padi-open-water-en-puerto-addaya-2-dias--o57459",
+      "https://www.yumping.com/ofertas/buceo/menorca/padi-advanced-open-water-diver-en-addaia-3-dias--o57460",
+      "https://www.yumping.com/ofertas/buceo/menorca/padi-emergency-first-response-puerto-addaia--o57461",
+      "https://www.yumping.com/ofertas/buceo/menorca/curso-de-buceo-padi-rescue-diver-en-addaia-menorca--o57462",
+      "https://www.yumping.com/ofertas/buceo/menorca/padi-divemaster-en-puerto-addaya-20-dias--o57463",
+      "https://www.yumping.com/ofertas/buceo/menorca/padi-efr-instructor-puerto-addaia-4-dias--o57464",
+      "https://www.yumping.com/ofertas/buceo/menorca/padi-assistant-instructor-en-puerto-addaia-4-dias--o57465",
+      "https://www.yumping.com/ofertas/buceo/menorca/curso-instructor-padi-en-menorca--o57466"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "blue-water-diving-19725514",
     "slug": "blue-water-diving-19725514",
     "name": "Blue Water Diving",
@@ -440,9 +657,12 @@ export const centers: DiveCenter[] = [
     "description": "Blue Water Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "las-canteras"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/es-MX/buceo/blue-water-diving--e19725514",
@@ -450,7 +670,9 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/gran-canaria/padi-discover-scuba-diving-en-playa-puerto-rico--o29435",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-padi-advanced-open-water--o38739",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-padi-rescate-y-primeros-auxilios--o38740",
-      "https://www.yumping.com/ofertas/buceo/gran-canaria/padi-open-water-en-las-palmas-3-dias--o38735"
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/padi-open-water-en-las-palmas-3-dias--o38735",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-padi-scuba-diver--o38743",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-de-buceo-en-gran-canaria-4-horas--o38745"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -462,13 +684,17 @@ export const centers: DiveCenter[] = [
     "region": "Baleares",
     "description": "Bluewater Menorca figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "costa-ciudadela"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/bluewater-menorca--e19776741",
-      "https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-en-cala-galdana-2h-y-30min--o76665"
+      "https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-en-cala-galdana-2h-y-30min--o76665",
+      "https://www.yumping.com/ofertas/buceo/menorca/curso-ssi-open-water-diver-en-cala-galdana-3-dias--o76666"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -481,16 +707,38 @@ export const centers: DiveCenter[] = [
     "description": "Brisubuceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "santa-cruz-tenerife"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/brisubuceo--e19763265",
       "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-las-galletas-tenerife--o53976",
-      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-open-water-en-las-galletas-3-dias--o47446"
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-open-water-en-las-galletas-3-dias--o47446",
+      "https://www.yumping.com/ofertas/buceo/tenerife/snorkel-en-las-galletas-tenerife-de-2h-y-30-min--o39669"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "bubbles-toledo-19753326",
+    "slug": "bubbles-toledo-19753326",
+    "name": "Bubbles Toledo",
+    "location": "Illescas",
+    "region": "Castilla-La Mancha",
+    "description": "Bubbles Toledo es el centro organizador de las actividades de buceo vinculadas a esta ficha en Illescas (Castilla-La Mancha). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/bubbles-toledo--e19753326",
+      "https://www.yumping.com/ofertas/buceo/toledo/bautizo-de-buceo-en-piscina-en-illescas-3-horas--o62792"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "buceo-aguadulce-roquetas-19690161",
@@ -503,7 +751,9 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "aguadulce"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/buceo-aguadulce-roquetas--e19690161",
@@ -513,7 +763,10 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/almeria/bautismo-submarino-en-aguadulce-y-fotos--o37116",
       "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-para-parejas-en-aguadulce--o20493",
       "https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos--o37277",
-      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-discover-scuba-diving-aguadulce--o20947"
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-discover-scuba-diving-aguadulce--o20947",
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-de-buceo-scuba-diver-nivel-basico--o20955",
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-de-buceo-divemaster-en-almeria-2-semanas--o35640",
+      "https://www.yumping.com/ofertas/buceo/almeria/buceo-para-buceadores-certificados-en-almeria--o37171"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -529,15 +782,41 @@ export const centers: DiveCenter[] = [
       "Curso",
       "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "cabo-palos-reserva"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/buceo-alcala--e19707835",
       "https://www.yumping.com/ofertas/buceo/madrid/discover-scuba-diving-padi-alcala-de-henares--o25734",
       "https://www.yumping.com/ofertas/buceo/madrid/curso-open-water-diver-alcala-de-henares-y-murcia--o27646",
-      "https://www.yumping.com/ofertas/buceo/madrid/viaje-a-ibiza-desde-denia-5-inmersiones--o26333"
+      "https://www.yumping.com/ofertas/buceo/madrid/viaje-a-ibiza-desde-denia-5-inmersiones--o26333",
+      "https://www.yumping.com/ofertas/buceo/murcia/discover-scuba-diving-padi-en-cabo-de-palos--o27486",
+      "https://www.yumping.com/ofertas/buceo/madrid/curso-primeros-auxilios-y-rcp-buceo-alcala--o25316",
+      "https://www.yumping.com/ofertas/buceo/madrid/especialidad-de-buceo-project-aware-en-carboneras--o25317",
+      "https://www.yumping.com/ofertas/buceo/madrid/scuba-review-practicas-en-piscina-madrid--o26277",
+      "https://www.yumping.com/ofertas/buceo/madrid/nitrox-curso-buceo-con-aire-enriquecido-padi--o27736",
+      "https://www.yumping.com/ofertas/buceo/madrid/curso-de-especialista-en-equipos-padi-de-buceo-6-h--o27737"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "buceo-andalucia-19757430",
+    "slug": "buceo-andalucia-19757430",
+    "name": "Buceo Andalucía",
+    "location": "El Ejido",
+    "region": "Andalucía",
+    "description": "Buceo Andalucía es el centro organizador de las actividades de buceo vinculadas a esta ficha en El Ejido (Andalucía). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/buceo-andalucia--e19757430",
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-barco-en-costa-de-el-ejido--o69693"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "buceo-aqualia-19635523",
@@ -571,14 +850,17 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "miengo"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/buceo-calypso--e19752686",
       "https://www.yumping.com/ofertas/buceo/cantabria/bautizo-de-buceo-en-piscina-miengo-1h-30-min--o62672",
       "https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-advanced-open-water-diver-polanco--o62342",
       "https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-especialidad-nitrox-en-requejada--o62359",
-      "https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344"
+      "https://www.yumping.com/ofertas/buceo/cantabria/titulo-de-buceo-open-water-diver-en-requejada--o62344",
+      "https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-nocturno-en-miengo--o62360"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -593,14 +875,38 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "illes-formigues"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/buceo-catalunya-costa-brava--e19718043",
       "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-palamos-2h--o58937",
-      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-palamos-3-dias--o79990"
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-palamos-3-dias--o79990",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-certificado-apnea-nivel-1-en-palamos-2-dias--o79992",
+      "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-apnea-en-mar-en-palamos-de-3-horas--o79987"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "buceo-costa-lugo-19688327",
+    "slug": "buceo-costa-lugo-19688327",
+    "name": "Buceo Costa Lugo",
+    "location": "Ribadeo",
+    "region": "Galicia",
+    "description": "Buceo Costa Lugo es el centro organizador de las actividades de buceo vinculadas a esta ficha en Ribadeo (Galicia). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso",
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/buceo-costa-lugo--e19688327",
+      "https://www.yumping.com/ofertas/buceo/lugo/curso-de-open-water-diver-1-fedas-en-lugo--o20751",
+      "https://www.yumping.com/ofertas/buceo/lugo/bautismo-de-buceo-desde-barco-en-la-costa-de-lugo--o19078"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "buceo-costa-nerja-443",
@@ -656,7 +962,8 @@ export const centers: DiveCenter[] = [
     "description": "Buceo Estepona figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Snorkel"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
@@ -666,7 +973,8 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/malaga/bautismo-de-buceo-en-la-costa-del-sol-3-horas--o36366",
       "https://www.yumping.com/ofertas/buceo/malaga/bautismo-de-buceo-en-el-mar-en-estepona--o61764",
       "https://www.yumping.com/ofertas/buceo/malaga/bautizo-de-buceo-en-estepona-en-piscina--o61760",
-      "https://www.yumping.com/ofertas/buceo/malaga/curso-de-buceo-open-water-diver-en-malaga-padi--o40981"
+      "https://www.yumping.com/ofertas/buceo/malaga/curso-de-buceo-open-water-diver-en-malaga-padi--o40981",
+      "https://www.yumping.com/ofertas/buceo/malaga/snorkel-en-la-costa-del-sol-con-traslados--o35876"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -729,9 +1037,28 @@ export const centers: DiveCenter[] = [
     "sources": [
       "https://www.yumping.com/buceo/buceo-isla-negra--e19863884",
       "https://www.yumping.com/ofertas/buceo/almeria/inmersion-con-botella-mas-plomos-en-almeria--o31010",
-      "https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-padi-en-villariscos--o65210"
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-padi-en-villariscos--o65210",
+      "https://www.yumping.com/ofertas/buceo/almeria/open-water-diver-padi-18m-en-villaricos--o65200"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "buceo-islas-cies-1282",
+    "slug": "buceo-islas-cies-1282",
+    "name": "Buceo Islas Cies",
+    "location": "Vigo",
+    "region": "Galicia",
+    "description": "Buceo Islas Cies es el centro organizador de las actividades de buceo vinculadas a esta ficha en Vigo (Galicia). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/buceo-islas-cies--e1282",
+      "https://www.yumping.com/ofertas/buceo/pontevedra/realizar-un-bautismo-de-buceo-en-pontevedra--o46587"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "buceo-las-negras-1286",
@@ -741,13 +1068,15 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Buceo Las Negras figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/buceo-las-negras--e1286",
-      "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-cabo-de-gata-3-dias--o68413"
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-cabo-de-gata-3-dias--o68413",
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -760,15 +1089,19 @@ export const centers: DiveCenter[] = [
     "description": "Buceo Marina figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "la-herradura"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/buceo-marina--e19725165",
       "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-granada-2-horas--o36122",
       "https://www.yumping.com/ofertas/buceo/granada/curso-padi-open-water-diver-en-granada--o36123",
-      "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-scuba-diver-granada--o36125"
+      "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-scuba-diver-granada--o36125",
+      "https://www.yumping.com/ofertas/buceo/granada/paseo-en-barco-y-snorkeling-maro-cerro-gordo--o36124"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -780,13 +1113,16 @@ export const centers: DiveCenter[] = [
     "region": "Navarra",
     "description": "Buceo Navarra figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/buceo-navarra--e1977",
-      "https://www.yumping.com/ofertas/buceo/navarra/curso-de-open-water-en-navarra-iniciacion-al-buceo--o10766"
+      "https://www.yumping.com/ofertas/buceo/navarra/curso-de-open-water-en-navarra-iniciacion-al-buceo--o10766",
+      "https://www.yumping.com/ofertas/buceo/navarra/bautizo-de-buceo-bajo-el-hielo--o10764",
+      "https://www.yumping.com/ofertas/buceo/navarra/bautizo-de-buceo-en-el-mar-hondarribia-con-barco--o13415"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -799,15 +1135,19 @@ export const centers: DiveCenter[] = [
     "description": "Buceo Pandora figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Fun Dive"
+      "Fun Dive",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "arinaga"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/es-MX/buceo/buceo-pandora--e19690666",
       "https://www.yumping.com/es-MX/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-mar-desde-risco-verde--o28628",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/bono-10-inmersiones--o28756",
-      "https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-desde-costa-en-gran-canaria-titulados--o28703"
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-desde-costa-en-gran-canaria-titulados--o28703",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/padi-open-water-en-arinaga--o28702"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -823,14 +1163,21 @@ export const centers: DiveCenter[] = [
       "Curso",
       "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "las-galletas"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/buceo-tenerife--e3880",
       "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-tenerife-con-alquiler-de-equipo--o50921",
       "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-en-las-galletas-tenerife--o31304",
       "https://www.yumping.com/ofertas/buceo/tenerife/padi-open-water-diver-en-las-galletas-tenerife--o31296",
-      "https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-desde-barco-tenerife--o31281"
+      "https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-desde-barco-tenerife--o31281",
+      "https://www.yumping.com/ofertas/buceo/tenerife/padi-advanced-open-water-en-las-galletas-tenerife--o31299",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-padi-rescue-diver-las-galletas-tenerife--o31301",
+      "https://www.yumping.com/ofertas/buceo/tenerife/padi-divemaster-en-las-galletas-tenerife--o31303",
+      "https://www.yumping.com/ofertas/buceo/tenerife/combo-advanced-open-water-diver-y-nitrox-tenerife--o50923",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-primeros-auxilios-para-buceo-en-tenerife--o50925"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -843,16 +1190,26 @@ export const centers: DiveCenter[] = [
     "description": "Buceo Valencia figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "pobla-farnals"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/buceo-valencia--e19635236",
       "https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-playa-pobla-marina-180-min--o45414",
       "https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-piscina-valencia--o26644",
       "https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-el-mar-de-valencia--o26649",
-      "https://www.yumping.com/ofertas/buceo/valencia/curso-buceo-open-water-diver-en-mar--o26654"
+      "https://www.yumping.com/ofertas/buceo/valencia/curso-buceo-open-water-diver-en-mar--o26654",
+      "https://www.yumping.com/ofertas/buceo/valencia/scuba-review-padi-en-pobla-de-farnals-1-dia--o26671",
+      "https://www.yumping.com/ofertas/buceo/valencia/padi-advanced-open-water-pobla-de-farnals-2-dias--o26710",
+      "https://www.yumping.com/ofertas/buceo/valencia/padi-medic-first-aid-en-pobla-de-farnals-2-dias--o26713",
+      "https://www.yumping.com/ofertas/buceo/valencia/padi-rescue-diver-en-pobla-de-farnals-4-dias--o26714",
+      "https://www.yumping.com/ofertas/buceo/valencia/padi-divemaster-en-pobla-de-farnals-60-horas--o26720",
+      "https://www.yumping.com/ofertas/buceo/valencia/buceo-con-nitrox-en-la-pobla-de-farnals-1-dia--o27000",
+      "https://www.yumping.com/ofertas/buceo/valencia/padi-open-water-diver-en-pobla-de-farnals-2-dias--o84681"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -865,16 +1222,21 @@ export const centers: DiveCenter[] = [
     "description": "Buddha Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "punta-marroqui-tarifa"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/buddha-divers--e19760797",
       "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-de-mar-en-tarifa-de-3-horas--o19193",
       "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-advanced-open-water-en-tarifa-de-2-dias--o19201",
       "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-scuba-diver-en-tarifa-de-2-dias--o19198",
-      "https://www.yumping.com/ofertas/buceo/cadiz/curso-de-apnea-en-la-isla-de-las-palomas-4-horas--o70324"
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-de-apnea-en-la-isla-de-las-palomas-4-horas--o70324",
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-open-water-diver-en-tarifa-3-4-dias--o12424",
+      "https://www.yumping.com/ofertas/buceo/cadiz/snorkel-en-reserva-natural-de-tarifa-1h30min--o88734"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -890,13 +1252,16 @@ export const centers: DiveCenter[] = [
       "Curso",
       "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "la-azohia"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/caballito-salao--e19636067",
       "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-la-azohia--o7655",
       "https://www.yumping.com/ofertas/buceo/murcia/curso-open-water-diver-en-la-azohia--o60038",
-      "https://www.yumping.com/ofertas/buceo/murcia/salida-doble-de-buceo-en-cabo-tinoso-titulados--o4717"
+      "https://www.yumping.com/ofertas/buceo/murcia/salida-doble-de-buceo-en-cabo-tinoso-titulados--o4717",
+      "https://www.yumping.com/ofertas/buceo/murcia/especialidad-de-buceo-con-traje-seco-en-la-azohia--o59843"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -929,13 +1294,18 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Calamar Gigante figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo",
+      "Fun Dive"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/calamar-gigante--e19776791",
-      "https://www.yumping.com/ofertas/buceo/almeria/curso-padi-open-water-diver-en-mojacar--o86677"
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-padi-open-water-diver-en-mojacar--o86677",
+      "https://www.yumping.com/ofertas/buceo/almeria/padi-discover-scuba-diving-en-mojacar--o28582",
+      "https://www.yumping.com/ofertas/buceo/almeria/inmersion-con-equipo-y-guia-en-villaricos-50min--o65195",
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-villaricos-por-1-hora--o65196"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -951,14 +1321,17 @@ export const centers: DiveCenter[] = [
       "Curso",
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "playa-raco-calpe"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/calpe-multiaventura--e315",
       "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-open-water-diver-en-calpe-3-dias--o1226",
       "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-advanced-open-water-en-calpe--o1227",
       "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-calpe--o1232",
-      "https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-playa-en-calpe-1h-30-minutos--o1234"
+      "https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-playa-en-calpe-1h-30-minutos--o1234",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-en-calpe--o22606"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -996,7 +1369,9 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "puerto-mazarron"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/cbs-centro-de-buceo-del-sureste--e3879",
@@ -1004,7 +1379,10 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-scuba-diver-de-padi-en-la-azohia--o68794",
       "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",
       "https://www.yumping.com/ofertas/buceo/murcia/curso-intensivo-buceo-open-water-mazarron-3-dias--o32149",
-      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-feda-1-estrella-en-pto-de-mazarron--o32141"
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-feda-1-estrella-en-pto-de-mazarron--o32141",
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-fedas-2-estrellas-pto-de-mazarron--o68886",
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-open-water-en-la-bahia-de-mazarron-de-5-dias--o62683",
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-fedas-3-estrellas-pto-de-mazarron--o68887"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1018,9 +1396,12 @@ export const centers: DiveCenter[] = [
     "services": [
       "Bautismo",
       "Fun Dive",
-      "Snorkel"
+      "Snorkel",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "punta-marroqui-tarifa"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/centollo-dive-club--e19777108",
@@ -1028,7 +1409,9 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/cadiz/salida-de-snorkel-en-tarifa-1-hora-y-media--o53881",
       "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-mar-en-tarifa-2-horas--o53863",
       "https://www.yumping.com/ofertas/buceo/cadiz/inmersion-de-buceo-en-tarifa-sin-equipo--o53865",
-      "https://www.yumping.com/ofertas/buceo/cadiz/salidas-de-buceo-en-tarifa-grupos-pequenos-1h--o61941"
+      "https://www.yumping.com/ofertas/buceo/cadiz/salidas-de-buceo-en-tarifa-grupos-pequenos-1h--o61941",
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-de-buceo-1-estrella-en-tarifa-fin-de-semana--o61994",
+      "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-tarifa-grupos-reducidos--o61940"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1058,15 +1441,70 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Centro de Buceo Alpha figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "arrecife-sirenas"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/centro-de-buceo-alpha--e570",
-      "https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-nocturna-en-cabo-de-gata--o68414"
+      "https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-nocturna-en-cabo-de-gata--o68414",
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-y-ruta-en-kayak-cabo-de-gata-5h--o61177",
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3h--o43039",
+      "https://www.yumping.com/ofertas/buceo/almeria/advanced-open-water-diver-en-cabo-de-gata-3-dias--o61183"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "centro-de-buceo-costa-palancia-392",
+    "slug": "centro-de-buceo-costa-palancia-392",
+    "name": "Centro de Buceo Costa Palancia",
+    "location": "Canet d'en Berenguer",
+    "region": "Comunidad Valenciana",
+    "description": "Centro de Buceo Costa Palancia es el centro organizador de las actividades de buceo vinculadas a esta ficha en Canet d'en Berenguer (Comunidad Valenciana). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso",
+      "Fun Dive",
+      "Bautismo"
+    ],
+    "siteSlugs": [
+      "canet-valencia"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/centro-de-buceo-costa-palancia--e392",
+      "https://www.yumping.com/ofertas/buceo/valencia/curso-de-buceo-fedas-nivel-iniciacion--o5508",
+      "https://www.yumping.com/ofertas/buceo/valencia/inmersion-de-buceo-en-canet-y-alquiler-de-botella--o13626",
+      "https://www.yumping.com/ofertas/buceo/valencia/curso-buceador-profesional-basico-valencia--o27638",
+      "https://www.yumping.com/ofertas/buceo/valencia/pack-4-inmersiones-buceo-en-canet-1-gratis--o21013",
+      "https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-mar-iniciacion-diploma--o5513"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "centro-de-buceo-el-bajon-19740859",
+    "slug": "centro-de-buceo-el-bajon-19740859",
+    "name": "Centro de Buceo El Bajón",
+    "location": "La Restinga",
+    "region": "Canarias",
+    "description": "Centro de Buceo El Bajón es el centro organizador de las actividades de buceo vinculadas a esta ficha en La Restinga (Canarias). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso",
+      "Bautismo"
+    ],
+    "siteSlugs": [
+      "la-restinga"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/centro-de-buceo-el-bajon--e19740859",
+      "https://www.yumping.com/ofertas/buceo/el-hierro/open-water-diver-el-hierro-y-alojamiento-6-noches--o54886",
+      "https://www.yumping.com/ofertas/buceo/el-hierro/bautizo-de-buceo-en-la-restinga-certificacion-padi--o54890"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "centro-de-buceo-naranjito-12156",
@@ -1079,7 +1517,9 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "cabo-palos-reserva"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/centro-de-buceo-naranjito--e12156",
@@ -1087,7 +1527,8 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/murcia/curso-buceador-dos-estrellas-cabo-de-palos--o14989",
       "https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-buceo-en-barco-en-cabo-de-palos--o14983",
       "https://www.yumping.com/ofertas/buceo/murcia/curso-de-iniciacion-al-buceo-open-water-murcia--o14809",
-      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-advanced-open-water-diver-murcia--o14984"
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-advanced-open-water-diver-murcia--o14984",
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-buceador-una-estrella-en-cabo-de-palos--o14988"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1101,11 +1542,14 @@ export const centers: DiveCenter[] = [
     "services": [
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "javea"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/centro-de-buceo-puerto-de-javea--e3876",
-      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-javea--o14121"
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-javea--o14121",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-buceo-open-water-advanced-javea--o13200"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1117,13 +1561,17 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad Valenciana",
     "description": "Centro de Buceo Scorpora figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Snorkel"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/centro-de-buceo-scorpora--e581",
-      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-serra-gelada-3-horas--o64813"
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-serra-gelada-3-horas--o64813",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-buceo-y-actividad-acuatica-serra-helada--o64818",
+      "https://www.yumping.com/ofertas/buceo/alicante/snorkel-en-el-parque-natural-de-serra-gelada-1h--o64828",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-2-inmersiones-en-serra-gelada-6h--o64816"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1135,15 +1583,42 @@ export const centers: DiveCenter[] = [
     "region": "Navarra",
     "description": "Centro de Buceo Splash figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/centro-de-buceo-splash--e3877",
-      "https://www.yumping.com/ofertas/buceo/navarra/curso-buceador-open-water-diver-navarra--o34043"
+      "https://www.yumping.com/ofertas/buceo/navarra/curso-buceador-open-water-diver-navarra--o34043",
+      "https://www.yumping.com/ofertas/buceo/navarra/pack-cursos-first-aids-proveedor-o2-desa-y-svb--o25266",
+      "https://www.yumping.com/ofertas/buceo/navarra/bautismo-buceo-mar-transporte-desde-orcoyen--o25268"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "centro-de-buceo-tribuo-19757878",
+    "slug": "centro-de-buceo-tribuo-19757878",
+    "name": "Centro de Buceo Tribuo",
+    "location": "Corralejo",
+    "region": "Canarias",
+    "description": "Centro de Buceo Tribuo es el centro organizador de las actividades de buceo vinculadas a esta ficha en Corralejo (Canarias). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Curso"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/centro-de-buceo-tribuo--e19757878",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/bautizo-de-buceo-en-playa-del-jablito-en-la-oliva--o70781",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/advanced-open-water-diver-en-pajara-fuerteventura--o27264",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/curso-open-water-diver-en-corralejo-3-dias--o73466",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/curso-de-buceo-open-water-diver-en-playa-jablito--o71163",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-corralejo-de-3-horas--o73407",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/curso-padi-scuba-diver-playa-del-jablito-1-dia--o88503"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "centro-escuela-de-buceo-mojacar-3673",
@@ -1153,15 +1628,35 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Centro Escuela de Buceo Mojacar figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/centro-escuela-de-buceo-mojacar--e3673",
-      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-playa-mojacar-medio-dia--o86956"
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-playa-mojacar-medio-dia--o86956",
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-de-buceo-open-water-diver-mojacar-4-5-dias--o86966"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "charters-casamar-19630078",
+    "slug": "charters-casamar-19630078",
+    "name": "Charters Casamar",
+    "location": "Castellón de la Plana",
+    "region": "Comunidad Valenciana",
+    "description": "Charters Casamar es el centro organizador de las actividades de buceo vinculadas a esta ficha en Castellón de la Plana (Comunidad Valenciana). Su catálogo en Buceo Atlas incluye Fun Dive. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Fun Dive"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/charters-casamar--e19630078",
+      "https://www.yumping.com/ofertas/buceo/castellon/jornada-de-buceo-en-las-islas-columbretes--o20416"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "club-de-buceo-noraysub-19754166",
@@ -1171,13 +1666,18 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Club de Buceo NoraySub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso",
+      "Fun Dive"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/club-de-buceo-noraysub--e19754166",
-      "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-en-calahonda-90-minutos--o63864"
+      "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-en-calahonda-90-minutos--o63864",
+      "https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-diver-en-calahonda--o87973",
+      "https://www.yumping.com/ofertas/buceo/granada/inmersion-de-buceo-guiada-en-calahonda-90-minutos--o63866",
+      "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-open-water-diver-calahonda--o63865"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1189,13 +1689,17 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Club de Buceo Quimerasub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "radazul"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/club-de-buceo-quimerasub--e19690297",
-      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-y-video-hd-en-radazul--o63387"
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-y-video-hd-en-radazul--o63387",
+      "https://www.yumping.com/ofertas/buceo/tenerife/open-water-diver-con-titulacion-radazul-3-dias--o63078"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1208,14 +1712,23 @@ export const centers: DiveCenter[] = [
     "description": "Club Dofí-Sub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "ametlla-mar"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/club-dofi-sub--e7534",
       "https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-discover-scuba-diving-lametlla--o1311",
-      "https://www.yumping.com/ofertas/buceo/tarragona/curso-buceo-padi-open-water-diver-en-lametlla--o1314"
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-buceo-padi-open-water-diver-en-lametlla--o1314",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-advanced-open-water-en-lametlla-de-mar--o1315",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-rescue-diver-en-lametlla-de-mar--o1316",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-divemaster-en-lametlla-de-mar--o1317",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-primeros-auxilios-efr-dea-ametlla-de-mar--o1318",
+      "https://www.yumping.com/ofertas/buceo/tarragona/pack-10-inmersiones-desde-barco-o-playa-lametlla--o1952",
+      "https://www.yumping.com/ofertas/buceo/tarragona/inmersion-de-buceo-en-cala-llobeta-2h--o1321"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1245,15 +1758,37 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Deep Blue Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
+      "Bautismo",
+      "Snorkel"
+    ],
+    "siteSlugs": [
+      "caleta-de-fuste"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/deep-blue-diving--e4028",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-caleta-de-fuste-y-fotos--o55340",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/alquiler-de-equipo-para-snorkel-en-caleta-de-fuste--o55344"
+    ],
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "dive-academy-santa-pola-19632734",
+    "slug": "dive-academy-santa-pola-19632734",
+    "name": "Dive Academy Santa Pola",
+    "location": "Santa Pola",
+    "region": "Comunidad Valenciana",
+    "description": "Dive Academy Santa Pola es el centro organizador de las actividades de buceo vinculadas a esta ficha en Santa Pola (Comunidad Valenciana). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
       "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
-      "https://www.yumping.com/buceo/deep-blue-diving--e4028",
-      "https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-caleta-de-fuste-y-fotos--o55340"
+      "https://www.yumping.com/buceo/dive-academy-santa-pola--e19632734",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-discover-scuba-en-santa-pola--o55449"
     ],
-    "checkedAt": "2026-10-04"
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "dive-center-barcelona-19765577",
@@ -1263,13 +1798,18 @@ export const centers: DiveCenter[] = [
     "region": "Cataluña",
     "description": "Dive Center Barcelona figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo",
+      "Snorkel"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/freeandivers--e19765577",
-      "https://www.yumping.com/ofertas/buceo/barcelona/curso-open-water-diver-barcelona--o13955"
+      "https://www.yumping.com/ofertas/buceo/barcelona/curso-open-water-diver-barcelona--o13955",
+      "https://www.yumping.com/ofertas/buceo/barcelona/bautismo-de-buceo-en-piscina-en-barcelona-3h--o13960",
+      "https://www.yumping.com/ofertas/buceo/barcelona/bautizo-de-buceo-en-mar-sant-adria-de-besos--o83878",
+      "https://www.yumping.com/ofertas/buceo/barcelona/sesion-de-snorkel-en-sant-adria-de-besos-2-horas--o83885"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1281,14 +1821,18 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad Valenciana",
     "description": "Dive&Dive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "playa-raco-calpe"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/divedive--e3623",
       "https://www.yumping.com/ofertas/buceo/alicante/bautismo-buceo-en-calpe-salida-desde-la-playa--o65789",
-      "https://www.yumping.com/ofertas/buceo/alicante/curso-padi-discover-scuba-diving-en-calpe-5h--o86705"
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-padi-discover-scuba-diving-en-calpe-5h--o86705",
+      "https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o1235"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1300,13 +1844,19 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad de Madrid",
     "description": "DIVEMADRID figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/divemadrid--e3153",
-      "https://www.yumping.com/ofertas/buceo/madrid/curso-buceo-con-aire-enriquecido-nitrox-en-madrid--o27482"
+      "https://www.yumping.com/ofertas/buceo/madrid/curso-buceo-con-aire-enriquecido-nitrox-en-madrid--o27482",
+      "https://www.yumping.com/ofertas/buceo/madrid/curso-open-water-diver-ssi-con-equipo-en-madrid--o31582",
+      "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-getafe-1-o-2-personas-2-horas--o62542",
+      "https://www.yumping.com/ofertas/buceo/madrid/curso-scuba-diver-en-madrid-y-2-inmersiones-en-mar--o29211",
+      "https://www.yumping.com/ofertas/buceo/madrid/scuba-skills-update-ssi-en-madrid-recordatorio--o26611",
+      "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-madrid-2-horas--o26560"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1318,14 +1868,18 @@ export const centers: DiveCenter[] = [
     "region": "Galicia",
     "description": "Divemanía figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "a-coruna"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/divemania--e19697367",
       "https://www.yumping.com/ofertas/buceo/acoruna/padi-open-water-diver-marinaseca--o28887",
-      "https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-advanced-open-water-de-buceo-en-a-coruna--o33250"
+      "https://www.yumping.com/es-MX/ofertas/buceo/acoruna/curso-advanced-open-water-de-buceo-en-a-coruna--o33250",
+      "https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-desde-barco-marinaseca--o28888"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1360,33 +1914,18 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "illes-formigues",
+      "platja-daro"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/diversub--e19751117",
       "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-d-aro-2-horas--o62048",
       "https://www.yumping.com/ofertas/buceo/girona/bautizo-buceo-en-pareja-sant-antoni-de-calonge-2-h--o60679",
-      "https://www.yumping.com/ofertas/buceo/girona/curso-iniciacion-al-buceo-4-dias-en-costa-brava--o60551"
-    ],
-    "checkedAt": "2026-10-04"
-  },
-  {
-    "id": "diving-combat-19679828",
-    "slug": "diving-combat-19679828",
-    "name": "Diving & Combat",
-    "location": "Tossa de Mar",
-    "region": "Cataluña",
-    "description": "Diving & Combat figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
-    "services": [
-      "Bautismo",
-      "Snorkel"
-    ],
-    "siteSlugs": [],
-    "destinationSlugs": [],
-    "sources": [
-      "https://www.yumping.com/buceo/diving-combat--e19679828",
-      "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar--o61843",
-      "https://www.yumping.com/ofertas/buceo/girona/snorkel-en-tossa-de-mar-2-horas-y-30--o61846"
+      "https://www.yumping.com/ofertas/buceo/girona/curso-iniciacion-al-buceo-4-dias-en-costa-brava--o60551",
+      "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-palamos-costa-brava--o60550",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-scuba-diver-2-dias-platja-d-aro--o62051"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1399,14 +1938,25 @@ export const centers: DiveCenter[] = [
     "description": "Diving Atlantis figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Curso",
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "guia-de-isora",
+      "el-medano",
+      "costa-adeje",
+      "los-cristianos-tenerife"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/diving-atlantis--e19728197",
       "https://www.yumping.com/ofertas/buceo/tenerife/open-water-diver-padi-en-tenerife-en-3-dias--o39502",
-      "https://www.yumping.com/ofertas/buceo/tenerife/bono-de-10-inmersiones-tenerife--o22282"
+      "https://www.yumping.com/ofertas/buceo/tenerife/bono-de-10-inmersiones-tenerife--o22282",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-acuc-en-radazul-tenerife--o15397",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-de-rescate-rescue-diver-radazul--o15408",
+      "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-desde-barco-para-titulados--o15426",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-con-tortugas-en-playa-la-arena--o38210",
+      "https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-para-buceadores-titulados-en-tenerife--o39501"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1418,13 +1968,49 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Diving Canarias figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Fun Dive",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "radazul"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/diving-canarias--e19696353",
-      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-open-water-diver-costa-de-radazul--o42638"
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-open-water-diver-costa-de-radazul--o42638",
+      "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-guiada-en-radazul--o25475",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-profundo-en-tenerife--o29111",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-nitrox-en-tenerife--o50720",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-radazul-tenerife--o50836"
+    ],
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "diving-combat-19679828",
+    "slug": "diving-combat-19679828",
+    "name": "Diving & Combat",
+    "location": "Tossa de Mar",
+    "region": "Cataluña",
+    "description": "Diving & Combat figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "services": [
+      "Bautismo",
+      "Snorkel",
+      "Curso"
+    ],
+    "siteSlugs": [
+      "cap-norfeu",
+      "mar-menuda"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/diving-combat--e19679828",
+      "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar--o61843",
+      "https://www.yumping.com/ofertas/buceo/girona/snorkel-en-tossa-de-mar-2-horas-y-30--o61846",
+      "https://www.yumping.com/ofertas/buceo/girona/excursion-de-snorkel-en-cap-de-creus-2-30-horas--o35281",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o61856",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-buceo-advanced-open-water-diver-costa-brava--o61857",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-padi-divemaster-en-tossa-de-mar-2-semanas--o61860"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1477,7 +2063,8 @@ export const centers: DiveCenter[] = [
     "description": "Diving Menorca figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Curso",
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
@@ -1485,7 +2072,10 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/buceo/diving-menorca--e19711815",
       "https://www.yumping.com/ofertas/buceo/menorca/inmersion-de-buceo-en-la-reserva-marina-menorquina--o28826",
       "https://www.yumping.com/ofertas/buceo/menorca/curso-advanced-open-water-diver-en-menorca--o46790",
-      "https://www.yumping.com/ofertas/buceo/menorca/curso-padi-open-water-diver-en-la-reserva-marina--o28827"
+      "https://www.yumping.com/ofertas/buceo/menorca/curso-padi-open-water-diver-en-la-reserva-marina--o28827",
+      "https://www.yumping.com/ofertas/buceo/menorca/curso-avanzado-de-open-water-diver-temporada-alta--o46803",
+      "https://www.yumping.com/ofertas/buceo/menorca/discover-scuba-diving-reserva-marina-menorquina-5h--o67493",
+      "https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-en-reserva-marina-de-menorca--o28824"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1497,13 +2087,19 @@ export const centers: DiveCenter[] = [
     "region": "Cataluña",
     "description": "Diving Salou figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/diving-salou--e19733479",
-      "https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-en-salou--o53794"
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-en-salou--o53794",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-salou-3-horas--o44208",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-open-water-diver-en-salou-3-5-dias--o53746",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-buceo-primeros-auxilios-efr-y-dea-salou--o54769",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-rescue-diver-en-salou--o54770",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-divemaster-padi-salou-buceador-profesional--o54996"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1520,7 +2116,9 @@ export const centers: DiveCenter[] = [
       "Fun Dive",
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "isla-benidorm"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/diving-stones--e19621453",
@@ -1529,7 +2127,13 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/alicante/curso-scuba-diver-en-benidorm-dos-dias--o36243",
       "https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-en-serra-gelada--o36245",
       "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-isla-de-benidorm--o36111",
-      "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-con-equipo-en-benidorm--o36146"
+      "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-con-equipo-en-benidorm--o36146",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-la-playa-cala-de-mal-pas--o36121",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-dive-master-en-benidorm--o36293",
+      "https://www.yumping.com/ofertas/buceo/alicante/paseo-bajo-el-mar-en-alicante-30-minutos--o36110",
+      "https://www.yumping.com/ofertas/buceo/alicante/inmersion-nocturna-de-buceo-benidorm-con-material--o36149",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-advance-open-water-diver-en-benidorm--o36238",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-rescue-diver-y-emergency-first-response--o36241"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1542,16 +2146,40 @@ export const centers: DiveCenter[] = [
     "description": "Dolphins Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "lloret-de-mar"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/dolphins-diving-center--e19745282",
       "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-el-mar-en-lloret-de-mar--o13961",
-      "https://www.yumping.com/ofertas/buceo/girona/curso-certificacion-open-water-diver-ssi-en-girona--o55808"
+      "https://www.yumping.com/ofertas/buceo/girona/curso-certificacion-open-water-diver-ssi-en-girona--o55808",
+      "https://www.yumping.com/ofertas/buceo/girona/inmersion-cerca-castillo-de-sa-caleta-titulados--o55944"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "dossotaigua-dive-center-19703499",
+    "slug": "dossotaigua-dive-center-19703499",
+    "name": "Dossotaigua Dive Center",
+    "location": "Platja d'Aro",
+    "region": "Cataluña",
+    "description": "Dossotaigua Dive Center es el centro organizador de las actividades de buceo vinculadas a esta ficha en Platja d'Aro (Cataluña). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso"
+    ],
+    "siteSlugs": [
+      "platja-daro"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/dossotaigua-dive-center--e19703499",
+      "https://www.yumping.com/ofertas/buceo/girona/padi-scuba-diver-en-platja-daro--o30624"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "dpm-diving-19763235",
@@ -1561,13 +2189,18 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "DPM Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "costa-adeje"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/dpm-diving--e19763235",
-      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-costa-adeje-de-4-horas--o80893"
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-costa-adeje-de-4-horas--o80893",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-open-water-diver-ssi-en-costa-adeje-3-dias--o80894",
+      "https://www.yumping.com/ofertas/buceo/tenerife/advanced-open-water-diver-ssi-en-costa-adeje-2dias--o80895"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1579,13 +2212,20 @@ export const centers: DiveCenter[] = [
     "region": "Cataluña",
     "description": "Dream Dive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "mar-menuda"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/dream-dive--e3506",
-      "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-desde-playa-en-tossa-de-mar--o14621"
+      "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-desde-playa-en-tossa-de-mar--o14621",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-scuba-diver-en-tossa-de-mar--o14623",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o14627",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-advanced-open-water-tossa-de-mar--o14636",
+      "https://www.yumping.com/ofertas/buceo/girona/especialidades-de-buceo-en-tossa-de-mar--o14642"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1610,6 +2250,31 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "ds-divers-el-hierro-19865920",
+    "slug": "ds-divers-el-hierro-19865920",
+    "name": "DS Divers El Hierro",
+    "location": "La Restinga",
+    "region": "Canarias",
+    "description": "DS Divers El Hierro es el centro organizador de las actividades de buceo vinculadas a esta ficha en La Restinga (Canarias). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Fun Dive",
+      "Curso"
+    ],
+    "siteSlugs": [
+      "la-restinga"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/ds-divers-el-hierro--e19865920",
+      "https://www.yumping.com/ofertas/buceo/el-hierro/bautismo-de-buceo-en-la-restinga-el-hierro--o35178",
+      "https://www.yumping.com/ofertas/buceo/el-hierro/inmersion-de-buceo-con-botella-en-la-restinga--o19587",
+      "https://www.yumping.com/ofertas/buceo/el-hierro/padi-open-water-diver-en-la-restinga-tenerife--o29104",
+      "https://www.yumping.com/ofertas/buceo/el-hierro/scuba-diver-en-la-restinga-el-hierro--o29102"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "ecodive-19729349",
     "slug": "ecodive-19729349",
     "name": "Ecodive",
@@ -1617,16 +2282,42 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Ecodive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Snorkel",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/ecodive--e19729349",
       "https://www.yumping.com/ofertas/buceo/malaga/curso-de-open-water-diver-en-rincon-de-la-victoria--o68503",
-      "https://www.yumping.com/ofertas/buceo/malaga/curso-buceo-scuba-diver-12m-rincon-de-la-victoria--o68500"
+      "https://www.yumping.com/ofertas/buceo/malaga/curso-buceo-scuba-diver-12m-rincon-de-la-victoria--o68500",
+      "https://www.yumping.com/ofertas/buceo/malaga/snorkel-en-rincon-de-la-victoria-costa-de-malaga--o68497",
+      "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-en-la-costa-de-almunecar--o72307",
+      "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-padi-2-inmersiones-en-calahonda--o72311",
+      "https://www.yumping.com/ofertas/buceo/malaga/bautizo-buceo-sin-material-cala-del-moral-2h-30min--o62714"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "educare-aventura-14027",
+    "slug": "educare-aventura-14027",
+    "name": "Educare Aventura",
+    "location": "Nerja",
+    "region": "Andalucía",
+    "description": "Educare Aventura es el centro organizador de las actividades de buceo vinculadas a esta ficha en Nerja (Andalucía). Su catálogo en Buceo Atlas incluye Snorkel. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Snorkel"
+    ],
+    "siteSlugs": [
+      "nerja"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/multiaventura/educare-aventura--e14027",
+      "https://www.yumping.com/ofertas/buceo/malaga/ruta-guiada-snorkel-acantilado-maro-cerro-gordo-2h--o61783"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "el-azul-gran-canaria-dive-center-19741108",
@@ -1636,15 +2327,37 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "El Azul Gran Canaria Dive Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
+      "Bautismo",
+      "Curso"
+    ],
+    "siteSlugs": [
+      "las-canteras"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/el-azul-gran-canaria-dive-center--e19741108",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-gran-canaria-3-h--o50685",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-open-water-diver-padi-en-las-palmas-4-dias--o52067"
+    ],
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "el-cardumen-4042",
+    "slug": "el-cardumen-4042",
+    "name": "El Cardumen",
+    "location": "Puerto de la Cruz",
+    "region": "Canarias",
+    "description": "El Cardumen es el centro organizador de las actividades de buceo vinculadas a esta ficha en Puerto de la Cruz (Canarias). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
       "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
-      "https://www.yumping.com/buceo/el-azul-gran-canaria-dive-center--e19741108",
-      "https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-gran-canaria-3-h--o50685"
+      "https://www.yumping.com/deportes-acuaticos/el-cardumen--e4042",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-puerto-de-la-cruz-30min-fotos--o88757"
     ],
-    "checkedAt": "2026-10-04"
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "enjoy-sup-school-19706025",
@@ -1665,6 +2378,26 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "escuela-pez-globo-19863969",
+    "slug": "escuela-pez-globo-19863969",
+    "name": "Escuela Pez Globo",
+    "location": "La Herradura",
+    "region": "Andalucía",
+    "description": "Escuela Pez Globo es el centro organizador de las actividades de buceo vinculadas a esta ficha en La Herradura (Andalucía). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [
+      "la-herradura"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/escuela-pez-globo--e19863969",
+      "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-en-la-herradura-3-horas--o66010"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "estacio-nautica-l-ametlla-de-mar-19763165",
     "slug": "estacio-nautica-l-ametlla-de-mar-19763165",
     "name": "Estació Náutica L'Ametlla De Mar",
@@ -1675,12 +2408,15 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "ametlla-mar"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/estacio-nautica-lametlla-de-mar--e19763165",
       "https://www.yumping.com/ofertas/buceo/tarragona/ruta-de-snorkel-para-ninos-en-lametlla-de-mar--o64549",
-      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-l-ametlla-de-mar-90-minutos--o64566"
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-l-ametlla-de-mar-90-minutos--o64566",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-buceo-y-curso-de-biologia-marina-latmella--o64548"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1760,16 +2496,63 @@ export const centers: DiveCenter[] = [
     "description": "FuerteOcean Dive Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Snorkel"
+      "Snorkel",
+      "Curso"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/fuerte-ocean-dive-center--e19865138",
       "https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-piscina-y-mar-en-morro-jable--o23953",
-      "https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754"
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/tour-de-snorkel-desde-barco-por-costa-morro-jable--o69754",
+      "https://www.yumping.com/ofertas/buceo/fuerteventura/curso-open-water-diver-padi-pajara-fuerteventura--o27261"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "getxoport-19663731",
+    "slug": "getxoport-19663731",
+    "name": "Destinos en Pareja",
+    "location": "Getxo",
+    "region": "País Vasco",
+    "description": "Destinos en Pareja es el centro organizador de las actividades de buceo vinculadas a esta ficha en Getxo (País Vasco). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso",
+      "Snorkel"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/multiaventura/getxoport--e19663731",
+      "https://www.yumping.com/ofertas/buceo/vizcaya/curso-de-apnea-durante-4-horas-en-armintza--o62770",
+      "https://www.yumping.com/ofertas/buceo/vizcaya/practicar-snorkel-en-armintza-2-horas--o63252"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "glup-glup-19709039",
+    "slug": "glup-glup-19709039",
+    "name": "Glup Glup",
+    "location": "Calahonda",
+    "region": "Andalucía",
+    "description": "Glup Glup es el centro organizador de las actividades de buceo vinculadas a esta ficha en Calahonda (Andalucía). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Snorkel",
+      "Curso"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/glup-glup--e19709039",
+      "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-cerca-de-motril--o4716",
+      "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-mar-penon-de-salobrena-3h--o28657",
+      "https://www.yumping.com/ofertas/buceo/granada/curso-de-snorkel-en-playa-de-calahonda-4-horas--o88507",
+      "https://www.yumping.com/ofertas/buceo/granada/curso-de-snorkel-en-penon-de-salobrena-4-horas--o88510",
+      "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-open-water-diver-en-calahonda--o4724",
+      "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-en-playa-de-calahonda-3-horas--o88508"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "glups-diving-8875",
@@ -1789,7 +2572,13 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/buceo/glups-diving--e8875",
       "https://www.yumping.com/ofertas/buceo/tarragona/dos-inmersiones-de-buceo-en-cambrils--o21162",
       "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-discovery-scuba-diving-tarragona--o52840",
-      "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-avanzado-en-tarragona-2-3-dias--o52841"
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-avanzado-en-tarragona-2-3-dias--o52841",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-playa-cavet-de-cambrils--o3864",
+      "https://www.yumping.com/ofertas/buceo/tarragona/padi-open-water-diver-en-cambrils--o3865",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-cambrils--o21164",
+      "https://www.yumping.com/ofertas/buceo/tarragona/inmersion-de-buceo-en-costa-de-cambrils-titulados--o56766",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-open-water-diver-cambrils-4-dias--o52819",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-apnea-en-cambrils-2-dias-y-medio--o62549"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1802,14 +2591,18 @@ export const centers: DiveCenter[] = [
     "description": "Go-Dive Tenerife figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Curso",
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "las-chafiras"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/go-dive-tenerife--e19750701",
       "https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-de-buceo-en-tenerife-con-fotos--o60253",
-      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-padi-open-water-diver-en-tenerife-3-dias--o60252"
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-padi-open-water-diver-en-tenerife-3-dias--o60252",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-con-fotos-en-tenerife--o60250"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1821,14 +2614,20 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "goDive Cadiz figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "punta-marroqui-tarifa",
+      "el-palmar-cadiz"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/godive-cadiz--e19752527",
       "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-2-inmersiones-en-tarifa--o61947",
-      "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-piscina-45-minutos-el-palmar--o61964"
+      "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-piscina-45-minutos-el-palmar--o61964",
+      "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-especial-parejas-en-tarifa--o61955",
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-buceo-owd-internacional-tarifa-o-el-palmar--o61963"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1854,6 +2653,30 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "greenwichdiving-10759",
+    "slug": "greenwichdiving-10759",
+    "name": "Greenwichdiving",
+    "location": "Altea",
+    "region": "Comunidad Valenciana",
+    "description": "Greenwichdiving es el centro organizador de las actividades de buceo vinculadas a esta ficha en Altea (Comunidad Valenciana). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso",
+      "Snorkel"
+    ],
+    "siteSlugs": [
+      "altea"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/greenwichdiving--e10759",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-avanzado-de-buceo-en-aguas-abiertas-en-altea--o38369",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-buceo-open-water-diver-en-altea--o38370",
+      "https://www.yumping.com/ofertas/buceo/alicante/rutas-de-snorkel-en-la-bahia-de-altea--o38371",
+      "https://www.yumping.com/ofertas/buceo/alicante/rutas-de-snorkel-desde-barco-en-altea-y-fotos--o38373"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "h2o-sports-4617",
     "slug": "h2o-sports-4617",
     "name": "H2O Sports",
@@ -1861,7 +2684,9 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "H2O Sports figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo",
+      "Fun Dive"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
@@ -1869,7 +2694,10 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/deportes-acuaticos/h2o-sports--e4617",
       "https://www.yumping.com/ofertas/buceo/malaga/padi-rescue-diver-en-marbella--o30945",
       "https://www.yumping.com/ofertas/buceo/malaga/padi-advanced-open-water-en-marbella--o30939",
-      "https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-marbella--o30936"
+      "https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-marbella--o30936",
+      "https://www.yumping.com/ofertas/buceo/malaga/bautizo-de-buceo-en-marbella--o30932",
+      "https://www.yumping.com/ofertas/buceo/malaga/padi-open-water-diver-en-marbella-4-dias--o30935",
+      "https://www.yumping.com/ofertas/buceo/malaga/inmersion-de-buceo-en-marbella-botella-y-plomos--o30943"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1881,16 +2709,20 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Island Watersports Lanzarote figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "puerto-del-carmen"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/island-watersports-lanzarote--e4114",
       "https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceador-de-rescate-padi-puerto-del-carmen--o15615",
       "https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",
       "https://www.yumping.com/ofertas/buceo/lanzarote/padi-rescue-diver-en-lanzarote--o205",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/padi-divemaster-puerto-del-carmen--o206",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-puerto-del-carmen-lanzarote--o202"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1903,15 +2735,24 @@ export const centers: DiveCenter[] = [
     "description": "Isub San Jose figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive",
+      "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "arrecife-sirenas"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/isub-san-jose--e1284",
       "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata--o26563",
       "https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-en-cabo-de-gata--o36129",
-      "https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-en-san-jose--o28185"
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-en-san-jose--o28185",
+      "https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-en-cabo-de-gata-con-material-3h--o41212",
+      "https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-en-el-pn-de-cabo-de-gata--o28171",
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-padi-open-water-diver-en-san-jose--o19921",
+      "https://www.yumping.com/ofertas/buceo/almeria/salida-de-buceo-con-tubo-san-jose--o28184",
+      "https://www.yumping.com/ofertas/buceo/almeria/inmersion-recuerdo-scuba-diver-san-jose-de-nijar--o57486"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1926,9 +2767,12 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso",
       "Pecio",
-      "Snorkel"
+      "Snorkel",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "telde"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/karapat-dive--e19752932",
@@ -1936,7 +2780,10 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-telde-3-horas--o62277",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-open-water-diver-en-telde-3-dias--o62278",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-telde-3-dias--o62279",
-      "https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224"
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/snorkel-en-playa-de-las-canteras-2-horas--o64224",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-snorkel-en-gran-canaria-3h--o64182",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/buceo-doble-en-la-reserva-marina-del-cabron-4h--o64183",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/doble-inmersion-de-buceo-avanzado-en-las-palmas--o64184"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1973,14 +2820,22 @@ export const centers: DiveCenter[] = [
     "description": "La Rana Buceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Snorkel"
+      "Snorkel",
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "javea"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/la-rana-buceo--e19863397",
       "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-javea-desde-embarcacion-y-fotos--o13445",
-      "https://www.yumping.com/ofertas/buceo/alicante/salida-de-snorkel-desde-embarcacion-javea-2-5-h--o25800"
+      "https://www.yumping.com/ofertas/buceo/alicante/salida-de-snorkel-desde-embarcacion-javea-2-5-h--o25800",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-javea-4-dias--o25150",
+      "https://www.yumping.com/ofertas/buceo/alicante/salida-de-snorkel-desde-barco-para-colegios--o31773",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-advanced-open-water-diver-playa-del-arenal--o69613",
+      "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-doble-en-la-costa-de-javea-3-h--o69622"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -1993,14 +2848,20 @@ export const centers: DiveCenter[] = [
     "description": "Lanzarote Non Stop Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Curso",
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "playa-blanca-lanzarote"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/lanzarote-non-stop-divers--e19720740",
       "https://www.yumping.com/ofertas/buceo/lanzarote/inmersiones-en-lanzarote-con-buceo-nocturno-gratis--o37280",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-en-lanzarote-4-dias--o37278"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-en-lanzarote-4-dias--o37278",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-lanzarote-2-horas-y-30-min--o37276",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-primeros-auxilios-en-playa-dorada--o37281",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/visita-submarina-museo-atlantico-no-buceadores--o55687"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2014,11 +2875,15 @@ export const centers: DiveCenter[] = [
     "services": [
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "noja"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/laredo-aventura--e19726061",
-      "https://www.yumping.com/ofertas/buceo/cantabria/ruta-de-snorkel-nocturno-en-la-playa-de-ris-noja--o66105"
+      "https://www.yumping.com/ofertas/buceo/cantabria/ruta-de-snorkel-nocturno-en-la-playa-de-ris-noja--o66105",
+      "https://www.yumping.com/ofertas/buceo/cantabria/hacer-buceo-snorkel-en-noja-2-horas--o37193",
+      "https://www.yumping.com/ofertas/buceo/cantabria/alquiler-material-de-snorkel-en-noja-1-hora--o51646"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2043,6 +2908,29 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "macaronesian-divers-19760299",
+    "slug": "macaronesian-divers-19760299",
+    "name": "Macaronesian Divers",
+    "location": "Radazul",
+    "region": "Canarias",
+    "description": "Macaronesian Divers es el centro organizador de las actividades de buceo vinculadas a esta ficha en Radazul (Canarias). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Curso"
+    ],
+    "siteSlugs": [
+      "radazul"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/macaronesian-divers--e19760299",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-con-fotos-y-video-en-radazul-3h--o75697",
+      "https://www.yumping.com/ofertas/buceo/tenerife/padi-discover-scuba-diving-en-tenerife-3-dias--o56429",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-reactivate-en-tenerife--o56434"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "mar-de-hielo-19752104",
     "slug": "mar-de-hielo-19752104",
     "name": "Mar de Hielo",
@@ -2063,9 +2951,32 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/tarragona/salida-buceo-nocturna-desde-barco-salou-2-h-30--o61697",
       "https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-desde-barco-tarragona-3h--o61736",
       "https://www.yumping.com/ofertas/buceo/tarragona/curso-open-water-diver-padi-en-tarragona-3-dias--o61737",
-      "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-una-estrella-fedas-tarragona--o61758"
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-una-estrella-fedas-tarragona--o61758",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-tarragona-3-horas--o61646",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-torredembarra-2-horas--o61752",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-dos-estrellas-fedas-tarragona--o61753"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "mar-natura-19646602",
+    "slug": "mar-natura-19646602",
+    "name": "Mar Natura",
+    "location": "L'Ametlla de Mar",
+    "region": "Cataluña",
+    "description": "Mar Natura es el centro organizador de las actividades de buceo vinculadas a esta ficha en L'Ametlla de Mar (Cataluña). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [
+      "ametlla-mar"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/multiaventura/mar-natura--e19646602",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautismo-buceo-en-cala-pixavaques-lametlla-de-mar--o57538"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "mardays-dive-resort-19698976",
@@ -2075,13 +2986,18 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad Valenciana",
     "description": "MarDays Dive Resort figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "javea"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/mardays-dive-resort--e19698976",
-      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720"
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",
+      "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-con-equipo-completo-javea--o21915",
+      "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-desde-embarcacion-en-javea--o25799"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2098,7 +3014,9 @@ export const centers: DiveCenter[] = [
       "Fun Dive",
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "foz"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/maremasma--e19718363",
@@ -2106,7 +3024,9 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/lugo/curso-de-buceo-open-water-diver-en-viveiro--o53325",
       "https://www.yumping.com/ofertas/buceo/lugo/salidas-de-buceo-en-la-ria-de-viveiro-titulados--o53327",
       "https://www.yumping.com/ofertas/buceo/lugo/cinco-inmersiones-de-buceo-en-foz-con-monitor-1-h--o42327",
-      "https://www.yumping.com/ofertas/buceo/lugo/ruta-guiada-de-snorkel-con-lancha-ria-de-foz-2-h--o42326"
+      "https://www.yumping.com/ofertas/buceo/lugo/ruta-guiada-de-snorkel-con-lancha-ria-de-foz-2-h--o42326",
+      "https://www.yumping.com/ofertas/buceo/lugo/excursion-de-buceo-con-titulacion-en-lugo-1-hora--o36585",
+      "https://www.yumping.com/ofertas/buceo/lugo/bautismo-de-buceo-con-instructor-en-lugo-2-horas--o42328"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2121,12 +3041,16 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "altea"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/marepolis-altea--e19717923",
       "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-altea-desde-barco--o36653",
-      "https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-altea--o31342"
+      "https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-altea--o31342",
+      "https://www.yumping.com/ofertas/buceo/alicante/padi-open-water-diver-altea--o31339",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-altea-desde-la-playa--o36652"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2142,14 +3066,18 @@ export const centers: DiveCenter[] = [
       "Curso",
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "ametlla-mar"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/marina-diving-tarragona--e19724742",
       "https://www.yumping.com/ofertas/buceo/tarragona/ruta-de-snorkel-con-oceanografas-lametlla-de-mar--o64532",
       "https://www.yumping.com/ofertas/buceo/tarragona/curso-open-water-snsi-nitrox-ametlla-de-mar--o59377",
       "https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-cala-llobeta-en-calafat--o61500",
-      "https://www.yumping.com/ofertas/buceo/tarragona/pack-open-water-snsi-nitrox-y-advanced-tarragona--o59893"
+      "https://www.yumping.com/ofertas/buceo/tarragona/pack-open-water-snsi-nitrox-y-advanced-tarragona--o59893",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-open-water-padi-ametlla-de-mar--o35697",
+      "https://www.yumping.com/ofertas/buceo/tarragona/snorkel-y-paseo-en-barca-por-calafat-2-horas--o60861"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2161,7 +3089,8 @@ export const centers: DiveCenter[] = [
     "region": "Cataluña",
     "description": "Maskydiving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
@@ -2171,7 +3100,8 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/barcelona/curso-de-buceo-divemaster--o14207",
       "https://www.yumping.com/ofertas/buceo/barcelona/curso-de-rescate-en-el-mar--o14200",
       "https://www.yumping.com/ofertas/buceo/barcelona/curso-de-buceo-advanced-open-water-diver--o14199",
-      "https://www.yumping.com/ofertas/buceo/barcelona/curso-de-buceo-padi-scuba-diver--o14195"
+      "https://www.yumping.com/ofertas/buceo/barcelona/curso-de-buceo-padi-scuba-diver--o14195",
+      "https://www.yumping.com/ofertas/buceo/barcelona/bautismo-de-buceo-en-vilafranca-del-penedes--o14143"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2228,7 +3158,9 @@ export const centers: DiveCenter[] = [
       "Pecio",
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "el-medano"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/medanodive--e19748521",
@@ -2240,7 +3172,8 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceadores-certificados-tenerife--o56661",
       "https://www.yumping.com/ofertas/buceo/tenerife/pack-de-dos-sesiones-de-snorkel-en-tenerife-4-5-h--o56660",
       "https://www.yumping.com/ofertas/buceo/tenerife/excursion-de-snorkel-en-tenerife-3-5-horas--o56659",
-      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-buceo-45-min-tenerife-3-5-h--o56658"
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-buceo-45-min-tenerife-3-5-h--o56658",
+      "https://www.yumping.com/ofertas/buceo/tenerife/ssi-basic-diver-en-tenerife-5-horas--o56621"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2253,16 +3186,38 @@ export const centers: DiveCenter[] = [
     "description": "Mergullo Compostela figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/mergullo-compostela--e4581",
       "https://www.yumping.com/ofertas/buceo/acoruna/curso-open-water-diver-en-santiago-de-compostela--o15303",
-      "https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-a-coruna--o15307"
+      "https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-en-mar-en-a-coruna--o15307",
+      "https://www.yumping.com/ofertas/buceo/acoruna/salida-de-buceo-en-santiago-de-compostela--o36612"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "mergulloviveiro-19744267",
+    "slug": "mergulloviveiro-19744267",
+    "name": "MergulloViveiro",
+    "location": "Viveiro",
+    "region": "Galicia",
+    "description": "MergulloViveiro es el centro organizador de las actividades de buceo vinculadas a esta ficha en Viveiro (Galicia). Su catálogo en Buceo Atlas incluye Fun Dive. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Fun Dive",
+      "Snorkel"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/mergulloviveiro--e19744267",
+      "https://www.yumping.com/ofertas/buceo/lugo/buceo-para-parejas-viveiro-y-comida-san-valentin--o53328",
+      "https://www.yumping.com/ofertas/buceo/lugo/snorkel-en-fucino-do-porco-viveiro-fotos-y-video--o53331"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "mirafondos-5916",
@@ -2275,13 +3230,17 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "las-canteras"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/mirafondos--e5916",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-taurito--o45998",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-open-water-diver--o20549",
-      "https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-gran-canaria-4-horas--o20699"
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/bautizo-de-buceo-en-gran-canaria-4-horas--o20699",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-4-dias--o20551",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-con-nitrox-en-gran-canaria-6-horas--o37455"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2321,14 +3280,17 @@ export const centers: DiveCenter[] = [
       "Curso",
       "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "cabo-san-antonio"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/mon-diving--e19725021",
       "https://www.yumping.com/ofertas/buceo/alicante/curso-advanced-open-water-diver-en-denia--o65287",
       "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-economico-costa-de-denia--o56080",
       "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-y-equipo-en-la-costa-de-denia--o65282",
-      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447"
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-y-efr-en-denia--o65447",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-denia--o65286"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2356,6 +3318,24 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "movedifferent-adventure-19753208",
+    "slug": "movedifferent-adventure-19753208",
+    "name": "Movedifferent Adventure",
+    "location": "Benalmádena",
+    "region": "Andalucía",
+    "description": "Movedifferent Adventure es el centro organizador de las actividades de buceo vinculadas a esta ficha en Benalmádena (Andalucía). Su catálogo en Buceo Atlas incluye Fun Dive. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Fun Dive"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/movedifferent-adventure--e19753208",
+      "https://www.yumping.com/ofertas/buceo/malaga/alquiler-de-seabob-en-benalmadena-20-minutos--o62703"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "mundo-activo-2268",
     "slug": "mundo-activo-2268",
     "name": "Mundo Activo",
@@ -2363,14 +3343,18 @@ export const centers: DiveCenter[] = [
     "region": "Murcia",
     "description": "Mundo Activo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "la-manga-mar-menor"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/mundo-activo--e2268",
       "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceador-de-rescate-primeros-auxilios--o17373",
-      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-avanzado-aowd-de-padi-la-manga--o17372"
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-avanzado-aowd-de-padi-la-manga--o17372",
+      "https://www.yumping.com/ofertas/buceo/murcia/inmersion-de-buceo-con-botella-en-isla-grosa--o30803"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2404,14 +3388,26 @@ export const centers: DiveCenter[] = [
     "description": "Native Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Snorkel",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "costa-teguise"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/native-diving--e7296",
       "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-con-1-inmersion-en-lanzarote--o38911",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-open-water-diver-padi-en-lanzarote-3-dias--o38944"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-open-water-diver-padi-en-lanzarote-3-dias--o38944",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/alquiler-full-face-mask-en-lanzarote-1-dia--o48566",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/alquiler-de-equipo-de-snorkel-en-lanzarote-1-dia--o48567",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bubblemaker-bautismo-de-buceo-ninos-en-lanzarote--o38913",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/discover-scuba-diving-lanzarote-con-2-inmersiones--o38942",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/sea-trek-buceo-con-escafandra-y-snorkel-full-face--o38966",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-con-escafandra-en-lanzarote--o46589",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/alquiler-de-zayak-en-lanzarote-1-dia--o48568",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-personas-con-movilidad-reducida-lanzarote--o46303"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2452,6 +3448,24 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "nautic-parc-8927",
+    "slug": "nautic-parc-8927",
+    "name": "Nàutic Parc",
+    "location": "Cambrils",
+    "region": "Cataluña",
+    "description": "Nàutic Parc es el centro organizador de las actividades de buceo vinculadas a esta ficha en Cambrils (Cataluña). Su catálogo en Buceo Atlas incluye Fun Dive. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Fun Dive"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/nautic-parc--e8927",
+      "https://www.yumping.com/ofertas/buceo/tarragona/sea-scooter-en-cambrils-30-minutos--o85779"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "nautica-medusa-4448",
     "slug": "nautica-medusa-4448",
     "name": "Náutica Medusa",
@@ -2459,13 +3473,19 @@ export const centers: DiveCenter[] = [
     "region": "Galicia",
     "description": "Náutica Medusa figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Fun Dive",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/nautica-medusa--e4448",
-      "https://www.yumping.com/ofertas/buceo/pontevedra/curso-de-buceo-open-water-en-vilagarcia--o4425"
+      "https://www.yumping.com/ofertas/buceo/pontevedra/curso-de-buceo-open-water-en-vilagarcia--o4425",
+      "https://www.yumping.com/ofertas/buceo/pontevedra/inmersion-doble-de-buceo-en-isla-salvora-4-horas--o4429",
+      "https://www.yumping.com/ofertas/buceo/pontevedra/salida-de-buceo-doble-inmersion-ria-de-arousa--o5131",
+      "https://www.yumping.com/ofertas/buceo/pontevedra/bautismo-de-buceo-en-vilagarcia-playas-isla-arousa--o4423",
+      "https://www.yumping.com/ofertas/buceo/pontevedra/inmersion-de-buceo-en-las-rias-baixas--o4428"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2477,7 +3497,8 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad de Madrid",
     "description": "NeoDive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
@@ -2485,9 +3506,31 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/buceo/neodive--e19745166",
       "https://www.yumping.com/ofertas/buceo/madrid/curso-de-buceo-padi-divemaster-en-las-tablas--o31215",
       "https://www.yumping.com/ofertas/buceo/madrid/titulo-de-padi-rescue-diver-en-las-tablas--o31209",
-      "https://www.yumping.com/ofertas/buceo/madrid/titulo-padi-advanced-open-water-diver-las-tablas--o31204"
+      "https://www.yumping.com/ofertas/buceo/madrid/titulo-padi-advanced-open-water-diver-las-tablas--o31204",
+      "https://www.yumping.com/ofertas/buceo/madrid/titulo-de-padi-open-water-diver-en-las-tablas--o59093",
+      "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-piscina-en-las-tablas-1-hora--o86570"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "nisos-benidorm-19622273",
+    "slug": "nisos-benidorm-19622273",
+    "name": "Nisos Benidorm",
+    "location": "Benidorm",
+    "region": "Comunidad Valenciana",
+    "description": "Nisos Benidorm es el centro organizador de las actividades de buceo vinculadas a esta ficha en Benidorm (Comunidad Valenciana). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [
+      "isla-benidorm"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/nisos-benidorm--e19622273",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-por-la-costa-de-benidorm--o29184"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "nojactiva-19702312",
@@ -2499,13 +3542,39 @@ export const centers: DiveCenter[] = [
     "services": [
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "noja"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/multiaventura/nojactiva--e19702312",
-      "https://www.yumping.com/ofertas/buceo/cantabria/snorkel-nocturno-ruta-guiada-en-playa-de-ris-noja--o66104"
+      "https://www.yumping.com/ofertas/buceo/cantabria/snorkel-nocturno-ruta-guiada-en-playa-de-ris-noja--o66104",
+      "https://www.yumping.com/ofertas/buceo/cantabria/alquiler-equipo-de-snorkel-en-playa-de-ris-1-hora--o30975",
+      "https://www.yumping.com/ofertas/buceo/cantabria/excursion-de-snorkel-guiada-playa-de-ris-2-horas--o20759"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "ocean-dreams-tenerife-19703349",
+    "slug": "ocean-dreams-tenerife-19703349",
+    "name": "Ocean Dreams Tenerife",
+    "location": "Arona",
+    "region": "Canarias",
+    "description": "Ocean Dreams Tenerife es el centro organizador de las actividades de buceo vinculadas a esta ficha en Arona (Canarias). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Fun Dive"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/ocean-dreams-tenerife--e19703349",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-iniciacion-al-buceo-open-water-arona--o27410",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-la-costa-de-arona--o22981",
+      "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-en-arona-con-traslado--o23736",
+      "https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-de-buceo-en-tenerife-10-sesiones--o33360"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "ocean-friends-buceo-y-apnea-19735920",
@@ -2534,14 +3603,21 @@ export const centers: DiveCenter[] = [
     "description": "Océanos Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "lloret-de-mar"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/oceanos-diving-center--e19658724",
       "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-el-mar-en-lloret-de-mar-3-h--o13953",
-      "https://www.yumping.com/ofertas/buceo/girona/curso-buceo-padi-open-water-diver-en-lloret-de-mar--o65241"
+      "https://www.yumping.com/ofertas/buceo/girona/curso-buceo-padi-open-water-diver-en-lloret-de-mar--o65241",
+      "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-desde-playa-2h-en-canyelles--o82046",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-advanced-open-water-diver-en-lloret-de-mar--o65243",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-nocturno-en-lloret-de-mar--o65265",
+      "https://www.yumping.com/ofertas/buceo/girona/bono-5-inmersiones-con-equipo-en-lloret-de-mar--o65268"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2553,13 +3629,19 @@ export const centers: DiveCenter[] = [
     "region": "Cataluña",
     "description": "Ohana Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso",
+      "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "ametlla-mar"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/ohana-diving-s-l--e19866849",
-      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-tarragona-con-instructor--o41537"
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-tarragona-con-instructor--o41537",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-open-water-diver-torredembarra--o41538",
+      "https://www.yumping.com/ofertas/buceo/tarragona/salida-de-snorkel-por-cala-vidre-fotos-1h30min--o90878"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2576,7 +3658,9 @@ export const centers: DiveCenter[] = [
       "Pecio",
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "castro-urdiales"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/es-MX/buceo/ok-castro-dive-club-de-buceo--e19757525",
@@ -2584,7 +3668,8 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-carguero-de-saltacaballo--o70020",
       "https://www.yumping.com/es-MX/ofertas/buceo/cantabria/inmersion-de-buceo-bajo-el-castillo-de-c-urdiales--o70016",
       "https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-cantil-de-las-anclas-3-h--o70031",
-      "https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-castro-urdiales-desde-embarcacion-2h--o74685"
+      "https://www.yumping.com/ofertas/buceo/cantabria/snorkel-en-castro-urdiales-desde-embarcacion-2h--o74685",
+      "https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-pecio-de-los-railes-3-5h--o70026"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2651,6 +3736,26 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "poseidon-roses-7711",
+    "slug": "poseidon-roses-7711",
+    "name": "Diving Center Poseidón Roses",
+    "location": "Roses",
+    "region": "Cataluña",
+    "description": "Diving Center Poseidón Roses es el centro organizador de las actividades de buceo vinculadas a esta ficha en Roses (Cataluña). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [
+      "cap-norfeu"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/poseidon-roses--e7711",
+      "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-girona-costa-brava--o41581"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "posidonia-ecosports-19735788",
     "slug": "posidonia-ecosports-19735788",
     "name": "Posidonia Ecosports",
@@ -2658,13 +3763,17 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad Valenciana",
     "description": "Posidonia Ecosports figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso",
+      "Fun Dive"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/posidonia-ecosports--e19735788",
-      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-muchamiel-con-instructor--o53070"
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-muchamiel-con-instructor--o53070",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-modulo-de-biologia-marina--o53127",
+      "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-equipo-completo-alicante--o53129"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2678,11 +3787,14 @@ export const centers: DiveCenter[] = [
     "services": [
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "cartagena"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/posidonia-turismo--e19711962",
-      "https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-snorkel-el-cabo-de-palos-con-fotos--o40398"
+      "https://www.yumping.com/ofertas/buceo/murcia/bautizo-de-snorkel-el-cabo-de-palos-con-fotos--o40398",
+      "https://www.yumping.com/ofertas/buceo/murcia/hacer-snorkel-en-cartagena-para-ver-la-posidonia--o40400"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2741,15 +3853,43 @@ export const centers: DiveCenter[] = [
       "Curso",
       "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "punta-marroqui-tarifa"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/puertobuceo--e19748925",
       "https://www.yumping.com/ofertas/buceo/cadiz/inmersion-de-buceo-en-la-costa-de-algeciras--o57620",
       "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-punta-de-europa-tarifa-3h--o57389",
-      "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-open-water-diver-en-tarifa-4-dias--o57419"
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-open-water-diver-en-tarifa-4-dias--o57419",
+      "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-piscina-en-tarifa-2-3-h--o57411",
+      "https://www.yumping.com/ofertas/buceo/cadiz/inmersion-doble-en-la-isla-de-tarifa-con-equipo--o57640",
+      "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-tarifa--o58881"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "punkfish-diving-14281",
+    "slug": "punkfish-diving-14281",
+    "name": "Punkfish Diving",
+    "location": "Fuencaliente",
+    "region": "Canarias",
+    "description": "Punkfish Diving es el centro organizador de las actividades de buceo vinculadas a esta ficha en Fuencaliente (Canarias). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Fun Dive",
+      "Curso"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/punkfish-diving--e14281",
+      "https://www.yumping.com/ofertas/buceo/la-palma/bautismo-de-buceo-en-fuencaliente-la-palma--o18138",
+      "https://www.yumping.com/ofertas/buceo/la-palma/inmersion-de-buceo-en-la-costa-de-malpique-2-horas--o19159",
+      "https://www.yumping.com/ofertas/buceo/la-palma/curso-de-buceo-open-water-en-costa-de-la-palma--o18142",
+      "https://www.yumping.com/ofertas/buceo/la-palma/curso-de-buceo-ssi-advanced-adventurer-en-la-palma--o25758"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "pura-vida-diving-19733439",
@@ -2759,13 +3899,19 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Pura Vida Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "playa-blanca-lanzarote"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/pura-vida-diving--e19733439",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceo-open-water-en-lanzarote--o43093"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceo-open-water-en-lanzarote--o43093",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-de-buceo-de-3-horas-en-lanzarote--o43092",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceo-scuba-diver--o43094",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-en-lanzarote-con-refresco--o43098"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2777,13 +3923,15 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad de Madrid",
     "description": "Quieres Bucear figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/quieres-bucear--e19763171",
-      "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-piscina-en-madrid-de-2-horas--o80025"
+      "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-piscina-en-madrid-de-2-horas--o80025",
+      "https://www.yumping.com/ofertas/buceo/madrid/curso-buceo-open-water-diver-padi-madrid-y-calpe--o46118"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2807,6 +3955,27 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "ruideraventura-19690707",
+    "slug": "ruideraventura-19690707",
+    "name": "Ruideraventura",
+    "location": "Lagunas de Ruidera",
+    "region": "Castilla-La Mancha",
+    "description": "Ruideraventura es el centro organizador de las actividades de buceo vinculadas a esta ficha en Lagunas de Ruidera (Castilla-La Mancha). Su catálogo en Buceo Atlas incluye Snorkel. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Snorkel",
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/multiaventura/ruideraventura--e19690707",
+      "https://www.yumping.com/ofertas/buceo/ciudad-real/alquiler-de-equipo-de-snorkel-lagunas-de-ruidera--o23938",
+      "https://www.yumping.com/ofertas/buceo/ciudad-real/travesia-guiada-de-snorkel-en-lagunas-de-ruidera--o23939",
+      "https://www.yumping.com/ofertas/buceo/ciudad-real/bautismo-de-buceo-en-las-lagunas-de-ruidera-2h--o23940"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "sa-caleta-tenerife-19643403",
     "slug": "sa-caleta-tenerife-19643403",
     "name": "Sa Caleta Tenerife",
@@ -2814,13 +3983,44 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Sa Caleta Tenerife figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo",
+      "Fun Dive"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/sa-caleta-tenerife--e19643403",
-      "https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-open-water-diver-padi-tenerife-4-dias--o52006"
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-open-water-diver-padi-tenerife-4-dias--o52006",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-el-mar-playa-de-las-vistas--o23281",
+      "https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-de-buceo-en-tenerife-5-horas--o52005"
+    ],
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "scuba-elx-19698424",
+    "slug": "scuba-elx-19698424",
+    "name": "Scuba-Elx",
+    "location": "Isla de Tabarca · Tabarca",
+    "region": "Comunidad Valenciana",
+    "description": "Scuba-Elx figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "services": [
+      "Bautismo",
+      "Curso",
+      "Snorkel",
+      "Fun Dive"
+    ],
+    "siteSlugs": [
+      "tabarca"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/scuba-elx--e19698424",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318",
+      "https://www.yumping.com/ofertas/buceo/alicante/snorkel-cerca-de-la-isla-tabarca-para-adultos-3-h--o48586",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-alrededores-isla-de-tabarca--o25323",
+      "https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-de-buceo-alrededor-de-isla-tabarca--o25328",
+      "https://www.yumping.com/ofertas/buceo/alicante/snorkel-para-ninos-cerca-de-la-isla-de-tabarca-3-h--o48594"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2833,14 +4033,20 @@ export const centers: DiveCenter[] = [
     "description": "Scuba Legends figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "puerto-del-carmen"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/scuba-legends--e19736335",
       "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-open-water-diver-en-lanzarote-3-dias--o54268",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-lanzarote-puerto-del-carmen--o54296"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-lanzarote-puerto-del-carmen--o54296",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-tecnico-padi-tec-45-gran-canaria--o54294",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/dos-inmersiones-buceadores-certificados-lanzarote--o54295",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/alquiler-equipo-de-buceo-completo-lanzarote-1-dia--o63690"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2876,28 +4082,6 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
-    "id": "scuba-elx-19698424",
-    "slug": "scuba-elx-19698424",
-    "name": "Scuba-Elx",
-    "location": "Isla de Tabarca · Tabarca",
-    "region": "Comunidad Valenciana",
-    "description": "Scuba-Elx figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
-    "services": [
-      "Bautismo",
-      "Curso",
-      "Snorkel"
-    ],
-    "siteSlugs": [],
-    "destinationSlugs": [],
-    "sources": [
-      "https://www.yumping.com/deportes-acuaticos/scuba-elx--e19698424",
-      "https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318",
-      "https://www.yumping.com/ofertas/buceo/alicante/snorkel-cerca-de-la-isla-tabarca-para-adultos-3-h--o48586",
-      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-alrededores-isla-de-tabarca--o25323"
-    ],
-    "checkedAt": "2026-10-04"
-  },
-  {
     "id": "scubaventura-9599",
     "slug": "scubaventura-9599",
     "name": "Scubaventura",
@@ -2905,13 +4089,17 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad de Madrid",
     "description": "Scubaventura figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/scubaventura--e9599",
-      "https://www.yumping.com/ofertas/buceo/madrid/curso-de-buceo-con-nitrox-en-madrid-2-dias--o66786"
+      "https://www.yumping.com/ofertas/buceo/madrid/curso-de-buceo-con-nitrox-en-madrid-2-dias--o66786",
+      "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-piscina-en-madrid--o15819",
+      "https://www.yumping.com/ofertas/buceo/madrid/advanced-open-water-boadilla-inmersiones-en-mar--o15834",
+      "https://www.yumping.com/ofertas/buceo/madrid/padi-open-water-en-villanueva-de-la-canada-y-denia--o15802"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2923,14 +4111,17 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "ScubAzul figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/scubazul--e19694933",
       "https://www.yumping.com/ofertas/buceo/malaga/bautismo-de-buceo-en-la-costa-de-malaga--o19109",
-      "https://www.yumping.com/ofertas/buceo/malaga/bautismo-de-buceo-para-2-personas-malaga--o18335"
+      "https://www.yumping.com/ofertas/buceo/malaga/bautismo-de-buceo-para-2-personas-malaga--o18335",
+      "https://www.yumping.com/ofertas/buceo/malaga/curso-de-buceo-open-water-diver-en-torremolinos--o16608",
+      "https://www.yumping.com/ofertas/buceo/malaga/curso-de-buceo-scuba-diver-de-padi-malaga--o19303"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2942,13 +4133,17 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Scubkandalus figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "punta-marroqui-tarifa"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/scubkandalus--e19752519",
-      "https://www.yumping.com/ofertas/buceo/cadiz/curso-de-buceo-de-nitrox-en-costa-de-tarifa--o62081"
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-de-buceo-de-nitrox-en-costa-de-tarifa--o62081",
+      "https://www.yumping.com/ofertas/buceo/cadiz/inmersion-de-buceo-en-solitario-con-guia-en-tarifa--o61943"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2960,13 +4155,20 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Sea Diver Instructors figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "santa-cruz-tenerife",
+      "radazul"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/sea-diver-instructors--e19753626",
-      "https://www.yumping.com/ofertas/buceo/tenerife/curso-owd-en-santa-cruz-de-tenerife-4-dias--o63050"
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-owd-en-santa-cruz-de-tenerife-4-dias--o63050",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-con-video-santa-cruz-de-tenerife--o63048",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-con-video-en-radazul-50-min--o63049",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-para-parejas-en-radazul-de-2h--o63076"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -2978,13 +4180,17 @@ export const centers: DiveCenter[] = [
     "region": "Andalucía",
     "description": "Sea&Sun Diving-Sport figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo",
+      "Snorkel"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/seasun-diving-sport--e19748359",
-      "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-en-cabo-de-gata--o59202"
+      "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-en-cabo-de-gata--o59202",
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-h--o59200",
+      "https://www.yumping.com/ofertas/buceo/almeria/ruta-de-snorkel-buceo-con-tubo-aguadulce--o20946"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3032,6 +4238,24 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "snorkel-lanzarote-19784935",
+    "slug": "snorkel-lanzarote-19784935",
+    "name": "Snorkel Lanzarote",
+    "location": "Yaiza",
+    "region": "Canarias",
+    "description": "Snorkel Lanzarote es el centro organizador de las actividades de buceo vinculadas a esta ficha en Yaiza (Canarias). Su catálogo en Buceo Atlas incluye Snorkel. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Snorkel"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/snorkel-lanzarote--e19784935",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/la-alta-gama-de-la-experiencia--o87884"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "sotacero-diving-19721722",
     "slug": "sotacero-diving-19721722",
     "name": "Sotacero Diving",
@@ -3047,7 +4271,8 @@ export const centers: DiveCenter[] = [
     "sources": [
       "https://www.yumping.com/buceo/sotacero-diving--e19721722",
       "https://www.yumping.com/ofertas/buceo/barcelona/primera-inmersion-de-buceo-en-el-mar-en-barcelona--o59703",
-      "https://www.yumping.com/ofertas/buceo/barcelona/curso-fedas-b1e-en-barcelona-1-semana--o59704"
+      "https://www.yumping.com/ofertas/buceo/barcelona/curso-fedas-b1e-en-barcelona-1-semana--o59704",
+      "https://www.yumping.com/ofertas/buceo/barcelona/bautismo-de-buceo-en-sitges-en-la-costa-dorada--o14141"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3096,6 +4321,68 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "subkro-19631997",
+    "slug": "subkro-19631997",
+    "name": "Subkro",
+    "location": "L'Ametlla de Mar",
+    "region": "Cataluña",
+    "description": "Subkro es el centro organizador de las actividades de buceo vinculadas a esta ficha en L'Ametlla de Mar (Cataluña). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Curso"
+    ],
+    "siteSlugs": [
+      "ametlla-mar",
+      "dragonera-tarragona"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/subkro--e19631997",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-lametlla-de-mar-con-fotos-3-h--o65819",
+      "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-open-water-tarragona--o5047",
+      "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-tarragona-con-fotos-y-video-3h--o62209"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "subparke-turismo-activo-3874",
+    "slug": "subparke-turismo-activo-3874",
+    "name": "Subparke Turismo Activo",
+    "location": "Níjar",
+    "region": "Andalucía",
+    "description": "Subparke Turismo Activo es el centro organizador de las actividades de buceo vinculadas a esta ficha en Níjar (Andalucía). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/multiaventura/subparke-turismo-activo--e3874",
+      "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o66202"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "sup-nava-mar-menor-19776833",
+    "slug": "sup-nava-mar-menor-19776833",
+    "name": "CaboXperiencia",
+    "location": "Cabo de Palos",
+    "region": "Murcia",
+    "description": "CaboXperiencia es el centro organizador de las actividades de buceo vinculadas a esta ficha en Cabo de Palos (Murcia). Su catálogo en Buceo Atlas incluye Snorkel. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Snorkel"
+    ],
+    "siteSlugs": [
+      "cabo-palos-reserva"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/kayaks/sup-nava-mar-menor--e19776833",
+      "https://www.yumping.com/ofertas/buceo/murcia/snorkel-a-motor-reserva-marina-cabo-de-palos-1h15--o91411"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "superdive-tossa-de-mar-19741634",
     "slug": "superdive-tossa-de-mar-19741634",
     "name": "SuperDive Tossa de Mar",
@@ -3106,14 +4393,17 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "mar-menuda"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/superdive-tossa-de-mar--e19741634",
       "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-tossa-de-mar-3-horas--o51268",
       "https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-en-tossa-de-mar-3-dias--o57559",
       "https://www.yumping.com/ofertas/buceo/girona/curso-open-water-diver-padi-lloret-de-mar--o13963",
-      "https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-tossa-de-mar-2-dias--o57563"
+      "https://www.yumping.com/ofertas/buceo/girona/curso-padi-advanced-open-water-tossa-de-mar-2-dias--o57563",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-bautismo-en-mar-en-tossa-de-mar-3-horas--o57555"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3136,6 +4426,26 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "take-off-ibiza-19644656",
+    "slug": "take-off-ibiza-19644656",
+    "name": "Take Off Ibiza",
+    "location": "Sant Antoni de Portmany",
+    "region": "Baleares",
+    "description": "Take Off Ibiza es el centro organizador de las actividades de buceo vinculadas a esta ficha en Sant Antoni de Portmany (Baleares). Su catálogo en Buceo Atlas incluye Fun Dive. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Fun Dive"
+    ],
+    "siteSlugs": [
+      "san-antonio-ibiza"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/deportes-acuaticos/take-off-ibiza--e19644656",
+      "https://www.yumping.com/ofertas/buceo/ibiza/alquiler-de-seabob-en-ibiza-durante-un-dia--o41830"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "tenerife-dive-experience-19753459",
     "slug": "tenerife-dive-experience-19753459",
     "name": "Tenerife Dive Experience",
@@ -3148,7 +4458,9 @@ export const centers: DiveCenter[] = [
       "Fun Dive",
       "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "santa-cruz-tenerife"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/tenerife-dive-experience--e19753459",
@@ -3158,9 +4470,28 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautizo-buceo-los-cristianos-desde-costa-2h-30-min--o61728",
       "https://www.yumping.com/ofertas/buceo/tenerife/snorkel-con-tortugas-en-la-costa-adeje-2h-30-min--o62824",
       "https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-buceo-en-tenerife-4h--o62823",
-      "https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-2-inmersiones-sur-de-tenerife-4h--o62816"
+      "https://www.yumping.com/es-MX/ofertas/buceo/tenerife/bautismo-de-buceo-2-inmersiones-sur-de-tenerife-4h--o62816",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-open-water-diver-alojamiento-tenerife-5-dias--o61742"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "teno-activo-7690",
+    "slug": "teno-activo-7690",
+    "name": "Teno Activo",
+    "location": "Santiago del Teide",
+    "region": "Canarias",
+    "description": "Teno Activo es el centro organizador de las actividades de buceo vinculadas a esta ficha en Santiago del Teide (Canarias). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/multiaventura/teno-activo--e7690",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-tenerife--o31552"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "the-blue-jump-ecodiving-19760820",
@@ -3170,13 +4501,18 @@ export const centers: DiveCenter[] = [
     "region": "Murcia",
     "description": "The Blue Jump Ecodiving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Snorkel"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "la-azohia"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/the-blue-jump-ecodiving--e19760820",
-      "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694"
+      "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",
+      "https://www.yumping.com/ofertas/buceo/murcia/snorkel-en-la-reserva-marina-de-cabo-tinoso-2h--o76698",
+      "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-apnea-en-cabo-tinoso-de-2-horas--o76699"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3191,12 +4527,17 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "mar-menuda"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/tossasub--e2204",
       "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-mar-discover-scuba-diving-en-mar-menuda--o61634",
-      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o65112"
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o65112",
+      "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-desde-barco-platja-daro--o30613",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-desde-platja-daro--o30619",
+      "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-nocturno-en-tossa-de-mar-2-dias--o68408"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3208,13 +4549,15 @@ export const centers: DiveCenter[] = [
     "region": "Baleares",
     "description": "Touradvisor figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Snorkel"
+      "Snorkel",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/touradvisor--e19712157",
-      "https://www.yumping.com/ofertas/buceo/mallorca/snorkeling-a-las-islas-malgrats-desde-un-barco--o44539"
+      "https://www.yumping.com/ofertas/buceo/mallorca/snorkeling-a-las-islas-malgrats-desde-un-barco--o44539",
+      "https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-la-bahia-de-palma-3-o-4-hs--o52236"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3226,16 +4569,52 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Travel Sub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Snorkel",
+      "Curso",
+      "Fauna",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "costa-adeje"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/travel-sub--e9738",
       "https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-advanced-open-water-diver-radazul--o15398",
-      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-radazul-tenerife--o15411"
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-radazul-tenerife--o15411",
+      "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-habitat-de-tortugas-tenerife--o18423",
+      "https://www.yumping.com/ofertas/buceo/tenerife/snorkeling-en-zona-de-habitat-de-tortugas-tenerife--o18476",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-divemaster-2-especialidades--o15407",
+      "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-en-costa-adeje-entre-tortugas--o18479",
+      "https://www.yumping.com/ofertas/buceo/tenerife/pack-de-5-inmersiones-de-buceo-en-la-costa-adeje--o18485",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-scuba-diver-costa-adeje--o18491",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-open-water-dive-costa-adeje--o18496",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-advanced-open-water-adeje--o18498",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-adventure-diver-tenerife--o18499",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-rescue-diver-tenerife--o18500",
+      "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-primeros-auxilios-padi-en-puerto-colon--o18503"
     ],
     "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "tsunami-diving-school-345",
+    "slug": "tsunami-diving-school-345",
+    "name": "Tsunami Diving School",
+    "location": "Madrid",
+    "region": "Comunidad de Madrid",
+    "description": "Tsunami Diving School es el centro organizador de las actividades de buceo vinculadas a esta ficha en Madrid (Comunidad de Madrid). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso"
+    ],
+    "siteSlugs": [],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/tsunami-diving-school--e345",
+      "https://www.yumping.com/ofertas/buceo/madrid/open-water-diver-madrid-practicas-altea-o-murcia--o20984",
+      "https://www.yumping.com/ofertas/buceo/madrid/curso-advanced-open-water-diver-en-madrid--o21075"
+    ],
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "underwater-barcelona-19785830",
@@ -3285,15 +4664,41 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad Valenciana",
     "description": "Vadum Maris Diving&Watersports figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
+      "Bautismo",
+      "Snorkel"
+    ],
+    "siteSlugs": [
+      "tabarca"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/vadum-maris-divingwatersports--e19756796",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-elche-3-horas--o67940",
+      "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-basic-diver-en-santa-pola-6-horas--o68243",
+      "https://www.yumping.com/ofertas/buceo/alicante/snorkel-en-la-reserva-marina-de-isla-de-tabarca--o68247"
+    ],
+    "checkedAt": "2026-10-04"
+  },
+  {
+    "id": "varadero-dive-19624917",
+    "slug": "varadero-dive-19624917",
+    "name": "Varadero Dive",
+    "location": "Sant Feliu de Guíxols",
+    "region": "Cataluña",
+    "description": "Varadero Dive es el centro organizador de las actividades de buceo vinculadas a esta ficha en Sant Feliu de Guíxols (Cataluña). Su catálogo en Buceo Atlas incluye Curso. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Curso",
       "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
-      "https://www.yumping.com/buceo/vadum-maris-divingwatersports--e19756796",
-      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-elche-3-horas--o67940"
+      "https://www.yumping.com/buceo/varadero-dive--e19624917",
+      "https://www.yumping.com/ofertas/buceo/girona/ssi-open-water-diver-en-la-costa-brava--o27619",
+      "https://www.yumping.com/ofertas/buceo/girona/scuba-skills-update-actualizacion-tecnicas-buceo--o27624",
+      "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-try-scuba-en-la-costa-brava--o27616"
     ],
-    "checkedAt": "2026-10-04"
+    "checkedAt": "2026-10-18"
   },
   {
     "id": "vidaxperience-19750740",
@@ -3303,13 +4708,19 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "VidaXperience figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Fun Dive",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "playa-chica"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/vidaxperience--e19750740",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-arrecife-30-minutos--o60308"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-arrecife-30-minutos--o60308",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-guiada-en-puerto-del-carmen-4h--o63610",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-open-water-diver-en-arrecife--o63612"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3332,6 +4743,30 @@ export const centers: DiveCenter[] = [
     "checkedAt": "2026-10-04"
   },
   {
+    "id": "windblue-diving-19735536",
+    "slug": "windblue-diving-19735536",
+    "name": "WindBlue Diving",
+    "location": "Playa Blanca",
+    "region": "Canarias",
+    "description": "WindBlue Diving es el centro organizador de las actividades de buceo vinculadas a esta ficha en Playa Blanca (Canarias). Su catálogo en Buceo Atlas incluye Bautismo. Confirma en la reserva el punto exacto de encuentro y horarios.",
+    "services": [
+      "Bautismo",
+      "Fun Dive"
+    ],
+    "siteSlugs": [
+      "playa-blanca-lanzarote"
+    ],
+    "destinationSlugs": [],
+    "sources": [
+      "https://www.yumping.com/buceo/windblue-diving--e19735536",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/iniciacion-al-buceo-en-yaiza--o45920",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-playa-blanca-lanzarote--o45941",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-museo-atlantico-de-lanzarote-2-inmersiones--o55668",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/doble-inmersion-guiada-en-lanzarote--o45943"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
     "id": "windblue-sports-19720798",
     "slug": "windblue-sports-19720798",
     "name": "Windblue Sports",
@@ -3339,13 +4774,24 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Windblue Sports figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Fun Dive"
+      "Fun Dive",
+      "Bautismo",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "playa-blanca-lanzarote"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/deportes-acuaticos/windblue-sports--e19720798",
-      "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o45915"
+      "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-en-lanzarote--o45915",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-de-buceo-en-playa-blanca-con-clase-teorica--o45655",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-yaiza-con-2-inmersiones--o45657",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote--o45670",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/doble-bautismo-de-buceo-en-playa-blanca--o45913",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/iniciacion-al-buceo-en-playa-blanca--o45940",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/dos-inmersiones-guiadas-en-lanzarote--o45942",
+      "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-por-el-museo-atlantico-2-horas-30-min--o64186"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3360,13 +4806,17 @@ export const centers: DiveCenter[] = [
       "Bautismo",
       "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "punta-marroqui-tarifa"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/yellowsub-tarifa--e3682",
       "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-desde-playa-en-tarifa--o17298",
       "https://www.yumping.com/ofertas/buceo/cadiz/curso-discover-scuba-diving-tarifa--o17300",
-      "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-advanced-diver-en-tarifa-3-dias--o17280"
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-advanced-diver-en-tarifa-3-dias--o17280",
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-scuba-diver-en-tarifa-de-3-dias--o17155",
+      "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-open-water-diver-en-tarifa-5-dias--o17277"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3388,7 +4838,8 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/barcelona/bautizo-de-buceo-en-piscina-barcelona-3-horas--o62498",
       "https://www.yumping.com/ofertas/buceo/barcelona/curso-open-water-dive-en-costa-brava-8-sesiones--o62505",
       "https://www.yumping.com/ofertas/buceo/barcelona/titulo-advanced-open-water-diver-en-barcelona--o62501",
-      "https://www.yumping.com/ofertas/buceo/barcelona/curso-scuba-diver-en-barcelona-3-dias--o62500"
+      "https://www.yumping.com/ofertas/buceo/barcelona/curso-scuba-diver-en-barcelona-3-dias--o62500",
+      "https://www.yumping.com/ofertas/buceo/barcelona/bautizo-de-buceo-en-mar-barcelona-3-horas--o62496"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3401,14 +4852,21 @@ export const centers: DiveCenter[] = [
     "description": "Yo Buceo Cartagena figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "cartagena"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/yo-buceo-cartagena--e7262",
       "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-mar-cartagena--o30789",
-      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-open-water-diver-en-cartagena--o62455"
+      "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-open-water-diver-en-cartagena--o62455",
+      "https://www.yumping.com/ofertas/buceo/murcia/inmersion-doble-en-cartagena--o30792",
+      "https://www.yumping.com/ofertas/buceo/murcia/inmersion-en-cabo-tinoso-sin-material--o54448",
+      "https://www.yumping.com/ofertas/buceo/murcia/doble-inmersion-por-cabo-tinoso-con-equipo-buceo--o54450",
+      "https://www.yumping.com/ofertas/buceo/murcia/inmersion-en-cabo-tinoso-con-equipo-buceo--o54449"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3420,13 +4878,17 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad de Madrid",
     "description": "Yo Buceo Madrid figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Bautismo"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/yo-buceo-madrid--e7212",
-      "https://www.yumping.com/ofertas/buceo/madrid/open-water-diver-en-madrid-y-levante-con-extras--o35732"
+      "https://www.yumping.com/ofertas/buceo/madrid/open-water-diver-en-madrid-y-levante-con-extras--o35732",
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-torrevieja-o-cartagena--o37324",
+      "https://www.yumping.com/ofertas/buceo/madrid/bautizo-de-buceo-en-piscina-cubierta--o23941",
+      "https://www.yumping.com/ofertas/buceo/madrid/experiencia-try-scuba-diving-madrid--o23955"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3438,13 +4900,16 @@ export const centers: DiveCenter[] = [
     "region": "Castilla-La Mancha",
     "description": "Yo Buceo Toledo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/yo-buceo-toledo--e19753068",
-      "https://www.yumping.com/ofertas/buceo/toledo/buceo-de-bautismo-en-aguas-confinadas-en-toledo--o62508"
+      "https://www.yumping.com/ofertas/buceo/toledo/buceo-de-bautismo-en-aguas-confinadas-en-toledo--o62508",
+      "https://www.yumping.com/ofertas/buceo/toledo/curso-de-buceo-open-water-diver-en-toledo--o68488",
+      "https://www.yumping.com/ofertas/buceo/toledo/curso-de-buceo-scuba-diver-toledo-2-dias--o68490"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3456,13 +4921,16 @@ export const centers: DiveCenter[] = [
     "region": "Comunidad Valenciana",
     "description": "Yo Buceo Torrevieja figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Bautismo"
+      "Bautismo",
+      "Curso"
     ],
     "siteSlugs": [],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/yo-buceo-torrevieja--e19636211",
-      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-mar-costa-blanca--o23943"
+      "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-mar-costa-blanca--o23943",
+      "https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-en-torrevieja-alicante--o31630",
+      "https://www.yumping.com/ofertas/buceo/alicante/padi-open-water-diver-en-torrevieja-4-dias--o31629"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3474,9 +4942,12 @@ export const centers: DiveCenter[] = [
     "region": "Canarias",
     "description": "Zeus Dive Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
-      "Curso"
+      "Curso",
+      "Fun Dive"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "maspalomas-buceo"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/zeus-dive-center--e19719839",
@@ -3484,7 +4955,11 @@ export const centers: DiveCenter[] = [
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-sidemount-padi-maspalomas--o40462",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-divemaster-de-padi-en-maspalomas--o40460",
       "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-buceo-advanced-open-water-diver-maspalomas--o40424",
-      "https://www.yumping.com/ofertas/buceo/gran-canaria/hacer-el-curso-de-buceo-nitrox-padi-en-maspalomas--o40553"
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/hacer-el-curso-de-buceo-nitrox-padi-en-maspalomas--o40553",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-de-buceo-maspalomas-con-material-buceo--o34390",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-open-water-diver-playa-del-ingles--o63765",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/alquiler-material-de-buceo-en-maspalomas--o63775",
+      "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-nocturno-de-padi-en-maspalomas--o40563"
     ],
     "checkedAt": "2026-10-04"
   },
@@ -3497,18 +4972,27 @@ export const centers: DiveCenter[] = [
     "description": "Zoea Mallorca figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
     "services": [
       "Bautismo",
-      "Fun Dive"
+      "Fun Dive",
+      "Curso"
     ],
-    "siteSlugs": [],
+    "siteSlugs": [
+      "malgrats"
+    ],
     "destinationSlugs": [],
     "sources": [
       "https://www.yumping.com/buceo/zoea-mallorca--e9078",
       "https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-reserva-marina-de-malgrats--o54957",
-      "https://www.yumping.com/ofertas/buceo/mallorca/inmersion-en-reserva-marina-de-mallorca-con-equipo--o54959"
+      "https://www.yumping.com/ofertas/buceo/mallorca/inmersion-en-reserva-marina-de-mallorca-con-equipo--o54959",
+      "https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-iniciacion-en-calvia-open-water-diver--o54960",
+      "https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",
+      "https://www.yumping.com/ofertas/buceo/mallorca/buceo-en-mallorca-con-el-sistema-peter-diving--o35955",
+      "https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",
+      "https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954"
     ],
     "checkedAt": "2026-10-04"
   }
 ];
+
 export const centerActivityLinks: CenterActivityLink[] = [
   {
     "activitySlug": "inmersion-de-buceo-tenerife-con-alquiler-de-equipo-50921",
@@ -6179,5 +7663,2573 @@ export const centerActivityLinks: CenterActivityLink[] = [
     "centerId": "mardays-dive-resort-19698976",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",
     "checkedAt": "2026-10-04"
+  },
+  {
+    "activitySlug": "ssi-open-water-diver-en-la-costa-brava-27619",
+    "centerId": "varadero-dive-19624917",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/ssi-open-water-diver-en-la-costa-brava--o27619",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "scuba-skills-update-actualizacion-tecnicas-buceo-27624",
+    "centerId": "varadero-dive-19624917",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/scuba-skills-update-actualizacion-tecnicas-buceo--o27624",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "ssi-basic-diver-en-tenerife-5-horas-56621",
+    "centerId": "medanodive-19748521",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/ssi-basic-diver-en-tenerife-5-horas--o56621",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-advanced-open-water-diver-en-calahonda-87973",
+    "centerId": "club-de-buceo-noraysub-19754166",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-diver-en-calahonda--o87973",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-tarragona-3-horas-61646",
+    "centerId": "mar-de-hielo-19752104",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-tarragona-3-horas--o61646",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-diver-alojamiento-tenerife-5-dias-61742",
+    "centerId": "tenerife-dive-experience-19753459",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-open-water-diver-alojamiento-tenerife-5-dias--o61742",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-torredembarra-2-horas-61752",
+    "centerId": "mar-de-hielo-19752104",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-torredembarra-2-horas--o61752",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-dos-estrellas-fedas-tarragona-61753",
+    "centerId": "mar-de-hielo-19752104",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-dos-estrellas-fedas-tarragona--o61753",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-advanced-open-water-en-las-galletas-tenerife-31299",
+    "centerId": "buceo-tenerife-3880",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/padi-advanced-open-water-en-las-galletas-tenerife--o31299",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-padi-rescue-diver-las-galletas-tenerife-31301",
+    "centerId": "buceo-tenerife-3880",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-padi-rescue-diver-las-galletas-tenerife--o31301",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-divemaster-en-las-galletas-tenerife-31303",
+    "centerId": "buceo-tenerife-3880",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/padi-divemaster-en-las-galletas-tenerife--o31303",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "combo-advanced-open-water-diver-y-nitrox-tenerife-50923",
+    "centerId": "buceo-tenerife-3880",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/combo-advanced-open-water-diver-y-nitrox-tenerife--o50923",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-primeros-auxilios-para-buceo-en-tenerife-50925",
+    "centerId": "buceo-tenerife-3880",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-primeros-auxilios-para-buceo-en-tenerife--o50925",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-pareja-playa-cabrera-de-mar-3h-14141",
+    "centerId": "sotacero-diving-19721722",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/barcelona/bautismo-de-buceo-en-sitges-en-la-costa-dorada--o14141",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-try-scuba-en-la-costa-brava-27616",
+    "centerId": "varadero-dive-19624917",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-try-scuba-en-la-costa-brava--o27616",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-open-water-diver-en-tarifa-2-3-dias-12424",
+    "centerId": "buddha-divers-19760797",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-open-water-diver-en-tarifa-3-4-dias--o12424",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-reserva-natural-de-tarifa-1h30min-88734",
+    "centerId": "buddha-divers-19760797",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/snorkel-en-reserva-natural-de-tarifa-1h30min--o88734",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-piscina-en-valladolid-sabados-54790",
+    "centerId": "arvalis-5845",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valladolid/bautismo-de-buceo-en-piscina-en-valladolid-sabados--o54790",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-playa-cavet-de-cambrils-3864",
+    "centerId": "glups-diving-8875",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-playa-cavet-de-cambrils--o3864",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-buceo-en-zona-de-tortugas-puerto-colon-3h-18423",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-habitat-de-tortugas-tenerife--o18423",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-area-de-tortugas-desde-puerto-colon-2h-18476",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/snorkeling-en-zona-de-habitat-de-tortugas-tenerife--o18476",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-cabo-de-gata-con-material-3h-41212",
+    "centerId": "isub-san-jose-1284",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-en-cabo-de-gata-con-material-3h--o41212",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-mar-barcelona-3-horas-62496",
+    "centerId": "yo-buceo-barcelona-19753070",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/barcelona/bautizo-de-buceo-en-mar-barcelona-3-horas--o62496",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-torrevieja-o-cartagena-37324",
+    "centerId": "yo-buceo-madrid-7212",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-torrevieja-o-cartagena--o37324",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-piscina-en-illescas-3-horas-62792",
+    "centerId": "bubbles-toledo-19753326",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/toledo/bautizo-de-buceo-en-piscina-en-illescas-3-horas--o62792",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-radazul-30min-fotos-88757",
+    "centerId": "el-cardumen-4042",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-puerto-de-la-cruz-30min-fotos--o88757",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-costa-de-malpique-2-18138",
+    "centerId": "punkfish-diving-14281",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/la-palma/bautismo-de-buceo-en-fuencaliente-la-palma--o18138",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-desde-barco-en-calpe-2-horas-1235",
+    "centerId": "dive-dive-3623",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o1235",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-guiada-en-radazul-25475",
+    "centerId": "diving-canarias-19696353",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-guiada-en-radazul--o25475",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-doble-en-cartagena-4-horas-30792",
+    "centerId": "yo-buceo-cartagena-7262",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/inmersion-doble-en-cartagena--o30792",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-puerto-de-la-restinga-3h-35178",
+    "centerId": "ds-divers-el-hierro-19865920",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/el-hierro/bautismo-de-buceo-en-la-restinga-el-hierro--o35178",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-por-cabo-de-gata-nijar-3-horas-59200",
+    "centerId": "sea-sun-diving-sport-19748359",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-h--o59200",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "paseo-en-barco-y-snorkeling-maro-cerro-gordo-36124",
+    "centerId": "buceo-marina-19725165",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/paseo-en-barco-y-snorkeling-maro-cerro-gordo--o36124",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-el-pn-de-cabo-de-gata-28171",
+    "centerId": "isub-san-jose-1284",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/inmersion-de-buceo-en-el-pn-de-cabo-de-gata--o28171",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-open-water-diver-en-san-jose-19921",
+    "centerId": "isub-san-jose-1284",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-padi-open-water-diver-en-san-jose--o19921",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "salida-de-buceo-con-tubo-san-jose-28184",
+    "centerId": "isub-san-jose-1284",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/salida-de-buceo-con-tubo-san-jose--o28184",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-recuerdo-scuba-diver-san-jose-de-nijar-57486",
+    "centerId": "isub-san-jose-1284",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/inmersion-recuerdo-scuba-diver-san-jose-de-nijar--o57486",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-lanzarote-2-horas-y-30-min-37276",
+    "centerId": "lanzarote-non-stop-divers-19720740",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-lanzarote-2-horas-y-30-min--o37276",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-buceo-en-el-museo-atlantico-lanzarote-51133",
+    "centerId": "alisios-sub-lanzarote-19695222",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-buceo-en-el-museo-atlantico-lanzarote--o51133",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-en-cabo-tinoso-sin-material-54448",
+    "centerId": "yo-buceo-cartagena-7262",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/inmersion-en-cabo-tinoso-sin-material--o54448",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-scuba-diver-en-tossa-de-mar-14623",
+    "centerId": "dream-dive-3506",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-scuba-diver-en-tossa-de-mar--o14623",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-diver-en-tossa-de-mar-14627",
+    "centerId": "dream-dive-3506",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o14627",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-advanced-open-water-tossa-de-mar-14636",
+    "centerId": "dream-dive-3506",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-advanced-open-water-tossa-de-mar--o14636",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "especialidades-de-buceo-en-tossa-de-mar-14642",
+    "centerId": "dream-dive-3506",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/especialidades-de-buceo-en-tossa-de-mar--o14642",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceador-una-estrella-en-cabo-de-palos-14988",
+    "centerId": "centro-de-buceo-naranjito-12156",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/curso-buceador-una-estrella-en-cabo-de-palos--o14988",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-scuba-diver-en-tenerife-1-2-dias-15397",
+    "centerId": "diving-atlantis-19728197",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-acuc-en-radazul-tenerife--o15397",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-divemaster-en-puerto-colon-2-semanas-15407",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-divemaster-2-especialidades--o15407",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-rescue-diver-en-playa-la-arena-3-dias-15408",
+    "centerId": "diving-atlantis-19728197",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-buceo-de-rescate-rescue-diver-radazul--o15408",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "dos-inmersiones-de-buceo-desde-barco-puerto-colon-15426",
+    "centerId": "diving-atlantis-19728197",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-desde-barco-para-titulados--o15426",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-la-costa-de-malpique-2h-19159",
+    "centerId": "punkfish-diving-14281",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/la-palma/inmersion-de-buceo-en-la-costa-de-malpique-2-horas--o19159",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-cerca-de-motril-3h-4716",
+    "centerId": "glup-glup-19709039",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-cerca-de-motril--o4716",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-mar-penon-de-salobrena-3h-28657",
+    "centerId": "glup-glup-19709039",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-mar-penon-de-salobrena-3h--o28657",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-playa-del-jablito-en-la-oliva-70781",
+    "centerId": "centro-de-buceo-tribuo-19757878",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/fuerteventura/bautizo-de-buceo-en-playa-del-jablito-en-la-oliva--o70781",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-advanced-open-water-en-l-1315",
+    "centerId": "club-dofi-sub-7534",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-advanced-open-water-en-lametlla-de-mar--o1315",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-rescue-diver-en-l-1316",
+    "centerId": "club-dofi-sub-7534",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-rescue-diver-en-lametlla-de-mar--o1316",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-divemaster-en-l-1317",
+    "centerId": "club-dofi-sub-7534",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-divemaster-en-lametlla-de-mar--o1317",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-primeros-auxilios-efr-dea-ametlla-de-mar-1318",
+    "centerId": "club-dofi-sub-7534",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-primeros-auxilios-efr-dea-ametlla-de-mar--o1318",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "pack-10-inmersiones-desde-barco-o-playa-l-1952",
+    "centerId": "club-dofi-sub-7534",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/pack-10-inmersiones-desde-barco-o-playa-lametlla--o1952",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-diver-en-cambrils-3865",
+    "centerId": "glups-diving-8875",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/padi-open-water-diver-en-cambrils--o3865",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-fedas-nivel-iniciacion-5508",
+    "centerId": "centro-de-buceo-costa-palancia-392",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/curso-de-buceo-fedas-nivel-iniciacion--o5508",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-open-water-advanced-javea-13200",
+    "centerId": "centro-de-buceo-puerto-de-javea-3876",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-buceo-open-water-advanced-javea--o13200",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-canet-y-alquiler-de-botella-13626",
+    "centerId": "centro-de-buceo-costa-palancia-392",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/inmersion-de-buceo-en-canet-y-alquiler-de-botella--o13626",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-playa-de-barcelona-2-horas-13960",
+    "centerId": "dive-center-barcelona-19765577",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/barcelona/bautismo-de-buceo-en-piscina-en-barcelona-3h--o13960",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-vilafranca-del-penedes-14143",
+    "centerId": "maskydiving-19631792",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/barcelona/bautismo-de-buceo-en-vilafranca-del-penedes--o14143",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "scuba-review-padi-en-pobla-de-farnals-1-dia-26671",
+    "centerId": "buceo-valencia-19635236",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/scuba-review-padi-en-pobla-de-farnals-1-dia--o26671",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-advanced-open-water-pobla-de-farnals-2-dias-26710",
+    "centerId": "buceo-valencia-19635236",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/padi-advanced-open-water-pobla-de-farnals-2-dias--o26710",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-medic-first-aid-en-pobla-de-farnals-2-dias-26713",
+    "centerId": "buceo-valencia-19635236",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/padi-medic-first-aid-en-pobla-de-farnals-2-dias--o26713",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-rescue-diver-en-pobla-de-farnals-4-dias-26714",
+    "centerId": "buceo-valencia-19635236",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/padi-rescue-diver-en-pobla-de-farnals-4-dias--o26714",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-divemaster-en-pobla-de-farnals-60-horas-26720",
+    "centerId": "buceo-valencia-19635236",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/padi-divemaster-en-pobla-de-farnals-60-horas--o26720",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-con-nitrox-en-la-pobla-de-farnals-1-dia-27000",
+    "centerId": "buceo-valencia-19635236",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/buceo-con-nitrox-en-la-pobla-de-farnals-1-dia--o27000",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-iniciacion-al-buceo-open-water-arona-27410",
+    "centerId": "ocean-dreams-tenerife-19703349",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-iniciacion-al-buceo-open-water-arona--o27410",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diving-padi-en-cabo-de-palos-27486",
+    "centerId": "buceo-alcala-19707835",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/discover-scuba-diving-padi-en-cabo-de-palos--o27486",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-fedas-buceador-2-estrellas-en-canet-27638",
+    "centerId": "centro-de-buceo-costa-palancia-392",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/curso-buceador-profesional-basico-valencia--o27638",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-discover-scuba-diving-en-mojacar-28582",
+    "centerId": "calamar-gigante-19776791",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/padi-discover-scuba-diving-en-mojacar--o28582",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-buceo-piscina-villanueva-de-la-canada-3h-15819",
+    "centerId": "scubaventura-9599",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-piscina-en-madrid--o15819",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "advanced-open-water-villanueva-inmersiones-en-mar-15834",
+    "centerId": "scubaventura-9599",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/advanced-open-water-boadilla-inmersiones-en-mar--o15834",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-scuba-diver-en-tarifa-de-3-dias-17155",
+    "centerId": "yellowsub-tarifa-3682",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-scuba-diver-en-tarifa-de-3-dias--o17155",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-open-water-diver-en-tarifa-5-dias-17277",
+    "centerId": "yellowsub-tarifa-3682",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/curso-padi-open-water-diver-en-tarifa-5-dias--o17277",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-costa-adeje-entre-tortugas-18479",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-en-costa-adeje-entre-tortugas--o18479",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "pack-de-5-inmersiones-de-buceo-en-la-costa-adeje-18485",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/pack-de-5-inmersiones-de-buceo-en-la-costa-adeje--o18485",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-padi-scuba-diver-costa-adeje-18491",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-scuba-diver-costa-adeje--o18491",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-padi-open-water-dive-costa-adeje-18496",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-open-water-dive-costa-adeje--o18496",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-padi-advanced-open-water-adeje-18498",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-advanced-open-water-adeje--o18498",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-padi-adventure-diver-tenerife-18499",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-adventure-diver-tenerife--o18499",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-padi-rescue-diver-tenerife-18500",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-rescue-diver-tenerife--o18500",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-primeros-auxilios-padi-en-puerto-colon-18503",
+    "centerId": "travel-sub-9738",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-primeros-auxilios-padi-en-puerto-colon--o18503",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-con-botella-en-la-restinga-19587",
+    "centerId": "ds-divers-el-hierro-19865920",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/el-hierro/inmersion-de-buceo-con-botella-en-la-restinga--o19587",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-tias-lanzarote-19777",
+    "centerId": "alisios-sub-lanzarote-19695222",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-tias-lanzarote--o19777",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-iniciacion-al-buceo-en-lanzarote-owd-19785",
+    "centerId": "alisios-sub-lanzarote-19695222",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-iniciacion-al-buceo-en-lanzarote-owd--o19785",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "ssi-open-water-en-arinaga-28702",
+    "centerId": "buceo-pandora-19690666",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/padi-open-water-en-arinaga--o28702",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-diver-en-la-restinga-4-dias-29104",
+    "centerId": "ds-divers-el-hierro-19865920",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/el-hierro/padi-open-water-diver-en-la-restinga-tenerife--o29104",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-profundo-en-tenerife-29111",
+    "centerId": "diving-canarias-19696353",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-profundo-en-tenerife--o29111",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-diver-en-almunecar-4-dias-29750",
+    "centerId": "almunecar-dive-center-3665",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/padi-open-water-diver-en-almunecar-4-dias--o29750",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-advanced-open-water-en-almunecar-2-dias-29755",
+    "centerId": "almunecar-dive-center-3665",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-en-almunecar-2-dias--o29755",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-padi-scuba-diver-en-almunecar-2-dias-29775",
+    "centerId": "almunecar-dive-center-3665",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-padi-scuba-diver-en-almunecar-2-dias--o29775",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-rescue-diver-en-almunecar-2-dias-29778",
+    "centerId": "almunecar-dive-center-3665",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-rescue-diver-en-almunecar-2-dias--o29778",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-teorico-de-nitrox-en-almunecar-1-dia-29786",
+    "centerId": "almunecar-dive-center-3665",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-teorico-de-nitrox-en-almunecar-1-dia--o29786",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-con-equipo-en-almunecar-29840",
+    "centerId": "almunecar-dive-center-3665",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/inmersion-con-equipo-en-almunecar--o29840",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-almunecar-granada-29841",
+    "centerId": "almunecar-dive-center-3665",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-almunecar-granada--o29841",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-advanced-open-water-diver-4-dias-20551",
+    "centerId": "mirafondos-5916",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-advanced-open-water-diver-4-dias--o20551",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-open-water-diver-1-fedas-en-lugo-20751",
+    "centerId": "buceo-costa-lugo-19688327",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lugo/curso-de-open-water-diver-1-fedas-en-lugo--o20751",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "ruta-de-snorkel-por-cabo-de-gata-nijar-2h30m-20946",
+    "centerId": "sea-sun-diving-sport-19748359",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/ruta-de-snorkel-buceo-con-tubo-aguadulce--o20946",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "open-water-diver-madrid-practicas-altea-o-murcia-20984",
+    "centerId": "tsunami-diving-school-345",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/open-water-diver-madrid-practicas-altea-o-murcia--o20984",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "pack-4-inmersiones-buceo-en-canet-1-gratis-21013",
+    "centerId": "centro-de-buceo-costa-palancia-392",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/pack-4-inmersiones-buceo-en-canet-1-gratis--o21013",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-advanced-open-water-diver-en-madrid-21075",
+    "centerId": "tsunami-diving-school-345",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/curso-advanced-open-water-diver-en-madrid--o21075",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-advanced-open-water-diver-cambrils-21164",
+    "centerId": "glups-diving-8875",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-cambrils--o21164",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-la-costa-de-arona-22981",
+    "centerId": "ocean-dreams-tenerife-19703349",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-la-costa-de-arona--o22981",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-el-mar-playa-de-las-vistas-23281",
+    "centerId": "sa-caleta-tenerife-19643403",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-el-mar-playa-de-las-vistas--o23281",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-arona-con-traslado-23736",
+    "centerId": "ocean-dreams-tenerife-19703349",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/inmersion-de-buceo-en-arona-con-traslado--o23736",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-de-equipo-de-snorkel-lagunas-de-ruidera-23938",
+    "centerId": "ruideraventura-19690707",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/ciudad-real/alquiler-de-equipo-de-snorkel-lagunas-de-ruidera--o23938",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "travesia-guiada-de-snorkel-en-lagunas-de-ruidera-23939",
+    "centerId": "ruideraventura-19690707",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/ciudad-real/travesia-guiada-de-snorkel-en-lagunas-de-ruidera--o23939",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-las-lagunas-de-ruidera-2h-23940",
+    "centerId": "ruideraventura-19690707",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/ciudad-real/bautismo-de-buceo-en-las-lagunas-de-ruidera-2h--o23940",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-piscina-cubierta-23941",
+    "centerId": "yo-buceo-madrid-7212",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/bautizo-de-buceo-en-piscina-cubierta--o23941",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "pack-cursos-first-aids-proveedor-o2-desa-y-svb-25266",
+    "centerId": "centro-de-buceo-splash-3877",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/navarra/pack-cursos-first-aids-proveedor-o2-desa-y-svb--o25266",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-desde-playa-de-la-mar-menuda-3h-30613",
+    "centerId": "tossasub-2204",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-desde-barco-platja-daro--o30613",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-ssi-advanced-open-water-desde-tossa-de-mar-30619",
+    "centerId": "tossasub-2204",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-padi-open-water-desde-platja-daro--o30619",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-marbella-30932",
+    "centerId": "h2o-sports-4617",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/bautizo-de-buceo-en-marbella--o30932",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-advanced-open-water-en-torrevieja-alicante-31630",
+    "centerId": "yo-buceo-torrevieja-19636211",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-en-torrevieja-alicante--o31630",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersiones-de-buceo-en-tenerife-10-sesiones-33360",
+    "centerId": "ocean-dreams-tenerife-19703349",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-de-buceo-en-tenerife-10-sesiones--o33360",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-maspalomas-con-material-buceo-34390",
+    "centerId": "zeus-dive-center-19719839",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-de-buceo-maspalomas-con-material-buceo--o34390",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "excursion-de-snorkel-en-cap-de-creus-2-30-horas-35281",
+    "centerId": "diving-combat-19679828",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/excursion-de-snorkel-en-cap-de-creus-2-30-horas--o35281",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-padi-ametlla-de-mar-35697",
+    "centerId": "marina-diving-tarragona-19724742",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-open-water-padi-ametlla-de-mar--o35697",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-desde-barco-cala-de-mal-pas-36121",
+    "centerId": "diving-stones-19621453",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-la-playa-cala-de-mal-pas--o36121",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-dive-master-en-benidorm-36293",
+    "centerId": "diving-stones-19621453",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-dive-master-en-benidorm--o36293",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "excursion-de-buceo-con-titulacion-en-lugo-1-hora-36585",
+    "centerId": "maremasma-19718363",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lugo/excursion-de-buceo-con-titulacion-en-lugo-1-hora--o36585",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "salida-de-buceo-en-santiago-de-compostela-36612",
+    "centerId": "mergullo-compostela-4581",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/acoruna/salida-de-buceo-en-santiago-de-compostela--o36612",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-con-instructor-en-lugo-2-horas-42328",
+    "centerId": "maremasma-19718363",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lugo/bautismo-de-buceo-con-instructor-en-lugo-2-horas--o42328",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diving-en-menorca-playa-de-binibeca-42831",
+    "centerId": "binibeca-diving-19733245",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/discover-scuba-diving-en-menorca-playa-de-binibeca--o42831",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "tour-de-snorkel-por-la-isla-del-aire-1-hora-30-min-42832",
+    "centerId": "binibeca-diving-19733245",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/tour-de-snorkel-por-la-isla-del-aire-1-hora-30-min--o42832",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-desde-playa-flamingo-3-horas-43092",
+    "centerId": "pura-vida-diving-19733439",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-de-buceo-de-3-horas-en-lanzarote--o43092",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-scuba-diver-ssi-playa-flamingo-2-dias-43094",
+    "centerId": "pura-vida-diving-19733439",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-buceo-scuba-diver--o43094",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-en-lanzarote-con-refresco-43098",
+    "centerId": "pura-vida-diving-19733439",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-en-lanzarote-con-refresco--o43098",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-salou-2-horas-44208",
+    "centerId": "diving-salou-19733479",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-salou-3-horas--o44208",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-buceo-en-playa-blanca-con-clase-teorica-3h-45655",
+    "centerId": "windblue-sports-19720798",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-de-buceo-en-playa-blanca-con-clase-teorica--o45655",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-yaiza-con-2-inmersiones-45657",
+    "centerId": "windblue-sports-19720798",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-yaiza-con-2-inmersiones--o45657",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-en-lanzarote-3-4-dias-45670",
+    "centerId": "windblue-sports-19720798",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote--o45670",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "doble-bautismo-buceo-playa-blanca-fotos-y-videos-45913",
+    "centerId": "windblue-sports-19720798",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/doble-bautismo-de-buceo-en-playa-blanca--o45913",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "iniciacion-al-buceo-en-yaiza-3h-45920",
+    "centerId": "windblue-diving-19735536",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/iniciacion-al-buceo-en-yaiza--o45920",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "iniciacion-al-buceo-en-playa-blanca-3h-45940",
+    "centerId": "windblue-sports-19720798",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/iniciacion-al-buceo-en-playa-blanca--o45940",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-playa-blanca-lanzarote-3h-45941",
+    "centerId": "windblue-diving-19735536",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-playa-blanca-lanzarote--o45941",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "dos-inmersiones-guiadas-en-lanzarote-45942",
+    "centerId": "windblue-sports-19720798",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/dos-inmersiones-guiadas-en-lanzarote--o45942",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-primeros-auxilios-en-playa-dorada-37281",
+    "centerId": "lanzarote-non-stop-divers-19720740",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-primeros-auxilios-en-playa-dorada--o37281",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-con-nitrox-en-gran-canaria-6-horas-37455",
+    "centerId": "mirafondos-5916",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-con-nitrox-en-gran-canaria-6-horas--o37455",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-con-tortugas-bahia-de-las-rayas-38210",
+    "centerId": "diving-atlantis-19728197",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-con-tortugas-en-playa-la-arena--o38210",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-avanzado-de-buceo-en-aguas-abiertas-en-altea-38369",
+    "centerId": "greenwichdiving-10759",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-avanzado-de-buceo-en-aguas-abiertas-en-altea--o38369",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-scuba-diver-playa-puerto-rico-2-dias-38743",
+    "centerId": "blue-water-diving-19725514",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-padi-scuba-diver--o38743",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-gran-canaria-4-horas-38745",
+    "centerId": "blue-water-diving-19725514",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/inmersion-de-buceo-en-gran-canaria-4-horas--o38745",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "dos-inmersiones-de-buceo-desde-playa-en-tenerife-39501",
+    "centerId": "diving-atlantis-19728197",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/inmersiones-para-buceadores-titulados-en-tenerife--o39501",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-las-galletas-tenerife-de-2h-y-30-min-39669",
+    "centerId": "brisubuceo-19763265",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/snorkel-en-las-galletas-tenerife-de-2h-y-30-min--o39669",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-open-water-diver-en-miami-platja-3-dias-41538",
+    "centerId": "ohana-diving-19866849",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-open-water-diver-torredembarra--o41538",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-modulo-de-biologia-marina-53127",
+    "centerId": "posidonia-ecosports-19735788",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-modulo-de-biologia-marina--o53127",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-equipo-completo-alicante-53129",
+    "centerId": "posidonia-ecosports-19735788",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-equipo-completo-alicante--o53129",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-open-water-diver-en-salou-3-5-dias-53746",
+    "centerId": "diving-salou-19733479",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-open-water-diver-en-salou-3-5-dias--o53746",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-tecnico-padi-tec-45-gran-canaria-54294",
+    "centerId": "scuba-legends-19736335",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-tecnico-padi-tec-45-gran-canaria--o54294",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "dos-inmersiones-buceadores-certificados-lanzarote-54295",
+    "centerId": "scuba-legends-19736335",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/dos-inmersiones-buceadores-certificados-lanzarote--o54295",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "doble-inmersion-por-cabo-tinoso-con-equipo-buceo-54450",
+    "centerId": "yo-buceo-cartagena-7262",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/doble-inmersion-por-cabo-tinoso-con-equipo-buceo--o54450",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-primeros-auxilios-efr-y-dea-salou-54769",
+    "centerId": "diving-salou-19733479",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-buceo-primeros-auxilios-efr-y-dea-salou--o54769",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-rescue-diver-en-salou-54770",
+    "centerId": "diving-salou-19733479",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-rescue-diver-en-salou--o54770",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-iniciacion-en-calvia-open-water-diver-54960",
+    "centerId": "zoea-mallorca-9078",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/mallorca/curso-buceo-iniciacion-en-calvia-open-water-diver--o54960",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-divemaster-padi-salou-buceador-profesional-54996",
+    "centerId": "diving-salou-19733479",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-divemaster-padi-salou-buceador-profesional--o54996",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-de-equipo-para-snorkel-en-caleta-de-fuste-55344",
+    "centerId": "deep-blue-diving-4028",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/fuerteventura/alquiler-de-equipo-para-snorkel-en-caleta-de-fuste--o55344",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-museo-atlantico-lanzarote-1-inmersion-4h-55668",
+    "centerId": "windblue-diving-19735536",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-museo-atlantico-de-lanzarote-2-inmersiones--o55668",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "visita-submarina-museo-atlantico-no-buceadores-55687",
+    "centerId": "lanzarote-non-stop-divers-19720740",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/visita-submarina-museo-atlantico-no-buceadores--o55687",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-costa-de-cambrils-titulados-56766",
+    "centerId": "glups-diving-8875",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/inmersion-de-buceo-en-costa-de-cambrils-titulados--o56766",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-en-la-reserva-marina-para-titulados-57454",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/inmersion-en-la-reserva-marina-para-titulados--o57454",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "safari-submarino-con-snorkel-en-puerto-addaya-2h-57455",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/safari-submarino-con-snorkel-en-puerto-addaya-2h--o57455",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-a-la-reserva-marina-de-menorca-57457",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-a-la-reserva-marina-de-menorca--o57457",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-scuba-diver-en-addaia-1-dia-57458",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/curso-padi-scuba-diver-en-addaia-1-dia--o57458",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-en-puerto-addaya-2-dias-57459",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/padi-open-water-en-puerto-addaya-2-dias--o57459",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-advanced-open-water-diver-en-addaia-3-dias-57460",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/padi-advanced-open-water-diver-en-addaia-3-dias--o57460",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-emergency-first-response-puerto-addaia-57461",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/padi-emergency-first-response-puerto-addaia--o57461",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-padi-rescue-diver-en-addaia-menorca-57462",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/curso-de-buceo-padi-rescue-diver-en-addaia-menorca--o57462",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-divemaster-en-puerto-addaya-20-dias-57463",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/padi-divemaster-en-puerto-addaya-20-dias--o57463",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-efr-instructor-puerto-addaia-4-dias-57464",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/padi-efr-instructor-puerto-addaia-4-dias--o57464",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-assistant-instructor-en-puerto-addaia-4-dias-57465",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/padi-assistant-instructor-en-puerto-addaia-4-dias--o57465",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-instructor-padi-en-menorca-57466",
+    "centerId": "blue-dive-menorca-19742546",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/curso-instructor-padi-en-menorca--o57466",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diving-en-mar-en-tossa-de-mar-2h-57555",
+    "centerId": "superdive-tossa-de-mar-19741634",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-de-bautismo-en-mar-en-tossa-de-mar-3-horas--o57555",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "doble-inmersion-guiada-en-playa-blanca-4h-45943",
+    "centerId": "windblue-diving-19735536",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/doble-inmersion-guiada-en-lanzarote--o45943",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-avanzado-de-open-water-diver-temporada-alta-46803",
+    "centerId": "diving-menorca-19711815",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/curso-avanzado-de-open-water-diver-temporada-alta--o46803",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "tour-guiado-de-snorkel-desde-playa-del-jabillo-1h-48566",
+    "centerId": "native-diving-7296",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/alquiler-full-face-mask-en-lanzarote-1-dia--o48566",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-de-equipo-de-snorkel-en-lanzarote-1-dia-48567",
+    "centerId": "native-diving-7296",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/alquiler-de-equipo-de-snorkel-en-lanzarote-1-dia--o48567",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-nitrox-en-tenerife-50720",
+    "centerId": "diving-canarias-19696353",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-nitrox-en-tenerife--o50720",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-radazul-tenerife-50836",
+    "centerId": "diving-canarias-19696353",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-en-radazul-tenerife--o50836",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "2-inmersiones-de-buceo-en-tenerife-5-horas-52005",
+    "centerId": "sa-caleta-tenerife-19643403",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/2-inmersiones-de-buceo-en-tenerife-5-horas--o52005",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-diver-padi-en-las-palmas-4-dias-52067",
+    "centerId": "el-azul-gran-canaria-dive-center-19741108",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-open-water-diver-padi-en-las-palmas-4-dias--o52067",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-desde-playa-la-herradura-30min-66010",
+    "centerId": "escuela-pez-globo-19863969",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-en-la-herradura-3-horas--o66010",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-diver-cambrils-4-dias-52819",
+    "centerId": "glups-diving-8875",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-buceo-open-water-diver-cambrils-4-dias--o52819",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "titulo-de-padi-open-water-diver-en-las-tablas-59093",
+    "centerId": "neodive-19745166",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/titulo-de-padi-open-water-diver-en-las-tablas--o59093",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-palamos-costa-brava-60550",
+    "centerId": "diversub-19751117",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-palamos-costa-brava--o60550",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-y-paseo-en-barca-por-calafat-1-hora-60861",
+    "centerId": "marina-diving-tarragona-19724742",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/snorkel-y-paseo-en-barca-por-calafat-2-horas--o60861",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-b1-fedas-desde-playa-tossa-de-mar-61856",
+    "centerId": "diving-combat-19679828",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-open-water-diver-en-tossa-de-mar--o61856",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-diver-en-toledo-68488",
+    "centerId": "yo-buceo-toledo-19753068",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/toledo/curso-de-buceo-open-water-diver-en-toledo--o68488",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-scuba-diver-toledo-2-dias-68490",
+    "centerId": "yo-buceo-toledo-19753068",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/toledo/curso-de-buceo-scuba-diver-toledo-2-dias--o68490",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-rincon-de-la-victoria-costa-de-malaga-68497",
+    "centerId": "ecodive-19729349",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/snorkel-en-rincon-de-la-victoria-costa-de-malaga--o68497",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-desde-barco-en-costa-de-el-ejido-69693",
+    "centerId": "buceo-andalucia-19757430",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-barco-en-costa-de-el-ejido--o69693",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-la-costa-de-almunecar-72307",
+    "centerId": "ecodive-19729349",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-en-la-costa-de-almunecar--o72307",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-padi-2-inmersiones-en-calahonda-72311",
+    "centerId": "ecodive-19729349",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-padi-2-inmersiones-en-calahonda--o72311",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-buceo-con-fotos-video-bahia-radazul-2-30h-75697",
+    "centerId": "macaronesian-divers-19760299",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-con-fotos-y-video-en-radazul-3h--o75697",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-ssi-open-water-diver-en-cala-76666",
+    "centerId": "bluewater-menorca-19776741",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/curso-ssi-open-water-diver-en-cala-galdana-3-dias--o76666",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-diver-ssi-en-costa-adeje-3-dias-80894",
+    "centerId": "dpm-diving-19763235",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-open-water-diver-ssi-en-costa-adeje-3-dias--o80894",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "advanced-open-water-diver-ssi-en-costa-adeje-2dias-80895",
+    "centerId": "dpm-diving-19763235",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/advanced-open-water-diver-ssi-en-costa-adeje-2dias--o80895",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-desde-playa-2h-en-canyelles-82046",
+    "centerId": "oceanos-diving-center-19658724",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-desde-playa-2h-en-canyelles--o82046",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-diver-en-pobla-de-farnals-2-dias-84681",
+    "centerId": "buceo-valencia-19635236",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/padi-open-water-diver-en-pobla-de-farnals-2-dias--o84681",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-advanced-open-water-diver-en-lloret-de-mar-65243",
+    "centerId": "oceanos-diving-center-19658724",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-advanced-open-water-diver-en-lloret-de-mar--o65243",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-nocturno-en-lloret-de-mar-65265",
+    "centerId": "oceanos-diving-center-19658724",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-nocturno-en-lloret-de-mar--o65265",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bono-5-inmersiones-con-equipo-en-lloret-de-mar-65268",
+    "centerId": "oceanos-diving-center-19658724",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/bono-5-inmersiones-con-equipo-en-lloret-de-mar--o65268",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-padi-open-water-diver-en-denia-65286",
+    "centerId": "mon-diving-19725021",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-padi-open-water-diver-en-denia--o65286",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-con-tiburones-en-acuario-en-lanzarote-66518",
+    "centerId": "aquarium-lanzarote-19756120",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-con-tiburones-en-acuario-en-lanzarote--o66518",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-con-tiburones-en-mar-en-la-costa-de-teguise-66520",
+    "centerId": "aquarium-lanzarote-19756120",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-con-tiburones-en-mar-en-la-costa-de-teguise--o66520",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diving-reserva-marina-menorquina-5h-67493",
+    "centerId": "diving-menorca-19711815",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/discover-scuba-diving-reserva-marina-menorquina-5h--o67493",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-nocturno-en-tossa-de-mar-2-dias-68408",
+    "centerId": "tossasub-2204",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-nocturno-en-tossa-de-mar-2-dias--o68408",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-advanced-open-water-diver-costa-brava-61857",
+    "centerId": "diving-combat-19679828",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-buceo-advanced-open-water-diver-costa-brava--o61857",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-divemaster-en-tossa-de-mar-2-semanas-61860",
+    "centerId": "diving-combat-19679828",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-padi-divemaster-en-tossa-de-mar-2-semanas--o61860",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-scuba-diver-2-dias-platja-d-aro-62051",
+    "centerId": "diversub-19751117",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-de-buceo-scuba-diver-2-dias-platja-d-aro--o62051",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-apnea-en-cambrils-2-dias-y-medio-62549",
+    "centerId": "glups-diving-8875",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-de-apnea-en-cambrils-2-dias-y-medio--o62549",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-de-seabob-en-benalmadena-20-minutos-62703",
+    "centerId": "movedifferent-adventure-19753208",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/alquiler-de-seabob-en-benalmadena-20-minutos--o62703",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-con-video-santa-cruz-de-tenerife-63048",
+    "centerId": "sea-diver-instructors-19753626",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-con-video-santa-cruz-de-tenerife--o63048",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-con-video-en-radazul-50-min-63049",
+    "centerId": "sea-diver-instructors-19753626",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-con-video-en-radazul-50-min--o63049",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-diver-sdi-en-radazul-2-4-dias-63078",
+    "centerId": "club-de-buceo-quimerasub-19690297",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/open-water-diver-con-titulacion-radazul-3-dias--o63078",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-guiada-en-puerto-del-carmen-4h-63610",
+    "centerId": "vidaxperience-19750740",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/inmersion-de-buceo-guiada-en-puerto-del-carmen-4h--o63610",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-diver-en-arrecife-63612",
+    "centerId": "vidaxperience-19750740",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-open-water-diver-en-arrecife--o63612",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-equipo-de-buceo-completo-lanzarote-1-dia-63690",
+    "centerId": "scuba-legends-19736335",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/alquiler-equipo-de-buceo-completo-lanzarote-1-dia--o63690",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-diver-playa-del-ingles-63765",
+    "centerId": "zeus-dive-center-19719839",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-open-water-diver-playa-del-ingles--o63765",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-material-de-buceo-en-maspalomas-63775",
+    "centerId": "zeus-dive-center-19719839",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/alquiler-material-de-buceo-en-maspalomas--o63775",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-snorkel-en-gran-canaria-3h-64182",
+    "centerId": "karapat-dive-19752932",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-snorkel-en-gran-canaria-3h--o64182",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-doble-en-la-reserva-marina-del-cabron-5h-64183",
+    "centerId": "karapat-dive-19752932",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/buceo-doble-en-la-reserva-marina-del-cabron-4h--o64183",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "doble-inmersion-de-buceo-avanzado-en-las-palmas-64184",
+    "centerId": "karapat-dive-19752932",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/doble-inmersion-de-buceo-avanzado-en-las-palmas--o64184",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-buceo-y-actividad-acuatica-serra-helada-64818",
+    "centerId": "centro-de-buceo-scorpora-581",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-buceo-y-actividad-acuatica-serra-helada--o64818",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-con-equipo-y-guia-en-villaricos-50min-65195",
+    "centerId": "calamar-gigante-19776791",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/inmersion-con-equipo-y-guia-en-villaricos-50min--o65195",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "open-water-diver-ssi-18m-en-puerto-de-las-aguilas-65200",
+    "centerId": "buceo-isla-negra-19863884",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/open-water-diver-padi-18m-en-villaricos--o65200",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "salida-de-snorkel-por-cala-vidre-fotos-1h30min-90878",
+    "centerId": "ohana-diving-19866849",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/salida-de-snorkel-por-cala-vidre-fotos-1h30min--o90878",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-ssi-open-water-en-costa-de-malpique-3-dias-18142",
+    "centerId": "punkfish-diving-14281",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/la-palma/curso-de-buceo-open-water-en-costa-de-la-palma--o18142",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-diver-puerto-aguadulce-5-dias-20955",
+    "centerId": "buceo-aguadulce-roquetas-19690161",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-de-buceo-scuba-diver-nivel-basico--o20955",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-rescue-diver-en-calpe-22606",
+    "centerId": "calpe-multiaventura-315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-rescue-diver-en-calpe--o22606",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-diver-padi-en-javea-2-dias-25150",
+    "centerId": "la-rana-buceo-19863397",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-javea-4-dias--o25150",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-doble-de-buceo-alrededor-de-isla-tabarca-25328",
+    "centerId": "scuba-elx-19698424",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-de-buceo-alrededor-de-isla-tabarca--o25328",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "ssi-advanced-adventurer-costa-de-malpique-2-dias-25758",
+    "centerId": "punkfish-diving-14281",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/la-palma/curso-de-buceo-ssi-advanced-adventurer-en-la-palma--o25758",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diving-fotos-en-cambrils-2-horas-90039",
+    "centerId": "all-blue-diving-19864531",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-mar-con-fotos-en-cambrils-2-horas--o90039",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkelling-en-playa-del-cavet-1h30min-90040",
+    "centerId": "all-blue-diving-19864531",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/snorkelling-en-playa-del-cavet-1h30min--o90040",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diving-en-puerto-cabo-de-palos-3h-17369",
+    "centerId": "balkysub-2134",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-open-water-diver-padi-la-manga--o17369",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-mar-en-parque-del-forum-2h-83878",
+    "centerId": "dive-center-barcelona-19765577",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/barcelona/bautizo-de-buceo-en-mar-sant-adria-de-besos--o83878",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "sesion-de-snorkel-en-sant-adria-de-besos-2-horas-83885",
+    "centerId": "dive-center-barcelona-19765577",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/barcelona/sesion-de-snorkel-en-sant-adria-de-besos-2-horas--o83885",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-snorkel-en-playa-de-calahonda-4-horas-88507",
+    "centerId": "glup-glup-19709039",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-snorkel-en-playa-de-calahonda-4-horas--o88507",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-snorkel-en-penon-de-salobrena-4-horas-88510",
+    "centerId": "glup-glup-19709039",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-snorkel-en-penon-de-salobrena-4-horas--o88510",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-primeros-auxilios-y-rcp-buceo-alcala-25316",
+    "centerId": "buceo-alcala-19707835",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/curso-primeros-auxilios-y-rcp-buceo-alcala--o25316",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "especialidad-de-buceo-project-aware-en-carboneras-25317",
+    "centerId": "buceo-alcala-19707835",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/especialidad-de-buceo-project-aware-en-carboneras--o25317",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "scuba-review-practicas-en-piscina-madrid-26277",
+    "centerId": "buceo-alcala-19707835",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/scuba-review-practicas-en-piscina-madrid--o26277",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-open-water-diver-en-madrid-y-costa-31582",
+    "centerId": "divemadrid-3153",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/curso-open-water-diver-ssi-con-equipo-en-madrid--o31582",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bubblemaker-bautismo-de-buceo-ninos-en-lanzarote-38913",
+    "centerId": "native-diving-7296",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bubblemaker-bautismo-de-buceo-ninos-en-lanzarote--o38913",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diving-lanzarote-con-2-inmersiones-38942",
+    "centerId": "native-diving-7296",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/discover-scuba-diving-lanzarote-con-2-inmersiones--o38942",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-con-escafandra-en-lanzarote-50min-ninos-38966",
+    "centerId": "native-diving-7296",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/sea-trek-buceo-con-escafandra-y-snorkel-full-face--o38966",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-nocturno-de-padi-en-maspalomas-40563",
+    "centerId": "zeus-dive-center-19719839",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/curso-de-buceo-nocturno-de-padi-en-maspalomas--o40563",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-para-principiantes-en-tenerife-41741",
+    "centerId": "blackstone-dive-center-19723727",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-para-principiantes-en-tenerife--o41741",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-con-escafandra-en-lanzarote-50-minutos-46589",
+    "centerId": "native-diving-7296",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-con-escafandra-en-lanzarote--o46589",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-el-mar-en-lanzarote-2-horas-46762",
+    "centerId": "active-scuba-divers-lanzarote-6456",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-el-mar-en-lanzarote-2-horas--o46762",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "scuba-diving-en-lanzarote-de-4-horas-46763",
+    "centerId": "active-scuba-divers-lanzarote-6456",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/scuba-diving-en-lanzarote-de-4-horas--o46763",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-certificado-de-scuba-diver-en-lanzarote-46768",
+    "centerId": "active-scuba-divers-lanzarote-6456",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-certificado-de-scuba-diver-en-lanzarote--o46768",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-avanzado-buceo-open-water-en-costa-teguise-46782",
+    "centerId": "active-scuba-divers-lanzarote-6456",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-avanzado-buceo-open-water-en-costa-teguise--o46782",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceador-de-rescate-curso-ssi-en-teguise-46783",
+    "centerId": "active-scuba-divers-lanzarote-6456",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceador-de-rescate-curso-ssi-en-teguise--o46783",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-primeros-auxilios-de-buceo-en-lanzarote-46784",
+    "centerId": "active-scuba-divers-lanzarote-6456",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-primeros-auxilios-de-buceo-en-lanzarote--o46784",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-ssi-de-oxygen-provider-en-lanzarote-46786",
+    "centerId": "active-scuba-divers-lanzarote-6456",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-ssi-de-oxygen-provider-en-lanzarote--o46786",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "salida-de-snorkel-desde-barco-cala-granadella-2-31773",
+    "centerId": "la-rana-buceo-19863397",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/salida-de-snorkel-desde-barco-para-colegios--o31773",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-divemaster-en-almeria-2-semanas-35640",
+    "centerId": "buceo-aguadulce-roquetas-19690161",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-de-buceo-divemaster-en-almeria-2-semanas--o35640",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-especialidades-puerto-aguadulce-3-dias-37171",
+    "centerId": "buceo-aguadulce-roquetas-19690161",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/buceo-para-buceadores-certificados-en-almeria--o37171",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-para-ninos-cerca-de-la-isla-de-tabarca-3-h-48594",
+    "centerId": "scuba-elx-19698424",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/snorkel-para-ninos-cerca-de-la-isla-de-tabarca-3-h--o48594",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-piscina-en-tarifa-1-2-h-57411",
+    "centerId": "puertobuceo-19748925",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-piscina-en-tarifa-2-3-h--o57411",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-doble-en-la-isla-de-tarifa-con-equipo-57640",
+    "centerId": "puertobuceo-19748925",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/inmersion-doble-en-la-isla-de-tarifa-con-equipo--o57640",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-desde-barco-privado-tarifa-3h-58881",
+    "centerId": "puertobuceo-19748925",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-tarifa--o58881",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-advanced-open-water-diver-cala-granadella-69613",
+    "centerId": "la-rana-buceo-19863397",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-advanced-open-water-diver-playa-del-arenal--o69613",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-certificado-apnea-nivel-1-en-palamos-2-dias-79992",
+    "centerId": "buceo-catalunya-costa-brava-19718043",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/curso-certificado-apnea-nivel-1-en-palamos-2-dias--o79992",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-diver-mojacar-4-5-dias-86966",
+    "centerId": "centro-escuela-de-buceo-mojacar-3673",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-de-buceo-open-water-diver-mojacar-4-5-dias--o86966",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-open-water-diver-padi-madrid-y-calpe-46118",
+    "centerId": "quieres-bucear-19763171",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/curso-buceo-open-water-diver-padi-madrid-y-calpe--o46118",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-discover-scuba-diving-en-madrid-2-62542",
+    "centerId": "divemadrid-3153",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-getafe-1-o-2-personas-2-horas--o62542",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-buceo-y-curso-de-biologia-marina-l-64548",
+    "centerId": "estacio-nautica-l-ametlla-de-mar-19763165",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-buceo-y-curso-de-biologia-marina-latmella--o64548",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "sea-scooter-en-cambrils-30-minutos-85779",
+    "centerId": "nautic-parc-8927",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/sea-scooter-en-cambrils-30-minutos--o85779",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-doble-de-buceo-en-isla-salvora-4-horas-4429",
+    "centerId": "nautica-medusa-4448",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/pontevedra/inmersion-doble-de-buceo-en-isla-salvora-4-horas--o4429",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "salida-de-buceo-doble-inmersion-ria-de-arousa-5131",
+    "centerId": "nautica-medusa-4448",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/pontevedra/salida-de-buceo-doble-inmersion-ria-de-arousa--o5131",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-bajo-el-hielo-10764",
+    "centerId": "buceo-navarra-1977",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/navarra/bautizo-de-buceo-bajo-el-hielo--o10764",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "2-inmersiones-buceadores-certificados-fuengirola-20735",
+    "centerId": "abysub-19675603",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/2-inmersiones-buceadores-certificados-fuengirola--o20735",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-doble-de-buceo-desde-barco-javea-21915",
+    "centerId": "mardays-dive-resort-19698976",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-con-equipo-completo-javea--o21915",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-desde-embarcacion-en-javea-25799",
+    "centerId": "mardays-dive-resort-19698976",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-desde-embarcacion-en-javea--o25799",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-de-zayak-en-lanzarote-1-dia-48568",
+    "centerId": "native-diving-7296",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/alquiler-de-zayak-en-lanzarote-1-dia--o48568",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-y-museo-atlantico-en-lanzarote-53109",
+    "centerId": "active-scuba-divers-lanzarote-6456",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-y-museo-atlantico-en-lanzarote--o53109",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-ssi-open-water-diver-en-radazul-56429",
+    "centerId": "macaronesian-divers-19760299",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/padi-discover-scuba-diving-en-tenerife-3-dias--o56429",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-ssi-advanced-adventurer-en-radazul-56434",
+    "centerId": "macaronesian-divers-19760299",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/curso-de-buceo-padi-reactivate-en-tenerife--o56434",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-con-fotos-en-tenerife-60250",
+    "centerId": "go-dive-tenerife-19750701",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautizo-de-buceo-con-fotos-en-tenerife--o60250",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-con-tiburones-con-licencia-en-costa-teguise-66519",
+    "centerId": "aquarium-lanzarote-19756120",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-con-tiburones-con-licencia-en-costa-teguise--o66519",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "acuc-rescue-diver-en-alcoceber-castellon-29235",
+    "centerId": "barracuda-9404",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/castellon/acuc-rescue-diver-en-alcoceber-castellon--o29235",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "acuc-divemaster-en-alcoceber-castellon-29241",
+    "centerId": "barracuda-9404",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/castellon/acuc-divemaster-en-alcoceber-castellon--o29241",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-la-santa-ponsa-3-horas-52236",
+    "centerId": "touradvisor-19712157",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-la-bahia-de-palma-3-o-4-hs--o52236",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-diver-ssi-en-morro-jable-27261",
+    "centerId": "fuerteocean-dive-center-19865138",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/fuerteventura/curso-open-water-diver-padi-pajara-fuerteventura--o27261",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-rescue-diver-en-fuengirola-27275",
+    "centerId": "abysub-19675603",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/padi-rescue-diver-en-fuengirola--o27275",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "ssi-scuba-diver-en-platja-d-30624",
+    "centerId": "dossotaigua-dive-center-19703499",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/padi-scuba-diver-en-platja-daro--o30624",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-advanced-open-water-diver-en-santa-ponca-35953",
+    "centerId": "zoea-mallorca-9078",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-santa-ponsa-3h--o35953",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-buceo-en-cala-pixavaques-l-57538",
+    "centerId": "mar-natura-19646602",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautismo-buceo-en-cala-pixavaques-lametlla-de-mar--o57538",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-la-reserva-marina-de-cabo-tinoso-2h-76698",
+    "centerId": "the-blue-jump-ecodiving-19760820",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/snorkel-en-la-reserva-marina-de-cabo-tinoso-2h--o76698",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "experiencia-try-scuba-diving-madrid-23955",
+    "centerId": "yo-buceo-madrid-7212",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/experiencia-try-scuba-diving-madrid--o23955",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "nitrox-curso-buceo-con-aire-enriquecido-padi-27736",
+    "centerId": "buceo-alcala-19707835",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/nitrox-curso-buceo-con-aire-enriquecido-padi--o27736",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-especialista-en-equipos-padi-de-buceo-6-h-27737",
+    "centerId": "buceo-alcala-19707835",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/curso-de-especialista-en-equipos-padi-de-buceo-6-h--o27737",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-la-costa-del-sol-con-traslados-35876",
+    "centerId": "buceo-estepona",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/snorkel-en-la-costa-del-sol-con-traslados--o35876",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-discover-scuba-diver-en-tenerife-4-horas-37536",
+    "centerId": "amarilla-divers-19705755",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/padi-discover-scuba-diver-en-tenerife-4-horas--o37536",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "especialidad-de-buceo-con-traje-seco-en-la-azohia-59843",
+    "centerId": "caballito-salao-19636067",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/especialidad-de-buceo-con-traje-seco-en-la-azohia--o59843",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-buceo-sin-material-cala-del-moral-2h-30min-62714",
+    "centerId": "ecodive-19729349",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/bautizo-buceo-sin-material-cala-del-moral-2h-30min--o62714",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-el-parque-natural-de-serra-gelada-1h-64828",
+    "centerId": "centro-de-buceo-scorpora-581",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/snorkel-en-el-parque-natural-de-serra-gelada-1h--o64828",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-apnea-en-mar-en-palamos-de-3-horas-79987",
+    "centerId": "buceo-catalunya-costa-brava-19718043",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-apnea-en-mar-en-palamos-de-3-horas--o79987",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "advanced-open-water-diver-en-playa-jablito-3-dias-27264",
+    "centerId": "centro-de-buceo-tribuo-19757878",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/fuerteventura/advanced-open-water-diver-en-pajara-fuerteventura--o27264",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-scuba-diver-en-fuengirola-27276",
+    "centerId": "abysub-19675603",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-fuengirola--o27276",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-diver-en-marbella-4-dias-30935",
+    "centerId": "h2o-sports-4617",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/padi-open-water-diver-en-marbella-4-dias--o30935",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-marbella-botella-y-plomos-30943",
+    "centerId": "h2o-sports-4617",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/inmersion-de-buceo-en-marbella-botella-y-plomos--o30943",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-equipo-de-snorkel-en-playa-de-ris-1-hora-30975",
+    "centerId": "nojactiva-19702312",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cantabria/alquiler-equipo-de-snorkel-en-playa-de-ris-1-hora--o30975",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "paseo-bajo-el-mar-en-alicante-30-minutos-36110",
+    "centerId": "diving-stones-19621453",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/paseo-bajo-el-mar-en-alicante-30-minutos--o36110",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "hacer-buceo-snorkel-en-noja-2-horas-37193",
+    "centerId": "laredo-aventura-19726061",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cantabria/hacer-buceo-snorkel-en-noja-2-horas--o37193",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-open-water-diver-en-altea-38370",
+    "centerId": "greenwichdiving-10759",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-buceo-open-water-diver-en-altea--o38370",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "rutas-de-snorkel-en-la-bahia-de-altea-38371",
+    "centerId": "greenwichdiving-10759",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/rutas-de-snorkel-en-la-bahia-de-altea--o38371",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "rutas-de-snorkel-desde-barco-en-altea-y-fotos-38373",
+    "centerId": "greenwichdiving-10759",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/rutas-de-snorkel-desde-barco-en-altea-y-fotos--o38373",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-de-seabob-en-ibiza-durante-un-dia-41830",
+    "centerId": "take-off-ibiza-19644656",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/ibiza/alquiler-de-seabob-en-ibiza-durante-un-dia--o41830",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "alquiler-material-de-snorkel-en-noja-1-hora-51646",
+    "centerId": "laredo-aventura-19726061",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cantabria/alquiler-material-de-snorkel-en-noja-1-hora--o51646",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-cerca-castillo-de-sa-caleta-titulados-55944",
+    "centerId": "dolphins-diving-center-19745282",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/inmersion-cerca-castillo-de-sa-caleta-titulados--o55944",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-fedas-cmas-1-estrella-b1e-gijon-57623",
+    "centerId": "alpha-buceo-gijon-19776780",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/asturias/curso-de-buceo-fedas-cmas-1-estrella-b1e-gijon--o57623",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "salida-en-barco-para-bucear-en-la-costa-brava-59517",
+    "centerId": "anemone-diving-center-19728090",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/salida-en-barco-para-bucear-en-la-costa-brava--o59517",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-y-ruta-en-kayak-cabo-de-gata-5h-61177",
+    "centerId": "centro-de-buceo-alpha-570",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-y-ruta-en-kayak-cabo-de-gata-5h--o61177",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-solitario-con-guia-en-tarifa-61943",
+    "centerId": "scubkandalus-19752519",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/inmersion-de-buceo-en-solitario-con-guia-en-tarifa--o61943",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-para-parejas-en-el-bollullo-2h-63076",
+    "centerId": "sea-diver-instructors-19753626",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-para-parejas-en-radazul-de-2h--o63076",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-2-inmersiones-en-serra-gelada-6h-64816",
+    "centerId": "centro-de-buceo-scorpora-581",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-2-inmersiones-en-serra-gelada-6h--o64816",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-villaricos-por-1-hora-65196",
+    "centerId": "calamar-gigante-19776791",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-villaricos-por-1-hora--o65196",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-cabo-de-gata-nijar-2-h-66202",
+    "centerId": "subparke-turismo-activo-3874",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o66202",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-basic-diver-en-santa-pola-6-horas-68243",
+    "centerId": "vadum-maris-diving-watersports-19756796",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-de-buceo-basic-diver-en-santa-pola-6-horas--o68243",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-la-reserva-marina-de-isla-de-tabarca-68247",
+    "centerId": "vadum-maris-diving-watersports-19756796",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/snorkel-en-la-reserva-marina-de-isla-de-tabarca--o68247",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-las-negras-cabo-de-gata-72522",
+    "centerId": "buceo-las-negras-1286",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-piscina-en-las-tablas-1-hora-86570",
+    "centerId": "neodive-19745166",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-piscina-en-las-tablas-1-hora--o86570",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-buceo-mar-transporte-desde-orcoyen-25268",
+    "centerId": "centro-de-buceo-splash-3877",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/navarra/bautismo-buceo-mar-transporte-desde-orcoyen--o25268",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-reserva-marina-de-menorca-28824",
+    "centerId": "diving-menorca-19711815",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-en-reserva-marina-de-menorca--o28824",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-desde-barco-marinaseca-28888",
+    "centerId": "divemania-19697367",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/acoruna/bautismo-de-buceo-desde-barco-marinaseca--o28888",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diver-en-reserva-marina-la-restinga-29102",
+    "centerId": "ds-divers-el-hierro-19865920",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/el-hierro/scuba-diver-en-la-restinga-el-hierro--o29102",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-por-la-isla-de-benidorm-4-horas-29184",
+    "centerId": "nisos-benidorm-19622273",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-por-la-costa-de-benidorm--o29184",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-scuba-diver-en-madrid-y-2-inmersiones-en-mar-29211",
+    "centerId": "divemadrid-3153",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/curso-scuba-diver-en-madrid-y-2-inmersiones-en-mar--o29211",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "discover-scuba-diving-desde-playa-en-torrox-3-h-30562",
+    "centerId": "black-frog-divers-19716651",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/discover-scuba-diving-desde-playa-en-torrox-3-h--o30562",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-diver-altea-31339",
+    "centerId": "marepolis-altea-19717923",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/padi-open-water-diver-altea--o31339",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-diver-en-torrevieja-4-dias-31629",
+    "centerId": "yo-buceo-torrevieja-19636211",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/padi-open-water-diver-en-torrevieja-4-dias--o31629",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-altea-desde-la-playa-36652",
+    "centerId": "marepolis-altea-19717923",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-altea-desde-la-playa--o36652",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-cabo-de-gata-3h-43039",
+    "centerId": "centro-de-buceo-alpha-570",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3h--o43039",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-en-cabo-tinoso-con-equipo-buceo-54449",
+    "centerId": "yo-buceo-cartagena-7262",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/inmersion-en-cabo-tinoso-con-equipo-buceo--o54449",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "doble-inmersion-de-buceo-las-palmas-gran-canaria-55132",
+    "centerId": "7-mares-las-canteras-5224",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/gran-canaria/doble-inmersion-de-buceo-las-palmas-gran-canaria--o55132",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-reactivate-scuba-en-madrid-recordatorio-26611",
+    "centerId": "divemadrid-3153",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/scuba-skills-update-ssi-en-madrid-recordatorio--o26611",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-scuba-diver-en-calahonda-9h-4724",
+    "centerId": "glup-glup-19709039",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-open-water-diver-en-calahonda--o4724",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-tenerife-31552",
+    "centerId": "teno-activo-7690",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-tenerife--o31552",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "realizar-un-bautismo-de-buceo-en-pontevedra-46587",
+    "centerId": "buceo-islas-cies-1282",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/pontevedra/realizar-un-bautismo-de-buceo-en-pontevedra--o46587",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-desde-barco-desde-javea-69622",
+    "centerId": "la-rana-buceo-19863397",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-doble-en-la-costa-de-javea-3-h--o69622",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buatizo-de-buceo-para-dos-puerto-cabo-de-palos-3h-30795",
+    "centerId": "balkysub-2134",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/inmersion-de-buceo-con-equipo-completo-isla-grosa--o30795",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-puerto-del-carmen-lanzarote-202",
+    "centerId": "island-watersports-lanzarote-4114",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-puerto-del-carmen-lanzarote--o202",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-desde-barco-en-la-costa-de-lugo-19078",
+    "centerId": "buceo-costa-lugo-19688327",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lugo/bautismo-de-buceo-desde-barco-en-la-costa-de-lugo--o19078",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-padi-en-madrid-2-5-horas-26560",
+    "centerId": "divemadrid-3153",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/bautismo-de-buceo-en-madrid-2-horas--o26560",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-apnea-durante-4-horas-en-armintza-62770",
+    "centerId": "getxoport-19663731",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/vizcaya/curso-de-apnea-durante-4-horas-en-armintza--o62770",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "practicar-snorkel-en-armintza-2-horas-63252",
+    "centerId": "getxoport-19663731",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/vizcaya/practicar-snorkel-en-armintza-2-horas--o63252",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-por-el-museo-atlantico-2-horas-30-min-64186",
+    "centerId": "windblue-sports-19720798",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-por-el-museo-atlantico-2-horas-30-min--o64186",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-l-65819",
+    "centerId": "subkro-19631997",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-lametlla-de-mar-con-fotos-3-h--o65819",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-fedas-2-estrellas-pto-de-mazarron-68886",
+    "centerId": "cbs-centro-de-buceo-del-sureste-3879",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-fedas-2-estrellas-pto-de-mazarron--o68886",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-por-el-pecio-de-los-railes-3-5h-70026",
+    "centerId": "ok-castro-dive-club-de-buceo-19757525",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cantabria/inmersion-de-buceo-por-el-pecio-de-los-railes-3-5h--o70026",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-diver-en-corralejo-3-dias-73466",
+    "centerId": "centro-de-buceo-tribuo-19757878",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/fuerteventura/curso-open-water-diver-en-corralejo-3-dias--o73466",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-cala-llobeta-2h-1321",
+    "centerId": "club-dofi-sub-7534",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/inmersion-de-buceo-en-cala-llobeta-2h--o1321",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-ssi-open-water-tarragona-5047",
+    "centerId": "subkro-19631997",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/curso-padi-open-water-tarragona--o5047",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-mar-iniciacion-diploma-5513",
+    "centerId": "centro-de-buceo-costa-palancia-392",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/valencia/bautismo-de-buceo-en-mar-iniciacion-diploma--o5513",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceador-1-estrella-en-villanueva-y-denia-15802",
+    "centerId": "scubaventura-9599",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/madrid/padi-open-water-en-villanueva-de-la-canada-y-denia--o15802",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-costa-de-puerto-del-carmen-22374",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-en-costa-de-puerto-del-carmen--o22374",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-react-right-ssi-en-lanzarote-47175",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-react-right-ssi-en-lanzarote--o47175",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-stress-and-rescue-ssi-47176",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-stress-and-rescue-ssi--o47176",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-open-water-5-noches-de-alojamiento-47177",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-open-water-5-noches-de-alojamiento--o47177",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-advanced-ssi-5-noches-en-lanzarote-47178",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-advanced-ssi-5-noches-en-lanzarote--o47178",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bucear-por-el-museo-acuatico-de-lanzarote-47306",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bucear-por-el-museo-acuatico-de-lanzarote--o47306",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-speciality-diver-alojamiento-en-lanzarote-47358",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-speciality-diver-alojamiento-en-lanzarote--o47358",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-y-ruta-paddle-surf-playa-chica-47360",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-y-ruta-paddle-surf-playa-chica--o47360",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-para-parejas-viveiro-y-comida-san-valentin-53328",
+    "centerId": "mergulloviveiro-19744267",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lugo/buceo-para-parejas-viveiro-y-comida-san-valentin--o53328",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-fucino-do-porco-viveiro-fotos-y-video-53331",
+    "centerId": "mergulloviveiro-19744267",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lugo/snorkel-en-fucino-do-porco-viveiro-fotos-y-video--o53331",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "open-water-diver-el-hierro-y-alojamiento-6-noches-54886",
+    "centerId": "centro-de-buceo-el-bajon-19740859",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/el-hierro/open-water-diver-el-hierro-y-alojamiento-6-noches--o54886",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-la-restinga-certificacion-padi-54890",
+    "centerId": "centro-de-buceo-el-bajon-19740859",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/el-hierro/bautizo-de-buceo-en-la-restinga-certificacion-padi--o54890",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "advanced-open-water-diver-en-cabo-de-gata-3-dias-61183",
+    "centerId": "centro-de-buceo-alpha-570",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/advanced-open-water-diver-en-cabo-de-gata-3-dias--o61183",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "ruta-guiada-snorkel-acantilado-maro-cerro-gordo-2h-61783",
+    "centerId": "educare-aventura-14027",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/ruta-guiada-snorkel-acantilado-maro-cerro-gordo-2h--o61783",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-nocturno-en-miengo-62360",
+    "centerId": "buceo-calypso-19752686",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cantabria/curso-de-buceo-nocturno-en-miengo--o62360",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-a-motor-reserva-marina-cabo-de-palos-1h15-91411",
+    "centerId": "sup-nava-mar-menor-19776833",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/snorkel-a-motor-reserva-marina-cabo-de-palos-1h15--o91411",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "padi-open-water-diver-en-santa-ponca-3-4-dias-35955",
+    "centerId": "zoea-mallorca-9078",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/mallorca/buceo-en-mallorca-con-el-sistema-peter-diving--o35955",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-vilagarcia-playas-isla-arousa-4423",
+    "centerId": "nautica-medusa-4448",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/pontevedra/bautismo-de-buceo-en-vilagarcia-playas-isla-arousa--o4423",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-en-las-rias-baixas-4428",
+    "centerId": "nautica-medusa-4448",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/pontevedra/inmersion-de-buceo-en-las-rias-baixas--o4428",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-el-mar-hondarribia-con-barco-13415",
+    "centerId": "buceo-navarra-1977",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/navarra/bautizo-de-buceo-en-el-mar-hondarribia-con-barco--o13415",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "excursion-de-snorkel-guiada-playa-de-ris-2-horas-20759",
+    "centerId": "nojactiva-19702312",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cantabria/excursion-de-snorkel-guiada-playa-de-ris-2-horas--o20759",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-discover-scuba-en-santa-pola-55449",
+    "centerId": "dive-academy-santa-pola-19632734",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-discover-scuba-en-santa-pola--o55449",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-especial-parejas-en-tarifa-61955",
+    "centerId": "godive-cadiz-19752527",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-especial-parejas-en-tarifa--o61955",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-buceo-owd-internacional-tarifa-o-el-palmar-61963",
+    "centerId": "godive-cadiz-19752527",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/curso-buceo-owd-internacional-tarifa-o-el-palmar--o61963",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-en-playa-miracle-fotos-y-video-2h-62209",
+    "centerId": "subkro-19631997",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/tarragona/bautizo-de-buceo-en-tarragona-con-fotos-y-video-3h--o62209",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-apnea-en-cabo-tinoso-de-2-horas-76699",
+    "centerId": "the-blue-jump-ecodiving-19760820",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-apnea-en-cabo-tinoso-de-2-horas--o76699",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-desde-barco-santa-ponca-3-horas-35950",
+    "centerId": "zoea-mallorca-9078",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-palma-de-mallorca--o35950",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-iniciacion-al-buceo-en-santa-ponsa-3h-35954",
+    "centerId": "zoea-mallorca-9078",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/mallorca/curso-de-iniciacion-al-buceo-en-alcudia-4horas--o35954",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-playa-de-calahonda-3-horas-88508",
+    "centerId": "glup-glup-19709039",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-en-playa-de-calahonda-3-horas--o88508",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-nocturna-de-buceo-benidorm-con-material-36149",
+    "centerId": "diving-stones-19621453",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/inmersion-nocturna-de-buceo-benidorm-con-material--o36149",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-advance-open-water-diver-en-benidorm-36238",
+    "centerId": "diving-stones-19621453",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-advance-open-water-diver-en-benidorm--o36238",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-rescue-diver-y-emergency-first-response-36241",
+    "centerId": "diving-stones-19621453",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/alicante/curso-de-rescue-diver-y-emergency-first-response--o36241",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-buceo-desde-barco-en-santa-margarida-4h-41581",
+    "centerId": "poseidon-roses-7711",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/girona/bautismo-de-buceo-en-girona-costa-brava--o41581",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-personas-con-movilidad-reducida-lanzarote-46303",
+    "centerId": "native-diving-7296",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-personas-con-movilidad-reducida-lanzarote--o46303",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-avanzado-de-buceo-lanzarote-5-inmersiones-46745",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-avanzado-de-buceo-lanzarote-5-inmersiones--o46745",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "iniciacion-al-buceo-en-lanzarote-de-2-horas-46746",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/iniciacion-al-buceo-en-lanzarote-de-2-horas--o46746",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-para-parejas-en-san-valentin-46874",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautismo-de-buceo-para-parejas-en-san-valentin--o46874",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "instructor-de-buceo-ssi-curso-en-lanzarote-47168",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/instructor-de-buceo-ssi-curso-en-lanzarote--o47168",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-instructor-crossover-ssi-en-canarias-47169",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-instructor-crossover-ssi-en-canarias--o47169",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-instructor-divemaster-ssi-en-las-palmas-47170",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-instructor-divemaster-ssi-en-las-palmas--o47170",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-dive-control-specialist-ssi-en-lanzarote-47171",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-dive-control-specialist-ssi-en-lanzarote--o47171",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "guia-de-buceo-ssi-non-pro-curso-en-lanzarote-47172",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/guia-de-buceo-ssi-non-pro-curso-en-lanzarote--o47172",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-ssi-en-lanzarote-47173",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-open-water-ssi-en-lanzarote--o47173",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-diver-en-torremolinos-16608",
+    "centerId": "scubazul-19694933",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/curso-de-buceo-open-water-diver-en-torremolinos--o16608",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-scuba-diver-de-padi-malaga-19303",
+    "centerId": "scubazul-19694933",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/curso-de-buceo-scuba-diver-de-padi-malaga--o19303",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "jornada-de-buceo-en-las-islas-columbretes-20416",
+    "centerId": "charters-casamar-19630078",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/castellon/jornada-de-buceo-en-las-islas-columbretes--o20416",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "try-scuba-diving-puerto-del-carmen-2-inmersiones-22377",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/try-scuba-diving-puerto-del-carmen-2-inmersiones--o22377",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-en-puerto-del-carmen-desde-embarcacion-22592",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-en-puerto-del-carmen-desde-embarcacion--o22592",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautizo-de-apnea-freediving-en-lanzarote-22593",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/bautizo-de-apnea-freediving-en-lanzarote--o22593",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "buceo-en-el-museo-atlantico-de-lanzarote-22594",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/buceo-en-el-museo-atlantico-de-lanzarote--o22594",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "snorkel-y-ruta-en-paddle-surf-en-playa-chica-3h30m-24062",
+    "centerId": "atlantis-diving-lanzarote-19705315",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-y-ruta-en-paddle-surf-en-playa-chica-3h30m--o24062",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-open-water-en-fuengirola-27192",
+    "centerId": "abysub-19675603",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/curso-padi-open-water-en-fuengirola--o27192",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-advanced-open-water-en-fuengirola-27193",
+    "centerId": "abysub-19675603",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/curso-padi-advanced-open-water-en-fuengirola--o27193",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-con-botella-en-isla-grosa-30803",
+    "centerId": "mundo-activo-2268",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/inmersion-de-buceo-con-botella-en-isla-grosa--o30803",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-open-water-en-la-bahia-de-mazarron-de-5-dias-62683",
+    "centerId": "cbs-centro-de-buceo-del-sureste-3879",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/curso-open-water-en-la-bahia-de-mazarron-de-5-dias--o62683",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-fedas-3-estrellas-pto-de-mazarron-68887",
+    "centerId": "cbs-centro-de-buceo-del-sureste-3879",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/curso-de-buceo-fedas-3-estrellas-pto-de-mazarron--o68887",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-open-water-diver-en-playa-jablito-71163",
+    "centerId": "centro-de-buceo-tribuo-19757878",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/fuerteventura/curso-de-buceo-open-water-diver-en-playa-jablito--o71163",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-corralejo-de-3-horas-73407",
+    "centerId": "centro-de-buceo-tribuo-19757878",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/fuerteventura/bautismo-de-buceo-en-corralejo-de-3-horas--o73407",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "tour-de-snorkel-guiado-playa-papagayo-90-minutos-87884",
+    "centerId": "snorkel-lanzarote-19784935",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/lanzarote/la-alta-gama-de-la-experiencia--o87884",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-padi-scuba-diver-playa-del-jablito-1-dia-88503",
+    "centerId": "centro-de-buceo-tribuo-19757878",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/fuerteventura/curso-padi-scuba-diver-playa-del-jablito-1-dia--o88503",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "hacer-snorkel-en-cartagena-para-ver-la-posidonia-40400",
+    "centerId": "posidonia-turismo-19711962",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/hacer-snorkel-en-cartagena-para-ver-la-posidonia--o40400",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-1-estrella-en-tarifa-fin-de-semana-61994",
+    "centerId": "centollo-dive-club-19777108",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/curso-de-buceo-1-estrella-en-tarifa-fin-de-semana--o61994",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "bautismo-de-buceo-en-tarifa-grupos-reducidos-61940",
+    "centerId": "centollo-dive-club-19777108",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/cadiz/bautismo-de-buceo-en-tarifa-grupos-reducidos--o61940",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "inmersion-de-buceo-guiada-en-calahonda-90-minutos-63866",
+    "centerId": "club-de-buceo-noraysub-19754166",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/inmersion-de-buceo-guiada-en-calahonda-90-minutos--o63866",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "activitySlug": "curso-de-buceo-padi-open-water-diver-calahonda-63865",
+    "centerId": "club-de-buceo-noraysub-19754166",
+    "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-open-water-diver-calahonda--o63865",
+    "checkedAt": "2026-10-18"
   }
 ];

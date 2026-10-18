@@ -4,7 +4,7 @@ import { CentersList } from "@/app/centros/CentersList";
 export const metadata = {
   title: "Escuelas y Centros de Buceo en España · Directorio y Cursos",
   description:
-    "Directorio de más de 170 centros y escuelas de buceo en España. Consulta ubicaciones, cursos Open Water, valoraciones y actividades vinculadas para reservar.",
+    "Directorio de más de 210 centros y escuelas de buceo en España. Consulta ubicaciones, cursos Open Water, valoraciones y actividades vinculadas para reservar.",
   alternates: {
     canonical: "/centros",
   },
