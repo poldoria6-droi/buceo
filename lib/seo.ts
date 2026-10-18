@@ -40,7 +40,7 @@ export function buildWebsiteJsonLd() {
         "@id": `${SITE_URL}/#website`,
         "url": SITE_URL,
         "name": SITE_NAME,
-        "description": "Portal y mapa de buceo en España: actividades, escuelas, destinos y fauna marina.",
+        "description": "Comparador y directorio de buceo en España: actividades, escuelas, destinos y fauna marina.",
         "inLanguage": "es-ES",
       },
       {
@@ -49,7 +49,7 @@ export function buildWebsiteJsonLd() {
         "name": SITE_NAME,
         "url": SITE_URL,
         "logo": `${SITE_URL}/favicon.ico`,
-        "description": "Guía especializada en buceo en España con mapa interactivo y reserva de actividades verificadas.",
+        "description": "Portal especializado en buceo en España con mapa interactivo, directorio de escuelas y comparador de actividades.",
       },
     ],
   };
@@ -136,7 +136,7 @@ export function buildActivityJsonLd(
   };
 }
 
-export function buildCenterJsonLd(center: DiveCenter, activitiesCount: number) {
+export function buildCenterJsonLd(center: DiveCenter, _activitiesCount: number) {
   return {
     "@context": "https://schema.org",
     "@type": "SportsActivityLocation",
@@ -196,7 +196,7 @@ export function buildSpeciesJsonLd(item: Species) {
     "name": item.name,
     "alternateName": item.scientificName,
     "description": item.description,
-    "image": item.image.url,
+    "image": getCanonicalUrl(item.image.url),
     "url": getCanonicalUrl(`/fauna/${item.slug}`),
   };
 }
@@ -205,6 +205,8 @@ export function buildArticleJsonLd(guide: {
   title: string;
   description: string;
   path: string;
+  datePublished?: string;
+  dateModified?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -214,6 +216,13 @@ export function buildArticleJsonLd(guide: {
     "description": guide.description,
     "url": getCanonicalUrl(guide.path),
     "inLanguage": "es-ES",
+    "datePublished": guide.datePublished || "2026-10-18",
+    "dateModified": guide.dateModified || guide.datePublished || "2026-10-18",
+    "author": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": SITE_URL,
+    },
     "publisher": {
       "@type": "Organization",
       "name": SITE_NAME,

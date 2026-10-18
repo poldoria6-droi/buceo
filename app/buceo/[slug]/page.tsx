@@ -17,14 +17,14 @@ export async function generateMetadata({ params }: Props) {
   if (!destination) return {};
 
   return {
-    title: `Buceo en ${destination.name}: Puntos de Inmersión y Guía`,
-    description: `Guía de buceo en ${destination.name} (${destination.region}). Descubre los mejores puntos de inmersión, niveles requeridos, fauna marina y mapa.`,
+    title: `Buceo en ${destination.name}: Puntos de Inmersión, Escuelas y Guía`,
+    description: `Guía de buceo en ${destination.name} (${destination.region}). Descubre sus mejores puntos de inmersión, niveles, fauna marina y actividades para reservar.`,
     alternates: {
       canonical: `/buceo/${slug}`,
     },
     openGraph: {
       title: `Buceo en ${destination.name} | Buceo Atlas`,
-      description: `Puntos de inmersión y guía de buceo en ${destination.name} (${destination.region}).`,
+      description: `Puntos de inmersión y experiencias de buceo en ${destination.name} (${destination.region}).`,
       url: `/buceo/${slug}`,
       type: "website",
     },
@@ -54,11 +54,27 @@ export default async function DestinationPage({ params }: Props) {
               { name: `Buceo en ${destination.name}`, path: `/buceo/${destination.slug}` },
             ]}
           />
-          <span className="eyebrow">{destination.region} · {sites.length} puntos</span>
+          <span className="eyebrow">
+            {destination.region} · {sites.length} puntos de inmersión
+          </span>
           <h1>Buceo en {destination.name}</h1>
           <p>
-            Descubre puntos de inmersión, niveles, tipo de fondo y fauna que puedes buscar. Esta V1 es una base editorial inicial y se irá reforzando con datos verificados de centros y proveedores.
+            Explora los puntos de inmersión más destacados de {destination.name}, sus rangos de profundidad, tipo de fondo, nivel recomendado y especies habituales.
           </p>
+          <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1.25rem" }}>
+            <Link
+              href={`/actividades?region=${encodeURIComponent(destination.region)}`}
+              className="button button-primary"
+            >
+              Ver actividades en {destination.region} →
+            </Link>
+            <Link
+              href={`/centros?q=${encodeURIComponent(destination.name)}`}
+              className="button button-ghost-dark"
+            >
+              Buscar escuelas en la zona
+            </Link>
+          </div>
           <div className="hero-tags">
             {animals.slice(0, 8).map((animal) => (
               <span key={animal}>{animal}</span>
@@ -71,11 +87,11 @@ export default async function DestinationPage({ params }: Props) {
         <div className="container">
           <div className="section-heading">
             <div>
-              <span className="eyebrow">PUNTOS</span>
-              <h2>Dónde bucear</h2>
+              <span className="eyebrow">PUNTOS DE INMERSIÓN</span>
+              <h2>Dónde bucear en {destination.name}</h2>
             </div>
-            <Link href="/mapa" className="text-link">
-              Abrir mapa completo →
+            <Link href={`/mapa?region=${encodeURIComponent(destination.region)}`} className="text-link">
+              Ver en el mapa interactivo →
             </Link>
           </div>
           <div className="cards-grid">
@@ -89,10 +105,15 @@ export default async function DestinationPage({ params }: Props) {
       <section className="section section-soft">
         <div className="container editorial-grid">
           <div>
-            <span className="eyebrow">FAUNA</span>
-            <h2>Qué puedes buscar bajo el agua</h2>
+            <span className="eyebrow">BIODIVERSIDAD SUBMARINA</span>
+            <h2>Fauna marina característica</h2>
             <p>
-              La fauna es indicativa y puede variar según zona, temporada, condiciones y profundidad. En la versión comercial, esta información se validará con operadores y fuentes primarias.
+              Especies representativas de los fondos de {destination.name}. La observación de fauna en libertad varía según la época del año, la temperatura del agua y la cota de inmersión.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              <Link href="/fauna" className="text-link">
+                Consultar el catálogo completo de fauna marina →
+              </Link>
             </p>
           </div>
           <div className="fauna-cloud">

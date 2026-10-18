@@ -9,28 +9,28 @@ import { SITE_URL, SITE_NAME, buildWebsiteJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Portal y Mapa de Buceo en España`,
+    default: `${SITE_NAME} | Actividades, Escuelas y Mapa de Buceo en España`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Descubre y compara actividades de buceo, puntos de inmersión en España, escuelas verificadas y fauna marina con mapa interactivo.",
+    "Compara actividades de buceo, bautismos, cursos Open Water, escuelas de buceo, puntos de inmersión y fauna marina en España con mapa interactivo.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     siteName: SITE_NAME,
-    title: `${SITE_NAME} | Portal y Mapa de Buceo en España`,
+    title: `${SITE_NAME} | Actividades, Escuelas y Mapa de Buceo en España`,
     description:
-      "Descubre y compara actividades de buceo, puntos de inmersión en España, escuelas verificadas y fauna marina con mapa interactivo.",
+      "Compara actividades de buceo, bautismos, cursos Open Water, escuelas de buceo y fauna marina en España con mapa interactivo.",
     type: "website",
     locale: "es_ES",
     url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} | Portal y Mapa de Buceo en España`,
+    title: `${SITE_NAME} | Actividades, Escuelas y Mapa de Buceo en España`,
     description:
-      "Descubre y compara actividades de buceo, puntos de inmersión en España, escuelas verificadas y fauna marina.",
+      "Compara actividades de buceo, puntos de inmersión en España, escuelas de buceo y fauna marina.",
   },
 };
 

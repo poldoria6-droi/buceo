@@ -1,108 +1,206 @@
 import Link from "next/link";
 import { diveSites, destinations } from "@/data/dive-sites";
 import { activities } from "@/data/activities";
+import { centers } from "@/data/centers";
+import { species } from "@/data/species";
+import { guides } from "@/data/guides";
 import { SiteCard } from "@/components/SiteCard";
+import { SpeciesCard } from "@/components/SpeciesCard";
 
-export default function HomePage(){
-  const featured=diveSites.filter(site=>["Illes Medes","Islas Hormigas","Parque Nacional de Cabrera","La Restinga","Playa Chica","Maro–Cerro Gordo"].includes(site.name));
-  const stats=[[String(activities.length),"Actividades en catálogo"],[String(destinations.length),"Destinos"],[String(diveSites.length),"Puntos de buceo"]];
+export default function HomePage() {
+  const featuredSites = diveSites.filter((site) =>
+    ["Illes Medes", "Islas Hormigas", "Parque Nacional de Cabrera", "La Restinga", "Playa Chica", "Maro–Cerro Gordo"].includes(site.name)
+  );
+  const featuredSpecies = species.filter((s) =>
+    ["mero-moreno", "tortuga-boba", "gorgonia-roja", "pulpo-comun", "barracuda", "posidonia"].includes(s.slug)
+  );
+  const featuredGuides = guides.slice(0, 6);
 
-  return <div className="home-page">
-    <section className="reference-hero">
-      <div className="hero-overlay" aria-hidden="true"/>
-      <div className="container reference-hero-inner">
-        <div className="reference-hero-copy">
-          <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
-          <h1>Explora España<br/><em>bajo el agua</em></h1>
-          <p>Encuentra tu actividad, conoce quién la ofrece y reserva con el proveedor. Descubre también las especies de nuestros mares.</p>
+  const stats = [
+    [String(activities.length), "Actividades en catálogo"],
+    [String(centers.length), "Escuelas y centros"],
+    [String(destinations.length), "Destinos de buceo"],
+    [String(species.length), "Especies marinas"],
+  ];
 
-          <div className="hero-discovery">
-            <div className="hero-discovery-copy">
-              <span className="hero-discovery-icon">✦</span>
-              <div>
-                <strong>Tu próxima inmersión empieza aquí</strong>
-                <small>Bautismos, cursos y salidas para buceadores titulados.</small>
+  return (
+    <div className="home-page">
+      <section className="reference-hero">
+        <img
+          src="/images/hero-1280.jpg"
+          srcSet="/images/hero-800.jpg 800w, /images/hero-1280.jpg 1280w, /images/hero-1920.jpg 1920w"
+          sizes="100vw"
+          width={1920}
+          height={1280}
+          alt="Submarinismo en aguas cristalinas de España"
+          fetchPriority="high"
+          decoding="async"
+          className="hero-bg-image"
+        />
+        <div className="hero-overlay" aria-hidden="true" />
+        <div className="container reference-hero-inner">
+          <div className="reference-hero-copy">
+            <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
+            <h1>
+              Tu próxima inmersión empieza aquí:<br />
+              <em>explora tu actividad</em>
+            </h1>
+            <p>
+              Compara bautismos de buceo, cursos Open Water, salidas guiadas y snorkel en los mejores destinos del Mediterráneo, Baleares y Canarias.
+            </p>
+
+            <div className="hero-discovery">
+              <div className="hero-discovery-copy">
+                <span className="hero-discovery-icon">✦</span>
+                <div>
+                  <strong>Más de {activities.length} experiencias y {centers.length} escuelas de buceo</strong>
+                  <small>Filtra por comunidad autónoma, localidad, nivel o punto de inmersión.</small>
+                </div>
+              </div>
+              <div className="hero-discovery-actions">
+                <Link href="/actividades" className="hero-discovery-primary">
+                  Explora tu actividad <span>→</span>
+                </Link>
               </div>
             </div>
-            <div className="hero-discovery-actions">
-              <Link href="/actividades" className="hero-discovery-primary">Encuentra tu actividad <span>→</span></Link>
-              <Link href="/centros" className="hero-discovery-secondary">Conoce las escuelas</Link>
+
+            <div className="hero-activity-links" aria-label="Descubrir por tipo">
+              <span>Acceso rápido:</span>
+              <Link href="/actividades?type=Bautismo">Bautismos</Link>
+              <Link href="/actividades?type=Fun%20Dive">Fun Dive</Link>
+              <Link href="/actividades?type=Pecio">Pecios</Link>
+              <Link href="/actividades?type=Curso">Cursos</Link>
+              <Link href="/actividades#mapa">Mapa interactivo</Link>
+            </div>
+
+            <div className="reference-stat-row">
+              {stats.map(([value, label], i) => (
+                <div className="reference-stat" key={label}>
+                  <span aria-hidden="true">{["⌖", "◈", "✦", "◉"][i]}</span>
+                  <strong>{value}</strong>
+                  <small>{label}</small>
+                </div>
+              ))}
             </div>
           </div>
-
-          <div className="hero-activity-links" aria-label="Descubrir por tipo">
-            <span>Descubre por:</span>
-            <Link href="/actividades?type=Bautismo">Bautismo</Link>
-            <Link href="/actividades?type=Fun%20Dive">Fun Dive</Link>
-            <Link href="/actividades?type=Pecio">Pecios</Link>
-            <Link href="/actividades?type=Curso">Cursos</Link>
-          </div>
-
-          <div className="reference-stat-row">
-            {stats.map(([value,label],i)=><div className="reference-stat" key={label}>
-              <span aria-hidden="true">{["⌖","◈","✦","◉","▣"][i]}</span>
-              <strong>{value}</strong><small>{label}</small>
-            </div>)}
-          </div>
         </div>
-      </div>
-      <div className="reference-swoosh" aria-hidden="true"/>
-    </section>
+        <div className="reference-swoosh" aria-hidden="true" />
+      </section>
 
-    <section className="section home-after-map">
-      <div className="container">
-        <div className="section-heading">
-          <div><span className="eyebrow">DESCUBRE TU PRÓXIMA INMERSIÓN</span><h2>Elige cómo quieres vivir el mar.</h2></div>
-          <Link href="/actividades" className="text-link">Ver todas las actividades →</Link>
-        </div>
-        <div className="home-discovery-grid">
-          <Link href="/actividades?type=Bautismo" className="home-discovery-card"><b>🤿</b><strong>Mi primer buceo</strong><span>Bautismos y experiencias para descubrir el mundo submarino.</span></Link>
-          <Link href="/mapa" className="home-discovery-card"><b>📍</b><strong>Explora el mapa</strong><span>Descubre puntos de buceo y experiencias disponibles por destino.</span></Link>
-          <Link href="/actividades?type=Pecio" className="home-discovery-card"><b>⚓</b><strong>Pecios</strong><span>Descubre barcos hundidos, historia y buceo técnico o recreativo.</span></Link>
-        </div>
-      </div>
-    </section>
-
-    <section className="section home-commercial-section">
-      <div className="container">
-        <div className="section-heading">
-          <div><span className="eyebrow">TODO PARA TU PRÓXIMA INMERSIÓN</span><h2>Del mapa a la experiencia.</h2></div>
-          <span className="commercial-note">Explora, compara y encuentra opciones.</span>
-        </div>
-        <div className="commercial-grid">
-          <Link href="/actividades" className="commercial-card commercial-card-activity">
-            <div className="commercial-card-visual"><span>🤿</span><small>EXPERIENCIAS</small></div>
-            <div className="commercial-card-body">
-              <span className="eyebrow">RESERVA TU INMERSIÓN</span>
-              <h3>Bautismos, Fun Dive, cursos y snorkel.</h3>
-              <p>Encuentra actividades por destino, nivel y tipo. Cuando una opción esté disponible, podrás continuar con el proveedor desde Buceo Atlas.</p>
-              <strong>Explorar actividades <span>→</span></strong>
+      <section className="section home-after-map">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">ELIGE TU MODALIDAD</span>
+              <h2>¿Qué experiencia submarina buscas hoy?</h2>
             </div>
-          </Link>
-          <Link href="/fauna" className="commercial-card commercial-card-gear">
-            <div className="commercial-card-visual"><span>🐠</span><small>FAUNA MARINA</small></div>
-            <div className="commercial-card-body"><span className="eyebrow">CONOCE NUESTROS MARES</span><h3>Especies, hábitats y observación responsable.</h3><p>Consulta fichas con fuentes y distingue distribución regional de avistamientos en puntos de buceo.</p><strong>Explorar fauna →</strong></div>
-          </Link>
+            <Link href="/actividades" className="text-link">
+              Ver todas las actividades →
+            </Link>
+          </div>
+          <div className="home-discovery-grid">
+            <Link href="/actividades?type=Bautismo" className="home-discovery-card">
+              <b>🤿</b>
+              <strong>Bautismo de buceo</strong>
+              <span>Tu primera inmersión en el mar con instructor y equipo completo incluido, sin experiencia previa.</span>
+            </Link>
+            <Link href="/actividades?type=Curso" className="home-discovery-card">
+              <b>🎓</b>
+              <strong>Cursos de certificación</strong>
+              <span>Obtén tu título Open Water o especialidad internacional en escuelas de toda la costa española.</span>
+            </Link>
+            <Link href="/actividades?type=Pecio" className="home-discovery-card">
+              <b>⚓</b>
+              <strong>Salidas y pecios</strong>
+              <span>Inmersiones para buceadores titulados en reservas marinas, cañones y barcos hundidos históricos.</span>
+            </Link>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="section section-soft">
-      <div className="container">
-        <div className="section-heading">
-          <div><span className="eyebrow">DESTINOS DESTACADOS</span><h2>Empieza por algunos de los grandes clásicos.</h2></div>
-          <Link href="/destinos" className="text-link">Todos los destinos →</Link>
+      <section className="section section-soft">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">DESTINOS DESTACADOS</span>
+              <h2>Grandes clásicos del buceo en España</h2>
+            </div>
+            <Link href="/destinos" className="text-link">
+              Todos los destinos →
+            </Link>
+          </div>
+          <div className="cards-grid">
+            {featuredSites.map((site) => (
+              <SiteCard key={site.id} site={site} />
+            ))}
+          </div>
         </div>
-        <div className="cards-grid">{featured.map(site=><SiteCard key={site.id} site={site}/>)}</div>
-      </div>
-    </section>
+      </section>
 
-    <section className="section cta-section">
-      <div className="container cta-panel">
-        <div><span className="eyebrow">DE LA INSPIRACIÓN A LA RESERVA</span><h2>Encuentra. Compara. Sumérgete.</h2><p>La web está preparada para conectar destinos y puntos de buceo con experiencias y proveedores cuando sus datos estén verificados.</p></div>
-        <Link href="/actividades" className="button button-primary">Explorar actividades</Link>
-      </div>
-    </section>
-  </div>;
+      <section className="section">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">BIODIVERSIDAD MEDITERRÁNEA Y ATLÁNTICA</span>
+              <h2>Fauna marina que puedes avistar buceando</h2>
+            </div>
+            <Link href="/fauna" className="text-link">
+              Ver las {species.length} especies →
+            </Link>
+          </div>
+          <div className="guide-grid">
+            {featuredSpecies.map((item) => (
+              <SpeciesCard key={item.slug} item={item} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-soft">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">GUÍAS Y COMPARATIVAS</span>
+              <h2>Resuelve tus dudas antes de sumergirte</h2>
+            </div>
+            <Link href="/guias" className="text-link">
+              Ver todas las guías →
+            </Link>
+          </div>
+          <div className="guide-grid">
+            {featuredGuides.map((g) => (
+              <article className="guide-card" key={g.slug}>
+                <span className="eyebrow">{g.tag}</span>
+                <h3>{g.title}</h3>
+                <p>{g.description}</p>
+                <Link href={`/guias/${g.slug}`} className="text-link">
+                  {g.ctaLabel}
+                </Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section cta-section">
+        <div className="container cta-panel">
+          <div>
+            <span className="eyebrow">PLANIFICA TU INMERSIÓN</span>
+            <h2>Encuentra. Compara. Sumérgete.</h2>
+            <p>
+              Consulta precios desde, duración, nivel requerido y centros organizadores en los principales destinos de buceo de España.
+            </p>
+          </div>
+          <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+            <Link href="/actividades" className="button button-primary">
+              Explora tu actividad →
+            </Link>
+            <Link href="/centros" className="button button-ghost">
+              Directorio de escuelas
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }
-

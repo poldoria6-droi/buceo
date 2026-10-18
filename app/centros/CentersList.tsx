@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useDeferredValue } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { centers } from "@/data/centers";
@@ -7,46 +8,62 @@ import { getCenterActivities } from "@/lib/centers";
 
 export function CentersList() {
   const searchParams = useSearchParams();
-  const qParam = searchParams.get("q") || "";
+  const [query, setQuery] = useState(searchParams.get("q") || "");
+  const deferredQuery = useDeferredValue(query);
+
   const normalize = (value: string) =>
     value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-  const q = qParam.trim();
+  const q = deferredQuery.trim();
   const matches = centers.filter((center) =>
     normalize(`${center.name} ${center.location} ${center.region}`).includes(normalize(q))
   );
 
   return (
     <>
-      <form className="center-search" action="/centros">
-        <label htmlFor="center-query">Centro o localidad</label>
+      <form className="center-search" action="/centros" onSubmit={(e) => e.preventDefault()}>
+        <label htmlFor="center-query">Centro, localidad o región</label>
         <input
           id="center-query"
           name="q"
-          defaultValue={q}
-          placeholder="Nombre del centro o destino"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Ej. L'Estartit, Cabo de Palos, Lanzarote, Tarifa..."
         />
-        <button className="button button-primary" type="submit">
-          Buscar centros
-        </button>
-        {q && <Link href="/centros">Limpiar búsqueda</Link>}
+        {query && (
+          <button type="button" className="reset-button" onClick={() => setQuery("")}>
+            Limpiar búsqueda
+          </button>
+        )}
       </form>
-      <p>{matches.length} centros · Catálogo en ampliación</p>
+      <p>
+        <strong>{matches.length}</strong> centros y escuelas de buceo en el directorio.
+      </p>
       <div className="guide-grid">
-        {matches.map((center) => (
-          <article className="guide-card" key={center.id}>
-            <span className="eyebrow">{center.location}</span>
-            <h2>{center.name}</h2>
-            <p>{getCenterActivities(center.id).length} actividades vinculadas</p>
-            <Link className="button button-primary" href={`/centros/${center.slug}`}>
-              Ver centro y actividades →
-            </Link>
-          </article>
-        ))}
+        {matches.map((center) => {
+          const count = getCenterActivities(center.id).length;
+          return (
+            <article className="guide-card" key={center.id}>
+              <span className="eyebrow">
+                {center.location} · {center.region}
+              </span>
+              <h2>{center.name}</h2>
+              <p>
+                {count} {count === 1 ? "actividad vinculada" : "actividades vinculadas"}
+              </p>
+              <Link className="button button-primary" href={`/centros/${center.slug}`}>
+                Ver centro y actividades →
+              </Link>
+            </article>
+          );
+        })}
       </div>
       {!matches.length && (
         <p>
-          No hay centros publicados que coincidan. Puedes{" "}
-          <Link href="/actividades">explorar todas las actividades</Link>.
+          No hay escuelas que coincidan con «{query}». Puedes{" "}
+          <Link href="/actividades" className="text-link">
+            explorar todas las actividades
+          </Link>
+          .
         </p>
       )}
     </>

@@ -6,9 +6,9 @@ import { activities, activityRegions, activityTypes } from "@/data/activities";
 import { ActivitiesExplorer } from "@/app/actividades/ActivitiesExplorer";
 
 export const metadata = {
-  title: "Actividades y Cursos de Buceo en España · Reserva Online",
+  title: "Actividades y Cursos de Buceo en España · Comparador y Reserva",
   description:
-    "Encuentra y compara bautismos, cursos PADI/SSI, Fun Dive, pecios y snorkel en España sobre un mapa interactivo. Precios desde, escuelas y reserva con proveedores oficiales.",
+    "Encuentra y compara bautismos de buceo, cursos Open Water, Fun Dive, pecios y snorkel en España con mapa interactivo. Consulta precios desde, nivel y escuelas.",
   alternates: {
     canonical: "/actividades",
   },
@@ -34,13 +34,26 @@ export default function ActivitiesPage() {
       <div className="container">
         <div className="activities-hero">
           <div>
-            <span className="eyebrow">RESERVAR EXPERIENCIAS</span>
-            <h1>Elige qué quieres hacer.<br /><em>Encuentra dónde hacerlo.</em></h1>
-            <p>Elige una comunidad autónoma y después una ciudad o destino. Compara las actividades de la lista o explora sus puntos de buceo en el mapa.</p>
+            <span className="eyebrow">COMPARADOR DE EXPERIENCIAS</span>
+            <h1>
+              Actividades y cursos de buceo<br />
+              <em>en toda España</em>
+            </h1>
+            <p>
+              Filtra por tipo de inmersión, comunidad autónoma, localidad o nivel. Compara precios desde, duración y centros organizadores, o explora los puntos en el mapa.
+            </p>
           </div>
-          <div className="activity-hero-icon" aria-hidden="true">🤿</div>
+          <div className="activity-hero-icon" aria-hidden="true">
+            🤿
+          </div>
         </div>
-        <Suspense fallback={<div className="activity-empty"><strong>Cargando actividades y mapa interactivo...</strong></div>}>
+        <Suspense
+          fallback={
+            <div className="activity-empty">
+              <strong>Cargando catálogo de actividades y mapa interactivo...</strong>
+            </div>
+          }
+        >
           <ActivitiesExplorer
             centerByActivity={centerByActivity}
             activities={activities}
@@ -51,15 +64,16 @@ export default function ActivitiesPage() {
         </Suspense>
         <div className="affiliate-funnel">
           <div>
-            <h2>¿Buscas una escuela de buceo?</h2>
-            <p>Consulta los centros documentados y todas sus actividades vinculadas.</p>
-            <Link href="/centros" className="button button-primary">Ver escuelas de buceo</Link>
+            <h2>¿Buscas un centro o escuela en concreto?</h2>
+            <p>
+              Consulta nuestro directorio con más de 170 escuelas de buceo en España y accede a todas sus actividades y cursos.
+            </p>
+            <Link href="/centros" className="button button-primary">
+              Ver directorio de escuelas
+            </Link>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
-
-

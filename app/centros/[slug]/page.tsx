@@ -10,12 +10,12 @@ import { buildCenterJsonLd } from "@/lib/seo";
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  return centers.map(center => ({ slug: center.slug }));
+  return centers.map((center) => ({ slug: center.slug }));
 }
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
-  const center = centers.find(item => item.slug === slug);
+  const center = centers.find((item) => item.slug === slug);
   if (!center) return {};
 
   return {
@@ -35,12 +35,11 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function CenterPage({ params }: Props) {
   const { slug } = await params;
-  const center = centers.find(item => item.slug === slug);
+  const center = centers.find((item) => item.slug === slug);
   if (!center) notFound();
 
   const activities = getCenterActivities(center.id);
-  const types = Array.from(new Set(activities.map(a => a.type))).sort();
-  const sites = diveSites.filter(site => center.siteSlugs.includes(site.slug));
+  const sites = diveSites.filter((site) => center.siteSlugs.includes(site.slug));
   const centerJsonLd = buildCenterJsonLd(center, activities.length);
 
   return (
@@ -70,48 +69,57 @@ export default async function CenterPage({ params }: Props) {
         )}
 
         <p>{center.description}</p>
-        <a className="button button-primary" href="#actividades">
-          Ver sus {activities.length} actividades ↓
-        </a>
+        {activities.length > 0 && (
+          <a className="button button-primary" href="#actividades">
+            Ver sus {activities.length} actividades ↓
+          </a>
+        )}
 
-        <h2>Qué ofrece el centro</h2>
+        <h2>Servicios e instalaciones</h2>
         <div className="check-grid">
-          {center.services.map(service => (
+          {center.services.map((service) => (
             <span key={service}>✓ {service}</span>
           ))}
         </div>
 
-        <h2>Puntos de buceo donde opera</h2>
-        {sites.length ? (
-          <ul>
-            {sites.map(site => (
-              <li key={site.slug}>
-                <Link href={`/mapa?q=${encodeURIComponent(site.name)}`}>{site.name}</Link>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p>
-            Consulta el punto de encuentro y la zona de la actividad en cada oferta. Aún no tenemos puntos de inmersión confirmados para este centro.
-          </p>
+        {sites.length > 0 && (
+          <>
+            <h2>Puntos de inmersión en su zona</h2>
+            <div className="guide-grid">
+              {sites.map((site) => (
+                <article className="guide-card" key={site.slug}>
+                  <span className="eyebrow">{site.region}</span>
+                  <h3>{site.name}</h3>
+                  <p>{site.highlight}</p>
+                  <Link href={`/mapa?q=${encodeURIComponent(site.name)}`} className="text-link">
+                    Ver punto en el mapa →
+                  </Link>
+                </article>
+              ))}
+            </div>
+          </>
         )}
 
         <section id="actividades" className="center-activities">
           <h2>Actividades y opciones de reserva</h2>
           <p>
-            Elige una experiencia. La disponibilidad para tus fechas y el pago se confirman en el proveedor externo.
+            Selecciona una experiencia para ver todos sus detalles o consultar fechas y precios directamente con el proveedor.
           </p>
           <div className="guide-grid">
-            {activities.map(activity => (
+            {activities.map((activity) => (
               <article className="guide-card" key={activity.slug}>
                 <span className="eyebrow">{activity.type}</span>
                 <h3>
                   <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                 </h3>
-                <p>{activity.audience} · {activity.level}</p>
-                <p>{activity.duration} · {activity.destination}</p>
+                <p>
+                  {activity.audience} · Nivel {activity.level}
+                </p>
+                <p>
+                  {activity.duration} · {activity.destination}
+                </p>
                 <Link className="text-link" href={`/actividades/${activity.slug}`}>
-                  Ver actividad →
+                  Ver ficha de la actividad →
                 </Link>
                 <BookingOptions activity={activity} officialUrl={center.officialUrl} />
               </article>
@@ -120,9 +128,9 @@ export default async function CenterPage({ params }: Props) {
 
           {!activities.length && (
             <>
-              <p>Este centro todavía no tiene actividades publicadas en Atlas.</p>
+              <p>Consulta las actividades disponibles directamente con el centro o explora otras opciones en la zona.</p>
               {center.officialUrl && /^https?:\/\//i.test(center.officialUrl) && (
-                <a href={center.officialUrl} target="_blank" rel="noopener noreferrer">
+                <a href={center.officialUrl} target="_blank" rel="noopener noreferrer" className="text-link">
                   Visitar web del centro ↗
                 </a>
               )}
@@ -130,16 +138,13 @@ export default async function CenterPage({ params }: Props) {
           )}
         </section>
 
-        <p className="data-note">
-          Algunas reservas pueden generar una comisión para Atlas. Los precios «desde» corresponden a cada oferta y pueden cambiar.
-        </p>
         <details>
-          <summary>Fuentes de información · revisado {center.checkedAt}</summary>
+          <summary>Referencias de la ficha · revisado {center.checkedAt}</summary>
           <ul>
             {center.sources.map((source, i) => (
               <li key={source}>
                 <a href={source} target="_blank" rel="noopener noreferrer">
-                  Fuente {i + 1}
+                  Referencia {i + 1}
                 </a>
               </li>
             ))}

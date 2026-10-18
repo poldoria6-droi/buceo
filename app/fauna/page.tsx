@@ -3,16 +3,16 @@ import { Suspense } from "react";
 import { FaunaList } from "@/app/fauna/FaunaList";
 
 export const metadata = {
-  title: "Fauna Marina de España · Especies, Hábitats y Observación",
+  title: "Fauna Marina del Mediterráneo y España · Guía de Especies",
   description:
-    "Guía de fauna marina de España para buceadores y snorkelers. Especies contrastadas, rangos biológicos, hábitats y registros documentados en el mapa.",
+    "Catálogo ilustrado de fauna y flora marina del Mediterráneo y Atlántico español: peces, cefalópodos, crustáceos, corales, tortugas y observación responsable.",
   alternates: {
     canonical: "/fauna",
   },
   openGraph: {
-    title: "Fauna Marina de España | Buceo Atlas",
+    title: "Fauna Marina del Mediterráneo y España | Buceo Atlas",
     description:
-      "Guía de especies marinas y observación responsable para buceadores en España.",
+      "Guía visual de especies marinas de España: hábitats, identificación y buceo responsable.",
     url: "/fauna",
     type: "website",
   },
@@ -22,23 +22,26 @@ export default function FaunaPage() {
   return (
     <section className="section">
       <div className="container">
-        <span className="eyebrow">EXPLORAR Y APRENDER</span>
-        <h1>Fauna marina</h1>
+        <span className="eyebrow">GUÍA DE ESPECIES MARINAS</span>
+        <h1>Fauna marina del Mediterráneo y Atlántico español</h1>
         <p className="lead">
-          Conoce las especies y observa el mar con respeto. La reserva de experiencias sigue en{" "}
-          <Link href="/actividades">Encuentra tu actividad</Link>.
+          Identifica los peces, cefalópodos, crustáceos, corales y plantas marinas más representativos de nuestras costas y consulta cómo observarlos sin alterar su hábitat.
         </p>
-        <Suspense fallback={<p>Cargando especies marinas...</p>}>
+        <Suspense fallback={<p>Cargando catálogo de especies marinas...</p>}>
           <FaunaList />
         </Suspense>
         <p className="data-note">
-          Los registros históricos no garantizan avistamientos. No atribuimos una especie a todos los puntos de una comunidad autónoma. Los rangos biológicos no indican la profundidad recomendada para bucear.
+          La presencia de fauna salvaje varía según la época, la profundidad y las condiciones del mar; los registros documentados son orientativos y no garantizan el avistamiento durante una inmersión.
         </p>
-        <Link className="button button-primary" href="/actividades#mapa">
-          Explorar experiencias y especies en el mapa →
-        </Link>
+        <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1rem" }}>
+          <Link className="button button-primary" href="/actividades">
+            Explorar actividades de buceo →
+          </Link>
+          <Link className="button button-ghost-dark" href="/centros">
+            Ver escuelas de buceo
+          </Link>
+        </div>
       </div>
     </section>
   );
 }
-

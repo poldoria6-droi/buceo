@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props) {
 
   return {
     title: `${s.name} (${s.scientificName}) · Fauna Marina`,
-    description: `${s.description} Conoce su hábitat, rango de profundidad y zonas documentadas en España.`,
+    description: `${s.description} Conoce su hábitat, alimentación, comportamiento y observación durante el buceo en España.`,
     alternates: {
       canonical: `/fauna/${slug}`,
     },
@@ -43,6 +43,9 @@ export default async function SpeciesPage({ params }: Props) {
   if (!s) notFound();
 
   const speciesJsonLd = buildSpeciesJsonLd(s);
+  const related = species
+    .filter((x) => x.slug !== s.slug && x.category === s.category)
+    .slice(0, 6);
 
   return (
     <section className="section">
@@ -63,10 +66,22 @@ export default async function SpeciesPage({ params }: Props) {
           <em>{s.scientificName}</em>
         </p>
         <figure className="species-figure">
-          <img src={s.image.url} alt={s.image.alt} width="900" height="600" />
+          <img
+            src={s.image.url}
+            alt={s.image.alt}
+            width={s.image.width || 960}
+            height={s.image.height || 640}
+            decoding="async"
+          />
           <figcaption>
-            {s.image.author} · <a href={s.image.licenseUrl}>{s.image.license}</a> ·{" "}
-            <a href={s.image.sourceUrl}>Fuente y archivo original</a>
+            Fotografía: {s.image.author} ·{" "}
+            <a href={s.image.licenseUrl} target="_blank" rel="noopener noreferrer">
+              {s.image.license}
+            </a>{" "}
+            ·{" "}
+            <a href={s.image.sourceUrl} target="_blank" rel="noopener noreferrer">
+              Fuente y archivo original
+            </a>
           </figcaption>
         </figure>
         <p className="lead">{s.description}</p>
@@ -76,21 +91,21 @@ export default async function SpeciesPage({ params }: Props) {
             <h2>Hábitat</h2>
             <p>{s.habitat}</p>
           </article>
-          <article className="guide-card">
-            <h2>Profundidad biológica</h2>
-            {s.depth ? (
-              <>
-                <p>
-                  {s.depth.min}–{s.depth.max} m. <a href={s.depth.sourceUrl}>Fuente</a>
-                </p>
-                <p>
-                  Rango biológico citado por la fuente; no equivale a profundidad habitual de observación ni a una recomendación de inmersión.
-                </p>
-              </>
-            ) : (
-              <p>No publicamos un rango hasta tener una fuente contrastada para esta ficha.</p>
-            )}
-          </article>
+          {s.depth && (
+            <article className="guide-card">
+              <h2>Profundidad biológica</h2>
+              <p>
+                {s.depth.min}–{s.depth.max} m ({" "}
+                <a href={s.depth.sourceUrl} target="_blank" rel="noopener noreferrer">
+                  fuente
+                </a>
+                ).
+              </p>
+              <p>
+                Rango batimétrico biológico; no equivale a la cota recomendada para una inmersión recreativa.
+              </p>
+            </article>
+          )}
           {s.size && (
             <article className="guide-card">
               <h2>Tamaño</h2>
@@ -113,82 +128,86 @@ export default async function SpeciesPage({ params }: Props) {
 
         {s.conservation && (
           <section className="notice-card">
-            <h2>Conservación</h2>
+            <h2>Estado de conservación</h2>
             <p>{s.conservation}</p>
           </section>
         )}
+
         <section className="notice-card">
-          <h2>Observación responsable</h2>
+          <h2>Código de observación en inmersión</h2>
           <p>
-            Mantén distancia, buena flotabilidad y el equipo controlado. No toques, alimentes ni persigas animales; no recojas organismos. Respeta las indicaciones del guía y las normas locales.
-          </p>
-          <p>
-            Atlas no asigna frecuencia de avistamiento ni temporada sin una fuente. Una fotografía o distribución regional no acredita presencia habitual durante una inmersión.
+            Mantén una distancia prudente, controla tu flotabilidad y lleva el manómetro y el octopus sujetos para no rozar el fondo. Nunca toques, alimentes ni acorrales a la fauna marina.
           </p>
         </section>
 
-        <h2>Zonas y puntos documentados</h2>
-        {s.occurrences.length ? (
-          <div className="guide-grid">
-            {s.occurrences.map((o) => (
-              <article className="guide-card" key={o.name}>
-                <span className="eyebrow">
-                  {o.precision} · {o.region} · {o.basin}
-                </span>
-                <h3>{o.name}</h3>
-                <p>{o.note}</p>
-                <a href={o.sourceUrl} target="_blank" rel="noopener noreferrer">
-                  Evidencia del registro ↗
-                </a>
-              </article>
-            ))}
-          </div>
-        ) : (
-          <p>
-            Todavía no hemos publicado asociaciones contrastadas con puntos españoles para esta especie. No utilizamos coincidencias regionales para crearlas.
-          </p>
+        {s.occurrences.length > 0 && (
+          <>
+            <h2>Registros documentados en España</h2>
+            <div className="guide-grid">
+              {s.occurrences.map((o) => (
+                <article className="guide-card" key={o.name}>
+                  <span className="eyebrow">
+                    {o.precision} · {o.region} · {o.basin}
+                  </span>
+                  <h3>{o.name}</h3>
+                  <p>{o.note}</p>
+                  <a href={o.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-link">
+                    Fuente del registro ↗
+                  </a>
+                </article>
+              ))}
+            </div>
+          </>
         )}
 
-        <div className="commercial-card commercial-card-activity" style={{ margin: "2rem 0" }}>
-          <div className="commercial-card-body">
-            <span className="eyebrow">OBSERVACIÓN Y BUCEO</span>
-            <h3 style={{ margin: "0.25rem 0 0.5rem" }}>¿Quieres bucear en zonas donde habita {s.name.toLowerCase()}?</h3>
-            <p>
-              Explora las escuelas verificadas y salidas de inmersión en España para planificar tu experiencia con guías locales, respetando siempre el código de observación responsable.
-            </p>
-            <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1rem" }}>
-              <Link className="button button-primary" href={`/actividades?species=${s.slug}#mapa`}>
-                Ver registros en el mapa →
+        <div className="cta-section" style={{ paddingBottom: "2rem" }}>
+          <div className="cta-panel">
+            <div>
+              <span className="eyebrow">PLANIFICA TU INMERSIÓN</span>
+              <h2>Explora actividades y centros de buceo en España</h2>
+              <p>
+                Compara salidas de buceo, bautismos y escuelas en las principales zonas del Mediterráneo, Baleares y Canarias.
+              </p>
+            </div>
+            <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+              <Link className="button button-primary" href="/actividades">
+                Explorar actividades →
               </Link>
-              <Link className="button button-secondary" href="/centros">
-                Ver escuelas verificadas
-              </Link>
-              <Link className="button button-secondary" href="/destinos">
-                Explorar destinos
+              {s.occurrences.length > 0 && (
+                <Link className="button button-ghost" href={`/actividades?species=${s.slug}#mapa`}>
+                  Ver en el mapa
+                </Link>
+              )}
+              <Link className="button button-ghost" href="/centros">
+                Ver escuelas
               </Link>
             </div>
           </div>
         </div>
 
-        <h2>Otras especies</h2>
-        <div className="guide-grid">
-          {species
-            .filter((x) => x.slug !== s.slug && x.category === s.category)
-            .map((item) => (
-              <SpeciesCard key={item.slug} item={item} />
-            ))}
-        </div>
+        {related.length > 0 && (
+          <>
+            <h2>Otras especies de {s.category.toLowerCase()}</h2>
+            <div className="guide-grid">
+              {related.map((item) => (
+                <SpeciesCard key={item.slug} item={item} />
+              ))}
+            </div>
+          </>
+        )}
 
-        <h2>Fuentes · revisado {s.checkedAt}</h2>
-        <ul>
-          {s.sources.map((url) => (
-            <li key={url}>
-              <a href={url} target="_blank" rel="noopener noreferrer">
-                {url}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <details style={{ marginTop: "2.5rem" }}>
+          <summary>Fuentes de referencia · revisado {s.checkedAt}</summary>
+          <ul>
+            {s.sources.map((url) => (
+              <li key={url}>
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  {url}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
       </div>
     </section>
   );

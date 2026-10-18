@@ -272,3 +272,46 @@ body:has(.home-page) .site-header .nav-cta{background:rgba(4,66,92,.28);border:1
 .breadcrumb-link:hover{color:#044b58;text-decoration:underline}
 .breadcrumb-current{color:#2a3e47;font-weight:600;max-width:320px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
+/* === LCP HERO, CLS FAUNA & MOBILE NAVIGATION OPTIMIZATIONS === */
+.reference-hero{background-image:none!important;background-color:#02253e}
+.hero-bg-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:43% 46%;z-index:0;pointer-events:none}
+.reference-hero:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(1,26,48,.92) 0%,rgba(2,40,66,.76) 36%,rgba(1,50,78,.28) 68%,rgba(0,24,43,.18) 100%),linear-gradient(180deg,rgba(0,16,31,.25),transparent 35%,rgba(0,18,31,.38));pointer-events:none}
+.hero-overlay{z-index:1}
+.reference-hero-inner{z-index:2;padding-bottom:56px}
+
+.site-header .main-nav a{font-weight:700;white-space:nowrap}
+body:has(.home-page) .site-header .main-nav a:nth-child(n+5){display:inline-block}
+@media(max-width:960px){
+  .site-header .header-inner{height:auto;min-height:68px;padding:10px 0;flex-wrap:wrap;gap:10px 16px}
+  .site-header .main-nav{display:flex!important;order:3;width:100%;margin-left:0;gap:16px;overflow-x:auto;padding:6px 0 2px;font-size:.83rem;border-top:1px solid rgba(12,110,141,.14)}
+  body:has(.home-page) .site-header .main-nav{border-top-color:rgba(255,255,255,.18)}
+  .site-header .nav-cta{display:inline-flex;margin-left:auto;padding:8px 14px;font-size:.78rem}
+  .reference-hero-inner{padding-top:132px}
+}
+@media(max-width:560px){
+  .site-header .main-nav{gap:13px;font-size:.78rem}
+  .reference-hero-inner{padding-top:128px}
+}
+
+.species-card img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:center;border-radius:.65rem;margin-bottom:.85rem;background:#072b39;display:block}
+.species-card h2{margin:8px 0 4px!important}
+.species-card em{display:block;font-size:.85rem;color:var(--ink-soft);margin-bottom:8px}
+.species-card-desc{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:.9rem;line-height:1.5;margin:0 0 10px}
+.species-card small{font-size:.74rem;color:#5c7480;margin-top:auto;padding-top:8px;border-top:1px solid #edf2f4}
+.species-card small a{text-decoration:underline}
+.species-figure{margin:1.5rem 0;max-width:860px}
+.species-figure img{width:100%;height:auto;max-height:540px;object-fit:contain;border-radius:.85rem;background:#062333;box-shadow:0 8px 28px rgba(8,45,69,.14);display:block}
+.species-figure figcaption{font-size:.82rem;color:var(--ink-soft);margin-top:.55rem}
+.species-figure figcaption a{text-decoration:underline}
+
+.activity-intents button{padding:8px 14px;background:#eef8f7;border:1px solid #d4eae7;border-radius:999px;color:#0f5f6c;font-weight:800;font-size:.79rem;transition:all .15s ease}
+.activity-intents button:hover{background:#dff2ef}
+.activity-intents button.active{background:#08788c;border-color:#08788c;color:#fff}
+
+.guide-article{max-width:840px}
+.guide-article h2{margin-top:2.4rem;margin-bottom:.75rem;font-size:clamp(1.45rem,2.4vw,2rem)}
+.guide-article p,.guide-article li{color:var(--ink-soft);font-size:1.02rem;line-height:1.68}
+.guide-article ul{padding-left:1.25rem;margin:1rem 0 1.5rem}
+.guide-article li{margin-bottom:.5rem}
+
+

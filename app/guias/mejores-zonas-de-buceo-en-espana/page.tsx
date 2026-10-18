@@ -5,14 +5,14 @@ import { buildArticleJsonLd } from "@/lib/seo";
 export const metadata = {
   title: "Las Mejores Zonas de Buceo en España · Destinos, Épocas y Nivel",
   description:
-    "Descubre los mejores sitios para bucear en España: reservas marinas de Illes Medes, Cabo de Palos, El Hierro, Cabrera y Canarias. Consejos por nivel y temporada.",
+    "Descubre los principales sitios para bucear en España: reservas marinas de Illes Medes, Cabo de Palos, El Hierro, Cabrera, Lanzarote y Costa Tropical según tu nivel.",
   alternates: {
     canonical: "/guias/mejores-zonas-de-buceo-en-espana",
   },
   openGraph: {
     title: "Las Mejores Zonas de Buceo en España | Buceo Atlas",
     description:
-      "Guía con los mejores destinos submarinos de España: dónde ir, qué especies ver y qué escuelas elegir.",
+      "Guía con los principales destinos submarinos de España: dónde ir, qué especies ver y qué nivel se recomienda.",
     url: "/guias/mejores-zonas-de-buceo-en-espana",
     type: "article",
   },
@@ -22,8 +22,10 @@ export default function BestDivingZonesPage() {
   const articleJsonLd = buildArticleJsonLd({
     title: "Las Mejores Zonas de Buceo en España · Destinos, Épocas y Nivel",
     description:
-      "Descubre los mejores sitios para bucear en España: reservas marinas de Illes Medes, Cabo de Palos, El Hierro, Cabrera y Canarias.",
+      "Descubre los principales sitios para bucear en España: reservas marinas de Illes Medes, Cabo de Palos, El Hierro, Cabrera y Lanzarote.",
     path: "/guias/mejores-zonas-de-buceo-en-espana",
+    datePublished: "2026-10-15",
+    dateModified: "2026-10-18",
   });
 
   return (
@@ -40,91 +42,109 @@ export default function BestDivingZonesPage() {
           ]}
         />
         <span className="eyebrow">DESTINOS · ESPAÑA</span>
-        <h1>Las mejores zonas para bucear en España</h1>
+        <h1>Las mejores zonas para bucear en España según tu nivel</h1>
         <p className="lead">
-          España cuenta con más de 8.000 kilómetros de costa bañados por el Mar Mediterráneo, el Océano Atlántico y el Mar Cantábrico. Desde reservas marinas con meros gigantes hasta fondos volcánicos con tortugas y angelotes, repasamos los destinos imprescindibles adaptados a cada nivel.
+          Entre el mar Mediterráneo, el océano Atlántico y el mar Cantábrico, España reúne reservas marinas con alta densidad de vida, fondos volcánicos subantropicales y pecios históricos. Repasamos las zonas más representativas y para qué perfil de buceador resulta más adecuada cada una.
         </p>
 
         <div className="guide-article">
           <h2>1. Illes Medes y Costa Brava (Cataluña)</h2>
           <p>
-            Considerada una de las joyas indiscutibles del Mediterráneo occidental. La Reserva Marina de las <strong>Illes Medes</strong> (frente a L'Estartit) lleva protegida desde 1990, lo que ha permitido una recuperación asombrosa de la biomasa marina.
+            Frente a L&apos;Estartit, el archipiélago de las <strong>Illes Medes</strong> es una de las reservas marinas más emblemáticas del Mediterráneo occidental. La prohibición de pesca y la variedad de paredes, túneles calizos y bloques rocosos concentran una notable biodiversidad a pocos minutos de navegación del puerto.
           </p>
           <ul>
-            <li><strong>Qué verás:</strong> Decenas de <Link href="/fauna/mero-moreno">meros gigantes</Link> acostumbrados a los buceadores, paredes tapizadas de <Link href="/fauna/gorgonia-roja">gorgonias rojas</Link>, pulpos y bancos de <Link href="/fauna/barracuda">barracudas</Link>.</li>
-            <li><strong>Nivel recomendado:</strong> Todos los niveles. Existen zonas someras protegidas para principiantes e inmersiones profundas con corrientes para avanzados.</li>
-            <li><strong>Mejor época:</strong> De mayo a octubre (temperatura del agua entre 18 °C y 24 °C).</li>
+            <li>
+              <strong>Fauna destacada:</strong> ejemplares de gran porte de <Link href="/fauna/mero-moreno" className="text-link">mero moreno</Link>, paredes de <Link href="/fauna/gorgonia-roja" className="text-link">gorgonia roja</Link>, <Link href="/fauna/corvina" className="text-link">corvinas</Link>, <Link href="/fauna/denton" className="text-link">dentones</Link> y bancos de <Link href="/fauna/barracuda" className="text-link">espetones (barracudas)</Link>.
+            </li>
+            <li>
+              <strong>Nivel recomendado:</strong> todos los niveles; la Costa Brava combina calas resguardadas para <Link href="/actividades?type=Bautismo&region=Catalu%C3%B1a" className="text-link">bautismos y cursos</Link> con bajos exteriores e inmersiones en pecios como el <em>Boreas</em> (Palamós).
+            </li>
           </ul>
           <p>
-            👉 <Link href="/buceo/illes-medes" className="text-link">Explorar puntos de inmersión en Illes Medes →</Link>
+            👉 <Link href="/buceo/illes-medes" className="text-link">Ver puntos de inmersión en Illes Medes →</Link> · <Link href="/buceo/costa-brava" className="text-link">Explorar Costa Brava →</Link>
           </p>
 
-          <h2>2. Cabo de Palos e Islas Hormigas (Murcia)</h2>
+          <h2>2. Cabo de Palos e Islas Hormigas (Región de Murcia)</h2>
           <p>
-            Elegido repetidamente entre los mejores destinos de buceo de Europa. La conjunción de corrientes atlánticas y mediterráneas sobre sus bajos submarinos genera una concentración de nutrientes y vida pelágica extraordinaria.
+            La Reserva Marina de <strong>Cabo de Palos e Islas Hormigas</strong> está formada por una sucesión de bajos submarinos (Bajo de Dentro, Bajo de Testa, Piles) donde las corrientes favorecen la concentración de peces pelágicos y grandes depredadores, además de albergar históricos barcos hundidos en su entorno.
           </p>
           <ul>
-            <li><strong>Qué verás:</strong> Nubes de peces pasto, dentones a la caza, corvinas, morenas y grandes pecios históricos como el mítico <em>Naranjito</em> o el transatlántico <em>Sirio</em>.</li>
-            <li><strong>Nivel recomendado:</strong> Intermedio a avanzado (habitual presencia de corrientes intensas y fondos entre 25 y 45 metros).</li>
-            <li><strong>Mejor época:</strong> De junio a noviembre.</li>
+            <li>
+              <strong>Fauna destacada:</strong> grandes meros, bancos de <Link href="/fauna/pez-limon" className="text-link">peces limón (seriolas)</Link>, <Link href="/fauna/denton" className="text-link">dentones</Link>, <Link href="/fauna/morena" className="text-link">morenas</Link> y <Link href="/fauna/nudibranquio-azul" className="text-link">nudibranquios</Link>.
+            </li>
+            <li>
+              <strong>Nivel recomendado:</strong> para bucear dentro de la reserva y en pecios como el <em>Naranjito</em> se requiere titulación, buen control de flotabilidad y experiencia en corrientes; para iniciación y bautismos existen calas tranquilas en el litoral de Cabo de Palos, Cartagena y Águilas.
+            </li>
           </ul>
           <p>
-            👉 <Link href="/buceo/cabo-de-palos" className="text-link">Ver detalles y puntos de Cabo de Palos →</Link>
+            👉 <Link href="/buceo/cabo-de-palos" className="text-link">Ver puntos en Cabo de Palos e Islas Hormigas →</Link>
           </p>
 
-          <h2>3. El Hierro y las Islas Canarias</h2>
+          <h2>3. El Hierro, Lanzarote, Tenerife y Gran Canaria (Islas Canarias)</h2>
           <p>
-            Bucear en Canarias es bucear en un acuario atlántico durante todo el año, gracias a una temperatura del agua que rara vez baja de los 19 °C en invierno y visibilidades que superan con facilidad los 30 metros.
+            El archipiélago canario permite bucear los doce meses del año gracias a sus aguas templadas y a la rápida caída batimétrica de sus fondos volcánicos, con arcos basálticos, veriles y arenales limpios.
           </p>
           <ul>
-            <li><strong>La Restinga (El Hierro):</strong> Reserva marina con topografía volcánica espectacular, arcos basálticos y visitas de rayas y peces pelágicos.</li>
-            <li><strong>Lanzarote (Playa Chica):</strong> Ideal para avistar al singular <Link href="/fauna/angelote">angelote</Link> y <Link href="/fauna/chucho-raya">chuchos negros</Link> descansando sobre la arena.</li>
-            <li><strong>Tenerife Sur:</strong> Zonas de sebadales con presencia regular de <Link href="/fauna/tortuga-marina">tortugas marinas</Link>.</li>
+            <li>
+              <strong>La Restinga (<Link href="/buceo/el-hierro" className="text-link">El Hierro</Link>):</strong> reserva marina en el Mar de las Calmas célebre por su visibilidad y su relieve volcánico (como <em>El Bajón</em>).
+            </li>
+            <li>
+              <strong>Playa Chica (<Link href="/buceo/lanzarote" className="text-link">Lanzarote</Link>):</strong> acceso cómodo desde playa con veriles escalonados y registros documentados de <Link href="/fauna/angelote" className="text-link">angelote</Link> y <Link href="/fauna/raya-pastinaca" className="text-link">rayas</Link>.
+            </li>
+            <li>
+              <strong><Link href="/buceo/tenerife" className="text-link">Tenerife</Link> y <Link href="/buceo/gran-canaria" className="text-link">Gran Canaria</Link>:</strong> excelente oferta de escuelas durante todo el año, reservas como El Cabrón (Arinaga) y avistamientos frecuentes de <Link href="/fauna/tortuga-boba" className="text-link">tortugas marinas</Link> y bancos de roncadores.
+            </li>
           </ul>
           <p>
-            👉 <Link href="/buceo/el-hierro" className="text-link">Conocer el buceo en El Hierro →</Link>
+            👉 <Link href="/actividades?region=Canarias" className="text-link">Ver actividades y cursos en Canarias →</Link>
           </p>
 
-          <h2>4. Parque Nacional de Cabrera y Baleares</h2>
+          <h2>4. Cabrera, Mallorca, Menorca e Ibiza–Formentera (Islas Baleares)</h2>
           <p>
-            El archipiélago de Cabrera es el mayor parque nacional marítimo-terrestre de España. Su aislamiento y la estricta limitación de embarcaciones diarias garantizan aguas con una transparencia cristalina y fondos casi vírgenes.
+            Las Islas Baleares destacan por sus extensas praderas de <Link href="/fauna/posidonia" className="text-link">Posidonia oceanica</Link>, responsables de la extraordinaria transparencia de sus aguas, así como por sus cuevas calcáreas y reservas marinas (El Toro, Malgrats, Norte de Menorca, Es Freus).
           </p>
           <ul>
-            <li><strong>Qué verás:</strong> Meros de dimensiones históricas, águilas marinas, fondos de posidonia en perfecto estado y espectaculares contraluces en cuevas como la <em>Cova Blava</em>.</li>
-            <li><strong>Nivel recomendado:</strong> Inicial e intermedio.</li>
-            <li><strong>Mejor época:</strong> De junio a octubre.</li>
+            <li>
+              <strong>Qué encontrar:</strong> contraluces en cavernas, meros, <Link href="/fauna/pulpo-comun" className="text-link">pulpos</Link>, <Link href="/fauna/escorpora" className="text-link">cabrachos</Link>, <Link href="/fauna/sargo-comun" className="text-link">sargos</Link> y pecios profundos como el <em>Don Pedro</em> en Ibiza.
+            </li>
+            <li>
+              <strong>Nivel recomendado:</strong> muy versátil; ideal tanto para primeros bautismos en calas someras de <Link href="/buceo/mallorca" className="text-link">Mallorca</Link> o <Link href="/buceo/menorca" className="text-link">Menorca</Link> como para buceadores titulados en <Link href="/buceo/cabrera" className="text-link">Cabrera</Link> e <Link href="/buceo/ibiza-formentera" className="text-link">Ibiza–Formentera</Link>.
+            </li>
           </ul>
-          <p>
-            👉 <Link href="/buceo/cabrera" className="text-link">Descubrir el Parque Nacional de Cabrera →</Link>
-          </p>
 
-          <h2>5. Maro-Cerro Gordo y Cabo de Gata (Andalucía)</h2>
+          <h2>5. Maro–Cerro Gordo, Cabo de Gata y Tarifa (Andalucía)</h2>
           <p>
-            El litoral andaluz ofrece opciones excepcionales tanto en las aguas cálidas de Granada (La Herradura) y Almería (Cabo de Gata) como en el Estrecho de Gibraltar (Tarifa), donde confluyen el mar y el océano.
+            La costa andaluza ofrece tres ambientes muy diferenciados:
           </p>
           <ul>
-            <li><strong>Maro-Cerro Gordo:</strong> Fondos de calas resguardadas con pasos submarinos y cuevas accesibles, perfectas para bautismos y salidas en familia.</li>
-            <li><strong>Tarifa:</strong> El punto más meridional de Europa, célebre por sus encuentros con peces luna (<Link href="/fauna/pez-luna">Mola mola</Link>) y gorgonias amarillas.</li>
+            <li>
+              <strong>Maro–Cerro Gordo y La Herradura (Granada/Málaga):</strong> acantilados resguardados ricos en <Link href="/fauna/coral-naranja" className="text-link">coral naranja</Link> y nudibranquios, muy frecuentados por escuelas para todos los niveles.
+            </li>
+            <li>
+              <strong>Cabo de Gata (Almería):</strong> fondos volcánicos claros con praderas de posidonia, cuevas superficiales y aguas tranquilas en verano.
+            </li>
+            <li>
+              <strong>Isla de las Palomas en Tarifa (Cádiz):</strong> punto de encuentro entre el Atlántico y el Mediterráneo, con gran riqueza de vida y presencia estacional de <Link href="/fauna/pez-luna" className="text-link">pez luna</Link>, sujeto a las condiciones de viento y marea del Estrecho.
+            </li>
           </ul>
           <p>
-            👉 <Link href="/buceo/nerja" className="text-link">Ver puntos en Maro-Cerro Gordo →</Link>
+            👉 <Link href="/guias/mejor-epoca-para-bucear-en-espana" className="text-link">Consulta cuándo es la mejor época para bucear en cada región →</Link>
           </p>
 
-          <div className="commercial-card commercial-card-activity" style={{ margin: "2.5rem 0" }}>
-            <div className="commercial-card-body">
-              <span className="eyebrow">PLANIFICA TU ESCAPADA</span>
-              <h3>Encuentra escuelas y reserva con el proveedor local</h3>
-              <p>
-                En Buceo Atlas puedes comparar más de 170 escuelas oficiales y más de 450 experiencias de buceo en los principales destinos de la península e islas.
-              </p>
-              <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1rem" }}>
+          <div className="cta-section" style={{ paddingBottom: 0 }}>
+            <div className="cta-panel">
+              <div>
+                <span className="eyebrow">ELIGE TU DESTINO</span>
+                <h2>Explora los 15 destinos y más de 470 actividades</h2>
+                <p>
+                  Compara puntos de inmersión, escuelas locales y opciones de reserva en toda la costa española.
+                </p>
+              </div>
+              <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
                 <Link className="button button-primary" href="/destinos">
-                  Explorar todos los destinos →
+                  Ver todos los destinos →
                 </Link>
-                <Link className="button button-secondary" href="/centros">
-                  Ver escuelas verificadas
-                </Link>
-                <Link className="button button-secondary" href="/actividades">
+                <Link className="button button-ghost" href="/actividades">
                   Buscar actividades
                 </Link>
               </div>

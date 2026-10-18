@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/fauna/tortuga-marina/:path*",
+      "destination": "/fauna/tortuga-boba/",
+      "permanent": true
+    },
+    {
+      "source": "/fauna/chucho-raya/:path*",
+      "destination": "/fauna/raya-pastinaca/",
+      "permanent": true
+    }
+  ]
+}
