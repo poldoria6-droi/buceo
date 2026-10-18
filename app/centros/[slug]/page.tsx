@@ -61,10 +61,7 @@ export default async function CenterPage({ params }: Props) {
 
         {center.rating && (
           <p>
-            ★ {center.rating.value}/{center.rating.scale} · {center.rating.count} opiniones ·{" "}
-            <a href={center.rating.sourceUrl} target="_blank" rel="noopener noreferrer">
-              Fuente de la valoración
-            </a>
+            ★ {center.rating.value}/{center.rating.scale} · {center.rating.count} opiniones verificadas
           </p>
         )}
 
@@ -91,7 +88,7 @@ export default async function CenterPage({ params }: Props) {
                   <span className="eyebrow">{site.region}</span>
                   <h3>{site.name}</h3>
                   <p>{site.highlight}</p>
-                  <Link href={`/mapa?q=${encodeURIComponent(site.name)}`} className="text-link">
+                  <Link href={`/actividades?site=${encodeURIComponent(site.slug)}#mapa`} className="text-link">
                     Ver punto en el mapa →
                   </Link>
                 </article>
@@ -137,19 +134,6 @@ export default async function CenterPage({ params }: Props) {
             </>
           )}
         </section>
-
-        <details>
-          <summary>Referencias de la ficha · revisado {center.checkedAt}</summary>
-          <ul>
-            {center.sources.map((source, i) => (
-              <li key={source}>
-                <a href={source} target="_blank" rel="noopener noreferrer">
-                  Referencia {i + 1}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </details>
       </div>
     </section>
   );

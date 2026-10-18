@@ -61,7 +61,7 @@ export default function BestDivingZonesPage() {
             </li>
           </ul>
           <p>
-            👉 <Link href="/buceo/illes-medes" className="text-link">Ver puntos de inmersión en Illes Medes →</Link> · <Link href="/buceo/costa-brava" className="text-link">Explorar Costa Brava →</Link>
+            👉 <Link href="/buceo/illes-medes" className="text-link">Ver puntos de inmersión en Illes Medes →</Link> · <Link href="/buceo/tossa-de-mar" className="text-link">Explorar Tossa de Mar y Costa Brava →</Link>
           </p>
 
           <h2>2. Cabo de Palos e Islas Hormigas (Región de Murcia)</h2>
@@ -108,7 +108,7 @@ export default function BestDivingZonesPage() {
               <strong>Qué encontrar:</strong> contraluces en cavernas, meros, <Link href="/fauna/pulpo-comun" className="text-link">pulpos</Link>, <Link href="/fauna/escorpora" className="text-link">cabrachos</Link>, <Link href="/fauna/sargo-comun" className="text-link">sargos</Link> y pecios profundos como el <em>Don Pedro</em> en Ibiza.
             </li>
             <li>
-              <strong>Nivel recomendado:</strong> muy versátil; ideal tanto para primeros bautismos en calas someras de <Link href="/buceo/mallorca" className="text-link">Mallorca</Link> o <Link href="/buceo/menorca" className="text-link">Menorca</Link> como para buceadores titulados en <Link href="/buceo/cabrera" className="text-link">Cabrera</Link> e <Link href="/buceo/ibiza-formentera" className="text-link">Ibiza–Formentera</Link>.
+              <strong>Nivel recomendado:</strong> muy versátil; ideal tanto para primeros bautismos en calas someras de <Link href="/buceo/mallorca" className="text-link">Mallorca</Link> o <Link href="/buceo/menorca" className="text-link">Menorca</Link> como para buceadores titulados en <Link href="/buceo/cabrera" className="text-link">Cabrera</Link> e <Link href="/buceo/ibiza" className="text-link">Ibiza</Link> y <Link href="/buceo/formentera" className="text-link">Formentera</Link>.
             </li>
           </ul>
 
@@ -135,7 +135,7 @@ export default function BestDivingZonesPage() {
             <div className="cta-panel">
               <div>
                 <span className="eyebrow">ELIGE TU DESTINO</span>
-                <h2>Explora los 15 destinos y más de 470 actividades</h2>
+                <h2>Explora los destinos y casi 900 actividades</h2>
                 <p>
                   Compara puntos de inmersión, escuelas locales y opciones de reserva en toda la costa española.
                 </p>

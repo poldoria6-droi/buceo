@@ -8,7 +8,7 @@ export const centers: DiveCenter[] = [
     "name": "20000 Leguas",
     "location": "Alcalá de Henares",
     "region": "Comunidad de Madrid",
-    "description": "20000 Leguas figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "20000 Leguas es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso"
     ],
@@ -27,7 +27,7 @@ export const centers: DiveCenter[] = [
     "name": "7 Mares Las Canteras",
     "location": "Las Palmas de Gran Canaria",
     "region": "Canarias",
-    "description": "7 Mares Las Canteras figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "7 Mares Las Canteras es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -52,7 +52,7 @@ export const centers: DiveCenter[] = [
     "name": "Abysub",
     "location": "Fuengirola",
     "region": "Andalucía",
-    "description": "Abysub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Abysub es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -77,7 +77,7 @@ export const centers: DiveCenter[] = [
     "name": "Active Scuba Divers Lanzarote",
     "location": "Costa Teguise",
     "region": "Canarias",
-    "description": "Active Scuba Divers Lanzarote figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Active Scuba Divers Lanzarote es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo",
@@ -109,7 +109,7 @@ export const centers: DiveCenter[] = [
     "name": "Adventure Experiences",
     "location": "Las Palmas de Gran Canaria",
     "region": "Canarias",
-    "description": "Adventure Experiences figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Adventure Experiences es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -127,7 +127,7 @@ export const centers: DiveCenter[] = [
     "name": "Albatros Diving",
     "location": "Cala Millor",
     "region": "Baleares",
-    "description": "Albatros Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Albatros Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -150,7 +150,7 @@ export const centers: DiveCenter[] = [
     "name": "Alisios Sub Lanzarote",
     "location": "Lanzarote · Tías",
     "region": "Canarias",
-    "description": "Alisios Sub Lanzarote figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Alisios Sub Lanzarote es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -222,7 +222,7 @@ export const centers: DiveCenter[] = [
     "name": "Alpha Buceo Gijón",
     "location": "Gijón",
     "region": "Asturias",
-    "description": "Alpha Buceo Gijón figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Alpha Buceo Gijón es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -244,7 +244,7 @@ export const centers: DiveCenter[] = [
     "name": "Amarilla Divers",
     "location": "Los Abrigos",
     "region": "Canarias",
-    "description": "Amarilla Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Amarilla Divers es una escuela y centro de actividades subacuáticas que ofrece Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Fun Dive",
       "Bautismo"
@@ -266,7 +266,7 @@ export const centers: DiveCenter[] = [
     "name": "Anèl·lides Serveis Ambientals Marins",
     "location": "Barcelona",
     "region": "Cataluña",
-    "description": "Anèl·lides Serveis Ambientals Marins figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Anèl·lides Serveis Ambientals Marins es una escuela y centro de actividades subacuáticas que ofrece Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Snorkel"
     ],
@@ -284,7 +284,7 @@ export const centers: DiveCenter[] = [
     "name": "Anemone Diving Center",
     "location": "Palamós",
     "region": "Cataluña",
-    "description": "Anemone Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Anemone Diving Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -331,7 +331,7 @@ export const centers: DiveCenter[] = [
     "name": "Arenal Diving",
     "location": "Sant Antoni de Portmany",
     "region": "Baleares",
-    "description": "Arenal Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Arenal Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -375,7 +375,7 @@ export const centers: DiveCenter[] = [
     "name": "Asdón Aventura Madrid",
     "location": "Gargantilla de Lozoya",
     "region": "Comunidad de Madrid",
-    "description": "Asdón Aventura Madrid figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Asdón Aventura Madrid es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -395,7 +395,7 @@ export const centers: DiveCenter[] = [
     "name": "Atlantis Diving Lanzarote",
     "location": "Lanzarote · Puerto del Carmen",
     "region": "Canarias",
-    "description": "Atlantis Diving Lanzarote figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Atlantis Diving Lanzarote es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -441,7 +441,7 @@ export const centers: DiveCenter[] = [
     "name": "Aventura Tour Salou",
     "location": "Salou, Tarragona",
     "region": "Cataluña",
-    "description": "Aventura Tour Salou figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Aventura Tour Salou es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -461,7 +461,7 @@ export const centers: DiveCenter[] = [
     "name": "Balkysub",
     "location": "Cabo de Palos · La Manga del Mar Menor",
     "region": "Murcia",
-    "description": "Balkysub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Balkysub es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -490,7 +490,7 @@ export const centers: DiveCenter[] = [
     "name": "Barracuda",
     "location": "Alcoceber",
     "region": "Comunidad Valenciana",
-    "description": "Barracuda figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Barracuda es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -513,7 +513,7 @@ export const centers: DiveCenter[] = [
     "name": "Barracuda Oropesa Buceo",
     "location": "Oropesa del Mar",
     "region": "Comunidad Valenciana",
-    "description": "Barracuda Oropesa Buceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Barracuda Oropesa Buceo es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -554,7 +554,7 @@ export const centers: DiveCenter[] = [
     "name": "Black Frog Divers",
     "location": "Torrox",
     "region": "Andalucía",
-    "description": "Black Frog Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Black Frog Divers es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -577,7 +577,7 @@ export const centers: DiveCenter[] = [
     "name": "Blackstone Dive Center",
     "location": "El Médano · Tenerife",
     "region": "Canarias",
-    "description": "Blackstone Dive Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Blackstone Dive Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -600,7 +600,7 @@ export const centers: DiveCenter[] = [
     "name": "Blaumar",
     "location": "Mataró",
     "region": "Cataluña",
-    "description": "Blaumar figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Blaumar es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -654,7 +654,7 @@ export const centers: DiveCenter[] = [
     "name": "Blue Water Diving",
     "location": "Las Palmas de Gran Canaria · Puerto Rico",
     "region": "Canarias",
-    "description": "Blue Water Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Blue Water Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -682,7 +682,7 @@ export const centers: DiveCenter[] = [
     "name": "Bluewater Menorca",
     "location": "Menorca",
     "region": "Baleares",
-    "description": "Bluewater Menorca figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Bluewater Menorca es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -704,7 +704,7 @@ export const centers: DiveCenter[] = [
     "name": "Brisubuceo",
     "location": "Las Galletas",
     "region": "Canarias",
-    "description": "Brisubuceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Brisubuceo es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -746,7 +746,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Aguadulce Roquetas",
     "location": "Aguadulce · Roquetas de Mar",
     "region": "Andalucía",
-    "description": "Buceo Aguadulce Roquetas figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Aguadulce Roquetas es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -776,7 +776,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Alcalá",
     "location": "Alcalá de Henares · Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Buceo Alcalá figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Alcalá es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -824,7 +824,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Aqualia",
     "location": "La Herradura",
     "region": "Andalucía",
-    "description": "Buceo Aqualia figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Aqualia es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -845,7 +845,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Calypso",
     "location": "Miengo",
     "region": "Cantabria",
-    "description": "Buceo Calypso figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Calypso es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -870,7 +870,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Catalunya Costa Brava",
     "location": "Palamós",
     "region": "Cataluña",
-    "description": "Buceo Catalunya Costa Brava figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Catalunya Costa Brava es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -914,7 +914,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Costa Nerja",
     "location": "Nerja",
     "region": "Andalucía",
-    "description": "Buceo Costa Nerja figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Costa Nerja es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -939,7 +939,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Donosti",
     "location": "San Sebastián",
     "region": "País Vasco",
-    "description": "Buceo Donosti figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Donosti es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -959,7 +959,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Estepona",
     "location": "Estepona · Manilva",
     "region": "Andalucía",
-    "description": "Buceo Estepona figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Estepona es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -984,7 +984,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Finisterre",
     "location": "Finisterre",
     "region": "Galicia",
-    "description": "Buceo Finisterre figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Finisterre es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1006,7 +1006,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Hondarribia",
     "location": "Hondarribia",
     "region": "País Vasco",
-    "description": "Buceo Hondarribia figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Hondarribia es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -1027,7 +1027,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Isla Negra",
     "location": "San Juan de los Terreros",
     "region": "Andalucía",
-    "description": "Buceo Isla Negra figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Isla Negra es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -1066,7 +1066,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Las Negras",
     "location": "Cabo de Gata",
     "region": "Andalucía",
-    "description": "Buceo Las Negras figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Las Negras es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1086,7 +1086,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Marina",
     "location": "La Herradura",
     "region": "Andalucía",
-    "description": "Buceo Marina figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Marina es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1111,7 +1111,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Navarra",
     "location": "Mutilva Baja",
     "region": "Navarra",
-    "description": "Buceo Navarra figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Navarra es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1132,7 +1132,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Pandora",
     "location": "Arinaga · Risco Verde",
     "region": "Canarias",
-    "description": "Buceo Pandora figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Pandora es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -1157,7 +1157,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Tenerife",
     "location": "Las Chafiras · Las Galletas · Tenerife",
     "region": "Canarias",
-    "description": "Buceo Tenerife figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Tenerife es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1187,7 +1187,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Valencia",
     "location": "La Pobla de Farnals · Valencia",
     "region": "Comunidad Valenciana",
-    "description": "Buceo Valencia figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buceo Valencia es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1219,7 +1219,7 @@ export const centers: DiveCenter[] = [
     "name": "Buddha Divers",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "Buddha Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Buddha Divers es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1246,7 +1246,7 @@ export const centers: DiveCenter[] = [
     "name": "Caballito Salao",
     "location": "La Azohía",
     "region": "Murcia",
-    "description": "Caballito Salao figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Caballito Salao es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1271,7 +1271,7 @@ export const centers: DiveCenter[] = [
     "name": "Cala Santanyi Diving Center",
     "location": "Cala Santanyí",
     "region": "Baleares",
-    "description": "Cala Santanyi Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Cala Santanyi Diving Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1292,7 +1292,7 @@ export const centers: DiveCenter[] = [
     "name": "Calamar Gigante",
     "location": "Garrucha",
     "region": "Andalucía",
-    "description": "Calamar Gigante figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Calamar Gigante es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo",
@@ -1315,7 +1315,7 @@ export const centers: DiveCenter[] = [
     "name": "Calpe Multiaventura",
     "location": "Calpe",
     "region": "Comunidad Valenciana",
-    "description": "Calpe Multiaventura figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Calpe Multiaventura es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1341,7 +1341,7 @@ export const centers: DiveCenter[] = [
     "name": "Calypso Diving Estartit",
     "location": "L'Estartit · Torroella de Montgrí",
     "region": "Cataluña",
-    "description": "Calypso Diving Estartit figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Calypso Diving Estartit es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1364,7 +1364,7 @@ export const centers: DiveCenter[] = [
     "name": "CBS Centro de Buceo del Sureste",
     "location": "La Azohía · Mazarrón · Puerto de Mazarrón",
     "region": "Murcia",
-    "description": "CBS Centro de Buceo del Sureste figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "CBS Centro de Buceo del Sureste es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1392,7 +1392,7 @@ export const centers: DiveCenter[] = [
     "name": "Centollo Dive Club",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "Centollo Dive Club figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Centollo Dive Club es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -1421,7 +1421,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro Buceo Altair",
     "location": "Alicante",
     "region": "Comunidad Valenciana",
-    "description": "Centro Buceo Altair figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Centro Buceo Altair es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -1439,7 +1439,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Alpha",
     "location": "Cabo de Gata",
     "region": "Andalucía",
-    "description": "Centro de Buceo Alpha figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Centro de Buceo Alpha es una escuela y centro de actividades subacuáticas que ofrece Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Fun Dive",
       "Bautismo",
@@ -1512,7 +1512,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Naranjito",
     "location": "Cabo de Palos",
     "region": "Murcia",
-    "description": "Centro de Buceo Naranjito figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Centro de Buceo Naranjito es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1538,7 +1538,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Puerto de Javea",
     "location": "Jávea",
     "region": "Comunidad Valenciana",
-    "description": "Centro de Buceo Puerto de Javea figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Centro de Buceo Puerto de Javea es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso"
     ],
@@ -1559,7 +1559,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Scorpora",
     "location": "Serra Gelada",
     "region": "Comunidad Valenciana",
-    "description": "Centro de Buceo Scorpora figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Centro de Buceo Scorpora es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -1581,7 +1581,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Splash",
     "location": "Orcoyen",
     "region": "Navarra",
-    "description": "Centro de Buceo Splash figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Centro de Buceo Splash es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1626,7 +1626,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro Escuela de Buceo Mojacar",
     "location": "Mojácar",
     "region": "Andalucía",
-    "description": "Centro Escuela de Buceo Mojacar figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Centro Escuela de Buceo Mojacar es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1664,7 +1664,7 @@ export const centers: DiveCenter[] = [
     "name": "Club de Buceo NoraySub",
     "location": "Calahonda",
     "region": "Andalucía",
-    "description": "Club de Buceo NoraySub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Club de Buceo NoraySub es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1687,7 +1687,7 @@ export const centers: DiveCenter[] = [
     "name": "Club de Buceo Quimerasub",
     "location": "Radazul",
     "region": "Canarias",
-    "description": "Club de Buceo Quimerasub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Club de Buceo Quimerasub es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1709,7 +1709,7 @@ export const centers: DiveCenter[] = [
     "name": "Club Dofí-Sub",
     "location": "L'Ametlla de Mar · L'Ametlla de Mar, Tarragona",
     "region": "Cataluña",
-    "description": "Club Dofí-Sub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Club Dofí-Sub es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1738,7 +1738,7 @@ export const centers: DiveCenter[] = [
     "name": "Dawn Dives Academy",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "Dawn Dives Academy figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Dawn Dives Academy es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -1756,7 +1756,7 @@ export const centers: DiveCenter[] = [
     "name": "Deep Blue Diving",
     "location": "Caleta de Fuste",
     "region": "Canarias",
-    "description": "Deep Blue Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Deep Blue Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -1796,7 +1796,7 @@ export const centers: DiveCenter[] = [
     "name": "Dive Center Barcelona",
     "location": "Barcelona",
     "region": "Cataluña",
-    "description": "Dive Center Barcelona figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Dive Center Barcelona es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo",
@@ -1819,7 +1819,7 @@ export const centers: DiveCenter[] = [
     "name": "Dive&Dive",
     "location": "Calpe",
     "region": "Comunidad Valenciana",
-    "description": "Dive&Dive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Dive&Dive es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -1842,7 +1842,7 @@ export const centers: DiveCenter[] = [
     "name": "DIVEMADRID",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "DIVEMADRID figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "DIVEMADRID es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1866,7 +1866,7 @@ export const centers: DiveCenter[] = [
     "name": "Divemanía",
     "location": "A Coruña",
     "region": "Galicia",
-    "description": "Divemanía figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Divemanía es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1889,7 +1889,7 @@ export const centers: DiveCenter[] = [
     "name": "Diver Soul Tarifa",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "Diver Soul Tarifa figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diver Soul Tarifa es una escuela y centro de actividades subacuáticas que ofrece Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Snorkel"
@@ -1909,7 +1909,7 @@ export const centers: DiveCenter[] = [
     "name": "Diversub",
     "location": "Platja d'Aro · Sant Antoni de Calonge",
     "region": "Cataluña",
-    "description": "Diversub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diversub es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1935,7 +1935,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Atlantis",
     "location": "Adeje · Guía de Isora",
     "region": "Canarias",
-    "description": "Diving Atlantis figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diving Atlantis es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -1966,7 +1966,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Canarias",
     "location": "Radazul",
     "region": "Canarias",
-    "description": "Diving Canarias figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diving Canarias es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -1992,7 +1992,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving & Combat",
     "location": "Tossa de Mar",
     "region": "Cataluña",
-    "description": "Diving & Combat figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diving & Combat es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -2020,7 +2020,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Dragonera",
     "location": "La Dragonera · Port d'Andratx",
     "region": "Baleares",
-    "description": "Diving Dragonera figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diving Dragonera es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -2042,7 +2042,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving La Casa del Mar",
     "location": "Lloret de Mar",
     "region": "Cataluña",
-    "description": "Diving La Casa del Mar figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diving La Casa del Mar es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -2060,7 +2060,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Menorca",
     "location": "Fornells, Menorca",
     "region": "Baleares",
-    "description": "Diving Menorca figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diving Menorca es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -2085,7 +2085,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Salou",
     "location": "Salou",
     "region": "Cataluña",
-    "description": "Diving Salou figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diving Salou es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -2109,7 +2109,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Stones",
     "location": "Benidorm",
     "region": "Comunidad Valenciana",
-    "description": "Diving Stones figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Diving Stones es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2143,7 +2143,7 @@ export const centers: DiveCenter[] = [
     "name": "Dolphins Diving Center",
     "location": "Lloret de Mar",
     "region": "Cataluña",
-    "description": "Dolphins Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Dolphins Diving Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2187,7 +2187,7 @@ export const centers: DiveCenter[] = [
     "name": "DPM Diving",
     "location": "Costa Adeje",
     "region": "Canarias",
-    "description": "DPM Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "DPM Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2210,7 +2210,7 @@ export const centers: DiveCenter[] = [
     "name": "Dream Dive",
     "location": "Tossa de Mar",
     "region": "Cataluña",
-    "description": "Dream Dive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Dream Dive es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2235,7 +2235,7 @@ export const centers: DiveCenter[] = [
     "name": "DS DIVERS",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "DS DIVERS figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "DS DIVERS es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2280,7 +2280,7 @@ export const centers: DiveCenter[] = [
     "name": "Ecodive",
     "location": "Rincón de la Victoria",
     "region": "Andalucía",
-    "description": "Ecodive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Ecodive es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Snorkel",
@@ -2325,7 +2325,7 @@ export const centers: DiveCenter[] = [
     "name": "El Azul Gran Canaria Dive Center",
     "location": "Las Palmas de Gran Canaria",
     "region": "Canarias",
-    "description": "El Azul Gran Canaria Dive Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "El Azul Gran Canaria Dive Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2365,7 +2365,7 @@ export const centers: DiveCenter[] = [
     "name": "Enjoy Sup School",
     "location": "Noja",
     "region": "Cantabria",
-    "description": "Enjoy Sup School figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Enjoy Sup School es una escuela y centro de actividades subacuáticas que ofrece Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Snorkel"
     ],
@@ -2403,7 +2403,7 @@ export const centers: DiveCenter[] = [
     "name": "Estació Náutica L'Ametlla De Mar",
     "location": "L'Ametlla de Mar · L'Ametlla de Mar, Tarragona",
     "region": "Cataluña",
-    "description": "Estació Náutica L'Ametlla De Mar figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Estació Náutica L'Ametlla De Mar es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -2426,7 +2426,7 @@ export const centers: DiveCenter[] = [
     "name": "Explora Cádiz Buceo",
     "location": "El Puerto de Santa María · Tarifa",
     "region": "Andalucía",
-    "description": "Explora Cádiz Buceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Explora Cádiz Buceo es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2452,7 +2452,7 @@ export const centers: DiveCenter[] = [
     "name": "Formar Buceo",
     "location": "Gijón",
     "region": "Asturias",
-    "description": "Formar Buceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Formar Buceo es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2475,7 +2475,7 @@ export const centers: DiveCenter[] = [
     "name": "Formentera Divers",
     "location": "La Savina",
     "region": "Baleares",
-    "description": "Formentera Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Formentera Divers es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -2493,7 +2493,7 @@ export const centers: DiveCenter[] = [
     "name": "FuerteOcean Dive Center",
     "location": "Morro Jable",
     "region": "Canarias",
-    "description": "FuerteOcean Dive Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "FuerteOcean Dive Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -2560,7 +2560,7 @@ export const centers: DiveCenter[] = [
     "name": "Glups Diving",
     "location": "Cambrils · Salou",
     "region": "Cataluña",
-    "description": "Glups Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Glups Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2588,7 +2588,7 @@ export const centers: DiveCenter[] = [
     "name": "Go-Dive Tenerife",
     "location": "Las Chafiras",
     "region": "Canarias",
-    "description": "Go-Dive Tenerife figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Go-Dive Tenerife es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -2612,7 +2612,7 @@ export const centers: DiveCenter[] = [
     "name": "goDive Cadiz",
     "location": "El Palmar · Tarifa",
     "region": "Andalucía",
-    "description": "goDive Cadiz figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "goDive Cadiz es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2637,7 +2637,7 @@ export const centers: DiveCenter[] = [
     "name": "Grassi Sub",
     "location": "L'Escala",
     "region": "Cataluña",
-    "description": "Grassi Sub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Grassi Sub es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2682,7 +2682,7 @@ export const centers: DiveCenter[] = [
     "name": "H2O Sports",
     "location": "Marbella",
     "region": "Andalucía",
-    "description": "H2O Sports figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "H2O Sports es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo",
@@ -2707,7 +2707,7 @@ export const centers: DiveCenter[] = [
     "name": "Island Watersports Lanzarote",
     "location": "Puerto del Carmen",
     "region": "Canarias",
-    "description": "Island Watersports Lanzarote figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Island Watersports Lanzarote es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -2732,7 +2732,7 @@ export const centers: DiveCenter[] = [
     "name": "Isub San Jose",
     "location": "Cabo de Gata · San José",
     "region": "Andalucía",
-    "description": "Isub San Jose figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Isub San Jose es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2762,7 +2762,7 @@ export const centers: DiveCenter[] = [
     "name": "Karapat Dive",
     "location": "Gran Canaria · Las Canteras · Telde",
     "region": "Canarias",
-    "description": "Karapat Dive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Pecio, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Karapat Dive es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Pecio, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2793,7 +2793,7 @@ export const centers: DiveCenter[] = [
     "name": "La Isla Flotante",
     "location": "Es Pujols",
     "region": "Baleares",
-    "description": "La Isla Flotante figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "La Isla Flotante es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2817,7 +2817,7 @@ export const centers: DiveCenter[] = [
     "name": "La Rana Buceo",
     "location": "Jávea",
     "region": "Comunidad Valenciana",
-    "description": "La Rana Buceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "La Rana Buceo es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -2845,7 +2845,7 @@ export const centers: DiveCenter[] = [
     "name": "Lanzarote Non Stop Divers",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "Lanzarote Non Stop Divers figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Lanzarote Non Stop Divers es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -2871,7 +2871,7 @@ export const centers: DiveCenter[] = [
     "name": "Laredo Aventura",
     "location": "Noja",
     "region": "Cantabria",
-    "description": "Laredo Aventura figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Laredo Aventura es una escuela y centro de actividades subacuáticas que ofrece Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Snorkel"
     ],
@@ -2893,7 +2893,7 @@ export const centers: DiveCenter[] = [
     "name": "Liquid Planet",
     "location": "Tías",
     "region": "Canarias",
-    "description": "Liquid Planet figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Liquid Planet es una escuela y centro de actividades subacuáticas que ofrece Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -2936,7 +2936,7 @@ export const centers: DiveCenter[] = [
     "name": "Mar de Hielo",
     "location": "Salou · Salou, Tarragona",
     "region": "Cataluña",
-    "description": "Mar de Hielo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Mar de Hielo es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2984,7 +2984,7 @@ export const centers: DiveCenter[] = [
     "name": "MarDays Dive Resort",
     "location": "Jávea",
     "region": "Comunidad Valenciana",
-    "description": "MarDays Dive Resort figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "MarDays Dive Resort es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -3007,7 +3007,7 @@ export const centers: DiveCenter[] = [
     "name": "Maremasma",
     "location": "Foz",
     "region": "Galicia",
-    "description": "Maremasma figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Maremasma es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3036,7 +3036,7 @@ export const centers: DiveCenter[] = [
     "name": "Marépolis Altea",
     "location": "Altea",
     "region": "Comunidad Valenciana",
-    "description": "Marépolis Altea figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Marépolis Altea es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -3060,7 +3060,7 @@ export const centers: DiveCenter[] = [
     "name": "Marina Diving Tarragona",
     "location": "L'Ametlla de Mar · L'Ametlla de Mar, Tarragona",
     "region": "Cataluña",
-    "description": "Marina Diving Tarragona figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Marina Diving Tarragona es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3087,7 +3087,7 @@ export const centers: DiveCenter[] = [
     "name": "Maskydiving",
     "location": "Sitges · Vilafranca del Penedès",
     "region": "Cataluña",
-    "description": "Maskydiving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Maskydiving es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -3111,7 +3111,7 @@ export const centers: DiveCenter[] = [
     "name": "Maskydiving Sitges",
     "location": "Sitges · Vilafranca del Penedès",
     "region": "Cataluña",
-    "description": "Maskydiving Sitges figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Maskydiving Sitges es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso"
     ],
@@ -3131,7 +3131,7 @@ export const centers: DiveCenter[] = [
     "name": "MásMar Buceo",
     "location": "La Manga del Mar Menor",
     "region": "Murcia",
-    "description": "MásMar Buceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "MásMar Buceo es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -3150,7 +3150,7 @@ export const centers: DiveCenter[] = [
     "name": "Medanodive",
     "location": "El Médano · El Médano, Tenerife",
     "region": "Canarias",
-    "description": "Medanodive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive, Pecio, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Medanodive es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive, Pecio, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3183,7 +3183,7 @@ export const centers: DiveCenter[] = [
     "name": "Mergullo Compostela",
     "location": "A Coruña · Santiago de Compostela",
     "region": "Galicia",
-    "description": "Mergullo Compostela figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Mergullo Compostela es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3225,7 +3225,7 @@ export const centers: DiveCenter[] = [
     "name": "Mirafondos",
     "location": "Las Canteras · Las Palmas de Gran Canaria",
     "region": "Canarias",
-    "description": "Mirafondos figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Mirafondos es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -3250,7 +3250,7 @@ export const centers: DiveCenter[] = [
     "name": "Molamola Dive",
     "location": "La Herradura · Málaga",
     "region": "Andalucía",
-    "description": "Molamola Dive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Molamola Dive es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3274,7 +3274,7 @@ export const centers: DiveCenter[] = [
     "name": "Mon Diving",
     "location": "Dénia",
     "region": "Comunidad Valenciana",
-    "description": "Mon Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Mon Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3300,7 +3300,7 @@ export const centers: DiveCenter[] = [
     "name": "Mouro Sub",
     "location": "Santander",
     "region": "Cantabria",
-    "description": "Mouro Sub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Mouro Sub es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3341,7 +3341,7 @@ export const centers: DiveCenter[] = [
     "name": "Mundo Activo",
     "location": "La Manga del Mar Menor",
     "region": "Murcia",
-    "description": "Mundo Activo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Mundo Activo es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -3364,7 +3364,7 @@ export const centers: DiveCenter[] = [
     "name": "N2O2 Dive",
     "location": "Boadilla del Monte",
     "region": "Comunidad de Madrid",
-    "description": "N2O2 Dive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "N2O2 Dive es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -3385,7 +3385,7 @@ export const centers: DiveCenter[] = [
     "name": "Native Diving",
     "location": "Costa Teguise",
     "region": "Canarias",
-    "description": "Native Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Native Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3417,7 +3417,7 @@ export const centers: DiveCenter[] = [
     "name": "Nau Tech",
     "location": "Sitges",
     "region": "Cataluña",
-    "description": "Nau Tech figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Nau Tech es una escuela y centro de actividades subacuáticas que ofrece Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Fun Dive"
     ],
@@ -3435,7 +3435,7 @@ export const centers: DiveCenter[] = [
     "name": "Nauga",
     "location": "A Coruña",
     "region": "Galicia",
-    "description": "Nauga figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Nauga es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -3471,7 +3471,7 @@ export const centers: DiveCenter[] = [
     "name": "Náutica Medusa",
     "location": "Vilagarcía de Arousa",
     "region": "Galicia",
-    "description": "Náutica Medusa figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Náutica Medusa es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -3495,7 +3495,7 @@ export const centers: DiveCenter[] = [
     "name": "NeoDive",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "NeoDive figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "NeoDive es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -3538,7 +3538,7 @@ export const centers: DiveCenter[] = [
     "name": "NojActiva",
     "location": "Noja",
     "region": "Cantabria",
-    "description": "NojActiva figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "NojActiva es una escuela y centro de actividades subacuáticas que ofrece Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Snorkel"
     ],
@@ -3582,7 +3582,7 @@ export const centers: DiveCenter[] = [
     "name": "Ocean Friends Buceo y Apnea",
     "location": "Los Abrigos",
     "region": "Canarias",
-    "description": "Ocean Friends Buceo y Apnea figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Ocean Friends Buceo y Apnea es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -3600,7 +3600,7 @@ export const centers: DiveCenter[] = [
     "name": "Océanos Diving Center",
     "location": "Lloret de Mar",
     "region": "Cataluña",
-    "description": "Océanos Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Océanos Diving Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3627,7 +3627,7 @@ export const centers: DiveCenter[] = [
     "name": "Ohana Diving",
     "location": "L'Ametlla de Mar, Tarragona",
     "region": "Cataluña",
-    "description": "Ohana Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Ohana Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3651,7 +3651,7 @@ export const centers: DiveCenter[] = [
     "name": "Ok Castro Dive Club de Buceo",
     "location": "Castro Urdiales",
     "region": "Cantabria",
-    "description": "Ok Castro Dive Club de Buceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive, Pecio, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Ok Castro Dive Club de Buceo es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Fun Dive, Pecio, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -3679,7 +3679,7 @@ export const centers: DiveCenter[] = [
     "name": "Orcasub",
     "location": "Platja Mitjorn",
     "region": "Baleares",
-    "description": "Orcasub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Orcasub es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3705,7 +3705,7 @@ export const centers: DiveCenter[] = [
     "name": "Palma Aquarium",
     "location": "Palma de Mallorca",
     "region": "Baleares",
-    "description": "Palma Aquarium figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Palma Aquarium es una escuela y centro de actividades subacuáticas que ofrece Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Fun Dive"
     ],
@@ -3723,7 +3723,7 @@ export const centers: DiveCenter[] = [
     "name": "Piraguilla Turismo Activo",
     "location": "Isla de Arousa",
     "region": "Galicia",
-    "description": "Piraguilla Turismo Activo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Piraguilla Turismo Activo es una escuela y centro de actividades subacuáticas que ofrece Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Snorkel"
     ],
@@ -3761,7 +3761,7 @@ export const centers: DiveCenter[] = [
     "name": "Posidonia Ecosports",
     "location": "Muchamiel",
     "region": "Comunidad Valenciana",
-    "description": "Posidonia Ecosports figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Posidonia Ecosports es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3783,7 +3783,7 @@ export const centers: DiveCenter[] = [
     "name": "Posidonia turismo",
     "location": "Cabo de Palos",
     "region": "Murcia",
-    "description": "Posidonia turismo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Posidonia turismo es una escuela y centro de actividades subacuáticas que ofrece Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Snorkel"
     ],
@@ -3804,7 +3804,7 @@ export const centers: DiveCenter[] = [
     "name": "Pozo Scuba",
     "location": "El Cabrón · Gran Canaria · Pozo Izquierdo",
     "region": "Canarias",
-    "description": "Pozo Scuba figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Pozo Scuba es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3827,7 +3827,7 @@ export const centers: DiveCenter[] = [
     "name": "Puerto Rico Diving",
     "location": "Puerto Rico",
     "region": "Canarias",
-    "description": "Puerto Rico Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Puerto Rico Diving es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso"
     ],
@@ -3847,7 +3847,7 @@ export const centers: DiveCenter[] = [
     "name": "Puertobuceo",
     "location": "Algeciras, Cádiz · Tarifa",
     "region": "Andalucía",
-    "description": "Puertobuceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Puertobuceo es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3897,7 +3897,7 @@ export const centers: DiveCenter[] = [
     "name": "Pura Vida Diving",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "Pura Vida Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Pura Vida Diving es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -3921,7 +3921,7 @@ export const centers: DiveCenter[] = [
     "name": "Quieres Bucear",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Quieres Bucear figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Quieres Bucear es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -3941,7 +3941,7 @@ export const centers: DiveCenter[] = [
     "name": "Rent Jet Ski Valencia",
     "location": "Valencia",
     "region": "Comunidad Valenciana",
-    "description": "Rent Jet Ski Valencia figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Rent Jet Ski Valencia es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -3981,7 +3981,7 @@ export const centers: DiveCenter[] = [
     "name": "Sa Caleta Tenerife",
     "location": "Arona",
     "region": "Canarias",
-    "description": "Sa Caleta Tenerife figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Sa Caleta Tenerife es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo",
@@ -4003,7 +4003,7 @@ export const centers: DiveCenter[] = [
     "name": "Scuba-Elx",
     "location": "Isla de Tabarca · Tabarca",
     "region": "Comunidad Valenciana",
-    "description": "Scuba-Elx figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Scuba-Elx es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4030,7 +4030,7 @@ export const centers: DiveCenter[] = [
     "name": "Scuba Legends",
     "location": "Puerto del Carmen",
     "region": "Canarias",
-    "description": "Scuba Legends figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Scuba Legends es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4056,7 +4056,7 @@ export const centers: DiveCenter[] = [
     "name": "Scuba Plus",
     "location": "Cala Blanes, Menorca · Menorca",
     "region": "Baleares",
-    "description": "Scuba Plus figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive, Pecio, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Scuba Plus es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive, Pecio, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4087,7 +4087,7 @@ export const centers: DiveCenter[] = [
     "name": "Scubaventura",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Scubaventura figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Scubaventura es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -4109,7 +4109,7 @@ export const centers: DiveCenter[] = [
     "name": "ScubAzul",
     "location": "Málaga",
     "region": "Andalucía",
-    "description": "ScubAzul figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "ScubAzul es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4131,7 +4131,7 @@ export const centers: DiveCenter[] = [
     "name": "Scubkandalus",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "Scubkandalus figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Scubkandalus es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -4153,7 +4153,7 @@ export const centers: DiveCenter[] = [
     "name": "Sea Diver Instructors",
     "location": "Santa Cruz de Tenerife",
     "region": "Canarias",
-    "description": "Sea Diver Instructors figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Sea Diver Instructors es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -4178,7 +4178,7 @@ export const centers: DiveCenter[] = [
     "name": "Sea&Sun Diving-Sport",
     "location": "Cabo de Gata",
     "region": "Andalucía",
-    "description": "Sea&Sun Diving-Sport figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Sea&Sun Diving-Sport es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo",
@@ -4200,7 +4200,7 @@ export const centers: DiveCenter[] = [
     "name": "Seaquest Diving Center",
     "location": "Ciutadella de Menorca · Menorca",
     "region": "Baleares",
-    "description": "Seaquest Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Seaquest Diving Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4225,7 +4225,7 @@ export const centers: DiveCenter[] = [
     "name": "Siroco Aventuras",
     "location": "La Azohía",
     "region": "Murcia",
-    "description": "Siroco Aventuras figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Siroco Aventuras es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -4261,7 +4261,7 @@ export const centers: DiveCenter[] = [
     "name": "Sotacero Diving",
     "location": "El Masnou",
     "region": "Cataluña",
-    "description": "Sotacero Diving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Sotacero Diving es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4282,7 +4282,7 @@ export const centers: DiveCenter[] = [
     "name": "Spain Buceo",
     "location": "Valencia",
     "region": "Comunidad Valenciana",
-    "description": "Spain Buceo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Spain Buceo es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso"
     ],
@@ -4300,7 +4300,7 @@ export const centers: DiveCenter[] = [
     "name": "Subfari Diving Center",
     "location": "Portinatx",
     "region": "Baleares",
-    "description": "Subfari Diving Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Subfari Diving Center es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4388,7 +4388,7 @@ export const centers: DiveCenter[] = [
     "name": "SuperDive Tossa de Mar",
     "location": "Tossa de Mar",
     "region": "Cataluña",
-    "description": "SuperDive Tossa de Mar figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "SuperDive Tossa de Mar es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4413,7 +4413,7 @@ export const centers: DiveCenter[] = [
     "name": "Sureste Divers Madrid",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Sureste Divers Madrid figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Sureste Divers Madrid es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso"
     ],
@@ -4451,7 +4451,7 @@ export const centers: DiveCenter[] = [
     "name": "Tenerife Dive Experience",
     "location": "Costa Adeje · Costa Adeje, Tenerife · Los Cristianos · Puerto Colón · Tenerife",
     "region": "Canarias",
-    "description": "Tenerife Dive Experience figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Tenerife Dive Experience es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Fun Dive, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4499,7 +4499,7 @@ export const centers: DiveCenter[] = [
     "name": "The Blue Jump Ecodiving",
     "location": "La Azohía",
     "region": "Murcia",
-    "description": "The Blue Jump Ecodiving figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "The Blue Jump Ecodiving es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -4522,7 +4522,7 @@ export const centers: DiveCenter[] = [
     "name": "Tossasub",
     "location": "Tossa de Mar",
     "region": "Cataluña",
-    "description": "Tossasub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Tossasub es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4547,7 +4547,7 @@ export const centers: DiveCenter[] = [
     "name": "Touradvisor",
     "location": "Santa Ponça",
     "region": "Baleares",
-    "description": "Touradvisor figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Touradvisor es una escuela y centro de actividades subacuáticas que ofrece Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Snorkel",
       "Bautismo"
@@ -4567,7 +4567,7 @@ export const centers: DiveCenter[] = [
     "name": "Travel Sub",
     "location": "Puerto Colón",
     "region": "Canarias",
-    "description": "Travel Sub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Travel Sub es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -4622,7 +4622,7 @@ export const centers: DiveCenter[] = [
     "name": "Underwater barcelona",
     "location": "Barcelona",
     "region": "Cataluña",
-    "description": "Underwater barcelona figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Underwater barcelona es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo"
     ],
@@ -4640,7 +4640,7 @@ export const centers: DiveCenter[] = [
     "name": "Unisub",
     "location": "L'Estartit · Torroella de Montgrí",
     "region": "Cataluña",
-    "description": "Unisub figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Unisub es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso, Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4662,7 +4662,7 @@ export const centers: DiveCenter[] = [
     "name": "Vadum Maris Diving&Watersports",
     "location": "Elche",
     "region": "Comunidad Valenciana",
-    "description": "Vadum Maris Diving&Watersports figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Vadum Maris Diving&Watersports es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -4706,7 +4706,7 @@ export const centers: DiveCenter[] = [
     "name": "VidaXperience",
     "location": "Arrecife",
     "region": "Canarias",
-    "description": "VidaXperience figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "VidaXperience es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -4730,7 +4730,7 @@ export const centers: DiveCenter[] = [
     "name": "Whitesand Surf",
     "location": "La Savina",
     "region": "Baleares",
-    "description": "Whitesand Surf figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Whitesand Surf es una escuela y centro de actividades subacuáticas que ofrece Snorkel. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Snorkel"
     ],
@@ -4772,7 +4772,7 @@ export const centers: DiveCenter[] = [
     "name": "Windblue Sports",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "Windblue Sports figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Windblue Sports es una escuela y centro de actividades subacuáticas que ofrece Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Fun Dive",
       "Bautismo",
@@ -4801,7 +4801,7 @@ export const centers: DiveCenter[] = [
     "name": "YellowSub Tarifa",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "YellowSub Tarifa figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "YellowSub Tarifa es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4826,7 +4826,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Barcelona",
     "location": "Barcelona",
     "region": "Cataluña",
-    "description": "Yo Buceo Barcelona figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Yo Buceo Barcelona es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4849,7 +4849,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Cartagena",
     "location": "Cartagena",
     "region": "Murcia",
-    "description": "Yo Buceo Cartagena figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Yo Buceo Cartagena es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4876,7 +4876,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Madrid",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Yo Buceo Madrid figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Yo Buceo Madrid es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Bautismo"
@@ -4898,7 +4898,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Toledo",
     "location": "Toledo",
     "region": "Castilla-La Mancha",
-    "description": "Yo Buceo Toledo figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Yo Buceo Toledo es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4919,7 +4919,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Torrevieja",
     "location": "Torrevieja",
     "region": "Comunidad Valenciana",
-    "description": "Yo Buceo Torrevieja figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Yo Buceo Torrevieja es una escuela y centro de actividades subacuáticas que ofrece Bautismo. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4940,7 +4940,7 @@ export const centers: DiveCenter[] = [
     "name": "Zeus Dive Center",
     "location": "Maspalomas",
     "region": "Canarias",
-    "description": "Zeus Dive Center figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Zeus Dive Center es una escuela y centro de actividades subacuáticas que ofrece Curso. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -4969,7 +4969,7 @@ export const centers: DiveCenter[] = [
     "name": "Zoea Mallorca",
     "location": "Calvià",
     "region": "Baleares",
-    "description": "Zoea Mallorca figura como organizador en las ofertas de Yumping vinculadas a esta ficha. Su catálogo en Buceo Atlas incluye Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro.",
+    "description": "Zoea Mallorca es una escuela y centro de actividades subacuáticas que ofrece Bautismo, Fun Dive. Las localidades mostradas corresponden a sus actividades; confirma con la escuela el punto de encuentro, con reserva online disponible a través de nuestro portal.",
     "services": [
       "Bautismo",
       "Fun Dive",

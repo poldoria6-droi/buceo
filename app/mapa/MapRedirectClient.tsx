@@ -30,6 +30,7 @@ export function MapRedirectClient() {
   return (
     <div className="section">
       <div className="container" style={{ textAlign: "center", padding: "80px 20px" }}>
+        <h1 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>Mapa interactivo de buceo en España</h1>
         <p className="lead">Redirigiendo al mapa interactivo de buceo...</p>
       </div>
     </div>

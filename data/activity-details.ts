@@ -1,7 +1,7 @@
 export type VerifiedActivityDetail = {summary:string;included:string[];excluded:string[];facts:{label:string;value:string}[];needsInclusionReview:boolean;sourceUrl:string;checkedAt:string};
 export const activityDetails: Record<string,VerifiedActivityDetail> = {
   "inmersion-de-buceo-tenerife-con-alquiler-de-equipo-50921": {
-    "summary": "Buceo Tenerife organiza esta propuesta publicada como «Inmersión de buceo Tenerife con alquiler de equipo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo Tenerife con alquiler de equipo» organizada por Buceo Tenerife. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [
       "Seguro de buceo no incluido en esta oferta",
@@ -22,7 +22,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-en-las-galletas-tenerife-31304": {
-    "summary": "Buceo Tenerife organiza esta propuesta publicada como «Inmersión de Buceo en Las Galletas Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de Buceo en Las Galletas Tenerife» organizada por Buceo Tenerife. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [
       "Seguro de buceo no incluido en esta oferta"
@@ -42,7 +42,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-diver-las-galletas-31296": {
-    "summary": "Buceo Tenerife organiza esta propuesta publicada como «PADI Open Water Diver en Las Galletas Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Open Water Diver en Las Galletas Tenerife» organizada por Buceo Tenerife. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -64,7 +64,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-barco-tenerife-384": {
-    "summary": "Buceo Tenerife organiza esta propuesta publicada como «Bautismo de Buceo desde barco, Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo desde barco, Tenerife» organizada por Buceo Tenerife. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -87,7 +87,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "2-inmersiones-en-el-pecio-de-taibada-de-3-horas-56808": {
-    "summary": "Medanodive organiza esta propuesta publicada como «2 inmersiones en el Pecio de Taibada de 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «2 inmersiones en el Pecio de Taibada de 3 horas» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -105,7 +105,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ssi-advance-open-water-diver-el-medano-56771": {
-    "summary": "Medanodive organiza esta propuesta publicada como «SSI Advance Open Water Diver El Médano». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «SSI Advance Open Water Diver El Médano» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [
       "Seguro de buceo no incluido en esta oferta"
@@ -125,7 +125,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "pack-2-inmersiones-desde-barco-suroeste-tenerife-56715": {
-    "summary": "Medanodive organiza esta propuesta publicada como «Pack 2 inmersiones desde barco suroeste Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Pack 2 inmersiones desde barco suroeste Tenerife» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [
       "Seguro de buceo no incluido en esta oferta",
@@ -142,7 +142,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ssi-open-water-diver-tenerife-sur-388": {
-    "summary": "Medanodive organiza esta propuesta publicada como «SSI Open Water Diver Tenerife Sur». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «SSI Open Water Diver Tenerife Sur» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -164,7 +164,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-ssi-scuba-diver-en-el-medano-392": {
-    "summary": "Medanodive organiza esta propuesta publicada como «Curso SSI Scuba Diver en el Médano». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso SSI Scuba Diver en el Médano» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -186,7 +186,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "2-inmersiones-buceadores-certificados-tenerife-393": {
-    "summary": "Medanodive organiza esta propuesta publicada como «2 inmersiones buceadores certificados Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «2 inmersiones buceadores certificados Tenerife» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -204,7 +204,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "pack-de-dos-sesiones-de-snorkel-en-tenerife-4-5-h-394": {
-    "summary": "Medanodive organiza esta propuesta publicada como «Pack de dos sesiones de snorkel en Tenerife 4,5 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Pack de dos sesiones de snorkel en Tenerife 4,5 h» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -222,7 +222,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "excursion-de-snorkel-en-tenerife-3-5-horas-395": {
-    "summary": "Medanodive organiza esta propuesta publicada como «Excursión de snorkel en Tenerife 3,5 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Excursión de snorkel en Tenerife 3,5 horas» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -239,7 +239,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-45-min-tenerife-3-5-h-396": {
-    "summary": "Medanodive organiza esta propuesta publicada como «Bautizo buceo 45 min Tenerife 3,5 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo buceo 45 min Tenerife 3,5 h» organizada por Medanodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -257,7 +257,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "clases-privadas-de-snorkel-en-costa-adeje-3-horas-13574": {
-    "summary": "Tenerife Dive Experience organiza esta propuesta publicada como «Clases privadas de snorkel en Costa Adeje, 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Clases privadas de snorkel en Costa Adeje, 3 horas» organizada por Tenerife Dive Experience. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -284,7 +284,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-dive-master-durante-2-semanas-tenerife-61743": {
-    "summary": "Tenerife Dive Experience organiza esta propuesta publicada como «Curso Dive Master durante 2 semanas Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Dive Master durante 2 semanas Tenerife» organizada por Tenerife Dive Experience. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -306,7 +306,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-ssi-en-costa-adeje-3-dias-62902": {
-    "summary": "Tenerife Dive Experience organiza esta propuesta publicada como «Curso Open Water Diver SSI en Costa Adeje 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver SSI en Costa Adeje 3 días» organizada por Tenerife Dive Experience. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -329,7 +329,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-los-cristianos-desde-costa-2h-30-min-385": {
-    "summary": "Tenerife Dive Experience organiza esta propuesta publicada como «Bautizo buceo Los Cristianos desde Costa 2h 30 min». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo buceo Los Cristianos desde Costa 2h 30 min» organizada por Tenerife Dive Experience. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -347,7 +347,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-con-tortugas-en-la-costa-adeje-2h-30-min-386": {
-    "summary": "Tenerife Dive Experience organiza esta propuesta publicada como «Snorkel con tortugas en la Costa Adeje 2h 30 min». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel con tortugas en la Costa Adeje 2h 30 min» organizada por Tenerife Dive Experience. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -374,7 +374,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-en-tenerife-2h-387": {
-    "summary": "Tenerife Dive Experience organiza esta propuesta publicada como «Inmersión de buceo en Tenerife 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en Tenerife 2h» organizada por Tenerife Dive Experience. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Uso de embarcación",
@@ -401,7 +401,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-2-inmersiones-sur-de-tenerife-4h-398": {
-    "summary": "Tenerife Dive Experience organiza esta propuesta publicada como «Bautismo de buceo 2 inmersiones sur de Tenerife 4h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo 2 inmersiones sur de Tenerife 4h» organizada por Tenerife Dive Experience. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -431,7 +431,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "salida-de-buceo-desde-embarcacion-tarragona-61647": {
-    "summary": "Mar de Hielo organiza esta propuesta publicada como «Salida de buceo desde embarcación Tarragona». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Salida de buceo desde embarcación Tarragona» organizada por Mar de Hielo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Uso de embarcación",
@@ -450,7 +450,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-cap-salou-3-horas-61750": {
-    "summary": "Mar de Hielo organiza esta propuesta publicada como «Bautizo de buceo en Cap Salou 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Cap Salou 3 horas» organizada por Mar de Hielo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -468,7 +468,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "salida-buceo-nocturna-desde-barco-cap-salou-2-h30-61697": {
-    "summary": "Mar de Hielo organiza esta propuesta publicada como «Salida buceo nocturna desde barco Cap Salou 2 h30». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Salida buceo nocturna desde barco Cap Salou 2 h30» organizada por Mar de Hielo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Uso de embarcación",
@@ -491,7 +491,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-barco-tarragona-3h-525": {
-    "summary": "Mar de Hielo organiza esta propuesta publicada como «Bautismo de buceo desde barco en Tarragona 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde barco en Tarragona 3 horas» organizada por Mar de Hielo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -511,7 +511,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-padi-en-tarragona-3-dias-468": {
-    "summary": "Mar de Hielo organiza esta propuesta publicada como «Curso Open Water Diver Padi en Tarragona 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver Padi en Tarragona 3 días» organizada por Mar de Hielo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -531,7 +531,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-una-estrella-fedas-tarragona-469": {
-    "summary": "Mar de Hielo organiza esta propuesta publicada como «Curso de Buceo Una Estrella FEDAS Tarragona». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Buceo Una Estrella FEDAS Tarragona» organizada por Mar de Hielo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -555,7 +555,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-salou-3-horas-40959": {
-    "summary": "Aventura Tour Salou organiza esta propuesta publicada como «Bautismo de buceo en Salou 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Salou 3 horas» organizada por Aventura Tour Salou. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -577,7 +577,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-nocturna-en-salou-1-hora-56731": {
-    "summary": "Aventura Tour Salou organiza esta propuesta publicada como «Inmersión de buceo nocturna en Salou 1 hora». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo nocturna en Salou 1 hora» organizada por Aventura Tour Salou. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -598,7 +598,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ruta-de-snorkel-por-calas-de-l-ametlla-de-mar-1h30-64532": {
-    "summary": "Marina Diving Tarragona organiza esta propuesta publicada como «Ruta de snorkel por calas de L'Ametlla de Mar 1h30». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Ruta de snorkel por calas de L'Ametlla de Mar 1h30» organizada por Marina Diving Tarragona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -616,7 +616,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-snsi-nitrox-ametlla-de-mar-59377": {
-    "summary": "Marina Diving Tarragona organiza esta propuesta publicada como «Curso Open Water SNSI-NITROX Ametlla de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water SNSI-NITROX Ametlla de Mar» organizada por Marina Diving Tarragona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -639,7 +639,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-cala-llobeta-calafat-61500": {
-    "summary": "Marina Diving Tarragona organiza esta propuesta publicada como «Bautismo de buceo en Cala Llobeta, Calafat». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Cala Llobeta, Calafat» organizada por Marina Diving Tarragona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -661,7 +661,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "pack-open-water-snsi-nitrox-advanced-tarragona-520": {
-    "summary": "Marina Diving Tarragona organiza esta propuesta publicada como «Pack Open Water SNSI Nitrox y Advanced en Tarragona». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Pack Open Water SNSI Nitrox y Advanced en Tarragona» organizada por Marina Diving Tarragona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -680,7 +680,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-desde-playa-fotos-cala-vidre-2-5h-41537": {
-    "summary": "Ohana Diving organiza esta propuesta publicada como «Bautizo buceo desde playa + fotos Cala Vidre, 2'5h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo buceo desde playa + fotos Cala Vidre, 2'5h» organizada por Ohana Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -702,7 +702,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ruta-de-snorkel-para-ninos-en-l-ametlla-de-mar-64549": {
-    "summary": "Estació Náutica L'Ametlla De Mar organiza esta propuesta publicada como «Ruta de snorkel para niños en L'Ametlla de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Ruta de snorkel para niños en L'Ametlla de Mar» organizada por Estació Náutica L'Ametlla De Mar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -725,7 +725,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-l-ametlla-de-mar-64566": {
-    "summary": "Estació Náutica L'Ametlla De Mar organiza esta propuesta publicada como «Bautizo de buceo en L'Ametlla de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en L'Ametlla de Mar» organizada por Estació Náutica L'Ametlla De Mar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -743,7 +743,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-discover-scuba-diving-l-ametlla-1311": {
-    "summary": "Club Dofí-Sub organiza esta propuesta publicada como «Bautismo de buceo Discover Scuba Diving L'Ametlla». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo Discover Scuba Diving L'Ametlla» organizada por Club Dofí-Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -762,7 +762,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-lametlla-523": {
-    "summary": "Club Dofí-Sub organiza esta propuesta publicada como «Curso PADI Open Water Diver en L'Ametlla de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en L'Ametlla de Mar» organizada por Club Dofí-Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -781,7 +781,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-en-la-costa-de-algeciras-57620": {
-    "summary": "Puertobuceo organiza esta propuesta publicada como «Inmersión de buceo en la costa de Algeciras». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en la costa de Algeciras» organizada por Puertobuceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Uso de embarcación",
@@ -803,7 +803,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-punta-de-europa-3-horas-248": {
-    "summary": "Puertobuceo organiza esta propuesta publicada como «Bautismo de buceo en Punta de Europa, 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Punta de Europa, 3 horas» organizada por Puertobuceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -823,7 +823,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-en-tarifa-4-dias-253": {
-    "summary": "Puertobuceo organiza esta propuesta publicada como «Curso PADI Open Water Diver en Tarifa 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Tarifa 4 días» organizada por Puertobuceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -841,7 +841,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-playa-son-xoriguer-de-2-horas-78828": {
-    "summary": "Seaquest Diving Center organiza esta propuesta publicada como «Bautismo de buceo en Playa Son Xoriguer de 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Playa Son Xoriguer de 2 horas» organizada por Seaquest Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -863,7 +863,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-para-familia-playa-cap-d-artrutx-2h-42798": {
-    "summary": "Seaquest Diving Center organiza esta propuesta publicada como «Bautismo buceo para familia Playa Cap d'Artrutx 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo buceo para familia Playa Cap d'Artrutx 2h» organizada por Seaquest Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -889,7 +889,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "basic-diver-ssi-en-playa-de-son-xoriguer-1-dia-91299": {
-    "summary": "Seaquest Diving Center organiza esta propuesta publicada como «Basic Diver SSI en playa de Son Xoriguer, 1 día». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Basic Diver SSI en playa de Son Xoriguer, 1 día» organizada por Seaquest Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -913,7 +913,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "tour-de-snorkel-desde-playa-de-son-xoriguer-1h-91298": {
-    "summary": "Seaquest Diving Center organiza esta propuesta publicada como «Tour de snorkel desde playa de Son Xoriguer 1h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Tour de snorkel desde playa de Son Xoriguer 1h» organizada por Seaquest Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -938,7 +938,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-adventurer-ssi-en-son-xoriguer-78834": {
-    "summary": "Seaquest Diving Center organiza esta propuesta publicada como «Curso Advanced Adventurer SSI en Son Xoriguer». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Adventurer SSI en Son Xoriguer» organizada por Seaquest Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -965,7 +965,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-ssi-en-son-xoriguer-78831": {
-    "summary": "Seaquest Diving Center organiza esta propuesta publicada como «Curso Open Water Diver SSI en Son Xoriguer». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver SSI en Son Xoriguer» organizada por Seaquest Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -993,7 +993,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-administrador-de-oxigeno-buceo-en-menorca-53310": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Curso de administrador de oxígeno buceo en Menorca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de administrador de oxígeno buceo en Menorca» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Formación teórica"
     ],
@@ -1009,7 +1009,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "especialidad-de-buceo-en-cavernas-menorca-53332": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Especialidad de buceo en cavernas Menorca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Especialidad de buceo en cavernas Menorca» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Botella para la inmersión",
@@ -1031,7 +1031,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-especialidad-en-ecologia-marina-53311": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Curso de Especialidad en Ecología Marina». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Especialidad en Ecología Marina» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Formación teórica"
     ],
@@ -1047,7 +1047,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-desde-playa-en-menorca-2281": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Bautizo de Buceo desde playa en Menorca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de Buceo desde playa en Menorca» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1069,7 +1069,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-open-water-diver-en-menorca-4-dias-8508": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Curso de Open Water Diver en Menorca, 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Open Water Diver en Menorca, 4 días» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -1093,7 +1093,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-ruta-de-los-meros-menorca-3-horas-4645": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Inmersión ruta de los meros, Menorca, 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión ruta de los meros, Menorca, 3 horas» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -1115,7 +1115,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "buceo-en-el-submarino-en-menorca-3-horas-4644": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Buceo en El Submarino en Menorca, 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Buceo en El Submarino en Menorca, 3 horas» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -1138,7 +1138,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-doble-en-la-cueva-del-pont-d-en-gil-4630": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Inmersión doble en la Cueva del Pont d'en Gil». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión doble en la Cueva del Pont d'en Gil» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1163,7 +1163,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-por-la-costa-oeste-de-menorca-1-5-horas-88909": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Snorkel por la costa oeste de Menorca, 1'5 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel por la costa oeste de Menorca, 1'5 horas» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad"
     ],
@@ -1179,7 +1179,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "buceo-pecio-menorca-4643": {
-    "summary": "Scuba Plus organiza esta propuesta publicada como «Buceo en pecio en Menorca, 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Buceo en pecio en Menorca, 2 horas» organizada por Scuba Plus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1200,7 +1200,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-en-la-reserva-marina-menorquina-28826": {
-    "summary": "Diving Menorca organiza esta propuesta publicada como «Inmersión de buceo en la Reserva Marina menorquina». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en la Reserva Marina menorquina» organizada por Diving Menorca. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1222,7 +1222,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-diver-en-menorca-46790": {
-    "summary": "Diving Menorca organiza esta propuesta publicada como «Curso Advanced Open Water Diver en Menorca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver en Menorca» organizada por Diving Menorca. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -1247,7 +1247,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-en-la-reserva-marina-28827": {
-    "summary": "Diving Menorca organiza esta propuesta publicada como «Curso PADI Open Water Diver en la Reserva Marina». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en la Reserva Marina» organizada por Diving Menorca. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1274,7 +1274,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-cala-n-bosch-3-horas-76665": {
-    "summary": "Bluewater Menorca organiza esta propuesta publicada como «Bautismo de buceo en Cala'n Bosch, 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Cala'n Bosch, 3 horas» organizada por Bluewater Menorca. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1301,7 +1301,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "doble-inmersion-atlantida-pecios-mogan-64185": {
-    "summary": "Karapat Dive organiza esta propuesta publicada como «Dos inmersiones en el Parque de la Atlántida y pecios de Mogán». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Dos inmersiones en el Parque de la Atlántida y pecios de Mogán» organizada por Karapat Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -1323,7 +1323,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-telde-3-horas-364": {
-    "summary": "Karapat Dive organiza esta propuesta publicada como «Bautismo de buceo en Telde 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Telde 3 horas» organizada por Karapat Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -1345,7 +1345,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-open-water-diver-en-telde-3-dias-365": {
-    "summary": "Karapat Dive organiza esta propuesta publicada como «Curso de buceo Open Water Diver en Telde 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver en Telde 3 días» organizada por Karapat Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1374,7 +1374,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-diver-telde-3-dias-366": {
-    "summary": "Karapat Dive organiza esta propuesta publicada como «Curso Advanced Open Water Diver Telde 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver Telde 3 días» organizada por Karapat Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1402,7 +1402,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-en-playa-de-las-canteras-2-horas-383": {
-    "summary": "Karapat Dive organiza esta propuesta publicada como «Snorkel en Playa de las Canteras 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en Playa de las Canteras 2 horas» organizada por Karapat Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
       "Desplazamientos indicados en la oferta"
@@ -1427,7 +1427,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-costa-gran-canaria-58995": {
-    "summary": "Pozo Scuba organiza esta propuesta publicada como «Bautismo de buceo en la costa de Gran Canaria». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en la costa de Gran Canaria» organizada por Pozo Scuba. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1445,7 +1445,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-diver-pozo-izquierdo-370": {
-    "summary": "Pozo Scuba organiza esta propuesta publicada como «Curso Advanced Open Water Diver Pozo Izquierdo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver Pozo Izquierdo» organizada por Pozo Scuba. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1467,7 +1467,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-pro-rec-tec-open-water-diver-en-gran-canaria-371": {
-    "summary": "Pozo Scuba organiza esta propuesta publicada como «Curso Pro Rec Tec Open Water Diver en Gran Canaria». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Pro Rec Tec Open Water Diver en Gran Canaria» organizada por Pozo Scuba. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Acreditación indicada en el curso"
@@ -1484,7 +1484,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "buceo-en-playa-de-el-cabron-gran-canaria-para-titulados-372": {
-    "summary": "Pozo Scuba organiza esta propuesta publicada como «Buceo en playa de El Cabrón Gran Canaria para titulados». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Buceo en playa de El Cabrón Gran Canaria para titulados» organizada por Pozo Scuba. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Desplazamientos indicados en la oferta",
@@ -1507,7 +1507,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "dos-inmersiones-buceo-cambrils-21162": {
-    "summary": "Glups Diving organiza esta propuesta publicada como «Dos inmersiones de buceo en Cambrils». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Dos inmersiones de buceo en Cambrils» organizada por Glups Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)"
     ],
@@ -1527,7 +1527,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-discovery-scuba-diving-tarragona-521": {
-    "summary": "Glups Diving organiza esta propuesta publicada como «Bautizo de buceo Discovery Scuba Diving en Tarragona». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo Discovery Scuba Diving en Tarragona» organizada por Glups Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1550,7 +1550,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "advanced-open-water-diver-en-tarragona-2-3-dias-470": {
-    "summary": "Glups Diving organiza esta propuesta publicada como «Advanced Open Water Diver en Tarragona 2 - 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Advanced Open Water Diver en Tarragona 2 - 3 días» organizada por Glups Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -1569,7 +1569,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-diver-salou-53794": {
-    "summary": "Diving Salou organiza esta propuesta publicada como «Curso Advanced Open Water Diver en Salou». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver en Salou» organizada por Diving Salou. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1595,7 +1595,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-playa-mojacar-86956": {
-    "summary": "Centro Escuela de Buceo Mojacar organiza esta propuesta publicada como «Bautismo de buceo desde playa en Mojácar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde playa en Mojácar» organizada por Centro Escuela de Buceo Mojacar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1613,7 +1613,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-calpe-3-dias-529": {
-    "summary": "Calpe Multiaventura organiza esta propuesta publicada como «Curso de buceo Open Water Diver en Calpe, 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver en Calpe, 3 días» organizada por Calpe Multiaventura. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1642,7 +1642,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-calpe-530": {
-    "summary": "Calpe Multiaventura organiza esta propuesta publicada como «Curso de Buceo Advanced Open Water en Calpe». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Buceo Advanced Open Water en Calpe» organizada por Calpe Multiaventura. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -1660,7 +1660,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-discover-scuba-diving-playa-calpe-1232": {
-    "summary": "Calpe Multiaventura organiza esta propuesta publicada como «PADI Discover Scuba Diving desde playa en Calpe». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Discover Scuba Diving desde playa en Calpe» organizada por Calpe Multiaventura. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1687,7 +1687,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-desde-playa-en-calpe-1h-30-minutos-464": {
-    "summary": "Calpe Multiaventura organiza esta propuesta publicada como «Snorkel desde playa en Calpe, 1h 30 minutos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel desde playa en Calpe, 1h 30 minutos» organizada por Calpe Multiaventura. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -1705,7 +1705,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-vilagarcia-533": {
-    "summary": "Náutica Medusa organiza esta propuesta publicada como «Curso de buceo Open Water en Vilagarcía». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water en Vilagarcía» organizada por Náutica Medusa. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1727,7 +1727,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-santiago-compostela-534": {
-    "summary": "Mergullo Compostela organiza esta propuesta publicada como «Curso Open Water Diver en Santiago de Compostela». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver en Santiago de Compostela» organizada por Mergullo Compostela. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1745,7 +1745,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-mar-en-a-coruna-331": {
-    "summary": "Mergullo Compostela organiza esta propuesta publicada como «Bautismo de buceo en mar en A Coruña». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar en A Coruña» organizada por Mergullo Compostela. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1768,7 +1768,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-piscina-barcelona-3-horas-495": {
-    "summary": "Yo Buceo Barcelona organiza esta propuesta publicada como «Bautizo de buceo en piscina Barcelona 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en piscina Barcelona 3 horas» organizada por Yo Buceo Barcelona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1789,7 +1789,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-dive-en-costa-brava-8-sesiones-416": {
-    "summary": "Yo Buceo Barcelona organiza esta propuesta publicada como «Curso Open Water Dive en Costa Brava 8 sesiones». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Dive en Costa Brava 8 sesiones» organizada por Yo Buceo Barcelona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1812,7 +1812,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "titulo-advanced-open-water-diver-en-barcelona-417": {
-    "summary": "Yo Buceo Barcelona organiza esta propuesta publicada como «Título Advanced Open Water Diver en Barcelona». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Título Advanced Open Water Diver en Barcelona» organizada por Yo Buceo Barcelona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Fotografías de la experiencia",
       "Uso de embarcación",
@@ -1835,7 +1835,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-scuba-diver-en-barcelona-3-dias-418": {
-    "summary": "Yo Buceo Barcelona organiza esta propuesta publicada como «Curso Scuba Diver en Barcelona 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Scuba Diver en Barcelona 3 días» organizada por Yo Buceo Barcelona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -1861,7 +1861,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-muchamiel-instructor-496": {
-    "summary": "Posidonia Ecosports organiza esta propuesta publicada como «Bautismo de buceo en Muchamiel con instructor». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Muchamiel con instructor» organizada por Posidonia Ecosports. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1883,7 +1883,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-serra-gelada-3-horas-497": {
-    "summary": "Centro de Buceo Scorpora organiza esta propuesta publicada como «Bautismo de buceo en Serra Gelada 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Serra Gelada 3 horas» organizada por Centro de Buceo Scorpora. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1912,7 +1912,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-elche-3-horas-498": {
-    "summary": "Vadum Maris Diving&Watersports organiza esta propuesta publicada como «Bautismo de buceo en Elche 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Elche 3 horas» organizada por Vadum Maris Diving&Watersports. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
       "Desplazamientos indicados en la oferta",
@@ -1930,7 +1930,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-parejas-barco-javea-499": {
-    "summary": "La Rana Buceo organiza esta propuesta publicada como «Bautismo de buceo para parejas desde barco en Jávea». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo para parejas desde barco en Jávea» organizada por La Rana Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1949,7 +1949,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "salida-de-snorkel-desde-barco-fotos-javea-2-5-h-465": {
-    "summary": "La Rana Buceo organiza esta propuesta publicada como «Salida de snorkel desde barco + fotos Jávea, 2.5 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Salida de snorkel desde barco + fotos Jávea, 2.5 h» organizada por La Rana Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1977,7 +1977,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-costa-malaga-500": {
-    "summary": "ScubAzul organiza esta propuesta publicada como «Bautismo de buceo en la costa de Málaga». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en la costa de Málaga» organizada por ScubAzul. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -1999,7 +1999,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-2-personas-malaga-501": {
-    "summary": "ScubAzul organiza esta propuesta publicada como «Bautismo de buceo para 2 personas en Málaga». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo para 2 personas en Málaga» organizada por ScubAzul. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2025,7 +2025,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-6-metros-cabo-palos-502": {
-    "summary": "Balkysub organiza esta propuesta publicada como «Bautismo de buceo hasta 6 metros en Cabo de Palos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo hasta 6 metros en Cabo de Palos» organizada por Balkysub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2048,7 +2048,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-padi-la-manga-35110": {
-    "summary": "Balkysub organiza esta propuesta publicada como «Bautismo de Buceo PADI en La Manga del Mar Menor». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo PADI en La Manga del Mar Menor» organizada por Balkysub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2072,7 +2072,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-la-manga-35112": {
-    "summary": "Balkysub organiza esta propuesta publicada como «Snorkel en La Manga – Discover Snorkeling Experience». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en La Manga – Discover Snorkeling Experience» organizada por Balkysub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2095,7 +2095,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-la-manga-35125": {
-    "summary": "Balkysub organiza esta propuesta publicada como «Curso iniciación Open Water Diver en La Manga, 5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso iniciación Open Water Diver en La Manga, 5 días» organizada por Balkysub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2119,7 +2119,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "advanced-open-water-la-manga-35127": {
-    "summary": "Balkysub organiza esta propuesta publicada como «Curso Advanced Open Water PADI en La Manga, 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water PADI en La Manga, 4 días» organizada por Balkysub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2141,7 +2141,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-mar-cartagena-503": {
-    "summary": "Yo Buceo Cartagena organiza esta propuesta publicada como «Bautismo de buceo en mar en Cartagena». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar en Cartagena» organizada por Yo Buceo Cartagena. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -2161,7 +2161,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-cartagena-62455": {
-    "summary": "Yo Buceo Cartagena organiza esta propuesta publicada como «Curso Open Water Diver en Cartagena». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver en Cartagena» organizada por Yo Buceo Cartagena. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2187,7 +2187,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-scuba-diver-canarias-504": {
-    "summary": "Zeus Dive Center organiza esta propuesta publicada como «Curso Scuba Diver en Canarias». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Scuba Diver en Canarias» organizada por Zeus Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2209,7 +2209,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-sidemount-padi-maspalomas-508": {
-    "summary": "Zeus Dive Center organiza esta propuesta publicada como «Curso de buceo Sidemount PADI en Maspalomas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Sidemount PADI en Maspalomas» organizada por Zeus Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Desplazamientos indicados en la oferta",
@@ -2231,7 +2231,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-divemaster-padi-maspalomas-509": {
-    "summary": "Zeus Dive Center organiza esta propuesta publicada como «Curso Divemaster PADI en Maspalomas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Divemaster PADI en Maspalomas» organizada por Zeus Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -2252,7 +2252,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-diver-maspalomas-515": {
-    "summary": "Zeus Dive Center organiza esta propuesta publicada como «Curso Advanced Open Water Diver en Maspalomas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver en Maspalomas» organizada por Zeus Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2274,7 +2274,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-nitrox-padi-maspalomas-516": {
-    "summary": "Zeus Dive Center organiza esta propuesta publicada como «Curso de buceo Nitrox PADI en Maspalomas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Nitrox PADI en Maspalomas» organizada por Zeus Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Botella para la inmersión"
@@ -2295,7 +2295,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-rescue-diver-primeros-auxilios-505": {
-    "summary": "Mundo Activo organiza esta propuesta publicada como «Curso de buceador de rescate + primeros auxilios». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceador de rescate + primeros auxilios» organizada por Mundo Activo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acreditación indicada en el curso",
       "Formación teórica"
@@ -2316,7 +2316,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "aowd-padi-la-manga-17372": {
-    "summary": "Mundo Activo organiza esta propuesta publicada como «Curso AOWD PADI en La Manga». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso AOWD PADI en La Manga» organizada por Mundo Activo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acreditación indicada en el curso"
     ],
@@ -2336,7 +2336,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-gran-canaria-506": {
-    "summary": "7 Mares Las Canteras organiza esta propuesta publicada como «Curso PADI Open Water Diver en Gran Canaria». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Gran Canaria» organizada por 7 Mares Las Canteras. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -2360,7 +2360,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-las-palmas-de-gran-canaria-374": {
-    "summary": "7 Mares Las Canteras organiza esta propuesta publicada como «Bautismo de buceo Las Palmas de Gran Canaria». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo Las Palmas de Gran Canaria» organizada por 7 Mares Las Canteras. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2382,7 +2382,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advance-open-water-diver-gran-canaria-380": {
-    "summary": "7 Mares Las Canteras organiza esta propuesta publicada como «Curso Advance Open Water Diver, Gran Canaria». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advance Open Water Diver, Gran Canaria» organizada por 7 Mares Las Canteras. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -2400,7 +2400,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-sitges-511": {
-    "summary": "Maskydiving organiza esta propuesta publicada como «Curso de buceo Open Water Diver en Sitges». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver en Sitges» organizada por Maskydiving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -2418,7 +2418,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-divemaster-430": {
-    "summary": "Maskydiving organiza esta propuesta publicada como «Curso de buceo Divemaster». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Divemaster» organizada por Maskydiving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Botella para la inmersión",
@@ -2440,7 +2440,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-rescate-en-el-mar-431": {
-    "summary": "Maskydiving organiza esta propuesta publicada como «Curso de rescate en el mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de rescate en el mar» organizada por Maskydiving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2458,7 +2458,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-advanced-open-water-diver-432": {
-    "summary": "Maskydiving organiza esta propuesta publicada como «Curso de buceo Advanced Open Water Diver». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Advanced Open Water Diver» organizada por Maskydiving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2476,7 +2476,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-padi-scuba-diver-en-playa-de-sitges-433": {
-    "summary": "Maskydiving organiza esta propuesta publicada como «Curso de buceo Padi Scuba Diver en Playa de Sitges». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Padi Scuba Diver en Playa de Sitges» organizada por Maskydiving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -2499,7 +2499,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-radazul-512": {
-    "summary": "Diving Canarias organiza esta propuesta publicada como «Curso de buceo Open Water Diver en la costa de Radazul». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver en la costa de Radazul» organizada por Diving Canarias. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -2522,7 +2522,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-diver-mazarron-513": {
-    "summary": "CBS Centro de Buceo del Sureste organiza esta propuesta publicada como «Curso Advanced Open Water Diver en Mazarrón». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver en Mazarrón» organizada por CBS Centro de Buceo del Sureste. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -2540,7 +2540,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "scuba-diver-padi-la-azohia-68794": {
-    "summary": "CBS Centro de Buceo del Sureste organiza esta propuesta publicada como «Curso PADI Scuba Diver en La Azohía». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Scuba Diver en La Azohía» organizada por CBS Centro de Buceo del Sureste. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Formación teórica"
     ],
@@ -2560,7 +2560,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-cabo-tinoso-barco-32148": {
-    "summary": "CBS Centro de Buceo del Sureste organiza esta propuesta publicada como «Bautismo de buceo desde barco en Cabo Tiñoso, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde barco en Cabo Tiñoso, 3h» organizada por CBS Centro de Buceo del Sureste. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -2582,7 +2582,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-mazarron-32149": {
-    "summary": "CBS Centro de Buceo del Sureste organiza esta propuesta publicada como «Curso intensivo Open Water en Mazarrón, 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso intensivo Open Water en Mazarrón, 3 días» organizada por CBS Centro de Buceo del Sureste. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2603,7 +2603,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "feda-1-estrella-mazarron-32141": {
-    "summary": "CBS Centro de Buceo del Sureste organiza esta propuesta publicada como «Curso de buceo FEDA 1 Estrella en Puerto de Mazarrón». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo FEDA 1 Estrella en Puerto de Mazarrón» organizada por CBS Centro de Buceo del Sureste. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -2617,7 +2617,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-iniciados-tenerife-514": {
-    "summary": "Blackstone Dive Center organiza esta propuesta publicada como «Curso de buceo para iniciados en Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo para iniciados en Tenerife» organizada por Blackstone Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -2636,7 +2636,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-tenerife-45-min-41732": {
-    "summary": "Blackstone Dive Center organiza esta propuesta publicada como «Bautizo de buceo en Tenerife de 45 minutos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Tenerife de 45 minutos» organizada por Blackstone Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad"
     ],
@@ -2656,7 +2656,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "alquiler-scooter-subacuatico-port-daiguadolc-1h-517": {
-    "summary": "Nau Tech organiza esta propuesta publicada como «Alquiler de scooter subacuático en Port d'Aiguadolç». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Alquiler de scooter subacuático en Port d'Aiguadolç» organizada por Nau Tech. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2678,7 +2678,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-barco-cala-canyelles-519": {
-    "summary": "Océanos Diving Center organiza esta propuesta publicada como «Bautismo de buceo desde barco en Cala Canyelles». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde barco en Cala Canyelles» organizada por Océanos Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2704,7 +2704,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-lloret-65241": {
-    "summary": "Océanos Diving Center organiza esta propuesta publicada como «Curso PADI Open Water Diver en Lloret de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Lloret de Mar» organizada por Océanos Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2726,7 +2726,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-discover-scuba-diving-mar-menuda-522": {
-    "summary": "Tossasub organiza esta propuesta publicada como «Bautizo de mar Discover Scuba Diving en Mar Menuda». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de mar Discover Scuba Diving en Mar Menuda» organizada por Tossasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2752,7 +2752,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-mar-menuda-65112": {
-    "summary": "Tossasub organiza esta propuesta publicada como «Curso de buceo Open Water Diver en Mar Menuda». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver en Mar Menuda» organizada por Tossasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2775,7 +2775,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-platja-daro-2-horas-524": {
-    "summary": "Diversub organiza esta propuesta publicada como «Bautizo de buceo en Platja d'Aro 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Platja d'Aro 2 horas» organizada por Diversub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2802,7 +2802,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-pareja-sant-antoni-60679": {
-    "summary": "Diversub organiza esta propuesta publicada como «Bautizo buceo en pareja Sant Antoni de Calonge 2 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo buceo en pareja Sant Antoni de Calonge 2 h» organizada por Diversub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2820,7 +2820,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-iniciacion-costa-brava-60551": {
-    "summary": "Diversub organiza esta propuesta publicada como «Curso iniciación al buceo 4 días en Costa Brava». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso iniciación al buceo 4 días en Costa Brava» organizada por Diversub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -2841,7 +2841,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-cabo-palos-526": {
-    "summary": "Centro de Buceo Naranjito organiza esta propuesta publicada como «Bautizo de buceo en Cabo de Palos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Cabo de Palos» organizada por Centro de Buceo Naranjito. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2862,7 +2862,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceador-dos-estrellas-cabo-palos-527": {
-    "summary": "Centro de Buceo Naranjito organiza esta propuesta publicada como «Curso Buceador Dos Estrellas en Cabo de Palos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Buceador Dos Estrellas en Cabo de Palos» organizada por Centro de Buceo Naranjito. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2881,7 +2881,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-barco-cabo-palos-14983": {
-    "summary": "Centro de Buceo Naranjito organiza esta propuesta publicada como «Bautizo de buceo en barco en Cabo de Palos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en barco en Cabo de Palos» organizada por Centro de Buceo Naranjito. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2906,7 +2906,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-cabo-palos-14809": {
-    "summary": "Centro de Buceo Naranjito organiza esta propuesta publicada como «Curso de iniciación al buceo Open Water PADI en Cabo de Palos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de iniciación al buceo Open Water PADI en Cabo de Palos» organizada por Centro de Buceo Naranjito. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -2924,7 +2924,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "advanced-open-water-cabo-palos-14984": {
-    "summary": "Centro de Buceo Naranjito organiza esta propuesta publicada como «Curso Advanced Open Water Diver PADI en Cabo de Palos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver PADI en Cabo de Palos» organizada por Centro de Buceo Naranjito. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2944,7 +2944,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-calahonda-528": {
-    "summary": "Club de Buceo NoraySub organiza esta propuesta publicada como «Bautismo de buceo en Calahonda». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Calahonda» organizada por Club de Buceo NoraySub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -2967,7 +2967,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-lescala": {
-    "summary": "Grassi Sub organiza esta propuesta publicada como «Curso PADI Open Water Diver en L'Escala». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en L'Escala» organizada por Grassi Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -2998,7 +2998,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-costa-montgri-36307": {
-    "summary": "Grassi Sub organiza esta propuesta publicada como «Bautismo de buceo Costa del Montgrí 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo Costa del Montgrí 3 horas» organizada por Grassi Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3024,7 +3024,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-parque-montgri-77668": {
-    "summary": "Grassi Sub organiza esta propuesta publicada como «Bautismo de buceo en Parque Natural del Montgrí 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Parque Natural del Montgrí 3h» organizada por Grassi Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3051,7 +3051,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-arrecife-60308": {
-    "summary": "VidaXperience organiza esta propuesta publicada como «Bautismo de buceo en Arrecife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Arrecife» organizada por VidaXperience. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3073,7 +3073,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-buceo-lanzarote-19796": {
-    "summary": "Alisios Sub Lanzarote organiza esta propuesta publicada como «Inmersión de buceo en Lanzarote». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en Lanzarote» organizada por Alisios Sub Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3092,7 +3092,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ssi-advanced-adventurer-en-tias-407": {
-    "summary": "Alisios Sub Lanzarote organiza esta propuesta publicada como «SSI Advanced Adventurer en Tías». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «SSI Advanced Adventurer en Tías» organizada por Alisios Sub Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3116,7 +3116,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-discover-scuba-diving-playa-del-raco-calpe-65789": {
-    "summary": "Dive&Dive organiza esta propuesta publicada como «Curso PADI Discover Scuba Diving Playa del Racó». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Discover Scuba Diving Playa del Racó» organizada por Dive&Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3135,7 +3135,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-discover-scuba-diving-en-calpe-5h-462": {
-    "summary": "Dive&Dive organiza esta propuesta publicada como «Curso PADI Discover Scuba Diving en Calpe, 5h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Discover Scuba Diving en Calpe, 5h» organizada por Dive&Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3159,7 +3159,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-scuba-diver-ssi-lanzarote-47174": {
-    "summary": "Atlantis Diving Lanzarote organiza esta propuesta publicada como «Curso Scuba Diver SSI en Lanzarote». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Scuba Diver SSI en Lanzarote» organizada por Atlantis Diving Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -3177,7 +3177,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-buceo-barco-lanzarote-53013": {
-    "summary": "Atlantis Diving Lanzarote organiza esta propuesta publicada como «Inmersión de buceo en Lanzarote desde barco». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en Lanzarote desde barco» organizada por Atlantis Diving Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Uso de embarcación",
       "Desplazamientos indicados en la oferta"
@@ -3194,7 +3194,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-buceo-nocturna-cabo-de-gata-68414": {
-    "summary": "Centro de Buceo Alpha organiza esta propuesta publicada como «Inmersión de buceo nocturna en Cabo de Gata». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo nocturna en Cabo de Gata» organizada por Centro de Buceo Alpha. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad"
     ],
@@ -3214,7 +3214,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "2-inmersiones-buceo-botella-plomos-tarifa-53872": {
-    "summary": "Centollo Dive Club organiza esta propuesta publicada como «2 inmersiones de buceo + botella y plomos en Tarifa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «2 inmersiones de buceo + botella y plomos en Tarifa» organizada por Centollo Dive Club. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3238,7 +3238,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "salida-snorkel-playa-tarifa-53881": {
-    "summary": "Centollo Dive Club organiza esta propuesta publicada como «Salida de snorkel en Playa de Tarifa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Salida de snorkel en Playa de Tarifa» organizada por Centollo Dive Club. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3257,7 +3257,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-mar-en-tarifa-2-horas-244": {
-    "summary": "Centollo Dive Club organiza esta propuesta publicada como «Bautismo de buceo en mar en Tarifa, 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar en Tarifa, 2 horas» organizada por Centollo Dive Club. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3276,7 +3276,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-en-tarifa-sin-equipo-245": {
-    "summary": "Centollo Dive Club organiza esta propuesta publicada como «Inmersión de buceo en Tarifa sin equipo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en Tarifa sin equipo» organizada por Centollo Dive Club. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Desplazamientos indicados en la oferta",
@@ -3294,7 +3294,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "salidas-de-buceo-en-tarifa-grupos-pequenos-1h-246": {
-    "summary": "Centollo Dive Club organiza esta propuesta publicada como «Salidas de buceo en Tarifa grupos pequeños 1h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Salidas de buceo en Tarifa grupos pequeños 1h» organizada por Centollo Dive Club. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3316,7 +3316,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-mar-tarifa-19193": {
-    "summary": "Buddha Divers organiza esta propuesta publicada como «Bautismo de buceo de mar en Tarifa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo de mar en Tarifa» organizada por Buddha Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3335,7 +3335,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-advanced-open-water-en-tarifa-de-2-dias-255": {
-    "summary": "Buddha Divers organiza esta propuesta publicada como «Curso PADI Advanced Open Water en Tarifa de 2 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Advanced Open Water en Tarifa de 2 días» organizada por Buddha Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Formación teórica"
@@ -3360,7 +3360,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-scuba-diver-en-tarifa-de-2-dias-257": {
-    "summary": "Buddha Divers organiza esta propuesta publicada como «Curso PADI Scuba Diver en Tarifa de 2 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Scuba Diver en Tarifa de 2 días» organizada por Buddha Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -3385,7 +3385,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-rescue-diver-en-tarifa-1-2-dias-258": {
-    "summary": "Buddha Divers organiza esta propuesta publicada como «Curso PADI Rescue Diver en Tarifa, 1–2 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Rescue Diver en Tarifa, 1–2 días» organizada por Buddha Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3413,7 +3413,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-padi-tabarca": {
-    "summary": "Scuba-Elx organiza esta propuesta publicada como «Curso Open Water Diver PADI en la isla de Tabarca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver PADI en la isla de Tabarca» organizada por Scuba-Elx. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3437,7 +3437,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-cerca-de-la-isla-tabarca-para-adultos-3-h-463": {
-    "summary": "Scuba-Elx organiza esta propuesta publicada como «Snorkel cerca de la Isla Tabarca para adultos 3 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel cerca de la Isla Tabarca para adultos 3 h» organizada por Scuba-Elx. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -3458,7 +3458,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-alrededores-isla-de-tabarca-466": {
-    "summary": "Scuba-Elx organiza esta propuesta publicada como «Bautismo de buceo alrededores Isla de Tabarca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo alrededores Isla de Tabarca» organizada por Scuba-Elx. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3478,7 +3478,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-javea": {
-    "summary": "Centro de Buceo Puerto de Javea organiza esta propuesta publicada como «Curso PADI Open Water Diver en Jávea». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Jávea» organizada por Centro de Buceo Puerto de Javea. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Uso de embarcación",
@@ -3500,7 +3500,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-1-inmersion-lanzarote-38911": {
-    "summary": "Native Diving organiza esta propuesta publicada como «Bautismo de buceo con 1 inmersión en Lanzarote». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo con 1 inmersión en Lanzarote» organizada por Native Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -3521,7 +3521,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-padi-lanzarote-38944": {
-    "summary": "Native Diving organiza esta propuesta publicada como «Curso Open Water Diver PADI en Lanzarote 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver PADI en Lanzarote 3 días» organizada por Native Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -3547,7 +3547,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-lanzarote-54268": {
-    "summary": "Scuba Legends organiza esta propuesta publicada como «Curso PADI Open Water Diver en Lanzarote 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Lanzarote 3 días» organizada por Scuba Legends. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3573,7 +3573,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-puerto-carmen-54296": {
-    "summary": "Scuba Legends organiza esta propuesta publicada como «Bautismo de buceo en Lanzarote, Puerto del Carmen». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Lanzarote, Puerto del Carmen» organizada por Scuba Legends. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -3598,7 +3598,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-adventure-diver-lanzarote-46770": {
-    "summary": "Active Scuba Divers Lanzarote organiza esta propuesta publicada como «Curso PADI Adventure Diver en Lanzarote». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Adventure Diver en Lanzarote» organizada por Active Scuba Divers Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -3625,7 +3625,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-ssi-open-water-diver-lanzarote-46769": {
-    "summary": "Active Scuba Divers Lanzarote organiza esta propuesta publicada como «Curso SSI Open Water Diver en Lanzarote». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso SSI Open Water Diver en Lanzarote» organizada por Active Scuba Divers Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -3654,7 +3654,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-seal-team-lanzarote-46764": {
-    "summary": "Active Scuba Divers Lanzarote organiza esta propuesta publicada como «Curso PADI Seal Team en Lanzarote». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Seal Team en Lanzarote» organizada por Active Scuba Divers Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
       "Acreditación indicada en el curso",
@@ -3680,7 +3680,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-buceo-playa-blanca-45915": {
-    "summary": "Windblue Sports organiza esta propuesta publicada como «Inmersión de buceo en Playa Blanca, 4 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en Playa Blanca, 4 horas» organizada por Windblue Sports. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -3703,7 +3703,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersiones-lanzarote-nocturna-gratis-37280": {
-    "summary": "Lanzarote Non Stop Divers organiza esta propuesta publicada como «Inmersiones en Lanzarote con buceo nocturno gratis». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersiones en Lanzarote con buceo nocturno gratis» organizada por Lanzarote Non Stop Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3729,7 +3729,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-en-lanzarote-4-dias-403": {
-    "summary": "Lanzarote Non Stop Divers organiza esta propuesta publicada como «Curso PADI Open Water en Lanzarote 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water en Lanzarote 4 días» organizada por Lanzarote Non Stop Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3757,7 +3757,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-ssi-playa-flamingo-43093": {
-    "summary": "Pura Vida Diving organiza esta propuesta publicada como «Open Water Diver SSI en Playa Flamingo, 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Open Water Diver SSI en Playa Flamingo, 4 días» organizada por Pura Vida Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Acreditación indicada en el curso"
@@ -3774,7 +3774,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-tenerife-46044": {
-    "summary": "Ocean Friends Buceo y Apnea organiza esta propuesta publicada como «Bautismo de buceo en Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Tenerife» organizada por Ocean Friends Buceo y Apnea. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
       "Fotografías de la experiencia",
@@ -3800,7 +3800,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-las-galletas-53976": {
-    "summary": "Brisubuceo organiza esta propuesta publicada como «Bautismo de buceo en Las Galletas, Tenerife». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Las Galletas, Tenerife» organizada por Brisubuceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3822,7 +3822,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-open-water-en-las-galletas-3-dias-401": {
-    "summary": "Brisubuceo organiza esta propuesta publicada como «Curso de buceo Open Water en Las Galletas 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water en Las Galletas 3 días» organizada por Brisubuceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -3844,7 +3844,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-video-radazul-60254": {
-    "summary": "Club de Buceo Quimerasub organiza esta propuesta publicada como «Bautizo de buceo en mar + vídeo en Radazul». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en mar + vídeo en Radazul» organizada por Club de Buceo Quimerasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3869,7 +3869,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-costa-adeje-80893": {
-    "summary": "DPM Diving organiza esta propuesta publicada como «Bautismo de buceo en Costa Adeje de 4 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Costa Adeje de 4 horas» organizada por DPM Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -3890,7 +3890,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-discover-scuba-diving-puerto-colon-53291": {
-    "summary": "Travel Sub organiza esta propuesta publicada como «PADI Discover Scuba Diving en Puerto Colón». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Discover Scuba Diving en Puerto Colón» organizada por Travel Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3914,7 +3914,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-barco-en-puerto-colon-3h-397": {
-    "summary": "Travel Sub organiza esta propuesta publicada como «Bautismo de buceo desde barco en Puerto Colón, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde barco en Puerto Colón, 3h» organizada por Travel Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3932,7 +3932,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-diver-padi-tenerife-39502": {
-    "summary": "Diving Atlantis organiza esta propuesta publicada como «Open Water Diver PADI en Tenerife en 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Open Water Diver PADI en Tenerife en 3 días» organizada por Diving Atlantis. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -3950,7 +3950,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bono-10-inmersiones-puerto-colon-22282": {
-    "summary": "Diving Atlantis organiza esta propuesta publicada como «Bono de 10 inmersiones desde Puerto Colón». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bono de 10 inmersiones desde Puerto Colón» organizada por Diving Atlantis. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -3971,7 +3971,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "2-inmersiones-buceadores-titulados-tenerife-53263": {
-    "summary": "Amarilla Divers organiza esta propuesta publicada como «2 inmersiones en Tenerife para buceadores titulados». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «2 inmersiones en Tenerife para buceadores titulados» organizada por Amarilla Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Desplazamientos indicados en la oferta",
@@ -3994,7 +3994,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "2-inmersiones-tenerife-fotos-60253": {
-    "summary": "Go-Dive Tenerife organiza esta propuesta publicada como «2 inmersiones de buceo en Tenerife con fotos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «2 inmersiones de buceo en Tenerife con fotos» organizada por Go-Dive Tenerife. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4016,7 +4016,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-padi-open-water-diver-en-tenerife-3-dias-399": {
-    "summary": "Go-Dive Tenerife organiza esta propuesta publicada como «Curso de PADI Open Water Diver en Tenerife 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de PADI Open Water Diver en Tenerife 3 días» organizada por Go-Dive Tenerife. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -4039,7 +4039,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-parque-natural-benidorm-36446": {
-    "summary": "Diving Stones organiza esta propuesta publicada como «Excursión de Snorkel en Parque Natural de Benidorm». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Excursión de Snorkel en Parque Natural de Benidorm» organizada por Diving Stones. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Uso de embarcación"
@@ -4056,7 +4056,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-buceo-benidorm-sin-equipo-36148": {
-    "summary": "Diving Stones organiza esta propuesta publicada como «Inmersión de buceo en Benidorm sin equipo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en Benidorm sin equipo» organizada por Diving Stones. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Uso de embarcación"
@@ -4073,7 +4073,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-scuba-diver-benidorm-36243": {
-    "summary": "Diving Stones organiza esta propuesta publicada como «Curso Scuba Diver en Benidorm». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Scuba Diver en Benidorm» organizada por Diving Stones. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4093,7 +4093,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-serra-gelada-36245": {
-    "summary": "Diving Stones organiza esta propuesta publicada como «Curso Open Water Diver en Serra Gelada». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver en Serra Gelada» organizada por Diving Stones. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4112,7 +4112,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-barco-en-isla-de-benidorm-493": {
-    "summary": "Diving Stones organiza esta propuesta publicada como «Bautismo de buceo desde barco en Isla de Benidorm». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde barco en Isla de Benidorm» organizada por Diving Stones. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4136,7 +4136,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-con-equipo-en-benidorm-494": {
-    "summary": "Diving Stones organiza esta propuesta publicada como «Inmersión de buceo con equipo en Benidorm». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo con equipo en Benidorm» organizada por Diving Stones. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Uso de embarcación"
@@ -4153,7 +4153,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-altea-barco-36653": {
-    "summary": "Marépolis Altea organiza esta propuesta publicada como «Bautismo de buceo en Altea, desde barco». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Altea, desde barco» organizada por Marépolis Altea. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4172,7 +4172,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-altea-31342": {
-    "summary": "Marépolis Altea organiza esta propuesta publicada como «PADI Advanced Open Water, Altea». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water, Altea» organizada por Marépolis Altea. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -4190,7 +4190,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-denia-65287": {
-    "summary": "Mon Diving organiza esta propuesta publicada como «Curso Advanced Open Water Diver en Denia». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver en Denia» organizada por Mon Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -4209,7 +4209,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-economico-denia-56080": {
-    "summary": "Mon Diving organiza esta propuesta publicada como «Bautismo de Buceo Económico costa de Denia 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo Económico costa de Denia 3h» organizada por Mon Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4228,7 +4228,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-buceo-equipo-denia-65282": {
-    "summary": "Mon Diving organiza esta propuesta publicada como «Inmersión de buceo y equipo en la costa de Denia». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo y equipo en la costa de Denia» organizada por Mon Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -4250,7 +4250,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "rescue-diver-efr-denia-65447": {
-    "summary": "Mon Diving organiza esta propuesta publicada como «Curso de buceo Rescue Diver y EFR en Denia». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Rescue Diver y EFR en Denia» organizada por Mon Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4272,7 +4272,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "discover-scuba-tossa-51268": {
-    "summary": "SuperDive Tossa de Mar organiza esta propuesta publicada como «Discover Scuba Diving en Tossa de Mar 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Discover Scuba Diving en Tossa de Mar 3 horas» organizada por SuperDive Tossa de Mar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Formación teórica"
@@ -4293,7 +4293,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-tossa-57559": {
-    "summary": "SuperDive Tossa de Mar organiza esta propuesta publicada como «Curso PADI Open Water en Tossa de Mar, 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water en Tossa de Mar, 3 días» organizada por SuperDive Tossa de Mar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -4315,7 +4315,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-scuba-diver-tossa-13963": {
-    "summary": "SuperDive Tossa de Mar organiza esta propuesta publicada como «PADI Scuba Diver en Tossa de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Scuba Diver en Tossa de Mar» organizada por SuperDive Tossa de Mar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -4338,7 +4338,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-tossa-57563": {
-    "summary": "SuperDive Tossa de Mar organiza esta propuesta publicada como «PADI Advanced Open Water Tossa de Mar 2 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water Tossa de Mar 2 días» organizada por SuperDive Tossa de Mar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Acreditación indicada en el curso"
@@ -4359,7 +4359,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-playa-tossa-14621": {
-    "summary": "Dream Dive organiza esta propuesta publicada como «Bautizo de buceo desde playa en Tossa de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo desde playa en Tossa de Mar» organizada por Dream Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -4377,7 +4377,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-tossa-61843": {
-    "summary": "Diving & Combat organiza esta propuesta publicada como «Bautismo de buceo en Tossa de Mar 2,5h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Tossa de Mar 2,5h» organizada por Diving & Combat. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -4399,7 +4399,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-tossa-61846": {
-    "summary": "Diving & Combat organiza esta propuesta publicada como «Snorkel en Tossa de Mar 2 horas y 30». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en Tossa de Mar 2 horas y 30» organizada por Diving & Combat. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4425,7 +4425,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-sa-caleta-13961": {
-    "summary": "Dolphins Diving Center organiza esta propuesta publicada como «Bautismo de buceo desde Playa Sa Caleta, 2h30». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde Playa Sa Caleta, 2h30» organizada por Dolphins Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4447,7 +4447,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-ssi-lloret-55808": {
-    "summary": "Dolphins Diving Center organiza esta propuesta publicada como «Curso certificación Open Water Diver SSI en Girona». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso certificación Open Water Diver SSI en Girona» organizada por Dolphins Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4470,7 +4470,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-fenals-65860": {
-    "summary": "Diving La Casa del Mar organiza esta propuesta publicada como «Bautizo de buceo en Platja de Fenals 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Platja de Fenals 2 horas» organizada por Diving La Casa del Mar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4495,7 +4495,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-estartit-57566": {
-    "summary": "Calypso Diving Estartit organiza esta propuesta publicada como «Curso PADI Open Water Diver en Estartit, 5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Estartit, 5 días» organizada por Calypso Diving Estartit. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4517,7 +4517,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-estartit-57567": {
-    "summary": "Calypso Diving Estartit organiza esta propuesta publicada como «Curso PADI Advanced en Estartit, 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Advanced en Estartit, 3 días» organizada por Calypso Diving Estartit. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4540,7 +4540,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-cala-pedrosa-estartit-57564": {
-    "summary": "Calypso Diving Estartit organiza esta propuesta publicada como «Bautismo de mar en Cala Pedrosa, Estartit». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de mar en Cala Pedrosa, Estartit» organizada por Calypso Diving Estartit. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4560,7 +4560,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "buceo-islas-medas-montgri-27211": {
-    "summary": "Calypso Diving Estartit organiza esta propuesta publicada como «Buceo a las Islas Medas o la Costa del Montgrí». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Buceo a las Islas Medas o la Costa del Montgrí» organizada por Calypso Diving Estartit. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -4578,7 +4578,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-estartit-13966": {
-    "summary": "Unisub organiza esta propuesta publicada como «PADI Advanced Open Water Diver en l'Estartit». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water Diver en l'Estartit» organizada por Unisub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4597,7 +4597,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-montgri-3h-88870": {
-    "summary": "Unisub organiza esta propuesta publicada como «Bautizo de buceo Parque Natural del Montgrí, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo Parque Natural del Montgrí, 3h» organizada por Unisub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4615,7 +4615,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-islas-medas-88872": {
-    "summary": "Unisub organiza esta propuesta publicada como «Snorkel en Parque Natural de las Islas Medas, 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en Parque Natural de las Islas Medas, 2h» organizada por Unisub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4638,7 +4638,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-palamos-playa-56240": {
-    "summary": "Anemone Diving Center organiza esta propuesta publicada como «Bautismo de Buceo en Palamós desde playa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo en Palamós desde playa» organizada por Anemone Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4661,7 +4661,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-palamos-barco-56241": {
-    "summary": "Anemone Diving Center organiza esta propuesta publicada como «Bautismo de Buceo desde Barco en Palamós». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo desde Barco en Palamós» organizada por Anemone Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4684,7 +4684,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-palamos-56242": {
-    "summary": "Anemone Diving Center organiza esta propuesta publicada como «PADI Open Water Diver en Palamós». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Open Water Diver en Palamós» organizada por Anemone Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4707,7 +4707,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-palamos-58937": {
-    "summary": "Buceo Catalunya Costa Brava organiza esta propuesta publicada como «Bautizo de buceo en Palamós, 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Palamós, 2h» organizada por Buceo Catalunya Costa Brava. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)"
     ],
@@ -4731,7 +4731,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-palamos-79990": {
-    "summary": "Buceo Catalunya Costa Brava organiza esta propuesta publicada como «Curso de buceo Open Water Diver Palamós 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver Palamós 3 días» organizada por Buceo Catalunya Costa Brava. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4758,7 +4758,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-snorkel-cabo-palos-fotos": {
-    "summary": "Posidonia turismo organiza esta propuesta publicada como «Bautizo de Snorkel el Cabo de Palos con fotos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de Snorkel el Cabo de Palos con fotos» organizada por Posidonia turismo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -4777,7 +4777,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-tomas-maestre-88731": {
-    "summary": "MásMar Buceo organiza esta propuesta publicada como «Bautismo de buceo en mar, Puerto Tomás Maestre, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar, Puerto Tomás Maestre, 3h» organizada por MásMar Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4803,7 +4803,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-piscina-san-javier-88730": {
-    "summary": "MásMar Buceo organiza esta propuesta publicada como «Bautismo de buceo en piscina San Javier, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en piscina San Javier, 3h» organizada por MásMar Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -4828,7 +4828,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-la-azohia-7655": {
-    "summary": "Caballito Salao organiza esta propuesta publicada como «Bautismo de buceo en La Azohía». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en La Azohía» organizada por Caballito Salao. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -4846,7 +4846,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-la-azohia-60038": {
-    "summary": "Caballito Salao organiza esta propuesta publicada como «Curso Open Water Diver en La Azohía». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver en La Azohía» organizada por Caballito Salao. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Acreditación indicada en el curso",
@@ -4869,7 +4869,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "doble-inmersion-cabo-tinoso-titulados-4717": {
-    "summary": "Caballito Salao organiza esta propuesta publicada como «Salida doble de buceo en Cabo Tiñoso para titulados». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Salida doble de buceo en Cabo Tiñoso para titulados» organizada por Caballito Salao. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Uso de embarcación",
       "Desplazamientos indicados en la oferta",
@@ -4892,7 +4892,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-cabo-tinoso-20620": {
-    "summary": "Siroco Aventuras organiza esta propuesta publicada como «Bautismo de buceo en Cabo Tiñoso desde La Azohía». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Cabo Tiñoso desde La Azohía» organizada por Siroco Aventuras. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4916,7 +4916,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-cabo-tinoso-la-azohia-76694": {
-    "summary": "The Blue Jump Ecodiving organiza esta propuesta publicada como «Bautismo de Buceo en Cabo Tiñoso, La Azohía 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo en Cabo Tiñoso, La Azohía 3h» organizada por The Blue Jump Ecodiving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -4944,7 +4944,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batizo-de-bceo-en-granada-horas-219": {
-    "summary": "Buceo Marina organiza esta propuesta publicada como «Bautizo de Buceo en Granada 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de Buceo en Granada 2 horas» organizada por Buceo Marina. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4967,7 +4967,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-padi-open-water-diver-en-granada-222": {
-    "summary": "Buceo Marina organiza esta propuesta publicada como «Curso PADI Open Water Diver en Granada». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Granada» organizada por Buceo Marina. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -4991,7 +4991,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-de-bceo-padi-scba-diver-granada-224": {
-    "summary": "Buceo Marina organiza esta propuesta publicada como «Curso de Buceo PADI Scuba Diver Granada». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Buceo PADI Scuba Diver Granada» organizada por Buceo Marina. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5014,7 +5014,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batizo-de-bceo-personalizado-marina-del-este-h-220": {
-    "summary": "Buceo Aqualia organiza esta propuesta publicada como «Bautizo de buceo personalizado Marina del Este, 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo personalizado Marina del Este, 2h» organizada por Buceo Aqualia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5033,7 +5033,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-la-herradra-225": {
-    "summary": "Buceo Aqualia organiza esta propuesta publicada como «PADI Advanced Open Water, La Herradura». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water, La Herradura» organizada por Buceo Aqualia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5052,7 +5052,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-de-bceo-padi-resce-diver-en-la-herradra-226": {
-    "summary": "Buceo Aqualia organiza esta propuesta publicada como «Curso de buceo PADI Rescue Diver en La Herradura». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo PADI Rescue Diver en La Herradura» organizada por Buceo Aqualia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -5069,7 +5069,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batizo-de-bceo-para-parejas-en-la-herradra-h-221": {
-    "summary": "Molamola Dive organiza esta propuesta publicada como «Bautizo de buceo para parejas en La Herradura 5h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo para parejas en La Herradura 5h» organizada por Molamola Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Desplazamientos indicados en la oferta"
@@ -5090,7 +5090,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-open-water-de-bceo-la-herradra-223": {
-    "summary": "Molamola Dive organiza esta propuesta publicada como «Curso Open Water de buceo La Herradura». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water de buceo La Herradura» organizada por Molamola Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Desplazamientos indicados en la oferta",
@@ -5113,7 +5113,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersio-n-con-eqipo-en-la-herradra-horas-227": {
-    "summary": "Molamola Dive organiza esta propuesta publicada como «Inmersión con equipo en La Herradura 4 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión con equipo en La Herradura 4 horas» organizada por Molamola Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -5138,7 +5138,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-la-herradura-con-fotos-436": {
-    "summary": "Molamola Dive organiza esta propuesta publicada como «Bautismo de buceo en La Herradura con fotos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en La Herradura con fotos» organizada por Molamola Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Fotografías de la experiencia"
@@ -5159,7 +5159,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-malaga-para-grupos-441": {
-    "summary": "Molamola Dive organiza esta propuesta publicada como «Bautizo de buceo en Málaga para grupos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Málaga para grupos» organizada por Molamola Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)"
     ],
@@ -5183,7 +5183,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-advanced-open-water-diver-o-di-as-nerja-228": {
-    "summary": "Buceo Costa Nerja organiza esta propuesta publicada como «Curso Advanced Open Water Diver 2 o 3 días Nerja». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver 2 o 3 días Nerja» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5209,7 +5209,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-diver-en-nerja-drante-di-as-229": {
-    "summary": "Buceo Costa Nerja organiza esta propuesta publicada como «PADI Open Water Diver en Nerja durante 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Open Water Diver en Nerja durante 4 días» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
       "Formación teórica",
@@ -5235,7 +5235,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-discover-scba-desde-barco-en-costa-de-nerja-230": {
-    "summary": "Buceo Costa Nerja organiza esta propuesta publicada como «Curso Discover Scuba desde barco en costa de Nerja». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Discover Scuba desde barco en costa de Nerja» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -5253,7 +5253,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-ninos-maro-cerro-gordo-62522": {
-    "summary": "Buceo Costa Nerja organiza esta propuesta publicada como «Snorkel para niños acantilados de Maro Cerro Gordo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel para niños acantilados de Maro Cerro Gordo» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -5275,7 +5275,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "progradiscover-scuba-3-horas-marina-del-este-434": {
-    "summary": "Buceo Costa Nerja organiza esta propuesta publicada como «PrograDiscover Scuba 3 horas Marina del Este». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PrograDiscover Scuba 3 horas Marina del Este» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5300,7 +5300,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-en-los-acantilados-de-maro-cerro-gordo-438": {
-    "summary": "Buceo Costa Nerja organiza esta propuesta publicada como «Snorkel en los Acantilados de Maro Cerro-Gordo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en los Acantilados de Maro Cerro-Gordo» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -5321,7 +5321,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batismo-de-bceo-en-cabo-de-gata-233": {
-    "summary": "Isub San Jose organiza esta propuesta publicada como «Bautismo de buceo en Cabo de Gata». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Cabo de Gata» organizada por Isub San Jose. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5344,7 +5344,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batizo-de-bceo-en-cabo-de-gata-h-234": {
-    "summary": "Isub San Jose organiza esta propuesta publicada como «Bautizo de buceo en Cabo de Gata, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Cabo de Gata, 3h» organizada por Isub San Jose. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5366,7 +5366,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-san-jose-462": {
-    "summary": "Isub San Jose organiza esta propuesta publicada como «Curso Advanced Open Water en San José». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water en San José» organizada por Isub San Jose. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)"
     ],
@@ -5390,7 +5390,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-open-water-en-cabo-de-gata-235": {
-    "summary": "Sea&Sun Diving-Sport organiza esta propuesta publicada como «Curso OPEN WATER en Cabo de Gata». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso OPEN WATER en Cabo de Gata» organizada por Sea&Sun Diving-Sport. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Acreditación indicada en el curso",
@@ -5416,7 +5416,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-open-water-diver-en-cabo-de-gata-di-as-236": {
-    "summary": "Buceo Las Negras organiza esta propuesta publicada como «Curso Open Water Diver en Cabo de Gata 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver en Cabo de Gata 4 días» organizada por Buceo Las Negras. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5443,7 +5443,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batismo-de-bceo-en-roqetas-de-mar-237": {
-    "summary": "Buceo Aguadulce Roquetas organiza esta propuesta publicada como «Bautismo de buceo en Roquetas de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Roquetas de Mar» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5466,7 +5466,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-diver-en-roqetas-de-mar-238": {
-    "summary": "Buceo Aguadulce Roquetas organiza esta propuesta publicada como «PADI Advanced Open Water Diver en Roquetas de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water Diver en Roquetas de Mar» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad"
     ],
@@ -5486,7 +5486,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-open-water-diver-en-roqetas-de-mar-239": {
-    "summary": "Buceo Aguadulce Roquetas organiza esta propuesta publicada como «Curso Open Water Diver en Roquetas de Mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver en Roquetas de Mar» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5511,7 +5511,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batismo-sbmarino-perto-de-agadlce-y-vi-deos-h-240": {
-    "summary": "Buceo Aguadulce Roquetas organiza esta propuesta publicada como «Bautismo submarino Puerto de Aguadulce y vídeos 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo submarino Puerto de Aguadulce y vídeos 2h» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5534,7 +5534,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batismo-de-bceo-para-parejas-en-agadlce-241": {
-    "summary": "Buceo Aguadulce Roquetas organiza esta propuesta publicada como «Bautismo de buceo para parejas en Aguadulce». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo para parejas en Aguadulce» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5549,7 +5549,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "batizo-de-bceo-para-nin-os-agadlce-desde-an-os-242": {
-    "summary": "Buceo Aguadulce Roquetas organiza esta propuesta publicada como «Bautizo de buceo para niños Aguadulce desde 8 años». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo para niños Aguadulce desde 8 años» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Formación teórica"
@@ -5566,7 +5566,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "crso-advanced-open-water-perto-agadlce-di-as-243": {
-    "summary": "Buceo Aguadulce Roquetas organiza esta propuesta publicada como «Curso Advanced Open Water, Puerto Aguadulce 5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water, Puerto Aguadulce 5 días» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -5587,7 +5587,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-doble-en-la-isla-de-tarifa-247": {
-    "summary": "Explora Cádiz Buceo organiza esta propuesta publicada como «Inmersión doble en la isla de Tarifa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión doble en la isla de Tarifa» organizada por Explora Cádiz Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)"
     ],
@@ -5603,7 +5603,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "iniciacion-open-water-diver-puerto-de-santa-maria-260": {
-    "summary": "Explora Cádiz Buceo organiza esta propuesta publicada como «Iniciación Open Water Diver Puerto de Santa María». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Iniciación Open Water Diver Puerto de Santa María» organizada por Explora Cádiz Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -5627,7 +5627,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-puerto-de-santa-maria-261": {
-    "summary": "Explora Cádiz Buceo organiza esta propuesta publicada como «PADI Advanced Open Water, Puerto de Santa María». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water, Puerto de Santa María» organizada por Explora Cádiz Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Formación teórica"
@@ -5648,7 +5648,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-doble-en-costa-de-gibraltar-262": {
-    "summary": "Explora Cádiz Buceo organiza esta propuesta publicada como «Inmersión de buceo doble en costa de Gibraltar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo doble en costa de Gibraltar» organizada por Explora Cádiz Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)"
     ],
@@ -5664,7 +5664,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-doble-en-cadiz-desde-barco-263": {
-    "summary": "Explora Cádiz Buceo organiza esta propuesta publicada como «Inmersión de buceo doble en Cádiz desde barco». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo doble en Cádiz desde barco» organizada por Explora Cádiz Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Uso de embarcación"
@@ -5681,7 +5681,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-en-piscina-reportaje-fotos-submarino-264": {
-    "summary": "Explora Cádiz Buceo organiza esta propuesta publicada como «Bautizo en piscina + reportaje fotos submarino». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo en piscina + reportaje fotos submarino» organizada por Explora Cádiz Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5704,7 +5704,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-con-fotografia-puerto-santa-maria-265": {
-    "summary": "Explora Cádiz Buceo organiza esta propuesta publicada como «Bautizo de buceo con fotografía Puerto Santa María». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo con fotografía Puerto Santa María» organizada por Explora Cádiz Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5723,7 +5723,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-playa-en-tarifa-249": {
-    "summary": "YellowSub Tarifa organiza esta propuesta publicada como «Bautismo de buceo desde playa en Tarifa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde playa en Tarifa» organizada por YellowSub Tarifa. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5742,7 +5742,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-discover-scuba-diving-tarifa-252": {
-    "summary": "YellowSub Tarifa organiza esta propuesta publicada como «Curso Discover Scuba Diving, Tarifa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Discover Scuba Diving, Tarifa» organizada por YellowSub Tarifa. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -5761,7 +5761,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-advanced-diver-en-tarifa-3-dias-256": {
-    "summary": "YellowSub Tarifa organiza esta propuesta publicada como «Curso PADI Advanced Diver en Tarifa, 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Advanced Diver en Tarifa, 3 días» organizada por YellowSub Tarifa. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -5783,7 +5783,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-2-inmersiones-en-tarifa-250": {
-    "summary": "goDive Cadiz organiza esta propuesta publicada como «Bautismo de buceo, 2 inmersiones en Tarifa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo, 2 inmersiones en Tarifa» organizada por goDive Cadiz. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5803,7 +5803,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-piscina-45-minutos-el-palmar-266": {
-    "summary": "goDive Cadiz organiza esta propuesta publicada como «Bautismo de buceo en piscina 45 minutos El Palmar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en piscina 45 minutos El Palmar» organizada por goDive Cadiz. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5827,7 +5827,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ruta-guiada-de-snorkel-por-isla-de-tarifa-90-min-251": {
-    "summary": "Diver Soul Tarifa organiza esta propuesta publicada como «Ruta guiada de snorkel por isla de Tarifa 90 min». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Ruta guiada de snorkel por isla de Tarifa 90 min» organizada por Diver Soul Tarifa. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -5848,7 +5848,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-en-tarifa-4-dias-254": {
-    "summary": "Diver Soul Tarifa organiza esta propuesta publicada como «Curso PADI Open Water Diver en Tarifa 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Tarifa 4 días» organizada por Diver Soul Tarifa. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5872,7 +5872,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-de-nitrox-en-costa-de-tarifa-259": {
-    "summary": "Scubkandalus organiza esta propuesta publicada como «Curso de buceo de Nitrox en costa de Tarifa». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo de Nitrox en costa de Tarifa» organizada por Scubkandalus. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -5895,7 +5895,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "discover-scuba-diving-desde-barco-port-andratx-4h-267": {
-    "summary": "Diving Dragonera organiza esta propuesta publicada como «Discover Scuba Diving desde barco Port Andratx 4h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Discover Scuba Diving desde barco Port Andratx 4h» organizada por Diving Dragonera. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5917,7 +5917,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "excursion-guiada-snorkel-por-costa-de-andratx-2h-271": {
-    "summary": "Diving Dragonera organiza esta propuesta publicada como «Excursión guiada snorkel por costa de Andratx, 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Excursión guiada snorkel por costa de Andratx, 2h» organizada por Diving Dragonera. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5943,7 +5943,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-playa-port-d-andratx-2-5h-272": {
-    "summary": "Diving Dragonera organiza esta propuesta publicada como «Bautismo de Buceo desde playa Port d'Andratx, 2.5h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo desde playa Port d'Andratx, 2.5h» organizada por Diving Dragonera. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -5970,7 +5970,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-en-el-parque-natural-de-la-dragonera-2h30m-276": {
-    "summary": "Diving Dragonera organiza esta propuesta publicada como «Snorkel en el parque natural de la Dragonera 2h30m». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en el parque natural de la Dragonera 2h30m» organizada por Diving Dragonera. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -5996,7 +5996,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "discover-scuba-diving-en-cala-santanyi-2h-268": {
-    "summary": "Cala Santanyi Diving Center organiza esta propuesta publicada como «Discover Scuba Diving en Cala Santanyi, 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Discover Scuba Diving en Cala Santanyi, 2h» organizada por Cala Santanyi Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6016,7 +6016,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-en-cala-santanyi-279": {
-    "summary": "Cala Santanyi Diving Center organiza esta propuesta publicada como «Curso Open Water Diver en Cala Santanyi». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver en Cala Santanyi» organizada por Cala Santanyi Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6041,7 +6041,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-diver-cala-santanyi-280": {
-    "summary": "Cala Santanyi Diving Center organiza esta propuesta publicada como «Curso Advanced Open Water Diver Cala Santanyi». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water Diver Cala Santanyi» organizada por Cala Santanyi Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6064,7 +6064,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-la-reserva-marina-de-malgrats-269": {
-    "summary": "Zoea Mallorca organiza esta propuesta publicada como «Bautismo de buceo en la Reserva Marina de Malgrats». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en la Reserva Marina de Malgrats» organizada por Zoea Mallorca. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -6088,7 +6088,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-en-reserva-marina-de-mallorca-con-equipo-278": {
-    "summary": "Zoea Mallorca organiza esta propuesta publicada como «Inmersión en Reserva Marina de Mallorca con equipo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión en Reserva Marina de Mallorca con equipo» organizada por Zoea Mallorca. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6111,7 +6111,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-cala-millor-mallorca-3-horas-270": {
-    "summary": "Albatros Diving organiza esta propuesta publicada como «Bautismo de buceo en Cala Millor Mallorca 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Cala Millor Mallorca 3 horas» organizada por Albatros Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6138,7 +6138,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-open-water-diver-en-cala-millor-3-dias-274": {
-    "summary": "Albatros Diving organiza esta propuesta publicada como «Curso buceo Open Water Diver en Cala Millor 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso buceo Open Water Diver en Cala Millor 3 días» organizada por Albatros Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6168,7 +6168,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "excursion-de-snorkelling-en-mallorca-2-horas-275": {
-    "summary": "Albatros Diving organiza esta propuesta publicada como «Excursión de snorkelling en Mallorca, 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Excursión de snorkelling en Mallorca, 2 horas» organizada por Albatros Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6195,7 +6195,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-discover-scuba-diving-cala-millor-3h-284": {
-    "summary": "Albatros Diving organiza esta propuesta publicada como «Curso buceo Discover Scuba Diving, Cala Millor, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso buceo Discover Scuba Diving, Cala Millor, 3h» organizada por Albatros Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6222,7 +6222,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "buceo-con-tiburones-en-el-palma-aquarium-mallorca-273": {
-    "summary": "Palma Aquarium organiza esta propuesta publicada como «Buceo con tiburones en el Palma Aquarium Mallorca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Buceo con tiburones en el Palma Aquarium Mallorca» organizada por Palma Aquarium. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6245,7 +6245,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkeling-a-las-islas-malgrats-desde-un-barco-277": {
-    "summary": "Touradvisor organiza esta propuesta publicada como «Snorkeling a las Islas Malgrats desde un barco». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkeling a las Islas Malgrats desde un barco» organizada por Touradvisor. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6272,7 +6272,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-cala-portinatx-2h30min-285": {
-    "summary": "Subfari Diving Center organiza esta propuesta publicada como «Bautismo de buceo en Cala Portinatx, 2h30min». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Cala Portinatx, 2h30min» organizada por Subfari Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -6294,7 +6294,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-con-equipo-en-ibiza-2-horas-286": {
-    "summary": "Subfari Diving Center organiza esta propuesta publicada como «Inmersión de buceo con equipo en Ibiza 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo con equipo en Ibiza 2 horas» organizada por Subfari Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -6315,7 +6315,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "basic-diver-de-ssi-en-portinatx-3-horas-288": {
-    "summary": "Subfari Diving Center organiza esta propuesta publicada como «Basic Diver de SSI en Portinatx, 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Basic Diver de SSI en Portinatx, 3 horas» organizada por Subfari Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -6336,7 +6336,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ssi-diver-stress-and-rescue-en-portinatx-6-dias-289": {
-    "summary": "Subfari Diving Center organiza esta propuesta publicada como «SSI Diver Stress and Rescue en Portinatx, 6 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «SSI Diver Stress and Rescue en Portinatx, 6 días» organizada por Subfari Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -6359,7 +6359,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-open-water-diver-en-ibiza-5-dias-290": {
-    "summary": "Subfari Diving Center organiza esta propuesta publicada como «Curso de buceo Open Water Diver en Ibiza 5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver en Ibiza 5 días» organizada por Subfari Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6383,7 +6383,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-advanced-open-water-en-ibiza-5-dias-291": {
-    "summary": "Subfari Diving Center organiza esta propuesta publicada como «Curso PADI Advanced Open Water en Ibiza 5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Advanced Open Water en Ibiza 5 días» organizada por Subfari Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6407,7 +6407,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ssi-scuba-diver-en-portinatx-3-dias-299": {
-    "summary": "Subfari Diving Center organiza esta propuesta publicada como «SSI Scuba Diver en Portinatx, 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «SSI Scuba Diver en Portinatx, 3 días» organizada por Subfari Diving Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6430,7 +6430,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-bahia-san-antonio-287": {
-    "summary": "Arenal Diving organiza esta propuesta publicada como «PADI Advanced Open Water, Bahía San Antonio». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water, Bahía San Antonio» organizada por Arenal Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -6447,7 +6447,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "discover-scuba-diving-en-san-antonio-ibiza-292": {
-    "summary": "Arenal Diving organiza esta propuesta publicada como «Discover Scuba Diving en San Antonio, Ibiza». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Discover Scuba Diving en San Antonio, Ibiza» organizada por Arenal Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -6469,7 +6469,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersiones-de-buceo-en-san-antonio-bono-de-4-293": {
-    "summary": "Arenal Diving organiza esta propuesta publicada como «Inmersiones de buceo en San Antonio, bono de 4». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersiones de buceo en San Antonio, bono de 4» organizada por Arenal Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -6486,7 +6486,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bono-10-inmersiones-botella-plomos-en-ibiza-295": {
-    "summary": "Arenal Diving organiza esta propuesta publicada como «Bono 10 inmersiones + botella + plomos en Ibiza». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bono 10 inmersiones + botella + plomos en Ibiza» organizada por Arenal Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Botella para la inmersión",
@@ -6504,7 +6504,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-en-bahia-de-san-antonio-296": {
-    "summary": "Arenal Diving organiza esta propuesta publicada como «PADI Open Water en Bahía de San Antonio». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Open Water en Bahía de San Antonio» organizada por Arenal Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6526,7 +6526,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-desde-barco-cala-sant-antoni-3h30-297": {
-    "summary": "Arenal Diving organiza esta propuesta publicada como «Bautizo de buceo desde barco Cala Sant Antoni 3h30». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo desde barco Cala Sant Antoni 3h30» organizada por Arenal Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6550,7 +6550,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-para-parejas-en-punta-galera-3h30-298": {
-    "summary": "Arenal Diving organiza esta propuesta publicada como «Bautismo buceo para parejas en Punta Galera, 3h30». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo buceo para parejas en Punta Galera, 3h30» organizada por Arenal Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6569,7 +6569,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-con-equipo-en-formentera-300": {
-    "summary": "Orcasub organiza esta propuesta publicada como «Inmersión de Buceo con equipo en Formentera». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de Buceo con equipo en Formentera» organizada por Orcasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6588,7 +6588,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-playa-formentera-1-hora-302": {
-    "summary": "Orcasub organiza esta propuesta publicada como «Bautismo de Buceo en Playa Formentera 1 hora». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo en Playa Formentera 1 hora» organizada por Orcasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6610,7 +6610,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-padi-formentera-303": {
-    "summary": "Orcasub organiza esta propuesta publicada como «Curso Open Water Diver Padi Formentera». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver Padi Formentera» organizada por Orcasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6634,7 +6634,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "2-inmersiones-de-buceo-en-formentera-desde-barco-304": {
-    "summary": "Orcasub organiza esta propuesta publicada como «2 inmersiones de buceo en Formentera desde barco». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «2 inmersiones de buceo en Formentera desde barco» organizada por Orcasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6654,7 +6654,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-scuba-diver-en-platja-migjorn-4-5-dias-308": {
-    "summary": "Orcasub organiza esta propuesta publicada como «Curso Scuba Diver en Platja Migjorn 4-5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Scuba Diver en Platja Migjorn 4-5 días» organizada por Orcasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6680,7 +6680,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "tour-de-snorkel-por-la-costa-de-formentera-3-horas-312": {
-    "summary": "Orcasub organiza esta propuesta publicada como «Tour de snorkel por la costa de Formentera 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Tour de snorkel por la costa de Formentera 3 horas» organizada por Orcasub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6704,7 +6704,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-aguas-abiertas-formentera-1h-301": {
-    "summary": "La Isla Flotante organiza esta propuesta publicada como «Bautizo de buceo en aguas abiertas Formentera 1h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en aguas abiertas Formentera 1h» organizada por La Isla Flotante. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6723,7 +6723,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "2-inmersiones-de-buceo-con-titulacion-formentera-305": {
-    "summary": "La Isla Flotante organiza esta propuesta publicada como «2 inmersiones de buceo con titulación Formentera». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «2 inmersiones de buceo con titulación Formentera» organizada por La Isla Flotante. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -6742,7 +6742,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "buceo-en-formentera-con-equipo-completo-306": {
-    "summary": "La Isla Flotante organiza esta propuesta publicada como «Buceo en Formentera con equipo completo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Buceo en Formentera con equipo completo» organizada por La Isla Flotante. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6760,7 +6760,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-diver-padi-en-formentera-5-dias-307": {
-    "summary": "La Isla Flotante organiza esta propuesta publicada como «Open Water Diver PADI en Formentera 5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Open Water Diver PADI en Formentera 5 días» organizada por La Isla Flotante. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6785,7 +6785,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-scuba-diver-en-els-pujols-309": {
-    "summary": "La Isla Flotante organiza esta propuesta publicada como «Curso de buceo Scuba Diver en Els Pujols». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Scuba Diver en Els Pujols» organizada por La Isla Flotante. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6810,7 +6810,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "tour-de-snorkel-parque-natural-ses-salines-2-30h-310": {
-    "summary": "Whitesand Surf organiza esta propuesta publicada como «Tour de snorkel, Parque Natural Ses Salines, 2:30h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Tour de snorkel, Parque Natural Ses Salines, 2:30h» organizada por Whitesand Surf. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6837,7 +6837,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-puerto-de-la-sabina-2-30h-311": {
-    "summary": "Formentera Divers organiza esta propuesta publicada como «Bautizo de buceo en Puerto de la Sabina 2:30h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Puerto de la Sabina 2:30h» organizada por Formentera Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6855,7 +6855,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-playa-pobla-marina-180-min-313": {
-    "summary": "Buceo Valencia organiza esta propuesta publicada como «Bautismo de buceo en Playa Pobla Marina 180 min». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Playa Pobla Marina 180 min» organizada por Buceo Valencia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6883,7 +6883,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-piscina-valencia-314": {
-    "summary": "Buceo Valencia organiza esta propuesta publicada como «Bautismo de buceo en piscina Valencia». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en piscina Valencia» organizada por Buceo Valencia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6912,7 +6912,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-el-mar-de-valencia-315": {
-    "summary": "Buceo Valencia organiza esta propuesta publicada como «Bautismo de buceo en el mar de Valencia». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en el mar de Valencia» organizada por Buceo Valencia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6936,7 +6936,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-open-water-diver-en-mar-316": {
-    "summary": "Buceo Valencia organiza esta propuesta publicada como «Curso buceo Open Water Diver en mar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso buceo Open Water Diver en mar» organizada por Buceo Valencia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -6954,7 +6954,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-diver-en-valencia-capital-317": {
-    "summary": "Spain Buceo organiza esta propuesta publicada como «PADI Open Water Diver en Valencia Capital». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Open Water Diver en Valencia Capital» organizada por Spain Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -6979,7 +6979,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-valencia-capital-318": {
-    "summary": "Rent Jet Ski Valencia organiza esta propuesta publicada como «Bautismo de buceo en Valencia capital». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Valencia capital» organizada por Rent Jet Ski Valencia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7001,7 +7001,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-puerto-de-valencia-2-horas-319": {
-    "summary": "Rent Jet Ski Valencia organiza esta propuesta publicada como «Bautismo de buceo en Puerto de Valencia 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Puerto de Valencia 2 horas» organizada por Rent Jet Ski Valencia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7023,7 +7023,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-finisterre-320": {
-    "summary": "Buceo Finisterre organiza esta propuesta publicada como «Bautismo de buceo en Finisterre». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Finisterre» organizada por Buceo Finisterre. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7041,7 +7041,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-mar-en-costa-da-morte-321": {
-    "summary": "Buceo Finisterre organiza esta propuesta publicada como «Bautismo de Buceo en mar en Costa da Morte». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo en mar en Costa da Morte» organizada por Buceo Finisterre. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Uso de embarcación",
@@ -7059,7 +7059,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-advanced-open-water-diver-en-finisterre-322": {
-    "summary": "Buceo Finisterre organiza esta propuesta publicada como «Curso Padi Advanced Open Water Diver en Finisterre». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Padi Advanced Open Water Diver en Finisterre» organizada por Buceo Finisterre. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -7077,7 +7077,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-en-finisterre-323": {
-    "summary": "Buceo Finisterre organiza esta propuesta publicada como «Curso PADI Open Water Diver en Finisterre». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Finisterre» organizada por Buceo Finisterre. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7096,7 +7096,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "excursion-de-snorkel-isla-de-arosa-media-jornada-324": {
-    "summary": "Piraguilla Turismo Activo organiza esta propuesta publicada como «Excursión de snorkel, isla de Arosa, media jornada». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Excursión de snorkel, isla de Arosa, media jornada» organizada por Piraguilla Turismo Activo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -7117,7 +7117,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-doble-en-el-mar-en-foz-326": {
-    "summary": "Maremasma organiza esta propuesta publicada como «Bautismo de buceo doble en el mar en Foz». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo doble en el mar en Foz» organizada por Maremasma. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -7139,7 +7139,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-padi-open-water-diver-en-foz-327": {
-    "summary": "Maremasma organiza esta propuesta publicada como «Curso de buceo PADI Open Water Diver en Foz». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo PADI Open Water Diver en Foz» organizada por Maremasma. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -7157,7 +7157,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "salida-de-buceo-en-ollo-do-mar-1-hora-328": {
-    "summary": "Maremasma organiza esta propuesta publicada como «Salida de buceo en Ollo do Mar, 1 hora». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Salida de buceo en Ollo do Mar, 1 hora» organizada por Maremasma. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Uso de embarcación",
       "Botella para la inmersión",
@@ -7175,7 +7175,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "cinco-inmersiones-de-buceo-en-foz-con-monitor-1-h-329": {
-    "summary": "Maremasma organiza esta propuesta publicada como «Cinco inmersiones de buceo en Foz con monitor 1 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Cinco inmersiones de buceo en Foz con monitor 1 h» organizada por Maremasma. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Uso de embarcación",
@@ -7197,7 +7197,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ruta-guiada-de-snorkel-con-lancha-ria-de-foz-2-h-330": {
-    "summary": "Maremasma organiza esta propuesta publicada como «Ruta guiada de snorkel con lancha ría de Foz 2 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Ruta guiada de snorkel con lancha ría de Foz 2 h» organizada por Maremasma. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7219,7 +7219,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "discover-scuba-diving-en-puerto-de-a-coruna-3h-332": {
-    "summary": "Nauga organiza esta propuesta publicada como «Discover Scuba Diving en Puerto de A Coruña, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Discover Scuba Diving en Puerto de A Coruña, 3h» organizada por Nauga. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
       "Fotografías de la experiencia",
@@ -7241,7 +7241,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-diver-marinaseca-333": {
-    "summary": "Divemanía organiza esta propuesta publicada como «PADI Open Water Diver, Marinaseca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Open Water Diver, Marinaseca» organizada por Divemanía. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -7265,7 +7265,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-water-de-buceo-en-a-coruna-334": {
-    "summary": "Divemanía organiza esta propuesta publicada como «Curso Advanced Open Water de buceo en A Coruña». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Water de buceo en A Coruña» organizada por Divemanía. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Acreditación indicada en el curso"
@@ -7286,7 +7286,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-mar-puerto-del-musel-1h30m-335": {
-    "summary": "Formar Buceo organiza esta propuesta publicada como «Bautismo de buceo en mar, Puerto del Musel, 1h30m». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar, Puerto del Musel, 1h30m» organizada por Formar Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7304,7 +7304,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-fedas-1-estrella-puerto-de-el-musel-4-dias-337": {
-    "summary": "Formar Buceo organiza esta propuesta publicada como «Curso FEDAS 1 estrella, Puerto de El Musel, 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso FEDAS 1 estrella, Puerto de El Musel, 4 días» organizada por Formar Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -7326,7 +7326,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-desde-puerto-musel-con-equipo-338": {
-    "summary": "Formar Buceo organiza esta propuesta publicada como «Inmersión de buceo desde Puerto Musel con equipo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo desde Puerto Musel con equipo» organizada por Formar Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -7343,7 +7343,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-fedas-2-estrellas-puerto-de-el-musel-4-dias-339": {
-    "summary": "Formar Buceo organiza esta propuesta publicada como «Curso FEDAS 2 estrellas Puerto de El Musel, 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso FEDAS 2 estrellas Puerto de El Musel, 4 días» organizada por Formar Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Uso de embarcación",
@@ -7367,7 +7367,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-desde-barco-puerto-deportivo-gijon-336": {
-    "summary": "Alpha Buceo Gijón organiza esta propuesta publicada como «Bautismo buceo desde barco, Puerto Deportivo Gijón». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo buceo desde barco, Puerto Deportivo Gijón» organizada por Alpha Buceo Gijón. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7395,7 +7395,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-en-la-isla-de-mouro-3h-340": {
-    "summary": "Mouro Sub organiza esta propuesta publicada como «Bautismo buceo en la Isla de Mouro, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo buceo en la Isla de Mouro, 3h» organizada por Mouro Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7423,7 +7423,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-en-la-isla-de-mouro-341": {
-    "summary": "Mouro Sub organiza esta propuesta publicada como «Snorkel en la Isla de Mouro». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en la Isla de Mouro» organizada por Mouro Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7450,7 +7450,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-barco-isla-de-la-torre-3h-352": {
-    "summary": "Mouro Sub organiza esta propuesta publicada como «Bautismo de buceo desde barco Isla de la Torre, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde barco Isla de la Torre, 3h» organizada por Mouro Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -7479,7 +7479,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-con-certificacion-santander-353": {
-    "summary": "Mouro Sub organiza esta propuesta publicada como «Curso Open Water Diver con Certificación Santander». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver con Certificación Santander» organizada por Mouro Sub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Uso de embarcación",
@@ -7506,7 +7506,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-rampa-de-san-guillen-2-5-h-342": {
-    "summary": "Ok Castro Dive Club de Buceo organiza esta propuesta publicada como «Bautismo de buceo desde rampa de San Guillén 2.5 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde rampa de San Guillén 2.5 h» organizada por Ok Castro Dive Club de Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7528,7 +7528,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-por-el-carguero-de-saltacaballo-343": {
-    "summary": "Ok Castro Dive Club de Buceo organiza esta propuesta publicada como «Inmersión de buceo por el carguero de Saltacaballo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo por el carguero de Saltacaballo» organizada por Ok Castro Dive Club de Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7555,7 +7555,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-bajo-el-castillo-de-c-urdiales-344": {
-    "summary": "Ok Castro Dive Club de Buceo organiza esta propuesta publicada como «Inmersión de buceo bajo el castillo de C.Urdiales». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo bajo el castillo de C.Urdiales» organizada por Ok Castro Dive Club de Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7582,7 +7582,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-por-el-cantil-de-las-anclas-3-h-345": {
-    "summary": "Ok Castro Dive Club de Buceo organiza esta propuesta publicada como «Inmersión de buceo por el cantil de Las Anclas 3 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo por el cantil de Las Anclas 3 h» organizada por Ok Castro Dive Club de Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7609,7 +7609,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-en-castro-urdiales-desde-embarcacion-2h-346": {
-    "summary": "Ok Castro Dive Club de Buceo organiza esta propuesta publicada como «Snorkel en Castro-Urdiales desde embarcación 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en Castro-Urdiales desde embarcación 2h» organizada por Ok Castro Dive Club de Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7631,7 +7631,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-piscina-miengo-1h-30-min-347": {
-    "summary": "Buceo Calypso organiza esta propuesta publicada como «Bautizo de buceo en piscina Miengo 1h 30 min». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en piscina Miengo 1h 30 min» organizada por Buceo Calypso. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7649,7 +7649,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-advanced-open-water-diver-polanco-348": {
-    "summary": "Buceo Calypso organiza esta propuesta publicada como «Curso de buceo Advanced Open Water Diver Polanco». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Advanced Open Water Diver Polanco» organizada por Buceo Calypso. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7675,7 +7675,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-especialidad-nitrox-en-requejada-349": {
-    "summary": "Buceo Calypso organiza esta propuesta publicada como «Curso de buceo especialidad Nitrox en Requejada». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo especialidad Nitrox en Requejada» organizada por Buceo Calypso. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
       "Acreditación indicada en el curso",
@@ -7697,7 +7697,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "titulo-de-buceo-open-water-diver-en-requejada-350": {
-    "summary": "Buceo Calypso organiza esta propuesta publicada como «Título de buceo Open Water Diver en Requejada». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Título de buceo Open Water Diver en Requejada» organizada por Buceo Calypso. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -7720,7 +7720,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-en-noja-2h-351": {
-    "summary": "Enjoy Sup School organiza esta propuesta publicada como «Snorkel en Noja 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel en Noja 2h» organizada por Enjoy Sup School. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7743,7 +7743,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "ruta-de-snorkel-nocturno-en-la-playa-de-ris-noja-354": {
-    "summary": "Laredo Aventura organiza esta propuesta publicada como «Ruta de snorkel nocturno en la playa de Ris Noja». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Ruta de snorkel nocturno en la playa de Ris Noja» organizada por Laredo Aventura. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7765,7 +7765,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "snorkel-nocturno-ruta-guiada-en-playa-de-ris-noja-355": {
-    "summary": "NojActiva organiza esta propuesta publicada como «Snorkel nocturno ruta guiada en playa de Ris Noja». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Snorkel nocturno ruta guiada en playa de Ris Noja» organizada por NojActiva. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7787,7 +7787,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-buceo-en-playa-de-las-canteras-fotos-4h-356": {
-    "summary": "Mirafondos organiza esta propuesta publicada como «Bautismo buceo en Playa de las Canteras+fotos, 4h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo buceo en Playa de las Canteras+fotos, 4h» organizada por Mirafondos. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7811,7 +7811,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-open-water-diver-en-las-palmas-5-dias-359": {
-    "summary": "Mirafondos organiza esta propuesta publicada como «Curso Buceo Open Water Diver en Las Palmas, 5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Buceo Open Water Diver en Las Palmas, 5 días» organizada por Mirafondos. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
       "Desplazamientos indicados en la oferta",
@@ -7834,7 +7834,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-playa-las-canteras-4-horas-373": {
-    "summary": "Mirafondos organiza esta propuesta publicada como «Bautizo de buceo en Playa Las Canteras, 4 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Playa Las Canteras, 4 horas» organizada por Mirafondos. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7858,7 +7858,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-desde-playa-gran-canaria-357": {
-    "summary": "Adventure Experiences organiza esta propuesta publicada como «Bautizo de buceo desde playa, Gran Canaria». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo desde playa, Gran Canaria» organizada por Adventure Experiences. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7884,7 +7884,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-padi-las-palmas-3h-358": {
-    "summary": "Blue Water Diving organiza esta propuesta publicada como «Bautismo de Buceo PADI Las Palmas 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo PADI Las Palmas 3h» organizada por Blue Water Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7906,7 +7906,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-discover-scuba-diving-en-playa-puerto-rico-360": {
-    "summary": "Blue Water Diving organiza esta propuesta publicada como «PADI Discover Scuba Diving en playa, Puerto Rico». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Discover Scuba Diving en playa, Puerto Rico» organizada por Blue Water Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7928,7 +7928,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-padi-advanced-open-water-377": {
-    "summary": "Blue Water Diving organiza esta propuesta publicada como «Curso buceo PADI Advanced Open Water». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso buceo PADI Advanced Open Water» organizada por Blue Water Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7946,7 +7946,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-rescue-diver-emergency-first-response-378": {
-    "summary": "Blue Water Diving organiza esta propuesta publicada como «Curso PADI Rescue Diver + Emergency First Response». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Rescue Diver + Emergency First Response» organizada por Blue Water Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7964,7 +7964,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-en-las-palmas-3-dias-379": {
-    "summary": "Blue Water Diving organiza esta propuesta publicada como «PADI Open Water en Las Palmas 3 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Open Water en Las Palmas 3 días» organizada por Blue Water Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -7987,7 +7987,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-open-water-puerto-rico-361": {
-    "summary": "Puerto Rico Diving organiza esta propuesta publicada como «PADI Open Water Puerto Rico». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Open Water Puerto Rico» organizada por Puerto Rico Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8014,7 +8014,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-scuba-diver-en-puerto-rico-362": {
-    "summary": "Puerto Rico Diving organiza esta propuesta publicada como «PADI Scuba Diver en Puerto Rico». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Scuba Diver en Puerto Rico» organizada por Puerto Rico Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8042,7 +8042,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-puerto-rico-363": {
-    "summary": "Puerto Rico Diving organiza esta propuesta publicada como «PADI Advanced Open Water, Puerto Rico». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water, Puerto Rico» organizada por Puerto Rico Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8068,7 +8068,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-caleta-de-fuste-y-fotos-367": {
-    "summary": "Deep Blue Diving organiza esta propuesta publicada como «Bautismo de buceo en Caleta de Fuste y fotos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Caleta de Fuste y fotos» organizada por Deep Blue Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Fotografías de la experiencia",
@@ -8088,7 +8088,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-mar-en-morro-jable-3-horas-368": {
-    "summary": "FuerteOcean Dive Center organiza esta propuesta publicada como «Bautismo de buceo en mar en Morro Jable, 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar en Morro Jable, 3 horas» organizada por FuerteOcean Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8115,7 +8115,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "tour-de-snorkel-por-la-costa-de-morro-jable-3h-369": {
-    "summary": "FuerteOcean Dive Center organiza esta propuesta publicada como «Tour de snorkel por la costa de Morro Jable, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Tour de snorkel por la costa de Morro Jable, 3h» organizada por FuerteOcean Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8141,7 +8141,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-gran-canaria-3-h-375": {
-    "summary": "El Azul Gran Canaria Dive Center organiza esta propuesta publicada como «Bautismo de buceo en Gran Canaria 3 h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Gran Canaria 3 h» organizada por El Azul Gran Canaria Dive Center. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad"
     ],
@@ -8161,7 +8161,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-mar-desde-risco-verde-376": {
-    "summary": "Buceo Pandora organiza esta propuesta publicada como «Bautizo de Buceo en mar desde Risco Verde». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de Buceo en mar desde Risco Verde» organizada por Buceo Pandora. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8184,7 +8184,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bono-10-inmersiones-381": {
-    "summary": "Buceo Pandora organiza esta propuesta publicada como «Bono 10 inmersiones». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bono 10 inmersiones» organizada por Buceo Pandora. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8204,7 +8204,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-desde-costa-en-gran-canaria-titulados-382": {
-    "summary": "Buceo Pandora organiza esta propuesta publicada como «Inmersión desde costa en Gran Canaria titulados». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión desde costa en Gran Canaria titulados» organizada por Buceo Pandora. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Botella para la inmersión",
@@ -8222,7 +8222,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-open-water-diver-padi-tenerife-4-dias-400": {
-    "summary": "Sa Caleta Tenerife organiza esta propuesta publicada como «Curso buceo Open Water Diver PADI Tenerife 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso buceo Open Water Diver PADI Tenerife 4 días» organizada por Sa Caleta Tenerife. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -8246,7 +8246,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-owd-en-santa-cruz-de-tenerife-4-dias-402": {
-    "summary": "Sea Diver Instructors organiza esta propuesta publicada como «Curso OWD en Santa Cruz de Tenerife 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso OWD en Santa Cruz de Tenerife 4 días» organizada por Sea Diver Instructors. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8268,7 +8268,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-doble-en-playa-blanca-yaiza-3h-404": {
-    "summary": "Dawn Dives Academy organiza esta propuesta publicada como «Bautismo de buceo doble en Playa Blanca, Yaiza 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo doble en Playa Blanca, Yaiza 3h» organizada por Dawn Dives Academy. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8296,7 +8296,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-sidemount-de-buceo-lanzarote-405": {
-    "summary": "Liquid Planet organiza esta propuesta publicada como «Curso de Sidemount de buceo Lanzarote». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Sidemount de buceo Lanzarote» organizada por Liquid Planet. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Desplazamientos indicados en la oferta",
@@ -8321,7 +8321,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-buceo-lanzarote-con-torpedos-subacuaticos-406": {
-    "summary": "Liquid Planet organiza esta propuesta publicada como «Bautizo buceo Lanzarote con torpedos subacuáticos». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo buceo Lanzarote con torpedos subacuáticos» organizada por Liquid Planet. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8344,7 +8344,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceador-de-rescate-padi-puerto-del-carmen-408": {
-    "summary": "Island Watersports Lanzarote organiza esta propuesta publicada como «Curso Buceador de Rescate PADI Puerto del Carmen». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Buceador de Rescate PADI Puerto del Carmen» organizada por Island Watersports Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -8366,7 +8366,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-puerto-del-carmen-409": {
-    "summary": "Island Watersports Lanzarote organiza esta propuesta publicada como «PADI Advanced Open Water, Puerto del Carmen». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water, Puerto del Carmen» organizada por Island Watersports Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -8383,7 +8383,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-rescue-diver-en-lanzarote-410": {
-    "summary": "Island Watersports Lanzarote organiza esta propuesta publicada como «PADI Rescue Diver en Lanzarote». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Rescue Diver en Lanzarote» organizada por Island Watersports Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -8404,7 +8404,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-divemaster-puerto-del-carmen-411": {
-    "summary": "Island Watersports Lanzarote organiza esta propuesta publicada como «PADI Divemaster, Puerto del Carmen». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Divemaster, Puerto del Carmen» organizada por Island Watersports Lanzarote. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -8425,7 +8425,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-en-parque-natural-alto-tajo-416": {
-    "summary": "Asdón Aventura Madrid organiza esta propuesta publicada como «Inmersión de Buceo en Parque Natural Alto Tajo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de Buceo en Parque Natural Alto Tajo» organizada por Asdón Aventura Madrid. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -8446,7 +8446,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-alto-tajo-guadalajara-417": {
-    "summary": "Asdón Aventura Madrid organiza esta propuesta publicada como «Bautizo de Buceo en Alto Tajo, Guadalajara». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de Buceo en Alto Tajo, Guadalajara» organizada por Asdón Aventura Madrid. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8468,7 +8468,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-piscina-en-madrid-de-2-horas-418": {
-    "summary": "Quieres Bucear organiza esta propuesta publicada como «Bautismo de buceo en piscina en Madrid de 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en piscina en Madrid de 2 horas» organizada por Quieres Bucear. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8497,7 +8497,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "discover-scuba-diving-piscina-san-sebastian-1-5h-419": {
-    "summary": "DS DIVERS organiza esta propuesta publicada como «Discover Scuba Diving piscina San Sebastián, 1'5h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Discover Scuba Diving piscina San Sebastián, 1'5h» organizada por DS DIVERS. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8526,7 +8526,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-en-piscina-las-tablas-427": {
-    "summary": "DS DIVERS organiza esta propuesta publicada como «Curso PADI Open Water Diver en piscina Las Tablas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en piscina Las Tablas» organizada por DS DIVERS. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8555,7 +8555,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-en-javea-o-mazarron-420": {
-    "summary": "20000 Leguas organiza esta propuesta publicada como «PADI Advanced Open Water en Jávea o Mazarrón». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water en Jávea o Mazarrón» organizada por 20000 Leguas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)"
@@ -8576,7 +8576,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-open-water-diver-en-javea-429": {
-    "summary": "20000 Leguas organiza esta propuesta publicada como «Curso de Open Water Diver en Jávea». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Open Water Diver en Jávea» organizada por 20000 Leguas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -8594,7 +8594,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-discover-scuba-diving-en-boadilla-421": {
-    "summary": "N2O2 Dive organiza esta propuesta publicada como «Curso de buceo Discover Scuba Diving en Boadilla». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Discover Scuba Diving en Boadilla» organizada por N2O2 Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8617,7 +8617,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-open-water-diver-en-boadilla-424": {
-    "summary": "N2O2 Dive organiza esta propuesta publicada como «Curso de buceo Open Water Diver en Boadilla». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver en Boadilla» organizada por N2O2 Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Acreditación indicada en el curso",
@@ -8637,7 +8637,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-bautizo-de-buceo-en-boadilla-del-monte-425": {
-    "summary": "N2O2 Dive organiza esta propuesta publicada como «PADI Bautizo de buceo en Boadilla del Monte». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Bautizo de buceo en Boadilla del Monte» organizada por N2O2 Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8656,7 +8656,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-con-nitrox-en-madrid-2-dias-422": {
-    "summary": "Scubaventura organiza esta propuesta publicada como «Curso de buceo con Nitrox en Madrid 2 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo con Nitrox en Madrid 2 días» organizada por Scubaventura. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -8677,7 +8677,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-fedas-b1-padi-owd-madrid-423": {
-    "summary": "Sureste Divers Madrid organiza esta propuesta publicada como «Curso de buceo FEDAS B1 PADI OWD Madrid». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo FEDAS B1 PADI OWD Madrid» organizada por Sureste Divers Madrid. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8698,7 +8698,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-diver-en-madrid-y-levante-con-extras-426": {
-    "summary": "Yo Buceo Madrid organiza esta propuesta publicada como «Open Water Diver en Madrid y Levante, con extras». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Open Water Diver en Madrid y Levante, con extras» organizada por Yo Buceo Madrid. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8721,7 +8721,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "discover-scuba-diving-padi-alcala-de-henares-428": {
-    "summary": "Buceo Alcalá organiza esta propuesta publicada como «Discover Scuba Diving PADI, Alcalá de Henares». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Discover Scuba Diving PADI, Alcalá de Henares» organizada por Buceo Alcalá. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -8740,7 +8740,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-alcala-de-henares-y-murcia-433": {
-    "summary": "Buceo Alcalá organiza esta propuesta publicada como «Curso Open Water Diver Alcalá de Henares y Murcia». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver Alcalá de Henares y Murcia» organizada por Buceo Alcalá. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8762,7 +8762,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "viaje-a-ibiza-desde-denia-5-inmersiones-435": {
-    "summary": "Buceo Alcalá organiza esta propuesta publicada como «Viaje a Ibiza desde Denia + 5 inmersiones». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Viaje a Ibiza desde Denia + 5 inmersiones» organizada por Buceo Alcalá. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -8781,7 +8781,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-padi-divemaster-en-las-tablas-430": {
-    "summary": "NeoDive organiza esta propuesta publicada como «Curso de buceo PADI Divemaster en Las Tablas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo PADI Divemaster en Las Tablas» organizada por NeoDive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acreditación indicada en el curso",
       "Formación teórica",
@@ -8799,7 +8799,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "titulo-de-padi-rescue-diver-en-las-tablas-431": {
-    "summary": "NeoDive organiza esta propuesta publicada como «Título de PADI Rescue Diver en Las Tablas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Título de PADI Rescue Diver en Las Tablas» organizada por NeoDive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8819,7 +8819,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "titulo-padi-advanced-open-water-diver-las-tablas-432": {
-    "summary": "NeoDive organiza esta propuesta publicada como «Título PADI Advanced Open Water Diver, Las Tablas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Título PADI Advanced Open Water Diver, Las Tablas» organizada por NeoDive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -8837,7 +8837,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-con-aire-enriquecido-nitrox-en-madrid-434": {
-    "summary": "DIVEMADRID organiza esta propuesta publicada como «Curso Buceo con Aire Enriquecido Nitrox en Madrid». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Buceo con Aire Enriquecido Nitrox en Madrid» organizada por DIVEMADRID. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -8855,7 +8855,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-playa-cabrera-de-mar-3h-419": {
-    "summary": "Sotacero Diving organiza esta propuesta publicada como «Bautismo de buceo en Playa Cabrera de Mar, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en Playa Cabrera de Mar, 3h» organizada por Sotacero Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8883,7 +8883,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-fedas-b1e-en-barcelona-1-semana-428": {
-    "summary": "Sotacero Diving organiza esta propuesta publicada como «Curso FEDAS B1E en Barcelona, 1 semana». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso FEDAS B1E en Barcelona, 1 semana» organizada por Sotacero Diving. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Formación teórica",
@@ -8909,7 +8909,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceador-1-estrella-fedas-en-mataro-420": {
-    "summary": "Blaumar organiza esta propuesta publicada como «Curso de Buceador 1 Estrella FEDAS en Mataró». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Buceador 1 Estrella FEDAS en Mataró» organizada por Blaumar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8933,7 +8933,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "salida-de-buceo-con-equipo-puerto-de-mataro-425": {
-    "summary": "Blaumar organiza esta propuesta publicada como «Salida de buceo con equipo Puerto de Mataró». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Salida de buceo con equipo Puerto de Mataró» organizada por Blaumar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8951,7 +8951,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-barco-en-mataro-427": {
-    "summary": "Blaumar organiza esta propuesta publicada como «Bautismo de buceo desde barco en Mataró». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde barco en Mataró» organizada por Blaumar. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8970,7 +8970,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-playa-de-sant-sebastia-2h-421": {
-    "summary": "Underwater barcelona organiza esta propuesta publicada como «Bautizo de buceo en Playa de Sant Sebastià, 2h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Playa de Sant Sebastià, 2h» organizada por Underwater barcelona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -8996,7 +8996,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-padi-divemaster-en-sitges-422": {
-    "summary": "Maskydiving Sitges organiza esta propuesta publicada como «Curso de buceo PADI Divemaster en Sitges». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo PADI Divemaster en Sitges» organizada por Maskydiving Sitges. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Botella para la inmersión",
@@ -9019,7 +9019,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-advanced-open-water-diver-en-sitges-423": {
-    "summary": "Maskydiving Sitges organiza esta propuesta publicada como «Curso de buceo Advanced Open Water Diver en Sitges». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Advanced Open Water Diver en Sitges» organizada por Maskydiving Sitges. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Formación teórica"
@@ -9036,7 +9036,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-padi-scuba-diver-en-sitges-424": {
-    "summary": "Maskydiving Sitges organiza esta propuesta publicada como «Curso de buceo PADI Scuba Diver en Sitges». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo PADI Scuba Diver en Sitges» organizada por Maskydiving Sitges. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Formación teórica",
@@ -9058,7 +9058,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "open-water-1-star-diver-cmas-en-moll-de-la-vela-426": {
-    "summary": "Dive Center Barcelona organiza esta propuesta publicada como «Open Water 1 Star Diver CMAS en Moll de la Vela». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Open Water 1 Star Diver CMAS en Moll de la Vela» organizada por Dive Center Barcelona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9082,7 +9082,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "practicar-snorkel-con-monitor-en-barcelona-2-horas-429": {
-    "summary": "Anèl·lides Serveis Ambientals Marins organiza esta propuesta publicada como «Practicar snorkel con monitor en Barcelona 2 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Practicar snorkel con monitor en Barcelona 2 horas» organizada por Anèl·lides Serveis Ambientals Marins. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad"
     ],
@@ -9102,7 +9102,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-mar-desde-playa-de-fuengirola-3h-435": {
-    "summary": "Abysub organiza esta propuesta publicada como «Bautizo de buceo mar desde playa de Fuengirola, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo mar desde playa de Fuengirola, 3h» organizada por Abysub. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9121,7 +9121,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-de-buceo-en-la-costa-de-malaga-439": {
-    "summary": "Black Frog Divers organiza esta propuesta publicada como «Inmersión de buceo en la costa de Málaga». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión de buceo en la costa de Málaga» organizada por Black Frog Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad"
     ],
@@ -9141,7 +9141,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-desde-torrox-451": {
-    "summary": "Black Frog Divers organiza esta propuesta publicada como «Curso PADI Open Water desde Torrox». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water desde Torrox» organizada por Black Frog Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9164,7 +9164,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-scuba-diver-en-torrox-452": {
-    "summary": "Black Frog Divers organiza esta propuesta publicada como «PADI Scuba Diver en Torrox». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Scuba Diver en Torrox» organizada por Black Frog Divers. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -9185,7 +9185,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "dos-bautismos-de-buceo-piscina-y-mar-en-estepona-440": {
-    "summary": "Buceo Estepona organiza esta propuesta publicada como «Dos bautismos de buceo piscina y mar en Estepona». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Dos bautismos de buceo piscina y mar en Estepona» organizada por Buceo Estepona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9208,7 +9208,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-la-costa-del-sol-3-horas-442": {
-    "summary": "Buceo Estepona organiza esta propuesta publicada como «Bautismo de Buceo en La Costa del Sol 3 horas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de Buceo en La Costa del Sol 3 horas» organizada por Buceo Estepona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -9232,7 +9232,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-el-mar-en-estepona-445": {
-    "summary": "Buceo Estepona organiza esta propuesta publicada como «Bautismo de buceo en el mar en Estepona». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en el mar en Estepona» organizada por Buceo Estepona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -9250,7 +9250,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-estepona-en-piscina-446": {
-    "summary": "Buceo Estepona organiza esta propuesta publicada como «Bautizo de buceo en Estepona en piscina». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en Estepona en piscina» organizada por Buceo Estepona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -9267,7 +9267,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-buceo-open-water-diver-en-malaga-padi-447": {
-    "summary": "Buceo Estepona organiza esta propuesta publicada como «Curso de buceo Open Water Diver en Málaga PADI». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de buceo Open Water Diver en Málaga PADI» organizada por Buceo Estepona. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -9292,7 +9292,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-open-water-diver-en-rincon-de-la-victoria-443": {
-    "summary": "Ecodive organiza esta propuesta publicada como «Curso de Open Water Diver en Rincón de la Victoria». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Open Water Diver en Rincón de la Victoria» organizada por Ecodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Formación teórica",
@@ -9314,7 +9314,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceo-scuba-diver-12m-rincon-de-la-victoria-444": {
-    "summary": "Ecodive organiza esta propuesta publicada como «Curso buceo Scuba Diver 12m Rincón de la Victoria». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso buceo Scuba Diver 12m Rincón de la Victoria» organizada por Ecodive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -9336,7 +9336,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-rescue-diver-en-marbella-448": {
-    "summary": "H2O Sports organiza esta propuesta publicada como «PADI Rescue Diver en Marbella». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Rescue Diver en Marbella» organizada por H2O Sports. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -9358,7 +9358,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-advanced-open-water-en-marbella-449": {
-    "summary": "H2O Sports organiza esta propuesta publicada como «PADI Advanced Open Water en Marbella». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Advanced Open Water en Marbella» organizada por H2O Sports. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Cobertura de seguro (consultar condiciones)",
@@ -9380,7 +9380,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "padi-scuba-diver-en-marbella-450": {
-    "summary": "H2O Sports organiza esta propuesta publicada como «PADI Scuba Diver en Marbella». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «PADI Scuba Diver en Marbella» organizada por H2O Sports. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9403,7 +9403,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-desde-barco-botella-carga-isla-terreros-457": {
-    "summary": "Buceo Isla Negra organiza esta propuesta publicada como «Inmersión desde barco botella+carga, Isla Terreros». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión desde barco botella+carga, Isla Terreros» organizada por Buceo Isla Negra. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Uso de embarcación",
       "Botella para la inmersión"
@@ -9424,7 +9424,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "advanced-adventurer-ssi-en-puerto-de-las-aguilas-458": {
-    "summary": "Buceo Isla Negra organiza esta propuesta publicada como «Advanced Adventurer SSI en Puerto de las Águilas». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Advanced Adventurer SSI en Puerto de las Águilas» organizada por Buceo Isla Negra. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9452,7 +9452,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-padi-open-water-diver-en-mojacar-459": {
-    "summary": "Calamar Gigante organiza esta propuesta publicada como «Curso PADI Open Water Diver en Mojácar». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso PADI Open Water Diver en Mojácar» organizada por Calamar Gigante. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9478,7 +9478,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "discover-scuba-diving-desde-barco-en-alicante-3h-460": {
-    "summary": "Centro Buceo Altair organiza esta propuesta publicada como «Discover Scuba Diving desde barco en Alicante, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Discover Scuba Diving desde barco en Alicante, 3h» organizada por Centro Buceo Altair. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9499,7 +9499,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-mar-costa-blanca-467": {
-    "summary": "Yo Buceo Torrevieja organiza esta propuesta publicada como «Bautismo de buceo en mar Costa Blanca». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar Costa Blanca» organizada por Yo Buceo Torrevieja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9519,7 +9519,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-en-puerto-oropesa-5-dias-471": {
-    "summary": "Barracuda Oropesa Buceo organiza esta propuesta publicada como «Curso Open Water Diver en Puerto Oropesa, 5 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver en Puerto Oropesa, 5 días» organizada por Barracuda Oropesa Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -9541,7 +9541,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-advanced-open-diver-en-puerto-oropesa-4-dias-472": {
-    "summary": "Barracuda Oropesa Buceo organiza esta propuesta publicada como «Curso Advanced Open Diver en Puerto Oropesa, 4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Advanced Open Diver en Puerto Oropesa, 4 días» organizada por Barracuda Oropesa Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -9563,7 +9563,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-piscina-y-mar-puerto-oropesa-3h-473": {
-    "summary": "Barracuda Oropesa Buceo organiza esta propuesta publicada como «Bautismo de buceo piscina y mar Puerto Oropesa, 3h». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo piscina y mar Puerto Oropesa, 3h» organizada por Barracuda Oropesa Buceo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9586,7 +9586,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "acuc-open-water-diver-en-alcoceber-castellon-474": {
-    "summary": "Barracuda organiza esta propuesta publicada como «ACUC Open Water Diver en Alcoceber, Castellón». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «ACUC Open Water Diver en Alcoceber, Castellón» organizada por Barracuda. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9606,7 +9606,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautizo-de-buceo-en-mar-alcoceber-475": {
-    "summary": "Barracuda organiza esta propuesta publicada como «Bautizo de buceo en mar, Alcoceber». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautizo de buceo en mar, Alcoceber» organizada por Barracuda. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9630,7 +9630,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "acuc-advanced-open-water-en-alcoceber-castellon-476": {
-    "summary": "Barracuda organiza esta propuesta publicada como «ACUC Advanced Open Water en Alcoceber, Castellón». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «ACUC Advanced Open Water en Alcoceber, Castellón» organizada por Barracuda. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)"
@@ -9651,7 +9651,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "inmersion-buceo-en-hondarribia-alquiler-equipo-477": {
-    "summary": "Buceo Hondarribia organiza esta propuesta publicada como «Inmersión buceo en Hondarribia+alquiler equipo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Inmersión buceo en Hondarribia+alquiler equipo» organizada por Buceo Hondarribia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)"
     ],
@@ -9671,7 +9671,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "buceo-alquiler-botella-y-plomos-hondarribia-478": {
-    "summary": "Buceo Hondarribia organiza esta propuesta publicada como «Buceo alquiler botella y plomos Hondarribia». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Buceo alquiler botella y plomos Hondarribia» organizada por Buceo Hondarribia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Botella para la inmersión",
       "Lastre de buceo"
@@ -9688,7 +9688,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-mar-hondarribia-481": {
-    "summary": "Buceo Hondarribia organiza esta propuesta publicada como «Bautismo de buceo en mar Hondarribia». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar Hondarribia» organizada por Buceo Hondarribia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)"
@@ -9709,7 +9709,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-open-water-diver-ssi-san-sebastian-3-4-dias-479": {
-    "summary": "Buceo Donosti organiza esta propuesta publicada como «Curso Open Water Diver SSI, San Sebastián 3-4 días». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Open Water Diver SSI, San Sebastián 3-4 días» organizada por Buceo Donosti. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
     "facts": [
@@ -9727,7 +9727,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-en-mar-en-san-sebastian-480": {
-    "summary": "Buceo Donosti organiza esta propuesta publicada como «Bautismo de buceo en mar en San Sebastián». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo en mar en San Sebastián» organizada por Buceo Donosti. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9750,7 +9750,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-de-open-water-en-navarra-iniciacion-al-buceo-482": {
-    "summary": "Buceo Navarra organiza esta propuesta publicada como «Curso de Open Water en Navarra iniciación al buceo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso de Open Water en Navarra iniciación al buceo» organizada por Buceo Navarra. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
       "Cobertura de seguro (consultar condiciones)",
@@ -9769,7 +9769,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "curso-buceador-open-water-diver-navarra-483": {
-    "summary": "Centro de Buceo Splash organiza esta propuesta publicada como «Curso Buceador Open Water Diver Navarra». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Curso Buceador Open Water Diver Navarra» organizada por Centro de Buceo Splash. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9794,7 +9794,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "buceo-de-bautismo-en-aguas-confinadas-en-toledo-484": {
-    "summary": "Yo Buceo Toledo organiza esta propuesta publicada como «Buceo de Bautismo en aguas confinadas en Toledo». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Buceo de Bautismo en aguas confinadas en Toledo» organizada por Yo Buceo Toledo. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",
@@ -9814,7 +9814,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "checkedAt": "2026-10-04"
   },
   "bautismo-de-buceo-desde-playa-en-javea-487": {
-    "summary": "MarDays Dive Resort organiza esta propuesta publicada como «Bautismo de buceo desde playa en Jávea». En esta ficha puedes consultar el centro, los servicios identificados y el enlace a la oferta concreta. La fecha y las plazas disponibles se eligen en Yumping.",
+    "summary": "Experiencia «Bautismo de buceo desde playa en Jávea» organizada por MarDays Dive Resort. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
       "Material para la actividad (consultar componentes)",

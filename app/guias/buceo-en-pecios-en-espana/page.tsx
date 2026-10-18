@@ -52,16 +52,16 @@ export default function WreckDivingSpainPage() {
         </p>
 
         <div className="guide-article">
-          <h2>1.Tres pecios clásicos del Mediterráneo español</h2>
+          <h2>1. Tres pecios clásicos del Mediterráneo español</h2>
           <ul>
             <li>
               <strong>El Naranjito (Isla Grosa, <Link href="/buceo/cabo-de-palos" className="text-link">Cabo de Palos, Murcia</Link>):</strong> carguero de unos 50 metros de eslora hundido en 1946 en posición de navegación entre los 28 metros de la superestructura y los 42–44 metros de la hélice. Es uno de los pecios más fotogénicos y visitados de España por la concentración de vida en su cubierta.
             </li>
             <li>
-              <strong>El Boreas (Palamós, <Link href="/buceo/costa-brava" className="text-link">Costa Brava, Cataluña</Link>):</strong> antiguo remolcador de unos 40 metros de eslora hundido en 1989 como arrecife artificial sobre fondo de arena entre los 20 y los 32 metros de profundidad. Su menor cota máxima lo convierte en una introducción ideal al buceo en barcos hundidos para buceadores con titulación avanzada.
+              <strong>El Boreas (<Link href="/buceo/palamos" className="text-link">Palamós, Costa Brava</Link>):</strong> antiguo remolcador de unos 40 metros de eslora hundido en 1989 como arrecife artificial sobre fondo de arena entre los 20 y los 32 metros de profundidad. Su menor cota máxima lo convierte en una introducción ideal al buceo en barcos hundidos para buceadores con titulación avanzada.
             </li>
             <li>
-              <strong>El Don Pedro (<Link href="/buceo/ibiza-formentera" className="text-link">Ibiza, Baleares</Link>):</strong> buque mercante de más de 140 metros de eslora hundido en 2007 a la salida del puerto de Ibiza. Descansa sobre su costado de babor entre los 26 y los 47 metros de profundidad, siendo uno de los mayores pecios accesibles al buceo recreativo avanzado y técnico en el Mediterráneo.
+              <strong>El Don Pedro (<Link href="/buceo/ibiza" className="text-link">Ibiza, Baleares</Link>):</strong> buque mercante de más de 140 metros de eslora hundido en 2007 a la salida del puerto de Ibiza. Descansa sobre su costado de babor entre los 26 y los 47 metros de profundidad, siendo uno de los mayores pecios accesibles al buceo recreativo avanzado y técnico en el Mediterráneo.
             </li>
           </ul>
 

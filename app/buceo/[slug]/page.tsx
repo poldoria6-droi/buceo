@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { destinations, diveSites } from "@/data/dive-sites";
+import { activities } from "@/data/activities";
 import { SiteCard } from "@/components/SiteCard";
+import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildDestinationJsonLd } from "@/lib/seo";
 
@@ -36,6 +38,18 @@ export default async function DestinationPage({ params }: Props) {
   const destination = destinations.find((item) => item.slug === slug);
   const sites = diveSites.filter((site) => site.destinationSlug === slug);
   if (!destination || sites.length === 0) notFound();
+
+  const siteSlugSet = new Set(sites.map((s) => s.slug));
+  const destNameLower = destination.name.toLowerCase();
+  const exactMatches = activities.filter(
+    (a) =>
+      a.siteSlugs.some((ss) => siteSlugSet.has(ss)) ||
+      a.destination.toLowerCase().includes(destNameLower)
+  );
+  const regionMatches = activities.filter(
+    (a) => a.region === destination.region && !exactMatches.includes(a)
+  );
+  const featuredActivities = [...exactMatches, ...regionMatches].slice(0, 6);
 
   const animals = Array.from(new Set(sites.flatMap((site) => site.animals)));
   const destinationJsonLd = buildDestinationJsonLd(destination, sites.length);
@@ -90,7 +104,7 @@ export default async function DestinationPage({ params }: Props) {
               <span className="eyebrow">PUNTOS DE INMERSIÓN</span>
               <h2>Dónde bucear en {destination.name}</h2>
             </div>
-            <Link href={`/mapa?region=${encodeURIComponent(destination.region)}`} className="text-link">
+            <Link href={`/actividades?region=${encodeURIComponent(destination.region)}#mapa`} className="text-link">
               Ver en el mapa interactivo →
             </Link>
           </div>
@@ -102,7 +116,42 @@ export default async function DestinationPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="section section-soft">
+      {featuredActivities.length > 0 && (
+        <section className="section section-soft">
+          <div className="container">
+            <div className="section-heading">
+              <div>
+                <span className="eyebrow">RESERVA TU EXPERIENCIA</span>
+                <h2>Actividades y cursos de buceo en {destination.name} y {destination.region}</h2>
+              </div>
+              <Link href={`/actividades?region=${encodeURIComponent(destination.region)}`} className="text-link">
+                Ver todas las opciones →
+              </Link>
+            </div>
+            <div className="guide-grid">
+              {featuredActivities.map((activity) => (
+                <article className="guide-card" key={activity.slug}>
+                  <span className="eyebrow">
+                    {activity.type} · {activity.destination}
+                  </span>
+                  <h3>
+                    <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
+                  </h3>
+                  <p>
+                    Nivel {activity.level} · {activity.duration}
+                  </p>
+                  <Link className="text-link" href={`/actividades/${activity.slug}`}>
+                    Ver detalles de la actividad →
+                  </Link>
+                  <BookingOptions activity={activity} />
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="section">
         <div className="container editorial-grid">
           <div>
             <span className="eyebrow">BIODIVERSIDAD SUBMARINA</span>

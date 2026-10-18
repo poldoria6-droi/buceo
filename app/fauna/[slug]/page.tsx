@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { species } from "@/data/species";
+import { activities } from "@/data/activities";
 import { SpeciesCard } from "@/components/SpeciesCard";
+import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildSpeciesJsonLd } from "@/lib/seo";
 
@@ -46,6 +48,11 @@ export default async function SpeciesPage({ params }: Props) {
   const related = species
     .filter((x) => x.slug !== s.slug && x.category === s.category)
     .slice(0, 6);
+
+  const occurrenceRegions = Array.from(new Set(s.occurrences.map((o) => o.region)));
+  const recommendedActivities = activities
+    .filter((a) => occurrenceRegions.includes(a.region))
+    .slice(0, 4);
 
   return (
     <section className="section">
@@ -142,7 +149,7 @@ export default async function SpeciesPage({ params }: Props) {
 
         {s.occurrences.length > 0 && (
           <>
-            <h2>Registros documentados en España</h2>
+            <h2>Zonas de avistamiento documentadas en España</h2>
             <div className="guide-grid">
               {s.occurrences.map((o) => (
                 <article className="guide-card" key={o.name}>
@@ -151,9 +158,34 @@ export default async function SpeciesPage({ params }: Props) {
                   </span>
                   <h3>{o.name}</h3>
                   <p>{o.note}</p>
-                  <a href={o.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-link">
-                    Fuente del registro ↗
-                  </a>
+                  <Link href={`/actividades?species=${s.slug}#mapa`} className="text-link">
+                    Ver zona en el mapa interactivo →
+                  </Link>
+                </article>
+              ))}
+            </div>
+          </>
+        )}
+
+        {recommendedActivities.length > 0 && (
+          <>
+            <h2>Experiencias de buceo en zonas de distribución de {s.name.toLowerCase()}</h2>
+            <div className="guide-grid">
+              {recommendedActivities.map((activity) => (
+                <article className="guide-card" key={activity.slug}>
+                  <span className="eyebrow">
+                    {activity.type} · {activity.destination} ({activity.region})
+                  </span>
+                  <h3>
+                    <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
+                  </h3>
+                  <p>
+                    Nivel {activity.level} · {activity.duration}
+                  </p>
+                  <Link className="text-link" href={`/actividades/${activity.slug}`}>
+                    Ver ficha de la actividad →
+                  </Link>
+                  <BookingOptions activity={activity} />
                 </article>
               ))}
             </div>
@@ -195,19 +227,6 @@ export default async function SpeciesPage({ params }: Props) {
             </div>
           </>
         )}
-
-        <details style={{ marginTop: "2.5rem" }}>
-          <summary>Fuentes de referencia · revisado {s.checkedAt}</summary>
-          <ul>
-            {s.sources.map((url) => (
-              <li key={url}>
-                <a href={url} target="_blank" rel="noopener noreferrer">
-                  {url}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </details>
       </div>
     </section>
   );

@@ -88,7 +88,7 @@ export default function DivingRequirementsSpainPage() {
 
           <h2>4. Tiempo de espera antes de volar en avión o subir puertos de montaña</h2>
           <p>
-            Si viajas a destinos insulares como <Link href="/buceo/baleares" className="text-link">Baleares</Link> o <Link href="/buceo/el-hierro" className="text-link">Canarias</Link> (o si después de bucear en Tenerife vas a subir en coche hacia el Teide), debes respetar un intervalo en superficie antes de exponerte a la menor presión atmosférica de una cabina de avión o de la alta montaña:
+            Si viajas a destinos insulares como <Link href="/buceo/mallorca" className="text-link">Baleares</Link> o <Link href="/buceo/el-hierro" className="text-link">Canarias</Link> (o si después de bucear en Tenerife vas a subir en coche hacia el Teide), debes respetar un intervalo en superficie antes de exponerte a la menor presión atmosférica de una cabina de avión o de la alta montaña:
           </p>
           <ul>
             <li><strong>Tras una única inmersión sin descompresión (como un bautismo):</strong> las recomendaciones internacionales (DAN / UHMS) aconsejan un mínimo de <strong>12 horas</strong> de espera antes de volar, aunque muchas escuelas recomiendan dejar 18–24 horas por precaución.</li>
