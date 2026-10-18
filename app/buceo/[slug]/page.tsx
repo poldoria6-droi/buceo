@@ -365,6 +365,18 @@ export default async function DestinationPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {seoData.featuredActivities.length > 0 && (
+        <div className="mobile-sticky-booking" role="region" aria-label="Ofertas en este destino">
+          <div className="mobile-sticky-booking-price">
+            <small>{seoData.totalCount} actividades en {destination.name}</small>
+            <strong>{seoData.lowestPrice ? `Desde ${seoData.lowestPrice} €` : "Ver disponibilidad"}</strong>
+          </div>
+          <a href="#actividades" className="button button-primary mobile-sticky-booking-btn">
+            Ver ofertas y reservar ↑
+          </a>
+        </div>
+      )}
     </>
   );
 }

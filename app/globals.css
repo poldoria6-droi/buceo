@@ -323,3 +323,183 @@ body:has(.home-page) .site-header .main-nav a:nth-child(n+5){display:inline-bloc
 .guide-article li{margin-bottom:.5rem}
 
 
+
+/* === MOBILE SEO, UX & CONVERSION OPTIMIZATION (MOBILE-FIRST) === */
+html, body {
+  overflow-x: clip;
+  -webkit-text-size-adjust: 100%;
+}
+
+.mobile-sticky-booking {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 78px;
+  }
+
+  /* Prevent iOS Safari & Android Chrome auto-zoom on form focus & guarantee 44px tap targets */
+  input,
+  select,
+  .search-box input,
+  .activities-filter-grid select,
+  .center-search input,
+  .center-search select,
+  .map-mode-controls select {
+    font-size: 16px !important;
+    min-height: 44px;
+  }
+
+  /* Native-feeling horizontal pill navigation on mobile */
+  .site-header .header-inner {
+    min-height: 58px;
+    padding: 8px 0 6px;
+    gap: 8px 12px;
+  }
+  .site-header .main-nav {
+    gap: 8px !important;
+    padding: 6px 0 2px !important;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .site-header .main-nav::-webkit-scrollbar {
+    display: none;
+  }
+  .site-header .main-nav a {
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(12, 110, 141, 0.08);
+    font-size: 0.78rem;
+    line-height: 1.2;
+  }
+  body:has(.home-page) .site-header .main-nav a {
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+  }
+
+  /* Above-the-fold mobile hero compaction so CTAs are visible without scrolling */
+  .reference-hero {
+    min-height: auto !important;
+  }
+  .reference-hero-inner {
+    padding-top: 112px !important;
+    padding-bottom: 28px !important;
+  }
+  .reference-hero h1 {
+    font-size: clamp(1.85rem, 7vw, 2.45rem) !important;
+    line-height: 1.04 !important;
+    margin: 8px 0 10px !important;
+  }
+  .reference-hero p {
+    font-size: 0.92rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 12px !important;
+  }
+  .hero-discovery {
+    padding: 12px !important;
+    gap: 12px !important;
+  }
+  .hero-discovery-primary {
+    min-height: 46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem !important;
+  }
+
+  /* Interior page heroes on mobile */
+  .destination-hero,
+  .activities-hero {
+    padding: 32px 0 28px !important;
+  }
+  .destination-hero h1,
+  .activity-detail-hero h1,
+  .activities-hero h1,
+  .section h1 {
+    font-size: clamp(1.75rem, 6.6vw, 2.35rem) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.035em !important;
+  }
+  .section {
+    padding: 44px 0 !important;
+  }
+
+  /* Thumb-friendly affiliate booking buttons on mobile cards */
+  .booking-offer .button,
+  .activity-book-link {
+    min-height: 46px;
+    font-size: 0.88rem !important;
+    padding: 11px 16px !important;
+    border-radius: 12px !important;
+  }
+  .activity-detail-link {
+    min-height: 40px;
+    padding: 8px 14px !important;
+    font-size: 0.78rem !important;
+  }
+
+  /* Horizontal chip bars without ugly scrollbars on mobile */
+  .activity-intents {
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .activity-intents::-webkit-scrollbar {
+    display: none;
+  }
+  .activity-intents button,
+  .activity-intents a {
+    min-height: 38px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Sticky bottom conversion bar on mobile for Activity & Destination pages */
+  .mobile-sticky-booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 990;
+    background: rgba(4, 34, 54, 0.96);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(98, 232, 243, 0.32);
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+    box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.25);
+    color: #fff;
+  }
+  .mobile-sticky-booking-price {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .mobile-sticky-booking-price small {
+    font-size: 0.68rem;
+    color: rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mobile-sticky-booking-price strong {
+    font-size: 1.08rem;
+    font-weight: 900;
+    color: #62e8f3;
+    line-height: 1.15;
+  }
+  .mobile-sticky-booking-btn {
+    flex: 0 0 auto;
+    min-height: 44px;
+    padding: 10px 16px !important;
+    border-radius: 12px !important;
+    font-size: 0.85rem !important;
+    font-weight: 900 !important;
+    background: linear-gradient(135deg, #22d8ee, #0ca6c2) !important;
+    color: #042b3e !important;
+    white-space: nowrap;
+    box-shadow: 0 4px 14px rgba(34, 216, 238, 0.35);
+  }
+}

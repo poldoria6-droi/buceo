@@ -229,6 +229,24 @@ export default async function ActivityPage({ params }: Props) {
         <p className="data-note">
           Los precios «desde» son orientativos y pueden variar según temporada, modalidad o número de participantes. Confirma siempre el importe final y las condiciones antes de completar tu reserva.
         </p>
+
+        {offers.length > 0 && (
+          <div className="mobile-sticky-booking" role="region" aria-label="Reserva rápida en móvil">
+            <div className="mobile-sticky-booking-price">
+              <small>Mejor tarifa online</small>
+              <strong>{lowest ? `Desde ${formatOfferPrice(lowest)}` : "Consultar"}</strong>
+            </div>
+            <a
+              href={buildAffiliateUrl(lowest || offers[0])}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              title={`Reservar en ${(lowest || offers[0]).provider} (enlace de afiliado)`}
+              className="button button-primary mobile-sticky-booking-btn"
+            >
+              Reservar con {(lowest || offers[0]).provider} ↗
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );
