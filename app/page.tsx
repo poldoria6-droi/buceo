@@ -42,19 +42,19 @@ export default function HomePage() {
           <div className="reference-hero-copy">
             <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
             <h1>
-              Tu próxima inmersión empieza aquí:<br />
-              <em>explora tu actividad</em>
+              Explora España<br />
+              <em>bajo el agua</em>
             </h1>
             <p>
-              Compara bautismos de buceo, cursos Open Water, salidas guiadas y snorkel en los mejores destinos del Mediterráneo, Baleares y Canarias.
+              Compara bautismos, cursos Open Water, salidas guiadas y escuelas en el Mediterráneo, Baleares y Canarias.
             </p>
 
             <div className="hero-discovery">
               <div className="hero-discovery-copy">
                 <span className="hero-discovery-icon">✦</span>
                 <div>
-                  <strong>Más de {activities.length} experiencias y {centers.length} escuelas de buceo</strong>
-                  <small>Filtra por comunidad autónoma, localidad, nivel o punto de inmersión.</small>
+                  <strong>Tu próxima inmersión empieza aquí</strong>
+                  <small>Bautismos, cursos y salidas en más de {centers.length} escuelas de buceo.</small>
                 </div>
               </div>
               <div className="hero-discovery-actions">
@@ -65,8 +65,8 @@ export default function HomePage() {
             </div>
 
             <div className="hero-activity-links" aria-label="Descubrir por tipo">
-              <span>Acceso rápido:</span>
-              <Link href="/actividades?type=Bautismo">Bautismos</Link>
+              <span>Descubre por:</span>
+              <Link href="/actividades?type=Bautismo">Bautismo</Link>
               <Link href="/actividades?type=Fun%20Dive">Fun Dive</Link>
               <Link href="/actividades?type=Pecio">Pecios</Link>
               <Link href="/actividades?type=Curso">Cursos</Link>
