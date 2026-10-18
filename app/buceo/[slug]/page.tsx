@@ -224,14 +224,18 @@ export default async function DestinationPage({ params }: Props) {
             <span className="eyebrow">GUÍA PRÁCTICA DE BUCEO</span>
             <h2>Todo lo que necesitas saber para bucear en {destination.name}</h2>
 
-            <h3>1. Cómo son los fondos submarinos de {destination.name} y qué nivel necesitas</h3>
+            <h3>
+              {destination.slug === "madrid"
+                ? `1. Cómo funcionan los cursos y bautismos de buceo en ${destination.name}`
+                : `1. Cómo son los fondos submarinos de ${destination.name} y qué nivel necesitas`}
+            </h3>
             <p>
               El entorno de <strong>{destination.name}</strong> ({destination.region}) se caracteriza por{" "}
               {seoData.climate.marineEnvironment}. Tanto si buscas tu primera toma de contacto bajo el agua mediante un{" "}
               <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">
                 bautismo de buceo guiado
               </Link>{" "}
-              como si cuentas con titulación Open Water, Advanced o superior, encontrarás puntos adaptados a tu experiencia entre{" "}
+              como si cuentas con titulación Open Water, Advanced o superior, encontrarás opciones adaptadas a tu experiencia en{" "}
               {sites.map((s) => s.name).slice(0, 3).join(", ")}.
             </p>
 
@@ -293,10 +297,23 @@ export default async function DestinationPage({ params }: Props) {
               </Link>
             </p>
 
-            <h3>4. Fauna marina habitual en {destination.name}</h3>
+            <h3>
+              {destination.slug === "madrid"
+                ? `4. Inmersiones en mar abierto y fauna marina en las salidas desde ${destination.name}`
+                : `4. Biodiversidad y fauna marina habitual en ${destination.name}`}
+            </h3>
             <p>
-              Durante las inmersiones en {destination.name} es frecuente observar especies representativas como{" "}
-              {animals.join(", ")}. Recuerda mantener siempre una flotabilidad neutra cuidadosa y respetar los{" "}
+              {destination.slug === "madrid" ? (
+                <>
+                  Tras completar la teoría y los ejercicios en aguas confinadas (piscina climatizada o foso) en {destination.name}, las inmersiones de certificación en aguas abiertas se realizan en destinos costeros como Murcia, Alicante o la Costa Brava, donde es habitual observar especies como{" "}
+                  <strong>{animals.join(", ")}</strong>. Recuerda mantener siempre una flotabilidad neutra cuidadosa y respetar los{" "}
+                </>
+              ) : (
+                <>
+                  En los fondos de {destination.name} es frecuente observar especies representativas de su ecosistema marino como{" "}
+                  <strong>{animals.join(", ")}</strong>. Recuerda mantener siempre una flotabilidad neutra cuidadosa, vigilar el manómetro y el octopus para no rozar el sustrato y respetar los{" "}
+                </>
+              )}
               <Link href="/guias/requisitos-para-bucear-en-espana" className="text-link">
                 requisitos de seguridad y conservación
               </Link>.

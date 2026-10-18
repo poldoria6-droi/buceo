@@ -137,7 +137,11 @@ export function DestinationsList({ items, communities }: Props) {
               <h2>
                 <Link href={`/buceo/${destination.slug}`}>Buceo en {destination.name}</Link>
               </h2>
-              <p>Fauna habitual: {destination.animals.join(", ")}.</p>
+              <p>
+                {destination.slug === "madrid"
+                  ? `Piscina climatizada y salidas a costa (${destination.animals.join(", ")}).`
+                  : `Fauna habitual: ${destination.animals.join(", ")}.`}
+              </p>
               <div className="card-actions">
                 <Link
                   href={`/buceo/${destination.slug}`}
