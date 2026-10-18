@@ -2,10 +2,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { destinations, diveSites } from "@/data/dive-sites";
 import { activities } from "@/data/activities";
+import { centers } from "@/data/centers";
+import { species } from "@/data/species";
 import { SiteCard } from "@/components/SiteCard";
 import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildDestinationJsonLd } from "@/lib/seo";
+import { getDestinationSeoData } from "@/lib/destination-seo";
+import { communityFor } from "@/lib/activity-filters";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -16,17 +20,21 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const destination = destinations.find((item) => item.slug === slug);
-  if (!destination) return {};
+  const sites = diveSites.filter((site) => site.destinationSlug === slug);
+  if (!destination || sites.length === 0) return {};
+
+  const seoData = getDestinationSeoData(destination, sites, activities, centers);
+  const priceSnippet = seoData.lowestPrice ? ` desde ${seoData.lowestPrice} €` : "";
 
   return {
-    title: `Buceo en ${destination.name}: Puntos de Inmersión, Escuelas y Guía`,
-    description: `Guía de buceo en ${destination.name} (${destination.region}). Descubre sus mejores puntos de inmersión, niveles, fauna marina y actividades para reservar.`,
+    title: `Buceo en ${destination.name}: Bautismos, Cursos, Precios y Mejores Zonas`,
+    description: `Guía completa de buceo en ${destination.name} (${destination.region}): ${seoData.totalCount} actividades y bautismos${priceSnippet}, ${sites.length} puntos de inmersión, escuelas verificadas y mejor época.`,
     alternates: {
       canonical: `/buceo/${slug}`,
     },
     openGraph: {
-      title: `Buceo en ${destination.name} | Buceo Atlas`,
-      description: `Puntos de inmersión y experiencias de buceo en ${destination.name} (${destination.region}).`,
+      title: `Buceo en ${destination.name}: Precios, Zonas y Escuelas | Buceo Atlas`,
+      description: `Compara bautismos, cursos PADI/SSI, puntos de inmersión y escuelas de buceo en ${destination.name}${priceSnippet}.`,
       url: `/buceo/${slug}`,
       type: "website",
     },
@@ -39,20 +47,30 @@ export default async function DestinationPage({ params }: Props) {
   const sites = diveSites.filter((site) => site.destinationSlug === slug);
   if (!destination || sites.length === 0) notFound();
 
-  const siteSlugSet = new Set(sites.map((s) => s.slug));
-  const destNameLower = destination.name.toLowerCase();
-  const exactMatches = activities.filter(
-    (a) =>
-      a.siteSlugs.some((ss) => siteSlugSet.has(ss)) ||
-      a.destination.toLowerCase().includes(destNameLower)
-  );
-  const regionMatches = activities.filter(
-    (a) => a.region === destination.region && !exactMatches.includes(a)
-  );
-  const featuredActivities = [...exactMatches, ...regionMatches].slice(0, 6);
-
+  const seoData = getDestinationSeoData(destination, sites, activities, centers);
   const animals = Array.from(new Set(sites.flatMap((site) => site.animals)));
-  const destinationJsonLd = buildDestinationJsonLd(destination, sites.length);
+
+  const matchedSpecies = species
+    .filter((sp) =>
+      animals.some(
+        (an) =>
+          sp.name.toLowerCase().includes(an.toLowerCase()) ||
+          an.toLowerCase().includes(sp.name.split(" ")[0].toLowerCase())
+      )
+    )
+    .slice(0, 8);
+
+  const destCommunity = communityFor(destination.region);
+  const relatedDestinations = destinations
+    .filter((d) => d.slug !== destination.slug && communityFor(d.region) === destCommunity)
+    .slice(0, 8);
+
+  const destinationJsonLd = buildDestinationJsonLd(
+    destination,
+    sites.length,
+    seoData.faqs,
+    seoData.lowestPrice
+  );
 
   return (
     <>
@@ -69,67 +87,59 @@ export default async function DestinationPage({ params }: Props) {
             ]}
           />
           <span className="eyebrow">
-            {destination.region} · {sites.length} puntos de inmersión
+            GUÍA Y COMPARADOR · {destination.region.toUpperCase()}
           </span>
-          <h1>Buceo en {destination.name}</h1>
+          <h1>Buceo en {destination.name}: mejores zonas, bautismos, cursos y precios</h1>
           <p>
-            Explora los puntos de inmersión más destacados de {destination.name}, sus rangos de profundidad, tipo de fondo, nivel recomendado y especies habituales.
+            Descubre dónde bucear en {destination.name} ({destination.region}): comparativa de{" "}
+            <strong>{seoData.totalCount} experiencias reservables</strong>{" "}
+            {seoData.lowestPrice ? `desde ${seoData.lowestPrice} €` : ""},{" "}
+            <strong>{sites.length} puntos de inmersión</strong> documentados, escuelas verificadas y recomendaciones según tu nivel.
           </p>
+
+          <div className="hero-tags" style={{ marginTop: "1rem" }}>
+            {seoData.lowestPrice && <span>Desde {seoData.lowestPrice} €</span>}
+            <span>{seoData.totalCount} actividades en la zona</span>
+            <span>{sites.length} puntos de inmersión</span>
+            <span>Agua: {seoData.climate.waterTempWinter} / {seoData.climate.waterTempSummer}</span>
+          </div>
+
           <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1.25rem" }}>
+            <a href="#actividades" className="button button-primary">
+              Ver ofertas y precios en {destination.name} ↓
+            </a>
             <Link
-              href={`/actividades?region=${encodeURIComponent(destination.region)}`}
-              className="button button-primary"
-            >
-              Ver actividades en {destination.region} →
-            </Link>
-            <Link
-              href={`/centros?q=${encodeURIComponent(destination.name)}`}
+              href={`/actividades?region=${encodeURIComponent(destCommunity)}#mapa`}
               className="button button-ghost-dark"
             >
-              Buscar escuelas en la zona
+              Abrir en el mapa interactivo →
             </Link>
-          </div>
-          <div className="hero-tags">
-            {animals.slice(0, 8).map((animal) => (
-              <span key={animal}>{animal}</span>
-            ))}
+            {seoData.matchedCenters.length > 0 && (
+              <a href="#escuelas" className="button button-ghost-dark">
+                Ver escuelas ({seoData.matchedCenters.length})
+              </a>
+            )}
           </div>
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <span className="eyebrow">PUNTOS DE INMERSIÓN</span>
-              <h2>Dónde bucear en {destination.name}</h2>
-            </div>
-            <Link href={`/actividades?region=${encodeURIComponent(destination.region)}#mapa`} className="text-link">
-              Ver en el mapa interactivo →
-            </Link>
-          </div>
-          <div className="cards-grid">
-            {sites.map((site) => (
-              <SiteCard key={site.id} site={site} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {featuredActivities.length > 0 && (
-        <section className="section section-soft">
+      {seoData.featuredActivities.length > 0 && (
+        <section id="actividades" className="section section-soft">
           <div className="container">
             <div className="section-heading">
               <div>
-                <span className="eyebrow">RESERVA TU EXPERIENCIA</span>
-                <h2>Actividades y cursos de buceo en {destination.name} y {destination.region}</h2>
+                <span className="eyebrow">RESERVA ONLINE CON PRECIO MÍNIMO</span>
+                <h2>Bautismos, cursos y salidas de buceo en {destination.name}</h2>
               </div>
-              <Link href={`/actividades?region=${encodeURIComponent(destination.region)}`} className="text-link">
-                Ver todas las opciones →
+              <Link
+                href={`/actividades?region=${encodeURIComponent(destCommunity)}`}
+                className="text-link"
+              >
+                Ver las {seoData.totalCount} actividades en {destCommunity} →
               </Link>
             </div>
             <div className="guide-grid">
-              {featuredActivities.map((activity) => (
+              {seoData.featuredActivities.map((activity) => (
                 <article className="guide-card" key={activity.slug}>
                   <span className="eyebrow">
                     {activity.type} · {activity.destination}
@@ -141,7 +151,7 @@ export default async function DestinationPage({ params }: Props) {
                     Nivel {activity.level} · {activity.duration}
                   </p>
                   <Link className="text-link" href={`/actividades/${activity.slug}`}>
-                    Ver detalles de la actividad →
+                    Ver qué incluye y requisitos →
                   </Link>
                   <BookingOptions activity={activity} />
                 </article>
@@ -152,26 +162,209 @@ export default async function DestinationPage({ params }: Props) {
       )}
 
       <section className="section">
-        <div className="container editorial-grid">
-          <div>
-            <span className="eyebrow">BIODIVERSIDAD SUBMARINA</span>
-            <h2>Fauna marina característica</h2>
-            <p>
-              Especies representativas de los fondos de {destination.name}. La observación de fauna en libertad varía según la época del año, la temperatura del agua y la cota de inmersión.
-            </p>
-            <p style={{ marginTop: "1rem" }}>
-              <Link href="/fauna" className="text-link">
-                Consultar el catálogo completo de fauna marina →
-              </Link>
-            </p>
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">PUNTOS DE INMERSIÓN</span>
+              <h2>Dónde bucear en {destination.name}: mejores inmersiones</h2>
+            </div>
+            <Link
+              href={`/actividades?region=${encodeURIComponent(destCommunity)}#mapa`}
+              className="text-link"
+            >
+              Ver en el mapa interactivo →
+            </Link>
           </div>
-          <div className="fauna-cloud">
-            {animals.map((animal) => (
-              <span key={animal}>{animal}</span>
+          <div className="cards-grid">
+            {sites.map((site) => (
+              <SiteCard key={site.id} site={site} />
             ))}
           </div>
         </div>
       </section>
+
+      {seoData.matchedCenters.length > 0 && (
+        <section id="escuelas" className="section section-soft">
+          <div className="container">
+            <div className="section-heading">
+              <div>
+                <span className="eyebrow">DIRECTORIO DE CENTROS</span>
+                <h2>Escuelas y centros de buceo en {destination.name} y entorno</h2>
+              </div>
+              <Link href="/centros" className="text-link">
+                Ver todas las escuelas de España →
+              </Link>
+            </div>
+            <div className="guide-grid">
+              {seoData.matchedCenters.map((center) => (
+                <article className="guide-card" key={center.slug}>
+                  <span className="eyebrow">{center.location}</span>
+                  <h3>
+                    <Link href={`/centros/${center.slug}`}>{center.name}</Link>
+                  </h3>
+                  {center.rating && (
+                    <p>
+                      ★ {center.rating.value}/{center.rating.scale} ({center.rating.count} opiniones)
+                    </p>
+                  )}
+                  <p>{center.services.slice(0, 3).join(" · ")}</p>
+                  <Link href={`/centros/${center.slug}`} className="text-link">
+                    Ver ficha de la escuela y sus ofertas →
+                  </Link>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="section">
+        <div className="container">
+          <div className="guide-article">
+            <span className="eyebrow">GUÍA PRÁCTICA DE BUCEO</span>
+            <h2>Todo lo que necesitas saber para bucear en {destination.name}</h2>
+
+            <h3>1. Cómo son los fondos submarinos de {destination.name} y qué nivel necesitas</h3>
+            <p>
+              El entorno de <strong>{destination.name}</strong> ({destination.region}) se caracteriza por{" "}
+              {seoData.climate.marineEnvironment}. Tanto si buscas tu primera toma de contacto bajo el agua mediante un{" "}
+              <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">
+                bautismo de buceo guiado
+              </Link>{" "}
+              como si cuentas con titulación Open Water, Advanced o superior, encontrarás puntos adaptados a tu experiencia entre{" "}
+              {sites.map((s) => s.name).slice(0, 3).join(", ")}.
+            </p>
+
+            <h3>2. Precios de bautismos, cursos e inmersiones en {destination.name}</h3>
+            <p>
+              Los precios de las actividades subacuáticas en {destination.name} varían según la modalidad, la duración y si incluyen el alquiler completo del equipo o las tasas de certificación oficial (<Link href="/guias/padi-vs-ssi-diferencias" className="text-link">PADI o SSI</Link>):
+            </p>
+            <div style={{ overflowX: "auto", margin: "1.25rem 0 1.75rem" }}>
+              <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left" }}>
+                <thead>
+                  <tr style={{ borderBottom: "2px solid var(--line, #cbd5e1)" }}>
+                    <th style={{ padding: "0.75rem" }}>Modalidad en {destination.name}</th>
+                    <th style={{ padding: "0.75rem" }}>Nivel requerido</th>
+                    <th style={{ padding: "0.75rem" }}>Precio orientativo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
+                    <td style={{ padding: "0.75rem" }}><strong>Bautismo de buceo (Discover Scuba)</strong></td>
+                    <td style={{ padding: "0.75rem" }}>Sin experiencia previa (Inicial)</td>
+                    <td style={{ padding: "0.75rem" }}>
+                      {seoData.baptismFrom ? `Desde ${seoData.baptismFrom} €` : "Entre 60 € y 95 €"} (equipo e instructor incluidos)
+                    </td>
+                  </tr>
+                  <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
+                    <td style={{ padding: "0.75rem" }}><strong>Salidas e inmersiones guiadas</strong></td>
+                    <td style={{ padding: "0.75rem" }}>Buceadores titulados (Open Water / Advanced)</td>
+                    <td style={{ padding: "0.75rem" }}>
+                      {seoData.diveFrom ? `Desde ${seoData.diveFrom} €` : "Entre 38 € y 65 €"} (según número de inmersiones y equipo)
+                    </td>
+                  </tr>
+                  <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
+                    <td style={{ padding: "0.75rem" }}><strong>Cursos de certificación (Open Water / Especialidades)</strong></td>
+                    <td style={{ padding: "0.75rem" }}>Inicial o progresión técnica</td>
+                    <td style={{ padding: "0.75rem" }}>
+                      {seoData.courseFrom ? `Desde ${seoData.courseFrom} €` : "Entre 350 € y 490 €"} (teoría, prácticas y certificación)
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>3. Mejor época para bucear en {destination.name} y temperatura del agua</h3>
+            <ul>
+              <li>
+                <strong>Temporada recomendada:</strong> {seoData.climate.bestMonths}.
+              </li>
+              <li>
+                <strong>Temperatura del agua:</strong> entre <strong>{seoData.climate.waterTempWinter}</strong> en invierno/primavera y <strong>{seoData.climate.waterTempSummer}</strong> en los meses cálidos.
+              </li>
+              <li>
+                <strong>Protección térmica habitual:</strong> {seoData.climate.wetsuitAdvice}
+              </li>
+            </ul>
+            <p>
+              👉 Consulta también nuestro{" "}
+              <Link href="/guias/mejor-epoca-para-bucear-en-espana" className="text-link">
+                calendario anual de temperatura del agua en España →
+              </Link>
+            </p>
+
+            <h3>4. Fauna marina habitual en {destination.name}</h3>
+            <p>
+              Durante las inmersiones en {destination.name} es frecuente observar especies representativas como{" "}
+              {animals.join(", ")}. Recuerda mantener siempre una flotabilidad neutra cuidadosa y respetar los{" "}
+              <Link href="/guias/requisitos-para-bucear-en-espana" className="text-link">
+                requisitos de seguridad y conservación
+              </Link>.
+            </p>
+            {matchedSpecies.length > 0 && (
+              <div className="hero-tags" style={{ marginTop: "0.75rem", marginBottom: "1.75rem" }}>
+                {matchedSpecies.map((sp) => (
+                  <Link
+                    key={sp.slug}
+                    href={`/fauna/${sp.slug}`}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <span>🐠 {sp.name} →</span>
+                  </Link>
+                ))}
+              </div>
+            )}
+
+            <h2>Preguntas frecuentes sobre bucear en {destination.name}</h2>
+            <div style={{ display: "grid", gap: "0.75rem", marginTop: "1rem" }}>
+              {seoData.faqs.map((faq) => (
+                <details
+                  key={faq.question}
+                  className="notice-card"
+                  style={{ margin: 0, cursor: "pointer" }}
+                >
+                  <summary style={{ fontWeight: 700, fontSize: "1.05rem" }}>
+                    {faq.question}
+                  </summary>
+                  <p style={{ marginTop: "0.65rem", marginBottom: 0 }}>{faq.answer}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {relatedDestinations.length > 0 && (
+        <section className="section section-soft">
+          <div className="container">
+            <div className="section-heading">
+              <div>
+                <span className="eyebrow">EXPLORA LA REGIÓN</span>
+                <h2>Otras zonas de buceo en {destCommunity}</h2>
+              </div>
+              <Link href="/destinos" className="text-link">
+                Ver los {destinations.length} destinos de España →
+              </Link>
+            </div>
+            <div className="guide-grid">
+              {relatedDestinations.map((rel) => (
+                <article className="guide-card" key={rel.slug}>
+                  <span className="eyebrow">
+                    {rel.region} · {rel.sites} puntos
+                  </span>
+                  <h3>
+                    <Link href={`/buceo/${rel.slug}`}>Buceo en {rel.name}</Link>
+                  </h3>
+                  <p>Especies habituales: {rel.animals.slice(0, 4).join(", ")}.</p>
+                  <Link href={`/buceo/${rel.slug}`} className="text-link">
+                    Ver guía y precios en {rel.name} →
+                  </Link>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </>
   );
 }

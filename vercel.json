@@ -11,23 +11,8 @@
       "permanent": true
     },
     {
-      "source": "/buceo/costa-brava/:path*",
-      "destination": "/buceo/tossa-de-mar/",
-      "permanent": true
-    },
-    {
       "source": "/buceo/ibiza-formentera/:path*",
       "destination": "/buceo/ibiza/",
-      "permanent": true
-    },
-    {
-      "source": "/buceo/costa-blanca/:path*",
-      "destination": "/buceo/benidorm/",
-      "permanent": true
-    },
-    {
-      "source": "/buceo/baleares/:path*",
-      "destination": "/buceo/mallorca/",
       "permanent": true
     }
   ]

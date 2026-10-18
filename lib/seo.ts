@@ -173,18 +173,51 @@ export function buildCenterJsonLd(center: DiveCenter, _activitiesCount: number) 
   };
 }
 
-export function buildDestinationJsonLd(destination: Destination, sitesCount: number) {
-  return {
-    "@context": "https://schema.org",
+export function buildDestinationJsonLd(
+  destination: Destination,
+  sitesCount: number,
+  faqs?: Array<{ question: string; answer: string }>,
+  lowestPrice?: number
+) {
+  const destinationEntity = {
     "@type": "TouristDestination",
     "@id": getCanonicalUrl(`/buceo/${destination.slug}#destination`),
     "name": `Buceo en ${destination.name}`,
-    "description": `Destino de buceo en ${destination.name} (${destination.region}) con ${sitesCount} puntos de inmersión documentados.`,
+    "description": `Guía y comparador de buceo en ${destination.name} (${destination.region}) con ${sitesCount} puntos de inmersión, escuelas verificadas y actividades${
+      lowestPrice ? ` desde ${lowestPrice} €` : ""
+    }.`,
+    "url": getCanonicalUrl(`/buceo/${destination.slug}`),
     "containedInPlace": {
       "@type": "AdministrativeArea",
       "name": destination.region,
     },
     "touristType": ["Scuba Diver", "Snorkeler"],
+  };
+
+  if (!faqs || faqs.length === 0) {
+    return {
+      "@context": "https://schema.org",
+      ...destinationEntity,
+    };
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      destinationEntity,
+      {
+        "@type": "FAQPage",
+        "@id": getCanonicalUrl(`/buceo/${destination.slug}#faq`),
+        "mainEntity": faqs.map((faq) => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer,
+          },
+        })),
+      },
+    ],
   };
 }
 
