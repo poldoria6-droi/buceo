@@ -36,7 +36,7 @@ export default function AffiliatePage() {
         <div className="guide-article">
           <h2>1. ¿Cómo se sostiene Buceo Atlas?</h2>
           <p>
-            <strong>Buceo Atlas</strong> es un proyecto divulgativo y comparador independiente de acceso 100% gratuito para el usuario. Para financiar el mantenimiento técnico del portal, la verificación de datos de las escuelas, la cartografía interactiva y las guías de especies marinas, participamos en programas de afiliación con plataformas líderes de reservas de actividades en España, principalmente <strong>Yumping (Partner ID 3935)</strong> y <strong>Civitatis</strong>.
+            <strong>Buceo Atlas</strong> es un proyecto divulgativo y comparador independiente de acceso 100% gratuito para el usuario. Para financiar el mantenimiento técnico del portal, la verificación de datos de las escuelas, la cartografía interactiva y las guías de especies marinas, colaboramos mediante afiliación con <strong>Yumping (Partner ID 3935)</strong>, plataforma líder de reservas de actividades en España.
           </p>
 
           <h2>2. Mismo precio garantizado para el buceador</h2>

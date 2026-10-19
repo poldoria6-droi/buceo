@@ -66,7 +66,7 @@ export default function LegalNoticePage() {
             <strong>Buceo Atlas</strong> es un portal independiente de carácter divulgativo y comparador de experiencias subacuáticas (bautismos de buceo, cursos de certificación, salidas de inmersión y snorkel), centros de buceo y destinos marinos en España.
           </p>
           <p>
-            Buceo Atlas <strong>no organiza ni ejecuta directamente las actividades subacuáticas</strong> ni procesa pagos en su propio servidor. Cuando el usuario selecciona una oferta comercial, es redirigido a la plataforma del proveedor o agencia colaboradora correspondiente (como Yumping o Civitatis) o a la escuela de buceo titular, quienes actúan como responsables de la contratación, cobro, seguro obligatorio, disponibilidad y ejecución técnica de la actividad.
+            Buceo Atlas <strong>no organiza ni ejecuta directamente las actividades subacuáticas</strong> ni procesa pagos en su propio servidor. Cuando el usuario selecciona una oferta comercial, es redirigido a la plataforma del proveedor colaborador correspondiente (como Yumping) o a la escuela de buceo titular, quienes actúan como responsables de la contratación, cobro, seguro obligatorio, disponibilidad y ejecución técnica de la actividad.
           </p>
 
           <h2>3. Responsabilidad sobre la práctica del buceo</h2>

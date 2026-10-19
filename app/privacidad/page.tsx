@@ -63,7 +63,7 @@ export default function PrivacyAndCookiesPage() {
               <strong>Cookies técnicas y de funcionamiento:</strong> Son aquellas estrictamente necesarias para permitir la navegación por las páginas, el funcionamiento de los filtros interactivos de búsqueda y la correcta carga de la cartografía interactiva (OpenStreetMap / Leaflet).
             </li>
             <li>
-              <strong>Atribución técnica de afiliación:</strong> Cuando haces clic en un enlace de reserva externa hacia nuestros proveedores colaboradores (como Yumping, con <code>Partner ID 3935</code>, o Civitatis) o cuando se carga el script técnico de atribución del proveedor, la plataforma de destino puede emplear una cookie o identificador técnico de sesión con la única finalidad de reconocer que la visita procede de Buceo Atlas y asignar la comisión correspondiente, sin ningún recargo en el precio para el usuario.
+              <strong>Atribución técnica de afiliación:</strong> Cuando haces clic en un enlace de reserva externa hacia nuestro proveedor colaborador Yumping (<code>Partner ID 3935</code>) o cuando se carga su script técnico de atribución, la plataforma de destino puede emplear una cookie o identificador técnico de sesión con la única finalidad de reconocer que la visita procede de Buceo Atlas y asignar la comisión correspondiente, sin ningún recargo en el precio para el usuario.
             </li>
           </ul>
 
