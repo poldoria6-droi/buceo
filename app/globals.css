@@ -503,3 +503,37 @@ html, body {
     box-shadow: 0 4px 14px rgba(34, 216, 238, 0.35);
   }
 }
+
+.footer-grid {
+  grid-template-columns: 1.35fr 0.75fr 0.9fr 0.9fr;
+  gap: 36px;
+}
+.footer-transparency {
+  margin-top: 28px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+.footer-transparency p {
+  margin: 0;
+  font-size: 0.79rem !important;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.68) !important;
+}
+.footer-transparency strong {
+  color: #a6efea;
+}
+@media (max-width: 960px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+  }
+}
+@media (max-width: 620px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
