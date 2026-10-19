@@ -4,7 +4,7 @@ import type { Destination } from "@/data/dive-sites";
 import type { Species } from "@/data/species";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://buceo-nine.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://buceoatlas.es";
 
 export const SITE_NAME = "Buceo Atlas";
 
@@ -49,6 +49,7 @@ export function buildWebsiteJsonLd() {
         "name": SITE_NAME,
         "url": SITE_URL,
         "logo": `${SITE_URL}/favicon.ico`,
+        "email": "contacto@buceoatlas.es",
         "description": "Portal especializado en buceo en España con mapa interactivo, directorio de escuelas y comparador de actividades.",
       },
     ],
