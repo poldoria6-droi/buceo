@@ -11,6 +11,13 @@ import { diveSites } from "@/data/dive-sites";
 
 type Props = { params: Promise<{ slug: string }> };
 
+// Títulos que se repiten entre ofertas distintas (mismo nombre comercial en el proveedor):
+// se desambiguan con la referencia interna para que cada URL tenga un <title> único.
+const titleCounts = activities.reduce<Record<string, number>>((acc, item) => {
+  acc[item.title] = (acc[item.title] || 0) + 1;
+  return acc;
+}, {});
+
 export function generateStaticParams() {
   return activities.map((activity) => ({ slug: activity.slug }));
 }
@@ -22,14 +29,16 @@ export async function generateMetadata({ params }: Props) {
   const offers = getBookingOffers(activity);
   const lowest = getLowestPricedOffer(offers);
   const priceSnippet = lowest ? ` desde ${formatOfferPrice(lowest)}` : "";
+  const isDuplicatedTitle = titleCounts[activity.title] > 1;
+  const uniqueTitle = isDuplicatedTitle ? `${activity.title} (ref. ${activity.id})` : activity.title;
   return {
-    title: `${activity.title} · Precios y Reserva`,
-    description: `${activity.title} en ${activity.destination} (${activity.region}). Nivel: ${activity.level}, duración: ${activity.duration}. Precios${priceSnippet}, qué incluye y opciones de reserva online.`,
+    title: `${uniqueTitle} · Precios y Reserva`,
+    description: `${activity.title} en ${activity.destination} (${activity.region}). Nivel: ${activity.level}, duración: ${activity.duration}. Precios${priceSnippet}, qué incluye y opciones de reserva online.${isDuplicatedTitle ? ` Ref. ${activity.id}.` : ""}`,
     alternates: {
       canonical: `/actividades/${slug}`,
     },
     openGraph: {
-      title: `${activity.title} | Buceo Atlas`,
+      title: `${uniqueTitle} | Buceo Atlas`,
       description: `${activity.title} en ${activity.destination}. Consulta opciones de reserva, qué incluye y centro organizador.`,
       url: `/actividades/${slug}`,
       type: "website",
@@ -89,7 +98,7 @@ export default async function ActivityPage({ params }: Props) {
         </div>
 
         <div className="activity-detail-grid">
-          <main>
+          <div className="activity-detail-main">
             <section className="notice-card">
               <h2>Descripción de la experiencia</h2>
               <p>{detail?.summary || activity.notes || activity.title}</p>
@@ -223,7 +232,7 @@ export default async function ActivityPage({ params }: Props) {
                 </div>
               </div>
             </div>
-          </main>
+          </div>
         </div>
 
         <p className="data-note">

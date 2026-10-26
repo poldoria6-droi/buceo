@@ -5,10 +5,6 @@ export const metadata = {
   title: "Aviso Legal y Condiciones de Uso",
   description:
     "Aviso legal, datos identificativos del responsable, condiciones de uso y limitación de responsabilidad del portal Buceo Atlas (contacto@buceoatlas.es).",
-  robots: {
-    index: false,
-    follow: true,
-  },
   alternates: {
     canonical: "/aviso-legal",
   },

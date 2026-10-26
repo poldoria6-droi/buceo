@@ -19,6 +19,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/destinos/`, lastModified: staticDate, changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/fauna/`, lastModified: staticDate, changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/guias/`, lastModified: staticDate, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/aviso-legal/`, lastModified: staticDate, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${base}/privacidad/`, lastModified: staticDate, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${base}/afiliados/`, lastModified: staticDate, changeFrequency: "yearly", priority: 0.2 },
     ...guides.map((g) => ({
       url: `${base}/guias/${g.slug}/`,
       lastModified: new Date(g.updatedAt),

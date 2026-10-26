@@ -14,6 +14,21 @@
       "source": "/buceo/ibiza-formentera/:path*",
       "destination": "/buceo/ibiza/",
       "permanent": true
+    },
+    {
+      "source": "/buceo/asturias/:path*",
+      "destination": "/buceo/gijon/",
+      "permanent": true
+    },
+    {
+      "source": "/buceo/santander/:path*",
+      "destination": "/buceo/cantabria/",
+      "permanent": true
+    },
+    {
+      "source": "/mapa/:path*",
+      "destination": "/actividades/",
+      "permanent": true
     }
   ]
 }

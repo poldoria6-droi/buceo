@@ -5,10 +5,6 @@ export const metadata = {
   title: "Política de Privacidad y Cookies",
   description:
     "Política de privacidad, protección de datos (RGPD / LOPDGDD) e información sobre navegación anónima y uso de cookies técnicas en Buceo Atlas.",
-  robots: {
-    index: false,
-    follow: true,
-  },
   alternates: {
     canonical: "/privacidad",
   },

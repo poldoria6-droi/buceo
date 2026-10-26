@@ -10,15 +10,13 @@ import { DestinationsList, type EnrichedDestinationItem } from "@/app/destinos/D
 
 export const metadata = {
   title: "Destinos de Buceo en España · Guía de Zonas, Precios y Puntos",
-  description:
-    "Buscador y guía completa de 87 destinos de buceo en España: Tenerife, Lanzarote, Gran Canaria, Barcelona, Costa Brava, Baleares, Cabo de Palos, Málaga, Cádiz y más.",
+  description: `Buscador y guía completa de ${destinations.length} destinos de buceo en España: Tenerife, Lanzarote, Gran Canaria, Barcelona, Costa Brava, Baleares, Cabo de Palos, Málaga, Cádiz y más.`,
   alternates: {
     canonical: "/destinos",
   },
   openGraph: {
     title: "Destinos de Buceo en España | Buceo Atlas",
-    description:
-      "Explora y filtra los 87 destinos, provincias e islas de buceo en España con precios, escuelas y puntos de inmersión.",
+    description: `Explora y filtra los ${destinations.length} destinos, provincias e islas de buceo en España con precios, escuelas y puntos de inmersión.`,
     url: "/destinos",
     type: "website",
   },

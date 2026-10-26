@@ -5,10 +5,6 @@ export const metadata = {
   title: "Política de Afiliación y Transparencia",
   description:
     "Política de afiliación, transparencia editorial e información sobre enlaces de reserva externa en colaboración con Yumping (Partner ID 3935) en Buceo Atlas.",
-  robots: {
-    index: false,
-    follow: true,
-  },
   alternates: {
     canonical: "/afiliados",
   },

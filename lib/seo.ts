@@ -8,9 +8,24 @@ export const SITE_URL =
 
 export const SITE_NAME = "Buceo Atlas";
 
+/** Imagen por defecto (existe en /public/images) para esquemas que exigen "image". */
+export const DEFAULT_IMAGE_PATH = "/images/hero-1280.jpg";
+/** Logo PNG de la marca (512x512) para el esquema Organization. */
+export const LOGO_PATH = "/logo.png";
+
+/**
+ * Devuelve la URL absoluta canónica. Con `trailingSlash: true` todas las páginas
+ * viven en una URL acabada en "/", así que se normaliza para evitar redirecciones 308
+ * en datos estructurados, migas de pan y canonicals. Los archivos (con extensión)
+ * no reciben barra final.
+ */
 export function getCanonicalUrl(path: string): string {
+  if (/^https?:\/\//i.test(path)) return path;
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
-  return `${SITE_URL}${cleanPath}`;
+  const [beforeHash, hash] = cleanPath.split("#");
+  const [pathname, query] = beforeHash.split("?");
+  const withSlash = pathname.endsWith("/") || /\.[a-z0-9]+$/i.test(pathname) ? pathname : `${pathname}/`;
+  return `${SITE_URL}${withSlash}${query ? `?${query}` : ""}${hash ? `#${hash}` : ""}`;
 }
 
 export type BreadcrumbItem = {
@@ -38,7 +53,7 @@ export function buildWebsiteJsonLd() {
       {
         "@type": "WebSite",
         "@id": `${SITE_URL}/#website`,
-        "url": SITE_URL,
+        "url": `${SITE_URL}/`,
         "name": SITE_NAME,
         "description": "Comparador y directorio de buceo en España: actividades, escuelas, destinos y fauna marina.",
         "inLanguage": "es-ES",
@@ -47,8 +62,8 @@ export function buildWebsiteJsonLd() {
         "@type": "Organization",
         "@id": `${SITE_URL}/#organization`,
         "name": SITE_NAME,
-        "url": SITE_URL,
-        "logo": `${SITE_URL}/favicon.ico`,
+        "url": `${SITE_URL}/`,
+        "logo": getCanonicalUrl(LOGO_PATH),
         "email": "contacto@buceoatlas.es",
         "description": "Portal especializado en buceo en España con mapa interactivo, directorio de escuelas y comparador de actividades.",
       },
@@ -61,73 +76,72 @@ export function buildActivityJsonLd(
   offers: BookingOffer[],
   center?: DiveCenter
 ) {
+  // Solo se declaran ofertas con precio real (> 0): evita "price": 0 y ofertas vacías.
+  const pricedOffers = offers.filter(
+    (o) => typeof o.priceFrom === "number" && o.priceFrom > 0
+  );
   const lowestPrice =
-    offers.length > 0
-      ? Math.min(...offers.map((o) => o.priceFrom || 9999).filter((p) => p > 0))
-      : activity.priceFrom;
-
-  const validPrice = lowestPrice && lowestPrice < 9999 ? lowestPrice : undefined;
-
-  const schemaOffers =
-    offers.length > 0
-      ? offers.map((offer) => ({
-          "@type": "Offer",
-          "price": offer.priceFrom || validPrice || 0,
-          "priceCurrency": offer.priceCurrency || "EUR",
-          "availability": "https://schema.org/InStock",
-          "url": getCanonicalUrl(`/actividades/${activity.slug}`),
-          "seller": {
-            "@type": "Organization",
-            "name": offer.provider || center?.name || "Buceo Atlas",
-          },
-        }))
-      : validPrice
-      ? [
-          {
-            "@type": "Offer",
-            "price": validPrice,
-            "priceCurrency": "EUR",
-            "availability": "https://schema.org/InStock",
-            "url": getCanonicalUrl(`/actividades/${activity.slug}`),
-          },
-        ]
+    pricedOffers.length > 0
+      ? Math.min(...pricedOffers.map((o) => o.priceFrom as number))
+      : activity.priceFrom && activity.priceFrom > 0
+      ? activity.priceFrom
       : undefined;
 
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "@id": getCanonicalUrl(`/actividades/${activity.slug}#product`),
-    "name": activity.title,
-    "description": `${activity.title} en ${activity.destination}. Actividad de tipo ${activity.type}, nivel ${activity.level}, duración ${activity.duration}.`,
-    "category": activity.type,
-    "url": getCanonicalUrl(`/actividades/${activity.slug}`),
-    ...(schemaOffers && schemaOffers.length > 1
+  const activityUrl = getCanonicalUrl(`/actividades/${activity.slug}`);
+
+  const schemaOffers = pricedOffers.map((offer) => ({
+    "@type": "Offer",
+    "price": offer.priceFrom,
+    "priceCurrency": offer.priceCurrency || "EUR",
+    "availability": "https://schema.org/InStock",
+    "url": activityUrl,
+    "seller": {
+      "@type": "Organization",
+      "name": offer.provider || center?.name || SITE_NAME,
+    },
+  }));
+
+  const offersBlock =
+    schemaOffers.length > 1
       ? {
           "offers": {
             "@type": "AggregateOffer",
-            "lowPrice": validPrice,
+            "lowPrice": lowestPrice,
             "priceCurrency": "EUR",
-            "offerCount": offers.length,
+            "offerCount": schemaOffers.length,
             "offers": schemaOffers,
           },
         }
-      : schemaOffers && schemaOffers.length === 1
+      : schemaOffers.length === 1
       ? { "offers": schemaOffers[0] }
-      : {}),
-    ...(activity.rating && activity.reviewCount
+      : lowestPrice
       ? {
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": activity.rating,
-            "reviewCount": activity.reviewCount,
-            "bestRating": 5,
-            "worstRating": 1,
+          "offers": {
+            "@type": "Offer",
+            "price": lowestPrice,
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "url": activityUrl,
           },
         }
-      : {}),
+      : {};
+
+  // Las actividades son experiencias reservables (no productos físicos con envío),
+  // por lo que se marcan como TouristTrip. No se copian valoraciones de terceros al marcado.
+  return {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "@id": getCanonicalUrl(`/actividades/${activity.slug}#trip`),
+    "name": activity.title,
+    "description": `${activity.title} en ${activity.destination}. Actividad de tipo ${activity.type}, nivel ${activity.level}, duración ${activity.duration}.`,
+    "url": activityUrl,
+    "image": getCanonicalUrl(DEFAULT_IMAGE_PATH),
+    "inLanguage": "es-ES",
+    "touristType": activity.type,
+    ...offersBlock,
     ...(center
       ? {
-          "brand": {
+          "provider": {
             "@type": "SportsActivityLocation",
             "name": center.name,
             "url": getCanonicalUrl(`/centros/${center.slug}`),
@@ -145,6 +159,7 @@ export function buildCenterJsonLd(center: DiveCenter, _activitiesCount: number) 
     "name": center.name,
     "description": center.description,
     "url": getCanonicalUrl(`/centros/${center.slug}`),
+    "image": getCanonicalUrl(DEFAULT_IMAGE_PATH),
     "address": {
       "@type": "PostalAddress",
       "addressLocality": center.location,
@@ -188,6 +203,7 @@ export function buildDestinationJsonLd(
       lowestPrice ? ` desde ${lowestPrice} €` : ""
     }.`,
     "url": getCanonicalUrl(`/buceo/${destination.slug}`),
+    "image": getCanonicalUrl(DEFAULT_IMAGE_PATH),
     "containedInPlace": {
       "@type": "AdministrativeArea",
       "name": destination.region,
@@ -249,6 +265,7 @@ export function buildArticleJsonLd(guide: {
     "headline": guide.title,
     "description": guide.description,
     "url": getCanonicalUrl(guide.path),
+    "image": getCanonicalUrl(DEFAULT_IMAGE_PATH),
     "inLanguage": "es-ES",
     "datePublished": guide.datePublished || "2026-10-18",
     "dateModified": guide.dateModified || guide.datePublished || "2026-10-18",
