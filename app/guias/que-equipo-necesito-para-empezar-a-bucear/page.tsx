@@ -105,10 +105,10 @@ export default function BeginnerGearGuidePage() {
                 </p>
               </div>
               <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-                <Link href="/actividades?type=Bautismo" className="button button-primary">
+                <Link href="/actividades/#type=Bautismo" className="button button-primary">
                   Ver bautismos →
                 </Link>
-                <Link href="/actividades?type=Curso" className="button button-ghost">
+                <Link href="/actividades/#type=Curso" className="button button-ghost">
                   Ver cursos Open Water
                 </Link>
               </div>

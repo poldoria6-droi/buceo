@@ -150,7 +150,7 @@ export function DestinationsList({ items, communities }: Props) {
                   Ver guía y ofertas →
                 </Link>
                 <Link
-                  href={`/actividades?region=${encodeURIComponent(destination.community)}#mapa`}
+                  href={`/actividades/#mapa&region=${encodeURIComponent(destination.community)}`}
                   className="text-link"
                 >
                   Mapa →

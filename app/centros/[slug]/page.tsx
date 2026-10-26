@@ -88,7 +88,7 @@ export default async function CenterPage({ params }: Props) {
                   <span className="eyebrow">{site.region}</span>
                   <h3>{site.name}</h3>
                   <p>{site.highlight}</p>
-                  <Link href={`/actividades?site=${encodeURIComponent(site.slug)}#mapa`} className="text-link">
+                  <Link href={`/actividades/#mapa&site=${encodeURIComponent(site.slug)}`} className="text-link">
                     Ver punto en el mapa →
                   </Link>
                 </article>

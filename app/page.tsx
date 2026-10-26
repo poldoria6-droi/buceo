@@ -66,10 +66,10 @@ export default function HomePage() {
 
             <div className="hero-activity-links" aria-label="Descubrir por tipo">
               <span>Descubre por:</span>
-              <Link href="/actividades?type=Bautismo">Bautismo</Link>
-              <Link href="/actividades?type=Fun%20Dive">Fun Dive</Link>
-              <Link href="/actividades?type=Pecio">Pecios</Link>
-              <Link href="/actividades?type=Curso">Cursos</Link>
+              <Link href="/actividades/#type=Bautismo">Bautismo</Link>
+              <Link href="/actividades/#type=Fun%20Dive">Fun Dive</Link>
+              <Link href="/actividades/#type=Pecio">Pecios</Link>
+              <Link href="/actividades/#type=Curso">Cursos</Link>
               <Link href="/actividades#mapa">Mapa interactivo</Link>
             </div>
 
@@ -99,17 +99,17 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="home-discovery-grid">
-            <Link href="/actividades?type=Bautismo" className="home-discovery-card">
+            <Link href="/actividades/#type=Bautismo" className="home-discovery-card">
               <b>🤿</b>
               <strong>Bautismo de buceo</strong>
               <span>Tu primera inmersión en el mar con instructor y equipo completo incluido, sin experiencia previa.</span>
             </Link>
-            <Link href="/actividades?type=Curso" className="home-discovery-card">
+            <Link href="/actividades/#type=Curso" className="home-discovery-card">
               <b>🎓</b>
               <strong>Cursos de certificación</strong>
               <span>Obtén tu título Open Water o especialidad internacional en escuelas de toda la costa española.</span>
             </Link>
-            <Link href="/actividades?type=Pecio" className="home-discovery-card">
+            <Link href="/actividades/#type=Pecio" className="home-discovery-card">
               <b>⚓</b>
               <strong>Salidas y pecios</strong>
               <span>Inmersiones para buceadores titulados en reservas marinas, cañones y barcos hundidos históricos.</span>

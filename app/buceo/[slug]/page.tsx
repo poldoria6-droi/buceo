@@ -109,7 +109,7 @@ export default async function DestinationPage({ params }: Props) {
               Ver ofertas y precios en {destination.name} ↓
             </a>
             <Link
-              href={`/actividades?region=${encodeURIComponent(destCommunity)}#mapa`}
+              href={`/actividades/#mapa&region=${encodeURIComponent(destCommunity)}`}
               className="button button-ghost-dark"
             >
               Abrir en el mapa interactivo →
@@ -132,7 +132,7 @@ export default async function DestinationPage({ params }: Props) {
                 <h2>Bautismos, cursos y salidas de buceo en {destination.name}</h2>
               </div>
               <Link
-                href={`/actividades?region=${encodeURIComponent(destCommunity)}`}
+                href={`/actividades/#region=${encodeURIComponent(destCommunity)}`}
                 className="text-link"
               >
                 Ver las {seoData.totalCount} actividades en {destCommunity} →
@@ -169,7 +169,7 @@ export default async function DestinationPage({ params }: Props) {
               <h2>Dónde bucear en {destination.name}: mejores inmersiones</h2>
             </div>
             <Link
-              href={`/actividades?region=${encodeURIComponent(destCommunity)}#mapa`}
+              href={`/actividades/#mapa&region=${encodeURIComponent(destCommunity)}`}
               className="text-link"
             >
               Ver en el mapa interactivo →

@@ -158,7 +158,7 @@ export default async function SpeciesPage({ params }: Props) {
                   </span>
                   <h3>{o.name}</h3>
                   <p>{o.note}</p>
-                  <Link href={`/actividades?species=${s.slug}#mapa`} className="text-link">
+                  <Link href={`/actividades/#mapa&species=${s.slug}`} className="text-link">
                     Ver zona en el mapa interactivo →
                   </Link>
                 </article>
@@ -206,7 +206,7 @@ export default async function SpeciesPage({ params }: Props) {
                 Explorar actividades →
               </Link>
               {s.occurrences.length > 0 && (
-                <Link className="button button-ghost" href={`/actividades?species=${s.slug}#mapa`}>
+                <Link className="button button-ghost" href={`/actividades/#mapa&species=${s.slug}`}>
                   Ver en el mapa
                 </Link>
               )}

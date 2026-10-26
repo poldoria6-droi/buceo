@@ -4,7 +4,7 @@ import { species } from "@/data/species";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import { useSearchParams } from "next/navigation";
 import type { DiveSite } from "@/data/dive-sites";
 import { communityFor, destinationsFor } from "@/lib/activity-filters";
@@ -51,6 +51,40 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
   const [level, setLevel] = useState(initLevel);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [, startTransition] = useTransition();
+
+  useEffect(() => {
+    const applyHashParams = () => {
+      if (typeof window === "undefined" || !window.location.hash) return;
+      const rawHash = window.location.hash.replace(/^#/, "");
+      if (!rawHash || rawHash === "mapa") return;
+      const hashParams = new URLSearchParams(rawHash);
+      const hType = hashParams.get("type");
+      const hRegion = hashParams.get("region");
+      const hDest = hashParams.get("destination");
+      const hSite = hashParams.get("site");
+      const hLevel = hashParams.get("level");
+      const hSpecies = hashParams.get("species");
+
+      if (hType) setType(hType);
+      if (hRegion) setRegion(communityFor(hRegion));
+      if (hDest) setDestination(hDest);
+      if (hSite) setSiteSlug(hSite);
+      if (hLevel) setLevel(hLevel);
+      if (hSpecies) {
+        setMapMode("species");
+        setSpeciesSlug(hSpecies);
+      }
+      if (hashParams.has("mapa") || hSite || hSpecies) {
+        setTimeout(() => {
+          document.getElementById("mapa")?.scrollIntoView({ behavior: "smooth" });
+        }, 120);
+      }
+    };
+
+    applyHashParams();
+    window.addEventListener("hashchange", applyHashParams);
+    return () => window.removeEventListener("hashchange", applyHashParams);
+  }, []);
 
   const destinations = useMemo(() => destinationsFor(activities, region), [activities, region]);
   const communities = useMemo(

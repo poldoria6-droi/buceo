@@ -124,7 +124,7 @@ export default function BaptismPriceGuidePage() {
                 <h2>Consulta precios por destino en España</h2>
                 <p>Filtra las {count} experiencias de bautismo disponibles por comunidad autónoma o localidad.</p>
               </div>
-              <Link href="/actividades?type=Bautismo" className="button button-primary">
+              <Link href="/actividades/#type=Bautismo" className="button button-primary">
                 Comparar bautismos →
               </Link>
             </div>

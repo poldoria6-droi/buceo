@@ -63,7 +63,7 @@ export default function ActivityMap({ sites, activities }: { sites: DiveSite[]; 
                     );
                   })}
                 </div>
-                <Link href={"/actividades?site=" + encodeURIComponent(site.slug)} className="popup-action">Ver todas las actividades de este punto →</Link>
+                <Link href={"/actividades/#site=" + encodeURIComponent(site.slug)} className="popup-action">Ver todas las actividades de este punto →</Link>
               </div>
             </Popup>
           </CircleMarker>

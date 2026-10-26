@@ -129,7 +129,7 @@ export default function PadiVsSsiPage() {
                 </p>
               </div>
               <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-                <Link className="button button-primary" href="/actividades?type=Curso">
+                <Link className="button button-primary" href="/actividades/#type=Curso">
                   Ver cursos de buceo →
                 </Link>
                 <Link className="button button-ghost" href="/centros">

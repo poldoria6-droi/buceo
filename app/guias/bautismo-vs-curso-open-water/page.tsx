@@ -125,10 +125,10 @@ export default function BaptismVsOpenWaterPage() {
                 </p>
               </div>
               <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-                <Link className="button button-primary" href="/actividades?type=Bautismo">
+                <Link className="button button-primary" href="/actividades/#type=Bautismo">
                   Ver bautismos →
                 </Link>
-                <Link className="button button-ghost" href="/actividades?type=Curso">
+                <Link className="button button-ghost" href="/actividades/#type=Curso">
                   Ver cursos Open Water
                 </Link>
               </div>

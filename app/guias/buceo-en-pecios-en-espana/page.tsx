@@ -105,7 +105,7 @@ export default function WreckDivingSpainPage() {
                 </p>
               </div>
               <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-                <Link className="button button-primary" href="/actividades?type=Pecio">
+                <Link className="button button-primary" href="/actividades/#type=Pecio">
                   Ver salidas a pecios →
                 </Link>
                 <Link className="button button-ghost" href="/centros">

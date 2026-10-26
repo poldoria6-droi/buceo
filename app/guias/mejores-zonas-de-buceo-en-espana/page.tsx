@@ -57,7 +57,7 @@ export default function BestDivingZonesPage() {
               <strong>Fauna destacada:</strong> ejemplares de gran porte de <Link href="/fauna/mero-moreno" className="text-link">mero moreno</Link>, paredes de <Link href="/fauna/gorgonia-roja" className="text-link">gorgonia roja</Link>, <Link href="/fauna/corvina" className="text-link">corvinas</Link>, <Link href="/fauna/denton" className="text-link">dentones</Link> y bancos de <Link href="/fauna/barracuda" className="text-link">espetones (barracudas)</Link>.
             </li>
             <li>
-              <strong>Nivel recomendado:</strong> todos los niveles; la Costa Brava combina calas resguardadas para <Link href="/actividades?type=Bautismo&region=Catalu%C3%B1a" className="text-link">bautismos y cursos</Link> con bajos exteriores e inmersiones en pecios como el <em>Boreas</em> (Palamós).
+              <strong>Nivel recomendado:</strong> todos los niveles; la Costa Brava combina calas resguardadas para <Link href="/actividades/#type=Bautismo&region=Catalu%C3%B1a" className="text-link">bautismos y cursos</Link> con bajos exteriores e inmersiones en pecios como el <em>Boreas</em> (Palamós).
             </li>
           </ul>
           <p>
@@ -96,7 +96,7 @@ export default function BestDivingZonesPage() {
             </li>
           </ul>
           <p>
-            👉 <Link href="/actividades?region=Canarias" className="text-link">Ver actividades y cursos en Canarias →</Link>
+            👉 <Link href="/actividades/#region=Canarias" className="text-link">Ver actividades y cursos en Canarias →</Link>
           </p>
 
           <h2>4. Cabrera, Mallorca, Menorca e Ibiza–Formentera (Islas Baleares)</h2>

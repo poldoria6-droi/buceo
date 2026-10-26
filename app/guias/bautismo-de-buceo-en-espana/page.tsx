@@ -78,7 +78,7 @@ export default function BaptismGuidePage() {
               <span className="eyebrow">CATALUÑA</span>
               <h3>Costa Brava y Girona</h3>
               <p>Calas rocosas de aguas claras en Tossa de Mar, L&apos;Estartit, Palamós o Lloret de Mar.</p>
-              <Link href="/actividades?type=Bautismo&region=Catalu%C3%B1a" className="text-link">
+              <Link href="/actividades/#type=Bautismo&region=Catalu%C3%B1a" className="text-link">
                 Ver bautismos en Cataluña →
               </Link>
             </article>
@@ -86,7 +86,7 @@ export default function BaptismGuidePage() {
               <span className="eyebrow">ISLAS BALEARES</span>
               <h3>Mallorca, Menorca e Ibiza</h3>
               <p>Aguas tranquilas y luminosas sobre fondos de arena y praderas de posidonia.</p>
-              <Link href="/actividades?type=Bautismo&region=Baleares" className="text-link">
+              <Link href="/actividades/#type=Bautismo&region=Baleares" className="text-link">
                 Ver bautismos en Baleares →
               </Link>
             </article>
@@ -94,7 +94,7 @@ export default function BaptismGuidePage() {
               <span className="eyebrow">ISLAS CANARIAS</span>
               <h3>Tenerife, Lanzarote y Gran Canaria</h3>
               <p>Temperatura suave durante todo el año y gran visibilidad en fondos volcánicos.</p>
-              <Link href="/actividades?type=Bautismo&region=Canarias" className="text-link">
+              <Link href="/actividades/#type=Bautismo&region=Canarias" className="text-link">
                 Ver bautismos en Canarias →
               </Link>
             </article>
@@ -112,7 +112,7 @@ export default function BaptismGuidePage() {
                 <h2>Compara bautismos de buceo en España</h2>
                 <p>Filtra por comunidad autónoma o localidad y consulta precios desde y duración.</p>
               </div>
-              <Link href="/actividades?type=Bautismo" className="button button-primary">
+              <Link href="/actividades/#type=Bautismo" className="button button-primary">
                 Ver bautismos disponibles →
               </Link>
             </div>
