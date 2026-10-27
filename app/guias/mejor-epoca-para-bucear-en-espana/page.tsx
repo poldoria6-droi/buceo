@@ -25,7 +25,7 @@ export default function BestSeasonDivingSpainPage() {
       "Calendario orientativo de buceo en España por regiones: cuándo bucear en el Mediterráneo, Baleares, Canarias y el norte.",
     path: "/guias/mejor-epoca-para-bucear-en-espana",
     datePublished: "2026-10-18",
-    dateModified: "2026-10-18",
+    dateModified: "2026-10-27",
   });
 
   return (
@@ -41,87 +41,93 @@ export default function BestSeasonDivingSpainPage() {
             { name: "Mejor época para bucear en España", path: "/guias/mejor-epoca-para-bucear-en-espana" },
           ]}
         />
-        <span className="eyebrow">PLANIFICACIÓN · TEMPORADAS</span>
-        <h1>Mejor época para bucear en España: calendario y temperatura del agua</h1>
+        <span className="eyebrow">CALENDARIO Y NEOPRENO</span>
+        <h1>Cuándo es la mejor época para bucear en España (y a qué temperatura está el agua)</h1>
         <p className="lead">
-          En España se puede bucear durante todo el año, pero las condiciones térmicas y la apertura de las escuelas varían notablemente entre el Mediterráneo peninsular, Baleares, el Cantábrico y las Islas Canarias. Esta guía resume qué esperar en cada época y qué protección térmica se suele utilizar.
+          La gran ventaja de España es que siempre hay algún rincón con el mar en calma y buena temperatura: desde el verano luminoso de Baleares y la Costa Brava hasta el invierno subtropical de Canarias. Te contamos cuándo ir a cada costa y qué grosor de neopreno pedir.
         </p>
 
         <div className="guide-article">
-          <h2>Resumen por regiones y temperaturas orientativas</h2>
-          <div style={{ overflowX: "auto", margin: "1.5rem 0" }}>
-            <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left" }}>
+          <div className="editorial-tip">
+            <p>
+              🍂 <strong>El mes favorito de quienes bucean todo el año: septiembre y principios de octubre.</strong> En el Mediterráneo el agua conserva todo el calor acumulado en julio y agosto (23–25 °C), los bancos de <Link href="/fauna/pez-limon" className="text-link">peces limón</Link> y <Link href="/fauna/barracuda" className="text-link">barracudas</Link> están en plena actividad cazando y los barcos ya no van llenos como en agosto.
+            </p>
+          </div>
+
+          <h2>Temperaturas del agua y traje recomendado por costa</h2>
+          <div style={{ overflowX: "auto", margin: "1.5rem 0 2rem" }}>
+            <table>
               <thead>
-                <tr style={{ borderBottom: "2px solid var(--line, #cbd5e1)" }}>
-                  <th style={{ padding: "0.75rem" }}>Zona</th>
-                  <th style={{ padding: "0.75rem" }}>Temporada principal</th>
-                  <th style={{ padding: "0.75rem" }}>Temp. agua aprox.</th>
-                  <th style={{ padding: "0.75rem" }}>Traje habitual</th>
+                <tr>
+                  <th>Costa</th>
+                  <th>Meses ideales</th>
+                  <th>Temperatura del agua</th>
+                  <th>Neopreno habitual</th>
                 </tr>
               </thead>
               <tbody>
-                <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                  <td style={{ padding: "0.75rem" }}><strong>Costa Brava y Cataluña</strong></td>
-                  <td style={{ padding: "0.75rem" }}>Mayo a octubre</td>
-                  <td style={{ padding: "0.75rem" }}>15–17 °C (primavera) · 21–24 °C (verano)</td>
-                  <td style={{ padding: "0.75rem" }}>7 mm / semiseco en primavera; 5–7 mm en verano (termoclinas en cota profunda).</td>
+                <tr>
+                  <td><strong>Islas Canarias (El Hierro, Lanzarote, Tenerife, Gran Canaria)</strong></td>
+                  <td>Los 12 meses del año</td>
+                  <td>18–20 °C en invierno · 22–24 °C en verano/otoño</td>
+                  <td>5 mm en verano y otoño; 7 mm o 5 mm con chaleco de calor en invierno.</td>
                 </tr>
-                <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                  <td style={{ padding: "0.75rem" }}><strong>Comunidad Valenciana y Murcia</strong></td>
-                  <td style={{ padding: "0.75rem" }}>Abril a noviembre (algunos centros todo el año)</td>
-                  <td style={{ padding: "0.75rem" }}>16–19 °C (primavera/otoño) · 23–26 °C (agosto–septiembre)</td>
-                  <td style={{ padding: "0.75rem" }}>5 mm en verano; 7 mm o semiseco en primavera y otoño.</td>
+                <tr>
+                  <td><strong>Islas Baleares (Mallorca, Menorca, Ibiza, Formentera)</strong></td>
+                  <td>Mayo a octubre</td>
+                  <td>18–20 °C en mayo · 25–27 °C en agosto y septiembre</td>
+                  <td>5 mm cómodo (incluso 3 mm a poca profundidad en agosto).</td>
                 </tr>
-                <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                  <td style={{ padding: "0.75rem" }}><strong>Islas Baleares</strong></td>
-                  <td style={{ padding: "0.75rem" }}>Mayo a octubre</td>
-                  <td style={{ padding: "0.75rem" }}>18–20 °C (mayo/octubre) · 24–27 °C (julio–septiembre)</td>
-                  <td style={{ padding: "0.75rem" }}>5 mm (incluso 3 mm a poca cota en agosto); 7 mm en los extremos de temporada.</td>
+                <tr>
+                  <td><strong>Murcia y Alicante (Cabo de Palos, Tabarca, Jávea)</strong></td>
+                  <td>Abril a noviembre (muchos centros todo el año)</td>
+                  <td>16–19 °C en primavera · 23–26 °C en verano</td>
+                  <td>5 mm en julio–septiembre; 7 mm o semiseco el resto del año.</td>
                 </tr>
-                <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                  <td style={{ padding: "0.75rem" }}><strong>Andalucía (Costa Tropical, Almería y Estrecho)</strong></td>
-                  <td style={{ padding: "0.75rem" }}>Abril a noviembre (activo todo el año en La Herradura)</td>
-                  <td style={{ padding: "0.75rem" }}>15–18 °C (invierno/upwelling) · 20–24 °C (verano)</td>
-                  <td style={{ padding: "0.75rem" }}>7 mm o semiseco gran parte del año por corrientes frescas; 5 mm en aguas someras en verano.</td>
+                <tr>
+                  <td><strong>Costa Brava y Cataluña (Illes Medes, Tossa, Palamós)</strong></td>
+                  <td>Mayo a octubre</td>
+                  <td>15–17 °C en primavera · 21–24 °C en pleno verano</td>
+                  <td>5–7 mm en verano (ojo a las termoclinas al bajar de 18 m); semiseco en primavera.</td>
                 </tr>
-                <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                  <td style={{ padding: "0.75rem" }}><strong>Islas Canarias</strong></td>
-                  <td style={{ padding: "0.75rem" }}>Todo el año (12 meses)</td>
-                  <td style={{ padding: "0.75rem" }}>18–20 °C (enero–abril) · 22–24 °C (agosto–noviembre)</td>
-                  <td style={{ padding: "0.75rem" }}>5 mm o 7 mm cómodo todo el año.</td>
+                <tr>
+                  <td><strong>Andalucía (La Herradura, Cabo de Gata, Tarifa)</strong></td>
+                  <td>Abril a noviembre (La Herradura todo el año)</td>
+                  <td>15–18 °C con corrientes del Estrecho · 20–23 °C en verano</td>
+                  <td>7 mm gran parte del año; en la Costa Tropical entran corrientes frescas incluso en julio.</td>
                 </tr>
-                <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                  <td style={{ padding: "0.75rem" }}><strong>Cantábrico y Galicia</strong></td>
-                  <td style={{ padding: "0.75rem" }}>Junio a septiembre (mejor estado de la mar)</td>
-                  <td style={{ padding: "0.75rem" }}>13–15 °C (primavera) · 17–20 °C (verano)</td>
-                  <td style={{ padding: "0.75rem" }}>7 mm con capucha, semiseco o traje seco.</td>
+                <tr>
+                  <td><strong>Norte (Galicia, Asturias, Cantabria y País Vasco)</strong></td>
+                  <td>Junio a septiembre</td>
+                  <td>13–15 °C en primavera · 17–20 °C en agosto</td>
+                  <td>7 mm con capucha o semiseco; un mar bravío pero llenísimo de vida.</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <h2>1. El secreto mejor guardado: septiembre y octubre</h2>
+          <h2>De mayo a octubre: la gran temporada del Mediterráneo y Baleares</h2>
           <p>
-            Para muchos buceadores habituales, <strong>septiembre y la primera mitad de octubre</strong> constituyen el momento óptimo del año tanto en el Mediterráneo (<Link href="/buceo/cabo-de-palos" className="text-link">Cabo de Palos</Link>, <Link href="/buceo/illes-medes" className="text-link">Illes Medes</Link>, <Link href="/buceo/benidorm" className="text-link">Costa Blanca</Link>, <Link href="/buceo/mallorca" className="text-link">Baleares</Link>) como en el Atlántico. El mar ha acumulado el calor de todo el verano, la vida pelágica (<Link href="/fauna/pez-limon" className="text-link">seriolas</Link>, <Link href="/fauna/barracuda" className="text-link">espetones</Link>, <Link href="/fauna/denton" className="text-link">dentones</Link>) está muy activa y los barcos de buceo tienen menos ocupación que en agosto.
+            A partir del puente de mayo, las aguas de la <Link href="/buceo/tossa-de-mar" className="text-link">Costa Brava</Link>, <Link href="/buceo/cabo-de-palos" className="text-link">Cabo de Palos</Link>, <Link href="/buceo/tabarca" className="text-link">Tabarca</Link> y <Link href="/buceo/mallorca" className="text-link">Baleares</Link> empiezan a calentarse y los días largos hacen que apetezca estar en el barco toda la mañana. Julio y agosto son los meses ideales si vas a hacer tu primer <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">bautismo de buceo</Link> a poca profundidad, porque en los primeros 10 metros el agua está entre 24 y 27 °C.
           </p>
 
-          <h2>2. Invierno y primavera temprana: el momento de Canarias</h2>
+          <h2>Por qué no confiarse con un traje corto si bajas a más de 18 metros</h2>
           <p>
-            Entre diciembre y abril, muchas escuelas de temporada del Mediterráneo norte cierran por descanso o mantenimiento y el agua peninsular baja a 13–15 °C. Es la época estrella para volar a <Link href="/buceo/el-hierro" className="text-link">El Hierro</Link>, <Link href="/buceo/lanzarote" className="text-link">Lanzarote</Link>, <Link href="/buceo/tenerife" className="text-link">Tenerife</Link> o <Link href="/buceo/gran-canaria" className="text-link">Gran Canaria</Link>, donde el agua se mantiene en torno a 18–20 °C y además es temporada propicia para observar especies como el <Link href="/fauna/angelote" className="text-link">angelote</Link>.
+            Un detalle que sorprende a muchos buceadores que estrenan su título Open Water en el Mediterráneo es la <strong>termoclina de verano</strong>. En superficie puedes estar a 26 °C bañándote en bañador, pero en cuanto bajas por una pared rocosa más allá de los 16 o 18 metros, atraviesas de golpe una capa de agua que parece una cortina fría a 17 °C. Por eso en lugares como <Link href="/buceo/illes-medes" className="text-link">Illes Medes</Link> o <Link href="/buceo/la-herradura" className="text-link">La Herradura</Link> los guías llevan neopreno largo de 5 o 7 mm incluso en agosto.
           </p>
 
-          <h2>3. Qué son las termoclinas y por qué importan</h2>
+          <h2>De noviembre a abril: el paraíso invernal de Canarias</h2>
           <p>
-            En el Mediterráneo durante julio y agosto la superficie puede superar los 25 °C, pero al descender por debajo de los 15–20 metros es frecuente atravesar una <strong>termoclina</strong> brusca donde el agua cae varios grados de golpe. Si vas a realizar inmersiones recreativas por debajo de los 18 metros, un neopreno completo de 5 mm o 7 mm (según tu tolerancia al frío) resulta mucho más confortable que un <em>shorty</em> corto.
+            Cuando en la Península apetece sofá y manta, en <Link href="/buceo/el-hierro" className="text-link">El Hierro</Link>, <Link href="/buceo/lanzarote" className="text-link">Lanzarote</Link>, <Link href="/buceo/tenerife" className="text-link">Tenerife</Link> y <Link href="/buceo/gran-canaria" className="text-link">Gran Canaria</Link> el agua nunca baja de 18–19 °C y la visibilidad supera fácilmente los 25 metros. Además, el invierno y la primavera son la mejor época en Canarias para cruzarse en los arenales con el <Link href="/fauna/angelote" className="text-link">angelote</Link>, un tiburón plano en peligro de extinción que tiene allí su mayor refugio del mundo, y con grandes <Link href="/fauna/raya-pastinaca" className="text-link">chuchos y pastinacas</Link>.
           </p>
 
           <div className="cta-section" style={{ paddingBottom: 0 }}>
             <div className="cta-panel">
               <div>
-                <span className="eyebrow">RESERVA SEGÚN LA ÉPOCA</span>
-                <h2>Encuentra actividades abiertas en tu destino</h2>
+                <span className="eyebrow">ELIGE TU PRÓXIMA SALIDA</span>
+                <h2>Busca actividades abiertas en tu fecha</h2>
                 <p>
-                  Filtra por comunidad autónoma y consulta la disponibilidad para tus fechas directamente con el proveedor.
+                  Filtra por comunidad autónoma o explora las 85 guías de destinos costeros de España.
                 </p>
               </div>
               <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
@@ -129,7 +135,7 @@ export default function BestSeasonDivingSpainPage() {
                   Explorar actividades →
                 </Link>
                 <Link className="button button-ghost" href="/destinos">
-                  Ver guía de destinos
+                  Ver todos los destinos
                 </Link>
               </div>
             </div>

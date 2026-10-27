@@ -38,7 +38,7 @@ export default function BaptismPriceGuidePage() {
       "Analizamos los precios de los bautismos de buceo en España según nuestro catálogo, qué factores influyen en el coste y cómo comparar ofertas.",
     path: "/guias/cuanto-cuesta-un-bautismo-de-buceo",
     datePublished: "2026-10-04",
-    dateModified: "2026-10-18",
+    dateModified: "2026-10-27",
   });
 
   return (
@@ -57,75 +57,122 @@ export default function BaptismPriceGuidePage() {
             },
           ]}
         />
-        <span className="eyebrow">PRECIOS · PRINCIPIANTES</span>
-        <h1>¿Cuánto cuesta un bautismo de buceo en España?</h1>
+        <span className="eyebrow">TARIFAS REALES EN ESPAÑA</span>
+        <h1>¿Cuánto cuesta un bautismo de buceo en España y por qué cambia tanto el precio?</h1>
         <p className="lead">
-          El precio de un bautismo de buceo en España varía según la modalidad (desde costa o en barco), la duración y los servicios incluidos. Analizamos las tarifas registradas en el catálogo de Buceo Atlas para que compares con referencia real.
+          Si buscas bautismos de buceo en un mismo pueblo de costa verás ofertas desde <strong>{minPrice} €</strong> y otras que pasan de los <strong>110 €</strong>. Hemos cruzado los <strong>{count} bautismos con tarifa activa</strong> en Buceo Atlas para explicarte qué estás pagando realmente en cada caso.
         </p>
 
-        <div className="notice-card" style={{ margin: "2rem 0" }}>
-          <h2>Rango de precios en nuestro catálogo ({count} bautismos con tarifa publicada)</h2>
-          <p>
-            En las ofertas actualmente listadas en Buceo Atlas, el precio «desde» de un bautismo se sitúa entre <strong>{minPrice} € y {maxPrice} €</strong> por persona, con un valor mediano en torno a los <strong>{medianPrice} €</strong>. La mayoría de los bautismos de una inmersión oscilan entre los <strong>60 € y los 95 €</strong>.
-          </p>
-        </div>
-
         <div className="guide-article">
-          <h2>1. Los 4 factores que hacen cambiar el precio</h2>
-          <div className="guide-grid">
+          <div className="editorial-tip">
+            <p>
+              💶 <strong>El precio medio real hoy en España:</strong> la mediana de los {count} bautismos de nuestro catálogo está en <strong>{medianPrice} € por persona</strong> (con casi todas las opciones de una inmersión moviéndose entre los <strong>60 € y los 95 €</strong>, equipo completo y seguro incluidos).
+            </p>
+          </div>
+
+          <h2>¿Qué pagas con un bautismo de 60 € frente a uno de 95 € o 120 €?</h2>
+          <p>
+            En el buceo nadie regala duros a cuatro pesetas: mover una barca semirrígida, cargar botellas con aire filtrado, revisar reguladores y poner a un instructor pendiente de dos personas en el agua tiene un coste fijo muy claro. Cuando ves una diferencia de 30 o 40 euros entre dos escuelas de la misma zona, casi siempre se debe a uno de estos cuatro motivos:
+          </p>
+
+          <div className="guide-grid" style={{ margin: "1.5rem 0 2rem" }}>
             <article className="guide-card">
-              <span className="eyebrow">01 · ACCESO AL AGUA</span>
-              <h3>Desde playa o en barco</h3>
+              <span className="eyebrow">PLAYA VS BARCO</span>
+              <h3>Cómo se entra al agua</h3>
               <p>
-                Los bautismos con entrada desde cala o playa suelen ser más económicos (habitualmente entre 55 € y 75 €), mientras que las salidas en embarcación hasta una reserva o cala aislada implican mayor coste de combustible y logística.
+                Entrar caminando desde una cala tranquila (muy típico en <Link href="/buceo/tossa-de-mar" className="text-link">Tossa de Mar</Link> o <Link href="/buceo/lanzarote" className="text-link">Playa Chica en Lanzarote</Link>) ahorra amarre y gasolina: suele costar entre <strong>55 € y 75 €</strong>. Salir en barco hasta un islote o reserva marina sube a <strong>75 €–105 €</strong>.
               </p>
             </article>
             <article className="guide-card">
-              <span className="eyebrow">02 · EQUIPO Y SEGURO</span>
-              <h3>Todo el material incluido</h3>
+              <span className="eyebrow">EL DETALLE CLAVE</span>
+              <h3>Cuántos vais con el instructor</h3>
               <p>
-                Comprueba que la tarifa incluya el alquiler completo (neopreno, chaleco, regulador, botella, plomos, máscara y aletas) además del seguro obligatorio de buceo durante la actividad.
+                No es lo mismo bajar solo con tu pareja y un instructor para vosotros dos que ir en un grupo más grande donde el guía tiene que repartir la atención. Los centros que garantizan ratio 1:1 o 2:1 cobran un poco más, pero se disfruta el triple.
               </p>
             </article>
             <article className="guide-card">
-              <span className="eyebrow">03 · RATIO Y DURACIÓN</span>
-              <h3>Atención del instructor</h3>
+              <span className="eyebrow">DOBLE INMERSIÓN O PISCINA</span>
+              <h3>Tiempo real bajo el agua</h3>
               <p>
-                Un bautismo personalizado o en grupo muy reducido (1 o 2 participantes por instructor) o aquel que combina piscina previa más inmersión en el mar tiene un precio superior al de un grupo estándar.
-              </p>
-            </article>
-            <article className="guide-card">
-              <span className="eyebrow">04 · EXTRAS</span>
-              <h3>Fotos, vídeo o doble inmersión</h3>
-              <p>
-                Algunas ofertas incluyen reportaje fotográfico o de vídeo subacuático, o bien dos inmersiones en el mismo día, lo que sitúa el precio por encima de los 100 €.
+                Las ofertas que rondan los <strong>110 €–{maxPrice} €</strong> suelen ser bautismos dobles (primero una inmersión suave de adaptación y luego una segunda salida en barco con mucha más confianza) o incluyen fotos y vídeo con GoPro.
               </p>
             </article>
           </div>
 
-          <h2>2. ¿Cómo comparar dos ofertas antes de reservar?</h2>
+          <h2>Precios habituales según la zona de España</h2>
+          <div style={{ overflowX: "auto", margin: "1.5rem 0 2rem" }}>
+            <table>
+              <thead>
+                <tr>
+                  <th>Región</th>
+                  <th>Desde playa / cala</th>
+                  <th>Con salida en barco</th>
+                  <th>Por qué destaca</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Canarias (Tenerife, Lanzarote, Gran Canaria)</strong></td>
+                  <td>55 € – 75 €</td>
+                  <td>75 € – 95 €</td>
+                  <td>Agua templada todo el año y mucha vida cerca de la orilla.</td>
+                </tr>
+                <tr>
+                  <td><strong>Cataluña (Costa Brava y Tarragona)</strong></td>
+                  <td>60 € – 80 €</td>
+                  <td>80 € – 110 €</td>
+                  <td>Calas de roca espectaculares y salidas en barco a reservas como Medes.</td>
+                </tr>
+                <tr>
+                  <td><strong>Murcia y Alicante (Cabo de Palos, Jávea, Tabarca)</strong></td>
+                  <td>60 € – 75 €</td>
+                  <td>75 € – 98 €</td>
+                  <td>Aguas cálidas en verano y calas muy resguardadas del oleaje.</td>
+                </tr>
+                <tr>
+                  <td><strong>Baleares (Mallorca, Menorca, Ibiza)</strong></td>
+                  <td>65 € – 85 €</td>
+                  <td>85 € – 120 €</td>
+                  <td>Visibilidad cristalina sobre posidonia y muchas salidas en embarcación.</td>
+                </tr>
+                <tr>
+                  <td><strong>Andalucía (La Herradura, Cabo de Gata, Tarifa)</strong></td>
+                  <td>55 € – 75 €</td>
+                  <td>70 € – 95 €</td>
+                  <td>Acantilados llenos de coral naranja y ambiente muy acogedor para principiantes.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Lo que siempre debe estar incluido (sin cargos sorpresa)</h2>
           <p>
-            Antes de elegir únicamente por la cifra más baja, revisa en la ficha de cada actividad:
+            Cuando reserves tu <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">bautismo de buceo</Link>, tú solo tienes que llevar bañador, toalla y chanclas. El precio de la oferta incluye siempre:
           </p>
           <ul>
-            <li>Cuánto tiempo total dura la experiencia y cuál es el tiempo aproximado bajo el agua.</li>
-            <li>Si el punto de inmersión está en una cala protegida de fácil acceso o si requiere navegación en barco.</li>
-            <li>Las condiciones de cancelación o cambio de fecha si el estado del mar impide salir.</li>
-            <li>La escuela que organiza la actividad (puedes consultar su ficha en nuestro <Link href="/centros" className="text-link">directorio de centros de buceo</Link>).</li>
+            <li>
+              <strong>Todo el equipo de buceo:</strong> traje de neopreno de tu talla, escarpines, máscara, aletas, chaleco (<em>jacket</em>), regulador, botella y plomos.
+            </li>
+            <li>
+              <strong>El seguro obligatorio de buceo:</strong> durante un bautismo no tienes que contratar ningún seguro aparte; te cubre la póliza de la escuela.
+            </li>
+            <li>
+              <strong>Charla previa e instructor en el agua:</strong> entre 25 y 45 minutos de paseo submarino real (según lo relajado que respires el aire de la botella) dentro de una actividad que en total dura unas 2 o 3 horas.
+            </li>
           </ul>
           <p>
-            Si tras ver los precios te planteas obtener directamente la certificación internacional, consulta nuestra comparativa <Link href="/guias/bautismo-vs-curso-open-water" className="text-link">Bautismo de buceo vs Curso Open Water</Link>.
+            Si estás pensando en hacer más de un bautismo durante tus vacaciones, echa cuentas antes en nuestra comparativa <Link href="/guias/bautismo-vs-curso-open-water" className="text-link">Bautismo vs Curso Open Water</Link>, porque a veces por poco más te llevas el título internacional para toda la vida.
           </p>
 
           <div className="cta-section" style={{ paddingBottom: 0 }}>
             <div className="cta-panel">
               <div>
-                <span className="eyebrow">COMPARADOR DE BAUTISMOS</span>
-                <h2>Consulta precios por destino en España</h2>
-                <p>Filtra las {count} experiencias de bautismo disponibles por comunidad autónoma o localidad.</p>
+                <span className="eyebrow">CATÁLOGO ACTUALIZADO</span>
+                <h2>Compara los {count} bautismos disponibles por zona</h2>
+                <p>Filtra por tu destino de vacaciones y consulta qué incluye cada escuela.</p>
               </div>
               <Link href="/actividades/#type=Bautismo" className="button button-primary">
-                Comparar bautismos →
+                Comparar bautismos y precios →
               </Link>
             </div>
           </div>

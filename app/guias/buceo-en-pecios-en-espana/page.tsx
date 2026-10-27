@@ -29,7 +29,7 @@ export default function WreckDivingSpainPage() {
       "Recorrido por los pecios y barcos hundidos más emblemáticos para bucear en España (Naranjito, Boreas, Don Pedro y más), profundidades y titulación necesaria.",
     path: "/guias/buceo-en-pecios-en-espana",
     datePublished: "2026-10-18",
-    dateModified: "2026-10-18",
+    dateModified: "2026-10-27",
   });
 
   return (
@@ -45,29 +45,32 @@ export default function WreckDivingSpainPage() {
             { name: "Buceo en pecios en España", path: "/guias/buceo-en-pecios-en-espana" },
           ]}
         />
-        <span className="eyebrow">BUCEO AVANZADO · PECIOS</span>
-        <h1>Buceo en pecios en España: grandes barcos hundidos y qué nivel necesitas</h1>
+        <span className="eyebrow">HISTORIA BAJO EL AGUA · PECIOS</span>
+        <h1>Buceo en pecios en España: los barcos hundidos más impresionantes de nuestras costas</h1>
         <p className="lead">
-          Con el paso de los años, los cascos sumergidos se transforman en arrecifes artificiales colonizados por <Link href="/fauna/congrio" className="text-link">congrios</Link>, <Link href="/fauna/morena" className="text-link">morenas</Link>, <Link href="/fauna/bogavante" className="text-link">bogavantes</Link>, <Link href="/fauna/anemona-joya" className="text-link">anémonas</Link> y bancos de peces pelágicos. Repasamos los pecios más representativos de España y las recomendaciones de seguridad para visitarlos.
+          Hay pocas sensaciones en el buceo comparables al momento en que vas bajando por el cabo del fondeo en el azul y, de pronto, empieza a dibujarse bajo tus aletas la silueta entera de un barco hundido convertido en un oasis de vida marina.
         </p>
 
         <div className="guide-article">
-          <h2>1. Tres pecios clásicos del Mediterráneo español</h2>
+          <h2>Los 3 grandes barcos hundidos que todo buceador quiere visitar en España</h2>
+          <p>
+            En mitad de un arenal submarino donde no hay ni una piedra, cualquier casco de acero funciona como un imán para la fauna: en cuestión de años los pasamanos se cubren de esponjas y <Link href="/fauna/anemona-joya" className="text-link">anémonas</Link>, las bodegas dan cobijo a enormes <Link href="/fauna/congrio" className="text-link">congrios</Link> y <Link href="/fauna/morena" className="text-link">morenas</Link>, y sobre la cubierta patrullan bancos de espetones y peces limón. Estos son los tres nombres propios del Mediterráneo español:
+          </p>
           <ul>
             <li>
-              <strong>El Naranjito (Isla Grosa, <Link href="/buceo/cabo-de-palos" className="text-link">Cabo de Palos, Murcia</Link>):</strong> carguero de unos 50 metros de eslora hundido en 1946 en posición de navegación entre los 28 metros de la superestructura y los 42–44 metros de la hélice. Es uno de los pecios más fotogénicos y visitados de España por la concentración de vida en su cubierta.
+              <strong>El Naranjito (<Link href="/buceo/cabo-de-palos" className="text-link">Cabo de Palos, Murcia</Link>):</strong> su nombre real era <em>Isla de la Gomera</em>, un mercante de 51 metros que se hundió en 1946 tras desplazarse su carga de naranjas en pleno temporal. Descansa completamente derecho sobre el fondo de arena, como si siguiera navegando, entre los 28 metros del puente y los 43 metros de su hélice.
             </li>
             <li>
-              <strong>El Boreas (<Link href="/buceo/palamos" className="text-link">Palamós, Costa Brava</Link>):</strong> antiguo remolcador de unos 40 metros de eslora hundido en 1989 como arrecife artificial sobre fondo de arena entre los 20 y los 32 metros de profundidad. Su menor cota máxima lo convierte en una introducción ideal al buceo en barcos hundidos para buceadores con titulación avanzada.
+              <strong>El Boreas (<Link href="/buceo/palamos" className="text-link">Palamós, Costa Brava</Link>):</strong> un remolcador alemán de la Segunda Guerra Mundial de 40 metros que fue hundido en 1989 para crear un arrecife artificial. Al estar entre los 20 y los 32 metros de profundidad máxima, es el pecio ideal para estrenarse en barcos hundidos sin rozar los límites del buceo recreativo.
             </li>
             <li>
-              <strong>El Don Pedro (<Link href="/buceo/ibiza" className="text-link">Ibiza, Baleares</Link>):</strong> buque mercante de más de 140 metros de eslora hundido en 2007 a la salida del puerto de Ibiza. Descansa sobre su costado de babor entre los 26 y los 47 metros de profundidad, siendo uno de los mayores pecios accesibles al buceo recreativo avanzado y técnico en el Mediterráneo.
+              <strong>El Don Pedro (<Link href="/buceo/ibiza" className="text-link">Ibiza, Baleares</Link>):</strong> un coloso mercante de 142 metros de eslora hundido en 2007 a pocos minutos de la bocana del puerto de Ibiza. Sus dimensiones impresionan: el costado superior arranca a 26 metros y el fondo de arena llega a los 47 metros.
             </li>
           </ul>
 
           {wreckSites.length > 0 && (
             <>
-              <h2>Puntos de pecio registrados en el mapa de Atlas</h2>
+              <h2>Puntos de inmersión en pecios de nuestro catálogo</h2>
               <div className="cards-grid" style={{ margin: "1.5rem 0 2.5rem" }}>
                 {wreckSites.map((site) => (
                   <SiteCard key={site.id} site={site} />
@@ -76,32 +79,35 @@ export default function WreckDivingSpainPage() {
             </>
           )}
 
-          <h2>2. ¿Qué certificación y equipo se requiere para bucear en pecios?</h2>
+          <div className="editorial-tip">
+            <p>
+              🔦 <strong>Por qué llevar siempre linterna (y Nitrox) a un pecio:</strong> a 30 metros de profundidad la luz solar ya ha perdido todos los tonos rojos y naranjas; en cuanto enciendes tu foco apuntando al interior de una ventana del puente o debajo de la hélice, el hierro gris se vuelve un espectáculo de colores vivos. Y si tienes la especialidad de <strong>Nitrox (EAN32)</strong>, ganarás unos minutos valiosísimos de tiempo sin descompresión para recorrer el barco sin prisas.
+            </p>
+          </div>
+
+          <h2>Qué título y experiencia te van a pedir en el centro</h2>
           <p>
-            La mayoría de los pecios españoles se encuentran por debajo de los 24 metros de profundidad:
+            Aunque en costas como <Link href="/buceo/tarragona" className="text-link">Tarragona</Link> (la <em>Dragonera</em> en el Parque Subacuático de la Escollera) o en <Link href="/buceo/lanzarote" className="text-link">los barcos de Puerto del Carmen en Lanzarote</Link> hay restos a menos de 20 metros aptos para un Open Water con soltura, la mayoría de los grandes pecios españoles descansan por debajo de los 25 metros:
           </p>
           <ul>
             <li>
-              <strong>Certificación mínima:</strong> para la gran mayoría se exige nivel <strong>Advanced Open Water Diver</strong> (hasta 30 m) o la especialidad de <strong>Buceo Profundo</strong> (hasta 40 m), además de experiencia reciente acreditada en el cuaderno de bitácora.
+              <strong>Titulación Advanced Open Water (o equivalente 2 Estrellas):</strong> imprescindible para bajar hasta los 30 metros y recorrer las cubiertas principales del <em>Boreas</em> o del <em>Naranjito</em>.
             </li>
             <li>
-              <strong>Uso de Nitrox (EANx):</strong> muy recomendable en pecios situados entre los 25 y los 35 metros para ampliar el tiempo límite sin descompresión manteniendo la máxima presión parcial de oxígeno dentro de los márgenes seguros.
+              <strong>Especialidad de Buceo Profundo (Deep Diver):</strong> necesaria para aquellos perfiles que se acercan a los 35–40 metros.
             </li>
             <li>
-              <strong>Equipamiento esencial:</strong> <Link href="/guias/que-equipo-necesito-para-empezar-a-bucear" className="text-link">ordenador de buceo</Link>, foco o linterna subacuática (para iluminar bodegas exteriores, puentes y restituir el color rojo de la fauna incrustante) y boya de señalización de superficie (SMB).
-            </li>
-            <li>
-              <strong>Regla de oro sobre penetración:</strong> nunca te adentres en espacios cerrados sin salida vertical directa (<em>overhead environment</em>) a menos que cuentes con formación específica en pecios/técnico, carrete guía y redundancia de gas e iluminación.
+              <strong>Respeto a los espacios cerrados:</strong> en buceo recreativo los pecios se recorren por el exterior o por pasos amplios y abiertos con luz natural; nunca entres en salas de máquinas ni pasillos cerrados sin techo libre a menos que tengas formación específica de penetración en pecios y carrete guía.
             </li>
           </ul>
 
           <div className="cta-section" style={{ paddingBottom: 0 }}>
             <div className="cta-panel">
               <div>
-                <span className="eyebrow">INMERSIONES EN PECIOS</span>
-                <h2>Explora salidas y especialidades de pecios en España</h2>
+                <span className="eyebrow">INMERSIONES PARA TITULADOS</span>
+                <h2>Reserva tu salida a pecios en España</h2>
                 <p>
-                  Consulta las actividades catalogadas de tipo Pecio o contacta con las escuelas de Cabo de Palos, Costa Brava, Baleares y Canarias.
+                  Consulta las inmersiones guiadas en barcos hundidos y los centros que operan en cada zona.
                 </p>
               </div>
               <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
@@ -109,7 +115,7 @@ export default function WreckDivingSpainPage() {
                   Ver salidas a pecios →
                 </Link>
                 <Link className="button button-ghost" href="/centros">
-                  Directorio de escuelas
+                  Directorio de centros
                 </Link>
               </div>
             </div>

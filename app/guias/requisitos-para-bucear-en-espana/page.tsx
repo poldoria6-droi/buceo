@@ -26,7 +26,7 @@ export default function DivingRequirementsSpainPage() {
       "Todo lo que debes tener en cuenta antes de una inmersión en España: edad mínima orientativa, cuestionario médico, seguro de buceo e intervalo antes de tomar un avión.",
     path: "/guias/requisitos-para-bucear-en-espana",
     datePublished: "2026-10-18",
-    dateModified: "2026-10-18",
+    dateModified: "2026-10-27",
   });
 
   return (
@@ -42,79 +42,99 @@ export default function DivingRequirementsSpainPage() {
             { name: "Requisitos para bucear en España", path: "/guias/requisitos-para-bucear-en-espana" },
           ]}
         />
-        <span className="eyebrow">SEGURIDAD Y NORMATIVA · ESPAÑA</span>
-        <h1>Requisitos para bucear en España: edad, salud, seguro y vuelos</h1>
+        <span className="eyebrow">NORMATIVA Y SEGURIDAD PRÁCTICA</span>
+        <h1>Requisitos para bucear en España: edad, seguro, salud y vuelos</h1>
         <p className="lead">
-          Antes de reservar un <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">bautismo de buceo</Link>, un curso Open Water o una salida para buceadores titulados en España, es importante conocer los requisitos de edad, aptitud médica, seguro obligatorio y planificación de vuelos.
+          No hace falta ser un atleta para disfrutar debajo del agua, pero el submarinismo tiene cuatro reglas básicas que cualquier centro de España te va a pedir cumplir antes de subir al barco. Te las explicamos de forma clara para que no te lleves sorpresas al llegar al puerto.
         </p>
 
         <div className="guide-article">
-          <h2>1. Edad mínima orientativa</h2>
+          <h2>¿A partir de qué edad pueden bucear los niños en España?</h2>
           <p>
-            En España, la edad mínima depende del tipo de actividad, de los estándares de la certificadora y de la normativa autonómica aplicable en cada comunidad:
+            Depende tanto de las certificadoras internacionales como de la normativa de cada comunidad autónoma, pero la regla general que encontrarás en los centros españoles es muy clara:
           </p>
           <ul>
             <li>
-              <strong>Bautismos e iniciación en aguas confinadas/someras:</strong> la mayoría de los centros admiten participantes a partir de los <strong>8 o 10 años</strong> (con límite de profundidad reducido), siempre con autorización firmada por madre, padre o tutor legal.
+              <strong>Desde los 8 o 10 años:</strong> ya pueden hacer su primer <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">bautismo de buceo</Link> en calas tranquilas o piscinas a muy poca profundidad (máximo 5–6 metros para los más pequeños), siempre con autorización firmada por padre, madre o tutor.
             </li>
             <li>
-              <strong>Cursos Junior Open Water Diver:</strong> habitualmente disponibles entre los <strong>10 y los 14 años</strong>, con límites de profundidad máxima específicos (12 m para 10–11 años) y obligación de bucear acompañados por un profesional o adulto certificado.
+              <strong>De 10 a 14 años (Junior Open Water):</strong> pueden sacarse el curso oficial con el mismo temario que un adulto, pero con la profundidad máxima limitada (12 metros hasta los 11 años) y acompañados de un adulto titulado o un profesional.
             </li>
             <li>
-              <strong>Open Water Diver estándar:</strong> a partir de los <strong>15 años</strong> (hasta 18 m).
+              <strong>Desde los 15 años:</strong> obtienen directamente el carnet <strong>Open Water Diver</strong> estándar hasta 18 metros.
             </li>
           </ul>
           <p>
-            Revisa siempre la edad mínima indicada en la ficha de cada oferta en nuestro <Link href="/actividades" className="text-link">buscador de actividades</Link>, ya que algunos centros establecen sus propios límites operativos según las condiciones de su zona.
+            Si viajas en familia, mira siempre la ficha de la actividad en nuestro <Link href="/actividades" className="text-link">buscador de experiencias</Link>, donde indicamos la edad mínima exacta que pide cada escuela.
           </p>
 
-          <h2>2. Declaración de salud y reconocimiento médico</h2>
+          <h2>El cuestionario médico: ¿hace falta ir al médico antes?</h2>
           <p>
-            El buceo autónomo implica respirar aire comprimido sometido a cambios de presión ambiental. En España, las normas de seguridad para el ejercicio de actividades subacuáticas (Real Decreto 550/2020) regulan la declaración responsable sobre el estado de salud y los supuestos en los que se requiere examen médico:
+            Desde que entró en vigor la normativa actual de seguridad subacuática en España (Real Decreto 550/2020), ya no es obligatorio que todo el mundo lleve un reconocimiento médico en papel para hacer un bautismo o un curso recreativo si está sano:
           </p>
           <ul>
-            <li>Antes de cualquier bautismo o curso, rellenarás un <strong>cuestionario médico estandarizado</strong>.</li>
-            <li>Si respondes «No» a todas las preguntas de historial clínico (problemas cardíacos, pulmonares, cirugías recientes, otitis o sinusitis activa, epilepsia, embarazo, etc.), normalmente basta con tu declaración firmada.</li>
-            <li>Si marcas «Sí» en algún punto relevante o vas a realizar determinadas formaciones, deberás aportar un <strong>certificado médico de aptitud para el buceo</strong> firmado por un facultativo. Nunca bucees congestionado: si no puedes compensar los oídos con facilidad en superficie, aplaza la inmersión.</li>
+            <li>
+              Al llegar al centro rellenarás una <strong>declaración responsable de salud</strong> de una página con preguntas sencillas (si tienes asma, problemas cardíacos o de oído, operaciones recientes, diabetes, etc.).
+            </li>
+            <li>
+              Si contestas <strong>«No» a todas las casillas</strong>, basta con tu firma y puedes ir directo al agua.
+            </li>
+            <li>
+              Si marcas <strong>«Sí» en alguna pregunta</strong>, por tu propia seguridad necesitarás llevar un certificado médico que confirme que eres «apto para el buceo autónomo».
+            </li>
           </ul>
 
-          <h2>3. Seguro de accidentes y responsabilidad civil</h2>
+          <div className="editorial-tip">
+            <p>
+              🤧 <strong>La regla de oro del resfriado:</strong> nunca bajes a bucear si ese día tienes un trancazo fuerte o congestión nasal, ni tomes descongestionantes justo antes de tirarte al agua (si se les pasa el efecto mientras estás a 12 metros, el aire tendrá problemas para salir al subir). Si tus oídos no compensan bien en tierra, cambia la fecha con el centro.
+            </p>
+          </div>
+
+          <h2>El seguro de buceo obligatorio: cuándo te lo incluye el centro y cuándo no</h2>
           <p>
-            Para bucear en España es <strong>obligatorio contar con un seguro en vigor</strong> que cubra asistencia sanitaria, cámara hiperbárica, rescate y responsabilidad civil:
+            En España es obligatorio por ley entrar al agua con un seguro que cubra rescate y cámara hiperbárica. Cómo se gestiona cambia según lo que vayas a hacer:
           </p>
           <ul>
-            <li><strong>En bautismos y cursos de iniciación:</strong> suele estar incluido en el precio de la actividad durante los días de formación (verifícalo en el apartado «Qué incluye» de cada oferta).</li>
-            <li><strong>En salidas sueltas para buceadores titulados (Fun Dives):</strong> debes presentar tu seguro anual, mensual o diario antes de embarcar; si no dispones de uno, el propio <Link href="/centros" className="text-link">centro de buceo</Link> puede tramitarte una póliza por días en el acto por unos 6–8 €.</li>
             <li>
-              <strong>En viajes de buceo en avión (Canarias, Baleares o internacional):</strong> si vuelas con tu propio equipo (regulador, ordenador o traje) o reservas varios días de inmersión, suele compensar un seguro de viaje que cubra pérdida o daño de equipaje deportivo, cancelación y buceo recreativo en una sola póliza, como{" "}
+              <strong>Si vas a hacer un bautismo o el curso Open Water:</strong> despreocúpate, porque el seguro de buceo durante la actividad <strong>viene incluido en el precio</strong> del centro.
+            </li>
+            <li>
+              <strong>Si ya tienes título y haces una salida suelta en tu costa:</strong> tienes que presentar tu seguro en recepción junto a tu carnet. Si no tienes póliza anual, el mismo <Link href="/centros" className="text-link">centro de buceo</Link> te saca en dos minutos un seguro para ese día (unos 6–8 €) o para todo el año (~40 €).
+            </li>
+            <li>
+              <strong>Si viajas en avión a bucear (Canarias, Baleares o el extranjero):</strong> cuando facturas maleta con tu equipo (regulador, ordenador, traje) o reservas un viaje de varios días, suele compensar mucho más un seguro de viaje que cubra a la vez vuelos, pérdida o rotura de equipaje deportivo y buceo recreativo, como{" "}
               <a
                 href={IATI_AFFILIATE_URL}
                 target="_blank"
                 rel="sponsored noopener noreferrer"
                 className="text-link"
               >
-                IATI Escapadas o IATI Mochilero (5 % de descuento desde aquí ↗)
+                IATI Escapadas o IATI Mochilero (con un 5 % de descuento desde nuestro enlace ↗)
               </a>
               .
             </li>
           </ul>
 
-          <h2>4. Tiempo de espera antes de volar en avión o subir puertos de montaña</h2>
+          <h2>Cuánto hay que esperar antes de coger un avión (o subir un puerto de montaña)</h2>
           <p>
-            Si viajas a destinos insulares como <Link href="/buceo/mallorca" className="text-link">Baleares</Link> o <Link href="/buceo/el-hierro" className="text-link">Canarias</Link> (o si después de bucear en Tenerife vas a subir en coche hacia el Teide), debes respetar un intervalo en superficie antes de exponerte a la menor presión atmosférica de una cabina de avión o de la alta montaña:
+            Mientras buceas, tu cuerpo absorbe una pequeña cantidad de nitrógeno que vas eliminando tranquilamente al respirar fuera del agua. Si subes a un avión pocas horas después de salir del mar (o si buceas en el sur de <Link href="/buceo/tenerife" className="text-link">Tenerife</Link> y esa misma tarde subes en coche al Teide a más de 2.000 metros), la bajada de presión atmosférica hace que ese nitrógeno forme microburbujas antes de tiempo.
           </p>
           <ul>
-            <li><strong>Tras una única inmersión sin descompresión (como un bautismo):</strong> las recomendaciones internacionales (DAN / UHMS) aconsejan un mínimo de <strong>12 horas</strong> de espera antes de volar, aunque muchas escuelas recomiendan dejar 18–24 horas por precaución.</li>
-            <li><strong>Tras inmersiones sucesivas o varios días seguidos de buceo (como un curso Open Water):</strong> debes esperar un mínimo de <strong>18 a 24 horas</strong> antes de tomar el vuelo de regreso. Planifica siempre tu último día de viaje en tierra firme.</li>
+            <li>
+              <strong>Después de un bautismo o una única inmersión sencilla:</strong> espera un mínimo de <strong>12 a 18 horas</strong> antes de volar.
+            </li>
+            <li>
+              <strong>Después de varios días buceando o de un curso Open Water:</strong> deja siempre <strong>24 horas libres</strong> entre tu última inmersión y el despegue del avión. Aprovecha tu último día en <Link href="/buceo/lanzarote" className="text-link">Lanzarote</Link>, <Link href="/buceo/el-hierro" className="text-link">El Hierro</Link> o <Link href="/buceo/menorca" className="text-link">Menorca</Link> para hacer turismo en tierra mientras tu equipo se seca al sol.
+            </li>
           </ul>
 
           <div className="cta-section" style={{ paddingBottom: 0 }}>
             <div className="cta-panel">
               <div>
-                <span className="eyebrow">PLANIFICA CON SEGURIDAD</span>
-                <h2>Consulta los requisitos de cada experiencia en Atlas</h2>
+                <span className="eyebrow">TODO LISTO PARA EL AGUA</span>
+                <h2>Consulta actividades y requisitos por destino</h2>
                 <p>
-                  En cada actividad indicamos el nivel requerido, la edad mínima y las condiciones publicadas por el proveedor.
+                  En cada ficha verás el nivel necesario, la edad mínima y qué incluye exactamente cada centro.
                 </p>
               </div>
               <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>

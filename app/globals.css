@@ -564,3 +564,127 @@ html, body {
 .activity-hero-price-summary span{font-size:.73rem;color:rgba(255,255,255,.78)}
 .booking-trust-list{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:5px;font-size:.78rem;color:rgba(255,255,255,.88)}
 .booking-trust-list li{line-height:1.35}
+
+
+/* === EDITORIAL ARTICLES & NOTICE CARDS FIX === */
+.notice-card p strong,
+.notice-card li strong,
+.notice-card h2 strong,
+.notice-card h3 strong {
+  display: inline !important;
+  margin-bottom: 0 !important;
+}
+.notice-card h2,
+.notice-card h3 {
+  margin: 0 0 8px !important;
+  font-size: 1.25rem !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.notice-card p + p {
+  margin-top: 10px;
+}
+.guide-article {
+  max-width: 860px;
+}
+.guide-article h2 {
+  margin-top: 2.6rem;
+  margin-bottom: 0.85rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.05rem);
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.guide-article h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.45rem;
+  font-size: 1.2rem;
+  color: var(--ink);
+}
+.guide-article p,
+.guide-article li {
+  color: #365060;
+  font-size: 1.04rem;
+  line-height: 1.72;
+}
+.guide-article p strong,
+.guide-article li strong {
+  color: var(--ink);
+}
+.guide-article table {
+  width: 100%;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border: 1px solid #d5e6ea;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(8, 45, 69, 0.05);
+  font-size: 0.95rem;
+}
+.guide-article thead tr {
+  background: linear-gradient(135deg, #07334e, #0c6e8d);
+  color: #fff;
+}
+.guide-article th {
+  padding: 14px 16px !important;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #fff !important;
+  border: 0 !important;
+}
+.guide-article td {
+  padding: 14px 16px !important;
+  border-bottom: 1px solid #e8f1f3 !important;
+  color: #365060;
+  vertical-align: top;
+}
+.guide-article tbody tr:last-child td {
+  border-bottom: 0 !important;
+}
+.guide-article tbody tr:nth-child(even) {
+  background: #f9fcfd;
+}
+.editorial-tip {
+  padding: 20px 24px;
+  border-left: 4px solid #0ca6c2;
+  background: linear-gradient(135deg, #f0fbfa, #f8fcfd);
+  border-radius: 0 16px 16px 0;
+  margin: 1.75rem 0;
+}
+.editorial-tip strong {
+  display: inline;
+  color: #063b54;
+}
+.editorial-tip p {
+  margin: 0;
+  font-size: 0.98rem !important;
+}
+.vs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 1.75rem 0 2.25rem;
+}
+.vs-card {
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 10px 26px rgba(8, 45, 69, 0.05);
+}
+.vs-card h3 {
+  margin: 6px 0 10px !important;
+  font-size: 1.35rem !important;
+}
+.vs-card ul {
+  margin: 0.75rem 0 0 !important;
+  padding-left: 1.15rem !important;
+}
+@media (max-width: 720px) {
+  .vs-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -240,95 +240,97 @@ export default async function DestinationPage({ params }: Props) {
 
             <h3>
               {destination.slug === "madrid"
-                ? `1. Cómo funcionan los cursos y bautismos de buceo en ${destination.name}`
-                : `1. Cómo son los fondos submarinos de ${destination.name} y qué nivel necesitas`}
+                ? `Cómo funcionan los cursos y bautismos de buceo en ${destination.name}`
+                : `Cómo son los fondos de ${destination.name} y qué nivel necesitas`}
             </h3>
             <p>
-              El entorno de <strong>{destination.name}</strong> ({destination.region}) se caracteriza por{" "}
-              {seoData.climate.marineEnvironment}. Tanto si buscas tu primera toma de contacto bajo el agua mediante un{" "}
+              El entorno de <strong>{destination.name}</strong> ({destination.region}) destaca por{" "}
+              {seoData.climate.marineEnvironment}. Tanto si te estrenas bajo el agua con un{" "}
               <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">
                 bautismo de buceo guiado
               </Link>{" "}
-              como si cuentas con titulación Open Water, Advanced o superior, encontrarás opciones adaptadas a tu experiencia en{" "}
+              como si ya tienes tu carnet Open Water o Advanced, tienes puntos muy variados en{" "}
               {sites.map((s) => s.name).slice(0, 3).join(", ")}.
             </p>
 
-            <h3>2. Precios de bautismos, cursos e inmersiones en {destination.name}</h3>
+            <h3>Precios de bautismos, cursos e inmersiones en {destination.name}</h3>
             <p>
-              Los precios de las actividades subacuáticas en {destination.name} varían según la modalidad, la duración y si incluyen el alquiler completo del equipo o las tasas de certificación oficial (<Link href="/guias/padi-vs-ssi-diferencias" className="text-link">PADI o SSI</Link>):
+              Lo que vas a pagar en {destination.name} depende sobre todo de si entras desde cala o en barco y de si necesitas alquilar el equipo completo o las tasas de certificación (<Link href="/guias/padi-vs-ssi-diferencias" className="text-link">PADI o SSI</Link>):
             </p>
             <div style={{ overflowX: "auto", margin: "1.25rem 0 1.75rem" }}>
-              <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left" }}>
+              <table>
                 <thead>
-                  <tr style={{ borderBottom: "2px solid var(--line, #cbd5e1)" }}>
-                    <th style={{ padding: "0.75rem" }}>Modalidad en {destination.name}</th>
-                    <th style={{ padding: "0.75rem" }}>Nivel requerido</th>
-                    <th style={{ padding: "0.75rem" }}>Precio orientativo</th>
+                  <tr>
+                    <th>Modalidad en {destination.name}</th>
+                    <th>Nivel</th>
+                    <th>Tarifa habitual</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                    <td style={{ padding: "0.75rem" }}><strong>Bautismo de buceo (Discover Scuba)</strong></td>
-                    <td style={{ padding: "0.75rem" }}>Sin experiencia previa (Inicial)</td>
-                    <td style={{ padding: "0.75rem" }}>
-                      {seoData.baptismFrom ? `Desde ${seoData.baptismFrom} €` : "Entre 60 € y 95 €"} (equipo e instructor incluidos)
+                  <tr>
+                    <td><strong>Bautismo de buceo</strong></td>
+                    <td>Sin experiencia previa</td>
+                    <td>
+                      {seoData.baptismFrom ? `Desde ${seoData.baptismFrom} €` : "Entre 60 € y 95 €"} (equipo y seguro incluidos)
                     </td>
                   </tr>
-                  <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                    <td style={{ padding: "0.75rem" }}><strong>Salidas e inmersiones guiadas</strong></td>
-                    <td style={{ padding: "0.75rem" }}>Buceadores titulados (Open Water / Advanced)</td>
-                    <td style={{ padding: "0.75rem" }}>
-                      {seoData.diveFrom ? `Desde ${seoData.diveFrom} €` : "Entre 38 € y 65 €"} (según número de inmersiones y equipo)
+                  <tr>
+                    <td><strong>Salidas guiadas (Fun Dive)</strong></td>
+                    <td>Con carnet (Open Water / Advanced)</td>
+                    <td>
+                      {seoData.diveFrom ? `Desde ${seoData.diveFrom} €` : "Entre 38 € y 65 €"} (según barco y alquiler de equipo)
                     </td>
                   </tr>
-                  <tr style={{ borderBottom: "1px solid var(--line, #e2e8f0)" }}>
-                    <td style={{ padding: "0.75rem" }}><strong>Cursos de certificación (Open Water / Especialidades)</strong></td>
-                    <td style={{ padding: "0.75rem" }}>Inicial o progresión técnica</td>
-                    <td style={{ padding: "0.75rem" }}>
-                      {seoData.courseFrom ? `Desde ${seoData.courseFrom} €` : "Entre 350 € y 490 €"} (teoría, prácticas y certificación)
+                  <tr>
+                    <td><strong>Curso Open Water / Avanzado</strong></td>
+                    <td>Iniciación o subida de nivel</td>
+                    <td>
+                      {seoData.courseFrom ? `Desde ${seoData.courseFrom} €` : "Entre 350 € y 490 €"} (teoría, prácticas y título)
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <h3>3. Mejor época para bucear en {destination.name} y temperatura del agua</h3>
+            <h3>Cuándo ir a bucear a {destination.name} y temperatura del agua</h3>
             <ul>
               <li>
-                <strong>Temporada recomendada:</strong> {seoData.climate.bestMonths}.
+                <strong>Mejores meses:</strong> {seoData.climate.bestMonths}.
               </li>
               <li>
-                <strong>Temperatura del agua:</strong> entre <strong>{seoData.climate.waterTempWinter}</strong> en invierno/primavera y <strong>{seoData.climate.waterTempSummer}</strong> en los meses cálidos.
+                <strong>Temperatura del agua:</strong> entre <strong>{seoData.climate.waterTempWinter}</strong> en los meses más frescos y <strong>{seoData.climate.waterTempSummer}</strong> en verano y principio de otoño.
               </li>
               <li>
-                <strong>Protección térmica habitual:</strong> {seoData.climate.wetsuitAdvice}
+                <strong>Neopreno recomendado:</strong> {seoData.climate.wetsuitAdvice}
               </li>
             </ul>
             <p>
-              👉 Consulta también nuestro{" "}
+              👉 Puedes ver la comparativa mes a mes en nuestro{" "}
               <Link href="/guias/mejor-epoca-para-bucear-en-espana" className="text-link">
-                calendario anual de temperatura del agua en España →
+                calendario de temperatura del agua en España →
               </Link>
             </p>
             {(destCommunity === "Canarias" || destCommunity === "Baleares") && (
-              <p>
-                ✈️ <strong>Consejo si viajas en avión a bucear en {destination.name}:</strong> deja un mínimo de 18–24 h de intervalo en superficie tras tu última inmersión antes del vuelo de regreso. Para una inmersión suelta puedes tramitar el seguro diario directamente en el centro de buceo, pero si vuelas con tu propio equipo o quieres cubrir vuelos, equipaje deportivo y actividades subacuáticas en una sola póliza, puedes consultar{" "}
-                <a
-                  href={IATI_AFFILIATE_URL}
-                  target="_blank"
-                  rel="sponsored noopener noreferrer"
-                  className="text-link"
-                >
-                  IATI Seguros con un 5 % de descuento ↗
-                </a>
-                .
-              </p>
+              <div className="editorial-tip">
+                <p>
+                  ✈️ <strong>Si vuelas a {destination.name} para bucear:</strong> deja al menos 18–24 h sin bucear antes de tu vuelo de regreso. Si vas a hacer una sola salida suelta puedes sacarte el seguro diario en el propio centro, pero si viajas en avión con tu equipo o quieres llevar cubiertos vuelos, equipaje deportivo y buceo en una misma póliza, tienes un{" "}
+                  <a
+                    href={IATI_AFFILIATE_URL}
+                    target="_blank"
+                    rel="sponsored noopener noreferrer"
+                    className="text-link"
+                  >
+                    5 % de descuento en IATI Seguros desde aquí ↗
+                  </a>
+                  .
+                </p>
+              </div>
             )}
 
             <h3>
               {destination.slug === "madrid"
-                ? `4. Inmersiones en mar abierto y fauna marina en las salidas desde ${destination.name}`
-                : `4. Biodiversidad y fauna marina habitual en ${destination.name}`}
+                ? `Salidas a mar abierto y vida marina desde ${destination.name}`
+                : `Qué vida marina vas a ver bajo el agua en ${destination.name}`}
             </h3>
             <p>
               {destination.slug === "madrid" ? (
