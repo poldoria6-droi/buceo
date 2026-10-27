@@ -7,6 +7,7 @@ import { guides } from "@/data/guides";
 import { SiteCard } from "@/components/SiteCard";
 import { SpeciesCard } from "@/components/SpeciesCard";
 import { BookingOptions } from "@/components/BookingOptions";
+import { buildActivityCardSummary } from "@/lib/activity-filters";
 
 const FEATURED_ACTIVITY_SLUGS = [
   "bautismo-de-buceo-en-lanzarote-2-horas-y-30-min-37276",
@@ -151,10 +152,7 @@ export default function HomePage() {
                 <h3>
                   <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                 </h3>
-                <p>
-                  Nivel {activity.level}
-                  {activity.duration && activity.duration !== "Consultar disponibilidad" ? ` · ${activity.duration}` : ""}
-                </p>
+                <p>{buildActivityCardSummary(activity)}</p>
                 <Link className="text-link" href={`/actividades/${activity.slug}`}>
                   Ver qué incluye y requisitos →
                 </Link>

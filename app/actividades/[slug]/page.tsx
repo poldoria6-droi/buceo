@@ -8,7 +8,7 @@ import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedO
 import { notFound } from "next/navigation";
 import { activities } from "@/data/activities";
 import { diveSites } from "@/data/dive-sites";
-import { communityFor } from "@/lib/activity-filters";
+import { buildActivityCardSummary, buildActivitySummary, communityFor } from "@/lib/activity-filters";
 import {
   getDestinationsForActivity,
   getGuidesForActivity,
@@ -45,34 +45,6 @@ function humanizeFact(fact: { label: string; value: string }): { label: string; 
   return { label, value };
 }
 
-function buildHumanSummary(
-  activity: (typeof activities)[number],
-  centerName?: string
-): string {
-  if (
-    activity.notes &&
-    !/^Experiencia de buceo disponible|^Actividad organizada por /i.test(activity.notes)
-  ) {
-    return activity.notes;
-  }
-  const byCenter = centerName ? ` con el equipo de ${centerName}` : "";
-  const hasRealDuration = activity.duration && activity.duration !== "Consultar disponibilidad";
-  const durText = hasRealDuration ? ` Tiene una duración aproximada de ${activity.duration.toLowerCase()}.` : "";
-
-  if (activity.type === "Bautismo") {
-    return `Primera toma de contacto con el buceo en ${activity.destination} (${activity.region})${byCenter}. Comienza con una explicación práctica fuera del agua y continúa con una inmersión guiada a poca profundidad, pensada para disfrutar del fondo marino con calma y sin necesidad de experiencia previa.${durText}`;
-  }
-  if (activity.type === "Curso") {
-    return `Formación práctica y teórica en ${activity.destination} (${activity.region})${byCenter} para aprender o perfeccionar tus técnicas de inmersión y obtener tu certificación.${durText}`;
-  }
-  if (activity.type === "Snorkel") {
-    return `Recorrido guiado de snorkel en aguas de ${activity.destination} (${activity.region})${byCenter}, ideal para observar la vida marina desde superficie sin necesidad de titulación previa.${durText}`;
-  }
-  if (activity.type === "Pecio") {
-    return `Salida de inmersión en ${activity.destination} (${activity.region})${byCenter} orientada a buceadores acreditados que buscan explorar fondos profundos o barcos hundidos de la zona.${durText}`;
-  }
-  return `Salida de inmersión guiada en ${activity.destination} (${activity.region})${byCenter} para descubrir los fondos y la vida marina de la zona.${durText}`;
-}
 // se desambiguan con la referencia interna para que cada URL tenga un <title> único.
 const titleCounts = activities.reduce<Record<string, number>>((acc, item) => {
   acc[item.title] = (acc[item.title] || 0) + 1;
@@ -156,7 +128,10 @@ export default async function ActivityPage({ params }: Props) {
               {activity.type} · {activity.destination} ({activity.region})
             </span>
             <h1>{activity.title}</h1>
-            <div className="activity-detail-badges" style={{ marginTop: "1rem" }}>
+            <p className="lead" style={{ marginTop: "0.75rem", marginBottom: "1rem" }}>
+              {buildActivitySummary(activity, center?.name)}
+            </p>
+            <div className="activity-detail-badges">
               <span>Nivel {activity.level}</span>
               {activity.duration && activity.duration !== "Consultar disponibilidad" && (
                 <span>{activity.duration}</span>
@@ -184,11 +159,6 @@ export default async function ActivityPage({ params }: Props) {
 
         <div className="activity-detail-grid">
           <div className="activity-detail-main">
-            <section className="notice-card">
-              <h2>Descripción de la experiencia</h2>
-              <p>{buildHumanSummary(activity, center?.name)}</p>
-            </section>
-
             {center && (
               <section className="notice-card" aria-label="Centro organizador">
                 <h2>Escuela o centro organizador</h2>
@@ -332,10 +302,7 @@ export default async function ActivityPage({ params }: Props) {
                       <h3>
                         <Link href={`/actividades/${rel.slug}`}>{rel.title}</Link>
                       </h3>
-                      <p>
-                        Nivel {rel.level}
-                        {rel.duration && rel.duration !== "Consultar disponibilidad" ? ` · ${rel.duration}` : ""}
-                      </p>
+                      <p>{buildActivityCardSummary(rel)}</p>
                       <Link className="text-link" href={`/actividades/${rel.slug}`}>
                         Ver detalles y qué incluye →
                       </Link>

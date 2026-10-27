@@ -7,6 +7,7 @@ import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildSpeciesJsonLd } from "@/lib/seo";
 import { getDestinationForOccurrence, rotateSlice } from "@/lib/internal-links";
+import { buildActivityCardSummary } from "@/lib/activity-filters";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -189,10 +190,7 @@ export default async function SpeciesPage({ params }: Props) {
                   <h3>
                     <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                   </h3>
-                  <p>
-                    Nivel {activity.level}
-                    {activity.duration && activity.duration !== "Consultar disponibilidad" ? ` · ${activity.duration}` : ""}
-                  </p>
+                  <p>{buildActivityCardSummary(activity)}</p>
                   <Link className="text-link" href={`/actividades/${activity.slug}`}>
                     Ver ficha de la actividad →
                   </Link>

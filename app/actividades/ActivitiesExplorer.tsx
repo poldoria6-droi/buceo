@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { formatOfferPrice, getLowestPricedOffer } from "@/lib/affiliate";
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
-import { communityFor, destinationsFor } from "@/lib/activity-filters";
+import { buildActivityCardSummary, communityFor, destinationsFor } from "@/lib/activity-filters";
 import type { Species } from "@/data/species";
 import type { SlimActivity, SlimSite } from "@/lib/slim";
 
@@ -410,6 +410,9 @@ export function ActivitiesExplorer({
                         {a.destination} · {site?.name || a.region} · Nivel {a.level.toLowerCase()}
                         {hasRealDuration ? ` · ${a.duration}` : ""}
                       </small>
+                      <small style={{ color: "#3d5662", marginTop: "2px" }}>
+                        {buildActivityCardSummary(a)}
+                      </small>
                       <span className="result-price">
                         {lowest ? (
                           <>
@@ -418,13 +421,6 @@ export function ActivitiesExplorer({
                           </>
                         ) : (
                           <b>Consultar precio</b>
-                        )}
-                      </span>
-                      <span className="activity-provider">
-                        {offers.length === 1 ? (
-                          <>✓ Reserva online · {offers[0].provider}</>
-                        ) : (
-                          <>✓ Disponible en: {offers.map((offer) => offer.provider).join(" · ")}</>
                         )}
                       </span>
                     </span>

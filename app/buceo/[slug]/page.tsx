@@ -9,7 +9,7 @@ import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildDestinationJsonLd } from "@/lib/seo";
 import { getDestinationSeoData } from "@/lib/destination-seo";
-import { communityFor } from "@/lib/activity-filters";
+import { buildActivityCardSummary, communityFor } from "@/lib/activity-filters";
 import { rotateSlice } from "@/lib/internal-links";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -161,10 +161,7 @@ export default async function DestinationPage({ params }: Props) {
                   <h3>
                     <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                   </h3>
-                  <p>
-                    Nivel {activity.level}
-                    {activity.duration && activity.duration !== "Consultar disponibilidad" ? ` · ${activity.duration}` : ""}
-                  </p>
+                  <p>{buildActivityCardSummary(activity)}</p>
                   <Link className="text-link" href={`/actividades/${activity.slug}`}>
                     Ver qué incluye y requisitos →
                   </Link>

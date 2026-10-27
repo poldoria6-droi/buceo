@@ -7,7 +7,7 @@ import { formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/
 import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildCenterJsonLd } from "@/lib/seo";
-import { communityFor } from "@/lib/activity-filters";
+import { buildActivityCardSummary, communityFor } from "@/lib/activity-filters";
 import { getDestinationsForCenter, rotateSlice } from "@/lib/internal-links";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -122,10 +122,7 @@ export default async function CenterPage({ params }: Props) {
                 <h3>
                   <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                 </h3>
-                <p>
-                  Nivel {activity.level}
-                  {activity.duration && activity.duration !== "Consultar disponibilidad" ? ` · ${activity.duration}` : ""}
-                </p>
+                <p>{buildActivityCardSummary(activity)}</p>
                 <Link className="text-link" href={`/actividades/${activity.slug}`}>
                   Ver ficha de la actividad →
                 </Link>
