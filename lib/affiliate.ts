@@ -86,3 +86,5 @@ export function formatPriceCheckedAt(value?: string) {
   }).format(parsed);
 }
 
+
+export const IATI_AFFILIATE_URL = "https://www.iatiseguros.com/?r=37531501737322";

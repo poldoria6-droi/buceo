@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildArticleJsonLd } from "@/lib/seo";
+import { IATI_AFFILIATE_URL } from "@/lib/affiliate";
 
 export const metadata = {
   title: "Requisitos para Bucear en España: Edad, Seguro y Descanso antes de Volar",
@@ -83,7 +84,19 @@ export default function DivingRequirementsSpainPage() {
           </p>
           <ul>
             <li><strong>En bautismos y cursos de iniciación:</strong> suele estar incluido en el precio de la actividad durante los días de formación (verifícalo en el apartado «Qué incluye» de cada oferta).</li>
-            <li><strong>En salidas para buceadores titulados (Fun Dives):</strong> debes presentar tu seguro anual, mensual o diario antes de embarcar; si no dispones de uno, la propia <Link href="/centros" className="text-link">escuela de buceo</Link> puede tramitarte una póliza temporal en el acto por pocos euros.</li>
+            <li><strong>En salidas sueltas para buceadores titulados (Fun Dives):</strong> debes presentar tu seguro anual, mensual o diario antes de embarcar; si no dispones de uno, el propio <Link href="/centros" className="text-link">centro de buceo</Link> puede tramitarte una póliza por días en el acto por unos 6–8 €.</li>
+            <li>
+              <strong>En viajes de buceo en avión (Canarias, Baleares o internacional):</strong> si vuelas con tu propio equipo (regulador, ordenador o traje) o reservas varios días de inmersión, suele compensar un seguro de viaje que cubra pérdida o daño de equipaje deportivo, cancelación y buceo recreativo en una sola póliza, como{" "}
+              <a
+                href={IATI_AFFILIATE_URL}
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className="text-link"
+              >
+                IATI Escapadas o IATI Mochilero (5 % de descuento desde aquí ↗)
+              </a>
+              .
+            </li>
           </ul>
 
           <h2>4. Tiempo de espera antes de volar en avión o subir puertos de montaña</h2>

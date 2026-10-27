@@ -10,6 +10,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildDestinationJsonLd } from "@/lib/seo";
 import { getDestinationSeoData } from "@/lib/destination-seo";
 import { buildActivityCardSummary, communityFor } from "@/lib/activity-filters";
+import { IATI_AFFILIATE_URL } from "@/lib/affiliate";
 import { rotateSlice } from "@/lib/internal-links";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -309,6 +310,20 @@ export default async function DestinationPage({ params }: Props) {
                 calendario anual de temperatura del agua en España →
               </Link>
             </p>
+            {(destCommunity === "Canarias" || destCommunity === "Baleares") && (
+              <p>
+                ✈️ <strong>Consejo si viajas en avión a bucear en {destination.name}:</strong> deja un mínimo de 18–24 h de intervalo en superficie tras tu última inmersión antes del vuelo de regreso. Para una inmersión suelta puedes tramitar el seguro diario directamente en el centro de buceo, pero si vuelas con tu propio equipo o quieres cubrir vuelos, equipaje deportivo y actividades subacuáticas en una sola póliza, puedes consultar{" "}
+                <a
+                  href={IATI_AFFILIATE_URL}
+                  target="_blank"
+                  rel="sponsored noopener noreferrer"
+                  className="text-link"
+                >
+                  IATI Seguros con un 5 % de descuento ↗
+                </a>
+                .
+              </p>
+            )}
 
             <h3>
               {destination.slug === "madrid"
