@@ -50,11 +50,11 @@ export default function DestinationsPage() {
       <div className="container">
         <Breadcrumbs items={[{ name: "Destinos", path: "/destinos" }]} />
         <span className="eyebrow">
-          GUÍA DE DESTINOS EN ESPAÑA ({destinations.length} ZONAS)
+          85 ZONAS DE INMERSIÓN EN ESPAÑA
         </span>
-        <h1>Destinos y provincias donde bucear en España</h1>
+        <h1>Dónde bucear en España: costas, islas y reservas marinas</h1>
         <p className="lead" style={{ marginBottom: "1rem" }}>
-          Filtra por comunidad autónoma o busca tu destino, isla o provincia: cada guía reúne precios orientativos, bautismos, cursos PADI/SSI, escuelas verificadas, puntos de inmersión y fauna marina.
+          Recorre nuestras costas por comunidad autónoma o busca directamente tu próximo destino: en cada guía tienes cómo son sus fondos, la temperatura del agua, los centros de la zona y precios reales.
         </p>
 
         <DestinationsList items={enrichedItems} communities={communities} />

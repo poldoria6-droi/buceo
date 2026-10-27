@@ -567,6 +567,21 @@ html, body {
 
 
 /* === EDITORIAL ARTICLES & NOTICE CARDS FIX === */
+.activities-hero {
+  padding: 42px 0 28px !important;
+}
+.activities-hero h1,
+.destination-hero h1,
+.activity-detail-hero h1,
+.section h1 {
+  font-size: clamp(1.95rem, 3.2vw, 2.85rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -0.035em !important;
+  max-width: 780px;
+}
+.destination-hero {
+  padding: 46px 0 42px !important;
+}
 .notice-card p strong,
 .notice-card li strong,
 .notice-card h2 strong,

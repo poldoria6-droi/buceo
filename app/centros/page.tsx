@@ -33,10 +33,10 @@ export default function CentersPage() {
   return (
     <section className="section">
       <div className="container">
-        <span className="eyebrow">DIRECTORIO DE CENTROS Y ESCUELAS</span>
+        <span className="eyebrow">MÁS DE 210 CENTROS EN TODA LA COSTA</span>
         <h1>Centros y escuelas de buceo en España</h1>
         <p className="lead">
-          Encuentra escuelas de submarinismo por localidad o comunidad autónoma y consulta sus bautismos, cursos e inmersiones disponibles.
+          Busca por localidad o comunidad autónoma para conocer los centros de buceo de cada puerto, sus valoraciones y las salidas o cursos que organizan.
         </p>
         <CentersList items={items} />
       </div>

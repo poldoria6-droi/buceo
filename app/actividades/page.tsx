@@ -82,17 +82,13 @@ export default function ActivitiesPage() {
       <div className="container">
         <div className="activities-hero">
           <div>
-            <span className="eyebrow">COMPARADOR DE EXPERIENCIAS</span>
+            <span className="eyebrow">BAUTISMOS, CURSOS Y SALIDAS DE BUCEO</span>
             <h1>
-              Actividades y cursos de buceo<br />
-              <em>en toda España</em>
+              Elige tu próxima inmersión <em>en la costa española</em>
             </h1>
             <p>
-              Filtra por tipo de inmersión, comunidad autónoma, localidad o nivel. Compara precios desde, duración y centros organizadores, o explora los puntos en el mapa.
+              Desde tu primer bautismo en aguas tranquilas hasta el curso Open Water, salidas guiadas en barco o pecios. Filtra por zona o pulsa en el mapa para ver qué ofrece cada centro.
             </p>
-          </div>
-          <div className="activity-hero-icon" aria-hidden="true">
-            🤿
           </div>
         </div>
         <ActivitiesExplorer
