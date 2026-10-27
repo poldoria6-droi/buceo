@@ -1,46 +1,149 @@
 "use client";
 
-import { species } from "@/data/species";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
-import { useEffect, useMemo, useState, useTransition } from "react";
-import { useSearchParams } from "next/navigation";
-import type { DiveSite } from "@/data/dive-sites";
+import { formatOfferPrice, getLowestPricedOffer } from "@/lib/affiliate";
+import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { communityFor, destinationsFor } from "@/lib/activity-filters";
-import type { Activity } from "@/data/types";
+import type { Species } from "@/data/species";
+import type { SlimActivity, SlimSite } from "@/lib/slim";
 
+// Los mapas (Leaflet) y los datos de fauna solo se descargan cuando hacen falta.
 const ActivityMap = dynamic(() => import("@/app/actividades/ActivityMap"), { ssr: false });
 const SpeciesMap = dynamic(() => import("@/app/actividades/SpeciesMap"), { ssr: false });
 
 const PAGE_SIZE = 24;
 
+type PendingFocusWindow = Window & { __pendingFocusSite?: number };
+
+type ExplorerCatalog = {
+  activities: SlimActivity[];
+  sites: SlimSite[];
+  centerByActivity: Record<string, { name: string; slug: string }>;
+};
+
+let catalogPromise: Promise<ExplorerCatalog> | null = null;
+function fetchExplorerCatalog(): Promise<ExplorerCatalog> {
+  if (!catalogPromise) {
+    catalogPromise = fetch("/data/activities-explorer.json").then((res) => {
+      if (!res.ok) throw new Error("Failed to load catalog");
+      return res.json() as Promise<ExplorerCatalog>;
+    });
+  }
+  return catalogPromise;
+}
+
 type Props = {
-  activities: Activity[];
+  activities: SlimActivity[];
   centerByActivity?: Record<string, { name: string; slug: string }>;
-  sites: DiveSite[];
+  sites: SlimSite[];
+  totalCount?: number;
+  totalSitesCount?: number;
+  initialDestinations?: string[];
   regions: string[];
   types: string[];
   initial?: { type?: string; region?: string; destination?: string; level?: string; site?: string; species?: string };
 };
 
-export function ActivitiesExplorer({ activities, sites, regions, types, centerByActivity = {}, initial = {} }: Props) {
-  const searchParams = useSearchParams();
-  const initType = searchParams.get("type") || initial.type || "Todos";
-  const initRegion = searchParams.get("region") || initial.region || "Todos";
-  const initDestination = searchParams.get("destination") || initial.destination || "Todos";
-  const initSite = searchParams.get("site") || initial.site || "Todos";
-  const initLevel = searchParams.get("level") || initial.level || "Todos";
-  const initSpecies = searchParams.get("species") || initial.species;
+/**
+ * Monta el mapa solo cuando está cerca del viewport (o si se pide enfocar un punto),
+ * reservando la altura final para evitar saltos de maquetación (CLS).
+ */
+function MapSlot({ children, onVisible }: { children: React.ReactNode; onVisible?: () => void }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [show, setShow] = useState(false);
 
-  const speciesWithPoints = useMemo(() => species.filter((s) => s.occurrences.length > 0), []);
-  const totalSpeciesOccurrences = useMemo(
-    () => speciesWithPoints.reduce((acc, s) => acc + s.occurrences.length, 0),
-    [speciesWithPoints]
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const open = () => {
+      onVisible?.();
+      setShow(true);
+    };
+    window.addEventListener("focus-activity-site", open);
+    let io: IntersectionObserver | undefined;
+    if (typeof IntersectionObserver === "undefined") {
+      open();
+    } else {
+      io = new IntersectionObserver(
+        (entries) => {
+          if (entries.some((entry) => entry.isIntersecting)) {
+            open();
+            io?.disconnect();
+          }
+        },
+        { rootMargin: "400px 0px" }
+      );
+      io.observe(el);
+    }
+    return () => {
+      io?.disconnect();
+      window.removeEventListener("focus-activity-site", open);
+    };
+  }, [onVisible]);
+
+  return (
+    <div ref={ref}>
+      {show ? (
+        children
+      ) : (
+        <div className="leaflet-map activity-leaflet-map map-placeholder" role="status" aria-busy="true">
+          <span>Cargando mapa interactivo…</span>
+        </div>
+      )}
+    </div>
   );
+}
+
+export function ActivitiesExplorer({
+  activities: initialActivities,
+  sites: initialSites,
+  totalCount,
+  totalSitesCount,
+  initialDestinations,
+  regions,
+  types,
+  centerByActivity: initialCenters = {},
+  initial = {},
+}: Props) {
+  const initType = initial.type || "Todos";
+  const initRegion = initial.region || "Todos";
+  const initDestination = initial.destination || "Todos";
+  const initSite = initial.site || "Todos";
+  const initLevel = initial.level || "Todos";
+  const initSpecies = initial.species;
+
+  const [catalog, setCatalog] = useState<ExplorerCatalog>({
+    activities: initialActivities,
+    sites: initialSites,
+    centerByActivity: initialCenters,
+  });
+  const [fullCatalogLoaded, setFullCatalogLoaded] = useState(
+    !totalCount || initialActivities.length >= totalCount
+  );
+
+  const ensureCatalog = useCallback(() => {
+    if (fullCatalogLoaded) return Promise.resolve();
+    return fetchExplorerCatalog()
+      .then((data) => {
+        setCatalog(data);
+        setFullCatalogLoaded(true);
+      })
+      .catch(() => {});
+  }, [fullCatalogLoaded]);
+
+  const activities = catalog.activities;
+  const sites = catalog.sites;
+  const centerByActivity = catalog.centerByActivity;
+
+  const [speciesList, setSpeciesList] = useState<Species[]>([]);
   const [mapMode, setMapMode] = useState(initSpecies ? "species" : "experiences");
   const [speciesSlug, setSpeciesSlug] = useState(initSpecies || "all");
-  const selectedSpecies = speciesSlug === "all" ? undefined : species.find((s) => s.slug === speciesSlug);
+  const totalSpeciesOccurrences = useMemo(
+    () => speciesList.reduce((acc, s) => acc + s.occurrences.length, 0),
+    [speciesList]
+  );
+  const selectedSpecies = speciesSlug === "all" ? undefined : speciesList.find((s) => s.slug === speciesSlug);
 
   const [type, setType] = useState(initType);
   const [region, setRegion] = useState(communityFor(initRegion));
@@ -52,41 +155,89 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [, startTransition] = useTransition();
 
+  // Filtros iniciales desde la URL (#type=Bautismo&region=Canarias o ?type=...). Solo en cliente:
+  // así la página se pre-renderiza con contenido real y sin saltos de diseño.
   useEffect(() => {
-    const applyHashParams = () => {
-      if (typeof window === "undefined" || !window.location.hash) return;
+    const applyUrlParams = () => {
       const rawHash = window.location.hash.replace(/^#/, "");
-      if (!rawHash || rawHash === "mapa") return;
-      const hashParams = new URLSearchParams(rawHash);
-      const hType = hashParams.get("type");
-      const hRegion = hashParams.get("region");
-      const hDest = hashParams.get("destination");
-      const hSite = hashParams.get("site");
-      const hLevel = hashParams.get("level");
-      const hSpecies = hashParams.get("species");
+      const params = new URLSearchParams(window.location.search);
+      if (rawHash && rawHash !== "mapa") {
+        new URLSearchParams(rawHash).forEach((value, key) => params.set(key, value));
+      }
+      const hType = params.get("type");
+      const hRegion = params.get("region");
+      const hDest = params.get("destination");
+      const hSite = params.get("site");
+      const hLevel = params.get("level");
+      const hSpecies = params.get("species");
+      if (!hType && !hRegion && !hDest && !hSite && !hLevel && !hSpecies && !params.has("mapa")) return;
 
-      if (hType) setType(hType);
-      if (hRegion) setRegion(communityFor(hRegion));
-      if (hDest) setDestination(hDest);
-      if (hSite) setSiteSlug(hSite);
-      if (hLevel) setLevel(hLevel);
-      if (hSpecies) {
-        setMapMode("species");
-        setSpeciesSlug(hSpecies);
-      }
-      if (hashParams.has("mapa") || hSite || hSpecies) {
-        setTimeout(() => {
-          document.getElementById("mapa")?.scrollIntoView({ behavior: "smooth" });
-        }, 120);
-      }
+      ensureCatalog().then(() => {
+        if (hType) setType(hType);
+        if (hRegion) setRegion(communityFor(hRegion));
+        if (hDest) setDestination(hDest);
+        if (hSite) setSiteSlug(hSite);
+        if (hLevel) setLevel(hLevel);
+        if (hSpecies) {
+          setMapMode("species");
+          setSpeciesSlug(hSpecies);
+        }
+        if (params.has("mapa") || hSite || hSpecies) {
+          setTimeout(() => {
+            document.getElementById("mapa")?.scrollIntoView({ behavior: "smooth" });
+          }, 150);
+        }
+      });
     };
 
-    applyHashParams();
-    window.addEventListener("hashchange", applyHashParams);
-    return () => window.removeEventListener("hashchange", applyHashParams);
-  }, []);
+    applyUrlParams();
+    window.addEventListener("hashchange", applyUrlParams);
+    return () => window.removeEventListener("hashchange", applyUrlParams);
+  }, [ensureCatalog]);
 
-  const destinations = useMemo(() => destinationsFor(activities, region), [activities, region]);
+  // Carga el catálogo completo ante la primera interacción del usuario.
+  useEffect(() => {
+    if (fullCatalogLoaded) return;
+    const onInteract = () => {
+      ensureCatalog();
+    };
+    window.addEventListener("pointerdown", onInteract, { once: true, passive: true });
+    window.addEventListener("keydown", onInteract, { once: true, passive: true });
+    window.addEventListener("touchstart", onInteract, { once: true, passive: true });
+    window.addEventListener("scroll", onInteract, { once: true, passive: true });
+    return () => {
+      window.removeEventListener("pointerdown", onInteract);
+      window.removeEventListener("keydown", onInteract);
+      window.removeEventListener("touchstart", onInteract);
+      window.removeEventListener("scroll", onInteract);
+    };
+  }, [fullCatalogLoaded, ensureCatalog]);
+
+  // Datos de fauna: se cargan solo al abrir el modo "Registros de fauna".
+  useEffect(() => {
+    if (mapMode !== "species" || speciesList.length) return;
+    let alive = true;
+    import("@/data/species").then((mod) => {
+      if (alive) setSpeciesList(mod.species.filter((s) => s.occurrences.length > 0));
+    });
+    return () => {
+      alive = false;
+    };
+  }, [mapMode, speciesList.length]);
+
+  const isUnfiltered =
+    type === "Todos" &&
+    region === "Todos" &&
+    destination === "Todos" &&
+    siteSlug === "Todos" &&
+    level === "Todos";
+
+  const destinations = useMemo(() => {
+    if (!fullCatalogLoaded && region === "Todos" && initialDestinations?.length) {
+      return initialDestinations;
+    }
+    return destinationsFor(activities, region);
+  }, [activities, region, fullCatalogLoaded, initialDestinations]);
   const communities = useMemo(
     () => Array.from(new Set(regions.map(communityFor))).sort((a, b) => a.localeCompare(b, "es")),
     [regions]
@@ -106,14 +257,19 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
     [activities, type, region, destination, siteSlug, level]
   );
 
+  const displayTotalCount = !fullCatalogLoaded && isUnfiltered && totalCount ? totalCount : filtered.length;
   const visibleItems = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const filteredIds = useMemo(() => new Set(filtered.flatMap((a) => a.siteSlugs)), [filtered]);
   const matchingSites = useMemo(() => sites.filter((site) => filteredIds.has(site.slug)), [sites, filteredIds]);
+  const displaySitesCount =
+    !fullCatalogLoaded && isUnfiltered && totalSitesCount ? totalSitesCount : matchingSites.length;
 
   const updateFilter = (fn: () => void) => {
-    startTransition(() => {
-      fn();
-      setVisibleCount(PAGE_SIZE);
+    ensureCatalog().then(() => {
+      startTransition(() => {
+        fn();
+        setVisibleCount(PAGE_SIZE);
+      });
     });
   };
 
@@ -221,10 +377,10 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
           <div className="activity-results-heading">
             <div>
               <span className="eyebrow">RESULTADOS</span>
-              <h2>{filtered.length} experiencias</h2>
+              <h2>{displayTotalCount} experiencias</h2>
             </div>
             <a href="#mapa" className="activity-detail-link" style={{ whiteSpace: "nowrap" }}>
-              🗺️ Ver mapa ({matchingSites.length})
+              🗺️ Ver mapa ({displaySitesCount})
             </a>
           </div>
           <p className="activity-map-hint">
@@ -234,7 +390,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
             {visibleItems.map((a) => {
               const site = sites.find((s) => a.siteSlugs.includes(s.slug));
               const center = centerByActivity[a.slug];
-              const offers = getBookingOffers(a);
+              const offers = a.offers;
               const lowest = getLowestPricedOffer(offers);
               return (
                 <article key={a.id} className="activity-result-card">
@@ -287,6 +443,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
                         className="activity-detail-link"
                         onClick={() => {
                           setMapMode("experiences");
+                          (window as PendingFocusWindow).__pendingFocusSite = site.id;
                           window.dispatchEvent(new CustomEvent("focus-activity-site", { detail: site.id }));
                           document.getElementById("mapa")?.scrollIntoView({ behavior: "smooth" });
                         }}
@@ -300,7 +457,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
                     {offers.map((offer) => (
                       <a
                         key={offer.id}
-                        href={buildAffiliateUrl(offer)}
+                        href={offer.href}
                         target="_blank"
                         rel="sponsored noopener noreferrer"
                         className="activity-book-link"
@@ -316,20 +473,24 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
               );
             })}
 
-            {visibleCount < filtered.length && (
+            {visibleCount < displayTotalCount && (
               <div style={{ padding: "14px", textAlign: "center" }}>
                 <button
                   type="button"
                   className="button button-primary"
                   style={{ width: "100%" }}
-                  onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+                  onClick={() => {
+                    ensureCatalog().then(() => {
+                      setVisibleCount((c) => c + PAGE_SIZE);
+                    });
+                  }}
                 >
-                  Mostrar más experiencias ({filtered.length - visibleCount} restantes)
+                  Mostrar más experiencias ({displayTotalCount - visibleCount} restantes)
                 </button>
               </div>
             )}
 
-            {!filtered.length && (
+            {!displayTotalCount && (
               <div className="activity-empty">
                 <strong>No hay experiencias con estos filtros.</strong>
                 <span>Prueba otra combinación de actividad, región o nivel.</span>
@@ -355,12 +516,12 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
             >
               Registros de fauna
             </button>
-            {mapMode === "species" && (
+            {mapMode === "species" && speciesList.length > 0 && (
               <label>
                 Especie{" "}
                 <select value={speciesSlug} onChange={(e) => setSpeciesSlug(e.target.value)}>
                   <option value="all">Todas las especies ({totalSpeciesOccurrences})</option>
-                  {speciesWithPoints.map((s) => (
+                  {speciesList.map((s) => (
                     <option key={s.slug} value={s.slug}>
                       {s.name} ({s.occurrences.length})
                     </option>
@@ -370,10 +531,16 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
             )}
           </div>
           {mapMode === "experiences" ? (
-            <ActivityMap sites={matchingSites} activities={filtered} />
+            <MapSlot onVisible={ensureCatalog}>
+              <ActivityMap sites={matchingSites} activities={filtered} />
+            </MapSlot>
+          ) : speciesList.length === 0 ? (
+            <div className="leaflet-map activity-leaflet-map map-placeholder" role="status" aria-busy="true">
+              <span>Cargando registros de fauna…</span>
+            </div>
           ) : (
             <>
-              <SpeciesMap item={selectedSpecies} allSpecies={speciesWithPoints} />
+              <SpeciesMap item={selectedSpecies} allSpecies={speciesList} />
               <p className="data-note">
                 {selectedSpecies ? (
                   <>
@@ -382,7 +549,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
                   </>
                 ) : (
                   <>
-                    {totalSpeciesOccurrences} registros documentados en España de {speciesWithPoints.length} especies marinas.{" "}
+                    {totalSpeciesOccurrences} registros documentados en España de {speciesList.length} especies marinas.{" "}
                     <Link href="/fauna">Ver guía de fauna marina →</Link>
                   </>
                 )}
@@ -391,7 +558,7 @@ export function ActivitiesExplorer({ activities, sites, regions, types, centerBy
           )}
           {mapMode === "experiences" && (
             <div className="activity-map-caption">
-              <span>◉ {matchingSites.length} puntos de inmersión con actividades</span>
+              <span>◉ {displaySitesCount} puntos de inmersión con actividades</span>
               <span>Pulsa en un marcador para ver las opciones</span>
             </div>
           )}

@@ -537,3 +537,7 @@ html, body {
   }
 }
 
+
+/* Marcador de posición del mapa: reserva la altura final (sin saltos de diseño) mientras carga Leaflet */
+.map-placeholder{display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#d5edf0,#bfe3ea);color:#06485f;font-weight:600;font-size:.95rem}
+.guide-grid > :nth-child(n+7),.cards-grid > :nth-child(n+5),.activity-results-scroll > :nth-child(n+5){content-visibility:auto;contain-intrinsic-size:auto 240px}

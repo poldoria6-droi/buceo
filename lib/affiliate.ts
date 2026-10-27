@@ -53,13 +53,13 @@ export function buildAffiliateUrl(offer: BookingOffer) {
   }
 }
 
-export function getLowestPricedOffer(offers: BookingOffer[]) {
+export function getLowestPricedOffer<T extends { priceFrom?: number }>(offers: T[]): T | undefined {
   return offers
     .filter((offer) => typeof offer.priceFrom === "number" && offer.priceFrom >= 0)
     .sort((a, b) => (a.priceFrom ?? Infinity) - (b.priceFrom ?? Infinity))[0];
 }
 
-export function formatOfferPrice(offer: BookingOffer) {
+export function formatOfferPrice(offer: { priceFrom?: number; priceCurrency?: string }) {
   if (typeof offer.priceFrom !== "number") return "Precio por confirmar";
 
   const currency = offer.priceCurrency || "EUR";

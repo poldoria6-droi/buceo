@@ -1,5 +1,7 @@
-import { Suspense } from "react";
 import { CentersList } from "@/app/centros/CentersList";
+import { centers } from "@/data/centers";
+import { getCenterActivities } from "@/lib/centers";
+import type { SlimCenter } from "@/lib/slim";
 
 export const metadata = {
   title: "Escuelas y Centros de Buceo en España · Directorio y Cursos",
@@ -18,6 +20,16 @@ export const metadata = {
 };
 
 export default function CentersPage() {
+  // Solo los campos que muestra el listado (los datos completos viven en cada ficha).
+  const items: SlimCenter[] = centers.map((center) => ({
+    id: center.id,
+    slug: center.slug,
+    name: center.name,
+    location: center.location,
+    region: center.region,
+    count: getCenterActivities(center.id).length,
+  }));
+
   return (
     <section className="section">
       <div className="container">
@@ -26,9 +38,7 @@ export default function CentersPage() {
         <p className="lead">
           Encuentra escuelas de submarinismo por localidad o comunidad autónoma y consulta sus bautismos, cursos e inmersiones disponibles.
         </p>
-        <Suspense fallback={<p>Cargando directorio de centros de buceo...</p>}>
-          <CentersList />
-        </Suspense>
+        <CentersList items={items} />
       </div>
     </section>
   );

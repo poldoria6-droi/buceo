@@ -56,11 +56,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         />
       </head>
       <body>
-        <Script
-          src="https://www.yumping.com/afiliados/js/js_pa.min.js?v=11.38;"
-          data-partner-id={yumpingPartnerId}
-          strategy="beforeInteractive"
-        />
+        <Script id="yumping-pa-loader" strategy="lazyOnload">
+          {`(function(){var loaded=false;function load(){if(loaded)return;loaded=true;var s=document.createElement('script');s.src='https://www.yumping.com/afiliados/js/js_pa.min.js?v=11.38;';s.async=true;s.setAttribute('data-partner-id','${yumpingPartnerId}');document.body.appendChild(s);}['pointerdown','keydown','touchstart','scroll','mouseover'].forEach(function(e){window.addEventListener(e,load,{once:true,passive:true});});})();`}
+        </Script>
         <Header />
         <main>{children}</main>
         <Footer />

@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Suspense } from "react";
 import { FaunaList } from "@/app/fauna/FaunaList";
+import { species } from "@/data/species";
+import { toSpeciesCardData } from "@/components/SpeciesCard";
 
 export const metadata = {
   title: "Fauna Marina del Mediterráneo y España · Guía de Especies",
@@ -27,9 +28,7 @@ export default function FaunaPage() {
         <p className="lead">
           Identifica los peces, cefalópodos, crustáceos, corales y plantas marinas más representativos de nuestras costas y consulta cómo observarlos sin alterar su hábitat.
         </p>
-        <Suspense fallback={<p>Cargando catálogo de especies marinas...</p>}>
-          <FaunaList />
-        </Suspense>
+        <FaunaList species={species.map(toSpeciesCardData)} />
         <p className="data-note">
           La presencia de fauna salvaje varía según la época, la profundidad y las condiciones del mar; los registros documentados son orientativos y no garantizan el avistamiento durante una inmersión.
         </p>

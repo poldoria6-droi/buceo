@@ -1,26 +1,30 @@
 "use client";
 
-import { useState, useDeferredValue } from "react";
+import { useEffect, useState, useDeferredValue } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
-import { centers } from "@/data/centers";
-import { getCenterActivities } from "@/lib/centers";
+import type { SlimCenter } from "@/lib/slim";
 
-export function CentersList() {
-  const searchParams = useSearchParams();
-  const [query, setQuery] = useState(searchParams.get("q") || "");
+const normalize = (value: string) =>
+  value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+export function CentersList({ items }: { items: SlimCenter[] }) {
+  const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
 
-  const normalize = (value: string) =>
-    value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-  const q = deferredQuery.trim();
-  const matches = centers.filter((center) =>
-    normalize(`${center.name} ${center.location} ${center.region}`).includes(normalize(q))
-  );
+  // Búsqueda inicial desde ?q=... (solo cliente, para que la página se pre-renderice completa).
+  useEffect(() => {
+    const initial = new URLSearchParams(window.location.search).get("q");
+    if (initial) setQuery(initial);
+  }, []);
+
+  const q = normalize(deferredQuery.trim());
+  const matches = q
+    ? items.filter((center) => normalize(`${center.name} ${center.location} ${center.region}`).includes(q))
+    : items;
 
   return (
     <>
-      <form className="center-search" action="/centros" onSubmit={(e) => e.preventDefault()}>
+      <form className="center-search" action="/centros/" onSubmit={(e) => e.preventDefault()}>
         <label htmlFor="center-query">Centro, localidad o región</label>
         <input
           id="center-query"
@@ -39,23 +43,20 @@ export function CentersList() {
         <strong>{matches.length}</strong> centros y escuelas de buceo en el directorio.
       </p>
       <div className="guide-grid">
-        {matches.map((center) => {
-          const count = getCenterActivities(center.id).length;
-          return (
-            <article className="guide-card" key={center.id}>
-              <span className="eyebrow">
-                {center.location} · {center.region}
-              </span>
-              <h2>{center.name}</h2>
-              <p>
-                {count} {count === 1 ? "actividad vinculada" : "actividades vinculadas"}
-              </p>
-              <Link className="button button-primary" href={`/centros/${center.slug}`}>
-                Ver centro y actividades →
-              </Link>
-            </article>
-          );
-        })}
+        {matches.map((center) => (
+          <article className="guide-card" key={center.id}>
+            <span className="eyebrow">
+              {center.location} · {center.region}
+            </span>
+            <h2>{center.name}</h2>
+            <p>
+              {center.count} {center.count === 1 ? "actividad vinculada" : "actividades vinculadas"}
+            </p>
+            <Link className="button button-primary" href={`/centros/${center.slug}`}>
+              Ver centro y actividades →
+            </Link>
+          </article>
+        ))}
       </div>
       {!matches.length && (
         <p>

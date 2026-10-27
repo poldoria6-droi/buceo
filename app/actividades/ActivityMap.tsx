@@ -1,31 +1,56 @@
 "use client";
 
 import Link from "next/link";
-import { buildAffiliateUrl, formatOfferPrice, getBookingOffers } from "@/lib/affiliate";
+import { formatOfferPrice } from "@/lib/affiliate";
 import { useEffect, useRef, useMemo } from "react";
 import { CircleMarker, MapContainer, Popup, TileLayer, useMap } from "react-leaflet";
-import type { DiveSite } from "@/data/dive-sites";
-import type { Activity } from "@/data/types";
+import type { SlimActivity, SlimSite } from "@/lib/slim";
 import type { CircleMarker as LeafletCircleMarker } from "leaflet";
+
+type PendingFocusWindow = Window & { __pendingFocusSite?: number };
 
 function FocusController({ markerRefs }: { markerRefs: React.MutableRefObject<Record<number, LeafletCircleMarker | null>> }) {
   const map = useMap();
   useEffect(() => {
-    const handler = (event: Event) => {
-      const custom = event as CustomEvent<number>;
-      const marker = markerRefs.current[custom.detail];
+    const focusSite = (siteId: number) => {
+      const marker = markerRefs.current[siteId];
       if (marker) {
         map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), 9), { duration: 0.65 });
         marker.openPopup();
+        return true;
       }
+      return false;
+    };
+    const handler = (event: Event) => {
+      const custom = event as CustomEvent<number>;
+      focusSite(custom.detail);
     };
     window.addEventListener("focus-activity-site", handler);
-    return () => window.removeEventListener("focus-activity-site", handler);
+
+    // El mapa se monta bajo demanda: si el usuario pidió enfocar un punto antes de que existiera, se aplica ahora.
+    const pending = (window as PendingFocusWindow).__pendingFocusSite;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    if (typeof pending === "number") {
+      let attempts = 0;
+      const tryFocus = () => {
+        attempts += 1;
+        if (focusSite(pending) || attempts > 10) {
+          delete (window as PendingFocusWindow).__pendingFocusSite;
+        } else {
+          timer = setTimeout(tryFocus, 150);
+        }
+      };
+      timer = setTimeout(tryFocus, 150);
+    }
+    return () => {
+      window.removeEventListener("focus-activity-site", handler);
+      if (timer) clearTimeout(timer);
+    };
   }, [map, markerRefs]);
   return null;
 }
 
-export default function ActivityMap({ sites, activities }: { sites: DiveSite[]; activities: Activity[] }) {
+export default function ActivityMap({ sites, activities }: { sites: SlimSite[]; activities: SlimActivity[] }) {
   const markerRefs = useRef<Record<number, LeafletCircleMarker | null>>({});
   const levels = useMemo(() => ({ Inicial: "#18c5dc", Intermedio: "#0aa4c7", Avanzado: "#075a98" }), []);
 
@@ -34,7 +59,7 @@ export default function ActivityMap({ sites, activities }: { sites: DiveSite[]; 
       <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
       <FocusController markerRefs={markerRefs} />
       {sites.map(site => {
-        const offers = activities.filter(a => a.siteSlugs.includes(site.slug));
+        const related = activities.filter(a => a.siteSlugs.includes(site.slug));
         return (
           <CircleMarker key={site.id} center={[site.lat, site.lng]} radius={10} pathOptions={{ color: "#fff", weight: 3, fillColor: levels[site.level], fillOpacity: 0.98 }} ref={instance => { markerRefs.current[site.id] = instance; }}>
             <Popup>
@@ -44,24 +69,21 @@ export default function ActivityMap({ sites, activities }: { sites: DiveSite[]; 
                 <span>{site.destination}</span>
                 <div className="activity-popup-meta"><span>◉ {site.depth}</span><span>◈ {site.type}</span></div>
                 <div className="activity-popup-offers">
-                  <b>{offers.length ? "Experiencias relacionadas" : "Sin experiencia conectada todavía"}</b>
-                  {offers.map(offer => {
-                    const bookingOffers=getBookingOffers(offer);
-                    return (
-                      <div className="activity-popup-offer" key={offer.id}>
-                        <Link href={"/actividades/" + offer.slug}>
-                          <strong>{offer.title}</strong>
-                          <small>{offer.type} · {offer.level} · {offer.duration}</small>
-                        </Link>
-                        {bookingOffers.map(booking=>(
-                          <div className="activity-popup-booking" key={booking.id}>
-                            <span>{booking.priceFrom!==undefined ? <>Desde <b>{formatOfferPrice(booking)}</b></> : <>Precio por confirmar</>} · {booking.provider}</span>
-                            <a href={buildAffiliateUrl(booking)} target="_blank" rel="sponsored noopener noreferrer" data-affiliate-provider={booking.provider} data-activity-id={offer.id}>Reservar ↗</a>
-                          </div>
-                        ))}
-                      </div>
-                    );
-                  })}
+                  <b>{related.length ? "Experiencias relacionadas" : "Sin experiencia conectada todavía"}</b>
+                  {related.map(activity => (
+                    <div className="activity-popup-offer" key={activity.id}>
+                      <Link href={"/actividades/" + activity.slug}>
+                        <strong>{activity.title}</strong>
+                        <small>{activity.type} · {activity.level} · {activity.duration}</small>
+                      </Link>
+                      {activity.offers.map(booking => (
+                        <div className="activity-popup-booking" key={booking.id}>
+                          <span>{booking.priceFrom !== undefined ? <>Desde <b>{formatOfferPrice(booking)}</b></> : <>Precio por confirmar</>} · {booking.provider}</span>
+                          <a href={booking.href} target="_blank" rel="sponsored noopener noreferrer" data-affiliate-provider={booking.provider} data-activity-id={activity.id}>Reservar ↗</a>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
                 </div>
                 <Link href={"/actividades/#site=" + encodeURIComponent(site.slug)} className="popup-action">Ver todas las actividades de este punto →</Link>
               </div>
@@ -72,4 +94,3 @@ export default function ActivityMap({ sites, activities }: { sites: DiveSite[]; 
     </MapContainer>
   );
 }
-

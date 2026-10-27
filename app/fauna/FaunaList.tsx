@@ -1,17 +1,16 @@
 "use client";
 
 import { useState, useMemo, useDeferredValue } from "react";
-import { species } from "@/data/species";
-import { SpeciesCard } from "@/components/SpeciesCard";
+import { SpeciesCard, type SpeciesCardData } from "@/components/SpeciesCard";
 
-export function FaunaList() {
+export function FaunaList({ species }: { species: SpeciesCardData[] }) {
   const [category, setCategory] = useState("");
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
 
   const categories = useMemo(
     () => Array.from(new Set(species.map((s) => s.category))).sort((a, b) => a.localeCompare(b, "es")),
-    []
+    [species]
   );
 
   const normalize = (value: string) =>
@@ -26,7 +25,7 @@ export function FaunaList() {
       }
       return true;
     });
-  }, [category, deferredQuery]);
+  }, [species, category, deferredQuery]);
 
   const clear = () => {
     setCategory("");

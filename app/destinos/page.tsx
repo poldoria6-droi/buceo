@@ -1,5 +1,3 @@
-import { Suspense } from "react";
-import Link from "next/link";
 import { destinations, diveSites } from "@/data/dive-sites";
 import { activities } from "@/data/activities";
 import { centers } from "@/data/centers";
@@ -59,39 +57,7 @@ export default function DestinationsPage() {
           Filtra por comunidad autónoma o busca tu destino, isla o provincia: cada guía reúne precios orientativos, bautismos, cursos PADI/SSI, escuelas verificadas, puntos de inmersión y fauna marina.
         </p>
 
-        <Suspense
-          fallback={
-            <div className="destination-grid">
-              {enrichedItems.map((destination) => (
-                <article className="destination-card" key={destination.slug}>
-                  <div className="destination-visual">
-                    <span>◌</span>
-                    <small>{destination.region}</small>
-                  </div>
-                  <div className="destination-card-body">
-                    <span className="eyebrow">
-                      {destination.sites} puntos · {destination.activitiesCount} actividades
-                    </span>
-                    <h2>
-                      <Link href={`/buceo/${destination.slug}`}>Buceo en {destination.name}</Link>
-                    </h2>
-                    <p>Fauna habitual: {destination.animals.join(", ")}.</p>
-                    <div className="card-actions">
-                      <Link
-                        href={`/buceo/${destination.slug}`}
-                        className="button button-primary button-small"
-                      >
-                        Ver guía y ofertas →
-                      </Link>
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          }
-        >
-          <DestinationsList items={enrichedItems} communities={communities} />
-        </Suspense>
+        <DestinationsList items={enrichedItems} communities={communities} />
       </div>
     </section>
   );

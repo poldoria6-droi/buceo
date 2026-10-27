@@ -1,8 +1,7 @@
 "use client";
 
-import { useDeferredValue, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
 
 export type EnrichedDestinationItem = {
   slug: string;
@@ -21,11 +20,17 @@ type Props = {
 };
 
 export function DestinationsList({ items, communities }: Props) {
-  const searchParams = useSearchParams();
-  const [query, setQuery] = useState(searchParams.get("q") ?? "");
-  const [selectedCommunity, setSelectedCommunity] = useState(
-    searchParams.get("region") ?? "Todas"
-  );
+  const [query, setQuery] = useState("");
+  const [selectedCommunity, setSelectedCommunity] = useState("Todas");
+
+  // Filtros iniciales desde ?q=...&region=... (solo cliente: la página se pre-renderiza completa).
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q");
+    const region = params.get("region");
+    if (q) setQuery(q);
+    if (region) setSelectedCommunity(region);
+  }, []);
 
   const deferredQuery = useDeferredValue(query);
 
