@@ -253,6 +253,23 @@ export default async function DestinationPage({ params }: Props) {
               {sites.map((s) => s.name).slice(0, 3).join(", ")}.
             </p>
 
+            {seoData.localLongTail && (
+              <>
+                <h3>{seoData.localLongTail.heading}</h3>
+                {seoData.localLongTail.paragraphs.map((paragraph, idx) => (
+                  <p key={idx}>{paragraph}</p>
+                ))}
+                {destination.slug === "el-hierro" && (
+                  <p>
+                    👉 Si estás cuadrando aviones o ferry interinsular, alojamiento y bonos de inmersión, te hemos preparado una{" "}
+                    <Link href="/guias/viaje-de-buceo-a-el-hierro" className="text-link">
+                      guía paso a paso para organizar tu viaje de buceo a El Hierro (La Restinga) →
+                    </Link>
+                  </p>
+                )}
+              </>
+            )}
+
             <h3>Precios de bautismos, cursos e inmersiones en {destination.name}</h3>
             <p>
               Lo que vas a pagar en {destination.name} depende sobre todo de si entras desde cala o en barco y de si necesitas alquilar el equipo completo o las tasas de certificación (<Link href="/guias/padi-vs-ssi-diferencias" className="text-link">PADI o SSI</Link>):

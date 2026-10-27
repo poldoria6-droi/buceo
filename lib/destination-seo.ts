@@ -189,6 +189,114 @@ export type DestinationClimateInfo = {
   marineEnvironment: string;
 };
 
+export type DestinationLocalLongTail = {
+  heading: string;
+  paragraphs: string[];
+  extraFaqs: { question: string; answer: string }[];
+};
+
+const DESTINATION_LONGTAIL: Record<string, DestinationLocalLongTail> = {
+  "cabo-de-palos": {
+    heading: "Bucear en la Reserva de Islas Hormigas vs calas y el pecio Naranjito",
+    paragraphs: [
+      "En Cabo de Palos conviven dos tipos de buceo muy distintos a pocos minutos de barco. Por un lado están los bajos interiores y exteriores de la Reserva Marina de Cabo de Palos e Islas Hormigas (Bajo de Dentro, Piles I y II, Bajo de Testa), montañas submarinas en mar abierto donde se requiere titulación, seguro en vigor y presentar el DNI junto a tu carnet oficial para tramitar el cupo diario de la reserva.",
+      "Por otro lado, si buscas hacer un bautismo de buceo desde playa o sacarte el curso Open Water sin corrientes, las calas resguardadas del faro (Cala Fría, La Escalerica o Cala Reona) ofrecen aguas tranquilas de entrada fácil, mientras que los buceadores Advanced tienen fuera de la reserva uno de los mejores barcos hundidos del Mediterráneo: el Naranjito (entre 28 y 43 metros)."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Qué requisitos piden para bucear en la Reserva Marina de Islas Hormigas en Cabo de Palos?",
+        answer: "Para bucear en los bajos de la reserva (como el Bajo de Dentro o Piles) los centros solicitan titulación mínima Open Water (muchos recomiendan Advanced o un mínimo de inmersiones registradas por las corrientes), seguro de buceo en vigor, declaración médica y presentar el DNI original para el permiso de la reserva."
+      },
+      {
+        question: "¿Se puede hacer un bautismo de buceo en Cabo de Palos sin experiencia?",
+        answer: "Sí. Los bautismos de buceo no se hacen en los bajos profundos de mar abierto, sino en las calas protegidas junto al faro de Cabo de Palos y La Manga, con aguas tranquilas a entre 5 y 10 metros de profundidad y todo el equipo incluido."
+      }
+    ]
+  },
+  "la-herradura": {
+    heading: "Buceo desde playa en Marina del Este y acantilados de Maro–Cerro Gordo",
+    paragraphs: [
+      "La bahía de La Herradura (Almuñécar, Granada) tiene una ventaja geográfica única en Andalucía: queda abrazada por la Punta de la Mona al este y los acantilados de Cerro Gordo al oeste. Eso permite que, cuando sopla viento de levante, se bucee como en una piscina en el lado de Cerro Gordo, y cuando entra poniente, las playas de Marina del Este y Berengueles queden completamente en calma.",
+      "Sus paredes de roca están tapizadas de astroides (coral naranja mediterráneo), espirógrafos, congrios y decenas de especies de nudibranquios, lo que convierte a Marina del Este en uno de los puntos favoritos de toda España tanto para bautismos desde la playa como para fotografía submarina."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Es mejor bucear desde playa en Marina del Este o en barco por Maro-Cerro Gordo?",
+        answer: "Para bautismos, cursos Open Water e inmersiones tranquilas de fotografía macro, la entrada desde la playa de Marina del Este (Los Berengueles) es comodísima. Para ver las paredes verticales de coral naranja, cuevas y bancos de peces en los acantilados de Maro-Cerro Gordo y la Punta de la Mona, merece la pena salir en barco desde el puerto deportivo."
+      }
+    ]
+  },
+  "tossa-de-mar": {
+    heading: "Por qué la Mar Menuda de Tossa de Mar es la cuna del buceo desde playa en Cataluña",
+    paragraphs: [
+      "En Tossa de Mar casi toda la actividad subacuática gira en torno a la playa de la Mar Menuda (la Bauma). A diferencia de otros puntos de la Costa Brava donde es obligatorio embarcar, aquí entras caminando por una rampa natural de arena protegida por la illa de Tossa y en pocos metros te encuentras un laberinto de cañones graníticos entre los 6 y los 22 metros.",
+      "Esa entrada progresiva sin oleaje explica por qué miles de buceadores de Barcelona y Girona hacen aquí su primer bautismo de buceo o las prácticas de mar del curso Open Water, mientras que los buceadores titulados disfrutan de salidas nocturnas o en barco a los bajos cercanos."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Dónde se hacen los bautismos de buceo en Tossa de Mar?",
+        answer: "La gran mayoría de bautismos y cursos de iniciación en Tossa de Mar entran directamente desde la cala de la Mar Menuda. Es un entorno resguardado de las olas donde empiezas haciendo pie y vas ganando profundidad poco a poco junto al instructor."
+      }
+    ]
+  },
+  lanzarote: {
+    heading: "Playa Chica (Puerto del Carmen), el Museo Atlántico y los pecios del Quiquere",
+    paragraphs: [
+      "Lanzarote reúne en pocos kilómetros dos de las experiencias más buscadas de Canarias. En Puerto del Carmen, Playa Chica permite entrar caminando por la arena y asomarse en apenas cinco minutos de aleteo a veriles volcánicos que caen a más de 40 metros, con cuevas como La Catedral, meros como el famoso Félix y avistamientos frecuentes de angelotes en invierno y primavera.",
+      "Al sur, en Playa Blanca, se encuentra el Museo Atlántico de Jason deCaires Taylor: el único museo escultórico subacuático de Europa, situado sobre un fondo limpio de arena a entre 12 y 14 metros de profundidad, accesible tanto para buceadores Open Water como mediante programas específicos de bautismo doble."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Qué nivel hace falta para bucear en el Museo Atlántico de Lanzarote?",
+        answer: "Las esculturas del Museo Atlántico en Playa Blanca están entre los 12 y los 14 metros de profundidad. Puedes visitarlo con cualquier titulación desde Open Water Diver (o Scuba Diver), e incluso muchos centros organizan bautismos dobles para principiantes donde primero haces una inmersión de adaptación en playa y después bajas al museo en barco."
+      },
+      {
+        question: "¿Cuál es la mejor zona de Lanzarote para alojarse si vas a bucear?",
+        answer: "Puerto del Carmen (junto a Playa Chica) es la base más cómoda porque concentra la mayoría de inmersiones desde costa y salidas a los pecios de El Quiquere. Playa Blanca es ideal para el Museo Atlántico y los fondos del sur, mientras que en el norte destacan Mala y las salidas a la reserva de La Graciosa."
+      }
+    ]
+  },
+  "el-hierro": {
+    heading: "Cómo organizar un viaje de buceo a El Hierro (La Restinga) por tu cuenta",
+    paragraphs: [
+      "Casi todo el buceo en El Hierro se concentra en el pueblo pesquero de La Restinga, en el extremo sur de la isla, frente a la Reserva Marina del Mar de las Calmas. Resguardado de los vientos alisios por las cumbres volcánicas, el agua aquí tiene una transparencia que a menudo supera los 30 metros y alberga más de una docena de puntos a menos de diez minutos de navegación del muelle, coronados por el famoso volcán submarino de El Bajón.",
+      "Para llegar desde la Península lo habitual es volar a Tenerife Norte (o Gran Canaria) y enlazar con un vuelo interinsular de Binter de 40 minutos al aeropuerto de Valverde, o cruzar en el ferry desde el puerto de Los Cristianos (Tenerife Sur) en unas 2 horas y media. Recuerda planificar siempre tu último día en seco (al menos 24 horas sin bucear) no solo por el vuelo de vuelta, sino porque para ir de La Restinga al puerto o al aeropuerto hay que cruzar la cumbre de la isla a más de 1.300 metros de altitud."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Por qué hay que tener cuidado con la carretera al salir de La Restinga después de bucear?",
+        answer: "Porque La Restinga está a nivel del mar pero la única carretera que sube hacia Valverde y el resto de El Hierro supera los 1.300 metros de altitud en pocos kilómetros. Por seguridad descompresiva, tras las inmersiones de la mañana debes respetar el tiempo prudencial que te indiquen en el centro antes de subir la cumbre en coche."
+      }
+    ]
+  },
+  "gran-canaria": {
+    heading: "Reserva de El Cabrón (Arinaga), Sardina del Norte y los pecios de Las Palmas",
+    paragraphs: [
+      "Gran Canaria ofrece tres zonas de buceo muy distintas según el estado del mar y tu nivel. En el sureste, el Risco Verde y la Reserva Marina de El Cabrón (Arinaga) son famosos por sus arcos volcánicos y sus enormes bancos de roncadores, sargos, barracudas y angelotes.",
+      "Si buscas aguas súper tranquilas para un bautismo o una inmersión nocturna cómoda, la bahía de Sardina del Norte (Gáldar) y los fondos del sur (Mogán y Puerto Rico) son ideales, mientras que frente a Las Palmas de Gran Canaria descansan grandes pecios como el Kalais o el Arona para buceadores avanzados."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Dónde es mejor hacer un bautismo de buceo en Gran Canaria?",
+        answer: "Para una primera experiencia sin corrientes, las zonas más tranquilas y recomendables son Sardina del Norte (en Gáldar), el entorno de Las Canteras / Tufia y las aguas abrigadas del sur en Puerto Rico, Mogán y Arguineguín."
+      }
+    ]
+  },
+  tabarca: {
+    heading: "Bucear en la Reserva Marina de la Isla de Tabarca desde Santa Pola y Alicante",
+    paragraphs: [
+      "Declarada en 1986 como la primera reserva marina de España, la isla de Tabarca está rodeada por una enorme pradera de Posidonia oceanica que oxigena el agua y sirve de guardería a meros, doradas, dentones, nacras y bancos de espetones.",
+      "Las salidas de buceo y snorkel a los bajos exteriores (como la Llosa de Tabarca) parten principalmente en embarcación desde el puerto de Santa Pola (a solo 15 minutos de navegación), Alicante o Guardamar. Para bucear dentro del perímetro de la reserva con botella es necesario tramitar permiso previo a través de un centro autorizado aportando tu DNI, titulación y seguro."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Se puede hacer un bautismo de buceo o snorkel en la isla de Tabarca?",
+        answer: "Sí, las excursiones guiadas de snorkel en las calas transparentes de Tabarca y los bautismos de buceo en las zonas autorizadas del entorno de la isla y Santa Pola son una de las actividades más reservadas del verano en Alicante."
+      }
+    ]
+  }
+};
+
 export function getDestinationClimate(destination: Destination): DestinationClimateInfo {
   const comm = communityFor(destination.region);
   if (comm === "Canarias") {
@@ -343,6 +451,7 @@ export function getDestinationSeoData(
     ? `desde ${lowestPrice} €`
     : "con reserva online directa";
 
+  const localLongTail = DESTINATION_LONGTAIL[destination.slug];
   const faqs = [
     {
       question: `¿Cuánto cuesta bucear o hacer un bautismo de buceo en ${destination.name}?`,
@@ -377,6 +486,7 @@ export function getDestinationSeoData(
       question: `¿Cuál es la mejor época para bucear en ${destination.name} y qué temperatura tiene el agua?`,
       answer: `La temporada recomendada en ${destination.name} es: ${climate.bestMonths}. La temperatura del agua oscila entre ${climate.waterTempWinter} en los meses más frescos y ${climate.waterTempSummer} en verano. Recomendación térmica: ${climate.wetsuitAdvice}`,
     },
+    ...(localLongTail ? localLongTail.extraFaqs : []),
   ];
 
   return {
@@ -394,6 +504,7 @@ export function getDestinationSeoData(
     matchedCenters,
     localCentersCount: localCenters.length,
     climate,
+    localLongTail,
     faqs,
   };
 }

@@ -112,12 +112,56 @@ export const guides: GuideMeta[] = [
   {
     slug: "buceo-en-pecios-en-espana",
     title: "Buceo en pecios en España: barcos hundidos destacados y nivel requerido",
-    metaTitle: "Buceo en Pecios en España: Mejores Barcos Hundidos yRequisitos",
+    metaTitle: "Buceo en Pecios en España: Mejores Barcos Hundidos y Requisitos",
     description:
       "Recorrido por los pecios y barcos hundidos más emblemáticos para bucear en España (Naranjito, Boreas, Don Pedro y más), profundidades y titulación necesaria.",
     tag: "Pecios",
     ctaLabel: "Explorar pecios →",
     publishedAt: "2026-10-18",
-    updatedAt: "2026-10-18",
+    updatedAt: "2026-10-27",
+  },
+  {
+    slug: "viaje-de-buceo-a-el-hierro",
+    title: "Viaje de buceo a El Hierro: cómo organizar tu escapada a La Restinga",
+    metaTitle: "Viaje de Buceo a El Hierro (La Restinga): Cómo Ir, Inmersiones y Presupuesto",
+    description:
+      "Guía práctica para organizar tu viaje de buceo a El Hierro: vuelos y ferry hasta La Restinga, mejores inmersiones en el Mar de las Calmas, presupuesto real y ruta sin nitrógeno.",
+    tag: "Destinos",
+    ctaLabel: "Organizar viaje →",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+  },
+  {
+    slug: "curso-advanced-open-water-espana",
+    title: "Curso Advanced Open Water en España: precio, inmersiones y cuándo hacerlo",
+    metaTitle: "Curso Advanced Open Water en España: Precio, Inmersiones y Cuándo Hacerlo",
+    description:
+      "¿En qué consiste el curso Advanced Open Water (PADI o SSI)? Cuántas inmersiones tiene, cuánto cuesta en España, requisitos y por qué te abre los mejores pecios y reservas.",
+    tag: "Certificaciones",
+    ctaLabel: "Ver guía Advanced →",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+  },
+  {
+    slug: "como-compensar-oidos-al-bucear",
+    title: "Cómo compensar los oídos al bucear sin dolor: maniobras y trucos",
+    metaTitle: "Cómo Compensar los Oídos al Bucear sin Dolor: Maniobras y Trucos",
+    description:
+      "¿Te cuesta compensar un oído al bajar a bucear? Guía práctica con las 3 mejores maniobras (Valsalva, Frenzel y Toynbee), errores típicos y cómo cuidar tus oídos tras la inmersión.",
+    tag: "Principiantes",
+    ctaLabel: "Aprender a compensar →",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
+  },
+  {
+    slug: "bucear-con-gafas-o-lentillas",
+    title: "¿Se puede bucear con gafas o lentillas? Máscara graduada vs lentillas",
+    metaTitle: "¿Se Puede Bucear con Lentillas o Gafas? Máscara Graduada vs Lentillas",
+    description:
+      "¿Tienes miopía, hipermetropía o astigmatismo y quieres bucear? Te explicamos por qué no puedes llevar tus gafas dentro de la máscara y si es mejor usar lentillas o cristales graduados.",
+    tag: "Equipamiento",
+    ctaLabel: "Ver opciones →",
+    publishedAt: "2026-10-27",
+    updatedAt: "2026-10-27",
   },
 ];

@@ -140,16 +140,23 @@ export function getSpeciesForActivity(activity: Activity): Species[] {
 export function getGuidesForActivity(activity: Activity): Guide[] {
   const preferredSlugs: string[] = [];
 
+  if (normalize(activity.destination).includes("hierro") || normalize(activity.region).includes("hierro")) {
+    preferredSlugs.push("viaje-de-buceo-a-el-hierro");
+  }
+
   if (activity.type === "Bautismo" || activity.type === "Snorkel") {
     preferredSlugs.push(
       "bautismo-de-buceo-en-espana",
       "cuanto-cuesta-un-bautismo-de-buceo",
+      "como-compensar-oidos-al-bucear",
+      "bucear-con-gafas-o-lentillas",
       "bautismo-vs-curso-open-water",
       "requisitos-para-bucear-en-espana"
     );
   } else if (activity.type === "Curso") {
     preferredSlugs.push(
       "bautismo-vs-curso-open-water",
+      "curso-advanced-open-water-espana",
       "padi-vs-ssi-diferencias",
       "como-elegir-escuela-de-buceo",
       "que-equipo-necesito-para-empezar-a-bucear"
@@ -157,6 +164,7 @@ export function getGuidesForActivity(activity: Activity): Guide[] {
   } else if (activity.type === "Pecio") {
     preferredSlugs.push(
       "buceo-en-pecios-en-espana",
+      "curso-advanced-open-water-espana",
       "mejores-zonas-de-buceo-en-espana",
       "mejor-epoca-para-bucear-en-espana",
       "que-equipo-necesito-para-empezar-a-bucear"
@@ -165,6 +173,7 @@ export function getGuidesForActivity(activity: Activity): Guide[] {
     preferredSlugs.push(
       "mejores-zonas-de-buceo-en-espana",
       "mejor-epoca-para-bucear-en-espana",
+      "curso-advanced-open-water-espana",
       "buceo-en-pecios-en-espana",
       "como-elegir-escuela-de-buceo",
       "que-equipo-necesito-para-empezar-a-bucear"
@@ -176,7 +185,7 @@ export function getGuidesForActivity(activity: Activity): Guide[] {
     .filter((g): g is Guide => Boolean(g));
   const others = guides.filter((g) => !primary.includes(g));
 
-  return [...primary.slice(0, 2), ...rotateSlice(others, activity.id, 1)];
+  return [...rotateSlice(primary, activity.id, 2), ...rotateSlice(others, activity.id, 1)];
 }
 
 /**
