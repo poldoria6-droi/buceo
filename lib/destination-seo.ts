@@ -3,6 +3,7 @@ import type { DiveCenter } from "@/data/centers";
 import type { Destination, DiveSite } from "@/data/dive-sites";
 import { communityFor } from "@/lib/activity-filters";
 import { getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
+import { rotateSlice } from "@/lib/internal-links";
 
 const DESTINATION_KEYWORDS: Record<string, string[]> = {
   barcelona: [
@@ -313,10 +314,12 @@ export function getDestinationSeoData(
   const courseFrom = getMinPrice(courses);
   const diveFrom = getMinPrice(funDives);
 
-  // Prioritize a balanced mix of top bookable cards (up to 12)
+  const destSeed = destination.slug.split("").reduce((acc, ch) => acc + ch.charCodeAt(0), 0);
+
+  // Prioritize a balanced mix of top bookable cards (up to 12) rotating deterministically
   const featuredActivities = [
-    ...localActivities.slice(0, 12),
-    ...regionalActivities.slice(0, Math.max(0, 9 - localActivities.length)),
+    ...rotateSlice(localActivities, destSeed, 12),
+    ...rotateSlice(regionalActivities, destSeed, Math.max(0, 9 - localActivities.length)),
   ].slice(0, 12);
 
   // Match verified diving schools in this destination or region
@@ -329,7 +332,10 @@ export function getDestinationSeoData(
   const regionalCenters = allCenters.filter(
     (c) => communityFor(c.region) === destCommunity && !localCenters.includes(c)
   );
-  const matchedCenters = [...localCenters, ...regionalCenters.slice(0, Math.max(0, 6 - localCenters.length))].slice(0, 12);
+  const matchedCenters = [
+    ...rotateSlice(localCenters, destSeed, 12),
+    ...rotateSlice(regionalCenters, destSeed, Math.max(0, 6 - localCenters.length)),
+  ].slice(0, 12);
 
   const climate = getDestinationClimate(destination);
 

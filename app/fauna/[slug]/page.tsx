@@ -6,6 +6,7 @@ import { SpeciesCard } from "@/components/SpeciesCard";
 import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildSpeciesJsonLd } from "@/lib/seo";
+import { getDestinationForOccurrence, rotateSlice } from "@/lib/internal-links";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -45,14 +46,18 @@ export default async function SpeciesPage({ params }: Props) {
   if (!s) notFound();
 
   const speciesJsonLd = buildSpeciesJsonLd(s);
-  const related = species
-    .filter((x) => x.slug !== s.slug && x.category === s.category)
-    .slice(0, 6);
+  const speciesIdx = Math.max(0, species.findIndex((x) => x.slug === s.slug));
+  const sameCategory = species.filter((x) => x.category === s.category);
+  const catIdx = Math.max(0, sameCategory.findIndex((x) => x.slug === s.slug));
+  const related = rotateSlice(
+    sameCategory.filter((x) => x.slug !== s.slug),
+    catIdx,
+    6
+  );
 
   const occurrenceRegions = Array.from(new Set(s.occurrences.map((o) => o.region)));
-  const recommendedActivities = activities
-    .filter((a) => occurrenceRegions.includes(a.region))
-    .slice(0, 4);
+  const regionActivities = activities.filter((a) => occurrenceRegions.includes(a.region));
+  const recommendedActivities = rotateSlice(regionActivities, speciesIdx * 4, 4);
 
   return (
     <section className="section">
@@ -151,18 +156,26 @@ export default async function SpeciesPage({ params }: Props) {
           <>
             <h2>Zonas de avistamiento documentadas en España</h2>
             <div className="guide-grid">
-              {s.occurrences.map((o) => (
-                <article className="guide-card" key={o.name}>
-                  <span className="eyebrow">
-                    {o.precision} · {o.region} · {o.basin}
-                  </span>
-                  <h3>{o.name}</h3>
-                  <p>{o.note}</p>
-                  <Link href={`/actividades/#mapa&species=${s.slug}`} className="text-link">
-                    Ver zona en el mapa interactivo →
-                  </Link>
-                </article>
-              ))}
+              {s.occurrences.map((o) => {
+                const matchedDest = getDestinationForOccurrence(o.name, o.region);
+                return (
+                  <article className="guide-card" key={o.name}>
+                    <span className="eyebrow">
+                      {o.precision} · {o.region} · {o.basin}
+                    </span>
+                    <h3>{o.name}</h3>
+                    <p>{o.note}</p>
+                    {matchedDest && (
+                      <Link href={`/buceo/${matchedDest.slug}`} className="text-link" style={{ marginBottom: "0.4rem" }}>
+                        Guía de buceo en {matchedDest.name} →
+                      </Link>
+                    )}
+                    <Link href={`/actividades/#mapa&species=${s.slug}`} className="text-link">
+                      Ver zona en el mapa interactivo →
+                    </Link>
+                  </article>
+                );
+              })}
             </div>
           </>
         )}

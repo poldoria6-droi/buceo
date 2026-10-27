@@ -10,6 +10,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildDestinationJsonLd } from "@/lib/seo";
 import { getDestinationSeoData } from "@/lib/destination-seo";
 import { communityFor } from "@/lib/activity-filters";
+import { rotateSlice } from "@/lib/internal-links";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -49,21 +50,34 @@ export default async function DestinationPage({ params }: Props) {
 
   const seoData = getDestinationSeoData(destination, sites, activities, centers);
   const animals = Array.from(new Set(sites.flatMap((site) => site.animals)));
-
-  const matchedSpecies = species
-    .filter((sp) =>
-      animals.some(
-        (an) =>
-          sp.name.toLowerCase().includes(an.toLowerCase()) ||
-          an.toLowerCase().includes(sp.name.split(" ")[0].toLowerCase())
-      )
-    )
-    .slice(0, 8);
-
   const destCommunity = communityFor(destination.region);
-  const relatedDestinations = destinations
-    .filter((d) => d.slug !== destination.slug && communityFor(d.region) === destCommunity)
-    .slice(0, 8);
+  const destIndex = Math.max(0, destinations.findIndex((item) => item.slug === slug));
+
+  const directSpecies = species.filter((sp) =>
+    animals.some(
+      (an) =>
+        sp.name.toLowerCase().includes(an.toLowerCase()) ||
+        an.toLowerCase().includes(sp.name.split(" ")[0].toLowerCase())
+    )
+  );
+  const regionalSpecies = species.filter(
+    (sp) =>
+      !directSpecies.includes(sp) &&
+      sp.occurrences.some((occ) => communityFor(occ.region) === destCommunity)
+  );
+  const matchedSpecies = rotateSlice(
+    [...directSpecies, ...regionalSpecies, ...species],
+    destIndex * 3,
+    8
+  );
+
+  const sameCommunityDests = destinations.filter((d) => communityFor(d.region) === destCommunity);
+  const commIndex = Math.max(0, sameCommunityDests.findIndex((d) => d.slug === destination.slug));
+  const relatedDestinations = rotateSlice(
+    sameCommunityDests.filter((d) => d.slug !== destination.slug),
+    commIndex,
+    8
+  );
 
   const destinationJsonLd = buildDestinationJsonLd(
     destination,

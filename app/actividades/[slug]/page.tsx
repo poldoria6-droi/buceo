@@ -8,6 +8,13 @@ import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedO
 import { notFound } from "next/navigation";
 import { activities } from "@/data/activities";
 import { diveSites } from "@/data/dive-sites";
+import { communityFor } from "@/lib/activity-filters";
+import {
+  getDestinationsForActivity,
+  getGuidesForActivity,
+  getSpeciesForActivity,
+  rotateSlice,
+} from "@/lib/internal-links";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -58,15 +65,23 @@ export default async function ActivityPage({ params }: Props) {
   const lowest = getLowestPricedOffer(offers);
   const activityJsonLd = buildActivityJsonLd(activity, offers, center);
 
-  const relatedActivities = activities
-    .filter(
-      (item) =>
-        item.slug !== activity.slug &&
-        item.bookingStatus === "Disponible" &&
-        (item.destination === activity.destination || item.region === activity.region)
-    )
-    .sort((a, b) => Number(b.destination === activity.destination) - Number(a.destination === activity.destination))
-    .slice(0, 3);
+  const actCommunity = communityFor(activity.region);
+  const sameAreaActivities = activities.filter(
+    (item) =>
+      item.destination === activity.destination ||
+      item.region === activity.region ||
+      communityFor(item.region) === actCommunity
+  );
+  const areaIndex = Math.max(0, sameAreaActivities.findIndex((item) => item.slug === activity.slug));
+  const relatedActivities = rotateSlice(
+    sameAreaActivities.filter((item) => item.slug !== activity.slug),
+    areaIndex,
+    6
+  );
+
+  const matchedDestinations = getDestinationsForActivity(activity);
+  const matchedSpecies = getSpeciesForActivity(activity);
+  const recommendedGuides = getGuidesForActivity(activity);
 
   return (
     <section className="section">
@@ -259,7 +274,7 @@ export default async function ActivityPage({ params }: Props) {
 
             {relatedActivities.length > 0 && (
               <section style={{ marginBottom: "2.5rem" }}>
-                <h2>Otras experiencias recomendadas en {activity.destination}</h2>
+                <h2>Otras experiencias recomendadas en {activity.destination} y {actCommunity}</h2>
                 <div className="guide-grid">
                   {relatedActivities.map((rel) => (
                     <article className="guide-card" key={rel.slug}>
@@ -276,6 +291,59 @@ export default async function ActivityPage({ params }: Props) {
                         Ver detalles y qué incluye →
                       </Link>
                       <BookingOptions activity={rel} />
+                    </article>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {matchedDestinations.length > 0 && (
+              <section style={{ marginBottom: "2.5rem" }}>
+                <h2>Guías de destino y zonas de buceo cercanas</h2>
+                <div className="guide-grid">
+                  {matchedDestinations.map((dest) => (
+                    <article className="guide-card" key={dest.slug}>
+                      <span className="eyebrow">{dest.region} · {dest.sites} puntos</span>
+                      <h3>
+                        <Link href={`/buceo/${dest.slug}`}>Buceo en {dest.name}</Link>
+                      </h3>
+                      <p>Especies habituales: {dest.animals.slice(0, 4).join(", ")}.</p>
+                      <Link href={`/buceo/${dest.slug}`} className="text-link">
+                        Ver guía de buceo y precios en {dest.name} →
+                      </Link>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {matchedSpecies.length > 0 && (
+              <section style={{ marginBottom: "2.5rem" }}>
+                <h2>Fauna marina habitual en las inmersiones de la zona</h2>
+                <div className="hero-tags" style={{ marginTop: "0.75rem" }}>
+                  {matchedSpecies.map((sp) => (
+                    <Link key={sp.slug} href={`/fauna/${sp.slug}`} style={{ textDecoration: "none" }}>
+                      <span>🐠 {sp.name} ({sp.scientificName}) →</span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {recommendedGuides.length > 0 && (
+              <section style={{ marginBottom: "2rem" }}>
+                <h2>Guías prácticas antes de tu inmersión</h2>
+                <div className="guide-grid">
+                  {recommendedGuides.map((g) => (
+                    <article className="guide-card" key={g.slug}>
+                      <span className="eyebrow">{g.tag}</span>
+                      <h3>
+                        <Link href={`/guias/${g.slug}`}>{g.title}</Link>
+                      </h3>
+                      <p>{g.description}</p>
+                      <Link href={`/guias/${g.slug}`} className="text-link">
+                        {g.ctaLabel}
+                      </Link>
                     </article>
                   ))}
                 </div>

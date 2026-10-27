@@ -7,6 +7,8 @@ import { formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/
 import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildCenterJsonLd } from "@/lib/seo";
+import { communityFor } from "@/lib/activity-filters";
+import { getDestinationsForCenter, rotateSlice } from "@/lib/internal-links";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -44,6 +46,13 @@ export default async function CenterPage({ params }: Props) {
   const centerJsonLd = buildCenterJsonLd(center, activities.length);
   const allOffers = activities.flatMap((a) => getBookingOffers(a));
   const lowestOffer = getLowestPricedOffer(allOffers);
+  const centerIdx = Math.max(0, centers.findIndex((c) => c.slug === center.slug));
+  const matchedDestinations = getDestinationsForCenter(center, centerIdx);
+  const centerComm = communityFor(center.region);
+  const sameRegionCenters = centers.filter(
+    (c) => c.slug !== center.slug && communityFor(c.region) === centerComm
+  );
+  const relatedCenters = rotateSlice(sameRegionCenters, centerIdx, 3);
 
   return (
     <section className="section">
@@ -141,6 +150,46 @@ export default async function CenterPage({ params }: Props) {
             </>
           )}
         </section>
+
+        {matchedDestinations.length > 0 && (
+          <section style={{ marginBottom: "2.5rem" }}>
+            <h2>Guías de buceo en la zona de {center.name}</h2>
+            <div className="guide-grid">
+              {matchedDestinations.map((dest) => (
+                <article className="guide-card" key={dest.slug}>
+                  <span className="eyebrow">{dest.region} · {dest.sites} puntos</span>
+                  <h3>
+                    <Link href={`/buceo/${dest.slug}`}>Buceo en {dest.name}</Link>
+                  </h3>
+                  <p>Especies habituales: {dest.animals.slice(0, 4).join(", ")}.</p>
+                  <Link href={`/buceo/${dest.slug}`} className="text-link">
+                    Ver guía y precios en {dest.name} →
+                  </Link>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {relatedCenters.length > 0 && (
+          <section style={{ marginBottom: "2rem" }}>
+            <h2>Otras escuelas de buceo en {centerComm}</h2>
+            <div className="guide-grid">
+              {relatedCenters.map((rel) => (
+                <article className="guide-card" key={rel.slug}>
+                  <span className="eyebrow">{rel.location} · {rel.region}</span>
+                  <h3>
+                    <Link href={`/centros/${rel.slug}`}>{rel.name}</Link>
+                  </h3>
+                  <p>{rel.services.slice(0, 3).join(" · ")}</p>
+                  <Link href={`/centros/${rel.slug}`} className="text-link">
+                    Ver escuela y actividades →
+                  </Link>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
 
         {activities.length > 0 && (
           <div className="mobile-sticky-booking" role="region" aria-label="Ofertas de esta escuela en móvil">
