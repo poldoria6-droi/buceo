@@ -80,7 +80,7 @@ export default function BaptismVsOpenWaterPage() {
 
           <div className="editorial-tip">
             <p>
-              💡 <strong>El truco que poca gente pregunta en el centro:</strong> si tienes varios días de vacaciones pero no estás seguro de si te vas a agobiar bajo el agua, pregúntale a la escuela antes de empezar si hacen el <em>bautismo convalidable</em>. En muchos centros de España, si sales del bautismo entusiasmado, te descuentan lo que has pagado y te cuentan esa inmersión como la primera práctica del Open Water.
+              💡 <strong>El truco que poca gente pregunta en el centro:</strong> si dispones de varios días pero no estás seguro de si te vas a agobiar bajo el agua, pregúntale a la escuela antes de empezar si hacen el <em>bautismo convalidable</em>. En muchos centros de España, si sales del bautismo entusiasmado, te descuentan lo que has pagado y te cuentan esa inmersión como la primera práctica del Open Water.
             </p>
           </div>
 

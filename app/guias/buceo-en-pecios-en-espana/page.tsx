@@ -70,7 +70,7 @@ export default function WreckDivingSpainPage() {
 
           {wreckSites.length > 0 && (
             <>
-              <h2>Puntos de inmersión en pecios de nuestro catálogo</h2>
+              <h2>Puntos de inmersión en pecios de España</h2>
               <div className="cards-grid" style={{ margin: "1.5rem 0 2.5rem" }}>
                 {wreckSites.map((site) => (
                   <SiteCard key={site.id} site={site} />

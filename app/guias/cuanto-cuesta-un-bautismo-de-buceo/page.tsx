@@ -60,19 +60,19 @@ export default function BaptismPriceGuidePage() {
         <span className="eyebrow">TARIFAS REALES EN ESPAÑA</span>
         <h1>¿Cuánto cuesta un bautismo de buceo en España y por qué cambia tanto el precio?</h1>
         <p className="lead">
-          Si buscas bautismos de buceo en un mismo pueblo de costa verás ofertas desde <strong>{minPrice} €</strong> y otras que pasan de los <strong>110 €</strong>. Hemos cruzado los <strong>{count} bautismos con tarifa activa</strong> en Buceo Atlas para explicarte qué estás pagando realmente en cada caso.
+          Si miras bautismos de buceo en una misma zona de costa verás opciones desde <strong>{minPrice} €</strong> y otras que pasan de los <strong>110 €</strong>. Te explicamos qué cambia realmente entre unas y otras para que sepas qué estás pagando en cada caso.
         </p>
 
         <div className="guide-article">
           <div className="editorial-tip">
             <p>
-              💶 <strong>El precio medio real hoy en España:</strong> la mediana de los {count} bautismos de nuestro catálogo está en <strong>{medianPrice} € por persona</strong> (con casi todas las opciones de una inmersión moviéndose entre los <strong>60 € y los 95 €</strong>, equipo completo y seguro incluidos).
+              💶 <strong>El precio habitual hoy en España:</strong> la mayoría de los bautismos de una inmersión cuestan entre <strong>60 € y 95 € por persona</strong> (con una media en torno a los <strong>{medianPrice} €</strong>, equipo completo y seguro incluidos).
             </p>
           </div>
 
           <h2>¿Qué pagas con un bautismo de 60 € frente a uno de 95 € o 120 €?</h2>
           <p>
-            En el buceo nadie regala duros a cuatro pesetas: mover una barca semirrígida, cargar botellas con aire filtrado, revisar reguladores y poner a un instructor pendiente de dos personas en el agua tiene un coste fijo muy claro. Cuando ves una diferencia de 30 o 40 euros entre dos escuelas de la misma zona, casi siempre se debe a uno de estos cuatro motivos:
+            Mover una embarcación, cargar botellas con aire filtrado, revisar reguladores y poner a un instructor pendiente de dos personas en el agua tiene un coste fijo muy claro. Cuando ves una diferencia de 30 o 40 euros entre dos centros de la misma zona, casi siempre se debe a uno de estos tres motivos:
           </p>
 
           <div className="guide-grid" style={{ margin: "1.5rem 0 2rem" }}>
@@ -161,18 +161,18 @@ export default function BaptismPriceGuidePage() {
             </li>
           </ul>
           <p>
-            Si estás pensando en hacer más de un bautismo durante tus vacaciones, echa cuentas antes en nuestra comparativa <Link href="/guias/bautismo-vs-curso-open-water" className="text-link">Bautismo vs Curso Open Water</Link>, porque a veces por poco más te llevas el título internacional para toda la vida.
+            Si te pica el gusanillo y te planteas hacer más de un bautismo, echa cuentas antes en nuestra comparativa <Link href="/guias/bautismo-vs-curso-open-water" className="text-link">Bautismo vs Curso Open Water</Link>, porque a veces por poco más te llevas el título internacional para toda la vida.
           </p>
 
           <div className="cta-section" style={{ paddingBottom: 0 }}>
             <div className="cta-panel">
               <div>
-                <span className="eyebrow">CATÁLOGO ACTUALIZADO</span>
-                <h2>Compara los {count} bautismos disponibles por zona</h2>
-                <p>Filtra por tu destino de vacaciones y consulta qué incluye cada escuela.</p>
+                <span className="eyebrow">BAUTISMOS EN ESPAÑA</span>
+                <h2>Consulta bautismos y precios por zona</h2>
+                <p>Elige provincia o localidad para ver tarifas y qué incluye cada centro.</p>
               </div>
               <Link href="/actividades/#type=Bautismo" className="button button-primary">
-                Comparar bautismos y precios →
+                Ver bautismos y precios →
               </Link>
             </div>
           </div>

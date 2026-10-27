@@ -110,7 +110,7 @@ export default function BeginnerGearGuidePage() {
                 <span className="eyebrow">TODO EL MATERIAL INCLUIDO</span>
                 <h2>Reserva tu bautismo o curso sin comprar equipo</h2>
                 <p>
-                  Todas las experiencias de iniciación de nuestro catálogo incluyen el equipamiento completo de buceo.
+                  Todas las experiencias de iniciación incluyen el equipamiento completo de buceo.
                 </p>
               </div>
               <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
