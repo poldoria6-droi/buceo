@@ -105,16 +105,13 @@ export default async function SpeciesPage({ params }: Props) {
           </article>
           {s.depth && (
             <article className="guide-card">
-              <h2>Profundidad biológica</h2>
+              <h2>Profundidad habitual</h2>
               <p>
-                {s.depth.min}–{s.depth.max} m ({" "}
+                Entre {s.depth.min} y {s.depth.max} m ({" "}
                 <a href={s.depth.sourceUrl} target="_blank" rel="noopener noreferrer">
-                  fuente
+                  fuente científica
                 </a>
                 ).
-              </p>
-              <p>
-                Rango batimétrico biológico; no equivale a la cota recomendada para una inmersión recreativa.
               </p>
             </article>
           )}
@@ -193,7 +190,8 @@ export default async function SpeciesPage({ params }: Props) {
                     <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                   </h3>
                   <p>
-                    Nivel {activity.level} · {activity.duration}
+                    Nivel {activity.level}
+                    {activity.duration && activity.duration !== "Consultar disponibilidad" ? ` · ${activity.duration}` : ""}
                   </p>
                   <Link className="text-link" href={`/actividades/${activity.slug}`}>
                     Ver ficha de la actividad →

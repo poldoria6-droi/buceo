@@ -115,21 +115,16 @@ export default async function CenterPage({ params }: Props) {
 
         <section id="actividades" className="center-activities">
           <h2>Actividades y opciones de reserva</h2>
-          <p>
-            Selecciona una experiencia para ver todos sus detalles o consultar fechas y precios directamente con el proveedor.
-          </p>
           <div className="guide-grid">
             {activities.map((activity) => (
               <article className="guide-card" key={activity.slug}>
-                <span className="eyebrow">{activity.type}</span>
+                <span className="eyebrow">{activity.type} · {activity.destination}</span>
                 <h3>
                   <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                 </h3>
                 <p>
-                  {activity.audience} · Nivel {activity.level}
-                </p>
-                <p>
-                  {activity.duration} · {activity.destination}
+                  Nivel {activity.level}
+                  {activity.duration && activity.duration !== "Consultar disponibilidad" ? ` · ${activity.duration}` : ""}
                 </p>
                 <Link className="text-link" href={`/actividades/${activity.slug}`}>
                   Ver ficha de la actividad →

@@ -8,7 +8,7 @@ export const centers: DiveCenter[] = [
     "name": "20000 Leguas",
     "location": "Alcalá de Henares",
     "region": "Comunidad de Madrid",
-    "description": "20000 Leguas es un centro y escuela de buceo con base en Alcalá de Henares (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "20000 Leguas es un centro y escuela de buceo con base en Alcalá de Henares (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Curso"
     ],
@@ -27,7 +27,7 @@ export const centers: DiveCenter[] = [
     "name": "7 Mares Las Canteras",
     "location": "Las Palmas de Gran Canaria",
     "region": "Canarias",
-    "description": "7 Mares Las Canteras es un centro y escuela de buceo con base en Las Palmas de Gran Canaria (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Las Canteras, cuyos fondos destacan por la presencia habitual de vieja colorada, pulpo común, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "7 Mares Las Canteras es un centro y escuela de buceo con base en Las Palmas de Gran Canaria (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Las Canteras, cuyos fondos destacan por la presencia habitual de vieja colorada, pulpo común, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -54,7 +54,7 @@ export const centers: DiveCenter[] = [
     "name": "Abysub",
     "location": "Fuengirola",
     "region": "Andalucía",
-    "description": "Abysub es un centro y escuela de buceo con base en Fuengirola (Andalucía) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Abysub es un centro y escuela de buceo con base en Fuengirola (Andalucía) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -79,7 +79,7 @@ export const centers: DiveCenter[] = [
     "name": "Active Scuba Divers Lanzarote",
     "location": "Costa Teguise",
     "region": "Canarias",
-    "description": "Active Scuba Divers Lanzarote es un centro y escuela de buceo con base en Costa Teguise (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa Teguise, cuyos fondos destacan por la presencia habitual de angelote, vieja colorada, morena, raya pastinaca, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Active Scuba Divers Lanzarote es un centro y escuela de buceo con base en Costa Teguise (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa Teguise, cuyos fondos destacan por la presencia habitual de angelote, vieja colorada, morena, raya pastinaca, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo",
@@ -113,7 +113,7 @@ export const centers: DiveCenter[] = [
     "name": "Adventure Experiences",
     "location": "Las Palmas de Gran Canaria",
     "region": "Canarias",
-    "description": "Adventure Experiences es un centro y escuela de buceo con base en Las Palmas de Gran Canaria (Canarias) especializado en bautismos de buceo para principiantes. Opera en el entorno de Sardina del Norte y Caleta de Arriba, cuyos fondos destacan por la presencia habitual de angelote, raya mariposa, sepia, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Adventure Experiences es un centro y escuela de buceo con base en Las Palmas de Gran Canaria (Canarias) especializado en bautismos de buceo para principiantes. Opera en el entorno de Sardina del Norte y Caleta de Arriba, cuyos fondos destacan por la presencia habitual de angelote, raya mariposa, sepia, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -137,7 +137,7 @@ export const centers: DiveCenter[] = [
     "name": "Albatros Diving",
     "location": "Cala Millor",
     "region": "Baleares",
-    "description": "Albatros Diving es un centro y escuela de buceo con base en Cala Millor (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Cala Millor, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, sargo común, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Albatros Diving es un centro y escuela de buceo con base en Cala Millor (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Cala Millor, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, sargo común, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -164,7 +164,7 @@ export const centers: DiveCenter[] = [
     "name": "Alisios Sub Lanzarote",
     "location": "Lanzarote · Tías",
     "region": "Canarias",
-    "description": "Alisios Sub Lanzarote es un centro y escuela de buceo con base en Lanzarote · Tías (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Tías, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, mero moreno, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Alisios Sub Lanzarote es un centro y escuela de buceo con base en Lanzarote · Tías (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Tías, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, mero moreno, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -192,7 +192,7 @@ export const centers: DiveCenter[] = [
     "name": "All Blue Diving",
     "location": "Cambrils",
     "region": "Cataluña",
-    "description": "All Blue Diving es un centro y escuela de buceo con base en Cambrils (Cataluña) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "All Blue Diving es un centro y escuela de buceo con base en Cambrils (Cataluña) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -212,7 +212,7 @@ export const centers: DiveCenter[] = [
     "name": "Almuñecar Dive Center",
     "location": "Almuñécar",
     "region": "Andalucía",
-    "description": "Almuñecar Dive Center es un centro y escuela de buceo con base en Almuñécar (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Almuñecar Dive Center es un centro y escuela de buceo con base en Almuñécar (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -238,7 +238,7 @@ export const centers: DiveCenter[] = [
     "name": "Alpha Buceo Gijón",
     "location": "Gijón",
     "region": "Asturias",
-    "description": "Alpha Buceo Gijón es un centro y escuela de buceo con base en Gijón (Asturias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Puerto del Musel, cuyos fondos destacan por la presencia habitual de centolla, congrio, cabracho, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Alpha Buceo Gijón es un centro y escuela de buceo con base en Gijón (Asturias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Puerto del Musel, cuyos fondos destacan por la presencia habitual de centolla, congrio, cabracho, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -263,7 +263,7 @@ export const centers: DiveCenter[] = [
     "name": "Amarilla Divers",
     "location": "Los Abrigos",
     "region": "Canarias",
-    "description": "Amarilla Divers es un centro y escuela de buceo con base en Los Abrigos (Canarias) especializado en salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Los Abrigos, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Amarilla Divers es un centro y escuela de buceo con base en Los Abrigos (Canarias) especializado en salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Los Abrigos, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Fun Dive",
       "Bautismo"
@@ -287,7 +287,7 @@ export const centers: DiveCenter[] = [
     "name": "Anèl·lides Serveis Ambientals Marins",
     "location": "Barcelona",
     "region": "Cataluña",
-    "description": "Anèl·lides Serveis Ambientals Marins es un centro y escuela de buceo con base en Barcelona (Cataluña) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Escollera de Barcelona y Fòrum y Barres de Mataró, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Anèl·lides Serveis Ambientals Marins es un centro y escuela de buceo con base en Barcelona (Cataluña) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Escollera de Barcelona y Fòrum y Barres de Mataró, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -311,7 +311,7 @@ export const centers: DiveCenter[] = [
     "name": "Anemone Diving Center",
     "location": "Palamós",
     "region": "Cataluña",
-    "description": "Anemone Diving Center es un centro y escuela de buceo con base en Palamós (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Illes Formigues, cuyos fondos destacan por la presencia habitual de gorgonia roja, barracuda, mero moreno, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Anemone Diving Center es un centro y escuela de buceo con base en Palamós (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Illes Formigues, cuyos fondos destacan por la presencia habitual de gorgonia roja, barracuda, mero moreno, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -338,7 +338,7 @@ export const centers: DiveCenter[] = [
     "name": "Aquarium Lanzarote",
     "location": "Costa Teguise",
     "region": "Canarias",
-    "description": "Aquarium Lanzarote es un centro y escuela de buceo con base en Costa Teguise (Canarias) especializado en salidas de observación de biodiversidad marina. Opera en el entorno de Costa Teguise, cuyos fondos destacan por la presencia habitual de angelote, vieja colorada, morena, raya pastinaca, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Aquarium Lanzarote es un centro y escuela de buceo con base en Costa Teguise (Canarias) especializado en salidas de observación de biodiversidad marina. Opera en el entorno de Costa Teguise, cuyos fondos destacan por la presencia habitual de angelote, vieja colorada, morena, raya pastinaca, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Fauna"
     ],
@@ -362,7 +362,7 @@ export const centers: DiveCenter[] = [
     "name": "Arenal Diving",
     "location": "Sant Antoni de Portmany",
     "region": "Baleares",
-    "description": "Arenal Diving es un centro y escuela de buceo con base en Sant Antoni de Portmany (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Sant Antoni de Portmany, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, pulpo común, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Arenal Diving es un centro y escuela de buceo con base en Sant Antoni de Portmany (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Sant Antoni de Portmany, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, pulpo común, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -392,7 +392,7 @@ export const centers: DiveCenter[] = [
     "name": "Arvalis",
     "location": "Valladolid",
     "region": "Castilla y León",
-    "description": "Arvalis es un centro y escuela de buceo con base en Valladolid (Castilla y León) especializado en bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Arvalis es un centro y escuela de buceo con base en Valladolid (Castilla y León) especializado en bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Bautismo"
     ],
@@ -410,7 +410,7 @@ export const centers: DiveCenter[] = [
     "name": "Asdón Aventura Madrid",
     "location": "Gargantilla de Lozoya",
     "region": "Comunidad de Madrid",
-    "description": "Asdón Aventura Madrid es un centro y escuela de buceo con base en Gargantilla de Lozoya (Comunidad de Madrid) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Asdón Aventura Madrid es un centro y escuela de buceo con base en Gargantilla de Lozoya (Comunidad de Madrid) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -430,7 +430,7 @@ export const centers: DiveCenter[] = [
     "name": "Atlantis Diving Lanzarote",
     "location": "Lanzarote · Puerto del Carmen",
     "region": "Canarias",
-    "description": "Atlantis Diving Lanzarote es un centro y escuela de buceo con base en Lanzarote · Puerto del Carmen (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados, bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Puerto del Carmen, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Atlantis Diving Lanzarote es un centro y escuela de buceo con base en Lanzarote · Puerto del Carmen (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados, bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Puerto del Carmen, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -478,7 +478,7 @@ export const centers: DiveCenter[] = [
     "name": "Aventura Tour Salou",
     "location": "Salou, Tarragona",
     "region": "Cataluña",
-    "description": "Aventura Tour Salou es un centro y escuela de buceo con base en Salou, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Aventura Tour Salou es un centro y escuela de buceo con base en Salou, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -498,7 +498,7 @@ export const centers: DiveCenter[] = [
     "name": "Balkysub",
     "location": "Cabo de Palos · La Manga del Mar Menor",
     "region": "Murcia",
-    "description": "Balkysub es un centro y escuela de buceo con base en Cabo de Palos · La Manga del Mar Menor (Murcia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), excursiones guiadas de snorkel e interpretación marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Islas Hormigas, cuyos fondos destacan por la presencia habitual de mero moreno, dentón, pez limón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Balkysub es un centro y escuela de buceo con base en Cabo de Palos · La Manga del Mar Menor (Murcia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), excursiones guiadas de snorkel e interpretación marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Islas Hormigas, cuyos fondos destacan por la presencia habitual de mero moreno, dentón, pez limón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -530,7 +530,7 @@ export const centers: DiveCenter[] = [
     "name": "Barracuda",
     "location": "Alcoceber",
     "region": "Comunidad Valenciana",
-    "description": "Barracuda es un centro y escuela de buceo con base en Alcoceber (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Barracuda es un centro y escuela de buceo con base en Alcoceber (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas.",
     "services": [
       "Bautismo",
       "Curso"
@@ -553,7 +553,7 @@ export const centers: DiveCenter[] = [
     "name": "Barracuda Oropesa Buceo",
     "location": "Oropesa del Mar",
     "region": "Comunidad Valenciana",
-    "description": "Barracuda Oropesa Buceo es un centro y escuela de buceo con base en Oropesa del Mar (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Barracuda Oropesa Buceo es un centro y escuela de buceo con base en Oropesa del Mar (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas.",
     "services": [
       "Bautismo",
       "Curso"
@@ -574,7 +574,7 @@ export const centers: DiveCenter[] = [
     "name": "Binibeca Diving",
     "location": "Sant Lluís",
     "region": "Baleares",
-    "description": "Binibeca Diving es un centro y escuela de buceo con base en Sant Lluís (Baleares) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Binibeca Diving es un centro y escuela de buceo con base en Sant Lluís (Baleares) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -594,7 +594,7 @@ export const centers: DiveCenter[] = [
     "name": "Black Frog Divers",
     "location": "Torrox",
     "region": "Andalucía",
-    "description": "Black Frog Divers es un centro y escuela de buceo con base en Torrox (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Black Frog Divers es un centro y escuela de buceo con base en Torrox (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -617,7 +617,7 @@ export const centers: DiveCenter[] = [
     "name": "Blackstone Dive Center",
     "location": "El Médano · Tenerife",
     "region": "Canarias",
-    "description": "Blackstone Dive Center es un centro y escuela de buceo con base en El Médano · Tenerife (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Playa Paraíso, cuyos fondos destacan por la presencia habitual de tortuga verde, raya mariposa, morena, tamboril espinoso, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Blackstone Dive Center es un centro y escuela de buceo con base en El Médano · Tenerife (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Playa Paraíso, cuyos fondos destacan por la presencia habitual de tortuga verde, raya mariposa, morena, tamboril espinoso, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -643,7 +643,7 @@ export const centers: DiveCenter[] = [
     "name": "Blaumar",
     "location": "Mataró",
     "region": "Cataluña",
-    "description": "Blaumar es un centro y escuela de buceo con base en Mataró (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Barres de Mataró, cuyos fondos destacan por la presencia habitual de morena, congrio, langosta, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Blaumar es un centro y escuela de buceo con base en Mataró (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Barres de Mataró, cuyos fondos destacan por la presencia habitual de morena, congrio, langosta, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -669,7 +669,7 @@ export const centers: DiveCenter[] = [
     "name": "Blue Dive Menorca",
     "location": "Puerto de Addaya",
     "region": "Baleares",
-    "description": "Blue Dive Menorca es un centro y escuela de buceo con base en Puerto de Addaya (Baleares) especializado en salidas de inmersión guiadas para buceadores titulados, excursiones guiadas de snorkel e interpretación marina, bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Blue Dive Menorca es un centro y escuela de buceo con base en Puerto de Addaya (Baleares) especializado en salidas de inmersión guiadas para buceadores titulados, excursiones guiadas de snorkel e interpretación marina, bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo.",
     "services": [
       "Fun Dive",
       "Snorkel",
@@ -701,7 +701,7 @@ export const centers: DiveCenter[] = [
     "name": "Blue Water Diving",
     "location": "Las Palmas de Gran Canaria · Puerto Rico",
     "region": "Canarias",
-    "description": "Blue Water Diving es un centro y escuela de buceo con base en Las Palmas de Gran Canaria · Puerto Rico (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Las Canteras, cuyos fondos destacan por la presencia habitual de vieja colorada, pulpo común, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Blue Water Diving es un centro y escuela de buceo con base en Las Palmas de Gran Canaria · Puerto Rico (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Las Canteras, cuyos fondos destacan por la presencia habitual de vieja colorada, pulpo común, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -731,7 +731,7 @@ export const centers: DiveCenter[] = [
     "name": "Bluewater Menorca",
     "location": "Menorca",
     "region": "Baleares",
-    "description": "Bluewater Menorca es un centro y escuela de buceo con base en Menorca (Baleares) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Costa de Ciudadela, cuyos fondos destacan por la presencia habitual de sargo común, pulpo común, sepia, doncella, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Bluewater Menorca es un centro y escuela de buceo con base en Menorca (Baleares) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Costa de Ciudadela, cuyos fondos destacan por la presencia habitual de sargo común, pulpo común, sepia, doncella, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -756,7 +756,7 @@ export const centers: DiveCenter[] = [
     "name": "Brisubuceo",
     "location": "Las Galletas",
     "region": "Canarias",
-    "description": "Brisubuceo es un centro y escuela de buceo con base en Las Galletas (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Santa Cruz de Tenerife, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, morena, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Brisubuceo es un centro y escuela de buceo con base en Las Galletas (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Santa Cruz de Tenerife, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, morena, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -782,7 +782,7 @@ export const centers: DiveCenter[] = [
     "name": "Bubbles Toledo",
     "location": "Illescas",
     "region": "Castilla-La Mancha",
-    "description": "Bubbles Toledo es un centro y escuela de buceo con base en Illescas (Castilla-La Mancha) especializado en bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Bubbles Toledo es un centro y escuela de buceo con base en Illescas (Castilla-La Mancha) especializado en bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Bautismo"
     ],
@@ -800,7 +800,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Aguadulce Roquetas",
     "location": "Aguadulce · Roquetas de Mar",
     "region": "Andalucía",
-    "description": "Buceo Aguadulce Roquetas es un centro y escuela de buceo con base en Aguadulce · Roquetas de Mar (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Aguadulce, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, morena, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Aguadulce Roquetas es un centro y escuela de buceo con base en Aguadulce · Roquetas de Mar (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Aguadulce, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, morena, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -833,7 +833,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Alcalá",
     "location": "Alcalá de Henares · Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Buceo Alcalá es un centro y escuela de buceo con base en Alcalá de Henares · Madrid (Comunidad de Madrid) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Alcalá es un centro y escuela de buceo con base en Alcalá de Henares · Madrid (Comunidad de Madrid) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Bautismo",
       "Curso",
@@ -866,7 +866,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Andalucía",
     "location": "El Ejido",
     "region": "Andalucía",
-    "description": "Buceo Andalucía es un centro y escuela de buceo con base en El Ejido (Andalucía) especializado en bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Andalucía es un centro y escuela de buceo con base en El Ejido (Andalucía) especializado en bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Bautismo"
     ],
@@ -884,7 +884,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Aqualia",
     "location": "La Herradura",
     "region": "Andalucía",
-    "description": "Buceo Aqualia es un centro y escuela de buceo con base en La Herradura (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de La Herradura, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, vaquita suiza, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Aqualia es un centro y escuela de buceo con base en La Herradura (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de La Herradura, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, vaquita suiza, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -909,7 +909,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Calypso",
     "location": "Miengo",
     "region": "Cantabria",
-    "description": "Buceo Calypso es un centro y escuela de buceo con base en Miengo (Cantabria) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Miengo / Requejada, cuyos fondos destacan por la presencia habitual de pulpo común, centolla, congrio, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Calypso es un centro y escuela de buceo con base en Miengo (Cantabria) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Miengo / Requejada, cuyos fondos destacan por la presencia habitual de pulpo común, centolla, congrio, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -936,7 +936,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Catalunya Costa Brava",
     "location": "Palamós",
     "region": "Cataluña",
-    "description": "Buceo Catalunya Costa Brava es un centro y escuela de buceo con base en Palamós (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Illes Formigues, cuyos fondos destacan por la presencia habitual de gorgonia roja, barracuda, mero moreno, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Catalunya Costa Brava es un centro y escuela de buceo con base en Palamós (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Illes Formigues, cuyos fondos destacan por la presencia habitual de gorgonia roja, barracuda, mero moreno, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -962,7 +962,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Costa Lugo",
     "location": "Ribadeo",
     "region": "Galicia",
-    "description": "Buceo Costa Lugo es un centro y escuela de buceo con base en Ribadeo (Galicia) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Costa Lugo es un centro y escuela de buceo con base en Ribadeo (Galicia) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Curso",
       "Bautismo"
@@ -982,7 +982,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Costa Nerja",
     "location": "Nerja",
     "region": "Andalucía",
-    "description": "Buceo Costa Nerja es un centro y escuela de buceo con base en Nerja (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Maro–Cerro Gordo y Nerja, cuyos fondos destacan por la presencia habitual de coral naranja, pulpo común, morena, congrio, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Costa Nerja es un centro y escuela de buceo con base en Nerja (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Maro–Cerro Gordo y Nerja, cuyos fondos destacan por la presencia habitual de coral naranja, pulpo común, morena, congrio, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1012,7 +1012,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Donosti",
     "location": "San Sebastián",
     "region": "País Vasco",
-    "description": "Buceo Donosti es un centro y escuela de buceo con base en San Sebastián (País Vasco) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Costa de San Sebastián y Roque de la Gaviota y Isla de Santa Clara y Cabo Higuer (Guipúzcoa), cuyos fondos destacan por la presencia habitual de chucho negro, tortuga boba, vieja colorada, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Donosti es un centro y escuela de buceo con base en San Sebastián (País Vasco) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Costa de San Sebastián y Roque de la Gaviota y Isla de Santa Clara y Cabo Higuer (Guipúzcoa), cuyos fondos destacan por la presencia habitual de chucho negro, tortuga boba, vieja colorada, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1038,7 +1038,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Estepona",
     "location": "Estepona · Manilva",
     "region": "Andalucía",
-    "description": "Buceo Estepona es un centro y escuela de buceo con base en Estepona · Manilva (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Estepona es un centro y escuela de buceo con base en Estepona · Manilva (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1063,7 +1063,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Finisterre",
     "location": "Finisterre",
     "region": "Galicia",
-    "description": "Buceo Finisterre es un centro y escuela de buceo con base en Finisterre (Galicia) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Finisterre y Bahía de A Coruña y Finisterre, cuyos fondos destacan por la presencia habitual de pulpo común, centolla, congrio, bogavante, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Finisterre es un centro y escuela de buceo con base en Finisterre (Galicia) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Finisterre y Bahía de A Coruña y Finisterre, cuyos fondos destacan por la presencia habitual de pulpo común, centolla, congrio, bogavante, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1091,7 +1091,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Hondarribia",
     "location": "Hondarribia",
     "region": "País Vasco",
-    "description": "Buceo Hondarribia es un centro y escuela de buceo con base en Hondarribia (País Vasco) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Hondarribia es un centro y escuela de buceo con base en Hondarribia (País Vasco) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -1112,7 +1112,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Isla Negra",
     "location": "San Juan de los Terreros",
     "region": "Andalucía",
-    "description": "Buceo Isla Negra es un centro y escuela de buceo con base en San Juan de los Terreros (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Isla Negra es un centro y escuela de buceo con base en San Juan de los Terreros (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -1133,7 +1133,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Islas Cies",
     "location": "Vigo",
     "region": "Galicia",
-    "description": "Buceo Islas Cies es un centro y escuela de buceo con base en Vigo (Galicia) especializado en bautismos de buceo para principiantes. Opera en el entorno de Ría de Vigo, Sanxenxo e Islas Cíes (Pontevedra), cuyos fondos destacan por la presencia habitual de pulpo común, centolla, bogavante, anémona joya, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Islas Cies es un centro y escuela de buceo con base en Vigo (Galicia) especializado en bautismos de buceo para principiantes. Opera en el entorno de Ría de Vigo, Sanxenxo e Islas Cíes (Pontevedra), cuyos fondos destacan por la presencia habitual de pulpo común, centolla, bogavante, anémona joya, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -1155,7 +1155,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Las Negras",
     "location": "Cabo de Gata",
     "region": "Andalucía",
-    "description": "Buceo Las Negras es un centro y escuela de buceo con base en Cabo de Gata (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de Arrecife de las Sirenas y Las Negras, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Las Negras es un centro y escuela de buceo con base en Cabo de Gata (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de Arrecife de las Sirenas y Las Negras, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1180,7 +1180,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Marina",
     "location": "La Herradura",
     "region": "Andalucía",
-    "description": "Buceo Marina es un centro y escuela de buceo con base en La Herradura (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de La Herradura, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, vaquita suiza, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Marina es un centro y escuela de buceo con base en La Herradura (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de La Herradura, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, vaquita suiza, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1207,7 +1207,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Navarra",
     "location": "Mutilva Baja",
     "region": "Navarra",
-    "description": "Buceo Navarra es un centro y escuela de buceo con base en Mutilva Baja (Navarra) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Navarra es un centro y escuela de buceo con base en Mutilva Baja (Navarra) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1228,7 +1228,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Pandora",
     "location": "Arinaga · Risco Verde",
     "region": "Canarias",
-    "description": "Buceo Pandora es un centro y escuela de buceo con base en Arinaga · Risco Verde (Canarias) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Arinaga, cuyos fondos destacan por la presencia habitual de angelote, raya mariposa, morena, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Pandora es un centro y escuela de buceo con base en Arinaga · Risco Verde (Canarias) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Arinaga, cuyos fondos destacan por la presencia habitual de angelote, raya mariposa, morena, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -1255,7 +1255,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Tenerife",
     "location": "Las Chafiras · Las Galletas · Tenerife",
     "region": "Canarias",
-    "description": "Buceo Tenerife es un centro y escuela de buceo con base en Las Chafiras · Las Galletas · Tenerife (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Las Galletas, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Tenerife es un centro y escuela de buceo con base en Las Chafiras · Las Galletas · Tenerife (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Las Galletas, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1288,7 +1288,7 @@ export const centers: DiveCenter[] = [
     "name": "Buceo Valencia",
     "location": "La Pobla de Farnals · Valencia",
     "region": "Comunidad Valenciana",
-    "description": "Buceo Valencia es un centro y escuela de buceo con base en La Pobla de Farnals · Valencia (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Pobla de Farnals, cuyos fondos destacan por la presencia habitual de pulpo común, morena, congrio, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buceo Valencia es un centro y escuela de buceo con base en La Pobla de Farnals · Valencia (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Pobla de Farnals, cuyos fondos destacan por la presencia habitual de pulpo común, morena, congrio, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1322,7 +1322,7 @@ export const centers: DiveCenter[] = [
     "name": "Buddha Divers",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "Buddha Divers es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Buddha Divers es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1351,7 +1351,7 @@ export const centers: DiveCenter[] = [
     "name": "Caballito Salao",
     "location": "La Azohía",
     "region": "Murcia",
-    "description": "Caballito Salao es un centro y escuela de buceo con base en La Azohía (Murcia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Azohía, cuyos fondos destacan por la presencia habitual de mero moreno, morena, dentón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Caballito Salao es un centro y escuela de buceo con base en La Azohía (Murcia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Azohía, cuyos fondos destacan por la presencia habitual de mero moreno, morena, dentón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1378,7 +1378,7 @@ export const centers: DiveCenter[] = [
     "name": "Cala Santanyi Diving Center",
     "location": "Cala Santanyí",
     "region": "Baleares",
-    "description": "Cala Santanyi Diving Center es un centro y escuela de buceo con base en Cala Santanyí (Baleares) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Cala Santanyí, cuyos fondos destacan por la presencia habitual de pulpo común, morena, sargo común, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Cala Santanyi Diving Center es un centro y escuela de buceo con base en Cala Santanyí (Baleares) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Cala Santanyí, cuyos fondos destacan por la presencia habitual de pulpo común, morena, sargo común, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1403,7 +1403,7 @@ export const centers: DiveCenter[] = [
     "name": "Calamar Gigante",
     "location": "Garrucha",
     "region": "Andalucía",
-    "description": "Calamar Gigante es un centro y escuela de buceo con base en Garrucha (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Calamar Gigante es un centro y escuela de buceo con base en Garrucha (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Curso",
       "Bautismo",
@@ -1426,7 +1426,7 @@ export const centers: DiveCenter[] = [
     "name": "Calpe Multiaventura",
     "location": "Calpe",
     "region": "Comunidad Valenciana",
-    "description": "Calpe Multiaventura es un centro y escuela de buceo con base en Calpe (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Playa del Racó, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, doncella, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Calpe Multiaventura es un centro y escuela de buceo con base en Calpe (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Playa del Racó, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, doncella, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1454,7 +1454,7 @@ export const centers: DiveCenter[] = [
     "name": "Calypso Diving Estartit",
     "location": "L'Estartit · Torroella de Montgrí",
     "region": "Cataluña",
-    "description": "Calypso Diving Estartit es un centro y escuela de buceo con base en L'Estartit · Torroella de Montgrí (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de L'Estartit, cuyos fondos destacan por la presencia habitual de mero moreno, gorgonia roja, corvina, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Calypso Diving Estartit es un centro y escuela de buceo con base en L'Estartit · Torroella de Montgrí (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de L'Estartit, cuyos fondos destacan por la presencia habitual de mero moreno, gorgonia roja, corvina, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1481,7 +1481,7 @@ export const centers: DiveCenter[] = [
     "name": "CBS Centro de Buceo del Sureste",
     "location": "La Azohía · Mazarrón · Puerto de Mazarrón",
     "region": "Murcia",
-    "description": "CBS Centro de Buceo del Sureste es un centro y escuela de buceo con base en La Azohía · Mazarrón · Puerto de Mazarrón (Murcia) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Puerto de Mazarrón, cuyos fondos destacan por la presencia habitual de mero moreno, morena, pulpo común, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "CBS Centro de Buceo del Sureste es un centro y escuela de buceo con base en La Azohía · Mazarrón · Puerto de Mazarrón (Murcia) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Puerto de Mazarrón, cuyos fondos destacan por la presencia habitual de mero moreno, morena, pulpo común, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1512,7 +1512,7 @@ export const centers: DiveCenter[] = [
     "name": "Centollo Dive Club",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "Centollo Dive Club es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados, excursiones guiadas de snorkel e interpretación marina y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centollo Dive Club es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados, excursiones guiadas de snorkel e interpretación marina y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -1543,7 +1543,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro Buceo Altair",
     "location": "Alicante",
     "region": "Comunidad Valenciana",
-    "description": "Centro Buceo Altair es un centro y escuela de buceo con base en Alicante (Comunidad Valenciana) especializado en bautismos de buceo para principiantes. Opera en el entorno de Cala Palmera, cuyos fondos destacan por la presencia habitual de posidonia, pulpo común, sargo común, sepia, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro Buceo Altair es un centro y escuela de buceo con base en Alicante (Comunidad Valenciana) especializado en bautismos de buceo para principiantes. Opera en el entorno de Cala Palmera, cuyos fondos destacan por la presencia habitual de posidonia, pulpo común, sargo común, sepia, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -1565,7 +1565,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Alpha",
     "location": "Cabo de Gata",
     "region": "Andalucía",
-    "description": "Centro de Buceo Alpha es un centro y escuela de buceo con base en Cabo de Gata (Andalucía) especializado en salidas de inmersión guiadas para buceadores titulados, bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Arrecife de las Sirenas, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro de Buceo Alpha es un centro y escuela de buceo con base en Cabo de Gata (Andalucía) especializado en salidas de inmersión guiadas para buceadores titulados, bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Arrecife de las Sirenas, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Fun Dive",
       "Bautismo",
@@ -1592,7 +1592,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Costa Palancia",
     "location": "Canet d'en Berenguer",
     "region": "Comunidad Valenciana",
-    "description": "Centro de Buceo Costa Palancia es un centro y escuela de buceo con base en Canet d'en Berenguer (Comunidad Valenciana) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Canet d'en Berenguer, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro de Buceo Costa Palancia es un centro y escuela de buceo con base en Canet d'en Berenguer (Comunidad Valenciana) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Canet d'en Berenguer, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -1620,7 +1620,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo El Bajón",
     "location": "La Restinga",
     "region": "Canarias",
-    "description": "Centro de Buceo El Bajón es un centro y escuela de buceo con base en La Restinga (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de La Restinga, cuyos fondos destacan por la presencia habitual de mero moreno, vieja colorada, tamboril espinoso, tortuga boba, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro de Buceo El Bajón es un centro y escuela de buceo con base en La Restinga (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de La Restinga, cuyos fondos destacan por la presencia habitual de mero moreno, vieja colorada, tamboril espinoso, tortuga boba, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1644,7 +1644,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Naranjito",
     "location": "Cabo de Palos",
     "region": "Murcia",
-    "description": "Centro de Buceo Naranjito es un centro y escuela de buceo con base en Cabo de Palos (Murcia) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Islas Hormigas, cuyos fondos destacan por la presencia habitual de mero moreno, dentón, pez limón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro de Buceo Naranjito es un centro y escuela de buceo con base en Cabo de Palos (Murcia) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Islas Hormigas, cuyos fondos destacan por la presencia habitual de mero moreno, dentón, pez limón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1673,7 +1673,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Puerto de Javea",
     "location": "Jávea",
     "region": "Comunidad Valenciana",
-    "description": "Centro de Buceo Puerto de Javea es un centro y escuela de buceo con base en Jávea (Comunidad Valenciana) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Jávea, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, morena, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro de Buceo Puerto de Javea es un centro y escuela de buceo con base en Jávea (Comunidad Valenciana) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Jávea, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, morena, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso"
     ],
@@ -1696,7 +1696,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Scorpora",
     "location": "Serra Gelada",
     "region": "Comunidad Valenciana",
-    "description": "Centro de Buceo Scorpora es un centro y escuela de buceo con base en Serra Gelada (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Serra Gelada, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, posidonia, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro de Buceo Scorpora es un centro y escuela de buceo con base en Serra Gelada (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Serra Gelada, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, posidonia, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -1722,7 +1722,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Splash",
     "location": "Orcoyen",
     "region": "Navarra",
-    "description": "Centro de Buceo Splash es un centro y escuela de buceo con base en Orcoyen (Navarra) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro de Buceo Splash es un centro y escuela de buceo con base en Orcoyen (Navarra) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Curso",
       "Bautismo"
@@ -1743,7 +1743,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro de Buceo Tribuo",
     "location": "Corralejo",
     "region": "Canarias",
-    "description": "Centro de Buceo Tribuo es un centro y escuela de buceo con base en Corralejo (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro de Buceo Tribuo es un centro y escuela de buceo con base en Corralejo (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1767,7 +1767,7 @@ export const centers: DiveCenter[] = [
     "name": "Centro Escuela de Buceo Mojacar",
     "location": "Mojácar",
     "region": "Andalucía",
-    "description": "Centro Escuela de Buceo Mojacar es un centro y escuela de buceo con base en Mojácar (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Centro Escuela de Buceo Mojacar es un centro y escuela de buceo con base en Mojácar (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1787,7 +1787,7 @@ export const centers: DiveCenter[] = [
     "name": "Charters Casamar",
     "location": "Castellón de la Plana",
     "region": "Comunidad Valenciana",
-    "description": "Charters Casamar es un centro y escuela de buceo con base en Castellón de la Plana (Comunidad Valenciana) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Reserva Marina de las Islas Columbretes y Arrecifes y Pecios de Burriana y Oropesa, cuyos fondos destacan por la presencia habitual de mero moreno, langosta, barracuda, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Charters Casamar es un centro y escuela de buceo con base en Castellón de la Plana (Comunidad Valenciana) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Reserva Marina de las Islas Columbretes y Arrecifes y Pecios de Burriana y Oropesa, cuyos fondos destacan por la presencia habitual de mero moreno, langosta, barracuda, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Fun Dive"
     ],
@@ -1810,7 +1810,7 @@ export const centers: DiveCenter[] = [
     "name": "Club de Buceo NoraySub",
     "location": "Calahonda",
     "region": "Andalucía",
-    "description": "Club de Buceo NoraySub es un centro y escuela de buceo con base en Calahonda (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Laja de Calahonda (Motril), cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Club de Buceo NoraySub es un centro y escuela de buceo con base en Calahonda (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Laja de Calahonda (Motril), cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1837,7 +1837,7 @@ export const centers: DiveCenter[] = [
     "name": "Club de Buceo Quimerasub",
     "location": "Radazul",
     "region": "Canarias",
-    "description": "Club de Buceo Quimerasub es un centro y escuela de buceo con base en Radazul (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Radazul, cuyos fondos destacan por la presencia habitual de chucho negro, tortuga verde, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Club de Buceo Quimerasub es un centro y escuela de buceo con base en Radazul (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Radazul, cuyos fondos destacan por la presencia habitual de chucho negro, tortuga verde, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -1861,7 +1861,7 @@ export const centers: DiveCenter[] = [
     "name": "Club Dofí-Sub",
     "location": "L'Ametlla de Mar · L'Ametlla de Mar, Tarragona",
     "region": "Cataluña",
-    "description": "Club Dofí-Sub es un centro y escuela de buceo con base en L'Ametlla de Mar · L'Ametlla de Mar, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Club Dofí-Sub es un centro y escuela de buceo con base en L'Ametlla de Mar · L'Ametlla de Mar, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -1892,7 +1892,7 @@ export const centers: DiveCenter[] = [
     "name": "Dawn Dives Academy",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "Dawn Dives Academy es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en bautismos de buceo para principiantes. Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Dawn Dives Academy es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en bautismos de buceo para principiantes. Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -1914,7 +1914,7 @@ export const centers: DiveCenter[] = [
     "name": "Deep Blue Diving",
     "location": "Caleta de Fuste",
     "region": "Canarias",
-    "description": "Deep Blue Diving es un centro y escuela de buceo con base en Caleta de Fuste (Canarias) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Caleta de Fuste, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Deep Blue Diving es un centro y escuela de buceo con base en Caleta de Fuste (Canarias) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Caleta de Fuste, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -1938,7 +1938,7 @@ export const centers: DiveCenter[] = [
     "name": "Dive Academy Santa Pola",
     "location": "Santa Pola",
     "region": "Comunidad Valenciana",
-    "description": "Dive Academy Santa Pola es un centro y escuela de buceo con base en Santa Pola (Comunidad Valenciana) especializado en bautismos de buceo para principiantes. Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Dive Academy Santa Pola es un centro y escuela de buceo con base en Santa Pola (Comunidad Valenciana) especializado en bautismos de buceo para principiantes. Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas.",
     "services": [
       "Bautismo"
     ],
@@ -1956,7 +1956,7 @@ export const centers: DiveCenter[] = [
     "name": "Dive Center Barcelona",
     "location": "Barcelona",
     "region": "Cataluña",
-    "description": "Dive Center Barcelona es un centro y escuela de buceo con base en Barcelona (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Escollera de Barcelona y Fòrum y Barres de Mataró, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Dive Center Barcelona es un centro y escuela de buceo con base en Barcelona (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Escollera de Barcelona y Fòrum y Barres de Mataró, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo",
@@ -1985,7 +1985,7 @@ export const centers: DiveCenter[] = [
     "name": "Dive&Dive",
     "location": "Calpe",
     "region": "Comunidad Valenciana",
-    "description": "Dive&Dive es un centro y escuela de buceo con base en Calpe (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Playa del Racó, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, doncella, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Dive&Dive es un centro y escuela de buceo con base en Calpe (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Playa del Racó, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, doncella, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -2010,7 +2010,7 @@ export const centers: DiveCenter[] = [
     "name": "DIVEMADRID",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "DIVEMADRID es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "DIVEMADRID es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Curso",
       "Bautismo"
@@ -2038,7 +2038,7 @@ export const centers: DiveCenter[] = [
     "name": "Divemanía",
     "location": "A Coruña",
     "region": "Galicia",
-    "description": "Divemanía es un centro y escuela de buceo con base en A Coruña (Galicia) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de A Coruña, cuyos fondos destacan por la presencia habitual de congrio, centolla, pulpo común, anémona joya, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Divemanía es un centro y escuela de buceo con base en A Coruña (Galicia) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de A Coruña, cuyos fondos destacan por la presencia habitual de congrio, centolla, pulpo común, anémona joya, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo"
@@ -2064,7 +2064,7 @@ export const centers: DiveCenter[] = [
     "name": "Diver Soul Tarifa",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "Diver Soul Tarifa es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diver Soul Tarifa es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Snorkel"
@@ -2088,7 +2088,7 @@ export const centers: DiveCenter[] = [
     "name": "Diversub",
     "location": "Platja d'Aro · Sant Antoni de Calonge",
     "region": "Cataluña",
-    "description": "Diversub es un centro y escuela de buceo con base en Platja d'Aro · Sant Antoni de Calonge (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Illes Formigues y Platja d'Aro, cuyos fondos destacan por la presencia habitual de gorgonia roja, barracuda, mero moreno, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diversub es un centro y escuela de buceo con base en Platja d'Aro · Sant Antoni de Calonge (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Illes Formigues y Platja d'Aro, cuyos fondos destacan por la presencia habitual de gorgonia roja, barracuda, mero moreno, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2117,7 +2117,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Atlantis",
     "location": "Adeje · Guía de Isora",
     "region": "Canarias",
-    "description": "Diving Atlantis es un centro y escuela de buceo con base en Adeje · Guía de Isora (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de El Médano y Costa Adeje, cuyos fondos destacan por la presencia habitual de angelote, raya pastinaca, tortuga boba, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving Atlantis es un centro y escuela de buceo con base en Adeje · Guía de Isora (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de El Médano y Costa Adeje, cuyos fondos destacan por la presencia habitual de angelote, raya pastinaca, tortuga boba, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -2151,7 +2151,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Canarias",
     "location": "Radazul",
     "region": "Canarias",
-    "description": "Diving Canarias es un centro y escuela de buceo con base en Radazul (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Radazul, cuyos fondos destacan por la presencia habitual de chucho negro, tortuga verde, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving Canarias es un centro y escuela de buceo con base en Radazul (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Radazul, cuyos fondos destacan por la presencia habitual de chucho negro, tortuga verde, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -2179,7 +2179,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving & Combat",
     "location": "Tossa de Mar",
     "region": "Cataluña",
-    "description": "Diving & Combat es un centro y escuela de buceo con base en Tossa de Mar (Cataluña) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Mar Menuda y Cap Norfeu, cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving & Combat es un centro y escuela de buceo con base en Tossa de Mar (Cataluña) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Mar Menuda y Cap Norfeu, cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -2210,7 +2210,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Dragonera",
     "location": "La Dragonera · Port d'Andratx",
     "region": "Baleares",
-    "description": "Diving Dragonera es un centro y escuela de buceo con base en La Dragonera · Port d'Andratx (Baleares) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving Dragonera es un centro y escuela de buceo con base en La Dragonera · Port d'Andratx (Baleares) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -2232,7 +2232,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving La Casa del Mar",
     "location": "Lloret de Mar",
     "region": "Cataluña",
-    "description": "Diving La Casa del Mar es un centro y escuela de buceo con base en Lloret de Mar (Cataluña) especializado en bautismos de buceo para principiantes. Opera en el entorno de Lloret de Mar y Cala Canyelles, cuyos fondos destacan por la presencia habitual de pulpo común, morena, congrio, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving La Casa del Mar es un centro y escuela de buceo con base en Lloret de Mar (Cataluña) especializado en bautismos de buceo para principiantes. Opera en el entorno de Lloret de Mar y Cala Canyelles, cuyos fondos destacan por la presencia habitual de pulpo común, morena, congrio, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -2255,7 +2255,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Menorca",
     "location": "Fornells, Menorca",
     "region": "Baleares",
-    "description": "Diving Menorca es un centro y escuela de buceo con base en Fornells, Menorca (Baleares) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving Menorca es un centro y escuela de buceo con base en Fornells, Menorca (Baleares) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -2280,7 +2280,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Salou",
     "location": "Salou",
     "region": "Cataluña",
-    "description": "Diving Salou es un centro y escuela de buceo con base en Salou (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving Salou es un centro y escuela de buceo con base en Salou (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Curso",
       "Bautismo"
@@ -2304,7 +2304,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Stones",
     "location": "Benidorm",
     "region": "Comunidad Valenciana",
-    "description": "Diving Stones es un centro y escuela de buceo con base en Benidorm (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Isla de Benidorm, cuyos fondos destacan por la presencia habitual de morena, barracuda, pulpo común, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving Stones es un centro y escuela de buceo con base en Benidorm (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Isla de Benidorm, cuyos fondos destacan por la presencia habitual de morena, barracuda, pulpo común, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2341,7 +2341,7 @@ export const centers: DiveCenter[] = [
     "name": "Dolphins Diving Center",
     "location": "Lloret de Mar",
     "region": "Cataluña",
-    "description": "Dolphins Diving Center es un centro y escuela de buceo con base en Lloret de Mar (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Lloret de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, morena, congrio, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Dolphins Diving Center es un centro y escuela de buceo con base en Lloret de Mar (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Lloret de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, morena, congrio, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2367,7 +2367,7 @@ export const centers: DiveCenter[] = [
     "name": "Dossotaigua Dive Center",
     "location": "Platja d'Aro",
     "region": "Cataluña",
-    "description": "Dossotaigua Dive Center es un centro y escuela de buceo con base en Platja d'Aro (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Platja d'Aro, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, morena, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Dossotaigua Dive Center es un centro y escuela de buceo con base en Platja d'Aro (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Platja d'Aro, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, morena, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso"
     ],
@@ -2389,7 +2389,7 @@ export const centers: DiveCenter[] = [
     "name": "DPM Diving",
     "location": "Costa Adeje",
     "region": "Canarias",
-    "description": "DPM Diving es un centro y escuela de buceo con base en Costa Adeje (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Costa Adeje, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, raya mariposa, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "DPM Diving es un centro y escuela de buceo con base en Costa Adeje (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Costa Adeje, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, raya mariposa, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2414,7 +2414,7 @@ export const centers: DiveCenter[] = [
     "name": "Dream Dive",
     "location": "Tossa de Mar",
     "region": "Cataluña",
-    "description": "Dream Dive es un centro y escuela de buceo con base en Tossa de Mar (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Mar Menuda, cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Dream Dive es un centro y escuela de buceo con base en Tossa de Mar (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Mar Menuda, cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2441,7 +2441,7 @@ export const centers: DiveCenter[] = [
     "name": "DS DIVERS",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "DS DIVERS es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "DS DIVERS es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2465,7 +2465,7 @@ export const centers: DiveCenter[] = [
     "name": "DS Divers El Hierro",
     "location": "La Restinga",
     "region": "Canarias",
-    "description": "DS Divers El Hierro es un centro y escuela de buceo con base en La Restinga (Canarias) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de La Restinga, cuyos fondos destacan por la presencia habitual de mero moreno, vieja colorada, tamboril espinoso, tortuga boba, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "DS Divers El Hierro es un centro y escuela de buceo con base en La Restinga (Canarias) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de La Restinga, cuyos fondos destacan por la presencia habitual de mero moreno, vieja colorada, tamboril espinoso, tortuga boba, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -2492,7 +2492,7 @@ export const centers: DiveCenter[] = [
     "name": "Ecodive",
     "location": "Rincón de la Victoria",
     "region": "Andalucía",
-    "description": "Ecodive es un centro y escuela de buceo con base en Rincón de la Victoria (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), excursiones guiadas de snorkel e interpretación marina y bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Ecodive es un centro y escuela de buceo con base en Rincón de la Victoria (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), excursiones guiadas de snorkel e interpretación marina y bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Curso",
       "Snorkel",
@@ -2517,7 +2517,7 @@ export const centers: DiveCenter[] = [
     "name": "Educare Aventura",
     "location": "Nerja",
     "region": "Andalucía",
-    "description": "Educare Aventura es un centro y escuela de buceo con base en Nerja (Andalucía) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Nerja, cuyos fondos destacan por la presencia habitual de coral naranja, pulpo común, morena, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Educare Aventura es un centro y escuela de buceo con base en Nerja (Andalucía) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Nerja, cuyos fondos destacan por la presencia habitual de coral naranja, pulpo común, morena, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -2539,7 +2539,7 @@ export const centers: DiveCenter[] = [
     "name": "El Azul Gran Canaria Dive Center",
     "location": "Las Palmas de Gran Canaria",
     "region": "Canarias",
-    "description": "El Azul Gran Canaria Dive Center es un centro y escuela de buceo con base en Las Palmas de Gran Canaria (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Las Canteras, cuyos fondos destacan por la presencia habitual de vieja colorada, pulpo común, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "El Azul Gran Canaria Dive Center es un centro y escuela de buceo con base en Las Palmas de Gran Canaria (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Las Canteras, cuyos fondos destacan por la presencia habitual de vieja colorada, pulpo común, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2563,7 +2563,7 @@ export const centers: DiveCenter[] = [
     "name": "El Cardumen",
     "location": "Puerto de la Cruz",
     "region": "Canarias",
-    "description": "El Cardumen es un centro y escuela de buceo con base en Puerto de la Cruz (Canarias) especializado en bautismos de buceo para principiantes. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "El Cardumen es un centro y escuela de buceo con base en Puerto de la Cruz (Canarias) especializado en bautismos de buceo para principiantes. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica.",
     "services": [
       "Bautismo"
     ],
@@ -2581,7 +2581,7 @@ export const centers: DiveCenter[] = [
     "name": "Enjoy Sup School",
     "location": "Noja",
     "region": "Cantabria",
-    "description": "Enjoy Sup School es un centro y escuela de buceo con base en Noja (Cantabria) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Noja, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, centolla, lubina, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Enjoy Sup School es un centro y escuela de buceo con base en Noja (Cantabria) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Noja, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, centolla, lubina, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -2603,7 +2603,7 @@ export const centers: DiveCenter[] = [
     "name": "Escuela Pez Globo",
     "location": "La Herradura",
     "region": "Andalucía",
-    "description": "Escuela Pez Globo es un centro y escuela de buceo con base en La Herradura (Andalucía) especializado en bautismos de buceo para principiantes. Opera en el entorno de La Herradura, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, vaquita suiza, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Escuela Pez Globo es un centro y escuela de buceo con base en La Herradura (Andalucía) especializado en bautismos de buceo para principiantes. Opera en el entorno de La Herradura, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, vaquita suiza, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -2625,7 +2625,7 @@ export const centers: DiveCenter[] = [
     "name": "Estació Náutica L'Ametlla De Mar",
     "location": "L'Ametlla de Mar · L'Ametlla de Mar, Tarragona",
     "region": "Cataluña",
-    "description": "Estació Náutica L'Ametlla De Mar es un centro y escuela de buceo con base en L'Ametlla de Mar · L'Ametlla de Mar, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Estació Náutica L'Ametlla De Mar es un centro y escuela de buceo con base en L'Ametlla de Mar · L'Ametlla de Mar, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -2650,7 +2650,7 @@ export const centers: DiveCenter[] = [
     "name": "Explora Cádiz Buceo",
     "location": "El Puerto de Santa María · Tarifa",
     "region": "Andalucía",
-    "description": "Explora Cádiz Buceo es un centro y escuela de buceo con base en El Puerto de Santa María · Tarifa (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Punta Marroquí y El Puerto de Santa María, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Explora Cádiz Buceo es un centro y escuela de buceo con base en El Puerto de Santa María · Tarifa (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Punta Marroquí y El Puerto de Santa María, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2682,7 +2682,7 @@ export const centers: DiveCenter[] = [
     "name": "Formar Buceo",
     "location": "Gijón",
     "region": "Asturias",
-    "description": "Formar Buceo es un centro y escuela de buceo con base en Gijón (Asturias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Puerto del Musel y Bahía de Gijón y Litoral de Asturias, cuyos fondos destacan por la presencia habitual de centolla, congrio, cabracho, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Formar Buceo es un centro y escuela de buceo con base en Gijón (Asturias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Puerto del Musel y Bahía de Gijón y Litoral de Asturias, cuyos fondos destacan por la presencia habitual de centolla, congrio, cabracho, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2711,7 +2711,7 @@ export const centers: DiveCenter[] = [
     "name": "Formentera Divers",
     "location": "La Savina",
     "region": "Baleares",
-    "description": "Formentera Divers es un centro y escuela de buceo con base en La Savina (Baleares) especializado en bautismos de buceo para principiantes. Opera en el entorno de La Savina, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, posidonia, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Formentera Divers es un centro y escuela de buceo con base en La Savina (Baleares) especializado en bautismos de buceo para principiantes. Opera en el entorno de La Savina, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, posidonia, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -2733,7 +2733,7 @@ export const centers: DiveCenter[] = [
     "name": "FuerteOcean Dive Center",
     "location": "Morro Jable",
     "region": "Canarias",
-    "description": "FuerteOcean Dive Center es un centro y escuela de buceo con base en Morro Jable (Canarias) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Morro Jable, cuyos fondos destacan por la presencia habitual de mero moreno, angelote, chucho negro, raya mariposa, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "FuerteOcean Dive Center es un centro y escuela de buceo con base en Morro Jable (Canarias) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Morro Jable, cuyos fondos destacan por la presencia habitual de mero moreno, angelote, chucho negro, raya mariposa, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -2759,7 +2759,7 @@ export const centers: DiveCenter[] = [
     "name": "Destinos en Pareja",
     "location": "Getxo",
     "region": "País Vasco",
-    "description": "Destinos en Pareja es un centro y escuela de buceo con base en Getxo (País Vasco) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Costa de Getxo, Armintza y Bermeo (Vizcaya), cuyos fondos destacan por la presencia habitual de centolla, congrio, pulpo común, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Destinos en Pareja es un centro y escuela de buceo con base en Getxo (País Vasco) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Costa de Getxo, Armintza y Bermeo (Vizcaya), cuyos fondos destacan por la presencia habitual de centolla, congrio, pulpo común, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Snorkel"
@@ -2783,7 +2783,7 @@ export const centers: DiveCenter[] = [
     "name": "Glup Glup",
     "location": "Calahonda",
     "region": "Andalucía",
-    "description": "Glup Glup es un centro y escuela de buceo con base en Calahonda (Andalucía) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Laja de Calahonda (Motril), cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Glup Glup es un centro y escuela de buceo con base en Calahonda (Andalucía) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Laja de Calahonda (Motril), cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -2812,7 +2812,7 @@ export const centers: DiveCenter[] = [
     "name": "Glups Diving",
     "location": "Cambrils · Salou",
     "region": "Cataluña",
-    "description": "Glups Diving es un centro y escuela de buceo con base en Cambrils · Salou (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Glups Diving es un centro y escuela de buceo con base en Cambrils · Salou (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Bautismo",
       "Curso",
@@ -2840,7 +2840,7 @@ export const centers: DiveCenter[] = [
     "name": "Go-Dive Tenerife",
     "location": "Las Chafiras",
     "region": "Canarias",
-    "description": "Go-Dive Tenerife es un centro y escuela de buceo con base en Las Chafiras (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Las Chafiras, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Go-Dive Tenerife es un centro y escuela de buceo con base en Las Chafiras (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Las Chafiras, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -2866,7 +2866,7 @@ export const centers: DiveCenter[] = [
     "name": "goDive Cadiz",
     "location": "El Palmar · Tarifa",
     "region": "Andalucía",
-    "description": "goDive Cadiz es un centro y escuela de buceo con base en El Palmar · Tarifa (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Punta Marroquí y El Palmar, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "goDive Cadiz es un centro y escuela de buceo con base en El Palmar · Tarifa (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Punta Marroquí y El Palmar, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2894,7 +2894,7 @@ export const centers: DiveCenter[] = [
     "name": "Grassi Sub",
     "location": "L'Escala",
     "region": "Cataluña",
-    "description": "Grassi Sub es un centro y escuela de buceo con base en L'Escala (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Grassi Sub es un centro y escuela de buceo con base en L'Escala (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Bautismo",
       "Curso"
@@ -2915,7 +2915,7 @@ export const centers: DiveCenter[] = [
     "name": "Greenwichdiving",
     "location": "Altea",
     "region": "Comunidad Valenciana",
-    "description": "Greenwichdiving es un centro y escuela de buceo con base en Altea (Comunidad Valenciana) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Altea, cuyos fondos destacan por la presencia habitual de pulpo común, morena, barracuda, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Greenwichdiving es un centro y escuela de buceo con base en Altea (Comunidad Valenciana) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Altea, cuyos fondos destacan por la presencia habitual de pulpo común, morena, barracuda, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Snorkel"
@@ -2941,7 +2941,7 @@ export const centers: DiveCenter[] = [
     "name": "H2O Sports",
     "location": "Marbella",
     "region": "Andalucía",
-    "description": "H2O Sports es un centro y escuela de buceo con base en Marbella (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa de Marbella y Placer de las Bóvedas y Bahía de Estepona, cuyos fondos destacan por la presencia habitual de mero moreno, corvina, morena, centolla, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "H2O Sports es un centro y escuela de buceo con base en Marbella (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa de Marbella y Placer de las Bóvedas y Bahía de Estepona, cuyos fondos destacan por la presencia habitual de mero moreno, corvina, morena, centolla, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo",
@@ -2971,7 +2971,7 @@ export const centers: DiveCenter[] = [
     "name": "Island Watersports Lanzarote",
     "location": "Puerto del Carmen",
     "region": "Canarias",
-    "description": "Island Watersports Lanzarote es un centro y escuela de buceo con base en Puerto del Carmen (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de Puerto del Carmen, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Island Watersports Lanzarote es un centro y escuela de buceo con base en Puerto del Carmen (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de Puerto del Carmen, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo"
@@ -2998,7 +2998,7 @@ export const centers: DiveCenter[] = [
     "name": "Isub San Jose",
     "location": "Cabo de Gata · San José",
     "region": "Andalucía",
-    "description": "Isub San Jose es un centro y escuela de buceo con base en Cabo de Gata · San José (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Arrecife de las Sirenas, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Isub San Jose es un centro y escuela de buceo con base en Cabo de Gata · San José (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Arrecife de las Sirenas, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3030,7 +3030,7 @@ export const centers: DiveCenter[] = [
     "name": "Karapat Dive",
     "location": "Gran Canaria · Las Canteras · Telde",
     "region": "Canarias",
-    "description": "Karapat Dive es un centro y escuela de buceo con base en Gran Canaria · Las Canteras · Telde (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), inmersiones en pecios y barcos hundidos, excursiones guiadas de snorkel e interpretación marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Telde, cuyos fondos destacan por la presencia habitual de angelote, morena, chucho negro, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Karapat Dive es un centro y escuela de buceo con base en Gran Canaria · Las Canteras · Telde (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), inmersiones en pecios y barcos hundidos, excursiones guiadas de snorkel e interpretación marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Telde, cuyos fondos destacan por la presencia habitual de angelote, morena, chucho negro, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3063,7 +3063,7 @@ export const centers: DiveCenter[] = [
     "name": "La Isla Flotante",
     "location": "Es Pujols",
     "region": "Baleares",
-    "description": "La Isla Flotante es un centro y escuela de buceo con base en Es Pujols (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Es Pujols, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "La Isla Flotante es un centro y escuela de buceo con base en Es Pujols (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Es Pujols, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3091,7 +3091,7 @@ export const centers: DiveCenter[] = [
     "name": "La Rana Buceo",
     "location": "Jávea",
     "region": "Comunidad Valenciana",
-    "description": "La Rana Buceo es un centro y escuela de buceo con base en Jávea (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Jávea, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, morena, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "La Rana Buceo es un centro y escuela de buceo con base en Jávea (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Jávea, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, morena, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -3121,7 +3121,7 @@ export const centers: DiveCenter[] = [
     "name": "Lanzarote Non Stop Divers",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "Lanzarote Non Stop Divers es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Lanzarote Non Stop Divers es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -3149,7 +3149,7 @@ export const centers: DiveCenter[] = [
     "name": "Laredo Aventura",
     "location": "Noja",
     "region": "Cantabria",
-    "description": "Laredo Aventura es un centro y escuela de buceo con base en Noja (Cantabria) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Noja, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, centolla, lubina, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Laredo Aventura es un centro y escuela de buceo con base en Noja (Cantabria) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Noja, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, centolla, lubina, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -3173,7 +3173,7 @@ export const centers: DiveCenter[] = [
     "name": "Liquid Planet",
     "location": "Tías",
     "region": "Canarias",
-    "description": "Liquid Planet es un centro y escuela de buceo con base en Tías (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Tías, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, mero moreno, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Liquid Planet es un centro y escuela de buceo con base en Tías (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Tías, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, mero moreno, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -3197,7 +3197,7 @@ export const centers: DiveCenter[] = [
     "name": "Macaronesian Divers",
     "location": "Radazul",
     "region": "Canarias",
-    "description": "Macaronesian Divers es un centro y escuela de buceo con base en Radazul (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Radazul, cuyos fondos destacan por la presencia habitual de chucho negro, tortuga verde, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Macaronesian Divers es un centro y escuela de buceo con base en Radazul (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Radazul, cuyos fondos destacan por la presencia habitual de chucho negro, tortuga verde, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -3222,7 +3222,7 @@ export const centers: DiveCenter[] = [
     "name": "Mar de Hielo",
     "location": "Salou · Salou, Tarragona",
     "region": "Cataluña",
-    "description": "Mar de Hielo es un centro y escuela de buceo con base en Salou · Salou, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Mar de Hielo es un centro y escuela de buceo con base en Salou · Salou, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3250,7 +3250,7 @@ export const centers: DiveCenter[] = [
     "name": "Mar Natura",
     "location": "L'Ametlla de Mar",
     "region": "Cataluña",
-    "description": "Mar Natura es un centro y escuela de buceo con base en L'Ametlla de Mar (Cataluña) especializado en bautismos de buceo para principiantes. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Mar Natura es un centro y escuela de buceo con base en L'Ametlla de Mar (Cataluña) especializado en bautismos de buceo para principiantes. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -3272,7 +3272,7 @@ export const centers: DiveCenter[] = [
     "name": "MarDays Dive Resort",
     "location": "Jávea",
     "region": "Comunidad Valenciana",
-    "description": "MarDays Dive Resort es un centro y escuela de buceo con base en Jávea (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Jávea, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, morena, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "MarDays Dive Resort es un centro y escuela de buceo con base en Jávea (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Jávea, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, morena, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -3297,7 +3297,7 @@ export const centers: DiveCenter[] = [
     "name": "Maremasma",
     "location": "Foz",
     "region": "Galicia",
-    "description": "Maremasma es un centro y escuela de buceo con base en Foz (Galicia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Foz, cuyos fondos destacan por la presencia habitual de centolla, pulpo común, congrio, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Maremasma es un centro y escuela de buceo con base en Foz (Galicia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Foz, cuyos fondos destacan por la presencia habitual de centolla, pulpo común, congrio, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3328,7 +3328,7 @@ export const centers: DiveCenter[] = [
     "name": "Marépolis Altea",
     "location": "Altea",
     "region": "Comunidad Valenciana",
-    "description": "Marépolis Altea es un centro y escuela de buceo con base en Altea (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Altea, cuyos fondos destacan por la presencia habitual de pulpo común, morena, barracuda, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Marépolis Altea es un centro y escuela de buceo con base en Altea (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Altea, cuyos fondos destacan por la presencia habitual de pulpo común, morena, barracuda, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -3354,7 +3354,7 @@ export const centers: DiveCenter[] = [
     "name": "Marina Diving Tarragona",
     "location": "L'Ametlla de Mar · L'Ametlla de Mar, Tarragona",
     "region": "Cataluña",
-    "description": "Marina Diving Tarragona es un centro y escuela de buceo con base en L'Ametlla de Mar · L'Ametlla de Mar, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Marina Diving Tarragona es un centro y escuela de buceo con base en L'Ametlla de Mar · L'Ametlla de Mar, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3383,7 +3383,7 @@ export const centers: DiveCenter[] = [
     "name": "Maskydiving",
     "location": "Sitges · Vilafranca del Penedès",
     "region": "Cataluña",
-    "description": "Maskydiving es un centro y escuela de buceo con base en Sitges · Vilafranca del Penedès (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Maskydiving es un centro y escuela de buceo con base en Sitges · Vilafranca del Penedès (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Curso",
       "Bautismo"
@@ -3407,7 +3407,7 @@ export const centers: DiveCenter[] = [
     "name": "Maskydiving Sitges",
     "location": "Sitges · Vilafranca del Penedès",
     "region": "Cataluña",
-    "description": "Maskydiving Sitges es un centro y escuela de buceo con base en Sitges · Vilafranca del Penedès (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Maskydiving Sitges es un centro y escuela de buceo con base en Sitges · Vilafranca del Penedès (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Curso"
     ],
@@ -3427,7 +3427,7 @@ export const centers: DiveCenter[] = [
     "name": "MásMar Buceo",
     "location": "La Manga del Mar Menor",
     "region": "Murcia",
-    "description": "MásMar Buceo es un centro y escuela de buceo con base en La Manga del Mar Menor (Murcia) especializado en bautismos de buceo para principiantes. Opera en el entorno de La Manga del Mar Menor, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, sargo común, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "MásMar Buceo es un centro y escuela de buceo con base en La Manga del Mar Menor (Murcia) especializado en bautismos de buceo para principiantes. Opera en el entorno de La Manga del Mar Menor, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, sargo común, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -3450,7 +3450,7 @@ export const centers: DiveCenter[] = [
     "name": "Medanodive",
     "location": "El Médano · El Médano, Tenerife",
     "region": "Canarias",
-    "description": "Medanodive es un centro y escuela de buceo con base en El Médano · El Médano, Tenerife (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados, inmersiones en pecios y barcos hundidos y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de El Médano, cuyos fondos destacan por la presencia habitual de angelote, raya pastinaca, tortuga boba, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Medanodive es un centro y escuela de buceo con base en El Médano · El Médano, Tenerife (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados, inmersiones en pecios y barcos hundidos y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de El Médano, cuyos fondos destacan por la presencia habitual de angelote, raya pastinaca, tortuga boba, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3485,7 +3485,7 @@ export const centers: DiveCenter[] = [
     "name": "Mergullo Compostela",
     "location": "A Coruña · Santiago de Compostela",
     "region": "Galicia",
-    "description": "Mergullo Compostela es un centro y escuela de buceo con base en A Coruña · Santiago de Compostela (Galicia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de A Coruña y Bahía de A Coruña y Finisterre, cuyos fondos destacan por la presencia habitual de congrio, centolla, pulpo común, anémona joya, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Mergullo Compostela es un centro y escuela de buceo con base en A Coruña · Santiago de Compostela (Galicia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de A Coruña y Bahía de A Coruña y Finisterre, cuyos fondos destacan por la presencia habitual de congrio, centolla, pulpo común, anémona joya, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3513,7 +3513,7 @@ export const centers: DiveCenter[] = [
     "name": "MergulloViveiro",
     "location": "Viveiro",
     "region": "Galicia",
-    "description": "MergulloViveiro es un centro y escuela de buceo con base en Viveiro (Galicia) especializado en salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "MergulloViveiro es un centro y escuela de buceo con base en Viveiro (Galicia) especializado en salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Fun Dive",
       "Snorkel"
@@ -3533,7 +3533,7 @@ export const centers: DiveCenter[] = [
     "name": "Mirafondos",
     "location": "Las Canteras · Las Palmas de Gran Canaria",
     "region": "Canarias",
-    "description": "Mirafondos es un centro y escuela de buceo con base en Las Canteras · Las Palmas de Gran Canaria (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Las Canteras, cuyos fondos destacan por la presencia habitual de vieja colorada, pulpo común, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Mirafondos es un centro y escuela de buceo con base en Las Canteras · Las Palmas de Gran Canaria (Canarias) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Las Canteras, cuyos fondos destacan por la presencia habitual de vieja colorada, pulpo común, raya pastinaca, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -3560,7 +3560,7 @@ export const centers: DiveCenter[] = [
     "name": "Molamola Dive",
     "location": "La Herradura · Málaga",
     "region": "Andalucía",
-    "description": "Molamola Dive es un centro y escuela de buceo con base en La Herradura · Málaga (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Herradura y Acantilados de Maro y Cantarriján, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, vaquita suiza, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Molamola Dive es un centro y escuela de buceo con base en La Herradura · Málaga (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Herradura y Acantilados de Maro y Cantarriján, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, vaquita suiza, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3591,7 +3591,7 @@ export const centers: DiveCenter[] = [
     "name": "Mon Diving",
     "location": "Dénia",
     "region": "Comunidad Valenciana",
-    "description": "Mon Diving es un centro y escuela de buceo con base en Dénia (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Cabo de San Antonio, cuyos fondos destacan por la presencia habitual de mero moreno, corvina, morena, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Mon Diving es un centro y escuela de buceo con base en Dénia (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Cabo de San Antonio, cuyos fondos destacan por la presencia habitual de mero moreno, corvina, morena, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3619,7 +3619,7 @@ export const centers: DiveCenter[] = [
     "name": "Mouro Sub",
     "location": "Santander",
     "region": "Cantabria",
-    "description": "Mouro Sub es un centro y escuela de buceo con base en Santander (Cantabria) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Isla de Mouro y Reserva de la Isla de Mouro y Bahía de Santander, cuyos fondos destacan por la presencia habitual de congrio, bogavante, centolla, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Mouro Sub es un centro y escuela de buceo con base en Santander (Cantabria) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Isla de Mouro y Reserva de la Isla de Mouro y Bahía de Santander, cuyos fondos destacan por la presencia habitual de congrio, bogavante, centolla, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3648,7 +3648,7 @@ export const centers: DiveCenter[] = [
     "name": "Movedifferent Adventure",
     "location": "Benalmádena",
     "region": "Andalucía",
-    "description": "Movedifferent Adventure es un centro y escuela de buceo con base en Benalmádena (Andalucía) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Movedifferent Adventure es un centro y escuela de buceo con base en Benalmádena (Andalucía) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Fun Dive"
     ],
@@ -3666,7 +3666,7 @@ export const centers: DiveCenter[] = [
     "name": "Mundo Activo",
     "location": "La Manga del Mar Menor",
     "region": "Murcia",
-    "description": "Mundo Activo es un centro y escuela de buceo con base en La Manga del Mar Menor (Murcia) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Manga del Mar Menor, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, sargo común, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Mundo Activo es un centro y escuela de buceo con base en La Manga del Mar Menor (Murcia) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Manga del Mar Menor, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, sargo común, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -3691,7 +3691,7 @@ export const centers: DiveCenter[] = [
     "name": "N2O2 Dive",
     "location": "Boadilla del Monte",
     "region": "Comunidad de Madrid",
-    "description": "N2O2 Dive es un centro y escuela de buceo con base en Boadilla del Monte (Comunidad de Madrid) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "N2O2 Dive es un centro y escuela de buceo con base en Boadilla del Monte (Comunidad de Madrid) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Bautismo",
       "Curso"
@@ -3712,7 +3712,7 @@ export const centers: DiveCenter[] = [
     "name": "Native Diving",
     "location": "Costa Teguise",
     "region": "Canarias",
-    "description": "Native Diving es un centro y escuela de buceo con base en Costa Teguise (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), excursiones guiadas de snorkel e interpretación marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa Teguise, cuyos fondos destacan por la presencia habitual de angelote, vieja colorada, morena, raya pastinaca, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Native Diving es un centro y escuela de buceo con base en Costa Teguise (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), excursiones guiadas de snorkel e interpretación marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa Teguise, cuyos fondos destacan por la presencia habitual de angelote, vieja colorada, morena, raya pastinaca, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3746,7 +3746,7 @@ export const centers: DiveCenter[] = [
     "name": "Nau Tech",
     "location": "Sitges",
     "region": "Cataluña",
-    "description": "Nau Tech es un centro y escuela de buceo con base en Sitges (Cataluña) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa del Garraf y Sitges, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, lubina, sepia, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Nau Tech es un centro y escuela de buceo con base en Sitges (Cataluña) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa del Garraf y Sitges, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, lubina, sepia, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Fun Dive"
     ],
@@ -3768,7 +3768,7 @@ export const centers: DiveCenter[] = [
     "name": "Nauga",
     "location": "A Coruña",
     "region": "Galicia",
-    "description": "Nauga es un centro y escuela de buceo con base en A Coruña (Galicia) especializado en bautismos de buceo para principiantes. Opera en el entorno de A Coruña y Bahía de A Coruña y Finisterre, cuyos fondos destacan por la presencia habitual de congrio, centolla, pulpo común, anémona joya, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Nauga es un centro y escuela de buceo con base en A Coruña (Galicia) especializado en bautismos de buceo para principiantes. Opera en el entorno de A Coruña y Bahía de A Coruña y Finisterre, cuyos fondos destacan por la presencia habitual de congrio, centolla, pulpo común, anémona joya, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -3792,7 +3792,7 @@ export const centers: DiveCenter[] = [
     "name": "Nàutic Parc",
     "location": "Cambrils",
     "region": "Cataluña",
-    "description": "Nàutic Parc es un centro y escuela de buceo con base en Cambrils (Cataluña) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Nàutic Parc es un centro y escuela de buceo con base en Cambrils (Cataluña) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Fun Dive"
     ],
@@ -3810,7 +3810,7 @@ export const centers: DiveCenter[] = [
     "name": "Náutica Medusa",
     "location": "Vilagarcía de Arousa",
     "region": "Galicia",
-    "description": "Náutica Medusa es un centro y escuela de buceo con base en Vilagarcía de Arousa (Galicia) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Náutica Medusa es un centro y escuela de buceo con base en Vilagarcía de Arousa (Galicia) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Curso",
       "Fun Dive",
@@ -3834,7 +3834,7 @@ export const centers: DiveCenter[] = [
     "name": "NeoDive",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "NeoDive es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "NeoDive es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Curso",
       "Bautismo"
@@ -3861,7 +3861,7 @@ export const centers: DiveCenter[] = [
     "name": "Nisos Benidorm",
     "location": "Benidorm",
     "region": "Comunidad Valenciana",
-    "description": "Nisos Benidorm es un centro y escuela de buceo con base en Benidorm (Comunidad Valenciana) especializado en bautismos de buceo para principiantes. Opera en el entorno de Isla de Benidorm, cuyos fondos destacan por la presencia habitual de morena, barracuda, pulpo común, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Nisos Benidorm es un centro y escuela de buceo con base en Benidorm (Comunidad Valenciana) especializado en bautismos de buceo para principiantes. Opera en el entorno de Isla de Benidorm, cuyos fondos destacan por la presencia habitual de morena, barracuda, pulpo común, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -3884,7 +3884,7 @@ export const centers: DiveCenter[] = [
     "name": "NojActiva",
     "location": "Noja",
     "region": "Cantabria",
-    "description": "NojActiva es un centro y escuela de buceo con base en Noja (Cantabria) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Noja, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, centolla, lubina, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "NojActiva es un centro y escuela de buceo con base en Noja (Cantabria) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Noja, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, centolla, lubina, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -3908,7 +3908,7 @@ export const centers: DiveCenter[] = [
     "name": "Ocean Dreams Tenerife",
     "location": "Arona",
     "region": "Canarias",
-    "description": "Ocean Dreams Tenerife es un centro y escuela de buceo con base en Arona (Canarias) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Ocean Dreams Tenerife es un centro y escuela de buceo con base en Arona (Canarias) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -3930,7 +3930,7 @@ export const centers: DiveCenter[] = [
     "name": "Ocean Friends Buceo y Apnea",
     "location": "Los Abrigos",
     "region": "Canarias",
-    "description": "Ocean Friends Buceo y Apnea es un centro y escuela de buceo con base en Los Abrigos (Canarias) especializado en bautismos de buceo para principiantes. Opera en el entorno de Los Abrigos, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Ocean Friends Buceo y Apnea es un centro y escuela de buceo con base en Los Abrigos (Canarias) especializado en bautismos de buceo para principiantes. Opera en el entorno de Los Abrigos, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -3952,7 +3952,7 @@ export const centers: DiveCenter[] = [
     "name": "Océanos Diving Center",
     "location": "Lloret de Mar",
     "region": "Cataluña",
-    "description": "Océanos Diving Center es un centro y escuela de buceo con base en Lloret de Mar (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Lloret de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, morena, congrio, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Océanos Diving Center es un centro y escuela de buceo con base en Lloret de Mar (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Lloret de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, morena, congrio, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -3981,7 +3981,7 @@ export const centers: DiveCenter[] = [
     "name": "Ohana Diving",
     "location": "L'Ametlla de Mar, Tarragona",
     "region": "Cataluña",
-    "description": "Ohana Diving es un centro y escuela de buceo con base en L'Ametlla de Mar, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Ohana Diving es un centro y escuela de buceo con base en L'Ametlla de Mar, Tarragona (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, lubina, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4007,7 +4007,7 @@ export const centers: DiveCenter[] = [
     "name": "Ok Castro Dive Club de Buceo",
     "location": "Castro Urdiales",
     "region": "Cantabria",
-    "description": "Ok Castro Dive Club de Buceo es un centro y escuela de buceo con base en Castro Urdiales (Cantabria) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados, inmersiones en pecios y barcos hundidos y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Castro Urdiales, cuyos fondos destacan por la presencia habitual de congrio, centolla, pulpo común, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Ok Castro Dive Club de Buceo es un centro y escuela de buceo con base en Castro Urdiales (Cantabria) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados, inmersiones en pecios y barcos hundidos y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Castro Urdiales, cuyos fondos destacan por la presencia habitual de congrio, centolla, pulpo común, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -4037,7 +4037,7 @@ export const centers: DiveCenter[] = [
     "name": "Orcasub",
     "location": "Platja Mitjorn",
     "region": "Baleares",
-    "description": "Orcasub es un centro y escuela de buceo con base en Platja Mitjorn (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Orcasub es un centro y escuela de buceo con base en Platja Mitjorn (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4063,7 +4063,7 @@ export const centers: DiveCenter[] = [
     "name": "Palma Aquarium",
     "location": "Palma de Mallorca",
     "region": "Baleares",
-    "description": "Palma Aquarium es un centro y escuela de buceo con base en Palma de Mallorca (Baleares) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Dragonera y El Toro, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Palma Aquarium es un centro y escuela de buceo con base en Palma de Mallorca (Baleares) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de La Dragonera y El Toro, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Fun Dive"
     ],
@@ -4087,7 +4087,7 @@ export const centers: DiveCenter[] = [
     "name": "Piraguilla Turismo Activo",
     "location": "Isla de Arousa",
     "region": "Galicia",
-    "description": "Piraguilla Turismo Activo es un centro y escuela de buceo con base en Isla de Arousa (Galicia) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Isla de Arousa, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, centolla, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Piraguilla Turismo Activo es un centro y escuela de buceo con base en Isla de Arousa (Galicia) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Isla de Arousa, cuyos fondos destacan por la presencia habitual de pulpo común, sepia, centolla, sargo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -4109,7 +4109,7 @@ export const centers: DiveCenter[] = [
     "name": "Diving Center Poseidón Roses",
     "location": "Roses",
     "region": "Cataluña",
-    "description": "Diving Center Poseidón Roses es un centro y escuela de buceo con base en Roses (Cataluña) especializado en bautismos de buceo para principiantes. Opera en el entorno de Cap Norfeu, cuyos fondos destacan por la presencia habitual de mero moreno, coral rojo, gorgonia roja, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Diving Center Poseidón Roses es un centro y escuela de buceo con base en Roses (Cataluña) especializado en bautismos de buceo para principiantes. Opera en el entorno de Cap Norfeu, cuyos fondos destacan por la presencia habitual de mero moreno, coral rojo, gorgonia roja, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -4132,7 +4132,7 @@ export const centers: DiveCenter[] = [
     "name": "Posidonia Ecosports",
     "location": "Muchamiel",
     "region": "Comunidad Valenciana",
-    "description": "Posidonia Ecosports es un centro y escuela de buceo con base en Muchamiel (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Posidonia Ecosports es un centro y escuela de buceo con base en Muchamiel (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4154,7 +4154,7 @@ export const centers: DiveCenter[] = [
     "name": "Posidonia turismo",
     "location": "Cabo de Palos",
     "region": "Murcia",
-    "description": "Posidonia turismo es un centro y escuela de buceo con base en Cabo de Palos (Murcia) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Cartagena, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, dentón, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Posidonia turismo es un centro y escuela de buceo con base en Cabo de Palos (Murcia) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Cartagena, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, dentón, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -4178,7 +4178,7 @@ export const centers: DiveCenter[] = [
     "name": "Pozo Scuba",
     "location": "El Cabrón · Gran Canaria · Pozo Izquierdo",
     "region": "Canarias",
-    "description": "Pozo Scuba es un centro y escuela de buceo con base en El Cabrón · Gran Canaria · Pozo Izquierdo (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Sardina del Norte y Caleta de Arriba, cuyos fondos destacan por la presencia habitual de angelote, raya mariposa, sepia, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Pozo Scuba es un centro y escuela de buceo con base en El Cabrón · Gran Canaria · Pozo Izquierdo (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Sardina del Norte y Caleta de Arriba, cuyos fondos destacan por la presencia habitual de angelote, raya mariposa, sepia, caballito de mar, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4207,7 +4207,7 @@ export const centers: DiveCenter[] = [
     "name": "Puerto Rico Diving",
     "location": "Puerto Rico",
     "region": "Canarias",
-    "description": "Puerto Rico Diving es un centro y escuela de buceo con base en Puerto Rico (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Puerto Rico, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, morena, tortuga boba, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Puerto Rico Diving es un centro y escuela de buceo con base en Puerto Rico (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Puerto Rico, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, morena, tortuga boba, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso"
     ],
@@ -4231,7 +4231,7 @@ export const centers: DiveCenter[] = [
     "name": "Puertobuceo",
     "location": "Algeciras, Cádiz · Tarifa",
     "region": "Andalucía",
-    "description": "Puertobuceo es un centro y escuela de buceo con base en Algeciras, Cádiz · Tarifa (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Puertobuceo es un centro y escuela de buceo con base en Algeciras, Cádiz · Tarifa (Andalucía) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4260,7 +4260,7 @@ export const centers: DiveCenter[] = [
     "name": "Punkfish Diving",
     "location": "Fuencaliente",
     "region": "Canarias",
-    "description": "Punkfish Diving es un centro y escuela de buceo con base en Fuencaliente (Canarias) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Cruces de Malpique y Fuencaliente, cuyos fondos destacan por la presencia habitual de mero moreno, vieja colorada, morena, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Punkfish Diving es un centro y escuela de buceo con base en Fuencaliente (Canarias) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Cruces de Malpique y Fuencaliente, cuyos fondos destacan por la presencia habitual de mero moreno, vieja colorada, morena, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -4287,7 +4287,7 @@ export const centers: DiveCenter[] = [
     "name": "Pura Vida Diving",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "Pura Vida Diving es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Pura Vida Diving es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo"
@@ -4313,7 +4313,7 @@ export const centers: DiveCenter[] = [
     "name": "Quieres Bucear",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Quieres Bucear es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Quieres Bucear es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4337,7 +4337,7 @@ export const centers: DiveCenter[] = [
     "name": "Rent Jet Ski Valencia",
     "location": "Valencia",
     "region": "Comunidad Valenciana",
-    "description": "Rent Jet Ski Valencia es un centro y escuela de buceo con base en Valencia (Comunidad Valenciana) especializado en bautismos de buceo para principiantes. Opera en el entorno de Valencia, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Rent Jet Ski Valencia es un centro y escuela de buceo con base en Valencia (Comunidad Valenciana) especializado en bautismos de buceo para principiantes. Opera en el entorno de Valencia, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -4360,7 +4360,7 @@ export const centers: DiveCenter[] = [
     "name": "Ruideraventura",
     "location": "Lagunas de Ruidera",
     "region": "Castilla-La Mancha",
-    "description": "Ruideraventura es un centro y escuela de buceo con base en Lagunas de Ruidera (Castilla-La Mancha) especializado en excursiones guiadas de snorkel e interpretación marina y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Ruideraventura es un centro y escuela de buceo con base en Lagunas de Ruidera (Castilla-La Mancha) especializado en excursiones guiadas de snorkel e interpretación marina y bautismos de buceo para principiantes. Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Snorkel",
       "Bautismo"
@@ -4381,7 +4381,7 @@ export const centers: DiveCenter[] = [
     "name": "Sa Caleta Tenerife",
     "location": "Arona",
     "region": "Canarias",
-    "description": "Sa Caleta Tenerife es un centro y escuela de buceo con base en Arona (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Sa Caleta Tenerife es un centro y escuela de buceo con base en Arona (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica.",
     "services": [
       "Curso",
       "Bautismo",
@@ -4403,7 +4403,7 @@ export const centers: DiveCenter[] = [
     "name": "Scuba-Elx",
     "location": "Isla de Tabarca · Tabarca",
     "region": "Comunidad Valenciana",
-    "description": "Scuba-Elx es un centro y escuela de buceo con base en Isla de Tabarca · Tabarca (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), excursiones guiadas de snorkel e interpretación marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Tabarca, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, posidonia, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Scuba-Elx es un centro y escuela de buceo con base en Isla de Tabarca · Tabarca (Comunidad Valenciana) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), excursiones guiadas de snorkel e interpretación marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Tabarca, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, posidonia, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4432,7 +4432,7 @@ export const centers: DiveCenter[] = [
     "name": "Scuba Legends",
     "location": "Puerto del Carmen",
     "region": "Canarias",
-    "description": "Scuba Legends es un centro y escuela de buceo con base en Puerto del Carmen (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Puerto del Carmen, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Scuba Legends es un centro y escuela de buceo con base en Puerto del Carmen (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Puerto del Carmen, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4460,7 +4460,7 @@ export const centers: DiveCenter[] = [
     "name": "Scuba Plus",
     "location": "Cala Blanes, Menorca · Menorca",
     "region": "Baleares",
-    "description": "Scuba Plus es un centro y escuela de buceo con base en Cala Blanes, Menorca · Menorca (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados, inmersiones en pecios y barcos hundidos y excursiones guiadas de snorkel e interpretación marina. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Scuba Plus es un centro y escuela de buceo con base en Cala Blanes, Menorca · Menorca (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados, inmersiones en pecios y barcos hundidos y excursiones guiadas de snorkel e interpretación marina. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4491,7 +4491,7 @@ export const centers: DiveCenter[] = [
     "name": "Scubaventura",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Scubaventura es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Scubaventura es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Curso",
       "Bautismo"
@@ -4517,7 +4517,7 @@ export const centers: DiveCenter[] = [
     "name": "ScubAzul",
     "location": "Málaga",
     "region": "Andalucía",
-    "description": "ScubAzul es un centro y escuela de buceo con base en Málaga (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Acantilados de Maro y Cantarriján y Laja del Almirante y Bahía de Málaga, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, pulpo común, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "ScubAzul es un centro y escuela de buceo con base en Málaga (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Acantilados de Maro y Cantarriján y Laja del Almirante y Bahía de Málaga, cuyos fondos destacan por la presencia habitual de coral naranja, mero moreno, pulpo común, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4544,7 +4544,7 @@ export const centers: DiveCenter[] = [
     "name": "Scubkandalus",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "Scubkandalus es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Scubkandalus es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -4568,7 +4568,7 @@ export const centers: DiveCenter[] = [
     "name": "Sea Diver Instructors",
     "location": "Santa Cruz de Tenerife",
     "region": "Canarias",
-    "description": "Sea Diver Instructors es un centro y escuela de buceo con base en Santa Cruz de Tenerife (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de Radazul y Santa Cruz de Tenerife, cuyos fondos destacan por la presencia habitual de chucho negro, tortuga verde, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Sea Diver Instructors es un centro y escuela de buceo con base en Santa Cruz de Tenerife (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el entorno de Radazul y Santa Cruz de Tenerife, cuyos fondos destacan por la presencia habitual de chucho negro, tortuga verde, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo"
@@ -4596,7 +4596,7 @@ export const centers: DiveCenter[] = [
     "name": "Sea&Sun Diving-Sport",
     "location": "Cabo de Gata",
     "region": "Andalucía",
-    "description": "Sea&Sun Diving-Sport es un centro y escuela de buceo con base en Cabo de Gata (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Arrecife de las Sirenas y Las Negras, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Sea&Sun Diving-Sport es un centro y escuela de buceo con base en Cabo de Gata (Andalucía) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades), bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Arrecife de las Sirenas y Las Negras, cuyos fondos destacan por la presencia habitual de mero moreno, posidonia, barracuda, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Bautismo",
@@ -4623,7 +4623,7 @@ export const centers: DiveCenter[] = [
     "name": "Seaquest Diving Center",
     "location": "Ciutadella de Menorca · Menorca",
     "region": "Baleares",
-    "description": "Seaquest Diving Center es un centro y escuela de buceo con base en Ciutadella de Menorca · Menorca (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Illa d’en Colom y Pont d’en Gil, cuyos fondos destacan por la presencia habitual de pulpo común, morena, barracuda, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Seaquest Diving Center es un centro y escuela de buceo con base en Ciutadella de Menorca · Menorca (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Illa d’en Colom y Pont d’en Gil, cuyos fondos destacan por la presencia habitual de pulpo común, morena, barracuda, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4654,7 +4654,7 @@ export const centers: DiveCenter[] = [
     "name": "Siroco Aventuras",
     "location": "La Azohía",
     "region": "Murcia",
-    "description": "Siroco Aventuras es un centro y escuela de buceo con base en La Azohía (Murcia) especializado en bautismos de buceo para principiantes. Opera en el entorno de La Azohía, cuyos fondos destacan por la presencia habitual de mero moreno, morena, dentón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Siroco Aventuras es un centro y escuela de buceo con base en La Azohía (Murcia) especializado en bautismos de buceo para principiantes. Opera en el entorno de La Azohía, cuyos fondos destacan por la presencia habitual de mero moreno, morena, dentón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -4676,7 +4676,7 @@ export const centers: DiveCenter[] = [
     "name": "Snorkel Lanzarote",
     "location": "Yaiza",
     "region": "Canarias",
-    "description": "Snorkel Lanzarote es un centro y escuela de buceo con base en Yaiza (Canarias) especializado en excursiones guiadas de snorkel e interpretación marina. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Snorkel Lanzarote es un centro y escuela de buceo con base en Yaiza (Canarias) especializado en excursiones guiadas de snorkel e interpretación marina. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica.",
     "services": [
       "Snorkel"
     ],
@@ -4694,7 +4694,7 @@ export const centers: DiveCenter[] = [
     "name": "Sotacero Diving",
     "location": "El Masnou",
     "region": "Cataluña",
-    "description": "Sotacero Diving es un centro y escuela de buceo con base en El Masnou (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Sotacero Diving es un centro y escuela de buceo con base en El Masnou (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4715,7 +4715,7 @@ export const centers: DiveCenter[] = [
     "name": "Spain Buceo",
     "location": "Valencia",
     "region": "Comunidad Valenciana",
-    "description": "Spain Buceo es un centro y escuela de buceo con base en Valencia (Comunidad Valenciana) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Valencia, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Spain Buceo es un centro y escuela de buceo con base en Valencia (Comunidad Valenciana) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Valencia, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso"
     ],
@@ -4737,7 +4737,7 @@ export const centers: DiveCenter[] = [
     "name": "Subfari Diving Center",
     "location": "Portinatx",
     "region": "Baleares",
-    "description": "Subfari Diving Center es un centro y escuela de buceo con base en Portinatx (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Portinatx, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, langosta, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Subfari Diving Center es un centro y escuela de buceo con base en Portinatx (Baleares) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Portinatx, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, langosta, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4767,7 +4767,7 @@ export const centers: DiveCenter[] = [
     "name": "Subkro",
     "location": "L'Ametlla de Mar",
     "region": "Cataluña",
-    "description": "Subkro es un centro y escuela de buceo con base en L'Ametlla de Mar (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de La Dragonera y L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de congrio, pulpo común, vaquita suiza, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Subkro es un centro y escuela de buceo con base en L'Ametlla de Mar (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de La Dragonera y L’Ametlla de Mar, cuyos fondos destacan por la presencia habitual de congrio, pulpo común, vaquita suiza, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4794,7 +4794,7 @@ export const centers: DiveCenter[] = [
     "name": "Subparke Turismo Activo",
     "location": "Níjar",
     "region": "Andalucía",
-    "description": "Subparke Turismo Activo es un centro y escuela de buceo con base en Níjar (Andalucía) especializado en bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Subparke Turismo Activo es un centro y escuela de buceo con base en Níjar (Andalucía) especializado en bautismos de buceo para principiantes. Opera en el litoral andaluz, una zona de transición biogeográfica privilegiada entre el mar de Alborán y el océano Atlántico con alta diversidad de fauna bentónica y pelágica.",
     "services": [
       "Bautismo"
     ],
@@ -4812,7 +4812,7 @@ export const centers: DiveCenter[] = [
     "name": "CaboXperiencia",
     "location": "Cabo de Palos",
     "region": "Murcia",
-    "description": "CaboXperiencia es un centro y escuela de buceo con base en Cabo de Palos (Murcia) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Islas Hormigas, cuyos fondos destacan por la presencia habitual de mero moreno, dentón, pez limón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "CaboXperiencia es un centro y escuela de buceo con base en Cabo de Palos (Murcia) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Islas Hormigas, cuyos fondos destacan por la presencia habitual de mero moreno, dentón, pez limón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -4835,7 +4835,7 @@ export const centers: DiveCenter[] = [
     "name": "SuperDive Tossa de Mar",
     "location": "Tossa de Mar",
     "region": "Cataluña",
-    "description": "SuperDive Tossa de Mar es un centro y escuela de buceo con base en Tossa de Mar (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Mar Menuda, cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "SuperDive Tossa de Mar es un centro y escuela de buceo con base en Tossa de Mar (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Mar Menuda, cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -4862,7 +4862,7 @@ export const centers: DiveCenter[] = [
     "name": "Sureste Divers Madrid",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Sureste Divers Madrid es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Sureste Divers Madrid es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Curso"
     ],
@@ -4884,7 +4884,7 @@ export const centers: DiveCenter[] = [
     "name": "Take Off Ibiza",
     "location": "Sant Antoni de Portmany",
     "region": "Baleares",
-    "description": "Take Off Ibiza es un centro y escuela de buceo con base en Sant Antoni de Portmany (Baleares) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Sant Antoni de Portmany, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, pulpo común, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Take Off Ibiza es un centro y escuela de buceo con base en Sant Antoni de Portmany (Baleares) especializado en salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Sant Antoni de Portmany, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, pulpo común, vaquita suiza, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Fun Dive"
     ],
@@ -4906,7 +4906,7 @@ export const centers: DiveCenter[] = [
     "name": "Tenerife Dive Experience",
     "location": "Costa Adeje · Costa Adeje, Tenerife · Los Cristianos · Puerto Colón · Tenerife",
     "region": "Canarias",
-    "description": "Tenerife Dive Experience es un centro y escuela de buceo con base en Costa Adeje · Costa Adeje, Tenerife · Los Cristianos · Puerto Colón · Tenerife (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Santa Cruz de Tenerife, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, morena, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Tenerife Dive Experience es un centro y escuela de buceo con base en Costa Adeje · Costa Adeje, Tenerife · Los Cristianos · Puerto Colón · Tenerife (Canarias) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de inmersión guiadas para buceadores titulados y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Santa Cruz de Tenerife, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, morena, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -4939,7 +4939,7 @@ export const centers: DiveCenter[] = [
     "name": "Teno Activo",
     "location": "Santiago del Teide",
     "region": "Canarias",
-    "description": "Teno Activo es un centro y escuela de buceo con base en Santiago del Teide (Canarias) especializado en bautismos de buceo para principiantes. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Teno Activo es un centro y escuela de buceo con base en Santiago del Teide (Canarias) especializado en bautismos de buceo para principiantes. Desarrolla su actividad en los fondos volcánicos del archipiélago canario, con aguas templadas de entre 18 y 24 °C durante los doce meses del año, veriles basálticos y rica fauna macaronésica.",
     "services": [
       "Bautismo"
     ],
@@ -4957,7 +4957,7 @@ export const centers: DiveCenter[] = [
     "name": "The Blue Jump Ecodiving",
     "location": "La Azohía",
     "region": "Murcia",
-    "description": "The Blue Jump Ecodiving es un centro y escuela de buceo con base en La Azohía (Murcia) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de La Azohía, cuyos fondos destacan por la presencia habitual de mero moreno, morena, dentón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "The Blue Jump Ecodiving es un centro y escuela de buceo con base en La Azohía (Murcia) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de La Azohía, cuyos fondos destacan por la presencia habitual de mero moreno, morena, dentón, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -4982,7 +4982,7 @@ export const centers: DiveCenter[] = [
     "name": "Tossasub",
     "location": "Tossa de Mar",
     "region": "Cataluña",
-    "description": "Tossasub es un centro y escuela de buceo con base en Tossa de Mar (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Mar Menuda, cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Tossasub es un centro y escuela de buceo con base en Tossa de Mar (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Mar Menuda, cuyos fondos destacan por la presencia habitual de caballito de mar, pulpo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -5009,7 +5009,7 @@ export const centers: DiveCenter[] = [
     "name": "Touradvisor",
     "location": "Santa Ponça",
     "region": "Baleares",
-    "description": "Touradvisor es un centro y escuela de buceo con base en Santa Ponça (Baleares) especializado en excursiones guiadas de snorkel e interpretación marina y bautismos de buceo para principiantes. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Touradvisor es un centro y escuela de buceo con base en Santa Ponça (Baleares) especializado en excursiones guiadas de snorkel e interpretación marina y bautismos de buceo para principiantes. Realiza sus salidas en aguas baleares de gran transparencia, entre praderas de Posidonia oceanica, formaciones calcáreas y calas abrigadas ideales tanto para iniciación como para buceo recreativo.",
     "services": [
       "Snorkel",
       "Bautismo"
@@ -5029,7 +5029,7 @@ export const centers: DiveCenter[] = [
     "name": "Travel Sub",
     "location": "Puerto Colón",
     "region": "Canarias",
-    "description": "Travel Sub es un centro y escuela de buceo con base en Puerto Colón (Canarias) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de observación de biodiversidad marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa Adeje, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, raya mariposa, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Travel Sub es un centro y escuela de buceo con base en Puerto Colón (Canarias) especializado en bautismos de buceo para principiantes, excursiones guiadas de snorkel e interpretación marina, cursos de certificación oficial (Open Water, Advanced y especialidades), salidas de observación de biodiversidad marina y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Costa Adeje, cuyos fondos destacan por la presencia habitual de tortuga verde, chucho negro, raya mariposa, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel",
@@ -5068,7 +5068,7 @@ export const centers: DiveCenter[] = [
     "name": "Tsunami Diving School",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Tsunami Diving School es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Tsunami Diving School es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades). Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Curso"
     ],
@@ -5091,7 +5091,7 @@ export const centers: DiveCenter[] = [
     "name": "Underwater barcelona",
     "location": "Barcelona",
     "region": "Cataluña",
-    "description": "Underwater barcelona es un centro y escuela de buceo con base en Barcelona (Cataluña) especializado en bautismos de buceo para principiantes. Opera en el entorno de Escollera de Barcelona y Fòrum y Barres de Mataró, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Underwater barcelona es un centro y escuela de buceo con base en Barcelona (Cataluña) especializado en bautismos de buceo para principiantes. Opera en el entorno de Escollera de Barcelona y Fòrum y Barres de Mataró, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo"
     ],
@@ -5115,7 +5115,7 @@ export const centers: DiveCenter[] = [
     "name": "Unisub",
     "location": "L'Estartit · Torroella de Montgrí",
     "region": "Cataluña",
-    "description": "Unisub es un centro y escuela de buceo con base en L'Estartit · Torroella de Montgrí (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de L'Estartit, cuyos fondos destacan por la presencia habitual de mero moreno, gorgonia roja, corvina, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Unisub es un centro y escuela de buceo con base en L'Estartit · Torroella de Montgrí (Cataluña) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de L'Estartit, cuyos fondos destacan por la presencia habitual de mero moreno, gorgonia roja, corvina, barracuda, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -5141,7 +5141,7 @@ export const centers: DiveCenter[] = [
     "name": "Vadum Maris Diving&Watersports",
     "location": "Elche",
     "region": "Comunidad Valenciana",
-    "description": "Vadum Maris Diving&Watersports es un centro y escuela de buceo con base en Elche (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Tabarca, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, posidonia, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Vadum Maris Diving&Watersports es un centro y escuela de buceo con base en Elche (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de Tabarca, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, posidonia, pulpo común, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Snorkel"
@@ -5166,7 +5166,7 @@ export const centers: DiveCenter[] = [
     "name": "Varadero Dive",
     "location": "Sant Feliu de Guíxols",
     "region": "Cataluña",
-    "description": "Varadero Dive es un centro y escuela de buceo con base en Sant Feliu de Guíxols (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Varadero Dive es un centro y escuela de buceo con base en Sant Feliu de Guíxols (Cataluña) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Opera en el litoral mediterráneo catalán, combinando calas protegidas para ejercicios de iniciación con barras rocosas, paredes de gorgonias y reservas marinas.",
     "services": [
       "Curso",
       "Bautismo"
@@ -5187,7 +5187,7 @@ export const centers: DiveCenter[] = [
     "name": "VidaXperience",
     "location": "Arrecife",
     "region": "Canarias",
-    "description": "VidaXperience es un centro y escuela de buceo con base en Arrecife (Canarias) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Playa Chica, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "VidaXperience es un centro y escuela de buceo con base en Arrecife (Canarias) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Playa Chica, cuyos fondos destacan por la presencia habitual de angelote, mero moreno, chucho negro, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive",
@@ -5214,7 +5214,7 @@ export const centers: DiveCenter[] = [
     "name": "Whitesand Surf",
     "location": "La Savina",
     "region": "Baleares",
-    "description": "Whitesand Surf es un centro y escuela de buceo con base en La Savina (Baleares) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de La Savina, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, posidonia, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Whitesand Surf es un centro y escuela de buceo con base en La Savina (Baleares) especializado en excursiones guiadas de snorkel e interpretación marina. Opera en el entorno de La Savina, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, posidonia, cabracho, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Snorkel"
     ],
@@ -5236,7 +5236,7 @@ export const centers: DiveCenter[] = [
     "name": "WindBlue Diving",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "WindBlue Diving es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "WindBlue Diving es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en bautismos de buceo para principiantes y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive"
@@ -5262,7 +5262,7 @@ export const centers: DiveCenter[] = [
     "name": "Windblue Sports",
     "location": "Playa Blanca",
     "region": "Canarias",
-    "description": "Windblue Sports es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en salidas de inmersión guiadas para buceadores titulados, bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Windblue Sports es un centro y escuela de buceo con base en Playa Blanca (Canarias) especializado en salidas de inmersión guiadas para buceadores titulados, bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Playa Blanca, cuyos fondos destacan por la presencia habitual de angelote, chucho negro, barracuda, mero moreno, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Fun Dive",
       "Bautismo",
@@ -5293,7 +5293,7 @@ export const centers: DiveCenter[] = [
     "name": "YellowSub Tarifa",
     "location": "Tarifa",
     "region": "Andalucía",
-    "description": "YellowSub Tarifa es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "YellowSub Tarifa es un centro y escuela de buceo con base en Tarifa (Andalucía) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Punta Marroquí, cuyos fondos destacan por la presencia habitual de mero moreno, pez luna, centolla, gorgonia roja, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -5320,7 +5320,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Barcelona",
     "location": "Barcelona",
     "region": "Cataluña",
-    "description": "Yo Buceo Barcelona es un centro y escuela de buceo con base en Barcelona (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Escollera de Barcelona y Fòrum y Barres de Mataró, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Yo Buceo Barcelona es un centro y escuela de buceo con base en Barcelona (Cataluña) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Escollera de Barcelona y Fòrum y Barres de Mataró, cuyos fondos destacan por la presencia habitual de pulpo común, sargo común, sepia, morena, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso"
@@ -5349,7 +5349,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Cartagena",
     "location": "Cartagena",
     "region": "Murcia",
-    "description": "Yo Buceo Cartagena es un centro y escuela de buceo con base en Cartagena (Murcia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Cartagena, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, dentón, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Yo Buceo Cartagena es un centro y escuela de buceo con base en Cartagena (Murcia) especializado en bautismos de buceo para principiantes, cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Cartagena, cuyos fondos destacan por la presencia habitual de mero moreno, barracuda, morena, dentón, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Curso",
@@ -5378,7 +5378,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Madrid",
     "location": "Madrid",
     "region": "Comunidad de Madrid",
-    "description": "Yo Buceo Madrid es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Yo Buceo Madrid es un centro y escuela de buceo con base en Madrid (Comunidad de Madrid) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y bautismos de buceo para principiantes. Sus programas de formación combinan clases teóricas y prácticas en aguas confinadas (piscina climatizada o foso) en la ciudad con salidas de mar abierto a la costa mediterránea para completar las inmersiones de certificación.",
     "services": [
       "Curso",
       "Bautismo"
@@ -5404,7 +5404,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Toledo",
     "location": "Toledo",
     "region": "Castilla-La Mancha",
-    "description": "Yo Buceo Toledo es un centro y escuela de buceo con base en Toledo (Castilla-La Mancha) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Yo Buceo Toledo es un centro y escuela de buceo con base en Toledo (Castilla-La Mancha) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Realiza sus inmersiones y cursos en los fondos rocosos del Atlántico norte y mar Cantábrico, caracterizados por su riqueza en crustáceos, peces de roca, bosques de laminarias y cañones costeros.",
     "services": [
       "Bautismo",
       "Curso"
@@ -5425,7 +5425,7 @@ export const centers: DiveCenter[] = [
     "name": "Yo Buceo Torrevieja",
     "location": "Torrevieja",
     "region": "Comunidad Valenciana",
-    "description": "Yo Buceo Torrevieja es un centro y escuela de buceo con base en Torrevieja (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Yo Buceo Torrevieja es un centro y escuela de buceo con base en Torrevieja (Comunidad Valenciana) especializado en bautismos de buceo para principiantes y cursos de certificación oficial (Open Water, Advanced y especialidades). Sus salidas aprovechan la suavidad térmica del litoral levantino, con fondos de roca, praderas de posidonia y calas resguardadas.",
     "services": [
       "Bautismo",
       "Curso"
@@ -5446,7 +5446,7 @@ export const centers: DiveCenter[] = [
     "name": "Zeus Dive Center",
     "location": "Maspalomas",
     "region": "Canarias",
-    "description": "Zeus Dive Center es un centro y escuela de buceo con base en Maspalomas (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Maspalomas / Playa del Inglés, cuyos fondos destacan por la presencia habitual de angelote, raya pastinaca, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Zeus Dive Center es un centro y escuela de buceo con base en Maspalomas (Canarias) especializado en cursos de certificación oficial (Open Water, Advanced y especialidades) y salidas de inmersión guiadas para buceadores titulados. Opera en el entorno de Maspalomas / Playa del Inglés, cuyos fondos destacan por la presencia habitual de angelote, raya pastinaca, morena, vieja colorada, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Curso",
       "Fun Dive"
@@ -5477,7 +5477,7 @@ export const centers: DiveCenter[] = [
     "name": "Zoea Mallorca",
     "location": "Calvià",
     "region": "Baleares",
-    "description": "Zoea Mallorca es un centro y escuela de buceo con base en Calvià (Baleares) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Islas Malgrats, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, barracuda, posidonia, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar. Todas las actividades cuentan con instructores titulados, equipamiento revisado y reserva online directa.",
+    "description": "Zoea Mallorca es un centro y escuela de buceo con base en Calvià (Baleares) especializado en bautismos de buceo para principiantes, salidas de inmersión guiadas para buceadores titulados y cursos de certificación oficial (Open Water, Advanced y especialidades). Opera en el entorno de Islas Malgrats, cuyos fondos destacan por la presencia habitual de mero moreno, pulpo común, barracuda, posidonia, adaptando los puntos de fondeo o entrada desde costa al nivel de cada grupo y al estado de la mar.",
     "services": [
       "Bautismo",
       "Fun Dive",

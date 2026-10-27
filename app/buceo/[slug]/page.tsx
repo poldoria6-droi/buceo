@@ -162,7 +162,8 @@ export default async function DestinationPage({ params }: Props) {
                     <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                   </h3>
                   <p>
-                    Nivel {activity.level} · {activity.duration}
+                    Nivel {activity.level}
+                    {activity.duration && activity.duration !== "Consultar disponibilidad" ? ` · ${activity.duration}` : ""}
                   </p>
                   <Link className="text-link" href={`/actividades/${activity.slug}`}>
                     Ver qué incluye y requisitos →
@@ -320,12 +321,12 @@ export default async function DestinationPage({ params }: Props) {
               {destination.slug === "madrid" ? (
                 <>
                   Tras completar la teoría y los ejercicios en aguas confinadas (piscina climatizada o foso) en {destination.name}, las inmersiones de certificación en aguas abiertas se realizan en destinos costeros como Murcia, Alicante o la Costa Brava, donde es habitual observar especies como{" "}
-                  <strong>{animals.join(", ")}</strong>. Recuerda mantener siempre una flotabilidad neutra cuidadosa y respetar los{" "}
+                  <strong>{animals.join(", ")}</strong>. Consulta siempre los{" "}
                 </>
               ) : (
                 <>
-                  En los fondos de {destination.name} es frecuente observar especies representativas de su ecosistema marino como{" "}
-                  <strong>{animals.join(", ")}</strong>. Recuerda mantener siempre una flotabilidad neutra cuidadosa, vigilar el manómetro y el octopus para no rozar el sustrato y respetar los{" "}
+                  En los fondos de {destination.name} es frecuente observar especies habituales de la zona como{" "}
+                  <strong>{animals.join(", ")}</strong>. Antes de planificar tu salida, revisa los{" "}
                 </>
               )}
               <Link href="/guias/requisitos-para-bucear-en-espana" className="text-link">

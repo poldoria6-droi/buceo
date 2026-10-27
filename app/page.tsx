@@ -152,7 +152,8 @@ export default function HomePage() {
                   <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                 </h3>
                 <p>
-                  Nivel {activity.level} · {activity.duration}
+                  Nivel {activity.level}
+                  {activity.duration && activity.duration !== "Consultar disponibilidad" ? ` · ${activity.duration}` : ""}
                 </p>
                 <Link className="text-link" href={`/actividades/${activity.slug}`}>
                   Ver qué incluye y requisitos →

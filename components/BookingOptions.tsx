@@ -8,15 +8,11 @@ export function BookingOptions({ activity, officialUrl }: { activity: Activity; 
       {offers.map((offer) => (
         <div className="booking-offer" key={offer.id}>
           <div className="booking-offer-head">
-            <div className="booking-offer-provider">
-              <strong>Reserva online · {offer.provider}</strong>
-              <span className="booking-offer-trust-pill">Confirmación inmediata</span>
-            </div>
+            <strong>{offer.provider}</strong>
             <span className="booking-offer-price">
               {offer.priceFrom === undefined ? "Consultar precio" : `Desde ${formatOfferPrice(offer)}`}
             </span>
           </div>
-          <small>✓ Consulta calendario y plazas disponibles</small>
           <a
             className="button button-primary booking-offer-cta"
             href={buildAffiliateUrl(offer)}
@@ -32,7 +28,7 @@ export function BookingOptions({ activity, officialUrl }: { activity: Activity; 
       ))}
       {!offers.length && (
         <div>
-          <p className="booking-empty">Consulta disponibilidad directamente con el centro organizador.</p>
+          <p className="booking-empty">Consulta disponibilidad directamente con el centro.</p>
           {officialUrl && /^https:\/\//.test(officialUrl) && (
             <a href={officialUrl} target="_blank" rel="noopener noreferrer" className="text-link">
               Visitar web del centro ↗

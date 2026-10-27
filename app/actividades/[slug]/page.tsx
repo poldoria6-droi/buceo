@@ -18,7 +18,61 @@ import {
 
 type Props = { params: Promise<{ slug: string }> };
 
-// Títulos que se repiten entre ofertas distintas (mismo nombre comercial en el proveedor):
+function humanizeIncluded(item: string): string {
+  return item
+    .replace(/^Acompañamiento de personal de la actividad$/i, "Instructor o guía titulado")
+    .replace(/^Material para la actividad \(consultar componentes\)$/i, "Equipo de buceo para la actividad")
+    .replace(/^Cobertura de seguro \(consultar condiciones\)$/i, "Seguro durante la actividad")
+    .replace(/^Uso de embarcación$/i, "Salida en barco")
+    .replace(/^Práctica en agua confinada$/i, "Prácticas en aguas confinadas")
+    .replace(/^Práctica en el mar$/i, "Inmersiones en mar abierto");
+}
+
+function humanizeExcluded(item: string): string {
+  return item
+    .replace(/\s*no incluido en esta oferta$/i, "")
+    .replace(/\s*\(consultar si lo necesitas\)$/i, "");
+}
+
+function humanizeFact(fact: { label: string; value: string }): { label: string; value: string } {
+  const label = fact.label
+    .replace(/^Plazas anunciadas$/i, "Grupo")
+    .replace(/^Duración indicada por el proveedor$/i, "Duración aproximada");
+  const value = fact.value
+    .replace(/\s*Confirma la composición del grupo para tu fecha\.?/i, "")
+    .replace(/\s*Consulta el reparto de sesiones y el tiempo de inmersión\.?/i, "")
+    .trim();
+  return { label, value };
+}
+
+function buildHumanSummary(
+  activity: (typeof activities)[number],
+  centerName?: string
+): string {
+  if (
+    activity.notes &&
+    !/^Experiencia de buceo disponible|^Actividad organizada por /i.test(activity.notes)
+  ) {
+    return activity.notes;
+  }
+  const byCenter = centerName ? ` con el equipo de ${centerName}` : "";
+  const hasRealDuration = activity.duration && activity.duration !== "Consultar disponibilidad";
+  const durText = hasRealDuration ? ` Tiene una duración aproximada de ${activity.duration.toLowerCase()}.` : "";
+
+  if (activity.type === "Bautismo") {
+    return `Primera toma de contacto con el buceo en ${activity.destination} (${activity.region})${byCenter}. Comienza con una explicación práctica fuera del agua y continúa con una inmersión guiada a poca profundidad, pensada para disfrutar del fondo marino con calma y sin necesidad de experiencia previa.${durText}`;
+  }
+  if (activity.type === "Curso") {
+    return `Formación práctica y teórica en ${activity.destination} (${activity.region})${byCenter} para aprender o perfeccionar tus técnicas de inmersión y obtener tu certificación.${durText}`;
+  }
+  if (activity.type === "Snorkel") {
+    return `Recorrido guiado de snorkel en aguas de ${activity.destination} (${activity.region})${byCenter}, ideal para observar la vida marina desde superficie sin necesidad de titulación previa.${durText}`;
+  }
+  if (activity.type === "Pecio") {
+    return `Salida de inmersión en ${activity.destination} (${activity.region})${byCenter} orientada a buceadores acreditados que buscan explorar fondos profundos o barcos hundidos de la zona.${durText}`;
+  }
+  return `Salida de inmersión guiada en ${activity.destination} (${activity.region})${byCenter} para descubrir los fondos y la vida marina de la zona.${durText}`;
+}
 // se desambiguan con la referencia interna para que cada URL tenga un <title> único.
 const titleCounts = activities.reduce<Record<string, number>>((acc, item) => {
   acc[item.title] = (acc[item.title] || 0) + 1;
@@ -102,12 +156,11 @@ export default async function ActivityPage({ params }: Props) {
               {activity.type} · {activity.destination} ({activity.region})
             </span>
             <h1>{activity.title}</h1>
-            <p className="lead">
-              Consulta qué incluye esta experiencia en {activity.destination}, los requisitos de participación, el centro organizador y las opciones de reserva disponibles.
-            </p>
-            <div className="activity-detail-badges">
+            <div className="activity-detail-badges" style={{ marginTop: "1rem" }}>
               <span>Nivel {activity.level}</span>
-              <span>{activity.duration}</span>
+              {activity.duration && activity.duration !== "Consultar disponibilidad" && (
+                <span>{activity.duration}</span>
+              )}
               {activity.rating && (
                 <span>
                   ★ {activity.rating} · {activity.reviewCount || 0} opiniones
@@ -122,13 +175,9 @@ export default async function ActivityPage({ params }: Props) {
               <div className="activity-hero-price-summary">
                 <small>Precio desde</small>
                 <strong>{formatOfferPrice(lowest)}</strong>
-                <span>por persona · reserva online</span>
+                <span>por persona</span>
               </div>
             )}
-            <ul className="booking-trust-list">
-              <li>✓ Instructor certificado y seguro incluidos</li>
-              <li>✓ Consulta fechas disponibles antes de reservar</li>
-            </ul>
             <BookingOptions activity={activity} officialUrl={center?.officialUrl} />
           </div>
         </div>
@@ -137,7 +186,7 @@ export default async function ActivityPage({ params }: Props) {
           <div className="activity-detail-main">
             <section className="notice-card">
               <h2>Descripción de la experiencia</h2>
-              <p>{detail?.summary || activity.notes || activity.title}</p>
+              <p>{buildHumanSummary(activity, center?.name)}</p>
             </section>
 
             {center && (
@@ -157,11 +206,11 @@ export default async function ActivityPage({ params }: Props) {
             {(detail ? detail.included : activity.included)?.length ? (
               <div className="check-grid">
                 {(detail ? detail.included : activity.included)!.map((item) => (
-                  <span key={item}>✓ {item}</span>
+                  <span key={item}>✓ {humanizeIncluded(item)}</span>
                 ))}
               </div>
             ) : (
-              <p>Consulta el desglose detallado de servicios incluidos directamente en la ficha de reserva del proveedor.</p>
+              <p>El equipamiento y los servicios incluidos se detallan al seleccionar tu fecha en la reserva.</p>
             )}
 
             {detail?.excluded.length ? (
@@ -169,7 +218,7 @@ export default async function ActivityPage({ params }: Props) {
                 <h2>No incluido en la tarifa base</h2>
                 <ul>
                   {detail.excluded.map((item) => (
-                    <li key={item}>{item}</li>
+                    <li key={item}>{humanizeExcluded(item)}</li>
                   ))}
                 </ul>
               </section>
@@ -179,12 +228,15 @@ export default async function ActivityPage({ params }: Props) {
               <section>
                 <h2>Detalles operativos</h2>
                 <div className="guide-grid">
-                  {detail.facts.map((fact) => (
-                    <article className="guide-card" key={fact.label}>
-                      <h3>{fact.label}</h3>
-                      <p>{fact.value}</p>
-                    </article>
-                  ))}
+                  {detail.facts.map((rawFact) => {
+                    const fact = humanizeFact(rawFact);
+                    return (
+                      <article className="guide-card" key={rawFact.label}>
+                        <h3>{fact.label}</h3>
+                        <p>{fact.value}</p>
+                      </article>
+                    );
+                  })}
                 </div>
               </section>
             ) : null}
@@ -195,30 +247,27 @@ export default async function ActivityPage({ params }: Props) {
                 <div className="guide-grid">
                   {activity.maxDepth && (
                     <article className="guide-card">
-                      <span className="eyebrow">PROFUNDIDAD</span>
+                      <span className="eyebrow">PROFUNDIDAD MÁXIMA</span>
                       <h3>{activity.maxDepth}</h3>
-                      <p>Cota máxima orientativa indicada para esta actividad.</p>
                     </article>
                   )}
                   {activity.minAge && (
                     <article className="guide-card">
                       <span className="eyebrow">EDAD MÍNIMA</span>
                       <h3>Desde {activity.minAge} años</h3>
-                      <p>Edad mínima habitual requerida por el operador.</p>
                     </article>
                   )}
                   {activity.cancellation && (
                     <article className="guide-card">
                       <span className="eyebrow">CANCELACIÓN</span>
-                      <h3>Política aplicable</h3>
+                      <h3>Condiciones</h3>
                       <p>{activity.cancellation}</p>
                     </article>
                   )}
                   {activity.meetingPoint && (
                     <article className="guide-card">
-                      <span className="eyebrow">ENCUENTRO</span>
+                      <span className="eyebrow">PUNTO DE ENCUENTRO</span>
                       <h3>{activity.meetingPoint}</h3>
-                      <p>Zona o punto de encuentro habitual de la actividad.</p>
                     </article>
                   )}
                 </div>
@@ -284,7 +333,8 @@ export default async function ActivityPage({ params }: Props) {
                         <Link href={`/actividades/${rel.slug}`}>{rel.title}</Link>
                       </h3>
                       <p>
-                        Nivel {rel.level} · {rel.duration}
+                        Nivel {rel.level}
+                        {rel.duration && rel.duration !== "Consultar disponibilidad" ? ` · ${rel.duration}` : ""}
                       </p>
                       <Link className="text-link" href={`/actividades/${rel.slug}`}>
                         Ver detalles y qué incluye →

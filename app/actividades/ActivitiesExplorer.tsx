@@ -383,15 +383,13 @@ export function ActivitiesExplorer({
               🗺️ Ver mapa ({displaySitesCount})
             </a>
           </div>
-          <p className="activity-map-hint">
-            Selecciona una experiencia para ver qué incluye o continúa al proveedor para consultar disponibilidad en tus fechas.
-          </p>
           <div className="activity-results-scroll">
             {visibleItems.map((a) => {
               const site = sites.find((s) => a.siteSlugs.includes(s.slug));
               const center = centerByActivity[a.slug];
               const offers = a.offers;
               const lowest = getLowestPricedOffer(offers);
+              const hasRealDuration = a.duration && a.duration !== "Consultar disponibilidad";
               return (
                 <article key={a.id} className="activity-result-card">
                   <Link className="activity-result-main" href={"/actividades/" + a.slug}>
@@ -409,7 +407,8 @@ export function ActivitiesExplorer({
                     <span>
                       <strong>{a.title}</strong>
                       <small>
-                        {a.destination} · {site?.name || a.region} · {a.level} · {a.duration}
+                        {a.destination} · {site?.name || a.region} · Nivel {a.level.toLowerCase()}
+                        {hasRealDuration ? ` · ${a.duration}` : ""}
                       </small>
                       <span className="result-price">
                         {lowest ? (
