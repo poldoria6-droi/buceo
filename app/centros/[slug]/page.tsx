@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { centers } from "@/data/centers";
 import { diveSites } from "@/data/dive-sites";
 import { getCenterActivities } from "@/lib/centers";
+import { formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
 import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildCenterJsonLd } from "@/lib/seo";
@@ -41,6 +42,8 @@ export default async function CenterPage({ params }: Props) {
   const activities = getCenterActivities(center.id);
   const sites = diveSites.filter((site) => center.siteSlugs.includes(site.slug));
   const centerJsonLd = buildCenterJsonLd(center, activities.length);
+  const allOffers = activities.flatMap((a) => getBookingOffers(a));
+  const lowestOffer = getLowestPricedOffer(allOffers);
 
   return (
     <section className="section">
@@ -59,16 +62,20 @@ export default async function CenterPage({ params }: Props) {
         <h1>{center.name}</h1>
         <p className="lead">{center.location}</p>
 
-        {center.rating && (
-          <p>
-            ★ {center.rating.value}/{center.rating.scale} · {center.rating.count} opiniones verificadas
-          </p>
-        )}
+        <div className="activity-detail-badges" style={{ marginBottom: "1rem" }}>
+          {activities.length > 0 && <span>{activities.length} experiencias reservables</span>}
+          {lowestOffer && <span className="price-badge">Desde {formatOfferPrice(lowestOffer)}</span>}
+          {center.rating && (
+            <span>
+              ★ {center.rating.value}/{center.rating.scale} · {center.rating.count} opiniones verificadas
+            </span>
+          )}
+        </div>
 
         <p>{center.description}</p>
         {activities.length > 0 && (
           <a className="button button-primary" href="#actividades">
-            Ver sus {activities.length} actividades ↓
+            Ver sus {activities.length} actividades y precios ↓
           </a>
         )}
 
@@ -134,6 +141,18 @@ export default async function CenterPage({ params }: Props) {
             </>
           )}
         </section>
+
+        {activities.length > 0 && (
+          <div className="mobile-sticky-booking" role="region" aria-label="Ofertas de esta escuela en móvil">
+            <div className="mobile-sticky-booking-price">
+              <small>{activities.length} experiencias en {center.name}</small>
+              <strong>{lowestOffer ? `Desde ${formatOfferPrice(lowestOffer)}` : "Ver precios"}</strong>
+            </div>
+            <a href="#actividades" className="button button-primary mobile-sticky-booking-btn">
+              Ver precios y reservar ↑
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );

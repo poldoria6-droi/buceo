@@ -69,8 +69,8 @@ export default function ActivityMap({ sites, activities }: { sites: SlimSite[]; 
                 <span>{site.destination}</span>
                 <div className="activity-popup-meta"><span>◉ {site.depth}</span><span>◈ {site.type}</span></div>
                 <div className="activity-popup-offers">
-                  <b>{related.length ? "Experiencias relacionadas" : "Sin experiencia conectada todavía"}</b>
-                  {related.map(activity => (
+                  <b>{related.length ? `Experiencias disponibles (${related.length})` : "Sin experiencia conectada todavía"}</b>
+                  {related.slice(0, 4).map(activity => (
                     <div className="activity-popup-offer" key={activity.id}>
                       <Link href={"/actividades/" + activity.slug}>
                         <strong>{activity.title}</strong>
@@ -79,13 +79,15 @@ export default function ActivityMap({ sites, activities }: { sites: SlimSite[]; 
                       {activity.offers.map(booking => (
                         <div className="activity-popup-booking" key={booking.id}>
                           <span>{booking.priceFrom !== undefined ? <>Desde <b>{formatOfferPrice(booking)}</b></> : <>Precio por confirmar</>} · {booking.provider}</span>
-                          <a href={booking.href} target="_blank" rel="sponsored noopener noreferrer" data-affiliate-provider={booking.provider} data-activity-id={activity.id}>Reservar ↗</a>
+                          <a href={booking.href} target="_blank" rel="sponsored noopener noreferrer" data-affiliate-provider={booking.provider} data-activity-id={activity.id}>Ver fechas ↗</a>
                         </div>
                       ))}
                     </div>
                   ))}
                 </div>
-                <Link href={"/actividades/#site=" + encodeURIComponent(site.slug)} className="popup-action">Ver todas las actividades de este punto →</Link>
+                <Link href={"/actividades/#site=" + encodeURIComponent(site.slug)} className="popup-action">
+                  {related.length > 4 ? `Ver las ${related.length} actividades de este punto →` : "Ver todas las actividades de este punto →"}
+                </Link>
               </div>
             </Popup>
           </CircleMarker>

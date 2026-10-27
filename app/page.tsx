@@ -6,8 +6,21 @@ import { species } from "@/data/species";
 import { guides } from "@/data/guides";
 import { SiteCard } from "@/components/SiteCard";
 import { SpeciesCard } from "@/components/SpeciesCard";
+import { BookingOptions } from "@/components/BookingOptions";
+
+const FEATURED_ACTIVITY_SLUGS = [
+  "bautismo-de-buceo-en-lanzarote-2-horas-y-30-min-37276",
+  "bautizo-discover-scuba-diving-mar-menuda-522",
+  "bautismo-buceo-6-metros-cabo-palos-502",
+  "bautismo-de-buceo-en-playa-son-xoriguer-de-2-horas-78828",
+  "inmersion-de-buceo-tenerife-con-alquiler-de-equipo-50921",
+  "inmersion-de-buceo-en-la-costa-de-algeciras-57620",
+];
 
 export default function HomePage() {
+  const featuredActivities = FEATURED_ACTIVITY_SLUGS.map((slug) =>
+    activities.find((a) => a.slug === slug)
+  ).filter((a): a is NonNullable<typeof a> => Boolean(a));
   const featuredSites = diveSites.filter((site) =>
     ["Illes Medes", "Islas Hormigas", "Parque Nacional de Cabrera", "La Restinga", "Playa Chica", "Maro–Cerro Gordo"].includes(site.name)
   );
@@ -119,6 +132,39 @@ export default function HomePage() {
       </section>
 
       <section className="section section-soft">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">RESERVA ONLINE · PRECIO OFICIAL</span>
+              <h2>Experiencias y bautismos más reservados en España</h2>
+            </div>
+            <Link href="/actividades" className="text-link">
+              Ver las {activities.length} experiencias →
+            </Link>
+          </div>
+          <div className="guide-grid">
+            {featuredActivities.map((activity) => (
+              <article className="guide-card" key={activity.slug}>
+                <span className="eyebrow">
+                  {activity.type} · {activity.destination} ({activity.region})
+                </span>
+                <h3>
+                  <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
+                </h3>
+                <p>
+                  Nivel {activity.level} · {activity.duration}
+                </p>
+                <Link className="text-link" href={`/actividades/${activity.slug}`}>
+                  Ver qué incluye y requisitos →
+                </Link>
+                <BookingOptions activity={activity} />
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className="section-heading">
             <div>

@@ -58,6 +58,16 @@ export default async function ActivityPage({ params }: Props) {
   const lowest = getLowestPricedOffer(offers);
   const activityJsonLd = buildActivityJsonLd(activity, offers, center);
 
+  const relatedActivities = activities
+    .filter(
+      (item) =>
+        item.slug !== activity.slug &&
+        item.bookingStatus === "Disponible" &&
+        (item.destination === activity.destination || item.region === activity.region)
+    )
+    .sort((a, b) => Number(b.destination === activity.destination) - Number(a.destination === activity.destination))
+    .slice(0, 3);
+
   return (
     <section className="section">
       <div className="container">
@@ -92,7 +102,19 @@ export default async function ActivityPage({ params }: Props) {
             </div>
           </div>
           <div className="activity-detail-provider">
-            <span className="eyebrow">OPCIONES DE RESERVA</span>
+            <span className="eyebrow">RESERVA ONLINE GARANTIZADA</span>
+            {lowest && (
+              <div className="activity-hero-price-summary">
+                <small>Tarifa oficial desde</small>
+                <strong>{formatOfferPrice(lowest)}</strong>
+                <span>por persona · sin comisiones añadidas</span>
+              </div>
+            )}
+            <ul className="booking-trust-list">
+              <li>✓ Mismo precio que reservando en el centro</li>
+              <li>✓ Instructor certificado y seguro incluidos</li>
+              <li>✓ Consulta fechas disponibles antes de pagar</li>
+            </ul>
             <BookingOptions activity={activity} officialUrl={center?.officialUrl} />
           </div>
         </div>
@@ -207,13 +229,13 @@ export default async function ActivityPage({ params }: Props) {
               </>
             )}
 
-            <div className="cta-section">
+            <div className="cta-section" style={{ paddingBottom: relatedActivities.length ? "2rem" : undefined }}>
               <div className="cta-panel activity-booking-cta">
                 <div>
-                  <span className="eyebrow">RESERVA ONLINE</span>
-                  <h2>Consulta disponibilidad y precios</h2>
+                  <span className="eyebrow">RESERVA ONLINE · PRECIO OFICIAL</span>
+                  <h2>Consulta fechas y disponibilidad en {activity.destination}</h2>
                   <p>
-                    Selecciona tu fecha y completa la reserva directamente en la plataforma del proveedor.
+                    Elige tu día en el calendario oficial de la escuela (vía {(lowest || offers[0])?.provider || "proveedor autorizado"}), sin comisiones adicionales.
                   </p>
                 </div>
                 <div className="activity-booking-cta-actions">
@@ -223,15 +245,42 @@ export default async function ActivityPage({ params }: Props) {
                       href={buildAffiliateUrl(offer)}
                       target="_blank"
                       rel="sponsored noopener noreferrer"
-                      title={`Reservar en ${offer.provider} (enlace de afiliado)`}
+                      title={`Consultar fechas y reservar en ${offer.provider} (enlace de afiliado)`}
+                      data-affiliate-provider={offer.provider}
+                      data-activity-id={activity.id}
                       className="button button-primary"
                     >
-                      Reservar con {offer.provider} ↗
+                      Ver fechas y reservar {offer.priceFrom ? `(desde ${formatOfferPrice(offer)})` : ""} ↗
                     </a>
                   ))}
                 </div>
               </div>
             </div>
+
+            {relatedActivities.length > 0 && (
+              <section style={{ marginBottom: "2.5rem" }}>
+                <h2>Otras experiencias recomendadas en {activity.destination}</h2>
+                <div className="guide-grid">
+                  {relatedActivities.map((rel) => (
+                    <article className="guide-card" key={rel.slug}>
+                      <span className="eyebrow">
+                        {rel.type} · {rel.destination}
+                      </span>
+                      <h3>
+                        <Link href={`/actividades/${rel.slug}`}>{rel.title}</Link>
+                      </h3>
+                      <p>
+                        Nivel {rel.level} · {rel.duration}
+                      </p>
+                      <Link className="text-link" href={`/actividades/${rel.slug}`}>
+                        Ver detalles y qué incluye →
+                      </Link>
+                      <BookingOptions activity={rel} />
+                    </article>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
         </div>
 
@@ -242,17 +291,19 @@ export default async function ActivityPage({ params }: Props) {
         {offers.length > 0 && (
           <div className="mobile-sticky-booking" role="region" aria-label="Reserva rápida en móvil">
             <div className="mobile-sticky-booking-price">
-              <small>Mejor tarifa online</small>
+              <small>Precio oficial · Vía {(lowest || offers[0]).provider}</small>
               <strong>{lowest ? `Desde ${formatOfferPrice(lowest)}` : "Consultar"}</strong>
             </div>
             <a
               href={buildAffiliateUrl(lowest || offers[0])}
               target="_blank"
               rel="sponsored noopener noreferrer"
-              title={`Reservar en ${(lowest || offers[0]).provider} (enlace de afiliado)`}
+              title={`Consultar fechas y reservar en ${(lowest || offers[0]).provider} (enlace de afiliado)`}
+              data-affiliate-provider={(lowest || offers[0]).provider}
+              data-activity-id={activity.id}
               className="button button-primary mobile-sticky-booking-btn"
             >
-              Reservar con {(lowest || offers[0]).provider} ↗
+              Ver fechas y reservar ↗
             </a>
           </div>
         )}

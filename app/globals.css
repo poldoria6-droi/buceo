@@ -541,3 +541,26 @@ html, body {
 /* Marcador de posición del mapa: reserva la altura final (sin saltos de diseño) mientras carga Leaflet */
 .map-placeholder{display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#d5edf0,#bfe3ea);color:#06485f;font-weight:600;font-size:.95rem}
 .guide-grid > :nth-child(n+7),.cards-grid > :nth-child(n+5),.activity-results-scroll > :nth-child(n+5){content-visibility:auto;contain-intrinsic-size:auto 240px}
+
+/* === CONVERSION & AFFILIATE TRUST UI === */
+.booking-offer{color:var(--ink);padding:14px 0 4px;border-top:1px solid #e6eff1}
+.booking-offer-head{color:var(--ink);display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-direction:row!important}
+.booking-offer-provider{display:flex;flex-direction:column;gap:4px}
+.booking-offer-provider strong{font-size:.92rem;line-height:1.2}
+.booking-offer-trust-pill{display:inline-flex;align-self:flex-start;padding:2px 8px;border-radius:999px;background:#e6f8f5;color:#06697a;font-size:.66rem;font-weight:800;letter-spacing:.01em}
+.booking-offer-price{color:#057588;font-weight:900;font-size:1.05rem;white-space:nowrap}
+.booking-offer>small{color:#4f6874;font-size:.73rem;margin:6px 0 10px;display:block}
+.booking-offer-cta{width:100%;font-size:.86rem!important;padding:12px 16px!important;border-radius:12px!important;background:linear-gradient(135deg,#12c2d9,#068299)!important;color:#fff!important;box-shadow:0 6px 16px rgba(6,130,153,.24)}
+.booking-offer-cta:hover{background:linear-gradient(135deg,#0eb0c6,#046a7d)!important;box-shadow:0 8px 20px rgba(6,130,153,.34)}
+.activity-detail-provider .booking-offer{color:#fff;border-top:1px solid rgba(255,255,255,.14)}
+.activity-detail-provider .booking-offer-head{color:#fff}
+.activity-detail-provider .booking-offer-trust-pill{background:rgba(98,232,243,.16);color:#8ff3fa}
+.activity-detail-provider .booking-offer-price{color:#62e8f3;font-size:1.12rem}
+.activity-detail-provider .booking-offer>small{color:rgba(255,255,255,.78)}
+.activity-detail-provider .booking-offer-cta{background:linear-gradient(135deg,#28dfef,#10b3cc)!important;color:#042b3e!important;font-weight:900!important;box-shadow:0 8px 22px rgba(40,223,239,.3)}
+.activity-hero-price-summary{display:flex;flex-direction:column;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.07);border:1px solid rgba(166,239,234,.22);margin-top:2px}
+.activity-hero-price-summary small{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:rgba(255,255,255,.75);font-weight:700}
+.activity-hero-price-summary strong{font-size:1.85rem!important;line-height:1.1;color:#62e8f3;font-weight:900;margin:2px 0}
+.activity-hero-price-summary span{font-size:.73rem;color:rgba(255,255,255,.78)}
+.booking-trust-list{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:5px;font-size:.78rem;color:rgba(255,255,255,.88)}
+.booking-trust-list li{line-height:1.35}

@@ -423,9 +423,9 @@ export function ActivitiesExplorer({
                       </span>
                       <span className="activity-provider">
                         {offers.length === 1 ? (
-                          <>Reserva en: {offers[0].provider}</>
+                          <>✓ Precio oficial · Vía {offers[0].provider}</>
                         ) : (
-                          <>Disponible en: {offers.map((offer) => offer.provider).join(" · ")}</>
+                          <>✓ Disponible en: {offers.map((offer) => offer.provider).join(" · ")}</>
                         )}
                       </span>
                     </span>
@@ -461,11 +461,11 @@ export function ActivitiesExplorer({
                         target="_blank"
                         rel="sponsored noopener noreferrer"
                         className="activity-book-link"
-                        title={`Reservar en ${offer.provider} (enlace de afiliado)`}
+                        title={`Consultar fechas y reservar en ${offer.provider} (enlace de afiliado)`}
                         data-affiliate-provider={offer.provider}
                         data-activity-id={a.id}
                       >
-                        Reservar con {offer.provider} ↗
+                        Ver fechas y reservar ↗
                       </a>
                     ))}
                   </div>
