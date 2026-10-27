@@ -8,7 +8,9 @@ export function SiteCard({ site }: { site: DiveSite }) {
         <span className="eyebrow">{site.region}</span>
         <span className="pill">{site.level}</span>
       </div>
-      <h3>{site.name}</h3>
+      <h3>
+        <Link href={`/buceo/${site.destinationSlug}`}>{site.name}</Link>
+      </h3>
       <p>{site.highlight}</p>
       <div className="site-meta">
         <span>{site.type}</span>
@@ -21,10 +23,10 @@ export function SiteCard({ site }: { site: DiveSite }) {
       </div>
       <div className="card-actions" style={{ justifyContent: "space-between" }}>
         <Link href={`/buceo/${site.destinationSlug}`} className="text-link">
-          Ver guía y precios →
+          Buceo en {site.destination} →
         </Link>
         <Link href={`/actividades/#site=${encodeURIComponent(site.slug)}`} className="text-link">
-          Ofertas en esta zona →
+          Ofertas en la zona →
         </Link>
       </div>
     </article>

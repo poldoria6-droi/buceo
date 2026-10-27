@@ -26,16 +26,17 @@ export async function generateMetadata({ params }: Props) {
 
   const seoData = getDestinationSeoData(destination, sites, activities, centers);
   const priceSnippet = seoData.lowestPrice ? ` desde ${seoData.lowestPrice} €` : "";
+  const titlePrice = seoData.lowestPrice ? ` (desde ${seoData.lowestPrice} €)` : "";
 
   return {
-    title: `Buceo en ${destination.name}: Bautismos, Cursos, Precios y Mejores Zonas`,
-    description: `Guía completa de buceo en ${destination.name} (${destination.region}): ${seoData.totalCount} actividades y bautismos${priceSnippet}, ${sites.length} puntos de inmersión, escuelas verificadas y mejor época.`,
+    title: `Buceo en ${destination.name}: Precios${titlePrice}, Zonas y Centros`,
+    description: `Buceo en ${destination.name} (${destination.region}): compara ${seoData.totalCount} bautismos, cursos e inmersiones${priceSnippet}, ${sites.length} puntos de inmersión, centros de buceo y mejor época.`,
     alternates: {
       canonical: `/buceo/${slug}`,
     },
     openGraph: {
-      title: `Buceo en ${destination.name}: Precios, Zonas y Escuelas | Buceo Atlas`,
-      description: `Compara bautismos, cursos PADI/SSI, puntos de inmersión y escuelas de buceo en ${destination.name}${priceSnippet}.`,
+      title: `Buceo en ${destination.name}: Precios${titlePrice}, Zonas y Centros | Buceo Atlas`,
+      description: `Compara bautismos, cursos PADI/SSI, puntos de inmersión y centros de buceo en ${destination.name}${priceSnippet}.`,
       url: `/buceo/${slug}`,
       type: "website",
     },
@@ -103,7 +104,7 @@ export default async function DestinationPage({ params }: Props) {
           <span className="eyebrow">
             GUÍA Y COMPARADOR · {destination.region.toUpperCase()}
           </span>
-          <h1>Buceo en {destination.name}: mejores zonas, bautismos, cursos y precios</h1>
+          <h1>Buceo en {destination.name}: precios, mejores zonas, bautismos y centros</h1>
           <p>
             Descubre dónde bucear en {destination.name} ({destination.region}): comparativa de{" "}
             <strong>{seoData.totalCount} experiencias reservables</strong>{" "}

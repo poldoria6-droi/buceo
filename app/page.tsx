@@ -179,6 +179,39 @@ export default function HomePage() {
               <SiteCard key={site.id} site={site} />
             ))}
           </div>
+          <div className="hero-tags" style={{ marginTop: "1.5rem" }}>
+            {[
+              { slug: "cabo-de-palos", label: "Buceo en Cabo de Palos" },
+              { slug: "la-herradura", label: "Buceo en La Herradura" },
+              { slug: "tossa-de-mar", label: "Buceo en Tossa de Mar" },
+              { slug: "lanzarote", label: "Buceo en Lanzarote" },
+              { slug: "gran-canaria", label: "Buceo en Gran Canaria" },
+              { slug: "tabarca", label: "Buceo en Tabarca" },
+              { slug: "el-hierro", label: "Buceo en El Hierro" },
+              { slug: "illes-medes", label: "Buceo en Illes Medes" },
+              { slug: "tenerife", label: "Buceo en Tenerife" },
+              { slug: "mallorca", label: "Buceo en Mallorca" },
+              { slug: "menorca", label: "Buceo en Menorca" },
+              { slug: "cabo-de-gata", label: "Buceo en Cabo de Gata" },
+            ].map((dest) => (
+              <Link
+                key={dest.slug}
+                href={`/buceo/${dest.slug}`}
+                style={{
+                  textDecoration: "none",
+                  background: "#eef8f7",
+                  color: "#0b5e6f",
+                  border: "1px solid #cde7e4",
+                  borderRadius: "999px",
+                  padding: "0.45rem 0.9rem",
+                  fontSize: "0.84rem",
+                  fontWeight: 700,
+                }}
+              >
+                {dest.label} →
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

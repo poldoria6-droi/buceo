@@ -21,15 +21,23 @@ export async function generateMetadata({ params }: Props) {
   const center = centers.find((item) => item.slug === slug);
   if (!center) return {};
 
+  const activities = getCenterActivities(center.id);
+  const allOffers = activities.flatMap((a) => getBookingOffers(a));
+  const lowestOffer = getLowestPricedOffer(allOffers);
+  const hasLocationInName = center.name.toLowerCase().includes(center.location.toLowerCase());
+  const nameWithLoc = hasLocationInName ? center.name : `${center.name} (${center.location})`;
+  const priceTitle = lowestOffer ? ` · Precios desde ${formatOfferPrice(lowestOffer)}` : " · Cursos y Precios";
+  const priceDesc = lowestOffer ? ` desde ${formatOfferPrice(lowestOffer)}` : "";
+
   return {
-    title: `${center.name} (${center.location}) · Escuela de Buceo`,
-    description: `Conoce la escuela de buceo ${center.name} en ${center.location} (${center.region}). Consulta sus cursos, salidas de buceo, servicios, opiniones y reserva.`,
+    title: `${nameWithLoc} · Centro de Buceo${priceTitle}`,
+    description: `Centro de buceo ${center.name} en ${center.location} (${center.region}). Consulta sus ${activities.length > 0 ? `${activities.length} actividades, bautismos y cursos${priceDesc}` : "cursos, salidas de buceo y servicios"}, opiniones y reserva online.`,
     alternates: {
       canonical: `/centros/${slug}`,
     },
     openGraph: {
-      title: `${center.name} (${center.location}) | Buceo Atlas`,
-      description: `Centro de buceo ${center.name} en ${center.location}. Actividades, cursos y servicios.`,
+      title: `${nameWithLoc} · Centro de Buceo | Buceo Atlas`,
+      description: `Centro de buceo ${center.name} en ${center.location}. Actividades, cursos, precios y servicios.`,
       url: `/centros/${slug}`,
       type: "website",
     },
