@@ -124,23 +124,43 @@ export default async function DestinationPage({ params }: Props) {
             <a href="#actividades" className="button button-primary">
               Ver ofertas y precios en {destination.name} ↓
             </a>
+            <a href="#guia" className="button button-ghost-dark">
+              Guía práctica y precios ↓
+            </a>
             <Link
               href={`/actividades/#mapa&region=${encodeURIComponent(destCommunity)}`}
               className="button button-ghost-dark"
             >
               Abrir en el mapa interactivo →
             </Link>
-            {seoData.matchedCenters.length > 0 && (
-              <a href="#escuelas" className="button button-ghost-dark">
-                Ver escuelas ({seoData.matchedCenters.length})
+          </div>
+
+          <nav className="destination-jump-nav" aria-label={`Secciones sobre buceo en ${destination.name}`}>
+            {seoData.featuredActivities.length > 0 && (
+              <a href="#actividades" className="destination-jump-link">
+                🤿 Ofertas ({seoData.totalCount})
               </a>
             )}
-          </div>
+            <a href="#guia" className="destination-jump-link">
+              📖 Guía práctica y tarifas
+            </a>
+            <a href="#inmersiones" className="destination-jump-link">
+              📍 Puntos de inmersión ({sites.length})
+            </a>
+            {seoData.matchedCenters.length > 0 && (
+              <a href="#escuelas" className="destination-jump-link">
+                🏫 Escuelas ({seoData.matchedCenters.length})
+              </a>
+            )}
+            <a href="#faq" className="destination-jump-link">
+              ❓ Preguntas frecuentes ({seoData.faqs.length})
+            </a>
+          </nav>
         </div>
       </section>
 
       {seoData.featuredActivities.length > 0 && (
-        <section id="actividades" className="section section-soft">
+        <section id="actividades" className="section section-soft destination-section-anchor">
           <div className="container">
             <div className="section-heading">
               <div>
@@ -155,7 +175,7 @@ export default async function DestinationPage({ params }: Props) {
               </Link>
             </div>
             <div className="guide-grid">
-              {seoData.featuredActivities.map((activity) => (
+              {seoData.featuredActivities.slice(0, 6).map((activity) => (
                 <article className="guide-card" key={activity.slug}>
                   <span className="eyebrow">
                     {activity.type} · {activity.destination}
@@ -175,7 +195,171 @@ export default async function DestinationPage({ params }: Props) {
         </section>
       )}
 
-      <section className="section">
+      <section id="guia" className="section destination-section-anchor">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">GUÍA PRÁCTICA DE BUCEO</span>
+              <h2>Todo lo que necesitas saber para bucear en {destination.name}</h2>
+            </div>
+            <a href="#inmersiones" className="text-link">
+              Saltar a los {sites.length} puntos de inmersión ↓
+            </a>
+          </div>
+
+          <div className="destination-guide-grid">
+            {seoData.localLongTail && (
+              <article className="destination-guide-card destination-guide-card--highlight">
+                <span className="eyebrow">🧭 ZONAS CLAVE Y RECOMENDACIONES LOCALES</span>
+                <h3>{seoData.localLongTail.heading}</h3>
+                {seoData.localLongTail.paragraphs.map((paragraph, idx) => (
+                  <p key={idx}>{paragraph}</p>
+                ))}
+                {destination.slug === "el-hierro" && (
+                  <p>
+                    👉 Si estás cuadrando aviones o ferry interinsular, alojamiento y bonos de inmersión, te hemos preparado una{" "}
+                    <Link href="/guias/viaje-de-buceo-a-el-hierro" className="text-link">
+                      guía paso a paso para organizar tu viaje de buceo a El Hierro (La Restinga) →
+                    </Link>
+                  </p>
+                )}
+              </article>
+            )}
+
+            <article className="destination-guide-card">
+              <span className="eyebrow">🌊 FONDOS Y VIDA MARINA</span>
+              <h3>
+                {destination.slug === "madrid"
+                  ? `Cómo funcionan los cursos y bautismos en ${destination.name}`
+                  : `Cómo son los fondos de ${destination.name} y qué nivel necesitas`}
+              </h3>
+              <p>
+                El entorno de <strong>{destination.name}</strong> ({destination.region}) destaca por{" "}
+                {seoData.climate.marineEnvironment}. Tanto si te estrenas bajo el agua con un{" "}
+                <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">
+                  bautismo de buceo guiado
+                </Link>{" "}
+                como si ya tienes tu carnet Open Water o{" "}
+                <Link href="/guias/curso-advanced-open-water-espana" className="text-link">
+                  Advanced
+                </Link>
+                , tienes puntos muy variados en {sites.map((s) => s.name).slice(0, 3).join(", ")}.
+              </p>
+              <p>
+                {destination.slug === "madrid" ? (
+                  <>
+                    Tras completar las clases en piscina climatizada o foso en {destination.name}, las salidas a mar abierto se organizan en Murcia, Alicante o la Costa Brava, donde verás especies como{" "}
+                    <strong>{animals.join(", ")}</strong>. Revisa antes los{" "}
+                  </>
+                ) : (
+                  <>
+                    <strong>Fauna habitual bajo el agua:</strong> en estas inmersiones es frecuente cruzarse con{" "}
+                    <strong>{animals.join(", ")}</strong>. Antes de salir, echa un vistazo a los{" "}
+                  </>
+                )}
+                <Link href="/guias/requisitos-para-bucear-en-espana" className="text-link">
+                  requisitos de seguridad
+                </Link>.
+              </p>
+              {matchedSpecies.length > 0 && (
+                <div className="hero-tags" style={{ marginTop: "0.5rem" }}>
+                  {matchedSpecies.map((sp) => (
+                    <Link
+                      key={sp.slug}
+                      href={`/fauna/${sp.slug}`}
+                      style={{ textDecoration: "none" }}
+                    >
+                      <span>🐠 {sp.name} →</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </article>
+
+            <article className="destination-guide-card">
+              <span className="eyebrow">💰 TARIFAS ORIENTATIVAS</span>
+              <h3>Precios de bautismos, cursos e inmersiones en {destination.name}</h3>
+              <p>
+                Lo que pagas en {destination.name} varía según si la salida es desde cala o en barco y si incluyes alquiler de equipo o tasas (<Link href="/guias/padi-vs-ssi-diferencias" className="text-link">PADI o SSI</Link>):
+              </p>
+              <div style={{ overflowX: "auto" }}>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Modalidad</th>
+                      <th>Nivel</th>
+                      <th>Tarifa habitual</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Bautismo de buceo</strong></td>
+                      <td>Sin experiencia</td>
+                      <td>
+                        {seoData.baptismFrom ? `Desde ${seoData.baptismFrom} €` : "60 € – 95 €"} (equipo y seguro incl.)
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Salida guiada</strong></td>
+                      <td>Con carnet</td>
+                      <td>
+                        {seoData.diveFrom ? `Desde ${seoData.diveFrom} €` : "38 € – 65 €"} (según barco y equipo)
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Curso Open Water</strong></td>
+                      <td>Certificación</td>
+                      <td>
+                        {seoData.courseFrom ? `Desde ${seoData.courseFrom} €` : "350 € – 490 €"} (teoría, mar y título)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+
+            <article className="destination-guide-card destination-guide-card--full">
+              <span className="eyebrow">🌡️ MEJOR ÉPOCA, TEMPERATURA DEL AGUA Y NEOPRENO</span>
+              <h3>Cuándo ir a bucear a {destination.name} y qué traje llevar</h3>
+              <ul>
+                <li>
+                  <strong>Mejores meses para bucear:</strong> {seoData.climate.bestMonths}.
+                </li>
+                <li>
+                  <strong>Temperatura del agua:</strong> entre <strong>{seoData.climate.waterTempWinter}</strong> en los meses más frescos y <strong>{seoData.climate.waterTempSummer}</strong> en verano y principio de otoño.
+                </li>
+                <li>
+                  <strong>Neopreno recomendado:</strong> {seoData.climate.wetsuitAdvice}
+                </li>
+              </ul>
+              <p>
+                👉 Puedes comparar todas las costas mes a mes en nuestro{" "}
+                <Link href="/guias/mejor-epoca-para-bucear-en-espana" className="text-link">
+                  calendario de temperatura del agua en España →
+                </Link>
+              </p>
+              {(destCommunity === "Canarias" || destCommunity === "Baleares") && (
+                <div className="editorial-tip" style={{ marginTop: "1rem", marginBottom: 0 }}>
+                  <p>
+                    ✈️ <strong>Si vuelas a {destination.name} para bucear:</strong> deja al menos 18–24 h sin bucear antes de tu vuelo de regreso. Si vas a hacer una sola salida suelta puedes sacarte el seguro diario en el propio centro, pero si viajas en avión con tu equipo o quieres llevar cubiertos vuelos, equipaje deportivo y buceo en una misma póliza, tienes un{" "}
+                    <a
+                      href={IATI_AFFILIATE_URL}
+                      target="_blank"
+                      rel="sponsored noopener noreferrer"
+                      className="text-link"
+                    >
+                      5 % de descuento en IATI Seguros desde aquí ↗
+                    </a>
+                    .
+                  </p>
+                </div>
+              )}
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="inmersiones" className="section section-soft destination-section-anchor">
         <div className="container">
           <div className="section-heading">
             <div>
@@ -198,7 +382,7 @@ export default async function DestinationPage({ params }: Props) {
       </section>
 
       {seoData.matchedCenters.length > 0 && (
-        <section id="escuelas" className="section section-soft">
+        <section id="escuelas" className="section destination-section-anchor">
           <div className="container">
             <div className="section-heading">
               <div>
@@ -232,168 +416,27 @@ export default async function DestinationPage({ params }: Props) {
         </section>
       )}
 
-      <section className="section">
+      <section id="faq" className="section section-soft destination-section-anchor">
         <div className="container">
-          <div className="guide-article">
-            <span className="eyebrow">GUÍA PRÁCTICA DE BUCEO</span>
-            <h2>Todo lo que necesitas saber para bucear en {destination.name}</h2>
-
-            <h3>
-              {destination.slug === "madrid"
-                ? `Cómo funcionan los cursos y bautismos de buceo en ${destination.name}`
-                : `Cómo son los fondos de ${destination.name} y qué nivel necesitas`}
-            </h3>
-            <p>
-              El entorno de <strong>{destination.name}</strong> ({destination.region}) destaca por{" "}
-              {seoData.climate.marineEnvironment}. Tanto si te estrenas bajo el agua con un{" "}
-              <Link href="/guias/bautismo-de-buceo-en-espana" className="text-link">
-                bautismo de buceo guiado
-              </Link>{" "}
-              como si ya tienes tu carnet Open Water o Advanced, tienes puntos muy variados en{" "}
-              {sites.map((s) => s.name).slice(0, 3).join(", ")}.
-            </p>
-
-            {seoData.localLongTail && (
-              <>
-                <h3>{seoData.localLongTail.heading}</h3>
-                {seoData.localLongTail.paragraphs.map((paragraph, idx) => (
-                  <p key={idx}>{paragraph}</p>
-                ))}
-                {destination.slug === "el-hierro" && (
-                  <p>
-                    👉 Si estás cuadrando aviones o ferry interinsular, alojamiento y bonos de inmersión, te hemos preparado una{" "}
-                    <Link href="/guias/viaje-de-buceo-a-el-hierro" className="text-link">
-                      guía paso a paso para organizar tu viaje de buceo a El Hierro (La Restinga) →
-                    </Link>
-                  </p>
-                )}
-              </>
-            )}
-
-            <h3>Precios de bautismos, cursos e inmersiones en {destination.name}</h3>
-            <p>
-              Lo que vas a pagar en {destination.name} depende sobre todo de si entras desde cala o en barco y de si necesitas alquilar el equipo completo o las tasas de certificación (<Link href="/guias/padi-vs-ssi-diferencias" className="text-link">PADI o SSI</Link>):
-            </p>
-            <div style={{ overflowX: "auto", margin: "1.25rem 0 1.75rem" }}>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Modalidad en {destination.name}</th>
-                    <th>Nivel</th>
-                    <th>Tarifa habitual</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Bautismo de buceo</strong></td>
-                    <td>Sin experiencia previa</td>
-                    <td>
-                      {seoData.baptismFrom ? `Desde ${seoData.baptismFrom} €` : "Entre 60 € y 95 €"} (equipo y seguro incluidos)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><strong>Salidas guiadas (Fun Dive)</strong></td>
-                    <td>Con carnet (Open Water / Advanced)</td>
-                    <td>
-                      {seoData.diveFrom ? `Desde ${seoData.diveFrom} €` : "Entre 38 € y 65 €"} (según barco y alquiler de equipo)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><strong>Curso Open Water / Avanzado</strong></td>
-                    <td>Iniciación o subida de nivel</td>
-                    <td>
-                      {seoData.courseFrom ? `Desde ${seoData.courseFrom} €` : "Entre 350 € y 490 €"} (teoría, prácticas y título)
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">DUDAS HABITUALES</span>
+              <h2>Preguntas frecuentes sobre bucear en {destination.name}</h2>
             </div>
-
-            <h3>Cuándo ir a bucear a {destination.name} y temperatura del agua</h3>
-            <ul>
-              <li>
-                <strong>Mejores meses:</strong> {seoData.climate.bestMonths}.
-              </li>
-              <li>
-                <strong>Temperatura del agua:</strong> entre <strong>{seoData.climate.waterTempWinter}</strong> en los meses más frescos y <strong>{seoData.climate.waterTempSummer}</strong> en verano y principio de otoño.
-              </li>
-              <li>
-                <strong>Neopreno recomendado:</strong> {seoData.climate.wetsuitAdvice}
-              </li>
-            </ul>
-            <p>
-              👉 Puedes ver la comparativa mes a mes en nuestro{" "}
-              <Link href="/guias/mejor-epoca-para-bucear-en-espana" className="text-link">
-                calendario de temperatura del agua en España →
-              </Link>
-            </p>
-            {(destCommunity === "Canarias" || destCommunity === "Baleares") && (
-              <div className="editorial-tip">
-                <p>
-                  ✈️ <strong>Si vuelas a {destination.name} para bucear:</strong> deja al menos 18–24 h sin bucear antes de tu vuelo de regreso. Si vas a hacer una sola salida suelta puedes sacarte el seguro diario en el propio centro, pero si viajas en avión con tu equipo o quieres llevar cubiertos vuelos, equipaje deportivo y buceo en una misma póliza, tienes un{" "}
-                  <a
-                    href={IATI_AFFILIATE_URL}
-                    target="_blank"
-                    rel="sponsored noopener noreferrer"
-                    className="text-link"
-                  >
-                    5 % de descuento en IATI Seguros desde aquí ↗
-                  </a>
-                  .
-                </p>
-              </div>
-            )}
-
-            <h3>
-              {destination.slug === "madrid"
-                ? `Salidas a mar abierto y vida marina desde ${destination.name}`
-                : `Qué vida marina vas a ver bajo el agua en ${destination.name}`}
-            </h3>
-            <p>
-              {destination.slug === "madrid" ? (
-                <>
-                  Tras completar la teoría y los ejercicios en aguas confinadas (piscina climatizada o foso) en {destination.name}, las inmersiones de certificación en aguas abiertas se realizan en destinos costeros como Murcia, Alicante o la Costa Brava, donde es habitual observar especies como{" "}
-                  <strong>{animals.join(", ")}</strong>. Consulta siempre los{" "}
-                </>
-              ) : (
-                <>
-                  En los fondos de {destination.name} es frecuente observar especies habituales de la zona como{" "}
-                  <strong>{animals.join(", ")}</strong>. Antes de planificar tu salida, revisa los{" "}
-                </>
-              )}
-              <Link href="/guias/requisitos-para-bucear-en-espana" className="text-link">
-                requisitos de seguridad y conservación
-              </Link>.
-            </p>
-            {matchedSpecies.length > 0 && (
-              <div className="hero-tags" style={{ marginTop: "0.75rem", marginBottom: "1.75rem" }}>
-                {matchedSpecies.map((sp) => (
-                  <Link
-                    key={sp.slug}
-                    href={`/fauna/${sp.slug}`}
-                    style={{ textDecoration: "none" }}
-                  >
-                    <span>🐠 {sp.name} →</span>
-                  </Link>
-                ))}
-              </div>
-            )}
-
-            <h2>Preguntas frecuentes sobre bucear en {destination.name}</h2>
-            <div style={{ display: "grid", gap: "0.75rem", marginTop: "1rem" }}>
-              {seoData.faqs.map((faq) => (
-                <details
-                  key={faq.question}
-                  className="notice-card"
-                  style={{ margin: 0, cursor: "pointer" }}
-                >
-                  <summary style={{ fontWeight: 700, fontSize: "1.05rem" }}>
-                    {faq.question}
-                  </summary>
-                  <p style={{ marginTop: "0.65rem", marginBottom: 0 }}>{faq.answer}</p>
-                </details>
-              ))}
-            </div>
+          </div>
+          <div style={{ display: "grid", gap: "0.75rem", maxWidth: "880px" }}>
+            {seoData.faqs.map((faq) => (
+              <details
+                key={faq.question}
+                className="notice-card"
+                style={{ margin: 0, cursor: "pointer" }}
+              >
+                <summary style={{ fontWeight: 700, fontSize: "1.05rem" }}>
+                  {faq.question}
+                </summary>
+                <p style={{ marginTop: "0.65rem", marginBottom: 0 }}>{faq.answer}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>
