@@ -135,7 +135,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-heading">
             <div>
-              <span className="eyebrow">RESERVA ONLINE · PRECIO OFICIAL</span>
+              <span className="eyebrow">RESERVA ONLINE DIRECTA</span>
               <h2>Experiencias y bautismos más reservados en España</h2>
             </div>
             <Link href="/actividades" className="text-link">

@@ -1,5 +1,5 @@
 import type { Activity } from "@/data/types";
-import { buildAffiliateUrl, formatOfferPrice, formatPriceCheckedAt, getBookingOffers } from "@/lib/affiliate";
+import { buildAffiliateUrl, formatOfferPrice, getBookingOffers } from "@/lib/affiliate";
 
 export function BookingOptions({ activity, officialUrl }: { activity: Activity; officialUrl?: string }) {
   const offers = getBookingOffers(activity);
@@ -10,16 +10,13 @@ export function BookingOptions({ activity, officialUrl }: { activity: Activity; 
           <div className="booking-offer-head">
             <div className="booking-offer-provider">
               <strong>Reserva online · {offer.provider}</strong>
-              <span className="booking-offer-trust-pill">Precio oficial sin sobrecostes</span>
+              <span className="booking-offer-trust-pill">Confirmación inmediata</span>
             </div>
             <span className="booking-offer-price">
               {offer.priceFrom === undefined ? "Consultar precio" : `Desde ${formatOfferPrice(offer)}`}
             </span>
           </div>
-          <small>
-            ✓ Consulta calendario y plazas disponibles
-            {offer.priceCheckedAt ? ` · Tarifa revisada el ${formatPriceCheckedAt(offer.priceCheckedAt)}` : ""}
-          </small>
+          <small>✓ Consulta calendario y plazas disponibles</small>
           <a
             className="button button-primary booking-offer-cta"
             href={buildAffiliateUrl(offer)}

@@ -423,7 +423,7 @@ export function ActivitiesExplorer({
                       </span>
                       <span className="activity-provider">
                         {offers.length === 1 ? (
-                          <>✓ Precio oficial · Vía {offers[0].provider}</>
+                          <>✓ Reserva online · {offers[0].provider}</>
                         ) : (
                           <>✓ Disponible en: {offers.map((offer) => offer.provider).join(" · ")}</>
                         )}

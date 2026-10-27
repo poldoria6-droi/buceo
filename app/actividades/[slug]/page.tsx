@@ -117,18 +117,17 @@ export default async function ActivityPage({ params }: Props) {
             </div>
           </div>
           <div className="activity-detail-provider">
-            <span className="eyebrow">RESERVA ONLINE GARANTIZADA</span>
+            <span className="eyebrow">OPCIONES DE RESERVA</span>
             {lowest && (
               <div className="activity-hero-price-summary">
-                <small>Tarifa oficial desde</small>
+                <small>Precio desde</small>
                 <strong>{formatOfferPrice(lowest)}</strong>
-                <span>por persona · sin comisiones añadidas</span>
+                <span>por persona · reserva online</span>
               </div>
             )}
             <ul className="booking-trust-list">
-              <li>✓ Mismo precio que reservando en el centro</li>
               <li>✓ Instructor certificado y seguro incluidos</li>
-              <li>✓ Consulta fechas disponibles antes de pagar</li>
+              <li>✓ Consulta fechas disponibles antes de reservar</li>
             </ul>
             <BookingOptions activity={activity} officialUrl={center?.officialUrl} />
           </div>
@@ -247,10 +246,10 @@ export default async function ActivityPage({ params }: Props) {
             <div className="cta-section" style={{ paddingBottom: relatedActivities.length ? "2rem" : undefined }}>
               <div className="cta-panel activity-booking-cta">
                 <div>
-                  <span className="eyebrow">RESERVA ONLINE · PRECIO OFICIAL</span>
+                  <span className="eyebrow">RESERVA ONLINE</span>
                   <h2>Consulta fechas y disponibilidad en {activity.destination}</h2>
                   <p>
-                    Elige tu día en el calendario oficial de la escuela (vía {(lowest || offers[0])?.provider || "proveedor autorizado"}), sin comisiones adicionales.
+                    Elige tu día en el calendario de disponibilidad y completa tu reserva online en unos minutos.
                   </p>
                 </div>
                 <div className="activity-booking-cta-actions">
@@ -359,7 +358,7 @@ export default async function ActivityPage({ params }: Props) {
         {offers.length > 0 && (
           <div className="mobile-sticky-booking" role="region" aria-label="Reserva rápida en móvil">
             <div className="mobile-sticky-booking-price">
-              <small>Precio oficial · Vía {(lowest || offers[0]).provider}</small>
+              <small>Reserva online · {(lowest || offers[0]).provider}</small>
               <strong>{lowest ? `Desde ${formatOfferPrice(lowest)}` : "Consultar"}</strong>
             </div>
             <a
