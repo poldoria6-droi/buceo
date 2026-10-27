@@ -588,28 +588,53 @@ html, body {
 .guide-article {
   max-width: 860px;
 }
-.guide-article h2 {
+.guide-article > h2 {
   margin-top: 2.6rem;
   margin-bottom: 0.85rem;
   font-size: clamp(1.5rem, 2.5vw, 2.05rem);
   letter-spacing: -0.03em;
   color: var(--ink);
 }
-.guide-article h3 {
+.guide-article > h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.45rem;
   font-size: 1.2rem;
   color: var(--ink);
 }
-.guide-article p,
-.guide-article li {
+.guide-article > p,
+.guide-article > ul > li,
+.vs-card p,
+.vs-card li,
+.editorial-tip p {
   color: #365060;
   font-size: 1.04rem;
   line-height: 1.72;
 }
-.guide-article p strong,
-.guide-article li strong {
+.guide-article > p strong,
+.guide-article > ul > li strong,
+.vs-card strong {
   color: var(--ink);
+}
+.cta-panel h2,
+.cta-panel h3,
+.cta-panel strong,
+.booking-panel h2,
+.booking-panel h3,
+.booking-panel strong {
+  color: #fff !important;
+}
+.cta-panel h2 {
+  margin-top: 6px !important;
+  margin-bottom: 8px !important;
+}
+.cta-panel p,
+.cta-panel li,
+.booking-panel p {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+.cta-panel .eyebrow,
+.booking-panel .eyebrow {
+  color: #a6efea !important;
 }
 .guide-article table {
   width: 100%;
