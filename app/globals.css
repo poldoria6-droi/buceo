@@ -732,11 +732,10 @@ html, body {
 /* === DESTINATION JUMP NAV & VISUAL GUIDE CARDS === */
 .destination-jump-nav {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 1.35rem;
-  padding-top: 1.15rem;
-  border-top: 1px solid var(--line);
+  gap: 10px;
+  margin-top: 1.25rem;
 }
 .destination-jump-link {
   display: inline-flex;

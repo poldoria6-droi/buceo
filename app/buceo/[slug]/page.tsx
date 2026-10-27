@@ -113,39 +113,17 @@ export default async function DestinationPage({ params }: Props) {
             <strong>{sites.length} puntos de inmersión</strong> documentados, escuelas verificadas y recomendaciones según tu nivel.
           </p>
 
-          <div className="hero-tags" style={{ marginTop: "1rem" }}>
-            {seoData.lowestPrice && <span>Desde {seoData.lowestPrice} €</span>}
-            <span>{seoData.totalCount} actividades en la zona</span>
-            <span>{sites.length} puntos de inmersión</span>
-            <span>Agua: {seoData.climate.waterTempWinter} / {seoData.climate.waterTempSummer}</span>
-          </div>
-
-          <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1.25rem" }}>
-            <a href="#actividades" className="button button-primary">
-              Ver ofertas y precios en {destination.name} ↓
-            </a>
-            <a href="#guia" className="button button-ghost-dark">
-              Guía práctica y precios ↓
-            </a>
-            <Link
-              href={`/actividades/#mapa&region=${encodeURIComponent(destCommunity)}`}
-              className="button button-ghost-dark"
-            >
-              Abrir en el mapa interactivo →
-            </Link>
-          </div>
-
           <nav className="destination-jump-nav" aria-label={`Secciones sobre buceo en ${destination.name}`}>
             {seoData.featuredActivities.length > 0 && (
-              <a href="#actividades" className="destination-jump-link">
-                🤿 Ofertas ({seoData.totalCount})
+              <a href="#actividades" className="button button-primary" style={{ padding: "10px 18px", borderRadius: "999px", fontSize: "0.86rem" }}>
+                Ver ofertas ({seoData.totalCount}) ↓
               </a>
             )}
             <a href="#guia" className="destination-jump-link">
-              📖 Guía práctica y tarifas
+              📖 Guía práctica
             </a>
             <a href="#inmersiones" className="destination-jump-link">
-              📍 Puntos de inmersión ({sites.length})
+              📍 Inmersiones ({sites.length})
             </a>
             {seoData.matchedCenters.length > 0 && (
               <a href="#escuelas" className="destination-jump-link">
@@ -153,7 +131,7 @@ export default async function DestinationPage({ params }: Props) {
               </a>
             )}
             <a href="#faq" className="destination-jump-link">
-              ❓ Preguntas frecuentes ({seoData.faqs.length})
+              ❓ Preguntas frecuentes
             </a>
           </nav>
         </div>
