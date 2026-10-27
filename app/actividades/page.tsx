@@ -9,14 +9,14 @@ import { toSlimActivity, type SlimSite } from "@/lib/slim";
 import { destinationsFor } from "@/lib/activity-filters";
 
 export const metadata = {
-  title: "Actividades y Cursos de Buceo en España · Comparador y Reserva",
+  title: "Bautismos, Cursos e Inmersiones de Buceo en España · Precios y Mapa",
   description:
-    "Encuentra y compara bautismos de buceo, cursos Open Water, Fun Dive, pecios y snorkel en España con mapa interactivo. Consulta precios desde, nivel y escuelas.",
+    "Compara bautismos de buceo, cursos Open Water, salidas guiadas, pecios y snorkel en toda España con mapa interactivo. Consulta precios desde, nivel y centros.",
   alternates: {
     canonical: "/actividades",
   },
   openGraph: {
-    title: "Actividades y Cursos de Buceo en España | Buceo Atlas",
+    title: "Bautismos, Cursos e Inmersiones de Buceo en España | Buceo Atlas",
     description:
       "Encuentra y compara bautismos, cursos y salidas de buceo en España sobre un mapa interactivo.",
     url: "/actividades",
@@ -82,9 +82,9 @@ export default function ActivitiesPage() {
       <div className="container">
         <div className="activities-hero">
           <div>
-            <span className="eyebrow">BAUTISMOS, CURSOS Y SALIDAS DE BUCEO</span>
+            <span className="eyebrow">MAPA Y RESERVA ONLINE EN TODA LA COSTA</span>
             <h1>
-              Elige tu próxima inmersión <em>en la costa española</em>
+              Bautismos, cursos e inmersiones <em>de buceo en España</em>
             </h1>
             <p>
               Desde tu primer bautismo en aguas tranquilas hasta el curso Open Water, salidas guiadas en barco o pecios. Filtra por zona o pulsa en el mapa para ver qué ofrece cada centro.

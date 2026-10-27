@@ -42,7 +42,7 @@ export default function BaptismGuidePage() {
           ]}
         />
         <span className="eyebrow">TU PRIMERA VEZ BAJO EL AGUA</span>
-        <h1>Cómo es tu primer bautismo de buceo (paso a paso y sin nervios)</h1>
+        <h1>Bautismo de buceo en España: cómo es paso a paso y qué incluye</h1>
         <p className="lead">
           Si nunca te has puesto una botella a la espalda, es normal tener un punto de respeto antes de reservar. Te contamos qué pasa desde que entras por la puerta del centro hasta que sales del agua comentando los primeros pulpos y bancos de sargos que acabas de ver.
         </p>

@@ -9,7 +9,7 @@ import { SITE_URL, SITE_NAME, buildWebsiteJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Actividades, Escuelas y Mapa de Buceo en España`,
+    default: `${SITE_NAME} | Buceo en España: Bautismos, Cursos, Centros y Zonas`,
     template: `%s | ${SITE_NAME}`,
   },
   description:

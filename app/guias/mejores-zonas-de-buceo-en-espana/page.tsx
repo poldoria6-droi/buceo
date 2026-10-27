@@ -42,7 +42,7 @@ export default function BestDivingZonesPage() {
           ]}
         />
         <span className="eyebrow">MAPA IMPRESCINDIBLE DE ESPAÑA</span>
-        <h1>Dónde bucear en España: las grandes zonas que todo buceador debería conocer</h1>
+        <h1>Mejores zonas de buceo en España: dónde bucear según tu nivel</h1>
         <p className="lead">
           Pocas costas de Europa tienen la variedad que hay en España: en apenas dos horas de vuelo o unas horas de coche puedes pasar de un bosque de gorgonias rojas en Girona a una montaña submarina llena de meros en Murcia o a coladas de lava volcánica en Canarias. Estas son las zonas imprescindibles según lo que busques.
         </p>

@@ -42,7 +42,7 @@ export default function BestSeasonDivingSpainPage() {
           ]}
         />
         <span className="eyebrow">CALENDARIO Y NEOPRENO</span>
-        <h1>Cuándo es la mejor época para bucear en España (y a qué temperatura está el agua)</h1>
+        <h1>Mejor época para bucear en España: calendario y temperatura del agua</h1>
         <p className="lead">
           La gran ventaja de España es que siempre hay algún rincón con el mar en calma y buena temperatura: desde el verano luminoso de Baleares y la Costa Brava hasta el invierno subtropical de Canarias. Te contamos cuándo ir a cada costa y qué grosor de neopreno pedir.
         </p>

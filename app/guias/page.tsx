@@ -24,7 +24,7 @@ export default function GuidesPage() {
       <div className="container">
         <Breadcrumbs items={[{ name: "Guías y artículos", path: "/guias" }]} />
         <span className="eyebrow">GUÍAS Y COMPARATIVAS DE BUCEO</span>
-        <h1>Guías y artículos para planificar tu inmersión</h1>
+        <h1>Guías de buceo en España: cursos, precios y destinos</h1>
         <p className="lead">
           Artículos prácticos para elegir entre un bautismo o el curso Open Water, comparar certificadoras (PADI vs SSI), conocer los precios reales en España y preparar tu viaje de buceo.
         </p>

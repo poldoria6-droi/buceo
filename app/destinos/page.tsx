@@ -52,7 +52,7 @@ export default function DestinationsPage() {
         <span className="eyebrow">
           85 ZONAS DE INMERSIÓN EN ESPAÑA
         </span>
-        <h1>Dónde bucear en España: costas, islas y reservas marinas</h1>
+        <h1>Destinos donde bucear en España: costas, islas y reservas marinas</h1>
         <p className="lead" style={{ marginBottom: "1rem" }}>
           Recorre nuestras costas por comunidad autónoma o busca directamente tu próximo destino: en cada guía tienes cómo son sus fondos, la temperatura del agua, los centros de la zona y precios reales.
         </p>

@@ -24,7 +24,7 @@ export default function FaunaPage() {
     <section className="section">
       <div className="container">
         <span className="eyebrow">GUÍA DE ESPECIES MARINAS</span>
-        <h1>Fauna marina del Mediterráneo y Atlántico español</h1>
+        <h1>Fauna marina de España: especies del Mediterráneo y Atlántico</h1>
         <p className="lead">
           Identifica los peces, cefalópodos, crustáceos, corales y plantas marinas más representativos de nuestras costas y consulta cómo observarlos sin alterar su hábitat.
         </p>

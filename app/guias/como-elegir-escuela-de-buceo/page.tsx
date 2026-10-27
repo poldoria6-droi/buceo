@@ -42,7 +42,7 @@ export default function HowToChooseDiveCenterPage() {
           ]}
         />
         <span className="eyebrow">CONSEJOS DE BUCEADOR</span>
-        <h1>En qué fijarse para elegir un buen centro de buceo (y no equivocarse)</h1>
+        <h1>Cómo elegir centro o escuela de buceo en España (y no equivocarse)</h1>
         <p className="lead">
           Llegas a un puerto de la Costa Brava, de Murcia o de Tenerife y tienes seis centros de buceo en la misma calle con precios que varían apenas diez euros. ¿Cómo distingues cuál te va a dar un trato de diez y en cuál vas a ir con prisas?
         </p>

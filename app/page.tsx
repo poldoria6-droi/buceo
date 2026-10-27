@@ -56,8 +56,8 @@ export default function HomePage() {
           <div className="reference-hero-copy">
             <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
             <h1>
-              Explora España<br />
-              <em>bajo el agua</em>
+              Explora el buceo<br />
+              <em>en toda España</em>
             </h1>
             <p>
               Compara bautismos, cursos Open Water, salidas guiadas y escuelas en el Mediterráneo, Baleares y Canarias.
