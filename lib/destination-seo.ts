@@ -179,6 +179,24 @@ const DESTINATION_KEYWORDS: Record<string, string[]> = {
     "santander", "isla de mouro", "castro urdiales", "noja", "miengo",
     "suances", "laredo", "santoña", "camargo", "pedreña", "cantabria"
   ],
+  "illes-medes": [
+    "illes medes", "islas medas", "estartit", "l'estartit", "montgrí", "montgri", "torroella"
+  ],
+  lestartit: [
+    "estartit", "l'estartit", "illes medes", "islas medas", "montgrí", "montgri", "torroella"
+  ],
+  javea: [
+    "jávea", "javea", "xàbia", "xabia", "cabo de san antonio", "portitxol", "granadella", "cabo de la nao"
+  ],
+  calpe: [
+    "calpe", "calp", "ifach", "el racó", "morro de toix"
+  ],
+  "cabo-de-gata": [
+    "cabo de gata", "san josé", "san jose", "las negras", "isleta del moro", "carboneras", "agua amarga", "níjar", "nijar"
+  ],
+  tarifa: [
+    "tarifa", "isla de las palomas", "punta marroquí"
+  ],
 };
 
 export type DestinationClimateInfo = {
@@ -292,6 +310,169 @@ const DESTINATION_LONGTAIL: Record<string, DestinationLocalLongTail> = {
       {
         question: "¿Se puede hacer un bautismo de buceo o snorkel en la isla de Tabarca?",
         answer: "Sí, las excursiones guiadas de snorkel en las calas transparentes de Tabarca y los bautismos de buceo en las zonas autorizadas del entorno de la isla y Santa Pola son una de las actividades más reservadas del verano en Alicante."
+      }
+    ]
+  },
+  "illes-medes": {
+    heading: "Cómo bucear en las Illes Medes: boyas míticas (La Vaca, El Dofí, Carall Bernat) y cupos",
+    paragraphs: [
+      "El Parque Natural del Montgrí y las Illes Medes lleva prohibiendo cualquier tipo de pesca en su reserva integral desde 1990. El resultado se nota nada más meter la cabeza bajo el agua: meros de más de veinte kilos que se acercan a mirarte las gafas sin ningún miedo, bancos compactos de corvinas y espetones, y paredes calcáreas cubiertas de gorgonias rojas y amarillas desde los 12 metros.",
+      "Todas las salidas parten en barco desde el puerto de L’Estartit (a apenas 10 minutos de navegación) y amarran en boyas fijas con cupo diario limitado. Entre las inmersiones estrella destacan el túnel luminoso de La Vaca (apto desde Open Water con buen control de flotabilidad), las galerías de El Dofí (con su famosa estatua de bronce), la Pedra de Déu y los cortados más profundos del Carall Bernat y Tascons."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Hace falta permiso especial o nivel Advanced para bucear en las Illes Medes?",
+        answer: "El permiso y la tasa del parque natural los gestiona directamente tu centro de buceo de L’Estartit al reservar (solo tendrás que enseñar tu DNI, carnet de buceo y seguro en vigor). No es obligatorio ser Advanced: boyas como La Vaca, Salpatxot o Els Tascons tienen recorridos entre 10 y 18 metros perfectos para Open Water."
+      },
+      {
+        question: "¿Dónde se hacen los bautismos de buceo si en las Medes piden carnet?",
+        answer: "Como la zona estricta de las islas exige titulación, los bautismos de buceo y las primeras prácticas de curso salen desde el mismo puerto de L’Estartit hacia las calas abrigadas de la costa del Montgrí (como Cala Pedrosa o Punta Salines), donde el fondo es tranquilo, sin corriente y lleno de vida."
+      }
+    ]
+  },
+  lestartit: {
+    heading: "Puerto de L’Estartit: salidas a las Illes Medes vs la costa del Montgrí",
+    paragraphs: [
+      "L’Estartit es el puerto base por excelencia del buceo en la Costa Brava. Sus barcos con ascensor en popa están diseñados específicamente para subir a bordo con el equipo puesto sin esfuerzo y tardan menos de diez minutos en llegar tanto a las boyas de la Reserva Marina de las Illes Medes como a los acantilados calcáreos del macizo del Montgrí.",
+      "Si tienes carnet Open Water o Advanced, lo habitual es combinar una inmersión de mañana en las Medes (La Vaca, El Dofí o Carall Bernat) con una segunda salida por la costa del Montgrí (Cala Ferriol, El Falaguer o el pecio Reggio Messina), donde no se paga tasa de reserva y las paredes esconden cuevas ventiladas, langostas, congrios y nudibranquios."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Qué diferencia hay entre bucear en las Illes Medes y en la costa del Montgrí desde L’Estartit?",
+        answer: "En las Illes Medes verás una concentración única de grandes meros, doradas, águilas marinas y barracudas gracias a más de tres décadas de protección integral. La costa del Montgrí, justo enfrente, está mucho más resguardada cuando sopla tramontana, es ideal para bautismos y cursos, y sorprende por sus túneles de roca, gorgonias y vida pequeña."
+      }
+    ]
+  },
+  tenerife: {
+    heading: "Dónde bucear en Tenerife: Las Galletas, pecio de Tabaiba, Montaña Amarilla y tortugas",
+    paragraphs: [
+      "Tenerife tiene la ventaja de que la mole del Teide frena los vientos alisios en toda la vertiente sur y suroeste (Costa Adeje, Los Cristianos, Las Galletas y Alcalá), dejando el mar en calma casi los 365 días del año. En esta franja marina Teno-Rasca los paisajes submarinos parecen esculpidos a mano: dunas de ceniza volcánica fosilizada en Montaña Amarilla, columnas basálticas en Los Chuchos o El Condesito y bahías tranquilas donde es muy habitual cruzarse con tortugas verdes, chuchos negros y angelotes.",
+      "En la cara oriental de la isla (Radazul y Tabaiba, a diez minutos de Santa Cruz) te espera una de las mejores inmersiones desde costa de Canarias: el pecio de Tabaiba (El Peñón), un remolcador hundido expresamente para el buceo entre los 18 y los 32 metros al que se llega nadando desde la escalera del muelle."
+    ],
+    extraFaqs: [
+      {
+        question: "¿En qué zona de Tenerife es más fácil ver tortugas y rayas en un bautismo?",
+        answer: "Las bahías abrigadas del sur y suroeste de Tenerife (como Abades, El Puertito de Armeñime, Playa Paraíso, Puerto Colón y el entorno de Las Galletas) tienen fondos de arena rubia y sebadal a entre 5 y 12 metros donde residen tortugas verdes, chuchos y sepias durante todo el año."
+      },
+      {
+        question: "¿Puedo subir al Teide el mismo día que he buceado en Tenerife?",
+        answer: "No. Las carreteras que suben al Parque Nacional del Teide superan los 2.000 metros de altitud (más presión reducida incluso que la cabina de un avión comercial). Si buceas por la mañana en Tenerife, nunca subas al Teide ni cruces por las cumbres ese mismo día; espera entre 12 y 24 horas o visita el Teide el día antes de empezar a bucear."
+      }
+    ]
+  },
+  menorca: {
+    heading: "Reserva del Norte de Menorca (Fornells), cuevas de Ciutadella e Isla del Aire",
+    paragraphs: [
+      "Bajo el agua, Menorca destaca por dos cosas: una visibilidad que en verano supera con facilidad los 30 metros y una geología calcárea perforada como un queso gruyere. En el oeste (Ciutadella y Cala Blanca) se concentran algunas de las cavernas submarinas más fotogénicas del Mediterráneo, como el famoso Pont d’en Gil —donde puedes emerger en una bóveda de aire llena de estalactitas y atravesar una haloclina—, la Cueva de la Catedral o el Queso Suizo.",
+      "Si buscas vida grande y bancos de peces, pon rumbo a la Reserva Marina del Norte de Menorca (con salidas desde Fornells y Cavalleria), hogar de grandes meros, dentones y langostas, o al extremo sureste (S’Algar y Punta Prima) para rodear los cañones y paredes de la Reserva de la Isla del Aire."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Son peligrosas las cuevas de buceo de Menorca como el Pont d’en Gil?",
+        answer: "La mayoría de las grutas recreativas de Menorca (como Pont d’en Gil, el Queso Suizo o Malakoff) son cavernas amplias con grandes entradas donde siempre ves el contraluz azul de la salida y que cuentan con cámaras de aire en superficie. Se visitan con guía local y linterna a cotas muy cómodas (entre 8 y 20 metros)."
+      },
+      {
+        question: "¿Qué zona de Menorca elegir si cambia el viento (tramontana vs viento del sur)?",
+        answer: "Al ser una isla estrecha, si entra tramontana del norte el mar se pone bravo en Fornells pero las calas del sur y suroeste (Ciutadella, Cala Galdana, Binibèquer y S’Algar) quedan como un plato; y cuando sopla viento del sur, el norte en Fornells y Cavalleria ofrece aguas completamente tranquilas."
+      }
+    ]
+  },
+  mallorca: {
+    heading: "Reservas marinas de El Toro y Malgrats, Sa Dragonera, Tramuntana y Cabrera",
+    paragraphs: [
+      "El buceo en Mallorca ha dado un salto enorme gracias a su red de reservas marinas. A solo 20 minutos de Palma, en la costa de Calvià (Santa Ponsa), las reservas de El Toro y las Islas Malgrats ofrecen algunas de las inmersiones con más vida de Baleares: nubes de barracudas, grandes meros, doradas, corvinas, pulpos y un barco hundido de 33 metros frente a los islotes de Malgrats ideal para buceadores con título.",
+      "Más al oeste, desde Port d’Andratx o Sant Elm se salta en pocos minutos al Parque Natural de Sa Dragonera (cuevas, paredes verticales y aguas limpísimas); en el norte brillan los túneles de Cabo Formentor y Pollença; y en el sur parten las excursiones de día completo para bucear en el santuario virgen del Parque Nacional de Cabrera."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Dónde están las mejores zonas de Mallorca para hacer un bautismo de buceo?",
+        answer: "Las aguas resguardadas de las Islas Malgrats (Santa Ponsa), Illetes, Cala Santanyí, Cala d’Or, Porto Cristo y la bahía de Alcúdia / Pollença son ideales para un primer bautismo porque combinan fondos de arena blanca y posidonia a poca profundidad sin corrientes."
+      },
+      {
+        question: "¿Cómo se consigue permiso para bucear en el Parque Nacional de Cabrera desde Mallorca?",
+        answer: "El buceo en Cabrera está regulado con cupos diarios estrictos. No tienes que tramitarlo por libre: los centros autorizados del sur de Mallorca (Colònia de Sant Jordi, Cala d’Or o Palma) gestionan la autorización conjunta cuando reservas tu plaza en la salida doble de barco."
+      }
+    ]
+  },
+  formentera: {
+    heading: "Aguas de visibilidad récord en la Reserva de Es Freus, La Plataforma y Punta Prima",
+    paragraphs: [
+      "Formentera presume de tener las aguas más transparentes de toda España —con días de 35 y 40 metros de visibilidad— gracias a las inmensas praderas de Posidonia oceanica que rodean la isla, declaradas Patrimonio de la Humanidad por la UNESCO. Ese bosque submarino filtra y oxigena el mar dejando un azul turquesa que parece una piscina infinita.",
+      "Desde el puerto de La Savina o Es Pujols los barcos llegan en pocos minutos a puntos míticos de la Reserva Marina de Es Freus como La Plataforma (una piscifactoría hundida entre los 11 y los 33 metros convertida en un imán gigante de barracudas, serviolas y meros), los arcos calcáreos y cuevas de luz de Punta Rasa (Cala Saona) y los secanos de Punta Prima."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Merece la pena hacer un bautismo de buceo o snorkel en Formentera?",
+        answer: "Es probablemente el lugar más agradecido de España para quien se pone una máscara por primera vez: al haber más de 30 metros de visibilidad y fondos de arena blanca, no existe sensación de oscuridad ni agobio y ves toda la vida marina desde que metes la cabeza en el agua."
+      }
+    ]
+  },
+  ibiza: {
+    heading: "El gigante hundido Don Pedro, los bajos de Es Vedrà y las cuevas del norte de Ibiza",
+    paragraphs: [
+      "Más allá de sus calas, Ibiza guarda bajo el agua el mayor barco hundido visitable con buceo recreativo de todo el Mediterráneo: el Don Pedro. Este carguero de 142 metros de eslora descansa a solo una milla de la bocana del puerto de Ibiza sobre un fondo de 46 metros, pero su costado de babor y su puente suben hasta los 26 metros, permitiendo que buceadores Advanced (preferiblemente con Nitrox) recorran sus cubiertas rodeados de bancos de espetones y peces limón.",
+      "Para todos los niveles, la costa oeste (Sant Antoni, Cala Tarida y Cala Vadella) ofrece las espectaculares terrazas sumergidas de Punta Galera, la reserva de los islotes de Poniente (Bledas y Es Vedrà, con el mítico bajo de La Bota) y, en el norte (Portinatx y Cala Xarraca), las famosas Cuevas de la Luz donde los rayos del sol entran como columnas de catedral."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Qué titulación necesito para bucear en el pecio Don Pedro de Ibiza?",
+        answer: "Al estar la parte más alta del casco en torno a los 25–26 metros de profundidad y caer hasta los 46 metros, los centros de Ibiza piden titulación mínima Advanced Open Water (o equivalente) y recomiendan encarecidamente bucear con aire enriquecido Nitrox para ampliar el margen sin descompresión."
+      }
+    ]
+  },
+  javea: {
+    heading: "Reserva del Cabo de San Antonio, Isla del Descubridor y arcos del Cabo de la Nao",
+    paragraphs: [
+      "Jávea (Xàbia) tiene uno de los litorales más recortados y protegidos del viento de toda la Comunidad Valenciana. Al norte queda flanqueada por los imponentes acantilados de la Reserva Marina del Cabo de San Antonio (al pie del Montgó), y al sur por el Cabo de la Nao, el punto más oriental de la costa alicantina, lo que permite encontrar siempre una cara de la bahía con el mar en calma.",
+      "La mayoría de salidas en barco parten del puerto o del Canal de la Fontana hacia más de veinte puntos situados a diez minutos de navegación: los cañones y túneles de la Isla del Descubridor y la Isla del Portitxol, las cavernas luminosas de La Catedral y los jardines de posidonia y pared de La Mona o Cabo Negro, ideales tanto para bautismos como para buceadores Open Water."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Cuáles son las mejores calas de Jávea para bautismos de buceo y snorkel?",
+        answer: "Las aguas cristalinas del entorno del Portitxol (La Barraca), la Granadella, Cala Blanca y los fondeos abrigados junto al Cabo de San Antonio y el Cabo de la Nao son perfectos para iniciarse entre arcos de roca calcárea, pulpos, sargos y estrellas de mar."
+      }
+    ]
+  },
+  calpe: {
+    heading: "Buceo a los pies del Peñón de Ifach: Cala El Racó, Los Arcos y paredes del Morro de Toix",
+    paragraphs: [
+      "En Calpe tienes una de las inmersiones desde playa más cómodas y didácticas de Alicante: la Cala de El Racó, situada justo en la base sur del Peñón de Ifach y al lado mismo del puerto pesquero. Al estar protegida de los vientos del norte y del este por la propia mole de piedra del Peñón, el agua suele estar tranquila y cuenta con un recorrido submarino entre bloques calcáreos y praderas de posidonia lleno de pulpos, sepias, doradas y nudibranquios.",
+      "Si sales en barco desde el puerto de Calpe, en cinco minutos recorres la pared exterior del Peñón de Ifach (donde se abren pasadizos como Los Arcos) o navegas hacia los cortados verticales del Morro de Toix, en el límite con Altea, tapizados de esponjas amarillas y gorgonias."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Por qué la Cala El Racó de Calpe es tan popular para empezar a bucear?",
+        answer: "Porque aparcas a pocos metros del agua a los pies del Peñón de Ifach, entras caminando por una cala abrigada sin oleaje y entre los 4 y los 14 metros de profundidad ya tienes roca, posidonia y muchísima vida mediterránea sin necesidad de embarcar."
+      }
+    ]
+  },
+  "cabo-de-gata": {
+    heading: "Fondos volcánicos del Parque Natural de Cabo de Gata: La Amatista, Los Meros y el Vapor",
+    paragraphs: [
+      "El Parque Natural Marítimo-Terrestre de Cabo de Gata-Níjar (Almería) es el único rincón volcánico sumergido de la Península Ibérica y uno de los puntos con más horas de sol y menos lluvias de Europa. Bajo sus aguas transparentes, las antiguas coladas de lava y disyunciones columnares (como las del Arrecife de las Sirenas o Punta Baja) se mezclan con extensas praderas de Posidonia oceanica en un estado de conservación envidiable.",
+      "Los centros de buceo se reparten en pueblos blancos con muchísimo encanto como San José, Las Negras, La Isleta del Moro y Carboneras (Isla de San Andrés). Desde allí se sale en zodiac a joyas como la Piedra de los Meros, la Cueva del Francés, los cañones de La Amatista o, para buceadores avanzados, el pecio del Vapor (Arna) frente al faro de Cabo de Gata."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Qué pueblo de Cabo de Gata es mejor como base para bucear?",
+        answer: "San José, La Isleta del Moro y Las Negras están en pleno corazón del parque natural y concentran la mayoría de salidas a las paredes volcánicas y reservas; mientras que Carboneras, en el extremo norte del parque, es comodísimo para bucear alrededor del Monumento Natural de la Isla de San Andrés y el cráter submarino."
+      }
+    ]
+  },
+  tarifa: {
+    heading: "Bucear en la Isla de las Palomas de Tarifa: donde chocan el Atlántico y el Mediterráneo",
+    paragraphs: [
+      "Tarifa ofrece un escenario submarino irrepetible en la península: la Isla de las Palomas (Punta Marroquí) marca la frontera exacta entre el océano Atlántico y el mar Mediterráneo. Esa mezcla constante de aguas limpias y nutrientes alimenta paredes repletas de gorgonias rojas y amarillas, coral naranja, enormes centollas, bogavantes, urtas, meros y el paso habitual de peces luna (Mola mola) y grandes bancos de voraces y sargos.",
+      "Además, la forma de la Isla de las Palomas actúa como un escudo natural frente al viento: cuando sopla levante fuerte, se bucea a resguardo en el lado de poniente (Las Calderas, El Boquete o el pecio de Las Laminarias); y cuando entra viento de poniente, las embarcaciones fondean en las aguas mansas de la cara de levante (Puerto Pajares y el pecio histórico de vapor San Andrés)."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Se puede bucear en Tarifa aunque haga viento de levante o poniente?",
+        answer: "Sí. Mientras no sea un temporal extremo, el tómbolo y la Isla de las Palomas dividen el mar en dos caras opuestas: si sopla levante se sale por el lado de poniente, y si sopla poniente se bucea en la cara de levante, quedando el fondeo completamente protegido del oleaje."
+      },
+      {
+        question: "¿Qué hay que tener en cuenta con las mareas y corrientes en Tarifa?",
+        answer: "En el Estrecho de Gibraltar las mareas atlánticas mueven mucha agua. Por eso las inmersiones sencillas y los bautismos se hacen siempre en las calas abrigadas junto a la isla, mientras que las puntas exteriores (como Punta Marroquí o Las Piscinas) se planifican con los centros locales cuadrando la hora exacta del reparo de marea."
       }
     ]
   }
