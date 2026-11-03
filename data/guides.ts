@@ -164,4 +164,26 @@ export const guides: GuideMeta[] = [
     publishedAt: "2026-10-27",
     updatedAt: "2026-10-27",
   },
+  {
+    slug: "viaje-de-buceo-a-lanzarote",
+    title: "Viaje de buceo a Lanzarote por libre: mejores zonas, precios y cómo organizarlo",
+    metaTitle: "Viaje de Buceo a Lanzarote: Precios, Playa Chica y Museo Atlántico",
+    description:
+      "Guía práctica para organizar un viaje de buceo a Lanzarote por libre: mejores zonas donde alojarse (Playa Chica, Playa Blanca, Mala), precios de bonos y bautismos, Museo Atlántico y consejos.",
+    tag: "Destinos",
+    ctaLabel: "Organizar viaje →",
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+  },
+  {
+    slug: "regalar-bautismo-o-curso-de-buceo",
+    title: "Cómo regalar un bautismo o curso de buceo en España: precios y qué elegir",
+    metaTitle: "Regalar un Bautismo o Curso de Buceo en España: Precios y Cómo Funciona",
+    description:
+      "Guía práctica para regalar un bautismo de buceo o un curso Open Water en España: cuánto cuesta, qué opción elegir según la persona, cómo canjear fechas en verano y mejores destinos.",
+    tag: "Principiantes",
+    ctaLabel: "Ver guía para regalar →",
+    publishedAt: "2026-11-03",
+    updatedAt: "2026-11-03",
+  },
 ];

@@ -257,9 +257,9 @@ export function buildArticleJsonLd(guide: {
   path: string;
   datePublished?: string;
   dateModified?: string;
+  faqs?: Array<{ question: string; answer: string }>;
 }) {
-  return {
-    "@context": "https://schema.org",
+  const articleEntity = {
     "@type": "Article",
     "@id": getCanonicalUrl(`${guide.path}#article`),
     "headline": guide.title,
@@ -279,5 +279,31 @@ export function buildArticleJsonLd(guide: {
       "name": SITE_NAME,
       "url": SITE_URL,
     },
+  };
+
+  if (!guide.faqs || guide.faqs.length === 0) {
+    return {
+      "@context": "https://schema.org",
+      ...articleEntity,
+    };
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      articleEntity,
+      {
+        "@type": "FAQPage",
+        "@id": getCanonicalUrl(`${guide.path}#faq`),
+        "mainEntity": guide.faqs.map((faq) => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer,
+          },
+        })),
+      },
+    ],
   };
 }

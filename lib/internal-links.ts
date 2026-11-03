@@ -143,11 +143,20 @@ export function getGuidesForActivity(activity: Activity): Guide[] {
   if (normalize(activity.destination).includes("hierro") || normalize(activity.region).includes("hierro")) {
     preferredSlugs.push("viaje-de-buceo-a-el-hierro");
   }
+  if (
+    normalize(activity.destination).includes("lanzarote") ||
+    normalize(activity.destination).includes("carmen") ||
+    normalize(activity.destination).includes("playa blanca") ||
+    normalize(activity.destination).includes("teguise")
+  ) {
+    preferredSlugs.push("viaje-de-buceo-a-lanzarote");
+  }
 
   if (activity.type === "Bautismo" || activity.type === "Snorkel") {
     preferredSlugs.push(
       "bautismo-de-buceo-en-espana",
       "cuanto-cuesta-un-bautismo-de-buceo",
+      "regalar-bautismo-o-curso-de-buceo",
       "como-compensar-oidos-al-bucear",
       "bucear-con-gafas-o-lentillas",
       "bautismo-vs-curso-open-water",
@@ -157,6 +166,7 @@ export function getGuidesForActivity(activity: Activity): Guide[] {
     preferredSlugs.push(
       "bautismo-vs-curso-open-water",
       "curso-advanced-open-water-espana",
+      "regalar-bautismo-o-curso-de-buceo",
       "padi-vs-ssi-diferencias",
       "como-elegir-escuela-de-buceo",
       "que-equipo-necesito-para-empezar-a-bucear"
