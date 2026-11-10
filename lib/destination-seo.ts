@@ -197,6 +197,18 @@ const DESTINATION_KEYWORDS: Record<string, string[]> = {
   tarifa: [
     "tarifa", "isla de las palomas", "punta marroquí"
   ],
+  aguilas: [
+    "águilas", "aguilas", "calabardina", "el hornillo", "hornillo", "cabo cope", "isla del fraile"
+  ],
+  cartagena: [
+    "cartagena", "la azohía", "la azohia", "isla plana", "cabo tiñoso", "tiñoso"
+  ],
+  "la-azohia": [
+    "la azohía", "la azohia", "cabo tiñoso", "tiñoso", "isla plana", "cartagena"
+  ],
+  denia: [
+    "dénia", "denia", "montgó", "montgo", "cova tallada"
+  ],
 };
 
 export type DestinationClimateInfo = {
@@ -456,6 +468,223 @@ const DESTINATION_LONGTAIL: Record<string, DestinationLocalLongTail> = {
       {
         question: "¿Qué pueblo de Cabo de Gata es mejor como base para bucear?",
         answer: "San José, La Isleta del Moro y Las Negras están en pleno corazón del parque natural y concentran la mayoría de salidas a las paredes volcánicas y reservas; mientras que Carboneras, en el extremo norte del parque, es comodísimo para bucear alrededor del Monumento Natural de la Isla de San Andrés y el cráter submarino."
+      }
+    ]
+  },
+  barcelona: {
+    heading: "Buceo en Barcelona: dónde se bucea de verdad cerca de la ciudad (Maresme, Garraf–Sitges y Costa Brava)",
+    paragraphs: [
+      "Barcelona capital no tiene una reserva marina de referencia, así que casi todos los centros de buceo de la ciudad organizan sus inmersiones en tres zonas cercanas: el Maresme (Mataró y las Barres de Mataró, una cordillera de roca calcárea paralela a la costa llena de grietas con morenas, congrios y langostas), el litoral del Garraf y Sitges al sur, y la Costa Brava, a poco más de una hora en coche. Es lo que busca quien escribe «buceo Barcelona», «curso de submarinismo en Barcelona» o «scuba diving Barcelona»: una escuela con base en la ciudad y salidas fáciles de combinar con el trabajo.",
+      "La escollera y los diques del entorno del Fòrum funcionan como un arrecife artificial donde se ven pulpos, sepias, congrios y morenas entre los 6 y los 18 metros, una inmersión muy cómoda para iniciarse o para repasar tras un tiempo sin bucear. Los cursos Open Water suelen combinar teoría y piscina entre semana con las inmersiones de mar en fin de semana. En invierno el agua baja hasta unos 13–14 °C y se bucea con traje de 7 mm o seco; de junio a octubre es la mejor época para bautismos y primeras inmersiones."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Se puede bucear en Barcelona ciudad o hay que salir fuera?",
+        answer: "Sí se puede bucear en el litoral de la propia ciudad (escollera y diques del Fòrum, entre 6 y 18 metros), pero las mejores inmersiones están algo más lejos: las Barres de Mataró en el Maresme, la costa del Garraf y Sitges al sur y, a poco más de una hora en coche, la Costa Brava con Tossa de Mar, Llafranc o L'Estartit."
+      },
+      {
+        question: "¿Cuánto dura un curso de buceo Open Water en Barcelona?",
+        answer: "Un curso Open Water Diver (PADI o SSI) se completa normalmente en 3–4 días intensivos, o repartido en varios fines de semana: teoría (también online), sesión de piscina o aguas confinadas y cuatro inmersiones en mar. Pregunta al centro si el equipo de alquiler y la certificación están incluidos en el precio."
+      }
+    ]
+  },
+  malaga: {
+    heading: "Buceo en Málaga y Costa del Sol: Estepona, Torremolinos, Benalmádena y los acantilados de Maro",
+    paragraphs: [
+      "La Costa del Sol no tiene un único punto de buceo, sino tres zonas con carácter propio. En el oeste (Estepona, Marbella, Manilva) predominan los fondos de roca y las escolleras alimentados por las aguas del Estrecho de Gibraltar. En el centro (Torremolinos, Benalmádena y la bahía de Málaga) hay arrecifes rocosos como la Laja del Almirante, con lajas escalonadas, cardúmenes de sargos y congrios. Y en el este, junto a Nerja, el Paraje Natural de los Acantilados de Maro–Cerro Gordo ofrece cuevas, paredes y colonias de coral naranja (Astroides calycularis).",
+      "Si viajas en familia, ten en cuenta las edades mínimas: la mayoría de centros PADI admiten el programa Bubblemaker desde los 8 años (en piscina o aguas muy someras) y el bautismo de buceo en mar desde los 10 años, con profundidad limitada a 12 metros. Se bucea los 365 días del año; el agua es más cálida de junio a octubre, pero en invierno la visibilidad suele ser excelente con un traje de 5–7 mm."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Se puede hacer buceo con niños en la Costa del Sol?",
+        answer: "Sí. Los centros de la Costa del Sol ofrecen Bubblemaker desde los 8 años (en piscina o aguas muy someras) y bautismos de buceo en mar desde los 10 años, siempre con instructor titulado, equipo adaptado y una profundidad máxima de 12 metros. Confirma la edad mínima exacta con el centro al reservar."
+      },
+      {
+        question: "¿Qué zona de la Costa del Sol es mejor para bucear: Estepona, Torremolinos o Nerja?",
+        answer: "Estepona y Marbella destacan por la vida de roca y cefalópodos con influencia del Estrecho; Torremolinos, Benalmádena y la bahía de Málaga por sus arrecifes de fácil acceso desde barco; y Nerja, por el Paraje Natural de Maro–Cerro Gordo con cuevas y coral naranja. Para un primer bautismo cualquiera de las tres sirve; para fotografía y paredes, Maro–Cerro Gordo."
+      }
+    ]
+  },
+  marbella: {
+    heading: "Bucear en Marbella y Estepona: arrecifes de roca, escolleras y fauna del Estrecho",
+    paragraphs: [
+      "El litoral entre Marbella, San Pedro de Alcántara y Estepona es una zona de buceo de contrastes: fondos rocosos de influencia atlántica y mediterránea (como el Placer de las Bóvedas, entre 8 y 28 metros), con corvinas, meros, morenas y centollas, y lajas litorales y escolleras de poca profundidad en la bahía de Estepona (entre 5 y 20 metros) donde abundan pulpos, sepias y sargos gracias a los nutrientes que entran desde el Estrecho de Gibraltar.",
+      "Las inmersiones suelen salir en embarcación desde los puertos deportivos de la zona (Marbella, Puerto Banús, Estepona), a pocos minutos de navegación. Por eso es una de las bases más cómodas de la Costa del Sol para quien busca «buceo en Estepona» o «buceo en Marbella»: bautismos y cursos para principiantes en la bahía y salidas más profundas para buceadores titulados."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Qué se ve buceando en Estepona y Marbella?",
+        answer: "En la bahía de Estepona abundan pulpos, sepias, sargos y morenas entre lajas y escolleras de 5 a 20 metros. En los fondos rocosos de Marbella (Placer de las Bóvedas, 8–28 metros) es habitual encontrar meros, corvinas, morenas y centollas."
+      },
+      {
+        question: "¿Cuánto dura un bautismo de buceo en Marbella o Estepona?",
+        answer: "Una actividad de bautismo completa suele durar entre 2 y 3 horas contando briefing, equipamiento y desplazamiento, con unos 30–40 minutos bajo el agua acompañado de un instructor. El equipo y el seguro van incluidos; solo necesitas traje de baño y toalla."
+      }
+    ]
+  },
+  alicante: {
+    heading: "Bautismo y curso de buceo en Alicante: Santa Pola, Tabarca, Cabo de la Huerta y Serra Gelada",
+    paragraphs: [
+      "La provincia de Alicante concentra tres escenarios de buceo muy distintos. Al sur, la Reserva Marina de la Isla de Tabarca (la primera de España, declarada en 1986) a la que se sale principalmente desde el puerto de Santa Pola. En la propia ciudad, la microrreserva del Cabo de la Huerta (Cala Palmera) ofrece fondos someros de 4 a 14 metros con posidonia, pulpos y sepias, perfectos para bautismos. Y al norte, el Parque Natural de la Serra Gelada (Benidorm, l'Alfàs del Pi y Altea) prolonga bajo el mar sus acantilados de más de 300 metros entre losas, cuevas y praderas de posidonia.",
+      "Quien busca «bautismo de buceo en Alicante» o «curso de buceo en Alicante» tiene aquí la ventaja de un clima suave todo el año: se bucea en cualquier mes, con el agua más cálida entre julio y octubre. Para un primer bautismo conviene elegir cala resguardada o Tabarca en verano; para el Open Water, los centros combinan teoría, piscina y cuatro inmersiones en Cabo de la Huerta, Santa Pola o la Serra Gelada según el viento."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Dónde hacer un bautismo de buceo en Alicante?",
+        answer: "Las opciones más habituales son las calas del Cabo de la Huerta en Alicante capital, el entorno de la Isla de Tabarca con salida desde Santa Pola o Alicante, y la zona de Benidorm–Altea (Serra Gelada). Todas permiten bautismos a poca profundidad (5–12 metros) con instructor titulado y equipo incluido."
+      },
+      {
+        question: "¿Se sale desde Santa Pola o desde Alicante para bucear en Tabarca?",
+        answer: "Santa Pola es el puerto más cercano a la isla (unos 15 minutos de navegación según los centros) y concentra la mayoría de salidas de buceo y snorkel; también hay salidas desde Alicante y Guardamar. Si buscas «buceo Santa Pola», es la mejor base para visitar la reserva de Tabarca."
+      }
+    ]
+  },
+  aguilas: {
+    heading: "Buceo en Águilas (Murcia): Isla del Fraile, bahía del Hornillo y un litoral más tranquilo que Cabo de Palos",
+    paragraphs: [
+      "Águilas está en el extremo suroccidental del litoral de Murcia, casi en el límite con Almería, y su joya submarina es la Isla del Fraile: un islote escarpado frente a la bahía del Hornillo cuyas paredes sumergidas, de 5 a 24 metros, combinan praderas de posidonia con meros, morenas, barracudas y bancos de espetones. Es una inmersión apta para nivel inicial, por lo que sirve tanto para bautismos de buceo como para las prácticas de mar del curso Open Water.",
+      "Frente a Cabo de Palos, que es mucho más conocido y recibe más buceadores en temporada alta, Águilas ofrece un buceo más tranquilo y con menos masificación, con otras zonas cercanas como Calabardina y Cabo Cope. Si buscas «buceo en Águilas, Murcia», es una base ideal para combinar un fin de semana de mar, playa y naturaleza."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Se puede hacer un bautismo de buceo en Águilas sin experiencia?",
+        answer: "Sí. La Isla del Fraile y las calas de la bahía del Hornillo tienen zonas de entrada fácil y poca profundidad (5–12 metros), así que los centros de Águilas ofrecen bautismos de buceo con instructor titulado, equipo y seguro incluidos, sin necesidad de saber bucear."
+      },
+      {
+        question: "¿Qué se ve buceando en la Isla del Fraile de Águilas?",
+        answer: "Praderas de Posidonia oceanica, meros morenos, morenas, barracudas y bancos de espetones en un entorno de paredes de roca de entre 5 y 24 metros. En verano y otoño la visibilidad suele ser muy buena."
+      }
+    ]
+  },
+  cartagena: {
+    heading: "Buceo en Cartagena: Cabo Tiñoso, La Azohía y puerta de entrada a Cabo de Palos",
+    paragraphs: [
+      "Cartagena, con más de 2.200 años de historia, tiene su litoral escoltado por dos reservas marinas: la de Cabo de Palos–Islas Hormigas al este y la de Cabo Tiñoso al oeste. Esa ubicación central permite a los buceadores elegir cada día el lado con mejor mar: paredes calizas, cuevas, pecios históricos y una gran diversidad de vida pelágica y bentónica, con meros, dentones, barracudas y morenas entre los 6 y los 32 metros.",
+      "Desde la ciudad se llega en unos 25–30 km tanto a La Azohía y Cabo Tiñoso como a Cabo de Palos, lo que convierte a Cartagena en una base cómoda para cursos Open Water, bautismos de buceo y salidas de nivel avanzado. Muchos buceadores del interior peninsular eligen esta zona por la combinación de reservas marinas, pecios y fauna de gran tamaño."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Qué reservas marinas se pueden bucear cerca de Cartagena?",
+        answer: "A ambos lados de Cartagena están la Reserva Marina de Cabo de Palos–Islas Hormigas (a unos 30 km al este) y la de Cabo Tiñoso (con base en La Azohía, a unos 25 km al oeste). Para bucear en las reservas se necesita titulación mínima, seguro en vigor y que el centro tramite el permiso."
+      },
+      {
+        question: "¿Es mejor bucear en La Azohía o en Cabo de Palos?",
+        answer: "Cabo de Palos es más famoso por los bajos de las Islas Hormigas y el pecio Naranjito, pero recibe más buceadores. La Azohía y Cabo Tiñoso ofrecen paredes verticales y cuevas con bóveda de aire en un entorno más tranquilo y de aguas protegidas, ideal para bautismos y cursos."
+      }
+    ]
+  },
+  "la-azohia": {
+    heading: "Bucear en La Azohía y la Reserva Marina de Cabo Tiñoso: paredes, cuevas con bóveda de aire y bautismos tranquilos",
+    paragraphs: [
+      "La Azohía es un pequeño pueblo pesquero del municipio de Cartagena situado a los pies de la Reserva Marina de Cabo Tiñoso. Su bahía queda protegida del oleaje la mayor parte del año, lo que la convierte en una de las mejores zonas de Murcia para hacer un bautismo de buceo o las prácticas del curso Open Water, con entradas fáciles y profundidades de 6 a 30 metros.",
+      "Fuera de la bahía, el entorno de Cabo Tiñoso esconde paredes verticales, cuevas con bóveda de aire y buena fauna: meros morenos, morenas, dentones y barracudas. Es un plan perfecto para quienes buscan una alternativa más tranquila a Cabo de Palos sin renunciar a la vida marina de una reserva."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Es La Azohía un buen sitio para hacer el curso Open Water?",
+        answer: "Sí. La bahía de La Azohía está resguardada la mayor parte del año y permite entradas fáciles desde la costa y barco, con fondos de roca y posidonia a poca profundidad para las primeras inmersiones, y paredes más profundas para completar después el nivel Advanced."
+      }
+    ]
+  },
+  denia: {
+    heading: "Buceo en Dénia: Cova Tallada, Cabo de San Antonio y el macizo del Montgó",
+    paragraphs: [
+      "Dénia reúne dos de las inmersiones más espectaculares de la Costa Blanca norte. La Cova Tallada es una gruta calcárea al pie de los acantilados del Montgó, con bóvedas semisumergidas y contraluces turquesas entre 5 y 18 metros, de nivel intermedio. Y el Cabo de San Antonio (entre Dénia y Jávea) es una reserva marina donde el macizo del Montgó se desploma en el mar, creando paredes de 8 a 28 metros tapizadas de esponjas y gorgonias con meros, corvinas y barracudas.",
+      "El puerto de Dénia es además el punto de salida de los ferris a Ibiza, Formentera y Mallorca, por lo que muchos viajeros combinan aquí un bautismo o una inmersión con su escapada a Baleares. Quien busca «buceo en Dénia» encuentra centros que ofrecen cursos, bautismos y salidas guiadas todo el año."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Qué es la Cova Tallada y se puede bucear en ella?",
+        answer: "La Cova Tallada es una gruta calcárea junto a los acantilados del Montgó, entre Dénia y Jávea, con bóvedas semisumergidas y aguas turquesas. Se puede bucear entre 5 y 18 metros en una inmersión de nivel intermedio, con pulpos, morenas y lubinas; también es un clásico del snorkel y el kayak."
+      },
+      {
+        question: "¿Es mejor bucear en Dénia o en Jávea?",
+        answer: "Comparten la misma costa del Montgó. Dénia ofrece la Cova Tallada y el Cabo de San Antonio, con salidas cómodas desde su puerto; Jávea suma el Portitxol, la Granadella y el entorno del Cabo de la Nao. Si tienes pocos días, muchos centros organizan salidas a ambas zonas."
+      }
+    ]
+  },
+  "costa-brava": {
+    heading: "Bautismo de buceo en la Costa Brava: calas resguardadas, Medes, Cap de Creus y Els Ullastres",
+    paragraphs: [
+      "La Costa Brava (de Blanes a Portbou) es el mejor escenario de buceo de Cataluña: las Illes Medes frente a L'Estartit, con grandes meros centenarios protegidos desde hace décadas; Els Ullastres frente a Llafranc, con tres montañas submarinas de gorgonias rojas; y el Parque Natural del Cap de Creus, con corrientes que alimentan bosques de gorgonias y grandes dentones.",
+      "Si buscas un bautismo de buceo en la Costa Brava o en Cataluña, lo ideal es elegir una cala resguardada de la tramontana, como la Mar Menuda de Tossa de Mar, Cala Montgó en L'Escala o Tamariu, donde se entra desde la playa entre 5 y 20 metros. Los puntos más expuestos, como Massa d'Or en el Cap de Creus, se reservan a buceadores avanzados. De junio a octubre es la mejor época; el resto del año se bucea con traje de 7 mm o seco."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Dónde hacer un bautismo de buceo en la Costa Brava?",
+        answer: "Las calas más recomendadas para un primer bautismo son la Mar Menuda en Tossa de Mar, Cala Montgó en L'Escala y Tamariu en Palafrugell, por su entrada desde playa, su protección frente al oleaje y sus fondos de entre 5 y 20 metros llenos de vida."
+      },
+      {
+        question: "¿Qué diferencia hay entre bucear en las Illes Medes y en el Cap de Creus?",
+        answer: "Las Illes Medes (L'Estartit) son una reserva con grandes meros confiados y nivel inicial o intermedio. El Cap de Creus es un parque natural con más corriente, paredes profundas y bosques de gorgonias, con inmersiones de nivel intermedio-avanzado como Cap Norfeu o Massa d'Or."
+      }
+    ]
+  },
+  madrid: {
+    heading: "Buceo en Madrid: bautismos en piscina, teoría del Open Water y salidas al mar",
+    paragraphs: [
+      "Madrid no tiene mar, pero sí una de las mayores comunidades de buceadores de España. Los centros de la capital ofrecen bautismos en piscina climatizada o foso, la parte teórica de los cursos (PADI, SSI o TDI, también online) y las sesiones de aguas confinadas, para que al llegar a la costa solo falten las inmersiones de mar. Es la forma más cómoda de iniciarse sin perder días de vacaciones.",
+      "El mar más cercano está a unas 3,5–5 horas por carretera (Valencia, Alicante, Cartagena y Cabo de Palos), y muchas escuelas madrileñas organizan salidas de fin de semana y viajes en grupo. Las inmersiones en ríos, pantanos y lagunas interiores están muy limitadas y reguladas por las confederaciones hidrográficas y los parques naturales, así que conviene consultar siempre con un centro autorizado antes de bucear en aguas continentales."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Se puede hacer el curso de buceo Open Water desde Madrid?",
+        answer: "Sí. Puedes hacer la teoría (presencial u online) y las sesiones de piscina en Madrid y completar las cuatro inmersiones de mar en un fin de semana en la costa, normalmente con el mismo centro. Así se obtiene la certificación Open Water Diver sin dedicar días enteros a la teoría en vacaciones."
+      },
+      {
+        question: "¿Se puede bucear en ríos o pantanos cerca de Madrid?",
+        answer: "Con carácter general el buceo en aguas continentales está muy restringido o prohibido en muchos pantanos, ríos y lagunas de parques naturales. Antes de planificar una inmersión consulta con un centro autorizado y con la confederación hidrográfica correspondiente."
+      }
+    ]
+  },
+  granada: {
+    heading: "Buceo en Granada (Costa Tropical): La Herradura, Almuñécar, Punta de la Mona y Calahonda",
+    paragraphs: [
+      "El buceo en la provincia de Granada se concentra en la Costa Tropical: Motril, Salobreña, Almuñécar y La Herradura. Su joya es la Punta de la Mona, Zona de Especial Conservación con paredes verticales (de 8 a 32 metros) tapizadas de coral naranja, espirógrafos, pez luna ocasional y más de 40 especies de nudibranquios. Al este, la Laja de Calahonda (Motril) gana profundidad a pocos metros de la orilla y es hogar de caballitos de mar y cefalópodos.",
+      "La Costa Tropical está a poco más de una hora de la ciudad de Granada y goza de un clima subtropical con unos 300 días de sol al año, lo que permite bucear en cualquier mes. Para bautismos y primeras inmersiones, La Herradura y Calahonda ofrecen entradas cómodas desde playa; para buceadores titulados, las paredes de la Punta de la Mona y Maro–Cerro Gordo."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Dónde se puede bucear en Granada?",
+        answer: "En la Costa Tropical granadina: La Herradura y Almuñécar (Punta de la Mona, Marina del Este), Salobreña y Motril (Laja de Calahonda). Hay centros de buceo con bautismos, cursos Open Water y salidas guiadas para titulados durante todo el año."
+      },
+      {
+        question: "¿Qué diferencia hay entre bucear en La Herradura y en Calahonda?",
+        answer: "La Herradura ofrece paredes con coral naranja y nudibranquios en la Punta de la Mona y entrada fácil desde playa en Marina del Este; Calahonda (Motril) tiene una laja que gana profundidad muy cerca de la orilla, libre de oleaje y con caballitos de mar y cefalópodos, muy apropiada para iniciación."
+      }
+    ]
+  },
+  cantabria: {
+    heading: "Buceo en Cantabria: Isla de Mouro, Castro Urdiales, Noja y Suances",
+    paragraphs: [
+      "El Cantábrico guarda un buceo muy distinto al Mediterráneo: aguas frías y ricas en nutrientes, bosques de laminarias, paredes cubiertas de anémonas y gorgonias, y grandes congrios, bogavantes y centollas. La Isla de Mouro, frente al palacio de la Magdalena en Santander, es la inmersión de referencia (6–28 metros), mientras que Castro Urdiales ofrece acantilados verticales y cargaderos mineros sumergidos (8–30 metros).",
+      "Los fondos someros de Noja (3–15 metros) y de la costa de Miengo y Suances permiten iniciarse y completar cursos en un entorno más resguardado. Por la temperatura del agua, el equipo de alquiler incluye normalmente traje de 7 mm con capucha o traje seco, y la mejor época es de junio a septiembre, con mejor visibilidad y mar más calmado."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Se puede bucear en Castro Urdiales?",
+        answer: "Sí. Castro Urdiales ofrece buceo en acantilados y cargaderos mineros sumergidos a entre 8 y 30 metros, con congrios, centollas, pulpos y cabrachos. Es una inmersión de nivel intermedio; los principiantes suelen iniciarse en calas más someras como Noja."
+      },
+      {
+        question: "¿Qué traje hace falta para bucear en Cantabria?",
+        answer: "El agua del Cantábrico ronda los 12–14 °C en invierno y 17–20 °C en verano, así que se recomienda traje de 7 mm con capucha y guantes, o traje seco para inmersiones largas. Los centros de buceo de Cantabria incluyen el equipo de alquiler en bautismos y cursos."
+      }
+    ]
+  },
+  fuerteventura: {
+    heading: "Buceo en Fuerteventura: Corralejo, Isla de Lobos, Caleta de Fuste y Morro Jable",
+    paragraphs: [
+      "Fuerteventura reparte su buceo en tres zonas. Al norte, Corralejo y la Isla de Lobos (en el Parque Natural de las Dunas de Corralejo e Isla de Lobos) ofrecen fondos volcánicos y arenales con la fauna típica del Atlántico canario. En la costa este, la bahía abrigada de Caleta de Fuste (5–24 metros) alberga meros, abades, morenas negras y chuchos, y con suerte angelotes en las zonas de arena. Y al sur, el veril de Jandía frente al faro de Morro Jable (6–28 metros) cae sobre arena blanca congregando grandes meros y rayas mariposa.",
+      "Los vientos alisios que soplan casi todo el año hacen que cada centro elija el lado más resguardado de la isla, y el agua se mantiene entre 18 y 24 °C, por lo que se bucea los doce meses. Quien busca «dive center Corralejo» o «centro de buceo en Fuerteventura» encuentra bautismos, cursos Open Water y salidas guiadas a todos los niveles."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Dónde bucear en Fuerteventura: Corralejo, Caleta de Fuste o Morro Jable?",
+        answer: "Corralejo es ideal para combinar buceo con la Isla de Lobos; Caleta de Fuste es una bahía abrigada perfecta para bautismos y cursos; y Morro Jable, en el sur de la isla, ofrece un veril de arena blanca con grandes meros para buceadores con algo de experiencia."
+      },
+      {
+        question: "¿Se pueden ver angelotes buceando en Fuerteventura?",
+        answer: "Los angelotes (tiburones ángel) son habituales en los fondos arenosos de Canarias y se han observado en zonas como Caleta de Fuste, aunque no está garantizado y depende de la época. Siempre se observan sin tocar ni perseguir al animal."
       }
     ]
   },
