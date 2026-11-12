@@ -70,11 +70,6 @@ export function SpeciesCard({ item }: { item: SpeciesCardData }) {
           Fuente
         </a>
       </small>
-      <p>
-        <Link href={`/fauna/${item.slug}`} className="text-link">
-          Ver ficha completa →
-        </Link>
-      </p>
     </article>
   );
 }

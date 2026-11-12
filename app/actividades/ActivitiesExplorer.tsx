@@ -446,9 +446,6 @@ export function ActivitiesExplorer({
                         📍 Mapa
                       </button>
                     )}
-                    <Link href={"/actividades/" + a.slug} className="activity-detail-link">
-                      Ver detalles
-                    </Link>
                     {offers.map((offer) => (
                       <a
                         key={offer.id}

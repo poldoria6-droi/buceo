@@ -12,25 +12,31 @@ function normalizeProvider(provider: string) {
 export function getBookingOffers(activity: Activity): BookingOffer[] {
   if (activity.bookingStatus !== "Disponible") return [];
   const valid = (offer: BookingOffer) => {
-    try { const url = new URL(offer.url); return offer.status !== "paused" && ["https:", "http:"].includes(url.protocol); }
-    catch { return false; }
+    try {
+      const url = new URL(offer.url);
+      return offer.status !== "paused" && ["https:", "http:"].includes(url.protocol);
+    } catch {
+      return false;
+    }
   };
   if (activity.offers?.length) return activity.offers.filter(valid);
 
   if (!activity.providerUrl || !activity.provider) return [];
 
-  return [{
-    id: `legacy-${activity.id}-${normalizeProvider(activity.provider)}`,
-    provider: activity.provider,
-    url: activity.providerUrl,
-    sourceUrl: activity.sourceUrl,
-    priceFrom: activity.priceFrom,
-    priceCurrency: activity.priceCurrency || "EUR",
-    priceCheckedAt: activity.priceCheckedAt
-  }].filter(valid);
+  return [
+    {
+      id: `legacy-${activity.id}-${normalizeProvider(activity.provider)}`,
+      provider: activity.provider,
+      url: activity.providerUrl,
+      sourceUrl: activity.sourceUrl,
+      priceFrom: activity.priceFrom,
+      priceCurrency: activity.priceCurrency || "EUR",
+      priceCheckedAt: activity.priceCheckedAt,
+    },
+  ].filter(valid);
 }
 
-export function buildAffiliateUrl(offer: BookingOffer) {
+export function buildAffiliateUrl(offer: BookingOffer, placement = "button-cta") {
   try {
     const parsed = new URL(offer.url);
     const provider = normalizeProvider(offer.provider);
@@ -42,9 +48,7 @@ export function buildAffiliateUrl(offer: BookingOffer) {
 
     if (provider === "yumping") {
       parsed.searchParams.set("id_partner", YUMPING_PARTNER_ID);
-      if (!parsed.searchParams.has("placement")) {
-        parsed.searchParams.set("placement", "button-cta");
-      }
+      parsed.searchParams.set("placement", placement);
     }
 
     return parsed.toString();
@@ -68,7 +72,7 @@ export function formatOfferPrice(offer: { priceFrom?: number; priceCurrency?: st
     return new Intl.NumberFormat("es-ES", {
       style: "currency",
       currency,
-      maximumFractionDigits: 2
+      maximumFractionDigits: 2,
     }).format(offer.priceFrom);
   } catch {
     return `${offer.priceFrom} ${currency}`;
@@ -82,9 +86,8 @@ export function formatPriceCheckedAt(value?: string) {
   return new Intl.DateTimeFormat("es-ES", {
     day: "2-digit",
     month: "2-digit",
-    year: "numeric"
+    year: "numeric",
   }).format(parsed);
 }
-
 
 export const IATI_AFFILIATE_URL = "https://www.iatiseguros.com/?r=37531501737322";

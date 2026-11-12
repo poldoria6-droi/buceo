@@ -32,12 +32,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     url: SITE_URL,
+    images: [{ url: "/logo.png", width: 512, height: 512, alt: SITE_NAME }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} | Actividades, Escuelas y Mapa de Buceo en España`,
     description:
       "Compara actividades de buceo, puntos de inmersión en España, escuelas de buceo y fauna marina.",
+    images: ["/logo.png"],
   },
 };
 

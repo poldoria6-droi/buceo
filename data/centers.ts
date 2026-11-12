@@ -6855,55 +6855,55 @@ export const centerActivityLinks: CenterActivityLink[] = [
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batizo-de-bceo-en-granada-horas-219",
+    "activitySlug": "bautizo-de-buceo-en-granada-2-horas-219",
     "centerId": "buceo-marina-19725165",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-granada-2-horas--o36122",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-padi-open-water-diver-en-granada-222",
+    "activitySlug": "curso-padi-open-water-diver-en-granada-222",
     "centerId": "buceo-marina-19725165",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-padi-open-water-diver-en-granada--o36123",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-de-bceo-padi-scba-diver-granada-224",
+    "activitySlug": "curso-de-buceo-padi-scuba-diver-granada-224",
     "centerId": "buceo-marina-19725165",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-scuba-diver-granada--o36125",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batizo-de-bceo-personalizado-marina-del-este-h-220",
+    "activitySlug": "bautizo-de-buceo-personalizado-marina-del-este-2h-220",
     "centerId": "buceo-aqualia-19635523",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-personalizado-en-la-herradura--o16443",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "padi-advanced-open-water-la-herradra-225",
+    "activitySlug": "padi-advanced-open-water-la-herradura-225",
     "centerId": "buceo-aqualia-19635523",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-la-herradura--o16459",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-de-bceo-padi-resce-diver-en-la-herradra-226",
+    "activitySlug": "curso-de-buceo-padi-rescue-diver-en-la-herradura-226",
     "centerId": "buceo-aqualia-19635523",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-rescue-diver-en-la-herradura--o16465",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batizo-de-bceo-para-parejas-en-la-herradra-h-221",
+    "activitySlug": "bautizo-de-buceo-para-parejas-en-la-herradura-5h-221",
     "centerId": "molamola-dive-3781",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-para-parejas-en-la-herradura-5h--o60978",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-open-water-de-bceo-la-herradra-223",
+    "activitySlug": "curso-open-water-de-buceo-la-herradura-223",
     "centerId": "molamola-dive-3781",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-open-water-de-buceo-la-herradura--o62206",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "inmersio-n-con-eqipo-en-la-herradra-horas-227",
+    "activitySlug": "inmersion-con-equipo-en-la-herradura-4-horas-227",
     "centerId": "molamola-dive-3781",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/inmersion-con-equipo-en-la-herradura-4-horas--o57606",
     "checkedAt": "2026-10-04"
@@ -6921,19 +6921,19 @@ export const centerActivityLinks: CenterActivityLink[] = [
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-advanced-open-water-diver-o-di-as-nerja-228",
+    "activitySlug": "curso-advanced-open-water-diver-2-o-3-dias-nerja-228",
     "centerId": "buceo-costa-nerja-443",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/curso-advanced-open-water-diver-2-o-3-dias-nerja--o62513",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "padi-open-water-diver-en-nerja-drante-di-as-229",
+    "activitySlug": "padi-open-water-diver-en-nerja-durante-4-dias-229",
     "centerId": "buceo-costa-nerja-443",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/padi-open-water-diver-en-nerja-durante-4-dias--o62519",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-discover-scba-desde-barco-en-costa-de-nerja-230",
+    "activitySlug": "curso-discover-scuba-desde-barco-en-costa-de-nerja-230",
     "centerId": "buceo-costa-nerja-443",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/curso-discover-scuba-desde-barco-en-costa-de-nerja--o62523",
     "checkedAt": "2026-10-04"
@@ -6957,13 +6957,13 @@ export const centerActivityLinks: CenterActivityLink[] = [
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batismo-de-bceo-en-cabo-de-gata-233",
+    "activitySlug": "bautismo-de-buceo-en-cabo-de-gata-233",
     "centerId": "isub-san-jose-1284",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata--o26563",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batizo-de-bceo-en-cabo-de-gata-h-234",
+    "activitySlug": "bautizo-de-buceo-en-cabo-de-gata-3h-234",
     "centerId": "isub-san-jose-1284",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-en-cabo-de-gata--o36129",
     "checkedAt": "2026-10-04"
@@ -6975,55 +6975,55 @@ export const centerActivityLinks: CenterActivityLink[] = [
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-open-water-en-cabo-de-gata-235",
+    "activitySlug": "curso-open-water-en-cabo-de-gata-235",
     "centerId": "sea-sun-diving-sport-19748359",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-en-cabo-de-gata--o59202",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-open-water-diver-en-cabo-de-gata-di-as-236",
+    "activitySlug": "curso-open-water-diver-en-cabo-de-gata-4-dias-236",
     "centerId": "buceo-las-negras-1286",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-cabo-de-gata-3-dias--o68413",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batismo-de-bceo-en-roqetas-de-mar-237",
+    "activitySlug": "bautismo-de-buceo-en-roquetas-de-mar-237",
     "centerId": "buceo-aguadulce-roquetas-19690161",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-roquetas-de-mar--o20488",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "padi-advanced-open-water-diver-en-roqetas-de-mar-238",
+    "activitySlug": "padi-advanced-open-water-diver-en-roquetas-de-mar-238",
     "centerId": "buceo-aguadulce-roquetas-19690161",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/padi-advanced-open-water-diver-en-roquetas-de-mar--o27804",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-open-water-diver-en-roqetas-de-mar-239",
+    "activitySlug": "curso-open-water-diver-en-roquetas-de-mar-239",
     "centerId": "buceo-aguadulce-roquetas-19690161",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-roquetas-de-mar--o27803",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batismo-sbmarino-perto-de-agadlce-y-vi-deos-h-240",
+    "activitySlug": "bautismo-submarino-puerto-de-aguadulce-y-videos-2h-240",
     "centerId": "buceo-aguadulce-roquetas-19690161",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-submarino-en-aguadulce-y-fotos--o37116",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batismo-de-bceo-para-parejas-en-agadlce-241",
+    "activitySlug": "bautismo-de-buceo-para-parejas-en-aguadulce-241",
     "centerId": "buceo-aguadulce-roquetas-19690161",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-para-parejas-en-aguadulce--o20493",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "batizo-de-bceo-para-nin-os-agadlce-desde-an-os-242",
+    "activitySlug": "bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos-242",
     "centerId": "buceo-aguadulce-roquetas-19690161",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos--o37277",
     "checkedAt": "2026-10-04"
   },
   {
-    "activitySlug": "crso-advanced-open-water-perto-agadlce-di-as-243",
+    "activitySlug": "curso-advanced-open-water-puerto-aguadulce-5-dias-243",
     "centerId": "buceo-aguadulce-roquetas-19690161",
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-discover-scuba-diving-aguadulce--o20947",
     "checkedAt": "2026-10-04"

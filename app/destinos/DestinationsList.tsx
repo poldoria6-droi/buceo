@@ -137,11 +137,10 @@ export function DestinationsList({ items, communities }: Props) {
             </div>
             <div className="destination-card-body">
               <span className="eyebrow">
-                {destination.sites} puntos · {destination.activitiesCount} actividades
+                {destination.sites} {destination.sites === 1 ? "punto" : "puntos"} · {destination.activitiesCount}{" "}
+                {destination.activitiesCount === 1 ? "actividad" : "actividades"}
               </span>
-              <h2>
-                <Link href={`/buceo/${destination.slug}`}>Buceo en {destination.name}</Link>
-              </h2>
+              <h2>Buceo en {destination.name}</h2>
               <p>
                 {destination.slug === "madrid"
                   ? `Piscina climatizada y salidas a costa (${destination.animals.join(", ")}).`
@@ -152,13 +151,7 @@ export function DestinationsList({ items, communities }: Props) {
                   href={`/buceo/${destination.slug}`}
                   className="button button-primary button-small"
                 >
-                  Ver guía y ofertas →
-                </Link>
-                <Link
-                  href={`/actividades/#mapa&region=${encodeURIComponent(destination.community)}`}
-                  className="text-link"
-                >
-                  Mapa →
+                  Buceo en {destination.name}: guía y ofertas →
                 </Link>
               </div>
             </div>

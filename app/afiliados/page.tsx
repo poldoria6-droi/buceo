@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata = {
   title: "Política de Afiliación y Transparencia",
   description:
-    "Política de afiliación, transparencia editorial e información sobre enlaces de reserva externa en colaboración con Yumping (Partner ID 3935) en Buceo Atlas.",
+    "Política de afiliación, transparencia editorial e información sobre cómo se financia Buceo Atlas mediante enlaces de reserva externa.",
   alternates: {
     canonical: "/afiliados",
   },
@@ -25,14 +25,14 @@ export default function AffiliatePage() {
         <div className="notice-card" style={{ marginTop: "1.5rem", marginBottom: "2rem" }}>
           <strong>Nota de transparencia sobre enlaces de afiliación</strong>
           <p style={{ marginTop: "0.5rem" }}>
-            Algunos de los enlaces de esta web son de afiliación en colaboración con Yumping (Partner ID 3935). Si reservas a través de ellos, recibimos una comisión sin que a ti te cueste absolutamente nada más, garantizando la neutralidad de nuestras recomendaciones.
+            Algunos de los enlaces de esta web son de afiliación en colaboración con Yumping. Si reservas a través de ellos, recibimos una comisión sin que a ti te cueste absolutamente nada más, garantizando la neutralidad de nuestras recomendaciones.
           </p>
         </div>
 
         <div className="guide-article">
           <h2>1. ¿Cómo se sostiene Buceo Atlas?</h2>
           <p>
-            <strong>Buceo Atlas</strong> es un proyecto divulgativo y comparador independiente de acceso 100% gratuito para el usuario. Para financiar el mantenimiento técnico del portal, la verificación de datos de las escuelas, la cartografía interactiva y las guías de especies marinas, colaboramos mediante afiliación con <strong>Yumping (Partner ID 3935)</strong>, plataforma líder de reservas de actividades en España.
+            <strong>Buceo Atlas</strong> es un proyecto divulgativo y comparador independiente de acceso 100% gratuito para el usuario. Para financiar el mantenimiento técnico del portal, la verificación de datos de las escuelas, la cartografía interactiva y las guías de especies marinas, colaboramos mediante afiliación con <strong>Yumping</strong>, plataforma líder de reservas de actividades en España.
           </p>
 
           <h2>2. Mismo precio garantizado para el buceador</h2>

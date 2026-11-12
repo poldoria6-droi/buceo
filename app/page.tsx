@@ -153,10 +153,7 @@ export default function HomePage() {
                   <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                 </h3>
                 <p>{buildActivityCardSummary(activity)}</p>
-                <Link className="text-link" href={`/actividades/${activity.slug}`}>
-                  Ver qué incluye y requisitos →
-                </Link>
-                <BookingOptions activity={activity} />
+                <BookingOptions activity={activity} placement="home-card" />
               </article>
             ))}
           </div>

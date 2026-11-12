@@ -28,10 +28,20 @@ export async function generateMetadata({ params }: Props) {
   const seoData = getDestinationSeoData(destination, sites, activities, centers);
   const priceSnippet = seoData.lowestPrice ? ` desde ${seoData.lowestPrice} €` : "";
   const titlePrice = seoData.lowestPrice ? ` (desde ${seoData.lowestPrice} €)` : "";
+  const sitesLabel =
+    sites.length === 1 ? "1 punto de inmersión" : `${sites.length} puntos de inmersión`;
+  const actLabel =
+    seoData.totalCount === 1
+      ? "1 actividad de buceo"
+      : `${seoData.totalCount} bautismos, cursos e inmersiones`;
+  const pageTitle =
+    destination.name.length > 14
+      ? `Buceo en ${destination.name}: Precios${titlePrice} y Centros`
+      : `Buceo en ${destination.name}: Precios${titlePrice}, Zonas y Centros`;
 
   return {
-    title: `Buceo en ${destination.name}: Precios${titlePrice}, Zonas y Centros`,
-    description: `Buceo en ${destination.name} (${destination.region}): compara ${seoData.totalCount} bautismos, cursos e inmersiones${priceSnippet}, ${sites.length} puntos de inmersión, centros de buceo y mejor época.`,
+    title: pageTitle,
+    description: `Buceo en ${destination.name} (${destination.region}): compara ${actLabel}${priceSnippet}, ${sitesLabel}, centros de buceo y mejor época.`,
     alternates: {
       canonical: `/buceo/${slug}`,
     },
@@ -88,6 +98,13 @@ export default async function DestinationPage({ params }: Props) {
     seoData.lowestPrice
   );
 
+  const sitesLabel =
+    sites.length === 1 ? "1 punto de inmersión" : `${sites.length} puntos de inmersión`;
+  const expLabel =
+    seoData.totalCount === 1
+      ? "1 experiencia reservable"
+      : `${seoData.totalCount} experiencias reservables`;
+
   return (
     <>
       <section className="destination-hero">
@@ -108,9 +125,9 @@ export default async function DestinationPage({ params }: Props) {
           <h1>Buceo en {destination.name}: precios, mejores zonas, bautismos y centros</h1>
           <p>
             Descubre dónde bucear en {destination.name} ({destination.region}): comparativa de{" "}
-            <strong>{seoData.totalCount} experiencias reservables</strong>{" "}
+            <strong>{expLabel}</strong>{" "}
             {seoData.lowestPrice ? `desde ${seoData.lowestPrice} €` : ""},{" "}
-            <strong>{sites.length} puntos de inmersión</strong> documentados, escuelas verificadas y recomendaciones según tu nivel.
+            <strong>{sitesLabel}</strong>, escuelas verificadas y recomendaciones según tu nivel.
           </p>
 
           <nav className="destination-jump-nav" aria-label={`Secciones sobre buceo en ${destination.name}`}>
@@ -162,10 +179,7 @@ export default async function DestinationPage({ params }: Props) {
                     <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                   </h3>
                   <p>{buildActivityCardSummary(activity)}</p>
-                  <Link className="text-link" href={`/actividades/${activity.slug}`}>
-                    Ver qué incluye y requisitos →
-                  </Link>
-                  <BookingOptions activity={activity} />
+                  <BookingOptions activity={activity} placement="destination-card" />
                 </article>
               ))}
             </div>
@@ -181,7 +195,7 @@ export default async function DestinationPage({ params }: Props) {
               <h2>Todo lo que necesitas saber para bucear en {destination.name}</h2>
             </div>
             <a href="#inmersiones" className="text-link">
-              Saltar a los {sites.length} puntos de inmersión ↓
+              Saltar a {sites.length === 1 ? "su punto de inmersión" : `los ${sites.length} puntos de inmersión`} ↓
             </a>
           </div>
 
@@ -344,16 +358,10 @@ export default async function DestinationPage({ params }: Props) {
               <span className="eyebrow">PUNTOS DE INMERSIÓN</span>
               <h2>Dónde bucear en {destination.name}: mejores inmersiones</h2>
             </div>
-            <Link
-              href={`/actividades/#mapa&region=${encodeURIComponent(destCommunity)}`}
-              className="text-link"
-            >
-              Ver en el mapa interactivo →
-            </Link>
           </div>
           <div className="cards-grid">
             {sites.map((site) => (
-              <SiteCard key={site.id} site={site} />
+              <SiteCard key={site.id} site={site} onDestinationPage />
             ))}
           </div>
         </div>
@@ -375,9 +383,7 @@ export default async function DestinationPage({ params }: Props) {
               {seoData.matchedCenters.map((center) => (
                 <article className="guide-card" key={center.slug}>
                   <span className="eyebrow">{center.location}</span>
-                  <h3>
-                    <Link href={`/centros/${center.slug}`}>{center.name}</Link>
-                  </h3>
+                  <h3>{center.name}</h3>
                   {center.rating && (
                     <p>
                       ★ {center.rating.value}/{center.rating.scale} ({center.rating.count} opiniones)
@@ -385,7 +391,7 @@ export default async function DestinationPage({ params }: Props) {
                   )}
                   <p>{center.services.slice(0, 3).join(" · ")}</p>
                   <Link href={`/centros/${center.slug}`} className="text-link">
-                    Ver ficha de la escuela y sus ofertas →
+                    Ver escuela {center.name} y sus ofertas →
                   </Link>
                 </article>
               ))}
@@ -427,19 +433,14 @@ export default async function DestinationPage({ params }: Props) {
                 <span className="eyebrow">EXPLORA LA REGIÓN</span>
                 <h2>Otras zonas de buceo en {destCommunity}</h2>
               </div>
-              <Link href="/destinos" className="text-link">
-                Ver los {destinations.length} destinos de España →
-              </Link>
             </div>
             <div className="guide-grid">
               {relatedDestinations.map((rel) => (
                 <article className="guide-card" key={rel.slug}>
                   <span className="eyebrow">
-                    {rel.region} · {rel.sites} puntos
+                    {rel.region} · {rel.sites} {rel.sites === 1 ? "punto" : "puntos"}
                   </span>
-                  <h3>
-                    <Link href={`/buceo/${rel.slug}`}>Buceo en {rel.name}</Link>
-                  </h3>
+                  <h3>Buceo en {rel.name}</h3>
                   <p>Especies habituales: {rel.animals.slice(0, 4).join(", ")}.</p>
                   <Link href={`/buceo/${rel.slug}`} className="text-link">
                     Ver guía y precios en {rel.name} →
@@ -454,7 +455,11 @@ export default async function DestinationPage({ params }: Props) {
       {seoData.featuredActivities.length > 0 && (
         <div className="mobile-sticky-booking" role="region" aria-label="Ofertas en este destino">
           <div className="mobile-sticky-booking-price">
-            <small>{seoData.totalCount} actividades en {destination.name}</small>
+            <small>
+              {seoData.totalCount === 1
+                ? `1 actividad en ${destination.name}`
+                : `${seoData.totalCount} actividades en ${destination.name}`}
+            </small>
             <strong>{seoData.lowestPrice ? `Desde ${seoData.lowestPrice} €` : "Ver disponibilidad"}</strong>
           </div>
           <a href="#actividades" className="button button-primary mobile-sticky-booking-btn">

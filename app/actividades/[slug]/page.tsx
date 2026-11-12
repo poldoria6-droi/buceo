@@ -64,9 +64,18 @@ export async function generateMetadata({ params }: Props) {
   const priceSnippet = lowest ? ` desde ${formatOfferPrice(lowest)}` : "";
   const isDuplicatedTitle = titleCounts[activity.title] > 1;
   const uniqueTitle = isDuplicatedTitle ? `${activity.title} (ref. ${activity.id})` : activity.title;
+  const hasRealDuration =
+    Boolean(activity.duration) &&
+    !["consultar disponibilidad", "según formación", "según inmersión", "actividad de iniciación"].includes(
+      activity.duration.trim().toLowerCase()
+    );
+  const durationSnippet = hasRealDuration ? `, duración: ${activity.duration}` : "";
+  const pageTitle =
+    uniqueTitle.length > 42 ? uniqueTitle : `${uniqueTitle} · Precios y Reserva`;
+
   return {
-    title: `${uniqueTitle} · Precios y Reserva`,
-    description: `${activity.title} en ${activity.destination} (${activity.region}). Nivel: ${activity.level}, duración: ${activity.duration}. Precios${priceSnippet}, qué incluye y opciones de reserva online.${isDuplicatedTitle ? ` Ref. ${activity.id}.` : ""}`,
+    title: pageTitle,
+    description: `${activity.title} en ${activity.destination} (${activity.region}). Nivel: ${activity.level}${durationSnippet}. Precios${priceSnippet}, qué incluye y reserva online.${isDuplicatedTitle ? ` Ref. ${activity.id}.` : ""}`,
     alternates: {
       canonical: `/actividades/${slug}`,
     },
@@ -153,7 +162,7 @@ export default async function ActivityPage({ params }: Props) {
                 <span>por persona</span>
               </div>
             )}
-            <BookingOptions activity={activity} officialUrl={center?.officialUrl} />
+            <BookingOptions activity={activity} officialUrl={center?.officialUrl} placement="hero-cta" />
           </div>
         </div>
 
@@ -250,12 +259,9 @@ export default async function ActivityPage({ params }: Props) {
                 <div className="guide-grid">
                   {linkedSites.map((site) => (
                     <article className="guide-card" key={site.slug}>
-                      <span className="eyebrow">{site.region}</span>
+                      <span className="eyebrow">{site.region} · {site.depth}</span>
                       <h3>{site.name}</h3>
                       <p>{site.highlight}</p>
-                      <Link href={`/actividades/#mapa&site=${encodeURIComponent(site.slug)}`} className="text-link">
-                        Ver punto en el mapa →
-                      </Link>
                     </article>
                   ))}
                 </div>
@@ -275,7 +281,7 @@ export default async function ActivityPage({ params }: Props) {
                   {offers.map((offer) => (
                     <a
                       key={offer.id}
-                      href={buildAffiliateUrl(offer)}
+                      href={buildAffiliateUrl(offer, "bottom-cta")}
                       target="_blank"
                       rel="sponsored noopener noreferrer"
                       title={`Consultar fechas y reservar en ${offer.provider} (enlace de afiliado)`}
@@ -303,10 +309,7 @@ export default async function ActivityPage({ params }: Props) {
                         <Link href={`/actividades/${rel.slug}`}>{rel.title}</Link>
                       </h3>
                       <p>{buildActivityCardSummary(rel)}</p>
-                      <Link className="text-link" href={`/actividades/${rel.slug}`}>
-                        Ver detalles y qué incluye →
-                      </Link>
-                      <BookingOptions activity={rel} />
+                      <BookingOptions activity={rel} placement="related-card" />
                     </article>
                   ))}
                 </div>
@@ -319,10 +322,10 @@ export default async function ActivityPage({ params }: Props) {
                 <div className="guide-grid">
                   {matchedDestinations.map((dest) => (
                     <article className="guide-card" key={dest.slug}>
-                      <span className="eyebrow">{dest.region} · {dest.sites} puntos</span>
-                      <h3>
-                        <Link href={`/buceo/${dest.slug}`}>Buceo en {dest.name}</Link>
-                      </h3>
+                      <span className="eyebrow">
+                        {dest.region} · {dest.sites} {dest.sites === 1 ? "punto" : "puntos"}
+                      </span>
+                      <h3>Buceo en {dest.name}</h3>
                       <p>Especies habituales: {dest.animals.slice(0, 4).join(", ")}.</p>
                       <Link href={`/buceo/${dest.slug}`} className="text-link">
                         Ver guía de buceo y precios en {dest.name} →
@@ -353,9 +356,7 @@ export default async function ActivityPage({ params }: Props) {
                   {recommendedGuides.map((g) => (
                     <article className="guide-card" key={g.slug}>
                       <span className="eyebrow">{g.tag}</span>
-                      <h3>
-                        <Link href={`/guias/${g.slug}`}>{g.title}</Link>
-                      </h3>
+                      <h3>{g.title}</h3>
                       <p>{g.description}</p>
                       <Link href={`/guias/${g.slug}`} className="text-link">
                         {g.ctaLabel}
@@ -379,7 +380,7 @@ export default async function ActivityPage({ params }: Props) {
               <strong>{lowest ? `Desde ${formatOfferPrice(lowest)}` : "Consultar"}</strong>
             </div>
             <a
-              href={buildAffiliateUrl(lowest || offers[0])}
+              href={buildAffiliateUrl(lowest || offers[0], "sticky-cta")}
               target="_blank"
               rel="sponsored noopener noreferrer"
               title={`Consultar fechas y reservar en ${(lowest || offers[0]).provider} (enlace de afiliado)`}

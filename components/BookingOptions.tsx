@@ -1,7 +1,15 @@
 import type { Activity } from "@/data/types";
 import { buildAffiliateUrl, formatOfferPrice, getBookingOffers } from "@/lib/affiliate";
 
-export function BookingOptions({ activity, officialUrl }: { activity: Activity; officialUrl?: string }) {
+export function BookingOptions({
+  activity,
+  officialUrl,
+  placement = "button-cta",
+}: {
+  activity: Activity;
+  officialUrl?: string;
+  placement?: string;
+}) {
   const offers = getBookingOffers(activity);
   return (
     <div className="booking-options">
@@ -15,7 +23,7 @@ export function BookingOptions({ activity, officialUrl }: { activity: Activity; 
           </div>
           <a
             className="button button-primary booking-offer-cta"
-            href={buildAffiliateUrl(offer)}
+            href={buildAffiliateUrl(offer, placement)}
             target="_blank"
             rel="sponsored noopener noreferrer"
             title={`Consultar fechas y reservar en ${offer.provider} (enlace de afiliado)`}

@@ -26,12 +26,22 @@ export async function generateMetadata({ params }: Props) {
   const lowestOffer = getLowestPricedOffer(allOffers);
   const hasLocationInName = center.name.toLowerCase().includes(center.location.toLowerCase());
   const nameWithLoc = hasLocationInName ? center.name : `${center.name} (${center.location})`;
-  const priceTitle = lowestOffer ? ` · Precios desde ${formatOfferPrice(lowestOffer)}` : " · Cursos y Precios";
+  const priceTitle = lowestOffer ? ` · Desde ${formatOfferPrice(lowestOffer)}` : "";
   const priceDesc = lowestOffer ? ` desde ${formatOfferPrice(lowestOffer)}` : "";
+  const pageTitle =
+    nameWithLoc.length > 36
+      ? `${nameWithLoc} · Centro de Buceo`
+      : `${nameWithLoc} · Centro de Buceo${priceTitle}`;
+  const actSnippet =
+    activities.length === 1
+      ? `su actividad reservable${priceDesc}`
+      : activities.length > 1
+      ? `sus ${activities.length} actividades, bautismos y cursos${priceDesc}`
+      : "cursos, salidas de buceo y servicios";
 
   return {
-    title: `${nameWithLoc} · Centro de Buceo${priceTitle}`,
-    description: `Centro de buceo ${center.name} en ${center.location} (${center.region}). Consulta sus ${activities.length > 0 ? `${activities.length} actividades, bautismos y cursos${priceDesc}` : "cursos, salidas de buceo y servicios"}, opiniones y reserva online.`,
+    title: pageTitle,
+    description: `Centro de buceo ${center.name} en ${center.location} (${center.region}). Consulta ${actSnippet}, opiniones y reserva online.`,
     alternates: {
       canonical: `/centros/${slug}`,
     },
@@ -80,7 +90,13 @@ export default async function CenterPage({ params }: Props) {
         <p className="lead">{center.location}</p>
 
         <div className="activity-detail-badges" style={{ marginBottom: "1rem" }}>
-          {activities.length > 0 && <span>{activities.length} experiencias reservables</span>}
+          {activities.length > 0 && (
+            <span>
+              {activities.length === 1
+                ? "1 experiencia reservable"
+                : `${activities.length} experiencias reservables`}
+            </span>
+          )}
           {lowestOffer && <span className="price-badge">Desde {formatOfferPrice(lowestOffer)}</span>}
           {center.rating && (
             <span>
@@ -92,7 +108,9 @@ export default async function CenterPage({ params }: Props) {
         <p>{center.description}</p>
         {activities.length > 0 && (
           <a className="button button-primary" href="#actividades">
-            Ver sus {activities.length} actividades y precios ↓
+            {activities.length === 1
+              ? "Ver su actividad y precio ↓"
+              : `Ver sus ${activities.length} actividades y precios ↓`}
           </a>
         )}
 
@@ -109,12 +127,9 @@ export default async function CenterPage({ params }: Props) {
             <div className="guide-grid">
               {sites.map((site) => (
                 <article className="guide-card" key={site.slug}>
-                  <span className="eyebrow">{site.region}</span>
+                  <span className="eyebrow">{site.region} · {site.depth}</span>
                   <h3>{site.name}</h3>
                   <p>{site.highlight}</p>
-                  <Link href={`/actividades/#mapa&site=${encodeURIComponent(site.slug)}`} className="text-link">
-                    Ver punto en el mapa →
-                  </Link>
                 </article>
               ))}
             </div>
@@ -131,10 +146,7 @@ export default async function CenterPage({ params }: Props) {
                   <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                 </h3>
                 <p>{buildActivityCardSummary(activity)}</p>
-                <Link className="text-link" href={`/actividades/${activity.slug}`}>
-                  Ver ficha de la actividad →
-                </Link>
-                <BookingOptions activity={activity} officialUrl={center.officialUrl} />
+                <BookingOptions activity={activity} officialUrl={center.officialUrl} placement="center-card" />
               </article>
             ))}
           </div>
@@ -157,10 +169,10 @@ export default async function CenterPage({ params }: Props) {
             <div className="guide-grid">
               {matchedDestinations.map((dest) => (
                 <article className="guide-card" key={dest.slug}>
-                  <span className="eyebrow">{dest.region} · {dest.sites} puntos</span>
-                  <h3>
-                    <Link href={`/buceo/${dest.slug}`}>Buceo en {dest.name}</Link>
-                  </h3>
+                  <span className="eyebrow">
+                    {dest.region} · {dest.sites} {dest.sites === 1 ? "punto" : "puntos"}
+                  </span>
+                  <h3>Buceo en {dest.name}</h3>
                   <p>Especies habituales: {dest.animals.slice(0, 4).join(", ")}.</p>
                   <Link href={`/buceo/${dest.slug}`} className="text-link">
                     Ver guía y precios en {dest.name} →
@@ -178,12 +190,10 @@ export default async function CenterPage({ params }: Props) {
               {relatedCenters.map((rel) => (
                 <article className="guide-card" key={rel.slug}>
                   <span className="eyebrow">{rel.location} · {rel.region}</span>
-                  <h3>
-                    <Link href={`/centros/${rel.slug}`}>{rel.name}</Link>
-                  </h3>
+                  <h3>{rel.name}</h3>
                   <p>{rel.services.slice(0, 3).join(" · ")}</p>
                   <Link href={`/centros/${rel.slug}`} className="text-link">
-                    Ver escuela y actividades →
+                    Ver escuela {rel.name} →
                   </Link>
                 </article>
               ))}
@@ -194,7 +204,11 @@ export default async function CenterPage({ params }: Props) {
         {activities.length > 0 && (
           <div className="mobile-sticky-booking" role="region" aria-label="Ofertas de esta escuela en móvil">
             <div className="mobile-sticky-booking-price">
-              <small>{activities.length} experiencias en {center.name}</small>
+              <small>
+                {activities.length === 1
+                  ? `1 experiencia en ${center.name}`
+                  : `${activities.length} experiencias en ${center.name}`}
+              </small>
               <strong>{lowestOffer ? `Desde ${formatOfferPrice(lowestOffer)}` : "Ver precios"}</strong>
             </div>
             <a href="#actividades" className="button button-primary mobile-sticky-booking-btn">

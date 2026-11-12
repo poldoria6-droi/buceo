@@ -1,16 +1,20 @@
 import Link from "next/link";
 import type { DiveSite } from "@/data/dive-sites";
 
-export function SiteCard({ site }: { site: DiveSite }) {
+export function SiteCard({
+  site,
+  onDestinationPage = false,
+}: {
+  site: DiveSite;
+  onDestinationPage?: boolean;
+}) {
   return (
     <article className="site-card">
       <div className="site-card-top">
         <span className="eyebrow">{site.region}</span>
         <span className="pill">{site.level}</span>
       </div>
-      <h3>
-        <Link href={`/buceo/${site.destinationSlug}`}>{site.name}</Link>
-      </h3>
+      <h3>{site.name}</h3>
       <p>{site.highlight}</p>
       <div className="site-meta">
         <span>{site.type}</span>
@@ -21,14 +25,13 @@ export function SiteCard({ site }: { site: DiveSite }) {
           <span key={animal}>{animal}</span>
         ))}
       </div>
-      <div className="card-actions" style={{ justifyContent: "space-between" }}>
-        <Link href={`/buceo/${site.destinationSlug}`} className="text-link">
-          Buceo en {site.destination} →
-        </Link>
-        <Link href={`/actividades/#site=${encodeURIComponent(site.slug)}`} className="text-link">
-          Ofertas en la zona →
-        </Link>
-      </div>
+      {!onDestinationPage && (
+        <div className="card-actions" style={{ justifyContent: "space-between" }}>
+          <Link href={`/buceo/${site.destinationSlug}`} className="text-link">
+            Buceo en {site.destination} →
+          </Link>
+        </div>
+      )}
     </article>
   );
 }

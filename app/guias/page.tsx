@@ -32,9 +32,7 @@ export default function GuidesPage() {
           {guides.map((g) => (
             <article className="guide-card" key={g.slug}>
               <span className="eyebrow">{g.tag}</span>
-              <h2>
-                <Link href={`/guias/${g.slug}`}>{g.title}</Link>
-              </h2>
+              <h2>{g.title}</h2>
               <p>{g.description}</p>
               <Link href={`/guias/${g.slug}`} className="text-link">
                 {g.ctaLabel}
@@ -49,7 +47,7 @@ export default function GuidesPage() {
               <span className="eyebrow">DEL ARTÍCULO AL AGUA</span>
               <h2>¿Listo para comparar opciones reales?</h2>
               <p>
-                Explora bautismos, cursos e inmersiones por destino o consulta nuestro directorio de más de 170 escuelas en España.
+                Explora bautismos, cursos e inmersiones por destino o consulta nuestro directorio de más de 210 escuelas en España.
               </p>
             </div>
             <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>

@@ -4943,7 +4943,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",
     "checkedAt": "2026-10-04"
   },
-  "batizo-de-bceo-en-granada-horas-219": {
+  "bautizo-de-buceo-en-granada-2-horas-219": {
     "summary": "Experiencia «Bautizo de Buceo en Granada 2 horas» organizada por Buceo Marina. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -4966,7 +4966,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-en-granada-2-horas--o36122",
     "checkedAt": "2026-10-04"
   },
-  "crso-padi-open-water-diver-en-granada-222": {
+  "curso-padi-open-water-diver-en-granada-222": {
     "summary": "Experiencia «Curso PADI Open Water Diver en Granada» organizada por Buceo Marina. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -4990,7 +4990,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-padi-open-water-diver-en-granada--o36123",
     "checkedAt": "2026-10-04"
   },
-  "crso-de-bceo-padi-scba-diver-granada-224": {
+  "curso-de-buceo-padi-scuba-diver-granada-224": {
     "summary": "Experiencia «Curso de Buceo PADI Scuba Diver Granada» organizada por Buceo Marina. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5013,7 +5013,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-scuba-diver-granada--o36125",
     "checkedAt": "2026-10-04"
   },
-  "batizo-de-bceo-personalizado-marina-del-este-h-220": {
+  "bautizo-de-buceo-personalizado-marina-del-este-2h-220": {
     "summary": "Experiencia «Bautizo de buceo personalizado Marina del Este, 2h» organizada por Buceo Aqualia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5032,7 +5032,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautismo-de-buceo-personalizado-en-la-herradura--o16443",
     "checkedAt": "2026-10-04"
   },
-  "padi-advanced-open-water-la-herradra-225": {
+  "padi-advanced-open-water-la-herradura-225": {
     "summary": "Experiencia «PADI Advanced Open Water, La Herradura» organizada por Buceo Aqualia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5051,7 +5051,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/padi-advanced-open-water-la-herradura--o16459",
     "checkedAt": "2026-10-04"
   },
-  "crso-de-bceo-padi-resce-diver-en-la-herradra-226": {
+  "curso-de-buceo-padi-rescue-diver-en-la-herradura-226": {
     "summary": "Experiencia «Curso de buceo PADI Rescue Diver en La Herradura» organizada por Buceo Aqualia. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5068,7 +5068,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-de-buceo-padi-rescue-diver-en-la-herradura--o16465",
     "checkedAt": "2026-10-04"
   },
-  "batizo-de-bceo-para-parejas-en-la-herradra-h-221": {
+  "bautizo-de-buceo-para-parejas-en-la-herradura-5h-221": {
     "summary": "Experiencia «Bautizo de buceo para parejas en La Herradura 5h» organizada por Molamola Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
@@ -5089,7 +5089,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/bautizo-de-buceo-para-parejas-en-la-herradura-5h--o60978",
     "checkedAt": "2026-10-04"
   },
-  "crso-open-water-de-bceo-la-herradra-223": {
+  "curso-open-water-de-buceo-la-herradura-223": {
     "summary": "Experiencia «Curso Open Water de buceo La Herradura» organizada por Molamola Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
@@ -5112,7 +5112,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/granada/curso-open-water-de-buceo-la-herradura--o62206",
     "checkedAt": "2026-10-04"
   },
-  "inmersio-n-con-eqipo-en-la-herradra-horas-227": {
+  "inmersion-con-equipo-en-la-herradura-4-horas-227": {
     "summary": "Experiencia «Inmersión con equipo en La Herradura 4 horas» organizada por Molamola Dive. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5182,7 +5182,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/bautizo-de-buceo-en-malaga-para-grupos--o59347",
     "checkedAt": "2026-10-04"
   },
-  "crso-advanced-open-water-diver-o-di-as-nerja-228": {
+  "curso-advanced-open-water-diver-2-o-3-dias-nerja-228": {
     "summary": "Experiencia «Curso Advanced Open Water Diver 2 o 3 días Nerja» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5208,7 +5208,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/curso-advanced-open-water-diver-2-o-3-dias-nerja--o62513",
     "checkedAt": "2026-10-04"
   },
-  "padi-open-water-diver-en-nerja-drante-di-as-229": {
+  "padi-open-water-diver-en-nerja-durante-4-dias-229": {
     "summary": "Experiencia «PADI Open Water Diver en Nerja durante 4 días» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Cobertura de seguro (consultar condiciones)",
@@ -5234,7 +5234,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/padi-open-water-diver-en-nerja-durante-4-dias--o62519",
     "checkedAt": "2026-10-04"
   },
-  "crso-discover-scba-desde-barco-en-costa-de-nerja-230": {
+  "curso-discover-scuba-desde-barco-en-costa-de-nerja-230": {
     "summary": "Experiencia «Curso Discover Scuba desde barco en costa de Nerja» organizada por Buceo Costa Nerja. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [],
     "excluded": [],
@@ -5320,7 +5320,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/malaga/snorkel-en-los-acantilados-de-maro-cerro-gordo--o62521",
     "checkedAt": "2026-10-04"
   },
-  "batismo-de-bceo-en-cabo-de-gata-233": {
+  "bautismo-de-buceo-en-cabo-de-gata-233": {
     "summary": "Experiencia «Bautismo de buceo en Cabo de Gata» organizada por Isub San Jose. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5343,7 +5343,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata--o26563",
     "checkedAt": "2026-10-04"
   },
-  "batizo-de-bceo-en-cabo-de-gata-h-234": {
+  "bautizo-de-buceo-en-cabo-de-gata-3h-234": {
     "summary": "Experiencia «Bautizo de buceo en Cabo de Gata, 3h» organizada por Isub San Jose. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5389,7 +5389,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-en-san-jose--o28185",
     "checkedAt": "2026-10-04"
   },
-  "crso-open-water-en-cabo-de-gata-235": {
+  "curso-open-water-en-cabo-de-gata-235": {
     "summary": "Experiencia «Curso OPEN WATER en Cabo de Gata» organizada por Sea&Sun Diving-Sport. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Material para la actividad (consultar componentes)",
@@ -5415,7 +5415,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-en-cabo-de-gata--o59202",
     "checkedAt": "2026-10-04"
   },
-  "crso-open-water-diver-en-cabo-de-gata-di-as-236": {
+  "curso-open-water-diver-en-cabo-de-gata-4-dias-236": {
     "summary": "Experiencia «Curso Open Water Diver en Cabo de Gata 4 días» organizada por Buceo Las Negras. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5442,7 +5442,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-cabo-de-gata-3-dias--o68413",
     "checkedAt": "2026-10-04"
   },
-  "batismo-de-bceo-en-roqetas-de-mar-237": {
+  "bautismo-de-buceo-en-roquetas-de-mar-237": {
     "summary": "Experiencia «Bautismo de buceo en Roquetas de Mar» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5465,7 +5465,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-roquetas-de-mar--o20488",
     "checkedAt": "2026-10-04"
   },
-  "padi-advanced-open-water-diver-en-roqetas-de-mar-238": {
+  "padi-advanced-open-water-diver-en-roquetas-de-mar-238": {
     "summary": "Experiencia «PADI Advanced Open Water Diver en Roquetas de Mar» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad"
@@ -5485,7 +5485,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/padi-advanced-open-water-diver-en-roquetas-de-mar--o27804",
     "checkedAt": "2026-10-04"
   },
-  "crso-open-water-diver-en-roqetas-de-mar-239": {
+  "curso-open-water-diver-en-roquetas-de-mar-239": {
     "summary": "Experiencia «Curso Open Water Diver en Roquetas de Mar» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5510,7 +5510,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/curso-open-water-diver-en-roquetas-de-mar--o27803",
     "checkedAt": "2026-10-04"
   },
-  "batismo-sbmarino-perto-de-agadlce-y-vi-deos-h-240": {
+  "bautismo-submarino-puerto-de-aguadulce-y-videos-2h-240": {
     "summary": "Experiencia «Bautismo submarino Puerto de Aguadulce y vídeos 2h» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5533,7 +5533,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-submarino-en-aguadulce-y-fotos--o37116",
     "checkedAt": "2026-10-04"
   },
-  "batismo-de-bceo-para-parejas-en-agadlce-241": {
+  "bautismo-de-buceo-para-parejas-en-aguadulce-241": {
     "summary": "Experiencia «Bautismo de buceo para parejas en Aguadulce» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5548,7 +5548,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-para-parejas-en-aguadulce--o20493",
     "checkedAt": "2026-10-04"
   },
-  "batizo-de-bceo-para-nin-os-agadlce-desde-an-os-242": {
+  "bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos-242": {
     "summary": "Experiencia «Bautizo de buceo para niños Aguadulce desde 8 años» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",
@@ -5565,7 +5565,7 @@ export const activityDetails: Record<string,VerifiedActivityDetail> = {
     "sourceUrl": "https://www.yumping.com/ofertas/buceo/almeria/bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos--o37277",
     "checkedAt": "2026-10-04"
   },
-  "crso-advanced-open-water-perto-agadlce-di-as-243": {
+  "curso-advanced-open-water-puerto-aguadulce-5-dias-243": {
     "summary": "Experiencia «Curso Advanced Open Water, Puerto Aguadulce 5 días» organizada por Buceo Aguadulce Roquetas. Incluye supervisión profesional y los servicios detallados en la ficha, con selección de fecha y reserva online directa.",
     "included": [
       "Acompañamiento de personal de la actividad",

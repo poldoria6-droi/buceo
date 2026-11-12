@@ -10,7 +10,7 @@ export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL;
-  const staticDate = new Date("2026-10-18");
+  const staticDate = new Date("2026-11-12");
 
   return [
     { url: `${base}/`, lastModified: staticDate, changeFrequency: "weekly", priority: 1.0 },
@@ -36,13 +36,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...centers.map((center) => ({
       url: `${base}/centros/${center.slug}/`,
-      lastModified: new Date(center.checkedAt || "2026-10-04"),
+      lastModified: staticDate,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
     ...species.map((item) => ({
       url: `${base}/fauna/${item.slug}/`,
-      lastModified: new Date(item.checkedAt || "2026-10-18"),
+      lastModified: staticDate,
       changeFrequency: "monthly" as const,
       priority: 0.75,
     })),

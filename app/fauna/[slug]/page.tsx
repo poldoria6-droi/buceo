@@ -20,9 +20,17 @@ export async function generateMetadata({ params }: Props) {
   const s = species.find((x) => x.slug === slug);
   if (!s) return {};
 
+  const prefix = `${s.name} (${s.scientificName}): `;
+  const suffix = " Hábitat y dónde verlo buceando en España.";
+  const maxBodyLen = Math.max(50, 155 - prefix.length - suffix.length);
+  const shortBody =
+    s.description.length > maxBodyLen
+      ? `${s.description.slice(0, maxBodyLen - 1).replace(/\s+\S*$/, "")}…`
+      : s.description;
+
   return {
     title: `${s.name} (${s.scientificName}) · Fauna Marina`,
-    description: `${s.description} Conoce su hábitat, alimentación, comportamiento y observación durante el buceo en España.`,
+    description: `${prefix}${shortBody}${suffix}`,
     alternates: {
       canonical: `/fauna/${slug}`,
     },
@@ -164,13 +172,10 @@ export default async function SpeciesPage({ params }: Props) {
                     <h3>{o.name}</h3>
                     <p>{o.note}</p>
                     {matchedDest && (
-                      <Link href={`/buceo/${matchedDest.slug}`} className="text-link" style={{ marginBottom: "0.4rem" }}>
+                      <Link href={`/buceo/${matchedDest.slug}`} className="text-link">
                         Guía de buceo en {matchedDest.name} →
                       </Link>
                     )}
-                    <Link href={`/actividades/#mapa&species=${s.slug}`} className="text-link">
-                      Ver zona en el mapa interactivo →
-                    </Link>
                   </article>
                 );
               })}
@@ -191,10 +196,7 @@ export default async function SpeciesPage({ params }: Props) {
                     <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
                   </h3>
                   <p>{buildActivityCardSummary(activity)}</p>
-                  <Link className="text-link" href={`/actividades/${activity.slug}`}>
-                    Ver ficha de la actividad →
-                  </Link>
-                  <BookingOptions activity={activity} />
+                  <BookingOptions activity={activity} placement="species-card" />
                 </article>
               ))}
             </div>
@@ -211,14 +213,9 @@ export default async function SpeciesPage({ params }: Props) {
               </p>
             </div>
             <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-              <Link className="button button-primary" href="/actividades">
-                Explorar actividades →
+              <Link className="button button-primary" href={`/actividades/#mapa&species=${s.slug}`}>
+                Ver zonas en el mapa interactivo →
               </Link>
-              {s.occurrences.length > 0 && (
-                <Link className="button button-ghost" href={`/actividades/#mapa&species=${s.slug}`}>
-                  Ver en el mapa
-                </Link>
-              )}
               <Link className="button button-ghost" href="/centros">
                 Ver escuelas
               </Link>

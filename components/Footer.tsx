@@ -41,30 +41,18 @@ export function Footer() {
           <Link href="/aviso-legal">Aviso Legal</Link>
           <Link href="/privacidad">Política de Privacidad y Cookies</Link>
           <Link href="/afiliados">Política de Afiliación y Transparencia</Link>
-          <a href="mailto:contacto@buceoatlas.es">contacto@buceoatlas.es</a>
         </div>
       </div>
 
       <div className="container footer-transparency">
         <p>
-          <strong>Política de Afiliación y Transparencia:</strong> Algunos de los enlaces de esta web son de afiliación en colaboración con Yumping (Partner ID 3935). Si reservas a través de ellos, recibimos una comisión sin que a ti te cueste absolutamente nada más, garantizando la neutralidad de nuestras recomendaciones. Navegación anónima con uso exclusivo de cookies técnicas y de atribución.
+          <strong>Política de Afiliación y Transparencia:</strong> Algunos de los enlaces de esta web son de afiliación en colaboración con Yumping. Si reservas a través de ellos, recibimos una comisión sin que a ti te cueste absolutamente nada más, garantizando la neutralidad de nuestras recomendaciones. Navegación anónima con uso exclusivo de cookies técnicas y de atribución.
         </p>
       </div>
 
       <div className="container footer-bottom">
         <span>
-          © {new Date().getFullYear()} Buceo Atlas ·{" "}
-          <Link href="/aviso-legal" style={{ display: "inline", margin: 0, textDecoration: "underline" }}>
-            Aviso Legal
-          </Link>{" "}
-          ·{" "}
-          <Link href="/privacidad" style={{ display: "inline", margin: 0, textDecoration: "underline" }}>
-            Privacidad y Cookies
-          </Link>{" "}
-          ·{" "}
-          <Link href="/afiliados" style={{ display: "inline", margin: 0, textDecoration: "underline" }}>
-            Afiliación y Transparencia
-          </Link>
+          © {new Date().getFullYear()} Buceo Atlas · Guía y comparador independiente de buceo en España
         </span>
         <span>Cartografía © OpenStreetMap contributors</span>
       </div>

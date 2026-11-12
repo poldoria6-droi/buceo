@@ -14,76 +14,83 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
     destination:"Mallorca",region:"Baleares",slug:"bautismo-buceo-mallorca",
     type:"Bautismo",level:"Inicial",duration:"3–4 horas",audience:"Primera experiencia",
     tags:["Equipo incluido","Instructor","Barco","Islas Malgrats"],
-    bookingStatus:"Disponible",provider:"Civitatis",
-    providerUrl:"https://www.civitatis.com/es/santa-ponsa/bautismo-buceo-mallorca/",
-    sourceUrl:"https://www.civitatis.com/es/santa-ponsa/bautismo-buceo-mallorca/",
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-la-bahia-de-palma-3-o-4-hs--o52236",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-la-bahia-de-palma-3-o-4-hs--o52236",
+    offers:[{id:"yumping-o52236",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-la-bahia-de-palma-3-o-4-hs--o52236",sourceUrl:"https://www.yumping.com/ofertas/buceo/mallorca/bautismo-de-buceo-en-la-bahia-de-palma-3-o-4-hs--o52236",priceFrom:130,priceCurrency:"EUR",priceCheckedAt:"2026-11-12"}],
+    priceFrom:130,priceCurrency:"EUR",priceCheckedAt:"2026-11-12",
     rating:8.8,reviewCount:20,
-    included:["Recogida en hotel","Transporte en minibús y barco","Equipo de buceo completo","Instructores titulados","Seguro"],
-    cancellation:"Cancelación gratuita hasta 24 horas antes.",
-    minAge:9,
-    notes:"Actividad en Santa Ponsa, en el entorno de la Reserva Natural de las Islas Malgrats."
+    included:["Transporte en barco","Equipo de buceo completo","Instructores titulados","Seguro"],
+    cancellation:"Según condiciones del centro en Yumping.",
+    minAge:10,
+    notes:"Actividad en el suroeste de Mallorca y entorno de la Reserva Marina de las Islas Malgrats."
   },
   {
     id:102,siteSlugs:["costa-ciudadela"],
     title:"Bautismo de buceo en la costa de Ciudadela",
     destination:"Menorca",region:"Baleares",slug:"bautismo-buceo-ciudadela",
-    type:"Bautismo",level:"Inicial",duration:"2 h 30 min",audience:"Primera experiencia",
-    tags:["Equipo incluido","Playa","Instructor","40 min de inmersión"],
-    bookingStatus:"Disponible",provider:"Civitatis",
-    providerUrl:"https://www.civitatis.com/es/ciudadela/bautismo-buceo-menorca/",
-    sourceUrl:"https://www.civitatis.com/es/ciudadela/bautismo-buceo-menorca/",
+    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    tags:["Equipo incluido","Playa","Instructor","Ciutadella"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-en-playa-son-xoriguer-de-2-horas--o78828",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-en-playa-son-xoriguer-de-2-horas--o78828",
+    offers:[{id:"yumping-o78828",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-en-playa-son-xoriguer-de-2-horas--o78828",sourceUrl:"https://www.yumping.com/ofertas/buceo/menorca/bautismo-de-buceo-en-playa-son-xoriguer-de-2-horas--o78828",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-11-12"}],
+    priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-11-12",
     rating:9.4,reviewCount:213,maxDepth:"12 m",
-    included:["Instructor en español","Equipo de buceo"],
-    cancellation:"Cancelación gratuita hasta 24 horas antes.",
-    meetingPoint:"Carrer des Canal 421",
+    included:["Instructor en español","Equipo de buceo completo","Seguro"],
+    cancellation:"Según condiciones del centro en Yumping.",
     minAge:8,
-    notes:"Acceso desde playa y aproximadamente 40 minutos de inmersión, según consumo de aire."
+    notes:"Acceso progresivo en aguas tranquilas de la costa de Ciutadella de Menorca."
   },
   {
     id:103,siteSlugs:["las-galletas"],
     title:"Bautismo de buceo en Las Galletas",
     destination:"Tenerife",region:"Canarias",slug:"bautismo-buceo-las-galletas",
-    type:"Bautismo",level:"Inicial",duration:"1 h 30 min–3 horas",audience:"Primera experiencia",
-    tags:["Equipo incluido","Barco","Fotos","Diploma"],
-    bookingStatus:"Disponible",provider:"Civitatis",
-    providerUrl:"https://www.civitatis.com/es/las-galletas/bautismo-buceo-tenerife/",
-    sourceUrl:"https://www.civitatis.com/es/las-galletas/bautismo-buceo-tenerife/",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["Equipo incluido","Barco","Fotos","Sur de Tenerife"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-habitat-de-tortugas-tenerife--o18423",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-habitat-de-tortugas-tenerife--o18423",
+    offers:[{id:"yumping-o18423",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-habitat-de-tortugas-tenerife--o18423",sourceUrl:"https://www.yumping.com/ofertas/buceo/tenerife/bautismo-de-buceo-en-habitat-de-tortugas-tenerife--o18423",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-11-12"}],
+    priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-11-12",
     rating:9.7,reviewCount:150,maxDepth:"12 m",
-    included:["Instructor en español","Equipo completo de buceo","Explicación teórica","Inmersión de 25–45 min","Fotografías","Diploma"],
-    cancellation:"Cancelación gratuita hasta 24 horas antes.",
-    meetingPoint:"Puerto de Las Galletas",
+    included:["Instructor en español","Equipo completo de buceo","Explicación teórica","Inmersión guiada","Seguro"],
+    cancellation:"Según condiciones del centro en Yumping.",
     minAge:10,
-    notes:"Actividad desde el puerto de Las Galletas con salida en embarcación."
+    notes:"Bautismo de buceo en el sur de Tenerife en fondos volcánicos de aguas templadas."
   },
   {
     id:104,siteSlugs:["maspalomas-buceo"],
     title:"Bautismo de buceo en Gran Canaria",
     destination:"Gran Canaria",region:"Canarias",slug:"bautismo-buceo-gran-canaria",
-    type:"Bautismo",level:"Inicial",duration:"4 horas",audience:"Primera experiencia",
-    tags:["Equipo incluido","Recogida","Instructor","Atlántico"],
-    bookingStatus:"Disponible",provider:"Civitatis",
-    providerUrl:"https://www.civitatis.com/es/maspalomas/bautismo-buceo-gran-canaria/",
-    sourceUrl:"https://www.civitatis.com/es/maspalomas/bautismo-buceo-gran-canaria/",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
+    tags:["Equipo incluido","Instructor","Atlántico","Gran Canaria"],
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-la-costa-de-gran-canaria--o58995",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-la-costa-de-gran-canaria--o58995",
+    offers:[{id:"yumping-o58995",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-la-costa-de-gran-canaria--o58995",sourceUrl:"https://www.yumping.com/ofertas/buceo/gran-canaria/bautismo-de-buceo-en-la-costa-de-gran-canaria--o58995",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-11-12"}],
+    priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-11-12",
     rating:9.5,reviewCount:105,
-    included:["Recogida y traslado de regreso al hotel","Guía de habla española","Equipo y material de buceo","Seguro"],
-    cancellation:"Cancelación gratuita hasta 24 horas antes.",
-    meetingPoint:"Avenida de Italia, 2 (Playa del Inglés)",
+    included:["Guía e instructor en español","Equipo y material de buceo","Seguro"],
+    cancellation:"Según condiciones del centro en Yumping.",
     minAge:10,
-    notes:"No requiere experiencia previa; la actividad se realiza en el sur de Gran Canaria."
+    notes:"No requiere experiencia previa; bautismo guiado en la costa de Gran Canaria."
   },
   {
     id:105,siteSlugs:["isla-fraile"],
     title:"Bautismo de buceo en la isla del Fraile",
     destination:"Águilas",region:"Murcia",slug:"bautismo-buceo-isla-fraile",
-    type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
+    type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
     tags:["Principiantes","Mediterráneo","Fauna","Isla del Fraile"],
-    bookingStatus:"Disponible",provider:"Civitatis",
-    providerUrl:"https://www.civitatis.com/es/aguilas/bautismo-buceo-isla-fraile/",
-    sourceUrl:"https://www.civitatis.com/es/region-murcia/",
-    priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-09-30",
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",
+    offers:[{id:"yumping-o32148",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-desde-barco-en-mazarron--o32148",priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-11-12"}],
+    priceFrom:75,priceCurrency:"EUR",priceCheckedAt:"2026-11-12",
     rating:10,reviewCount:3,
-    cancellation:"Cancelación gratuita hasta 24 horas antes.",
-    notes:"La ficha pública consultada muestra un precio desde 90 €."
+    included:["Salida en barco","Equipo completo","Instructor","Seguro"],
+    cancellation:"Según condiciones del centro en Yumping.",
+    notes:"Bautismo de iniciación en el litoral sur de la Región de Murcia."
   },
   {
     id:106,siteSlugs:["isla-plana"],
@@ -91,27 +98,31 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
     destination:"Isla Plana",region:"Murcia",slug:"bautismo-buceo-isla-plana",
     type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Primera experiencia",
     tags:["Aguas tranquilas","Principiantes","Reserva Marina Cabo Tiñoso"],
-    bookingStatus:"Disponible",provider:"Civitatis",
-    providerUrl:"https://www.civitatis.com/es/isla-plana/bautismo-buceo-isla-plana/",
-    sourceUrl:"https://www.civitatis.com/es/isla-plana/",
-    priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-09-30",
-    cancellation:"Cancelación gratuita hasta 24 horas antes.",
-    notes:"La ficha pública consultada muestra un precio desde 100 €."
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",
+    offers:[{id:"yumping-o76694",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",sourceUrl:"https://www.yumping.com/ofertas/buceo/murcia/bautismo-de-buceo-en-cabo-tinoso-la-azohia-3h--o76694",priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-11-12"}],
+    priceFrom:80,priceCurrency:"EUR",priceCheckedAt:"2026-11-12",
+    included:["Equipo completo","Instructor","Inmersión en Cabo Tiñoso","Seguro"],
+    cancellation:"Según condiciones del centro en Yumping.",
+    notes:"Bautismo en el entorno de Isla Plana, La Azohía y la Reserva Marina de Cabo Tiñoso."
   },
   {
     id:107,siteSlugs:["las-negras"],
     title:"Bautismo de buceo en Las Negras",
     destination:"Cabo de Gata",region:"Andalucía",slug:"bautismo-buceo-las-negras",
-    type:"Bautismo",level:"Inicial",duration:"Actividad de iniciación",audience:"Primera experiencia",
+    type:"Bautismo",level:"Inicial",duration:"2–3 horas",audience:"Primera experiencia",
     tags:["Cabo de Gata","Instructor","Equipo","Hasta 12 m"],
-    bookingStatus:"Disponible",provider:"Civitatis",
-    providerUrl:"https://www.civitatis.com/es/negras/bautismo-buceo-las-negras/",
-    sourceUrl:"https://www.civitatis.com/es/negras/bautismo-buceo-las-negras/",
+    bookingStatus:"Disponible",provider:"Yumping",
+    providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",
+    offers:[{id:"yumping-o72522",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-11-12"}],
+    priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-11-12",
     maxDepth:"12 m",
-    cancellation:"Cancelación gratuita hasta 24 horas antes.",
+    included:["Teoría previa","Equipo de buceo completo","Instructor","Seguro"],
+    cancellation:"Según condiciones del centro en Yumping.",
     minAge:12,
-    meetingPoint:"Calle Pescador, Las Negras",
-    notes:"Actividad de iniciación con teoría previa y inmersión de hasta 12 m."
+    notes:"Actividad de iniciación con teoría previa e inmersión en Las Negras (Parque Natural Cabo de Gata-Níjar)."
   },
   {
     id:112,siteSlugs:["cala-montgo"],
@@ -988,9 +999,9 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
     type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Primera experiencia",
     tags:["Platja d'Aro","Bautismo","2 horas","Equipo"],
     bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",
-    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",
-    offers:[{id:"yumping-o60480",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-daro-2-horas--o60480",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-d-aro-2-horas--o62048",
+    sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-d-aro-2-horas--o62048",
+    offers:[{id:"yumping-o62048",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-d-aro-2-horas--o62048",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-platja-d-aro-2-horas--o62048",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     included:["Instructor","Equipo","Seguro"]
   },
   {
@@ -1479,7 +1490,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:219,siteSlugs:["la-herradura"],
     title:"Bautizo de Buceo en Granada 2 horas",
-    destination:"La Herradura",region:"Andalucía",slug:"batizo-de-bceo-en-granada-horas-219",
+    destination:"La Herradura",region:"Andalucía",slug:"bautizo-de-buceo-en-granada-2-horas-219",
     type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1491,7 +1502,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:220,siteSlugs:["la-herradura"],
     title:"Bautizo de buceo personalizado Marina del Este, 2h",
-    destination:"La Herradura",region:"Andalucía",slug:"batizo-de-bceo-personalizado-marina-del-este-h-220",
+    destination:"La Herradura",region:"Andalucía",slug:"bautizo-de-buceo-personalizado-marina-del-este-2h-220",
     type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1503,7 +1514,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:221,siteSlugs:["la-herradura"],
     title:"Bautizo de buceo para parejas en La Herradura 5h",
-    destination:"La Herradura",region:"Andalucía",slug:"batizo-de-bceo-para-parejas-en-la-herradra-h-221",
+    destination:"La Herradura",region:"Andalucía",slug:"bautizo-de-buceo-para-parejas-en-la-herradura-5h-221",
     type:"Bautismo",level:"Inicial",duration:"5 horas",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1515,7 +1526,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:222,siteSlugs:["la-herradura"],
     title:"Curso PADI Open Water Diver en Granada",
-    destination:"La Herradura",region:"Andalucía",slug:"crso-padi-open-water-diver-en-granada-222",
+    destination:"La Herradura",region:"Andalucía",slug:"curso-padi-open-water-diver-en-granada-222",
     type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1527,7 +1538,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:223,siteSlugs:["la-herradura"],
     title:"Curso Open Water de buceo La Herradura",
-    destination:"La Herradura",region:"Andalucía",slug:"crso-open-water-de-bceo-la-herradra-223",
+    destination:"La Herradura",region:"Andalucía",slug:"curso-open-water-de-buceo-la-herradura-223",
     type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1539,7 +1550,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:224,siteSlugs:["la-herradura"],
     title:"Curso de Buceo PADI Scuba Diver Granada",
-    destination:"La Herradura",region:"Andalucía",slug:"crso-de-bceo-padi-scba-diver-granada-224",
+    destination:"La Herradura",region:"Andalucía",slug:"curso-de-buceo-padi-scuba-diver-granada-224",
     type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1551,7 +1562,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:225,siteSlugs:["la-herradura"],
     title:"PADI Advanced Open Water, La Herradura",
-    destination:"La Herradura",region:"Andalucía",slug:"padi-advanced-open-water-la-herradra-225",
+    destination:"La Herradura",region:"Andalucía",slug:"padi-advanced-open-water-la-herradura-225",
     type:"Curso",level:"Avanzado",duration:"Según formación",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1563,7 +1574,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:226,siteSlugs:["la-herradura"],
     title:"Curso de buceo PADI Rescue Diver en La Herradura",
-    destination:"La Herradura",region:"Andalucía",slug:"crso-de-bceo-padi-resce-diver-en-la-herradra-226",
+    destination:"La Herradura",region:"Andalucía",slug:"curso-de-buceo-padi-rescue-diver-en-la-herradura-226",
     type:"Curso",level:"Avanzado",duration:"Según formación",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1575,7 +1586,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:227,siteSlugs:["la-herradura"],
     title:"Inmersión con equipo en La Herradura 4 horas",
-    destination:"La Herradura",region:"Andalucía",slug:"inmersio-n-con-eqipo-en-la-herradra-horas-227",
+    destination:"La Herradura",region:"Andalucía",slug:"inmersion-con-equipo-en-la-herradura-4-horas-227",
     type:"Fun Dive",level:"Intermedio",duration:"4–5 horas",audience:"Personas interesadas en fun dive en Andalucía",
     tags:["Buceo","Andalucía","Yumping","La Herradura"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1587,7 +1598,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:228,siteSlugs:["nerja"],
     title:"Curso Advanced Open Water Diver 2 o 3 días Nerja",
-    destination:"Nerja",region:"Andalucía",slug:"crso-advanced-open-water-diver-o-di-as-nerja-228",
+    destination:"Nerja",region:"Andalucía",slug:"curso-advanced-open-water-diver-2-o-3-dias-nerja-228",
     type:"Curso",level:"Avanzado",duration:"2–3 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Nerja"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1599,7 +1610,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:229,siteSlugs:["nerja"],
     title:"PADI Open Water Diver en Nerja durante 4 días",
-    destination:"Nerja",region:"Andalucía",slug:"padi-open-water-diver-en-nerja-drante-di-as-229",
+    destination:"Nerja",region:"Andalucía",slug:"padi-open-water-diver-en-nerja-durante-4-dias-229",
     type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Nerja"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1611,7 +1622,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:230,siteSlugs:["nerja"],
     title:"Curso Discover Scuba desde barco en costa de Nerja",
-    destination:"Nerja",region:"Andalucía",slug:"crso-discover-scba-desde-barco-en-costa-de-nerja-230",
+    destination:"Nerja",region:"Andalucía",slug:"curso-discover-scuba-desde-barco-en-costa-de-nerja-230",
     type:"Bautismo",level:"Inicial",duration:"4 horas",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Nerja"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1636,7 +1647,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:233,siteSlugs:["arrecife-sirenas"],
     title:"Bautismo de buceo en Cabo de Gata",
-    destination:"Cabo de Gata",region:"Andalucía",slug:"batismo-de-bceo-en-cabo-de-gata-233",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"bautismo-de-buceo-en-cabo-de-gata-233",
     type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Cabo de Gata"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1648,7 +1659,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:234,siteSlugs:["arrecife-sirenas"],
     title:"Bautizo de buceo en Cabo de Gata, 3h",
-    destination:"Cabo de Gata",region:"Andalucía",slug:"batizo-de-bceo-en-cabo-de-gata-h-234",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"bautizo-de-buceo-en-cabo-de-gata-3h-234",
     type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Cabo de Gata"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1660,7 +1671,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:235,siteSlugs:["arrecife-sirenas"],
     title:"Curso OPEN WATER en Cabo de Gata",
-    destination:"Cabo de Gata",region:"Andalucía",slug:"crso-open-water-en-cabo-de-gata-235",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"curso-open-water-en-cabo-de-gata-235",
     type:"Curso",level:"Inicial",duration:"2–3 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Cabo de Gata"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1672,7 +1683,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:236,siteSlugs:["arrecife-sirenas"],
     title:"Curso Open Water Diver en Cabo de Gata 4 días",
-    destination:"Cabo de Gata",region:"Andalucía",slug:"crso-open-water-diver-en-cabo-de-gata-di-as-236",
+    destination:"Cabo de Gata",region:"Andalucía",slug:"curso-open-water-diver-en-cabo-de-gata-4-dias-236",
     type:"Curso",level:"Inicial",duration:"4 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Cabo de Gata"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1684,7 +1695,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:237,siteSlugs:["roquetas-de-mar"],
     title:"Bautismo de buceo en Roquetas de Mar",
-    destination:"Roquetas de Mar",region:"Andalucía",slug:"batismo-de-bceo-en-roqetas-de-mar-237",
+    destination:"Roquetas de Mar",region:"Andalucía",slug:"bautismo-de-buceo-en-roquetas-de-mar-237",
     type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Roquetas de Mar"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1696,7 +1707,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:238,siteSlugs:["roquetas-de-mar"],
     title:"PADI Advanced Open Water Diver en Roquetas de Mar",
-    destination:"Roquetas de Mar",region:"Andalucía",slug:"padi-advanced-open-water-diver-en-roqetas-de-mar-238",
+    destination:"Roquetas de Mar",region:"Andalucía",slug:"padi-advanced-open-water-diver-en-roquetas-de-mar-238",
     type:"Curso",level:"Avanzado",duration:"3–5 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Roquetas de Mar"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1708,7 +1719,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:239,siteSlugs:["roquetas-de-mar"],
     title:"Curso Open Water Diver en Roquetas de Mar",
-    destination:"Roquetas de Mar",region:"Andalucía",slug:"crso-open-water-diver-en-roqetas-de-mar-239",
+    destination:"Roquetas de Mar",region:"Andalucía",slug:"curso-open-water-diver-en-roquetas-de-mar-239",
     type:"Curso",level:"Inicial",duration:"4–5 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Roquetas de Mar"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1720,7 +1731,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:240,siteSlugs:["aguadulce"],
     title:"Bautismo submarino Puerto de Aguadulce y vídeos 2h",
-    destination:"Aguadulce",region:"Andalucía",slug:"batismo-sbmarino-perto-de-agadlce-y-vi-deos-h-240",
+    destination:"Aguadulce",region:"Andalucía",slug:"bautismo-submarino-puerto-de-aguadulce-y-videos-2h-240",
     type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Aguadulce"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1732,7 +1743,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:241,siteSlugs:["aguadulce"],
     title:"Bautismo de buceo para parejas en Aguadulce",
-    destination:"Aguadulce",region:"Andalucía",slug:"batismo-de-bceo-para-parejas-en-agadlce-241",
+    destination:"Aguadulce",region:"Andalucía",slug:"bautismo-de-buceo-para-parejas-en-aguadulce-241",
     type:"Bautismo",level:"Inicial",duration:"2h30",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Aguadulce"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1744,7 +1755,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:242,siteSlugs:["aguadulce"],
     title:"Bautizo de buceo para niños Aguadulce desde 8 años",
-    destination:"Aguadulce",region:"Andalucía",slug:"batizo-de-bceo-para-nin-os-agadlce-desde-an-os-242",
+    destination:"Aguadulce",region:"Andalucía",slug:"bautizo-de-buceo-para-ninos-aguadulce-desde-8-anos-242",
     type:"Bautismo",level:"Inicial",duration:"1 hora aprox.",audience:"Personas interesadas en bautismo en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Aguadulce"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -1756,7 +1767,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:243,siteSlugs:["aguadulce"],
     title:"Curso Advanced Open Water, Puerto Aguadulce 5 días",
-    destination:"Aguadulce",region:"Andalucía",slug:"crso-advanced-open-water-perto-agadlce-di-as-243",
+    destination:"Aguadulce",region:"Andalucía",slug:"curso-advanced-open-water-puerto-aguadulce-5-dias-243",
     type:"Curso",level:"Avanzado",duration:"3–5 días",audience:"Personas interesadas en curso en Andalucía",
     tags:["Buceo","Andalucía","Yumping","Aguadulce"],
     bookingStatus:"Disponible",provider:"Yumping",
@@ -2546,7 +2557,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
     title:"Sesión de snorkel isla de Arosa, jornada completa",destination:"Isla de Arousa",region:"Galicia",slug:"sesion-de-snorkel-isla-de-arosa-jornada-completa-325",
     type:"Snorkel",level:"Inicial",duration:"8 horas",audience:"Personas interesadas en snorkel en Isla de Arousa",
     tags:["Buceo","Yumping","Isla de Arousa"],bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837",sourceUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837",offers:[{id:"yumping-o19837",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837",sourceUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/sesion-de-snorkel-isla-de-arosa-jornada-completa--o19837",priceFrom:25,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    providerUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/excursion-de-snorkel-isla-de-arosa-media-jornada--o19836",sourceUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/excursion-de-snorkel-isla-de-arosa-media-jornada--o19836",offers:[{id:"yumping-o19836",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/pontevedra/excursion-de-snorkel-isla-de-arosa-media-jornada--o19836",sourceUrl:"https://www.yumping.com/ofertas/buceo/pontevedra/excursion-de-snorkel-isla-de-arosa-media-jornada--o19836",priceFrom:25,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     included:["Material de snorkel","Sesión guiada","Seguros"],notes:"Variante de jornada completa de la actividad de snorkel en la Isla de Arousa, con material y orientación para conocer los fondos del entorno del Islote de Areoso.",priceFrom:25,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
   {
@@ -3216,25 +3227,25 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {
     id:412,siteSlugs:["playa-blanca-lanzarote"],title:"Curso PADI Advanced Open Water en Lanzarote 2 días",destination:"Playa Blanca",region:"Canarias",slug:"curso-padi-advanced-open-water-en-lanzarote-2-dias-412",
     type:"Curso",level:"Avanzado",duration:"2 días",audience:"Personas interesadas en curso en Playa Blanca",tags:["Buceo","Canarias","Yumping","Playa Blanca"],bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279",offers:[{id:"yumping-o37279",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-padi-advanced-open-water-en-lanzarote-2-dias--o37279",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",offers:[{id:"yumping-o204",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-advanced-open-water-puerto-del-carmen--o204",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     maxDepth:"30 m",notes:"Curso PADI Advanced Open Water en Lanzarote. La ficha indica dos días de formación y cinco inmersiones de aventura.",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
   {
     id:413,siteSlugs:["puerto-del-carmen"],title:"PADI Open Water Diver en Lanzarote",destination:"Puerto del Carmen",region:"Canarias",slug:"padi-open-water-diver-en-lanzarote-413",
     type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Puerto del Carmen",tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203",offers:[{id:"yumping-o203",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/padi-open-water-diver-lanzarote--o203",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-open-water-diver-en-arrecife--o63612",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-open-water-diver-en-arrecife--o63612",offers:[{id:"yumping-o63612",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-open-water-diver-en-arrecife--o63612",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-open-water-diver-en-arrecife--o63612",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     notes:"Curso PADI Open Water Diver en Puerto del Carmen. Precio actual mostrado por Yumping: 450 €.",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
   {
     id:414,siteSlugs:["puerto-del-carmen"],title:"Snorkel Lanzarote 60 minutos",destination:"Puerto del Carmen",region:"Canarias",slug:"snorkel-lanzarote-60-minutos-414",
     type:"Snorkel",level:"Inicial",duration:"60 minutos",audience:"Personas interesadas en snorkel en Puerto del Carmen",tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275",offers:[{id:"yumping-o37275",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-lanzarote-60-minutos--o37275",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-en-puerto-del-carmen-desde-embarcacion--o22592",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-en-puerto-del-carmen-desde-embarcacion--o22592",offers:[{id:"yumping-o22592",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-en-puerto-del-carmen-desde-embarcacion--o22592",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/snorkel-en-puerto-del-carmen-desde-embarcacion--o22592",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     notes:"Actividad de snorkel de 60 minutos en Lanzarote. Precio actual mostrado por Yumping: 40 €.",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
   {
     id:415,siteSlugs:["puerto-del-carmen"],title:"Curso Nitrox en Lanzarote",destination:"Puerto del Carmen",region:"Canarias",slug:"curso-nitrox-en-lanzarote-415",
     type:"Curso",level:"Avanzado",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Puerto del Carmen",tags:["Buceo","Canarias","Yumping","Puerto del Carmen"],bookingStatus:"Disponible",provider:"Yumping",
-    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854",offers:[{id:"yumping-o33854",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-nitrox-en-lanzarote--o33854",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    providerUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-en-lanzarote-con-refresco--o43098",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-en-lanzarote-con-refresco--o43098",offers:[{id:"yumping-o43098",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-en-lanzarote-con-refresco--o43098",sourceUrl:"https://www.yumping.com/ofertas/buceo/lanzarote/curso-de-buceo-en-lanzarote-con-refresco--o43098",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     notes:"Curso de especialidad Nitrox en Lanzarote. Precio actual mostrado por Yumping: 120 €.",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"
   },
   {id:416,siteSlugs:[],title:"Inmersión de Buceo en Parque Natural Alto Tajo",destination:"Gargantilla de Lozoya",region:"Comunidad de Madrid",slug:"inmersion-de-buceo-en-parque-natural-alto-tajo-416",type:"Fun Dive",level:"Intermedio",duration:"45 min aprox.",audience:"Personas interesadas en fun dive en Gargantilla de Lozoya",tags:["Buceo","Madrid","Yumping","Gargantilla de Lozoya"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/madrid/inmersion-de-buceo-en-parque-natural-alto-tajo--o30366",sourceUrl:"https://www.yumping.com/ofertas/buceo/madrid/inmersion-de-buceo-en-parque-natural-alto-tajo--o30366",offers:[{id:"yumping-o30366",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/madrid/inmersion-de-buceo-en-parque-natural-alto-tajo--o30366",sourceUrl:"https://www.yumping.com/ofertas/buceo/madrid/inmersion-de-buceo-en-parque-natural-alto-tajo--o30366",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Inmersión para buceadores con titulación en el Parque Natural del Alto Tajo. La ficha de Yumping indica una duración aproximada de 45 minutos, condicionada por la duración de la botella.",priceFrom:40,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
@@ -3294,15 +3305,15 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {id:450,siteSlugs:[],title:"PADI Scuba Diver en Marbella",destination:"Marbella",region:"Andalucía",slug:"padi-scuba-diver-en-marbella-450",type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Marbella",tags:["Buceo","Yumping","Marbella"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-marbella--o30936",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-marbella--o30936",offers:[{id:"yumping-o30936",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-marbella--o30936",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-marbella--o30936",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"PADI Scuba Diver en Marbella\" en Marbella. Precio mostrado desde 420 €.",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:451,siteSlugs:[],title:"Curso PADI Open Water desde Torrox",destination:"Torrox",region:"Andalucía",slug:"curso-padi-open-water-desde-torrox-451",type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Torrox",tags:["Buceo","Yumping","Torrox"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-padi-open-water-desde-torrox--o30602",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-padi-open-water-desde-torrox--o30602",offers:[{id:"yumping-o30602",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/curso-padi-open-water-desde-torrox--o30602",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/curso-padi-open-water-desde-torrox--o30602",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Curso PADI Open Water desde Torrox\" en Torrox. Precio mostrado desde 390 €.",priceFrom:390,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:452,siteSlugs:[],title:"PADI Scuba Diver en Torrox",destination:"Torrox",region:"Andalucía",slug:"padi-scuba-diver-en-torrox-452",type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Torrox",tags:["Buceo","Yumping","Torrox"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-torrox--o30586",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-torrox--o30586",offers:[{id:"yumping-o30586",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-torrox--o30586",sourceUrl:"https://www.yumping.com/ofertas/buceo/malaga/padi-scuba-diver-en-torrox--o30586",priceFrom:300,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"PADI Scuba Diver en Torrox\" en Torrox. Precio mostrado desde 300 €.",priceFrom:300,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:453,siteSlugs:[],title:"Bautismo de buceo por Cabo de Gata-Níjar, 3 horas",destination:"La Isleta",region:"Andalucía",slug:"bautismo-de-buceo-por-cabo-de-gata-nijar-3-horas-453",type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en La Isleta",tags:["Buceo","Yumping","La Isleta"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-horas--o31018",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-horas--o31018",offers:[{id:"yumping-o453",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-horas--o31018",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-horas--o31018",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Bautismo de buceo por Cabo de Gata-Níjar, 3 horas\" en La Isleta. Precio mostrado desde 95 €.",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:454,siteSlugs:[],title:"Bautismo de buceo en Las Negras Cabo de Gata",destination:"Carboneras",region:"Andalucía",slug:"bautismo-de-buceo-en-las-negras-cabo-de-gata-454",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Carboneras",tags:["Buceo","Yumping","Carboneras"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o31017",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o31017",offers:[{id:"yumping-o454",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o31017",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o31017",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Bautismo de buceo en Las Negras Cabo de Gata\" en Carboneras. Precio mostrado desde 150 €.",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:455,siteSlugs:[],title:"Bautismo de buceo en Cabo de Gata Níjar 2 h",destination:"Níjar",region:"Andalucía",slug:"bautismo-de-buceo-en-cabo-de-gata-nijar-2-h-455",type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Níjar",tags:["Buceo","Yumping","Níjar"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o31016",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o31016",offers:[{id:"yumping-o455",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o31016",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o31016",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Bautismo de buceo en Cabo de Gata Níjar 2 h\" en Níjar. Precio mostrado desde 70 €.",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:456,siteSlugs:[],title:"Bautismo de buceo desde barco, Cala del Cuartel",destination:"San Juan de los Terreros",region:"Andalucía",slug:"bautismo-de-buceo-desde-barco-cala-del-cuartel-456",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en San Juan de los Terreros",tags:["Buceo","Yumping","San Juan de los Terreros"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-mar-en-almeria-2-horas--o31019",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-mar-en-almeria-2-horas--o31019",offers:[{id:"yumping-o31019",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-mar-en-almeria-2-horas--o31019",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-mar-en-almeria-2-horas--o31019",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Bautismo de buceo desde barco, Cala del Cuartel\" en San Juan de los Terreros. Precio mostrado desde 70 €.",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:453,siteSlugs:[],title:"Bautismo de buceo por Cabo de Gata-Níjar, 3 horas",destination:"La Isleta",region:"Andalucía",slug:"bautismo-de-buceo-por-cabo-de-gata-nijar-3-horas-453",type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en La Isleta",tags:["Buceo","Yumping","La Isleta"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-h--o59200",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-h--o59200",offers:[{id:"yumping-o453",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-h--o59200",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-3-h--o59200",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Bautismo de buceo por Cabo de Gata-Níjar, 3 horas\" en La Isleta. Precio mostrado desde 95 €.",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:454,siteSlugs:[],title:"Bautismo de buceo en Las Negras Cabo de Gata",destination:"Carboneras",region:"Andalucía",slug:"bautismo-de-buceo-en-las-negras-cabo-de-gata-454",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Carboneras",tags:["Buceo","Yumping","Carboneras"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",offers:[{id:"yumping-o454",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-las-negras-cabo-de-gata--o72522",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Bautismo de buceo en Las Negras Cabo de Gata\" en Carboneras. Precio mostrado desde 150 €.",priceFrom:150,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:455,siteSlugs:[],title:"Bautismo de buceo en Cabo de Gata Níjar 2 h",destination:"Níjar",region:"Andalucía",slug:"bautismo-de-buceo-en-cabo-de-gata-nijar-2-h-455",type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Níjar",tags:["Buceo","Yumping","Níjar"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o66202",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o66202",offers:[{id:"yumping-o455",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o66202",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-cabo-de-gata-nijar-2-h--o66202",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Bautismo de buceo en Cabo de Gata Níjar 2 h\" en Níjar. Precio mostrado desde 70 €.",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:456,siteSlugs:[],title:"Bautismo de buceo desde barco, Cala del Cuartel",destination:"San Juan de los Terreros",region:"Andalucía",slug:"bautismo-de-buceo-desde-barco-cala-del-cuartel-456",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en San Juan de los Terreros",tags:["Buceo","Yumping","San Juan de los Terreros"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-villaricos-por-1-hora--o65196",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-villaricos-por-1-hora--o65196",offers:[{id:"yumping-o65196",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-villaricos-por-1-hora--o65196",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-en-villaricos-por-1-hora--o65196",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Bautismo de buceo desde barco, Cala del Cuartel\" en San Juan de los Terreros. Precio mostrado desde 70 €.",priceFrom:70,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:457,siteSlugs:[],title:"Inmersión desde barco botella+carga, Isla Terreros",destination:"San Juan de los Terreros",region:"Andalucía",slug:"inmersion-desde-barco-botella-carga-isla-terreros-457",type:"Fun Dive",level:"Intermedio",duration:"Consultar disponibilidad",audience:"Personas interesadas en fun dive en San Juan de los Terreros",tags:["Buceo","Yumping","San Juan de los Terreros"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/inmersion-con-botella-mas-plomos-en-almeria--o31010",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/inmersion-con-botella-mas-plomos-en-almeria--o31010",offers:[{id:"yumping-o31010",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/inmersion-con-botella-mas-plomos-en-almeria--o31010",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/inmersion-con-botella-mas-plomos-en-almeria--o31010",priceFrom:38,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Inmersión desde barco botella+carga, Isla Terreros\" en San Juan de los Terreros. Precio mostrado desde 38 €.",priceFrom:38,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:458,siteSlugs:[],title:"Advanced Adventurer SSI en Puerto de las Águilas",destination:"San Juan de los Terreros",region:"Andalucía",slug:"advanced-adventurer-ssi-en-puerto-de-las-aguilas-458",type:"Curso",level:"Avanzado",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en San Juan de los Terreros",tags:["Buceo","Yumping","San Juan de los Terreros"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-padi-en-villariscos--o65210",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-padi-en-villariscos--o65210",offers:[{id:"yumping-o65210",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-padi-en-villariscos--o65210",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-padi-en-villariscos--o65210",priceFrom:330,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Advanced Adventurer SSI en Puerto de las Águilas\" en San Juan de los Terreros. Precio mostrado desde 330 €.",priceFrom:330,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:459,siteSlugs:[],title:"Curso PADI Open Water Diver en Mojácar",destination:"Garrucha",region:"Andalucía",slug:"curso-padi-open-water-diver-en-mojacar-459",type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Garrucha",tags:["Buceo","Yumping","Garrucha"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-padi-open-water-diver-en-mojacar--o86677",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-padi-open-water-diver-en-mojacar--o86677",offers:[{id:"yumping-o86677",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/curso-padi-open-water-diver-en-mojacar--o86677",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-padi-open-water-diver-en-mojacar--o86677",priceFrom:400,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Curso PADI Open Water Diver en Mojácar\" en Garrucha. Precio mostrado desde 400 €.",priceFrom:400,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:460,siteSlugs:[],title:"Discover Scuba Diving desde barco en Alicante, 3h",destination:"Alicante",region:"Alicante",slug:"discover-scuba-diving-desde-barco-en-alicante-3h-460",type:"Bautismo",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en bautismo en Alicante",tags:["Buceo","Yumping","Alicante"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-alicante-o-calpe--o27573",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-alicante-o-calpe--o27573",offers:[{id:"yumping-o27573",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-alicante-o-calpe--o27573",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-alicante-o-calpe--o27573",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Discover Scuba Diving desde barco en Alicante, 3h\" en Alicante. Precio mostrado desde 120 €.",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:461,siteSlugs:[],title:"Snorkel desde barco en Calpe, 2 horas",destination:"Calpe",region:"Alicante",slug:"snorkel-desde-barco-en-calpe-2-horas-461",type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Calpe",tags:["Buceo","Yumping","Calpe"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o36445",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o36445",offers:[{id:"yumping-o461",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o36445",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o36445",priceFrom:29,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Snorkel desde barco en Calpe, 2 horas\" en Calpe. Precio mostrado desde 29 €.",priceFrom:29,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:461,siteSlugs:[],title:"Snorkel desde barco en Calpe, 2 horas",destination:"Calpe",region:"Alicante",slug:"snorkel-desde-barco-en-calpe-2-horas-461",type:"Snorkel",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en snorkel en Calpe",tags:["Buceo","Yumping","Calpe"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o1235",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o1235",offers:[{id:"yumping-o461",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o1235",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-barco-en-calpe-2-horas--o1235",priceFrom:29,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Snorkel desde barco en Calpe, 2 horas\" en Calpe. Precio mostrado desde 29 €.",priceFrom:29,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:462,siteSlugs:[],title:"Curso PADI Discover Scuba Diving en Calpe, 5h",destination:"Calpe",region:"Alicante",slug:"curso-padi-discover-scuba-diving-en-calpe-5h-462",type:"Bautismo",level:"Inicial",duration:"5 horas",audience:"Personas interesadas en bautismo en Calpe",tags:["Buceo","Yumping","Calpe"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-padi-discover-scuba-diving-en-calpe-5h--o86705",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-padi-discover-scuba-diving-en-calpe-5h--o86705",offers:[{id:"yumping-o86705",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-padi-discover-scuba-diving-en-calpe-5h--o86705",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-padi-discover-scuba-diving-en-calpe-5h--o86705",priceFrom:149,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Curso PADI Discover Scuba Diving en Calpe, 5h\" en Calpe. Precio mostrado desde 149 €.",priceFrom:149,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:463,siteSlugs:[],title:"Snorkel cerca de la Isla Tabarca para adultos 3 h",destination:"Tabarca",region:"Alicante",slug:"snorkel-cerca-de-la-isla-tabarca-para-adultos-3-h-463",type:"Snorkel",level:"Inicial",duration:"3 horas",audience:"Personas interesadas en snorkel en Tabarca",tags:["Buceo","Yumping","Tabarca"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-cerca-de-la-isla-tabarca-para-adultos-3-h--o48586",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-cerca-de-la-isla-tabarca-para-adultos-3-h--o48586",offers:[{id:"yumping-o48586",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-cerca-de-la-isla-tabarca-para-adultos-3-h--o48586",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-cerca-de-la-isla-tabarca-para-adultos-3-h--o48586",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Snorkel cerca de la Isla Tabarca para adultos 3 h\" en Tabarca. Precio mostrado desde 45 €.",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:464,siteSlugs:[],title:"Snorkel desde playa en Calpe, 1h 30 minutos",destination:"Calpe",region:"Alicante",slug:"snorkel-desde-playa-en-calpe-1h-30-minutos-464",type:"Snorkel",level:"Inicial",duration:"1 h 30 min",audience:"Personas interesadas en snorkel en Calpe",tags:["Buceo","Yumping","Calpe"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-playa-en-calpe-1h-30-minutos--o1234",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-playa-en-calpe-1h-30-minutos--o1234",offers:[{id:"yumping-o1234",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-playa-en-calpe-1h-30-minutos--o1234",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-desde-playa-en-calpe-1h-30-minutos--o1234",priceFrom:20,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Oferta publicada por Yumping para \"Snorkel desde playa en Calpe, 1h 30 minutos\" en Calpe. Precio mostrado desde 20 €.",priceFrom:20,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
@@ -3326,14 +3337,14 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
   {id:482,siteSlugs:[],title:"Curso de Open Water en Navarra iniciación al buceo",destination:"Mutilva Baja",region:"Navarra",slug:"curso-de-open-water-en-navarra-iniciacion-al-buceo-482",type:"Curso",level:"Inicial",duration:"3 días mínimo · hasta 1 semana",audience:"Personas interesadas en curso en Mutilva Baja",tags:["Buceo","Yumping","Mutilva Baja"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/navarra/curso-de-open-water-en-navarra-iniciacion-al-buceo--o10766",sourceUrl:"https://www.yumping.com/ofertas/buceo/navarra/curso-de-open-water-en-navarra-iniciacion-al-buceo--o10766",offers:[{id:"yumping-o10766",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/navarra/curso-de-open-water-en-navarra-iniciacion-al-buceo--o10766",sourceUrl:"https://www.yumping.com/ofertas/buceo/navarra/curso-de-open-water-en-navarra-iniciacion-al-buceo--o10766",priceFrom:415,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Curso oficial Open Water Diver en Navarra. Yumping indica un mínimo de 3 días, posibilidad de repartirlo en dos fines de semana, hasta cuatro inmersiones de práctica y certificación hasta 18 m. Precio desde 415 €.",priceFrom:415,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:483,siteSlugs:[],title:"Curso Buceador Open Water Diver Navarra",destination:"Orcoyen",region:"Navarra",slug:"curso-buceador-open-water-diver-navarra-483",type:"Curso",level:"Inicial",duration:"12 horas aprox.",audience:"Personas interesadas en curso en Orcoyen",tags:["Buceo","Yumping","Orcoyen"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/navarra/curso-buceador-open-water-diver-navarra--o34043",sourceUrl:"https://www.yumping.com/ofertas/buceo/navarra/curso-buceador-open-water-diver-navarra--o34043",offers:[{id:"yumping-o34043",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/navarra/curso-buceador-open-water-diver-navarra--o34043",sourceUrl:"https://www.yumping.com/ofertas/buceo/navarra/curso-buceador-open-water-diver-navarra--o34043",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Curso Buceador Open Water Diver en Navarra. Yumping indica unas 12 horas de duración y formación teórica y práctica en mar abierto. Precio desde 420 €.",priceFrom:420,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:484,siteSlugs:[],title:"Buceo de Bautismo en aguas confinadas en Toledo",destination:"Toledo",region:"Castilla-La Mancha",slug:"buceo-de-bautismo-en-aguas-confinadas-en-toledo-484",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Toledo",tags:["Buceo","Yumping","Toledo"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/toledo/buceo-de-bautismo-en-aguas-confinadas-en-toledo--o62508",sourceUrl:"https://www.yumping.com/ofertas/buceo/toledo/buceo-de-bautismo-en-aguas-confinadas-en-toledo--o62508",offers:[{id:"yumping-o62508",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/toledo/buceo-de-bautismo-en-aguas-confinadas-en-toledo--o62508",sourceUrl:"https://www.yumping.com/ofertas/buceo/toledo/buceo-de-bautismo-en-aguas-confinadas-en-toledo--o62508",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Bautismo de buceo en aguas confinadas en Toledo, ofrecido por Yo Buceo Toledo. Yumping muestra un precio desde 55 €.",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:485,siteSlugs:["alicante-cala-palmera"],title:"Discover Scuba Diving desde Cala Palmera, 2 horas",destination:"Alicante",region:"Alicante",slug:"discover-scuba-diving-desde-cala-palmera-2-horas-485",type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Alicante",tags:["Buceo","Yumping","Alicante"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/discover-scuba-diving-desde-cala-palmera-2-horas--o89332",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/discover-scuba-diving-desde-cala-palmera-2-horas--o89332",offers:[{id:"yumping-o89332",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/discover-scuba-diving-desde-cala-palmera-2-horas--o89332",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/discover-scuba-diving-desde-cala-palmera-2-horas--o89332",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Discover Scuba Diving desde Cala Palmera. Yumping muestra un precio desde 100 € y sitúa la actividad en Alicante.",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:486,siteSlugs:["alicante-cala-palmera"],title:"Curso PADI Open Water Diver Puerto Alacant",destination:"Alicante",region:"Alicante",slug:"curso-padi-open-water-diver-puerto-alacant-486",type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Alicante",tags:["Buceo","Yumping","Alicante"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-padi-open-water-driver-puerto-alacant--o27576",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-padi-open-water-driver-puerto-alacant--o27576",offers:[{id:"yumping-o27576",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-padi-open-water-driver-puerto-alacant--o27576",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-padi-open-water-driver-puerto-alacant--o27576",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Curso PADI Open Water Diver desde Puerto Alacant. Yumping muestra un precio desde 450 €.",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:485,siteSlugs:["alicante-cala-palmera"],title:"Discover Scuba Diving desde Cala Palmera, 2 horas",destination:"Alicante",region:"Alicante",slug:"discover-scuba-diving-desde-cala-palmera-2-horas-485",type:"Bautismo",level:"Inicial",duration:"2 horas",audience:"Personas interesadas en bautismo en Alicante",tags:["Buceo","Yumping","Alicante"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-alicante-o-calpe--o27573",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-alicante-o-calpe--o27573",offers:[{id:"yumping-o27573",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-alicante-o-calpe--o27573",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-alicante-o-calpe--o27573",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Discover Scuba Diving desde Cala Palmera. Yumping muestra un precio desde 100 € y sitúa la actividad en Alicante.",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:486,siteSlugs:["alicante-cala-palmera"],title:"Curso PADI Open Water Diver Puerto Alacant",destination:"Alicante",region:"Alicante",slug:"curso-padi-open-water-diver-puerto-alacant-486",type:"Curso",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Alicante",tags:["Buceo","Yumping","Alicante"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318",offers:[{id:"yumping-o26318",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/curso-open-water-diver-padi-en-la-isla-de-tabarca--o26318",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Curso PADI Open Water Diver desde Puerto Alacant. Yumping muestra un precio desde 450 €.",priceFrom:450,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:487,siteSlugs:["javea"],title:"Bautismo de buceo desde playa en Jávea",destination:"Jávea",region:"Alicante",slug:"bautismo-de-buceo-desde-playa-en-javea-487",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Jávea",tags:["Buceo","Yumping","Jávea"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",offers:[{id:"yumping-o18720",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Bautismo de buceo desde playa en Jávea. Yumping muestra un precio desde 45 €.",priceFrom:45,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:488,siteSlugs:["javea"],title:"Bautismo de buceo en Jávea",destination:"Jávea",region:"Alicante",slug:"bautismo-de-buceo-en-javea-488",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Jávea",tags:["Buceo","Yumping","Jávea"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-javea--o14122",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-javea--o14122",offers:[{id:"yumping-o14122",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-javea--o14122",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-en-javea--o14122",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Bautismo de buceo en Jávea. Yumping muestra un precio desde 90 €.",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:489,siteSlugs:["javea"],title:"Bautismo de buceo desde barco en Jávea",destination:"Jávea",region:"Alicante",slug:"bautismo-de-buceo-desde-barco-en-javea-489",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Jávea",tags:["Buceo","Yumping","Jávea"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-javea--o16491",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-javea--o16491",offers:[{id:"yumping-o16491",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-javea--o16491",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-javea--o16491",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Bautismo de buceo con salida en barco en Jávea. Yumping muestra un precio desde 120 €.",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:490,siteSlugs:["tabarca"],title:"Inmersión doble en la Reserva Marina de Tabarca",destination:"Isla de Tabarca",region:"Alicante",slug:"inmersion-doble-en-la-reserva-marina-de-tabarca-490",type:"Fun Dive",level:"Intermedio",duration:"2 inmersiones",audience:"Personas interesadas en fun dive en Isla de Tabarca",tags:["Buceo","Yumping","Isla de Tabarca"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-reserva-marina-tabarca--o23978",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-reserva-marina-tabarca--o23978",offers:[{id:"yumping-o23978",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-reserva-marina-tabarca--o23978",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-reserva-marina-tabarca--o23978",priceFrom:105,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Dos inmersiones en la Reserva Marina de Tabarca para buceadores titulados. Yumping muestra un precio desde 105 €.",priceFrom:105,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:491,siteSlugs:["tabarca"],title:"Excursión en barco + snorkel en Tabarca",destination:"Isla de Tabarca",region:"Alicante",slug:"excursion-en-barco-snorkel-en-tabarca-491",type:"Snorkel",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en snorkel en Isla de Tabarca",tags:["Buceo","Yumping","Isla de Tabarca"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/excursion-en-barco-snorkel-tabarca--o37319",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/excursion-en-barco-snorkel-tabarca--o37319",offers:[{id:"yumping-o37319",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/excursion-en-barco-snorkel-tabarca--o37319",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/excursion-en-barco-snorkel-tabarca--o37319",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Excursión en barco con snorkel en Tabarca. Yumping muestra un precio desde 55 €.",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
-  {id:492,siteSlugs:["tabarca"],title:"Curso Advanced en Tabarca",destination:"Isla de Tabarca",region:"Alicante",slug:"curso-advanced-en-tabarca-492",type:"Curso",level:"Avanzado",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Isla de Tabarca",tags:["Buceo","Yumping","Isla de Tabarca"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/advanced-tabarca--o21358",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/advanced-tabarca--o21358",offers:[{id:"yumping-o21358",status:"paused",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/advanced-tabarca--o21358",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/advanced-tabarca--o21358",priceFrom:340,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Curso de formación Advanced en Tabarca. Yumping muestra un precio desde 340 €.",priceFrom:340,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:488,siteSlugs:["javea"],title:"Bautismo de buceo en Jávea",destination:"Jávea",region:"Alicante",slug:"bautismo-de-buceo-en-javea-488",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Jávea",tags:["Buceo","Yumping","Jávea"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",offers:[{id:"yumping-o18720",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-playa-en-javea--o18720",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Bautismo de buceo en Jávea. Yumping muestra un precio desde 90 €.",priceFrom:90,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:489,siteSlugs:["javea"],title:"Bautismo de buceo desde barco en Jávea",destination:"Jávea",region:"Alicante",slug:"bautismo-de-buceo-desde-barco-en-javea-489",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Jávea",tags:["Buceo","Yumping","Jávea"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-javea-desde-embarcacion-y-fotos--o13445",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-javea-desde-embarcacion-y-fotos--o13445",offers:[{id:"yumping-o13445",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-javea-desde-embarcacion-y-fotos--o13445",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-javea-desde-embarcacion-y-fotos--o13445",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Bautismo de buceo con salida en barco en Jávea. Yumping muestra un precio desde 120 €.",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:490,siteSlugs:["tabarca"],title:"Inmersión doble en la Reserva Marina de Tabarca",destination:"Isla de Tabarca",region:"Alicante",slug:"inmersion-doble-en-la-reserva-marina-de-tabarca-490",type:"Fun Dive",level:"Intermedio",duration:"2 inmersiones",audience:"Personas interesadas en fun dive en Isla de Tabarca",tags:["Buceo","Yumping","Isla de Tabarca"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-de-buceo-alrededor-de-isla-tabarca--o25328",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-de-buceo-alrededor-de-isla-tabarca--o25328",offers:[{id:"yumping-o25328",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-de-buceo-alrededor-de-isla-tabarca--o25328",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-doble-de-buceo-alrededor-de-isla-tabarca--o25328",priceFrom:105,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Dos inmersiones en la Reserva Marina de Tabarca para buceadores titulados. Yumping muestra un precio desde 105 €.",priceFrom:105,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:491,siteSlugs:["tabarca"],title:"Excursión en barco + snorkel en Tabarca",destination:"Isla de Tabarca",region:"Alicante",slug:"excursion-en-barco-snorkel-en-tabarca-491",type:"Snorkel",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en snorkel en Isla de Tabarca",tags:["Buceo","Yumping","Isla de Tabarca"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-para-ninos-cerca-de-la-isla-de-tabarca-3-h--o48594",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-para-ninos-cerca-de-la-isla-de-tabarca-3-h--o48594",offers:[{id:"yumping-o48594",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-para-ninos-cerca-de-la-isla-de-tabarca-3-h--o48594",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/snorkel-para-ninos-cerca-de-la-isla-de-tabarca-3-h--o48594",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Excursión en barco con snorkel en Tabarca. Yumping muestra un precio desde 55 €.",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
+  {id:492,siteSlugs:["tabarca"],title:"Curso Advanced en Tabarca",destination:"Isla de Tabarca",region:"Alicante",slug:"curso-advanced-en-tabarca-492",type:"Curso",level:"Avanzado",duration:"Consultar disponibilidad",audience:"Personas interesadas en curso en Isla de Tabarca",tags:["Buceo","Yumping","Isla de Tabarca"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-en-torrevieja-alicante--o31630",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-en-torrevieja-alicante--o31630",offers:[{id:"yumping-o31630",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-en-torrevieja-alicante--o31630",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/padi-advanced-open-water-en-torrevieja-alicante--o31630",priceFrom:340,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Curso de formación Advanced en Tabarca. Yumping muestra un precio desde 340 €.",priceFrom:340,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:493,siteSlugs:["isla-benidorm"],title:"Bautismo de buceo desde barco en Isla de Benidorm",destination:"Benidorm",region:"Alicante",slug:"bautismo-de-buceo-desde-barco-en-isla-de-benidorm-493",type:"Bautismo",level:"Inicial",duration:"Consultar disponibilidad",audience:"Personas interesadas en bautismo en Benidorm",tags:["Buceo","Yumping","Benidorm"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-isla-de-benidorm--o36111",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-isla-de-benidorm--o36111",offers:[{id:"yumping-o36111",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-isla-de-benidorm--o36111",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/bautismo-de-buceo-desde-barco-en-isla-de-benidorm--o36111",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Bautismo con salida en barco hacia la Isla de Benidorm. Yumping muestra un precio desde 95 €.",priceFrom:95,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:494,siteSlugs:["isla-benidorm"],title:"Inmersión de buceo con equipo en Benidorm",destination:"Benidorm",region:"Alicante",slug:"inmersion-de-buceo-con-equipo-en-benidorm-494",type:"Fun Dive",level:"Intermedio",duration:"Consultar disponibilidad",audience:"Personas interesadas en fun dive en Benidorm",tags:["Buceo","Yumping","Benidorm"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-con-equipo-en-benidorm--o36146",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-con-equipo-en-benidorm--o36146",offers:[{id:"yumping-o36146",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-con-equipo-en-benidorm--o36146",sourceUrl:"https://www.yumping.com/ofertas/buceo/alicante/inmersion-de-buceo-con-equipo-en-benidorm--o36146",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Inmersión para buceadores titulados con equipo incluido en Benidorm. Yumping muestra un precio desde 85 €.",priceFrom:85,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
   {id:595,siteSlugs:[],title:"Curso Advanced Open Water en San José",destination:"San José",region:"Andalucía",slug:"curso-advanced-open-water-san-jose-462",type:"Curso",level:"Avanzado",duration:"Consultar disponibilidad",audience:"Personas interesadas en formación Advanced en San José",tags:["Buceo","Andalucía","Yumping","San José"],bookingStatus:"Disponible",provider:"Yumping",providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-en-san-jose--o28185",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-en-san-jose--o28185",offers:[{id:"yumping-o28185",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-en-san-jose--o28185",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/curso-advanced-open-water-en-san-jose--o28185",priceFrom:395,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],notes:"Curso Advanced Open Water en San José, Almería. Precio comprobado en la ficha pública de Yumping: desde 395 €.",priceFrom:395,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"},
@@ -3341,12 +3352,3 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
 
 export const activityTypes=["Bautismo","Fun Dive","Curso","Pecio","Fauna","Snorkel"];
 export const activityRegions=Array.from(new Set(activities.map(a=>a.region))).sort();
-
-// Offers confirmed withdrawn by Yumping on 2026-10-04. Keep catalog pages and IDs.
-const withdrawnYumpingOffers = new Set(["60480", "19837", "37279", "203", "37275", "33854", "31018", "31017", "31016", "31019", "36445", "89332", "27576", "14122", "16491", "23978", "37319", "21358"]);
-for(const activity of activities){
-  const id=activity.providerUrl?.match(/--o(\d+)/)?.[1];
-  if(id&&withdrawnYumpingOffers.has(id)){
-    activity.offers=activity.offers?.length ? activity.offers.map(offer=>({...offer,status:"paused" as const})) : [{id:`withdrawn-${id}`,provider:activity.provider,url:activity.providerUrl,sourceUrl:activity.sourceUrl,status:"paused"}];
-  }
-}
