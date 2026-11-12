@@ -10,6 +10,8 @@ const exp = JSON.parse(fs.readFileSync(explorerPath, "utf8"));
 
 // Group activities by clean Yumping offer URL so we only fetch each unique offer once
 const offerMap = new Map();
+const knownOfferIds = new Set();
+
 for (const a of exp.activities) {
   for (const o of a.offers || []) {
     const u = new URL(o.href);
@@ -17,6 +19,7 @@ for (const a of exp.activities) {
     u.searchParams.delete("placement");
     const cleanUrl = u.toString();
     const offerId = (cleanUrl.match(/--o(\d+)/) || [])[1] || "";
+    if (offerId) knownOfferIds.add(offerId);
     if (!offerMap.has(cleanUrl)) {
       offerMap.set(cleanUrl, {
         url: cleanUrl,
@@ -33,11 +36,144 @@ for (const a of exp.activities) {
       zone: a.zone,
       region: a.region,
       type: a.type,
+      isGenericHubActivity: a.id <= 218,
     });
   }
 }
 
 const uniqueOffers = [...offerMap.values()];
+
+function decodeHtml(str) {
+  if (!str) return "";
+  return str
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&euro;/g, "€")
+    .replace(/&aacute;/g, "á")
+    .replace(/&eacute;/g, "é")
+    .replace(/&iacute;/g, "í")
+    .replace(/&oacute;/g, "ó")
+    .replace(/&uacute;/g, "ú")
+    .replace(/&Aacute;/g, "Á")
+    .replace(/&Eacute;/g, "É")
+    .replace(/&Iacute;/g, "Í")
+    .replace(/&Oacute;/g, "Ó")
+    .replace(/&Uacute;/g, "Ú")
+    .replace(/&ntilde;/g, "ñ")
+    .replace(/&Ntilde;/g, "Ñ")
+    .replace(/&uuml;/g, "ü")
+    .replace(/&ccedil;/g, "ç")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function curlFetchHtml(url, postBody = null) {
+  return new Promise((resolve) => {
+    const args = [
+      "-s",
+      "-L",
+      "--max-time", "14",
+      "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    ];
+    if (postBody) {
+      args.push("-X", "POST", "-H", "Content-Type: application/x-www-form-urlencoded", "-d", postBody);
+    }
+    args.push(url);
+    const proc = spawn("curl.exe", args);
+    const chunks = [];
+    proc.stdout.on("data", (d) => chunks.push(d));
+    proc.on("close", () => resolve(Buffer.concat(chunks).toString("utf8")));
+    proc.on("error", () => resolve(""));
+  });
+}
+
+function parseCatalogCards(html, candidateMap) {
+  const parts = html.split(/<li\s+id=["']esl_/i);
+  for (let i = 1; i < parts.length; i++) {
+    const chunk = parts[i].split("</li>")[0];
+    const idMatch = chunk.match(/^(\d+)["']/);
+    if (!idMatch) continue;
+    const offerId = idMatch[1];
+    if (knownOfferIds.has(offerId) || candidateMap.has(offerId)) continue;
+
+    const linkMatch =
+      chunk.match(/id=["']app_lnkEmp_\d+["'][^>]*title=["']([^"']+)["'][^>]*href=["']([^"']+)["']/i) ||
+      chunk.match(/id=["']app_lnkEmp_\d+["'][^>]*href=["']([^"']+)["'][^>]*title=["']([^"']+)["']/i) ||
+      chunk.match(/href=["'](https:\/\/www\.yumping\.com\/ofertas\/buceo\/[^"']+--o\d+)["'][^>]*>\s*([^<]+)<\/a>/i);
+    if (!linkMatch) continue;
+
+    let title = "";
+    let url = "";
+    if (linkMatch[1].startsWith("http")) {
+      url = linkMatch[1].trim();
+      title = decodeHtml(linkMatch[2]);
+    } else {
+      title = decodeHtml(linkMatch[1]);
+      url = linkMatch[2].trim();
+    }
+
+    const provMatch = url.match(/https:\/\/www\.yumping\.com\/ofertas\/buceo\/([^/]+)\/[^"'\s]+--o(\d+)/);
+    if (!provMatch) continue;
+    const provinceSlug = provMatch[1];
+
+    let locality = "";
+    const locMatch = chunk.match(/data-icon=["']map-marker["'][\s\S]*?<\/svg>\s*([^<]+)<\/div>/i);
+    if (locMatch) locality = decodeHtml(locMatch[1]);
+
+    let priceFrom = undefined;
+    const preMatch = chunk.match(/data-des=["']([\d.]+)["']/) || chunk.match(/data-pre=["']([\d.]+)["']/);
+    if (preMatch && Number(preMatch[1]) > 0) {
+      priceFrom = Math.round(Number(preMatch[1]) * 100) / 100;
+    }
+
+    candidateMap.set(offerId, {
+      offerId,
+      url,
+      provinceSlug,
+      title,
+      locality,
+      priceFrom,
+    });
+  }
+}
+
+async function discoverNewYumpingOffers() {
+  const candidateMap = new Map();
+  const firstHtml = await curlFetchHtml("https://www.yumping.com/buceo/espana");
+  if (!firstHtml) return [];
+  parseCatalogCards(firstHtml, candidateMap);
+  const totalMatch = firstHtml.match(/de un total de\s+(\d+)\s+ofertas/i);
+  const totalOffers = totalMatch ? Number(totalMatch[1]) : 900;
+  const totalPages = Math.min(60, Math.ceil(totalOffers / 20));
+
+  const pages = [];
+  for (let p = 2; p <= totalPages; p++) pages.push(p);
+
+  let idx = 0;
+  async function pageWorker() {
+    while (idx < pages.length) {
+      const p = pages[idx++];
+      const html = await curlFetchHtml("https://www.yumping.com/buceo/espana", `npage=${p}&paginado_ofertas=1`);
+      if (html) parseCatalogCards(html, candidateMap);
+    }
+  }
+  await Promise.all(Array.from({ length: 12 }, () => pageWorker()));
+
+  // Verify each candidate is genuinely active and bookable (not a retired stub)
+  const candidates = [...candidateMap.values()];
+  const verifiedNew = [];
+  for (const c of candidates) {
+    const check = await inspectOffer(c);
+    if (check.isHealthy && c.priceFrom > 0) {
+      verifiedNew.push(c);
+    }
+  }
+  return verifiedNew;
+}
 
 function inspectOffer(item) {
   return new Promise((resolve) => {
@@ -157,21 +293,35 @@ async function run() {
   const unhealthyOffers = results.filter((r) => !r.isHealthy);
   const staticCheck = checkStaticOut();
 
+  console.log("Scanning Yumping Spain catalog for newly published diving offers...");
+  const newOffers = await discoverNewYumpingOffers();
+
   console.log("=== DAILY YUMPING & SITE INTEGRITY REPORT ===");
   console.log(`Total activities: ${exp.activities.length}`);
   console.log(`Unique Yumping offers checked: ${results.length}`);
   console.log(`Healthy Yumping offers: ${results.length - unhealthyOffers.length}`);
   console.log(`Unhealthy / fallen Yumping offers: ${unhealthyOffers.length}`);
+  console.log(`Brand-new active Yumping offers discovered: ${newOffers.length}`);
 
   if (unhealthyOffers.length > 0) {
-    console.log("\n--- FALLEN OFFERS NEEDING REPLACEMENT ---");
+    console.log("\n--- FALLEN OFFERS NEEDING ACTION ---");
     for (const u of unhealthyOffers) {
       console.log(
         `Offer --o${u.offerId} (${u.url}) -> HTTP ${u.code}, idChanged=${u.offerIdChanged}, bookable=${u.hasAddOferta}, withdrawn=${u.hasWithdrawnText}`
       );
       for (const act of u.activities) {
-        console.log(`  - Activity ID ${act.id} [${act.slug}] (zone: ${act.zone}, region: ${act.region}, type: ${act.type})`);
+        const actionType = act.isGenericHubActivity
+          ? "ACTION: REPLACE_OFFER (Generic destination page ID <= 218: keep URL, update offer & priceFrom to active offer in same zone/type)"
+          : "ACTION: REMOVE_AND_301 (Specific Yumping offer page ID >= 219: remove retired activity + add 301 redirect in public/_redirects to equivalent active activity or /buceo/{zone}/)";
+        console.log(`  - Activity ID ${act.id} [${act.slug}] (zone: ${act.zone}, type: ${act.type}) -> ${actionType}`);
       }
+    }
+  }
+
+  if (newOffers.length > 0) {
+    console.log("\n--- NEW ACTIVE YUMPING OFFERS TO ADD TO PORTAL ---");
+    for (const n of newOffers) {
+      console.log(`  + --o${n.offerId} | ${n.title} | ${n.locality} (${n.provinceSlug}) | ${n.priceFrom}€ | ${n.url}`);
     }
   }
 
@@ -186,6 +336,7 @@ async function run() {
 
   if (
     unhealthyOffers.length > 0 ||
+    newOffers.length > 0 ||
     (staticCheck.exists && (staticCheck.bookingEmpty.length > 0 || staticCheck.brokenLinks.length > 0))
   ) {
     process.exitCode = 1;
