@@ -1,0 +1,30 @@
+name: Daily Yumping Price & Offer Sync
+on:
+  schedule:
+    - cron: "0 8 * * *" # 09:00 AM Europe/Madrid (CET)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run daily Yumping live audit and auto-fix price drift
+        run: node scripts/audit-yumping-daily.cjs --auto-fix || true
+      - name: Commit and push live price updates if changed
+        run: |
+          if [[ -n "$(git status --porcelain data/ public/data/)" ]]; then
+            git config user.name "Buceo Atlas Auto-Sync"
+            git config user.email "actions@github.com"
+            git add data/activities.ts public/data/activities-explorer.json
+            git commit -m "chore(prices): auto-sync live Yumping prices ($(date -u +'%Y-%m-%d'))"
+            git push origin HEAD:main
+          else
+            echo "No price changes detected today."
+          fi

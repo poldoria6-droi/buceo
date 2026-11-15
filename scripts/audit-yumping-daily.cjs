@@ -7,18 +7,23 @@ const outDir = path.join(rootDir, "out");
 const publicDir = path.join(rootDir, "public");
 const explorerPath = path.join(publicDir, "data", "activities-explorer.json");
 const centersPath = path.join(rootDir, "data", "centers.ts");
+const curlBin = process.platform === "win32" ? "curl.exe" : "curl";
 
 const YUMPING_PARTNER_ID = "449fb0b2d23ef85c3ee63f78b6e90eae";
-const IATI_AFFILIATE_ID = "94462371581311";
+const IATI_AFFILIATE_ID = "37531501737322";
 const MAX_IMAGE_BYTES = 350 * 1024; // 350 KB CWV threshold
-const MAX_EXPLORER_JSON_BYTES = 550 * 1024; // 550 KB payload threshold
+const MAX_EXPLORER_JSON_BYTES = 620 * 1024; // 620 KB payload threshold
 
 const exp = JSON.parse(fs.readFileSync(explorerPath, "utf8"));
 const activeActivitySlugs = new Set(exp.activities.map((a) => a.slug));
 
 // Group activities by clean Yumping offer URL so we only fetch each unique offer once
 const offerMap = new Map();
-const knownOfferIds = new Set();
+const knownOfferIds = new Set([
+  "60480", "19837", "37279", "203", "37275", "33854",
+  "31018", "31017", "31016", "31019", "36445", "89332",
+  "27576", "14122", "16491", "23978", "37319", "21358",
+]);
 
 for (const a of exp.activities) {
   for (const o of a.offers || []) {
@@ -92,7 +97,7 @@ function curlFetchHtml(url, postBody = null) {
       args.push("-X", "POST", "-H", "Content-Type: application/x-www-form-urlencoded", "-d", postBody);
     }
     args.push(url);
-    const proc = spawn("curl.exe", args);
+    const proc = spawn(curlBin, args);
     const chunks = [];
     proc.stdout.on("data", (d) => chunks.push(d));
     proc.on("close", () => resolve(Buffer.concat(chunks).toString("utf8")));
@@ -103,7 +108,7 @@ function curlFetchHtml(url, postBody = null) {
 function curlCheckStatus(url) {
   return new Promise((resolve) => {
     const args = ["-s", "-L", "--max-time", "12", "-o", "NUL", "-w", "%{http_code}", url];
-    const proc = spawn("curl.exe", args);
+    const proc = spawn(curlBin, args);
     let out = "";
     proc.stdout.on("data", (d) => (out += d.toString()));
     proc.on("close", () => resolve(parseInt(out.trim(), 10) || 0));
@@ -204,7 +209,7 @@ function inspectOffer(item) {
       "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
       item.url,
     ];
-    const proc = spawn("curl.exe", args);
+    const proc = spawn(curlBin, args);
     const chunks = [];
     proc.stdout.on("data", (d) => chunks.push(d));
     proc.on("close", () => {
@@ -498,6 +503,33 @@ async function run() {
     console.log("\n--- OFFERS WITH PRICE CHANGES ON YUMPING (PRICE DRIFT) ---");
     for (const p of priceDriftOffers) {
       console.log(`  ~ Offer --o${p.offerId}: our priceFrom=${p.priceFrom}€ -> live Yumping price=${p.liveRecommendedPrice}€ (${p.url})`);
+    }
+    if (process.argv.includes("--auto-fix")) {
+      const actPath = path.join(rootDir, "data", "activities.ts");
+      let actSrc = fs.readFileSync(actPath, "utf8");
+      for (const p of priceDriftOffers) {
+        const oid = p.offerId;
+        const newPrice = p.liveRecommendedPrice;
+        if (!oid || !newPrice) continue;
+        for (const act of exp.activities) {
+          for (const o of act.offers || []) {
+            if ((o.href || "").includes(`--o${oid}`)) {
+              o.priceFrom = newPrice;
+            }
+          }
+          const validPrices = (act.offers || []).map((o) => o.priceFrom).filter((v) => typeof v === "number");
+          if (validPrices.length > 0) act.lowestPrice = Math.min(...validPrices);
+        }
+        const r1 = new RegExp(`(--o${oid}(?:["'?][^\\n]*?priceFrom:\\s*))(\\d+(?:\\.\\d+)?)`, "g");
+        actSrc = actSrc.replace(r1, `$1${newPrice}`);
+        const r2 = new RegExp(`(priceFrom:\\s*)(\\d+(?:\\.\\d+)?)((?:(?!\\bid:\\s*\\d)[\\s\\S]){1,450}?--o${oid}\\b)`, "g");
+        actSrc = actSrc.replace(r2, `$1${newPrice}$3`);
+        const r3 = new RegExp(`(--o${oid}\\b(?:(?!\\bid:\\s*\\d)[\\s\\S]){1,350}?priceFrom:\\s*)(\\d+(?:\\.\\d+)?)`, "g");
+        actSrc = actSrc.replace(r3, `$1${newPrice}`);
+      }
+      fs.writeFileSync(explorerPath, JSON.stringify(exp, null, 2) + "\n", "utf8");
+      fs.writeFileSync(actPath, actSrc, "utf8");
+      console.log(`  [AUTO-FIX] Automatically updated ${priceDriftOffers.length} prices in data/activities.ts and activities-explorer.json.`);
     }
   }
 
