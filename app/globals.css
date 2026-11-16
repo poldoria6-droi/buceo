@@ -850,6 +850,37 @@ html, body {
 }
 
 /* Black Friday & Christmas Gift Campaign Styles */
+#ofertas-black-friday-navidad {
+  scroll-margin-top: 80px;
+}
+.hero-discovery-bf {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 11px 16px;
+  font-size: 0.82rem;
+  border-radius: 11px;
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  color: #ffffff !important;
+  border: 1px solid rgba(254, 202, 202, 0.45);
+  font-weight: 900;
+  white-space: nowrap;
+  box-shadow: 0 6px 18px rgba(220, 38, 38, 0.36);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.hero-discovery-bf:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(220, 38, 38, 0.5);
+}
+@media (max-width: 650px) {
+  .hero-discovery-bf {
+    flex: 1 1 100%;
+    min-height: 46px;
+    font-size: 0.88rem !important;
+    text-align: center;
+  }
+}
 .bf-section {
   background: linear-gradient(180deg, #f0f9fa 0%, #ffffff 100%);
   border-top: 1px solid #d6ecee;

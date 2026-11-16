@@ -28,12 +28,12 @@ const BLACK_FRIDAY_DEALS = [
     giftNote: "Curso + 5 días alojamiento · Tenerife",
   },
   {
-    slug: "curso-scuba-diver-en-madrid-y-2-inmersiones-en-mar-29211",
-    discountPct: "−42 %",
-    oldPrice: 289,
-    nowPrice: 169,
-    saveEur: 120,
-    giftNote: "Empieza en invierno en Madrid + mar",
+    slug: "curso-padi-open-water-diver-gran-canaria-506",
+    discountPct: "−23 %",
+    oldPrice: 350,
+    nowPrice: 270,
+    saveEur: 80,
+    giftNote: "Título PADI oficial · Gran Canaria",
   },
   {
     slug: "open-water-diver-el-hierro-y-alojamiento-6-noches-54886",
@@ -127,6 +127,9 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="hero-discovery-actions">
+                <a href="#ofertas-black-friday-navidad" className="hero-discovery-bf">
+                  🔥 Ofertas Black Friday (−43 %) ↓
+                </a>
                 <Link href="/actividades" className="hero-discovery-primary">
                   Explora tu actividad <span>→</span>
                 </Link>
@@ -156,37 +159,6 @@ export default function HomePage() {
         <div className="reference-swoosh" aria-hidden="true" />
       </section>
 
-      <section className="section home-after-map">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <span className="eyebrow">ELIGE TU MODALIDAD</span>
-              <h2>¿Qué experiencia submarina buscas hoy?</h2>
-            </div>
-            <Link href="/actividades" className="text-link">
-              Ver todas las actividades →
-            </Link>
-          </div>
-          <div className="home-discovery-grid">
-            <Link href="/actividades/#type=Bautismo" className="home-discovery-card">
-              <b>🤿</b>
-              <strong>Bautismo de buceo</strong>
-              <span>Tu primera inmersión en el mar con instructor y equipo completo incluido, sin experiencia previa.</span>
-            </Link>
-            <Link href="/actividades/#type=Curso" className="home-discovery-card">
-              <b>🎓</b>
-              <strong>Cursos de certificación</strong>
-              <span>Obtén tu título Open Water o especialidad internacional en escuelas de toda la costa española.</span>
-            </Link>
-            <Link href="/actividades/#type=Pecio" className="home-discovery-card">
-              <b>⚓</b>
-              <strong>Salidas y pecios</strong>
-              <span>Inmersiones para buceadores titulados en reservas marinas, cañones y barcos hundidos históricos.</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       <section className="section bf-section" id="ofertas-black-friday-navidad">
         <div className="container">
           <div className="section-heading">
@@ -194,7 +166,7 @@ export default function HomePage() {
               <span className="eyebrow">ESPECIAL BLACK FRIDAY, NAVIDAD E INVIERNO 2026 · HASTA −43 %</span>
               <h2>Ofertas Black Friday en bautismos y cursos de buceo (para regalar sin fecha o bucear en Canarias)</h2>
               <p style={{ marginTop: "0.45rem", color: "#496573", maxWidth: "820px" }}>
-                Seleccionamos las mayores rebajas activas en escuelas verificadas de España (hasta el 30 de noviembre). Puedes reservarlas con descuento en formato <strong>bono regalo sin fecha fija</strong> —quien lo recibe elige el día en primavera o verano— o aprovechar los 21 °C del agua este invierno en Canarias.
+                Seleccionamos las mayores rebajas activas en escuelas verificadas de la costa española (hasta el 30 de noviembre). Puedes reservarlas con descuento en formato <strong>bono regalo sin fecha fija</strong> —quien lo recibe elige el día en primavera o verano— o aprovechar los 21 °C del agua este invierno en Canarias.
               </p>
             </div>
           </div>
@@ -236,6 +208,37 @@ export default function HomePage() {
                 Bucear en Canarias en invierno
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section home-after-map">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">ELIGE TU MODALIDAD</span>
+              <h2>¿Qué experiencia submarina buscas hoy?</h2>
+            </div>
+            <Link href="/actividades" className="text-link">
+              Ver todas las actividades →
+            </Link>
+          </div>
+          <div className="home-discovery-grid">
+            <Link href="/actividades/#type=Bautismo" className="home-discovery-card">
+              <b>🤿</b>
+              <strong>Bautismo de buceo</strong>
+              <span>Tu primera inmersión en el mar con instructor y equipo completo incluido, sin experiencia previa.</span>
+            </Link>
+            <Link href="/actividades/#type=Curso" className="home-discovery-card">
+              <b>🎓</b>
+              <strong>Cursos de certificación</strong>
+              <span>Obtén tu título Open Water o especialidad internacional en escuelas de toda la costa española.</span>
+            </Link>
+            <Link href="/actividades/#type=Pecio" className="home-discovery-card">
+              <b>⚓</b>
+              <strong>Salidas y pecios</strong>
+              <span>Inmersiones para buceadores titulados en reservas marinas, cañones y barcos hundidos históricos.</span>
+            </Link>
           </div>
         </div>
       </section>

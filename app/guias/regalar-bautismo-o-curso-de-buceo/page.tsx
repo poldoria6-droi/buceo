@@ -112,17 +112,6 @@ export default function GiftScubaDivingGuidePage() {
                   <td><strong>345 €</strong> (ahorras 254 €)</td>
                 </tr>
                 <tr>
-                  <td><span className="bf-discount-badge">−42 %</span></td>
-                  <td>
-                    <Link href="/actividades/curso-scuba-diver-en-madrid-y-2-inmersiones-en-mar-29211" className="text-link">
-                      Curso Scuba Diver en Madrid + 2 inmersiones en mar
-                    </Link>
-                  </td>
-                  <td>Madrid + Costa</td>
-                  <td><s>289 €</s></td>
-                  <td><strong>169 €</strong> (ahorras 120 €)</td>
-                </tr>
-                <tr>
                   <td><span className="bf-discount-badge">−34 %</span></td>
                   <td>
                     <Link href="/actividades/curso-de-sidemount-de-buceo-lanzarote-405" className="text-link">
@@ -198,6 +187,17 @@ export default function GiftScubaDivingGuidePage() {
                   <td>Gran Canaria</td>
                   <td><s>350 €</s></td>
                   <td><strong>270 €</strong> (ahorras 80 €)</td>
+                </tr>
+                <tr>
+                  <td><span className="bf-discount-badge">−20 %</span></td>
+                  <td>
+                    <Link href="/actividades/ssi-advance-open-water-diver-el-medano-56771" className="text-link">
+                      Curso SSI Advanced Open Water Diver en El Médano
+                    </Link>
+                  </td>
+                  <td>El Médano (Tenerife)</td>
+                  <td><s>335 €</s></td>
+                  <td><strong>270 €</strong> (ahorras 65 €)</td>
                 </tr>
                 <tr>
                   <td><span className="bf-discount-badge">−20 %</span></td>
@@ -307,7 +307,7 @@ export default function GiftScubaDivingGuidePage() {
               <strong>Reservar en su destino habitual de vacaciones de verano:</strong> si sabes que en Semana Santa o verano veranea en la <Link href="/buceo/costa-brava" className="text-link">Costa Brava (Tossa de Mar, L’Estartit)</Link>, <Link href="/buceo/alicante" className="text-link">Alicante (Jávea, Calpe, Tabarca)</Link>, <Link href="/buceo/cabo-de-palos" className="text-link">Cabo de Palos / La Manga</Link>, <Link href="/buceo/la-herradura" className="text-link">La Herradura</Link> o <Link href="/buceo/mallorca" className="text-link">Baleares</Link>, eliges una actividad de esa zona y la canjea en cuanto abra la temporada (<Link href="/guias/mejor-epoca-para-bucear-en-espana" className="text-link">consulta aquí el calendario de apertura y temperatura del agua</Link>).
             </li>
             <li>
-              <strong>Empezar en invierno en piscina climatizada (<Link href="/buceo/madrid" className="text-link">Madrid</Link> o <Link href="/buceo/barcelona" className="text-link">Barcelona</Link>):</strong> en ciudades como Madrid puedes regalar el curso Scuba Diver u Open Water donde hacen la teoría y las sesiones en foso/piscina climatizada a 28 °C en invierno y solo bajan un fin de semana a la costa para las inmersiones de mar.
+              <strong>Adelantar la teoría online en invierno y hacer el mar en primavera:</strong> si regalas un curso Open Water en la costa (<Link href="/buceo/barcelona" className="text-link">Barcelona</Link>, <Link href="/buceo/valencia" className="text-link">Valencia</Link> o <Link href="/buceo/malaga" className="text-link">Málaga</Link>), la persona recibe acceso al e-learning digital para avanzar desde casa en invierno y programa las 4 inmersiones de mar en el puente de mayo o en verano.
             </li>
             <li>
               <strong>Escapada de invierno a Canarias (agua a 21 °C en diciembre y enero):</strong> si quieres regalar un viaje sorpresa para bucear este mismo invierno, elige <Link href="/buceo/tenerife" className="text-link">Tenerife (Las Galletas / Los Abrigos)</Link>, <Link href="/buceo/lanzarote" className="text-link">Lanzarote (Playa Chica)</Link>, <Link href="/buceo/gran-canaria" className="text-link">Gran Canaria</Link> o <Link href="/buceo/el-hierro" className="text-link">El Hierro</Link>. *(Si organizas el viaje con vuelos, recuerda dejar 24 h sin bucear antes del avión de vuelta e incluir un seguro específico de viaje y submarinismo en <a href={IATI_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-link">IATI Seguros con descuento directo aquí ↗</a>).*
