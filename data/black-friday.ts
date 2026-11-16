@@ -805,3 +805,20 @@ export const BLACK_FRIDAY_BY_OFFER_ID: Record<string, { pct: number; oldPrice: n
   "91411": { pct: 10, oldPrice: 37 },
   "90878": { pct: 10, oldPrice: 30 }
 };
+
+export function getBlackFridayInfoForUrl(url?: string, currentPrice?: number) {
+  if (!url) return undefined;
+  const offerId = (url.match(/--o(\d+)/) || [])[1];
+  if (!offerId) return undefined;
+  const entry = BLACK_FRIDAY_BY_OFFER_ID[offerId];
+  if (!entry) return undefined;
+  const saveEur =
+    typeof currentPrice === "number" && entry.oldPrice > currentPrice
+      ? Math.round((entry.oldPrice - currentPrice) * 100) / 100
+      : Math.max(1, Math.round((entry.oldPrice * entry.pct) / 100));
+  return {
+    pct: entry.pct,
+    oldPrice: entry.oldPrice,
+    saveEur,
+  };
+}

@@ -7,6 +7,7 @@ import Link from "next/link";
 import { buildAffiliateUrl, formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
 import { notFound } from "next/navigation";
 import { activities } from "@/data/activities";
+import { getBlackFridayInfoForUrl } from "@/data/black-friday";
 import { diveSites } from "@/data/dive-sites";
 import { buildActivityCardSummary, buildActivitySummary, communityFor } from "@/lib/activity-filters";
 import {
@@ -98,6 +99,7 @@ export default async function ActivityPage({ params }: Props) {
   const linkedSites = diveSites.filter((site) => activity.siteSlugs.includes(site.slug));
   const offers = getBookingOffers(activity);
   const lowest = getLowestPricedOffer(offers);
+  const bf = getBlackFridayInfoForUrl(lowest?.url || activity.providerUrl, lowest?.priceFrom ?? activity.priceFrom);
   const activityJsonLd = buildActivityJsonLd(activity, offers, center);
 
   const actCommunity = communityFor(activity.region);
@@ -141,6 +143,16 @@ export default async function ActivityPage({ params }: Props) {
               {buildActivitySummary(activity, center?.name)}
             </p>
             <div className="activity-detail-badges">
+              {bf && (
+                <span className="bf-discount-badge">
+                  🔥 BLACK FRIDAY −{bf.pct} % · Ahorras {bf.saveEur} €
+                </span>
+              )}
+              {bf && (
+                <span className="bf-gift-pill">
+                  🎁 Regálalo sin fecha · Quien lo recibe elige el día
+                </span>
+              )}
               <span>Nivel {activity.level}</span>
               {activity.duration && activity.duration !== "Consultar disponibilidad" && (
                 <span>{activity.duration}</span>
@@ -150,16 +162,31 @@ export default async function ActivityPage({ params }: Props) {
                   ★ {activity.rating} · {activity.reviewCount || 0} opiniones
                 </span>
               )}
-              {lowest && <span className="price-badge">Desde {formatOfferPrice(lowest)}</span>}
+              {lowest && (
+                <span className="price-badge">
+                  {bf && <s style={{ opacity: 0.72, marginRight: "6px", fontWeight: 500 }}>{bf.oldPrice} €</s>}
+                  Desde {formatOfferPrice(lowest)}
+                </span>
+              )}
             </div>
           </div>
           <div className="activity-detail-provider">
-            <span className="eyebrow">OPCIONES DE RESERVA</span>
+            <span className="eyebrow">
+              {bf ? `OFERTA BLACK FRIDAY −${bf.pct} % · RESERVA ONLINE` : "OPCIONES DE RESERVA"}
+            </span>
             {lowest && (
               <div className="activity-hero-price-summary">
-                <small>Precio desde</small>
+                <small>
+                  {bf ? (
+                    <>
+                      Antes <s>{bf.oldPrice} €</s> · Ahora desde
+                    </>
+                  ) : (
+                    "Precio desde"
+                  )}
+                </small>
                 <strong>{formatOfferPrice(lowest)}</strong>
-                <span>por persona</span>
+                <span>{bf ? `por persona · Ahorras ${bf.saveEur} €` : "por persona"}</span>
               </div>
             )}
             <BookingOptions activity={activity} officialUrl={center?.officialUrl} placement="hero-cta" />
@@ -271,10 +298,16 @@ export default async function ActivityPage({ params }: Props) {
             <div className="cta-section" style={{ paddingBottom: relatedActivities.length ? "2rem" : undefined }}>
               <div className="cta-panel activity-booking-cta">
                 <div>
-                  <span className="eyebrow">RESERVA ONLINE</span>
+                  <span className="eyebrow">
+                    {bf ? `OFERTA BLACK FRIDAY −${bf.pct} % · AHORRAS ${bf.saveEur} €` : "RESERVA ONLINE"}
+                  </span>
                   <h2>Consulta fechas y disponibilidad en {activity.destination}</h2>
                   <p>
-                    Elige tu día en el calendario de disponibilidad y completa tu reserva online en unos minutos.
+                    {bf
+                      ? `Aprovecha el descuento de Black Friday (antes ${bf.oldPrice} €, ahora desde ${
+                          lowest ? formatOfferPrice(lowest) : ""
+                        }). Puedes elegir día en el calendario o marcar «Regálalo sin fecha» para que quien lo reciba elija cuándo bucear.`
+                      : "Elige tu día en el calendario de disponibilidad y completa tu reserva online en unos minutos."}
                   </p>
                 </div>
                 <div className="activity-booking-cta-actions">
@@ -289,7 +322,9 @@ export default async function ActivityPage({ params }: Props) {
                       data-activity-id={activity.id}
                       className="button button-primary"
                     >
-                      Ver fechas y reservar {offer.priceFrom ? `(desde ${formatOfferPrice(offer)})` : ""} ↗
+                      {bf
+                        ? `Aprovechar oferta (−${bf.pct} % · desde ${offer.priceFrom ? formatOfferPrice(offer) : ""}) ↗`
+                        : `Ver fechas y reservar ${offer.priceFrom ? `(desde ${formatOfferPrice(offer)})` : ""} ↗`}
                     </a>
                   ))}
                 </div>
@@ -376,7 +411,9 @@ export default async function ActivityPage({ params }: Props) {
         {offers.length > 0 && (
           <div className="mobile-sticky-booking" role="region" aria-label="Reserva rápida en móvil">
             <div className="mobile-sticky-booking-price">
-              <small>Reserva online · {(lowest || offers[0]).provider}</small>
+              <small>
+                {bf ? `🔥 Black Friday −${bf.pct} % · Antes ${bf.oldPrice} €` : `Reserva online · ${(lowest || offers[0]).provider}`}
+              </small>
               <strong>{lowest ? `Desde ${formatOfferPrice(lowest)}` : "Consultar"}</strong>
             </div>
             <a
@@ -388,7 +425,7 @@ export default async function ActivityPage({ params }: Props) {
               data-activity-id={activity.id}
               className="button button-primary mobile-sticky-booking-btn"
             >
-              Ver fechas y reservar ↗
+              {bf ? `Reservar (−${bf.pct} %) ↗` : "Ver fechas y reservar ↗"}
             </a>
           </div>
         )}
