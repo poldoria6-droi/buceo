@@ -152,10 +152,11 @@ export function ActivitiesExplorer({
   );
   const [siteSlug, setSiteSlug] = useState(initSite);
   const [level, setLevel] = useState(initLevel);
+  const [onlyBlackFriday, setOnlyBlackFriday] = useState(false);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [, startTransition] = useTransition();
 
-  // Filtros iniciales desde la URL (#type=Bautismo&region=Canarias o ?type=...). Solo en cliente:
+  // Filtros iniciales desde la URL (#type=Bautismo&region=Canarias o #bf=1 o ?type=...). Solo en cliente:
   // así la página se pre-renderiza con contenido real y sin saltos de diseño.
   useEffect(() => {
     const applyUrlParams = () => {
@@ -170,7 +171,8 @@ export function ActivitiesExplorer({
       const hSite = params.get("site");
       const hLevel = params.get("level");
       const hSpecies = params.get("species");
-      if (!hType && !hRegion && !hDest && !hSite && !hLevel && !hSpecies && !params.has("mapa")) return;
+      const hBf = params.get("bf") === "1" || params.get("bf") === "true" || rawHash === "bf";
+      if (!hType && !hRegion && !hDest && !hSite && !hLevel && !hSpecies && !hBf && !params.has("mapa")) return;
 
       ensureCatalog().then(() => {
         if (hType) setType(hType);
@@ -178,6 +180,7 @@ export function ActivitiesExplorer({
         if (hDest) setDestination(hDest);
         if (hSite) setSiteSlug(hSite);
         if (hLevel) setLevel(hLevel);
+        if (hBf) setOnlyBlackFriday(true);
         if (hSpecies) {
           setMapMode("species");
           setSpeciesSlug(hSpecies);
@@ -230,7 +233,8 @@ export function ActivitiesExplorer({
     region === "Todos" &&
     destination === "Todos" &&
     siteSlug === "Todos" &&
-    level === "Todos";
+    level === "Todos" &&
+    !onlyBlackFriday;
 
   const destinations = useMemo(() => {
     if (!fullCatalogLoaded && region === "Todos" && initialDestinations?.length) {
@@ -244,18 +248,21 @@ export function ActivitiesExplorer({
   );
   const visibleTypes = types.filter((t) => t !== "Fauna");
 
-  const filtered = useMemo(
-    () =>
-      activities.filter(
-        (a) =>
-          (type === "Todos" || a.type === type) &&
-          (region === "Todos" || communityFor(a.region) === region) &&
-          (destination === "Todos" || a.destination === destination) &&
-          (siteSlug === "Todos" || a.siteSlugs.includes(siteSlug)) &&
-          (level === "Todos" || a.level === level)
-      ),
-    [activities, type, region, destination, siteSlug, level]
-  );
+  const filtered = useMemo(() => {
+    const list = activities.filter(
+      (a) =>
+        (!onlyBlackFriday || Boolean(a.bfPct && a.bfPct > 0)) &&
+        (type === "Todos" || a.type === type) &&
+        (region === "Todos" || communityFor(a.region) === region) &&
+        (destination === "Todos" || a.destination === destination) &&
+        (siteSlug === "Todos" || a.siteSlugs.includes(siteSlug)) &&
+        (level === "Todos" || a.level === level)
+    );
+    if (onlyBlackFriday) {
+      return [...list].sort((a, b) => (b.bfPct || 0) - (a.bfPct || 0));
+    }
+    return list;
+  }, [activities, onlyBlackFriday, type, region, destination, siteSlug, level]);
 
   const displayTotalCount = !fullCatalogLoaded && isUnfiltered && totalCount ? totalCount : filtered.length;
   const visibleItems = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
@@ -280,6 +287,7 @@ export function ActivitiesExplorer({
       setDestination("Todos");
       setSiteSlug("Todos");
       setLevel("Todos");
+      setOnlyBlackFriday(false);
     });
   };
 
@@ -359,6 +367,13 @@ export function ActivitiesExplorer({
           </p>
         )}
         <div className="activity-intents">
+          <button
+            type="button"
+            className={onlyBlackFriday ? "bf-intent-chip active" : "bf-intent-chip"}
+            onClick={() => updateFilter(() => setOnlyBlackFriday((v) => !v))}
+          >
+            🔥 Ofertas Black Friday {onlyBlackFriday ? "✓" : "(hasta −43 %)"}
+          </button>
           {visibleTypes.map((t) => (
             <button
               key={t}
@@ -376,8 +391,8 @@ export function ActivitiesExplorer({
         <aside className="activity-results-panel">
           <div className="activity-results-heading">
             <div>
-              <span className="eyebrow">RESULTADOS</span>
-              <h2>{displayTotalCount} experiencias</h2>
+              <span className="eyebrow">{onlyBlackFriday ? "OFERTAS BLACK FRIDAY" : "RESULTADOS"}</span>
+              <h2>{displayTotalCount} {onlyBlackFriday ? "experiencias rebajadas" : "experiencias"}</h2>
             </div>
             <a href="#mapa" className="activity-detail-link" style={{ whiteSpace: "nowrap" }}>
               🗺️ Ver mapa ({displaySitesCount})
@@ -405,6 +420,9 @@ export function ActivitiesExplorer({
                         : "🤿"}
                     </span>
                     <span>
+                      {a.bfPct && (
+                        <span className="bf-inline-badge">BLACK FRIDAY −{a.bfPct} % · Bono sin fecha</span>
+                      )}
                       <strong>{a.title}</strong>
                       <small>
                         {a.destination} · {site?.name || a.region} · Nivel {a.level.toLowerCase()}
@@ -416,6 +434,11 @@ export function ActivitiesExplorer({
                       <span className="result-price">
                         {lowest ? (
                           <>
+                            {a.bfOldPrice && (
+                              <s style={{ color: "#7c939e", marginRight: "6px", fontWeight: 500 }}>
+                                {a.bfOldPrice} €
+                              </s>
+                            )}
                             Desde <b>{formatOfferPrice(lowest)}</b>
                             {offers.length > 1 && <small> · {offers.length} opciones</small>}
                           </>

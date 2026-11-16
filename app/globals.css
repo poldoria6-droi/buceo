@@ -1081,3 +1081,26 @@ html, body {
   color: #ffffff;
   font-size: 1.05rem;
 }
+.bf-intent-chip {
+  border-color: #fca5a5 !important;
+  background: #fef2f2 !important;
+  color: #b91c1c !important;
+  font-weight: 900 !important;
+}
+.bf-intent-chip.active {
+  background: #dc2626 !important;
+  border-color: #dc2626 !important;
+  color: #ffffff !important;
+}
+.bf-inline-badge {
+  display: inline-block;
+  align-self: flex-start;
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-size: 0.68rem !important;
+  font-weight: 900 !important;
+  margin-bottom: 3px;
+}

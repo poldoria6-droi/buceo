@@ -1,5 +1,6 @@
 import type { Activity } from "@/data/types";
 import { buildAffiliateUrl, getBookingOffers } from "@/lib/affiliate";
+import { BLACK_FRIDAY_BY_OFFER_ID } from "@/data/black-friday";
 
 /**
  * Versiones "ligeras" de los datos para enviarlas a componentes cliente.
@@ -26,9 +27,16 @@ export type SlimActivity = {
   duration: string;
   siteSlugs: string[];
   offers: SlimOffer[];
+  bfPct?: number;
+  bfOldPrice?: number;
 };
 
 export function toSlimActivity(activity: Activity): SlimActivity {
+  const bookingOffers = getBookingOffers(activity);
+  const firstOfferUrl = bookingOffers[0]?.url || activity.providerUrl || "";
+  const offerId = (firstOfferUrl.match(/--o(\d+)/) || [])[1] || "";
+  const bf = offerId ? BLACK_FRIDAY_BY_OFFER_ID[offerId] : undefined;
+
   return {
     id: activity.id,
     slug: activity.slug,
@@ -39,13 +47,14 @@ export function toSlimActivity(activity: Activity): SlimActivity {
     level: activity.level,
     duration: activity.duration,
     siteSlugs: activity.siteSlugs,
-    offers: getBookingOffers(activity).map((offer) => ({
+    offers: bookingOffers.map((offer) => ({
       id: offer.id,
       provider: offer.provider,
       priceFrom: offer.priceFrom,
       priceCurrency: offer.priceCurrency,
       href: buildAffiliateUrl(offer),
     })),
+    ...(bf ? { bfPct: bf.pct, bfOldPrice: bf.oldPrice } : {}),
   };
 }
 

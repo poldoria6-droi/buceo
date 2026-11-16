@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 // Exact Yumping Black Friday campaign end timestamp: 30 Nov 2026 23:59:59 CET
@@ -65,9 +66,9 @@ export function BlackFridayHeroCard() {
         </div>
       </div>
 
-      <a href="#ofertas-black-friday-navidad" className="hero-bf-cta">
-        Ver ofertas Black Friday <span>↓</span>
-      </a>
+      <Link href="/actividades/#bf=1" className="hero-bf-cta">
+        Ver las 804 ofertas Black Friday <span>→</span>
+      </Link>
     </aside>
   );
 }
