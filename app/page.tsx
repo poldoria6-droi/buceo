@@ -7,6 +7,7 @@ import { guides } from "@/data/guides";
 import { SiteCard } from "@/components/SiteCard";
 import { SpeciesCard } from "@/components/SpeciesCard";
 import { BookingOptions } from "@/components/BookingOptions";
+import { BlackFridayHeroCard } from "@/components/BlackFridayHeroCard";
 import { buildActivityCardSummary } from "@/lib/activity-filters";
 
 const FEATURED_ACTIVITY_SLUGS = [
@@ -107,7 +108,7 @@ export default function HomePage() {
           className="hero-bg-image"
         />
         <div className="hero-overlay" aria-hidden="true" />
-        <div className="container reference-hero-inner">
+        <div className="container reference-hero-inner reference-hero-layout">
           <div className="reference-hero-copy">
             <span className="reference-kicker">BUCEO ATLAS · ESPAÑA</span>
             <h1>
@@ -127,9 +128,6 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="hero-discovery-actions">
-                <a href="#ofertas-black-friday-navidad" className="hero-discovery-bf">
-                  🔥 Ofertas Black Friday (−43 %) ↓
-                </a>
                 <Link href="/actividades" className="hero-discovery-primary">
                   Explora tu actividad <span>→</span>
                 </Link>
@@ -155,8 +153,41 @@ export default function HomePage() {
               ))}
             </div>
           </div>
+
+          <BlackFridayHeroCard />
         </div>
         <div className="reference-swoosh" aria-hidden="true" />
+      </section>
+
+      <section className="section home-after-map">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">ELIGE TU MODALIDAD</span>
+              <h2>¿Qué experiencia submarina buscas hoy?</h2>
+            </div>
+            <Link href="/actividades" className="text-link">
+              Ver todas las actividades →
+            </Link>
+          </div>
+          <div className="home-discovery-grid">
+            <Link href="/actividades/#type=Bautismo" className="home-discovery-card">
+              <b>🤿</b>
+              <strong>Bautismo de buceo</strong>
+              <span>Tu primera inmersión en el mar con instructor y equipo completo incluido, sin experiencia previa.</span>
+            </Link>
+            <Link href="/actividades/#type=Curso" className="home-discovery-card">
+              <b>🎓</b>
+              <strong>Cursos de certificación</strong>
+              <span>Obtén tu título Open Water o especialidad internacional en escuelas de toda la costa española.</span>
+            </Link>
+            <Link href="/actividades/#type=Pecio" className="home-discovery-card">
+              <b>⚓</b>
+              <strong>Salidas y pecios</strong>
+              <span>Inmersiones para buceadores titulados en reservas marinas, cañones y barcos hundidos históricos.</span>
+            </Link>
+          </div>
+        </div>
       </section>
 
       <section className="section bf-section" id="ofertas-black-friday-navidad">
@@ -208,37 +239,6 @@ export default function HomePage() {
                 Bucear en Canarias en invierno
               </Link>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section home-after-map">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <span className="eyebrow">ELIGE TU MODALIDAD</span>
-              <h2>¿Qué experiencia submarina buscas hoy?</h2>
-            </div>
-            <Link href="/actividades" className="text-link">
-              Ver todas las actividades →
-            </Link>
-          </div>
-          <div className="home-discovery-grid">
-            <Link href="/actividades/#type=Bautismo" className="home-discovery-card">
-              <b>🤿</b>
-              <strong>Bautismo de buceo</strong>
-              <span>Tu primera inmersión en el mar con instructor y equipo completo incluido, sin experiencia previa.</span>
-            </Link>
-            <Link href="/actividades/#type=Curso" className="home-discovery-card">
-              <b>🎓</b>
-              <strong>Cursos de certificación</strong>
-              <span>Obtén tu título Open Water o especialidad internacional en escuelas de toda la costa española.</span>
-            </Link>
-            <Link href="/actividades/#type=Pecio" className="home-discovery-card">
-              <b>⚓</b>
-              <strong>Salidas y pecios</strong>
-              <span>Inmersiones para buceadores titulados en reservas marinas, cañones y barcos hundidos históricos.</span>
-            </Link>
           </div>
         </div>
       </section>

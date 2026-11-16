@@ -853,32 +853,147 @@ html, body {
 #ofertas-black-friday-navidad {
   scroll-margin-top: 80px;
 }
-.hero-discovery-bf {
+.reference-hero-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.hero-bf-card {
+  width: 340px;
+  flex: 0 0 340px;
+  padding: 20px 22px;
+  border-radius: 22px;
+  background: rgba(3, 22, 38, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.38);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.hero-bf-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.hero-bf-tag {
+  background: #dc2626;
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.hero-bf-pct {
+  background: rgba(34, 216, 238, 0.18);
+  color: #5eead4;
+  border: 1px solid rgba(94, 234, 212, 0.4);
+  font-size: 0.76rem;
+  font-weight: 900;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.hero-bf-title {
+  display: block;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+.hero-bf-title em {
+  font-style: normal;
+  color: #38bdf8;
+}
+.hero-bf-desc {
+  font-size: 0.83rem !important;
+  line-height: 1.42 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  margin: 0 !important;
+}
+.hero-bf-countdown-wrap {
+  background: rgba(0, 12, 24, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+.hero-bf-countdown-label {
+  display: block;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 6px;
+}
+.hero-bf-countdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+.hero-bf-countdown i {
+  font-style: normal;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 1.05rem;
+  margin-top: -10px;
+}
+.hero-bf-unit {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  padding: 6px 4px;
+  text-align: center;
+}
+.hero-bf-unit b {
+  display: block;
+  font-size: 1.18rem;
+  line-height: 1.1;
+  font-weight: 900;
+  color: #ffffff;
+  font-variant-numeric: tabular-nums;
+}
+.hero-bf-unit span {
+  display: block;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.68);
+  margin-top: 2px;
+}
+.hero-bf-cta {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
-  padding: 11px 16px;
-  font-size: 0.82rem;
-  border-radius: 11px;
-  background: linear-gradient(135deg, #dc2626, #991b1b);
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
   color: #ffffff !important;
-  border: 1px solid rgba(254, 202, 202, 0.45);
+  font-size: 0.88rem;
   font-weight: 900;
-  white-space: nowrap;
-  box-shadow: 0 6px 18px rgba(220, 38, 38, 0.36);
+  box-shadow: 0 8px 20px rgba(220, 38, 38, 0.35);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.hero-discovery-bf:hover {
+.hero-bf-cta:hover {
   transform: translateY(-1px);
-  box-shadow: 0 10px 22px rgba(220, 38, 38, 0.5);
+  box-shadow: 0 12px 24px rgba(220, 38, 38, 0.5);
 }
-@media (max-width: 650px) {
-  .hero-discovery-bf {
-    flex: 1 1 100%;
-    min-height: 46px;
-    font-size: 0.88rem !important;
-    text-align: center;
+@media (max-width: 1024px) {
+  .reference-hero-layout {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero-bf-card {
+    width: 100%;
+    max-width: 520px;
+    flex: 1 1 auto;
   }
 }
 .bf-section {
