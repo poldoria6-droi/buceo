@@ -7,6 +7,13 @@ export function destinationsFor(activities: { region: string; destination: strin
   return Array.from(new Set(activities.filter(a => region === "Todos" || communityFor(a.region) === communityFor(region)).map(a => a.destination))).sort((a,b) => a.localeCompare(b, "es"));
 }
 
+function cleanNotesPriceSentence(notes: string): string {
+  return notes
+    .replace(/\s*(?:Yumping\s+(?:muestra|indica)\s+un\s+precio\s+desde\s+[\d.,]+\s*€\.?|Precio\s+(?:actual|mostrado|comprobado|verificado)[^.]*?[\d.,]+\s*€\.?)/gi, "")
+    .replace(/\s+y\s+precio\s+desde\s+[\d.,]+\s*€(?:\s+en\s+Yumping)?/gi, "")
+    .trim();
+}
+
 export function buildActivitySummary(
   activity: {
     type: string;
@@ -22,7 +29,8 @@ export function buildActivitySummary(
     activity.notes &&
     !/^Experiencia de buceo disponible|^Actividad organizada por /i.test(activity.notes)
   ) {
-    return activity.notes;
+    const cleaned = cleanNotesPriceSentence(activity.notes);
+    if (cleaned.length >= 25) return cleaned;
   }
   const byCenter = centerName ? ` con el equipo de ${centerName}` : "";
   const hasRealDuration = activity.duration && activity.duration !== "Consultar disponibilidad";
@@ -55,7 +63,8 @@ export function buildActivityCardSummary(activity: {
     activity.notes &&
     !/^Experiencia de buceo disponible|^Actividad organizada por /i.test(activity.notes)
   ) {
-    return activity.notes;
+    const cleaned = cleanNotesPriceSentence(activity.notes);
+    if (cleaned.length >= 25) return cleaned;
   }
   const hasRealDuration = activity.duration && activity.duration !== "Consultar disponibilidad";
   const durSuffix = hasRealDuration ? ` (${activity.duration!.toLowerCase()})` : "";

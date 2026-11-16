@@ -505,31 +505,23 @@ async function run() {
       console.log(`  ~ Offer --o${p.offerId}: our priceFrom=${p.priceFrom}€ -> live Yumping price=${p.liveRecommendedPrice}€ (${p.url})`);
     }
     if (process.argv.includes("--auto-fix")) {
-      const actPath = path.join(rootDir, "data", "activities.ts");
-      let actSrc = fs.readFileSync(actPath, "utf8");
+      const { applyPrices } = require("./lib/price-patch.cjs");
+      const priceMap = {};
       for (const p of priceDriftOffers) {
-        const oid = p.offerId;
-        const newPrice = p.liveRecommendedPrice;
-        if (!oid || !newPrice) continue;
-        for (const act of exp.activities) {
-          for (const o of act.offers || []) {
-            if ((o.href || "").includes(`--o${oid}`)) {
-              o.priceFrom = newPrice;
+        if (p.offerId && p.liveRecommendedPrice) {
+          priceMap[p.offerId] = p.liveRecommendedPrice;
+          for (const act of exp.activities) {
+            for (const o of act.offers || []) {
+              if ((o.href || "").includes(`--o${p.offerId}`)) {
+                o.priceFrom = p.liveRecommendedPrice;
+              }
             }
           }
-          const validPrices = (act.offers || []).map((o) => o.priceFrom).filter((v) => typeof v === "number");
-          if (validPrices.length > 0) act.lowestPrice = Math.min(...validPrices);
         }
-        const r1 = new RegExp(`(--o${oid}(?:["'?][^\\n]*?priceFrom:\\s*))(\\d+(?:\\.\\d+)?)`, "g");
-        actSrc = actSrc.replace(r1, `$1${newPrice}`);
-        const r2 = new RegExp(`(priceFrom:\\s*)(\\d+(?:\\.\\d+)?)((?:(?!\\bid:\\s*\\d)[\\s\\S]){1,450}?--o${oid}\\b)`, "g");
-        actSrc = actSrc.replace(r2, `$1${newPrice}$3`);
-        const r3 = new RegExp(`(--o${oid}\\b(?:(?!\\bid:\\s*\\d)[\\s\\S]){1,350}?priceFrom:\\s*)(\\d+(?:\\.\\d+)?)`, "g");
-        actSrc = actSrc.replace(r3, `$1${newPrice}`);
       }
-      fs.writeFileSync(explorerPath, JSON.stringify(exp, null, 2) + "\n", "utf8");
-      fs.writeFileSync(actPath, actSrc, "utf8");
-      console.log(`  [AUTO-FIX] Automatically updated ${priceDriftOffers.length} prices in data/activities.ts and activities-explorer.json.`);
+      const rep = applyPrices(priceMap);
+      fs.writeFileSync(explorerPath, JSON.stringify(exp), "utf8");
+      console.log(`  [AUTO-FIX] Updated ${priceDriftOffers.length} prices across ${rep.files.join(", ")} and minified activities-explorer.json.`);
     }
   }
 

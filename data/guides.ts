@@ -177,13 +177,13 @@ export const guides: GuideMeta[] = [
   },
   {
     slug: "regalar-bautismo-o-curso-de-buceo",
-    title: "Cómo regalar un bautismo o curso de buceo en España: precios y qué elegir",
-    metaTitle: "Regalar un Bautismo o Curso de Buceo en España: Precios y Cómo Funciona",
+    title: "Regalar un bautismo o curso de buceo en España: ofertas Black Friday y Navidad",
+    metaTitle: "Regalar Bautismo o Curso de Buceo: Ofertas Black Friday y Navidad",
     description:
-      "Guía práctica para regalar un bautismo de buceo o un curso Open Water en España: cuánto cuesta, qué opción elegir según la persona, cómo canjear fechas en verano y mejores destinos.",
-    tag: "Principiantes",
-    ctaLabel: "Ver guía para regalar →",
+      "Guía para regalar un bautismo de buceo o curso Open Water en Navidad, Reyes y Black Friday: descuentos de hasta el 43 %, precios reales y bono sin fecha.",
+    tag: "Black Friday y Regalos",
+    ctaLabel: "Ver ofertas y guía para regalar →",
     publishedAt: "2026-11-03",
-    updatedAt: "2026-11-03",
+    updatedAt: "2026-11-16",
   },
 ];

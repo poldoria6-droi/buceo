@@ -10,8 +10,8 @@ export const yumpingBatch4: Activity[] = [
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/menorca/buceo-en-pecio-en-menorca-2-horas--o4643",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/menorca/buceo-en-pecio-en-menorca-2-horas--o4643",
-    offers:[{id:"yumping-o4643",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/menorca/buceo-en-pecio-en-menorca-2-horas--o4643",sourceUrl:"https://www.yumping.com/ofertas/buceo/menorca/buceo-en-pecio-en-menorca-2-horas--o4643",priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:55,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",maxDepth:"40 m",
+    offers:[{id:"yumping-o4643",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/menorca/buceo-en-pecio-en-menorca-2-horas--o4643",sourceUrl:"https://www.yumping.com/ofertas/buceo/menorca/buceo-en-pecio-en-menorca-2-horas--o4643",priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:50,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",maxDepth:"40 m",
     included:["Desplazamiento en barco","Plomos y botella","Guía de inmersión","Material","Seguro"],
     notes:"Inmersión en pecio de la bahía de Ciudadela. Yumping indica que se requiere especialidad en buceo profundo."
   },
@@ -37,8 +37,8 @@ export const yumpingBatch4: Activity[] = [
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/tarragona/dos-inmersiones-de-buceo-en-cambrils--o21162",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/dos-inmersiones-de-buceo-en-cambrils--o21162",
-    offers:[{id:"yumping-o21162",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tarragona/dos-inmersiones-de-buceo-en-cambrils--o21162",sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/dos-inmersiones-de-buceo-en-cambrils--o21162",priceFrom:96,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:96,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",
+    offers:[{id:"yumping-o21162",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tarragona/dos-inmersiones-de-buceo-en-cambrils--o21162",sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/dos-inmersiones-de-buceo-en-cambrils--o21162",priceFrom:87,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:87,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",
     included:["Equipo de buceo"],
     notes:"Pack de dos inmersiones para buceadores con título. Yumping indica una duración aproximada de 90 minutos."
   },
@@ -51,8 +51,8 @@ export const yumpingBatch4: Activity[] = [
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-en-salou--o53794",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-en-salou--o53794",
-    offers:[{id:"yumping-o53794",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-en-salou--o53794",sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-en-salou--o53794",priceFrom:525,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:525,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",
+    offers:[{id:"yumping-o53794",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-en-salou--o53794",sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/curso-advanced-open-water-diver-en-salou--o53794",priceFrom:473,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:473,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",
     included:["Material didáctico","Equipo de buceo","Instructor","Transporte","Tramitación y tasas"],
     minAge:12,
     notes:"Curso PADI con 5 inmersiones: profundidad y navegación obligatorias y tres especialidades a elegir."
@@ -66,8 +66,8 @@ export const yumpingBatch4: Activity[] = [
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-playa-mojacar-medio-dia--o86956",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-playa-mojacar-medio-dia--o86956",
-    offers:[{id:"yumping-o86956",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-playa-mojacar-medio-dia--o86956",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-playa-mojacar-medio-dia--o86956",priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:120,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",
+    offers:[{id:"yumping-o86956",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-playa-mojacar-medio-dia--o86956",sourceUrl:"https://www.yumping.com/ofertas/buceo/almeria/bautismo-de-buceo-desde-playa-mojacar-medio-dia--o86956",priceFrom:108,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:108,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",
     included:["Inmersión desde playa","Instructor","Equipo de buceo"],
     notes:"Bautismo desde playa en Mojácar, con observación de fauna y flora marina de la costa de Almería."
   },
@@ -80,8 +80,8 @@ export const yumpingBatch4: Activity[] = [
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-cala-llobeta-en-calafat--o61500",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-cala-llobeta-en-calafat--o61500",
-    offers:[{id:"yumping-o61500",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-cala-llobeta-en-calafat--o61500",sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-cala-llobeta-en-calafat--o61500",priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
-    priceFrom:100,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",minAge:10,
+    offers:[{id:"yumping-o61500",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-cala-llobeta-en-calafat--o61500",sourceUrl:"https://www.yumping.com/ofertas/buceo/tarragona/bautismo-de-buceo-en-cala-llobeta-en-calafat--o61500",priceFrom:72,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    priceFrom:72,priceCurrency:"EUR",priceCheckedAt:"2026-10-01",minAge:10,
     included:["Equipo completo de buceo","Instructor"],
     notes:"Bautismo de 3 horas en Cala Llobeta, Calafat. Yumping indica edad mínima de 10 años."
   }

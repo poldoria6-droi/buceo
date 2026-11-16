@@ -848,3 +848,90 @@ html, body {
     padding: 20px;
   }
 }
+
+/* Black Friday & Christmas Gift Campaign Styles */
+.bf-section {
+  background: linear-gradient(180deg, #f0f9fa 0%, #ffffff 100%);
+  border-top: 1px solid #d6ecee;
+  border-bottom: 1px solid #d6ecee;
+}
+.bf-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.bf-discount-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #b91c1c;
+  color: #ffffff;
+  font-size: 0.76rem;
+  font-weight: 900;
+  padding: 4px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+.bf-gift-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #e6f6f4;
+  color: #095d6a;
+  border: 1px solid #bce3de;
+  font-size: 0.74rem;
+  font-weight: 800;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+.bf-price-compare {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 8px 0 4px;
+  font-size: 0.86rem;
+  color: #496573;
+}
+.bf-price-compare s {
+  color: #7c939e;
+  font-weight: 600;
+}
+.bf-price-compare strong {
+  color: #07596b;
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+.bf-save-tag {
+  color: #991b1b;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+.bf-highlight-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  padding: 18px 22px;
+  border-radius: 18px;
+  background: #062f49;
+  color: #ffffff;
+}
+.bf-highlight-bar p {
+  margin: 4px 0 0;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.92rem;
+}
+.bf-highlight-bar strong {
+  color: #ffffff;
+  font-size: 1.05rem;
+}

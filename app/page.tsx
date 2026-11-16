@@ -18,10 +18,65 @@ const FEATURED_ACTIVITY_SLUGS = [
   "inmersion-de-buceo-en-la-costa-de-algeciras-57620",
 ];
 
+const BLACK_FRIDAY_DEALS = [
+  {
+    slug: "curso-open-water-diver-alojamiento-tenerife-5-dias-61742",
+    discountPct: "−43 %",
+    oldPrice: 599,
+    nowPrice: 345,
+    saveEur: 254,
+    giftNote: "Curso + 5 días alojamiento · Tenerife",
+  },
+  {
+    slug: "curso-scuba-diver-en-madrid-y-2-inmersiones-en-mar-29211",
+    discountPct: "−42 %",
+    oldPrice: 289,
+    nowPrice: 169,
+    saveEur: 120,
+    giftNote: "Empieza en invierno en Madrid + mar",
+  },
+  {
+    slug: "open-water-diver-el-hierro-y-alojamiento-6-noches-54886",
+    discountPct: "−32 %",
+    oldPrice: 510,
+    nowPrice: 350,
+    saveEur: 160,
+    giftNote: "Curso + 6 noches en La Restinga",
+  },
+  {
+    slug: "bautismo-buceo-tenerife-46044",
+    discountPct: "−27 %",
+    oldPrice: 95,
+    nowPrice: 70,
+    saveEur: 25,
+    giftNote: "Agua a 21 °C en invierno · Bono sin fecha",
+  },
+  {
+    slug: "bautismo-de-buceo-en-gran-canaria-3-h-375",
+    discountPct: "−25 %",
+    oldPrice: 60,
+    nowPrice: 45,
+    saveEur: 15,
+    giftNote: "Ideal para regalar · 3 horas con equipo",
+  },
+  {
+    slug: "bautizo-de-buceo-en-la-restinga-certificacion-padi-54890",
+    discountPct: "−25 %",
+    oldPrice: 60,
+    nowPrice: 45,
+    saveEur: 15,
+    giftNote: "Reserva Marina de El Hierro · PADI",
+  },
+];
+
 export default function HomePage() {
   const featuredActivities = FEATURED_ACTIVITY_SLUGS.map((slug) =>
     activities.find((a) => a.slug === slug)
   ).filter((a): a is NonNullable<typeof a> => Boolean(a));
+  const blackFridayDeals = BLACK_FRIDAY_DEALS.map((deal) => {
+    const activity = activities.find((a) => a.slug === deal.slug);
+    return activity ? { ...deal, activity } : null;
+  }).filter((d): d is NonNullable<typeof d> => Boolean(d));
   const featuredSites = diveSites.filter((site) =>
     ["Illes Medes", "Islas Hormigas", "Parque Nacional de Cabrera", "La Restinga", "Playa Chica", "Maro–Cerro Gordo"].includes(site.name)
   );
@@ -128,6 +183,59 @@ export default function HomePage() {
               <strong>Salidas y pecios</strong>
               <span>Inmersiones para buceadores titulados en reservas marinas, cañones y barcos hundidos históricos.</span>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section bf-section" id="ofertas-black-friday-navidad">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">ESPECIAL BLACK FRIDAY, NAVIDAD E INVIERNO 2026 · HASTA −43 %</span>
+              <h2>Ofertas Black Friday en bautismos y cursos de buceo (para regalar sin fecha o bucear en Canarias)</h2>
+              <p style={{ marginTop: "0.45rem", color: "#496573", maxWidth: "820px" }}>
+                Seleccionamos las mayores rebajas activas en escuelas verificadas de España (hasta el 30 de noviembre). Puedes reservarlas con descuento en formato <strong>bono regalo sin fecha fija</strong> —quien lo recibe elige el día en primavera o verano— o aprovechar los 21 °C del agua este invierno en Canarias.
+              </p>
+            </div>
+          </div>
+          <div className="guide-grid" style={{ marginTop: "1.5rem" }}>
+            {blackFridayDeals.map(({ activity, discountPct, oldPrice, nowPrice, saveEur, giftNote }) => (
+              <article className="guide-card" key={activity.slug}>
+                <div className="bf-card-top">
+                  <span className="bf-discount-badge">BLACK FRIDAY {discountPct}</span>
+                  <span className="bf-gift-pill">🎁 {giftNote}</span>
+                </div>
+                <span className="eyebrow">
+                  {activity.type} · {activity.destination} ({activity.region})
+                </span>
+                <h3>
+                  <Link href={`/actividades/${activity.slug}`}>{activity.title}</Link>
+                </h3>
+                <div className="bf-price-compare">
+                  <span>Antes <s>{oldPrice} €</s></span>
+                  <strong>Ahora {nowPrice} €</strong>
+                  <span className="bf-save-tag">Ahorras {saveEur} €</span>
+                </div>
+                <p>{buildActivityCardSummary(activity)}</p>
+                <BookingOptions activity={activity} placement="home-bf-card" />
+              </article>
+            ))}
+          </div>
+          <div className="bf-highlight-bar">
+            <div>
+              <strong>¿Buscas acertar con un regalo de buceo en Black Friday, Navidad o Reyes?</strong>
+              <p>
+                Consulta nuestra comparativa de precios con bono sin fecha fija (válido hasta 5 años) o planifica una escapada de invierno a aguas templadas.
+              </p>
+            </div>
+            <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+              <Link href="/guias/regalar-bautismo-o-curso-de-buceo" className="button button-primary">
+                Guía de regalos y Black Friday →
+              </Link>
+              <Link href="/guias/viaje-de-buceo-a-lanzarote" className="button button-ghost">
+                Bucear en Canarias en invierno
+              </Link>
+            </div>
           </div>
         </div>
       </section>
