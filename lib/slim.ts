@@ -1,6 +1,6 @@
 import type { Activity } from "@/data/types";
 import { buildAffiliateUrl, getBookingOffers } from "@/lib/affiliate";
-import { BLACK_FRIDAY_BY_OFFER_ID } from "@/data/black-friday";
+import { BLACK_FRIDAY_BY_OFFER_ID, isBlackFridayActive } from "@/data/black-friday";
 
 /**
  * Versiones "ligeras" de los datos para enviarlas a componentes cliente.
@@ -35,7 +35,7 @@ export function toSlimActivity(activity: Activity): SlimActivity {
   const bookingOffers = getBookingOffers(activity);
   const firstOfferUrl = bookingOffers[0]?.url || activity.providerUrl || "";
   const offerId = (firstOfferUrl.match(/--o(\d+)/) || [])[1] || "";
-  const bf = offerId ? BLACK_FRIDAY_BY_OFFER_ID[offerId] : undefined;
+  const bf = offerId && isBlackFridayActive() ? BLACK_FRIDAY_BY_OFFER_ID[offerId] : undefined;
 
   return {
     id: activity.id,

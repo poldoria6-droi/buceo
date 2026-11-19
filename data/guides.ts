@@ -186,4 +186,15 @@ export const guides: GuideMeta[] = [
     publishedAt: "2026-11-03",
     updatedAt: "2026-11-16",
   },
+  {
+    slug: "buceo-en-la-herradura-maro-y-almunecar",
+    title: "Buceo en La Herradura, Marina del Este y Maro: precios, zonas y escuelas",
+    metaTitle: "Buceo en La Herradura, Marina del Este y Maro: Precios y Zonas",
+    description:
+      "Guía práctica para bucear en La Herradura y Almuñécar: precios reales de bautismos (desde 63 €) y cursos Open Water, Marina del Este vs Cerro Gordo y escuelas.",
+    tag: "Destinos",
+    ctaLabel: "Ver guía de La Herradura →",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+  },
 ];

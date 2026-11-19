@@ -35,19 +35,19 @@ export async function generateMetadata({ params }: Props) {
       ? "1 actividad de buceo"
       : `${seoData.totalCount} bautismos, cursos e inmersiones`;
   const pageTitle =
-    destination.name.length > 14
-      ? `Buceo en ${destination.name}: Precios${titlePrice} y Centros`
-      : `Buceo en ${destination.name}: Precios${titlePrice}, Zonas y Centros`;
+    destination.name.length > 16
+      ? `Buceo en ${destination.name}: Bautismos, Precios${titlePrice} y Centros`
+      : `Buceo en ${destination.name}: Bautismos, Precios${titlePrice}, Cursos y Centros`;
 
   return {
     title: pageTitle,
-    description: `Buceo en ${destination.name} (${destination.region}): compara ${actLabel}${priceSnippet}, ${sitesLabel}, centros de buceo y mejor época.`,
+    description: `Buceo y bautismos en ${destination.name} (${destination.region}): compara ${actLabel}${priceSnippet}, ${sitesLabel}, escuelas verificadas y mejor época.`,
     alternates: {
       canonical: `/buceo/${slug}`,
     },
     openGraph: {
-      title: `Buceo en ${destination.name}: Precios${titlePrice}, Zonas y Centros | Buceo Atlas`,
-      description: `Compara bautismos, cursos PADI/SSI, puntos de inmersión y centros de buceo en ${destination.name}${priceSnippet}.`,
+      title: `${pageTitle} | Buceo Atlas`,
+      description: `Compara bautismos de buceo, cursos PADI/SSI, puntos de inmersión y centros en ${destination.name}${priceSnippet}.`,
       url: `/buceo/${slug}`,
       type: "website",
     },

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-// Exact Yumping Black Friday campaign end timestamp: 30 Nov 2026 23:59:59 CET
+// Cierre oficial de la campaña Black Friday de Yumping: 30/11/2026 23:59:59 (hora de Madrid)
 const BF_END_TIMESTAMP = 1796079599000;
 
 function calcRemaining() {
@@ -13,11 +13,18 @@ function calcRemaining() {
   const m = Math.floor((diffSec % 3600) / 60);
   const s = diffSec % 60;
   const pad = (n: number) => (n < 10 ? `0${n}` : String(n));
-  return { d: pad(d), h: pad(h), m: pad(m), s: pad(s) };
+  return { d: pad(d), h: pad(h), m: pad(m), s: pad(s), expired: diffSec === 0 };
 }
 
-export function BlackFridayHeroCard() {
-  const [timeLeft, setTimeLeft] = useState({ d: "14", h: "02", m: "00", s: "00" });
+export function BlackFridayHeroCard({
+  offerCount = 804,
+  maxPct = 43,
+}: {
+  offerCount?: number;
+  maxPct?: number;
+}) {
+  // Estado inicial neutro: evita desajustes de hidratación entre el HTML estático y el reloj del navegador.
+  const [timeLeft, setTimeLeft] = useState<ReturnType<typeof calcRemaining> | null>(null);
 
   useEffect(() => {
     setTimeLeft(calcRemaining());
@@ -27,47 +34,50 @@ export function BlackFridayHeroCard() {
     return () => clearInterval(timer);
   }, []);
 
+  if (timeLeft?.expired) return null;
+  const v = timeLeft ?? { d: "--", h: "--", m: "--", s: "--" };
+
   return (
     <aside className="hero-bf-card" aria-label="Campaña Black Friday de buceo">
       <div className="hero-bf-badges">
         <span className="hero-bf-tag">BLACK FRIDAY</span>
-        <span className="hero-bf-pct">Hasta −43 %</span>
+        <span className="hero-bf-pct">Hasta −{maxPct} %</span>
       </div>
 
       <strong className="hero-bf-title">
         Regálalo sin fecha · <em>Quien lo recibe elige el día</em>
       </strong>
       <p className="hero-bf-desc">
-        804 bautismos y cursos rebajados para regalar en Navidad o bucear este invierno en Canarias.
+        {offerCount} bautismos, cursos y salidas de buceo rebajados en toda España. Resérvalos con descuento o regálalos.
       </p>
 
       <div className="hero-bf-countdown-wrap">
         <small className="hero-bf-countdown-label">TERMINA EN:</small>
         <div className="hero-bf-countdown" role="timer" aria-live="off">
           <div className="hero-bf-unit">
-            <b>{timeLeft.d}</b>
+            <b>{v.d}</b>
             <span>Días</span>
           </div>
           <i aria-hidden="true">:</i>
           <div className="hero-bf-unit">
-            <b>{timeLeft.h}</b>
+            <b>{v.h}</b>
             <span>Horas</span>
           </div>
           <i aria-hidden="true">:</i>
           <div className="hero-bf-unit">
-            <b>{timeLeft.m}</b>
+            <b>{v.m}</b>
             <span>Min</span>
           </div>
           <i aria-hidden="true">:</i>
           <div className="hero-bf-unit">
-            <b>{timeLeft.s}</b>
+            <b>{v.s}</b>
             <span>Seg</span>
           </div>
         </div>
       </div>
 
       <Link href="/actividades/#bf=1" className="hero-bf-cta">
-        Ver las 804 ofertas Black Friday <span>→</span>
+        Ver las {offerCount} ofertas Black Friday <span>→</span>
       </Link>
     </aside>
   );

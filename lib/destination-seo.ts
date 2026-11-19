@@ -209,6 +209,15 @@ const DESTINATION_KEYWORDS: Record<string, string[]> = {
   denia: [
     "dénia", "denia", "montgó", "montgo", "cova tallada"
   ],
+  estepona: [
+    "estepona", "manilva", "casares", "sotogrande", "marbella", "puerto banús", "puerto banus"
+  ],
+  torremolinos: [
+    "torremolinos", "benalmádena", "benalmadena", "fuengirola", "mijas", "carihuela", "málaga", "malaga"
+  ],
+  "santa-pola": [
+    "santa pola", "tabarca", "guardamar", "alicante", "alacant", "elche", "elx"
+  ],
 };
 
 export type DestinationClimateInfo = {
@@ -702,6 +711,45 @@ const DESTINATION_LONGTAIL: Record<string, DestinationLocalLongTail> = {
       {
         question: "¿Qué hay que tener en cuenta con las mareas y corrientes en Tarifa?",
         answer: "En el Estrecho de Gibraltar las mareas atlánticas mueven mucha agua. Por eso las inmersiones sencillas y los bautismos se hacen siempre en las calas abrigadas junto a la isla, mientras que las puntas exteriores (como Punta Marroquí o Las Piscinas) se planifican con los centros locales cuadrando la hora exacta del reparo de marea."
+      }
+    ]
+  },
+  estepona: {
+    heading: "Bautismos de buceo en Estepona (mar y piscina) y salidas por la Costa del Sol occidental",
+    paragraphs: [
+      "Estepona es uno de los puntos más cómodos del oeste de Málaga para iniciarse en el submarinismo gracias a la cercanía de su puerto deportivo con las lajas rocosas de la bahía y la influencia directa de nutrientes que entran desde el Estrecho de Gibraltar, lo que garantiza abundante vida de roca (pulpos, sepias, congrios, morenas y bancos de sargos) a poca profundidad.",
+      "Los centros de la zona permiten elegir entre bautismos directos en el mar desde playa o barco, bautismos previos en piscina para ganar total confianza con el regulador y programas dobles (piscina + mar abierto), además de cursos oficiales PADI y SSI durante gran parte del año."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Es mejor hacer el bautismo de buceo en Estepona directamente en el mar o el pack piscina + mar?",
+        answer: "Si ya te sientes cómodo nadando en el mar, el bautismo directo en la costa de Estepona (a entre 5 y 10 metros de profundidad con instructor) es la opción más rápida y económica. Si prefieres probar primero a respirar bajo el agua sin olas ni corriente, el doble bautismo de piscina + mar te permite practicar los ejercicios básicos en piscina antes de la salida al Mediterráneo."
+      }
+    ]
+  },
+  torremolinos: {
+    heading: "Bucear en Torremolinos y Benalmádena: Laja Bermeja, cursos PADI y bautismos",
+    paragraphs: [
+      "El tramo costero que une La Carihuela (Torremolinos) con Puerto Marina (Benalmádena) concentra la actividad subacuática más accesible del área metropolitana de Málaga. A pocos minutos de navegación desde el puerto deportivo se encuentra la Laja Bermeja, un arrecife sumergido de roca escalonada entre los 8 y los 22 metros repleto de gorgonias, morenas, pulpos y cardúmenes de espáridos.",
+      "Es una ubicación ideal si te alojas en Torremolinos, Benalmádena o Fuengirola y buscas sacarte el título Scuba Diver u Open Water Diver de PADI o reservar una primera experiencia subacuática sin desplazarte hasta Nerja o La Herradura."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Desde dónde salen las inmersiones y cursos de buceo en Torremolinos?",
+        answer: "Las prácticas y salidas en barco para quienes se alojan en Torremolinos se operan entre el litoral de La Carihuela y el vecino puerto deportivo de Benalmádena (Puerto Marina), situado a menos de 10 minutos, desde donde se accede a los arrecifes de la Laja Bermeja y la bahía de Málaga."
+      }
+    ]
+  },
+  "santa-pola": {
+    heading: "Buceo en Santa Pola y salidas en barco a la Reserva Marina de la Isla de Tabarca",
+    paragraphs: [
+      "Santa Pola es el puerto natural más cercano a la Isla de Tabarca (primera reserva marina de España, situada a apenas 3 millas náuticas del cabo de Santa Pola). Esto convierte a las escuelas de Santa Pola en la base favorita tanto para hacer un primer bautismo de buceo (Discover Scuba Diving o Basic Diver) en aguas tranquilas y cristalinas como para embarcar hacia los bajos exteriores de la reserva.",
+      "Gracias a las extensas praderas de Posidonia oceanica que rodean el cabo y el freu de Tabarca, la visibilidad suele ser excelente de primavera a otoño, con presencia constante de meros, doradas, espetones, pulpos y estrellas rojas."
+    ],
+    extraFaqs: [
+      {
+        question: "¿Se puede reservar un bautismo de buceo en Santa Pola sin experiencia previa?",
+        answer: "Sí. En Santa Pola puedes realizar tanto el bautismo Discover Scuba Diving como el programa Basic Diver de 6 horas con teoría básica, sesión de adaptación y salida al mar junto a un instructor titulado, con todo el equipo y el seguro incluidos."
       }
     ]
   }

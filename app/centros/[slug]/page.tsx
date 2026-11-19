@@ -4,6 +4,7 @@ import { centers } from "@/data/centers";
 import { diveSites } from "@/data/dive-sites";
 import { getCenterActivities } from "@/lib/centers";
 import { formatOfferPrice, getBookingOffers, getLowestPricedOffer } from "@/lib/affiliate";
+import { getBlackFridayInfoForUrl } from "@/data/black-friday";
 import { BookingOptions } from "@/components/BookingOptions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildCenterJsonLd } from "@/lib/seo";
@@ -24,30 +25,32 @@ export async function generateMetadata({ params }: Props) {
   const activities = getCenterActivities(center.id);
   const allOffers = activities.flatMap((a) => getBookingOffers(a));
   const lowestOffer = getLowestPricedOffer(allOffers);
-  const hasLocationInName = center.name.toLowerCase().includes(center.location.toLowerCase());
-  const nameWithLoc = hasLocationInName ? center.name : `${center.name} (${center.location})`;
-  const priceTitle = lowestOffer ? ` · Desde ${formatOfferPrice(lowestOffer)}` : "";
+  const shortLoc = center.location.split(",")[0].split("·")[0].replace(/\(.*?\)/g, "").trim();
+  const hasLocationInName = center.name.toLowerCase().includes(shortLoc.toLowerCase());
+  const nameWithLoc = hasLocationInName ? center.name : `${center.name} (${shortLoc})`;
+  const priceTitle = lowestOffer ? ` desde ${formatOfferPrice(lowestOffer)}` : "";
   const priceDesc = lowestOffer ? ` desde ${formatOfferPrice(lowestOffer)}` : "";
-  const pageTitle =
-    nameWithLoc.length > 36
-      ? `${nameWithLoc} · Centro de Buceo`
-      : `${nameWithLoc} · Centro de Buceo${priceTitle}`;
+  const pageTitle = lowestOffer
+    ? nameWithLoc.length > 32
+      ? `${nameWithLoc} · Precios${priceTitle} y Cursos`
+      : `${nameWithLoc}: Precios${priceTitle}, Bautismos y Cursos`
+    : `${nameWithLoc} · Centro de Buceo y Cursos`;
   const actSnippet =
     activities.length === 1
       ? `su actividad reservable${priceDesc}`
       : activities.length > 1
-      ? `sus ${activities.length} actividades, bautismos y cursos${priceDesc}`
+      ? `sus ${activities.length} bautismos, cursos e inmersiones${priceDesc}`
       : "cursos, salidas de buceo y servicios";
 
   return {
     title: pageTitle,
-    description: `Centro de buceo ${center.name} en ${center.location} (${center.region}). Consulta ${actSnippet}, opiniones y reserva online.`,
+    description: `Precios, bautismos y cursos en ${center.name} (${center.location}, ${center.region}): compara ${actSnippet}, opiniones y reserva online.`,
     alternates: {
       canonical: `/centros/${slug}`,
     },
     openGraph: {
-      title: `${nameWithLoc} · Centro de Buceo | Buceo Atlas`,
-      description: `Centro de buceo ${center.name} en ${center.location}. Actividades, cursos, precios y servicios.`,
+      title: `${pageTitle} | Buceo Atlas`,
+      description: `Centro de buceo ${center.name} en ${center.location}. Compara ${actSnippet} y reserva online.`,
       url: `/centros/${slug}`,
       type: "website",
     },
@@ -64,6 +67,10 @@ export default async function CenterPage({ params }: Props) {
   const centerJsonLd = buildCenterJsonLd(center, activities.length);
   const allOffers = activities.flatMap((a) => getBookingOffers(a));
   const lowestOffer = getLowestPricedOffer(allOffers);
+  const maxBfPct = allOffers.reduce((max, o) => {
+    const bf = getBlackFridayInfoForUrl(o.url, o.priceFrom);
+    return bf && bf.pct > max ? bf.pct : max;
+  }, 0);
   const centerIdx = Math.max(0, centers.findIndex((c) => c.slug === center.slug));
   const matchedDestinations = getDestinationsForCenter(center, centerIdx);
   const centerComm = communityFor(center.region);
@@ -90,6 +97,11 @@ export default async function CenterPage({ params }: Props) {
         <p className="lead">{center.location}</p>
 
         <div className="activity-detail-badges" style={{ marginBottom: "1rem" }}>
+          {maxBfPct > 0 && (
+            <span className="bf-discount-badge">
+              🔥 OFERTAS BLACK FRIDAY HASTA −{maxBfPct} %
+            </span>
+          )}
           {activities.length > 0 && (
             <span>
               {activities.length === 1
@@ -106,38 +118,9 @@ export default async function CenterPage({ params }: Props) {
         </div>
 
         <p>{center.description}</p>
-        {activities.length > 0 && (
-          <a className="button button-primary" href="#actividades">
-            {activities.length === 1
-              ? "Ver su actividad y precio ↓"
-              : `Ver sus ${activities.length} actividades y precios ↓`}
-          </a>
-        )}
-
-        <h2>Servicios e instalaciones</h2>
-        <div className="check-grid">
-          {center.services.map((service) => (
-            <span key={service}>✓ {service}</span>
-          ))}
-        </div>
-
-        {sites.length > 0 && (
-          <>
-            <h2>Puntos de inmersión en su zona</h2>
-            <div className="guide-grid">
-              {sites.map((site) => (
-                <article className="guide-card" key={site.slug}>
-                  <span className="eyebrow">{site.region} · {site.depth}</span>
-                  <h3>{site.name}</h3>
-                  <p>{site.highlight}</p>
-                </article>
-              ))}
-            </div>
-          </>
-        )}
 
         <section id="actividades" className="center-activities">
-          <h2>Actividades y opciones de reserva</h2>
+          <h2>Actividades, precios y reserva online en {center.name}</h2>
           <div className="guide-grid">
             {activities.map((activity) => (
               <article className="guide-card" key={activity.slug}>
@@ -162,6 +145,28 @@ export default async function CenterPage({ params }: Props) {
             </>
           )}
         </section>
+
+        <h2>Servicios e instalaciones</h2>
+        <div className="check-grid">
+          {center.services.map((service) => (
+            <span key={service}>✓ {service}</span>
+          ))}
+        </div>
+
+        {sites.length > 0 && (
+          <>
+            <h2>Puntos de inmersión en su zona</h2>
+            <div className="guide-grid">
+              {sites.map((site) => (
+                <article className="guide-card" key={site.slug}>
+                  <span className="eyebrow">{site.region} · {site.depth}</span>
+                  <h3>{site.name}</h3>
+                  <p>{site.highlight}</p>
+                </article>
+              ))}
+            </div>
+          </>
+        )}
 
         {matchedDestinations.length > 0 && (
           <section style={{ marginBottom: "2.5rem" }}>

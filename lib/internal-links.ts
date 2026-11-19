@@ -151,6 +151,14 @@ export function getGuidesForActivity(activity: Activity): Guide[] {
   ) {
     preferredSlugs.push("viaje-de-buceo-a-lanzarote");
   }
+  if (
+    normalize(activity.destination).includes("herradura") ||
+    normalize(activity.destination).includes("almunecar") ||
+    normalize(activity.destination).includes("nerja") ||
+    normalize(activity.destination).includes("granada")
+  ) {
+    preferredSlugs.push("buceo-en-la-herradura-maro-y-almunecar");
+  }
 
   if (activity.type === "Bautismo" || activity.type === "Snorkel") {
     preferredSlugs.push(

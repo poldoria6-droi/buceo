@@ -806,8 +806,18 @@ export const BLACK_FRIDAY_BY_OFFER_ID: Record<string, { pct: number; oldPrice: n
   "90878": { pct: 10, oldPrice: 30 }
 };
 
+export const BLACK_FRIDAY_ENDS_AT = 1796079599000; // 30/11/2026 23:59:59 (hora de Madrid), cierre oficial de la campaña de Yumping
+
+/** Evaluado en el build estático: cualquier despliegue posterior al cierre elimina solo todas las menciones a la campaña. */
+export function isBlackFridayActive(now: number = Date.now()) {
+  return now <= BLACK_FRIDAY_ENDS_AT;
+}
+
+export const BLACK_FRIDAY_OFFER_COUNT = Object.keys(BLACK_FRIDAY_BY_OFFER_ID).length;
+export const BLACK_FRIDAY_MAX_PCT = Math.max(...Object.values(BLACK_FRIDAY_BY_OFFER_ID).map((v) => v.pct));
+
 export function getBlackFridayInfoForUrl(url?: string, currentPrice?: number) {
-  if (!url) return undefined;
+  if (!url || !isBlackFridayActive()) return undefined;
   const offerId = (url.match(/--o(\d+)/) || [])[1];
   if (!offerId) return undefined;
   const entry = BLACK_FRIDAY_BY_OFFER_ID[offerId];
