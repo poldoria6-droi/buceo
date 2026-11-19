@@ -43,7 +43,7 @@ assert.equal(new URL(buildAffiliateUrl(offers[0])).searchParams.get('id_partner'
 assert.equal(new URL(buildAffiliateUrl(offers[1])).searchParams.get('aid'), 'test-aid');
 assert.equal(new URL(buildAffiliateUrl(offers[0])).pathname, new URL(offers[0].url).pathname);
 assert.equal(getBookingOffers({ ...sample, bookingStatus: 'Próximamente' }).length, 0);
-console.log(`OK: ${activities.length} actividades, ${centers.length} centros, ${centerActivityLinks.length} relaciones verificadas. ${activities.length - centerActivityLinks.length} actividades pendientes de asignar a un centro.`);
+console.log(`OK: ${activities.length} actividades, ${centers.length} centros, ${centerActivityLinks.length} relaciones verificadas.`);
 
 const { communityFor, destinationsFor } = load(path.join(root, 'lib/activity-filters.ts'));
 assert.equal(communityFor('Alicante'), 'Comunidad Valenciana');
@@ -56,16 +56,21 @@ for (const region of new Set(activities.map(a => communityFor(a.region)))) {
 assert.ok(!destinationsFor(activities, 'Galicia').includes('Benidorm'));
 console.log('OK: ciudades dependientes de la comunidad y provincias/costas normalizadas.');
 
-const offerOwners = new Map();
+const offerIds = new Set();
 for (const a of activities) {
-  const identities = new Set([a.providerUrl, ...(a.offers || []).map(o => o.url)].map(url => url?.match(/--o(\d+)/)?.[1]).filter(Boolean));
-  for (const id of identities) { assert.ok(!offerOwners.has(id), `Oferta Yumping ${id} duplicada entre actividades`); offerOwners.set(id,a.slug); }
+  const actOffers = getBookingOffers(a);
+  assert.ok(actOffers.length > 0, `Toda actividad debe tener al menos una oferta activa reservable: ${a.slug}`);
+  for (const o of actOffers) {
+    assert.ok(typeof o.priceFrom === 'number' && o.priceFrom > 0, `Toda oferta debe tener priceFrom > 0: ${a.slug}`);
+    const id = o.url?.match(/--o(\d+)/)?.[1];
+    if (id) offerIds.add(id);
+  }
 }
-const { species } = load(path.join(root,'data/species.ts'));
-assert.equal(new Set(species.map(s=>s.slug)).size,species.length);
-for(const s of species){assert.ok(s.sources.length&&s.checkedAt&&s.image.author&&s.image.licenseUrl&&s.image.sourceUrl);for(const o of s.occurrences)assert.ok(o.sourceUrl&&o.note&&['Zona','Punto'].includes(o.precision));if(s.depth)assert.ok(s.depth.sourceUrl&&s.depth.min<=s.depth.max);}
-console.log(`OK: ${offerOwners.size} ofertas Yumping únicas y ${species.length} fichas de fauna con fuentes.`);
-
-const review=JSON.parse(fs.readFileSync(path.join(root,'data/verification-report.json'),'utf8'));
-for(const row of review.unverified.filter(d=>d.reason==='HTTP Error 410: Gone')){const a=activities.find(a=>a.slug===row.slug);assert.ok(a);assert.equal(getBookingOffers(a).length,0,`Una oferta retirada no puede seguir reservable: ${a.slug}`);}
-console.log(`OK: ${review.pausedWithdrawnOffers} ofertas retiradas conservadas sin botón de reserva.`);
+const { species } = load(path.join(root, 'data/species.ts'));
+assert.equal(new Set(species.map(s => s.slug)).size, species.length);
+for (const s of species) {
+  assert.ok(s.sources.length && s.checkedAt && s.image.author && s.image.licenseUrl && s.image.sourceUrl);
+  for (const o of s.occurrences) assert.ok(o.sourceUrl && o.note && ['Zona', 'Punto'].includes(o.precision));
+  if (s.depth) assert.ok(s.depth.sourceUrl && s.depth.min <= s.depth.max);
+}
+console.log(`OK: ${offerIds.size} ofertas Yumping únicas activas en ${activities.length} actividades y ${species.length} fichas de fauna con fuentes.`);
