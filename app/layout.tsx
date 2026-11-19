@@ -46,12 +46,23 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const yumpingPartnerId =
     process.env.NEXT_PUBLIC_YUMPING_PARTNER_ID?.trim() || "449fb0b2d23ef85c3ee63f78b6e90eae";
+  const gaMeasurementId =
+    process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim() || "G-8QLPRDPJ86";
   const websiteJsonLd = buildWebsiteJsonLd();
 
   return (
     <html lang="es">
       <head>
         <meta name="yumping-analytics" content="global" />
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaMeasurementId}');gtag('config','GTM-MNWX9SLV');document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[data-affiliate-provider],a[href*="iatiseguros.com"],a[href*="yumping.com/ofertas/"]'):null;if(!a||typeof window.gtag!=='function')return;var href=a.getAttribute('href')||'';var provider=a.getAttribute('data-affiliate-provider')||(href.indexOf('iatiseguros.com')!==-1?'IATI':'Yumping');var actId=a.getAttribute('data-activity-id')||'';var placement='';try{placement=new URL(href,window.location.origin).searchParams.get('placement')||'link';}catch(_){}window.gtag('event','affiliate_click',{provider:provider,activity_id:actId,placement:placement,link_url:href,page_path:window.location.pathname});},{passive:true});`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
