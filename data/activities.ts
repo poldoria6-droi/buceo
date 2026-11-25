@@ -964,7 +964,7 @@ export const activities:Activity[]=[...yumpingBulk,...yumpingBatch5,...yumpingBa
     bookingStatus:"Disponible",provider:"Yumping",
     providerUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",
     sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",
-    offers:[{id:"yumping-o65860",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",priceFrom:68,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
+    offers:[{id:"yumping-o65860",provider:"Yumping",url:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",sourceUrl:"https://www.yumping.com/ofertas/buceo/girona/bautizo-de-buceo-en-lloret-de-mar-2-horas--o65860",priceFrom:60,priceCurrency:"EUR",priceCheckedAt:"2026-10-01"}],
     included:["Instructor","Equipo"],
     notes:"Yumping indica una duración total aproximada de 2 horas y unos 40 minutos de inmersión."
   },
